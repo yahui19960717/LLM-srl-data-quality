@@ -1,0 +1,3212 @@
+[
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument 'on an Israeli bus' is a continuous phrase in the sentence and fully captures the location adjunct of the predicate 'fire'.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase 'on an Israeli bus' specifies the location where the event of opening fire occurred, which correctly fulfills the LOC role for the predicate 'fire'.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 5,
+"sentences": "Nine people were injured in Gaza when gunmen opened fire on an Israeli bus .",
+"predicate": "fire",
+"selected_span": [
+"on an Israeli bus",
+"ARGM-LOC",
+[
+10,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+902,
+10,
+10,
+14,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is a single-word adverb correctly extracted from the sentence and forms a complete temporal modifier directly linked to the predicate \"took\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Then\" provides temporal information about the event expressed by \"took\", indicating the sequence in which that event occurred, which aligns with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 8,
+"sentences": "Russian President was supposed to visit India as early as 97 - 1998 , but of course Boris Yeltsin 's health problems got in the way of that , and then of course , Mr. Yeltsin 's abrupt resignation last year another visit and then the subsequent election campaign and inauguration of Vladimir Putin took some time , so it 's been put off for a couple of years .",
+"predicate": "took",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+30,
+31
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2077,
+55,
+30,
+31,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"of course\" is correctly extracted as a continuous two-word discourse marker immediately preceding the predicate \"took\", forming a complete adjunct unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause containing \"took some time\", \"of course\" functions as a discourse marker organizing and connecting the context, which matches the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and its assignment to the DIS role for the predicate \"took\" are correct.",
+"index_sen": 9,
+"sentences": "Russian President was supposed to visit India as early as 97 - 1998 , but of course Boris Yeltsin 's health problems got in the way of that , and then of course , Mr. Yeltsin 's abrupt resignation last year another visit and then the subsequent election campaign and inauguration of Vladimir Putin took some time , so it 's been put off for a couple of years .",
+"predicate": "took",
+"selected_span": [
+"of course",
+"ARGM-DIS",
+[
+31,
+33
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2077,
+55,
+31,
+33,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"They\" is a single pronoun that correctly forms a complete semantic unit referring to the actor.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"make a hip-hop record sound good\", \"They\" functions as the agent or instigator of the action, matching the ARG0 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 11,
+"sentences": "They know how to make a hip - hop record sound good .",
+"predicate": "make",
+"selected_span": [
+"They",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1344,
+5,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the people\" is a contiguous phrase directly from the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the infinitive clause \"to cast their vote,\" \"the people\" are the ones performing the action of casting, fulfilling the agent/thrower role of the predicate \"cast,\" which aligns with ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 29,
+"sentences": "The right of the people to cast their vote , the court said , is paramount .",
+"predicate": "cast",
+"selected_span": [
+"the people",
+"ARG0",
+[
+3,
+5
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+459,
+7,
+3,
+5,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"they\" is correctly extracted as a single pronoun serving as the subject of the predicate and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause where \"move\" occurs, \"they\" functions as the agent/mover of the action (even under negation), satisfying the ARG0 role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 40,
+"sentences": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+"predicate": "move",
+"selected_span": [
+"they",
+"ARG0",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+337,
+8,
+1,
+2,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"from what may have been a wrong turn\" is a continuous phrase that fully captures the prepositional cause adjunct and is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase expresses the cause of the state of being dead, fulfilling the CAU role for the predicate \"are\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 53,
+"sentences": "Tonight it appears at least 82 are dead from what may have been a wrong turn .",
+"predicate": "are",
+"selected_span": [
+"from what may have been a wrong turn",
+"ARGM-CAU",
+[
+8,
+16
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+435,
+7,
+8,
+16,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"straight\" is correctly extracted as a single-word adverb directly modifying the predicate \"comes\", forming a complete semantic unit for manner.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"straight\" indicates the direct manner in which something comes, aligning precisely with the MNR role for the predicate \"comes\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 59,
+"sentences": "Positive Black Soul sings in Senegal 's main language Wolof but if the music sounds like it comes straight out of the Bronx , well , you are not far off .",
+"predicate": "comes",
+"selected_span": [
+"straight",
+"ARGM-MNR",
+[
+18,
+19
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2555,
+18,
+18,
+19,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the trip\" is a contiguous noun phrase that precisely identifies the entity on which the novel was based, matching the predicate’s syntactic and semantic requirements.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"the novel was based on the trip\", \"the trip\" functions as the entity that forms the foundation of the novel, which aligns with the definition of ARG1 for the predicate \"based\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role assignment are accurate.",
+"index_sen": 68,
+"sentences": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+"predicate": "based",
+"selected_span": [
+"the trip",
+"ARG1",
+[
+5,
+7
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+614,
+13,
+5,
+7,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"to his backers across the country\" is correctly extracted as a contiguous phrase forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, the PP \"to his backers across the country\" indicates the recipient/beneficiary of the speeches, fitting the benefactive role under ARG2.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 76,
+"sentences": "It was the last of several speeches he has made in recent weeks to his backers across the country .",
+"predicate": "speeches",
+"selected_span": [
+"to his backers across the country",
+"ARG2",
+[
+13,
+19
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+206,
+7,
+13,
+19,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"only\" is correctly extracted as a single-word adverbial adjunct modifying the predicate \"becoming\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The adverb \"only\" functions as an adverbial modifier of the event \"becoming\", indicating a restricted outcome.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 89,
+"sentences": "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .",
+"predicate": "becoming",
+"selected_span": [
+"only",
+"ARGM-ADV",
+[
+33,
+34
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3756,
+38,
+33,
+34,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"The Last Train for Serbia\" is a contiguous noun phrase in the sentence and functions as a complete semantic unit referring to the entity recorded.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"which was recorded on the day…\", \"The Last Train for Serbia\" denotes the entity being recorded, matching the ARG1 role as the record of \"recorded\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 91,
+"sentences": "This song is from their latest play , The Last Train for Serbia , which was recorded on the day protestors stormed the federal parliament in Belgrade and the main television stations .",
+"predicate": "recorded",
+"selected_span": [
+"The Last Train for Serbia",
+"ARG1",
+[
+8,
+13
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2524,
+17,
+8,
+13,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"instead\" is a single-word discourse marker correctly extracted with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Instead\" functions as a discourse connector indicating contrast for the predicate \"need\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 93,
+"sentences": "Energy suppliers oppose a cap , saying instead they need incentives to build more generating stations .",
+"predicate": "need",
+"selected_span": [
+"instead",
+"ARGM-DIS",
+[
+7,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+796,
+10,
+7,
+8,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"further\" is a single-word adverbial expressing the extent of the action and forms a complete semantic unit, so its span is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Further\" specifies the degree or extent to which one can \"boast,\" directly matching the EXT (extent) role for the predicate \"boast\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 120,
+"sentences": "The little town I was in this southern Iraq , as far as I got , I ca n't boast of further , is where the talks took place .",
+"predicate": "boast",
+"selected_span": [
+"further",
+"ARGM-EXT",
+[
+21,
+22
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3011,
+20,
+21,
+22,
+16
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"terrorists\" is a single contiguous phrase serving as the implicit subject of the non-finite verb \"using\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"terrorists prevented from attacking their targets using their more conventional means...\", \"terrorists\" is the implied agent or user of the means, aligning with the ARG0 \"User\" role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the semantic role assignment are correct.",
+"index_sen": 123,
+"sentences": "So , I think terrorists prevented from attacking their targets using their more conventional means ` truck bombs ' have merely adjusted their tactics slightly and obviously they have been successful with it today .",
+"predicate": "using",
+"selected_span": [
+"terrorists",
+"ARG0",
+[
+4,
+5
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2458,
+11,
+4,
+5,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Monday\" is a single word forming a complete temporal adjunct to the predicate \"said\", and its boundaries are correctly identified.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Monday\" indicates the time when Mr. Mubarak \"said\", matching the TMP role for temporal information.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 151,
+"sentences": "In an interview with Israeli Television Monday Mr. Mubarak said Israel knows what is necessary for peace , the return of lands captured in the 1967 Middle East war .",
+"predicate": "said",
+"selected_span": [
+"Monday",
+"ARGM-TMP",
+[
+6,
+7
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3529,
+10,
+6,
+7,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"he\" is correctly extracted as the single pronoun serving as the subject of the verb \"have\" in the clause \"he doesn't have lung cancer\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"he doesn't have lung cancer\", \"he\" functions as the possessor or owner of the predicate \"have\", which aligns with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 160,
+"sentences": "He gets a second chest X-ray , discovers that he does n't have lung cancer , recognizes that by virtue of the kinds of things that he is writing , his openness to Western literary ideas , that he is in political trouble again , and so he sets out on an extraordinary odyssey of some 15,000 kilometers , mostly on foot , which he takes through southwestern China .",
+"predicate": "have",
+"selected_span": [
+"he",
+"ARG0",
+[
+26,
+27
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2028,
+13,
+26,
+27,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"``I Hope You Dance,'' by Lee Ann Womack\" is a contiguous noun phrase that fully represents the thing being awarded.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, this argument specifies the theme/topic of the predicate \"awarded\", aligning with the ARG1 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 175,
+"sentences": "`` I Hope You Dance , '' by Lee Ann Womack , was awarded Single of the Year and Song of the Year .",
+"predicate": "awarded",
+"selected_span": [
+"`` I Hope You Dance , '' by Lee Ann Womack ,",
+"ARG1",
+[
+0,
+12
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2791,
+14,
+0,
+12,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"that\" is the pronoun functioning as the direct object of the verb \"considered\" and is a minimal, complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"that\" denotes the entity under consideration for the predicate \"considered\", matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 180,
+"sentences": "All the other ports that have been mentioned here that we should have considered as options have had specific threats .",
+"predicate": "considered",
+"selected_span": [
+"that",
+"R-ARG1",
+[
+4,
+5
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+91,
+14,
+4,
+5,
+49
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"when Bear Stearns stepped out of line in the view of the SEC\" is a continuous subordinate clause providing a complete temporal adjunct, so its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The when-clause specifies the time of the event expressed by \"expressed\", fulfilling the TMP (temporal) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the assigned TMP role are appropriate and correct.",
+"index_sen": 209,
+"sentences": "And some people are surprised and I might even add pleased in this city that your SEC has been quick to react when Phil Purcell of Morgan Stanley made a statement that your SEC did n't think and that you did n't think expressed appropriate contrition when Bear Stearns stepped out of line in the view of the SEC .",
+"predicate": "expressed",
+"selected_span": [
+"when Bear Stearns stepped out of line in the view of the SEC",
+"ARGM-TMP",
+[
+46,
+59
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3731,
+44,
+46,
+59,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"would\" is correctly extracted as a single continuous word that functions as a modal auxiliary modifying the predicate \"saved\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"would\" serves as a general modifier (modal) of the event expressed by \"saved\", matching the MOD role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct: \"would\" is properly identified and labeled as MOD for \"saved\".",
+"index_sen": 228,
+"sentences": "This raises a fundamental question -- if the message had been more clearly communicated and understood , would American lives have been saved ?",
+"predicate": "saved",
+"selected_span": [
+"would",
+"ARGM-MOD",
+[
+17,
+18
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2787,
+23,
+17,
+18,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the President\" is a contiguous noun phrase in the sentence and forms a complete semantic unit as the subject of the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause with predicate \"saying\", \"the President\" functions as the Sayer of the speech, matching the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 233,
+"sentences": "They are angry that the President is threatening to veto it saying it 's wrong to have political budget battles right before the election .",
+"predicate": "saying",
+"selected_span": [
+"the President",
+"ARG0",
+[
+4,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3158,
+12,
+4,
+6,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"both\" is a single-word, continuous span in the sentence and correctly identifies the adverbial focus marker modifying the predicate \"invested\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"both\" functions as an adverbial modifier of the event expressed by \"invested\", marking that two entities performed the action, which aligns with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 250,
+"sentences": "They have both invested enormous amounts in it , and both regimes would be more vulnerable if the peace process were to fail , because detractors and opponents within each country would have ammunition by which to fire at them .",
+"predicate": "invested",
+"selected_span": [
+"both",
+"ARGM-ADV",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2495,
+4,
+2,
+3,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"from September 2000\" is a complete prepositional phrase immediately following the predicate phrase and accurately captures the intended temporal modifier.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"From September 2000\" provides temporal information about the nominal predicate \"round,\" indicating when the election rounds began, which aligns with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 266,
+"sentences": "In Serbia it is 57th round of elections from September 2000 and Slobodan Milosevic appears on national tv and says , `` I want to greet you as your new President , my name is Vojislav Kostunica '' .",
+"predicate": "round",
+"selected_span": [
+"from September 2000",
+"ARGM-TMP",
+[
+8,
+11
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2541,
+6,
+8,
+11,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"down\" is correctly extracted as a single adverbial particle directly modifying the predicate \"stepped\" and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the construction \"stepped down\", \"down\" provides directional information about the action expressed by \"stepped\", which aligns with the DIR role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 276,
+"sentences": "As we said , earlier this week , Christine Todd Whitman stepped down and now a whole lot of analysis is taking place as to why she stepped down , the job she 's done when she was in office and the job that has yet to be complete .",
+"predicate": "stepped",
+"selected_span": [
+"down",
+"ARGM-DIR",
+[
+12,
+13
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3738,
+28,
+12,
+13,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"you\" is correctly extracted as the explicit subject in the clause containing the predicate \"try\",\"you\" forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"where you grew up then try to make it there\", \"you\" functions as the Agent performing the action of \"try\", matching the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the semantic role assignment are correct.",
+"index_sen": 286,
+"sentences": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+"predicate": "try",
+"selected_span": [
+"you",
+"ARG0",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3266,
+22,
+1,
+2,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"in the war 's aftermath\" is a contiguous prepositional phrase that functions as a complete temporal adjunct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase specifies the time when the predicate \"became\" occurred, fulfilling the TMP (temporal) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 302,
+"sentences": "Nothing , not even the fact that our countries became estranged in the war 's aftermath , has ever dimmed our memory of the scale of your loss .",
+"predicate": "became",
+"selected_span": [
+"in the war 's aftermath",
+"ARGM-TMP",
+[
+11,
+16
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3115,
+10,
+11,
+16,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"forward\" is correctly identified as a single-word contiguous span representing the directional adjunct of the predicate \"look\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The adverb \"forward\" semantically specifies the direction of the action \"look\", matching the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 305,
+"sentences": "It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq , but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations , although , the tragic loss of British lives today reminds us all of the difficulties to be faced .",
+"predicate": "look",
+"selected_span": [
+"forward",
+"ARGM-DIR",
+[
+29,
+30
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1921,
+29,
+29,
+30,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for duty\" is a contiguous prepositional phrase directly attached to the predicate \"deployed,\" providing a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"for duty\" indicates the purpose of the deployment event, matching the PNC role which marks a purpose (no cause) adjunct.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 307,
+"sentences": "Some U.S. troops have not had a chance to call home since they were deployed for duty in `` Operation Iraqi Freedom . ''",
+"predicate": "deployed",
+"selected_span": [
+"for duty",
+"ARGM-PNC",
+[
+15,
+17
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2958,
+15,
+15,
+17,
+23
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"just as Secretary of State Powell predicted and presented the United Nations before the war\" is a continuous span in the sentence and forms a complete adverbial clause, correctly extracted as an adjunct modifying the predicate clause.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause provides adverbial comparison information about the state expressed by \"are\", aligning with the ADV role description as an adverbial modifier of the predicate.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 311,
+"sentences": "While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war .",
+"predicate": "are",
+"selected_span": [
+"just as Secretary of State Powell predicted and presented the United Nations before the war",
+"ARGM-ADV",
+[
+43,
+58
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3761,
+21,
+43,
+58,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"for his country\" is a contiguous prepositional phrase directly attached to the predicate \"announce,\" forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"announce economic reforms for his country,\" the phrase \"for his country\" specifies the attribute of the announced reforms (Arg1), which aligns with the ARG3 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 336,
+"sentences": "Reports from China say North Korean President Kim Jong Il is planning to announce economic reforms for his country .",
+"predicate": "announce",
+"selected_span": [
+"for his country",
+"ARG3",
+[
+16,
+19
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+825,
+14,
+16,
+19,
+5
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is correctly extracted as a single-word discourse marker directly preceding the predicate clause.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"then\" functions as a discourse connective organizing the sequence into the clause containing \"was\", aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 345,
+"sentences": "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .",
+"predicate": "was",
+"selected_span": [
+"then",
+"ARGM-DIS",
+[
+44,
+45
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3757,
+50,
+44,
+45,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the certification\" is a contiguous noun phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the passive clause \"it could be certified elsewhere,\" \"the certification\" is the entity being certified, which aligns with ARG1 as the \"entity certified.\"",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 348,
+"sentences": "Brian , if for some reason the Secretary of State would n't accept by the 26th , the certification , it could be certified elsewhere .",
+"predicate": "certified",
+"selected_span": [
+"the certification",
+"ARG1",
+[
+17,
+19
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3146,
+24,
+17,
+19,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"where no one has been there\" is a continuous span in the sentence and forms a complete locative clause modifying the predicate \"find\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"where no one has been there\" provides the location information for the event expressed by \"find\", fitting the LOC role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 357,
+"sentences": "When you find one where no one has been there , you are the first person , the adrenaline is phenomenal .",
+"predicate": "find",
+"selected_span": [
+"where no one has been there",
+"ARGM-LOC",
+[
+4,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+46,
+3,
+4,
+10,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"a state - of - the - art destroyer\" is a contiguous noun phrase and correctly identifies the entity that underwent the action of stopping.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The noun phrase represents the Theme (the object being stopped) of the predicate \"stopped\", matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 365,
+"sentences": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
+"predicate": "stopped",
+"selected_span": [
+"a state - of - the - art destroyer",
+"ARG1",
+[
+25,
+34
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3817,
+37,
+25,
+34,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"back\" is correctly extracted as the single-word adverbial modifier directly attached to the predicate \"move\", fully capturing the intended span.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the phrase \"move back\", \"back\" clearly indicates the direction of the movement, aligning with the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 372,
+"sentences": "We do have to try to reduce the violee and take a turn back for a period of calmness so that we can move back to a peace process , but even if the violence subsides , Israelis and Palestinians will still have to deal with an open wound -- a scar so long and so deep from these last two weeks , it may be years before there is a real effort at talking peace again .",
+"predicate": "move",
+"selected_span": [
+"back",
+"ARGM-DIR",
+[
+13,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1865,
+24,
+13,
+14,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Khaddafi\" is correctly extracted as the subject controlling the infinitive \"to compensate\" and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"to compensate the families,\" Khaddafi is the implied agent and payer of compensation, matching the ARG0 role as \"payer or buyer\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 390,
+"sentences": "Not yet , says President George W. Bush , at the White House today , demanding that Khaddafi meet certain conditions first , to accept responsibility for this act , and to compensate the families .",
+"predicate": "compensate",
+"selected_span": [
+"Khaddafi",
+"ARG0",
+[
+17,
+18
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2395,
+33,
+17,
+18,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"today\" is a single-word continuous span correctly extracted as a temporal adjunct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"today\" specifies when the explosion occurred, satisfying the TMP (temporal) role for the predicate \"explosion\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 404,
+"sentences": "In what may have been a ripple effect of the Middle East crisis , an explosion today killed at least four sailors on a US Navy destroyer in the Yemeni port of Aden .",
+"predicate": "explosion",
+"selected_span": [
+"today",
+"ARGM-TMP",
+[
+16,
+17
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2418,
+16,
+16,
+17,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"in `` Operation Iraqi Freedom\" is a continuous prepositional phrase including the preposition and its object, correctly capturing the adjunct modifying \"deployed\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"in `` Operation Iraqi Freedom\" specifies the location/context of the deployment event, which aligns with the LOC role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 405,
+"sentences": "Some U.S. troops have not had a chance to call home since they were deployed for duty in `` Operation Iraqi Freedom . ''",
+"predicate": "deployed",
+"selected_span": [
+"in `` Operation Iraqi Freedom",
+"ARGM-LOC",
+[
+17,
+22
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2958,
+15,
+17,
+22,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"What\" is correctly extracted as a single word pronoun forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"do you suppose took place here?\", \"What\" is the entity being thought about by the predicate \"suppose\", matching the 'Thing thought about' role for ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 414,
+"sentences": "What do you suppose took place here ?",
+"predicate": "suppose",
+"selected_span": [
+"What",
+"ARG1",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1684,
+4,
+0,
+1,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is correctly extracted as a single-word temporal adverb immediately preceding the predicate \"end\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The adverb \"then\" provides temporal sequencing for the event expressed by \"end\", aligning with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 471,
+"sentences": "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .",
+"predicate": "end",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+32,
+33
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3755,
+36,
+32,
+33,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"made\" is correctly extracted as a single word reflecting the light verb related to the nominal predicate \"speeches\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the construction \"speeches he has made,\" \"made\" serves as the light verb of the nominal predicate \"speeches,\" fulfilling the LVB role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 483,
+"sentences": "It was the last of several speeches he has made in recent weeks to his backers across the country .",
+"predicate": "speeches",
+"selected_span": [
+"made",
+"ARGM-LVB",
+[
+9,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+206,
+7,
+9,
+10,
+19
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for her\" is a contiguous prepositional phrase functioning as an adverbial adjunct to the predicate \"got\", with correct boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"For her\" provides adverbial modification (beneficiary/perspective) of the event \"got\", matching the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 487,
+"sentences": "And you see Apache helicopter pilot and his wife Michelle who was talking with us on the telephone the Sunday morning when the video came in of the rescue of the POWs and , she identified her husband and life just got better and better for her after that .",
+"predicate": "got",
+"selected_span": [
+"for her",
+"ARGM-ADV",
+[
+45,
+47
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3702,
+42,
+45,
+47,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"really\" is correctly extracted as a single-word adverb forming a complete semantic unit modifying the predicate \"was\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"really\" functions as an adverb modifying the predicate \"was\", aligning with the ADV role description of adverbial modification.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling for \"really\" as an adverbial modifier of \"was\" are correct.",
+"index_sen": 488,
+"sentences": "I was n't in a position that my dear friend was in when he was killed outside Bagdad airport but I had long thought and I was in Iraq in the previous war that really all the talk that had been about the rush to war , the push for war , the drive for war , all that propaganda , was essentially nonsensical because in 1990 , Saddam Hussein made the only self criticism .",
+"predicate": "was",
+"selected_span": [
+"really",
+"ARGM-ADV",
+[
+34,
+35
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1879,
+27,
+34,
+35,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"many stores have sold out of the game even before its release\" is a contiguous clause that fully captures the reported content and serves as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument represents the proposition being reported by the predicate \"reports\", fulfilling the theme (ARG1) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 501,
+"sentences": "As Greg Lefevre reports , many stores have sold out of the game even before its release .",
+"predicate": "reports",
+"selected_span": [
+"many stores have sold out of the game even before its release",
+"ARG1",
+[
+5,
+17
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+112,
+4,
+5,
+17,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument “in a strategic sense between Russia and India” is a continuous span in the sentence and fully captures the adverbial modifier of the predicate “strengthened.”",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase functions as an adverbial modifier describing the manner/circumstance in which ties were strengthened, matching the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 506,
+"sentences": "In fact his visit has somewhat been ignored and in fact the main news story here in India has been sort of a local controversy over the roll - back of fuel prices rather than Mr. Putin 's visit , but he did do what he had to do and he certainly strengthened ties in a strategic sense between Russia and India .",
+"predicate": "strengthened",
+"selected_span": [
+"in a strategic sense between Russia and India",
+"ARGM-ADV",
+[
+54,
+62
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2099,
+53,
+54,
+62,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The phrase \"through the courts\" is a contiguous prepositional phrase correctly extracted as an adjunct specifying the route or means for the event described by \"litigated\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"through the courts\" indicates the path or route by which the contest is litigated, satisfying the DIR (direction) role for the predicate \"litigated\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 522,
+"sentences": "The reason they are picking that particular day is it allows , Brian , enough time for the aggrieved party , the losing party to file within 10 days a contest of the certification and that still allows enough time for the contest to be litigated through the courts primarily the circuit court and back to the Supreme Court if necessary and still meet the December 12 deadline for the Electoral College vote here .",
+"predicate": "litigated",
+"selected_span": [
+"through the courts",
+"ARGM-DIR",
+[
+46,
+49
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1936,
+46,
+46,
+49,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument is a continuous prepositional phrase beginning with \"in fields\" and fully covers the domains listed, making its boundaries complete and precise.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase specifies the domains (i.e., locations in a metaphorical sense) where the action of developing new links takes place, satisfying the LOC role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 528,
+"sentences": "We work together bilatarily and on the international stage , and we are developing new links all the time in fields of commerce , culture , counterterrorism , energy , education environment .",
+"predicate": "developing",
+"selected_span": [
+"in fields of commerce , culture , counterterrorism , energy , education environment",
+"ARGM-LOC",
+[
+19,
+32
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2347,
+14,
+19,
+32,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"just\" is correctly extracted as a single adverb with clear boundaries, serving as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"just\" functions as an adverbial modifier restricting the extent of the event \"clapping\", which aligns with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 569,
+"sentences": "It 's not just clapping and having a good time .",
+"predicate": "clapping",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+3,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1014,
+5,
+3,
+4,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument is a continuous span accurately capturing the complete adverbial clause beginning with 'in explaining' that functions as a modifier.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause 'in explaining that sovereignty and final analysis belongs to the people and sovereignty should be seen in a democratic context' serves as an adverbial circumstance modifier of the state expressed by the predicate 'are', aligning with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the semantic role labeling are correct.",
+"index_sen": 577,
+"sentences": "We are usually not sufficiently clear , we meaning the Secretariat , in explaining that sovereignty and final analysis belongs to the people and sovereignty should be seen in a democratic context .",
+"predicate": "are",
+"selected_span": [
+"in explaining that sovereignty and final analysis belongs to the people and sovereignty should be seen in a democratic context",
+"ARGM-ADV",
+[
+12,
+32
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2665,
+2,
+12,
+32,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"indeed\" is a single-word adverb correctly extracted with clear boundaries from the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"indeed\" functions as an adverbial modifier of the predicate \"are\", emphasizing the assertion of the state, aligning with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 588,
+"sentences": "While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war .",
+"predicate": "are",
+"selected_span": [
+"indeed",
+"ARGM-ADV",
+[
+36,
+37
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3761,
+21,
+36,
+37,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"They\" is a single-word pronoun correctly identified as the subject and agent of the predicate \"do\" in the clause \"trying to do that to the Kurds\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"They\" performs the action \"do\" (i.e., they try to do that to the Kurds), fulfilling the role of agent/doer as specified for ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 601,
+"sentences": "They use the gunships to kill , we think , not less than 50,000 inhabitants of southern Iraq and trying to do that to the Kurds , as well , so it was a knife edge .",
+"predicate": "do",
+"selected_span": [
+"They",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2257,
+22,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"they\" is a correctly extracted pronoun serving as the agent of the verb \"get\" in the clause, with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the phrase \"get that put together\", \"they\" functions as the instigator/agent of the action, consistent with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and role assignment are correct.",
+"index_sen": 653,
+"sentences": "That craft that approached the Cole is a rubber boat , not a big craft , but they would have had to pack it fully with explosives to do the amount of damage that they did to the Cole and that certainly would have taken time to get that put together .",
+"predicate": "get",
+"selected_span": [
+"they",
+"ARG0",
+[
+17,
+18
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3829,
+48,
+17,
+18,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for personal reasons\" is a contiguous prepositional phrase in the sentence and forms a complete adjunct unit modifying the predicate \"suppose\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"for personal reasons\" expresses the motivation or cause for the mental action \"suppose\", which aligns with the CAU role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 676,
+"sentences": "Do you suppose for personal reasons or perhaps she was out of step with the administration ?",
+"predicate": "suppose",
+"selected_span": [
+"for personal reasons",
+"ARGM-CAU",
+[
+3,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+374,
+3,
+3,
+6,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" correctly identifies the external subject (agent) of the gerund predicate \"saying\" and is properly extracted as a single-word span.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The pronoun \"I\" functions as the Sayer (ARG0) of the predicate \"saying\", matching the role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 678,
+"sentences": "Just one last thing quoting him and I wonder if you could respond to this , Christopher , he said at the very beginning of his wonderful speech to the Nobel Prize Committee , he said , `` I do not wish to waste this talk on literature by saying too much about politics and history , What I want to do is to use this opportunity to speak as one writer in the voice of an individual . ''",
+"predicate": "saying",
+"selected_span": [
+"I",
+"ARG0",
+[
+38,
+39
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2058,
+50,
+38,
+39,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"programs\" is correctly extracted as the subject of the predicate \"existed\", forming a complete minimal semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"programs that we had said existed\", \"programs\" denotes the entity that exists, aligning with the ARG1 role as the \"thing existing\" of \"existed\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 689,
+"sentences": "It 's very important to recognize that programs that we had said existed do exist .",
+"predicate": "existed",
+"selected_span": [
+"programs",
+"ARG1",
+[
+7,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1161,
+13,
+7,
+8,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "\"the wire reports\" is a contiguous noun phrase directly extracted from the sentence and serves as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"we're getting here,\" \"the wire reports\" functions as the direct object – the thing being obtained by \"getting,\" matching the described role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 694,
+"sentences": "All this happening about 90 minutes ago based on the wire reports we 're getting here .",
+"predicate": "getting",
+"selected_span": [
+"the wire reports",
+"ARG1",
+[
+9,
+12
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+289,
+15,
+9,
+12,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"When they made the decision not to move toward Bagdad with bad information , namely\" is a complete temporal subordinate clause introduced by \"When\" and functions as an adjunct providing the time of the event.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause specifies when the Republican Guard devastated, fulfilling the temporal (TMP) role for the predicate \"devastated\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 701,
+"sentences": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+"predicate": "devastated",
+"selected_span": [
+"When they made the decision not to move toward Bagdad with bad information , namely",
+"ARGM-TMP",
+[
+0,
+15
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+338,
+21,
+0,
+15,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"that it was too weak and did not harm Israeli interests sufficiently\" is a complete contiguous subordinate clause complement of the predicate \"was\", forming a single semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause, the argument functions as the topic or content complement of the stative predicate \"was\", matching the role description for ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 714,
+"sentences": "And he was very categorical that it was too weak and did not harm Israeli interests sufficiently .",
+"predicate": "was",
+"selected_span": [
+"that it was too weak and did not harm Israeli interests sufficiently",
+"ARG1",
+[
+5,
+17
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+533,
+3,
+5,
+17,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"as he described it\" is correctly extracted as a continuous adverbial clause postmodifying the noun \"approach\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"as he described it\" functions as an adverbial clause indicating the manner in which the approach was described, aligning with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 728,
+"sentences": "Of course , Pakistan wants international attention focussed on Kashmir , and Mr. Putin also said that he supports India 's tough approach to the external violence in Kashmir as he described it .",
+"predicate": "approach",
+"selected_span": [
+"as he described it",
+"ARGM-ADV",
+[
+29,
+33
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2623,
+23,
+29,
+33,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for Ozzy Osbourne\" is a continuous prepositional phrase directly modifying the predicate \"looking\" and is correctly extracted as a complete unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"for Ozzy Osbourne\" functions as an adverbial modifier indicating the beneficiary or target of the evaluation expressed by \"looking\", fitting the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 751,
+"sentences": "With the success of a new television show and last year 's Oz-fest tour ready to kick off , things were looking great for Ozzy Osbourne .",
+"predicate": "looking",
+"selected_span": [
+"for Ozzy Osbourne",
+"ARGM-ADV",
+[
+23,
+26
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3072,
+22,
+23,
+26,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument “for Lamen Khalifa Fhimah , aquittal” is a contiguous phrase serving as a complete prepositional unit that includes the beneficiary and the attribute of “decision.”",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase specifies both the benefactive (for Lamen Khalifa Fhimah) and the attribute (aquittal) of the nominal predicate “decision,” matching the ARG3 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role assignment are correct.",
+"index_sen": 753,
+"sentences": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+"predicate": "decision",
+"selected_span": [
+"for Lamen Khalifa Fhimah , aquittal",
+"ARG3",
+[
+3,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+500,
+3,
+3,
+9,
+5
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument 'not so much' is a contiguous span in the sentence and fully captures the degree adverbial modifying 'revolves'.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "'Not so much' serves as an adverbial degree modifier specifying how the world revolves, aligning with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are appropriate and correct.",
+"index_sen": 757,
+"sentences": "This is a guy whose world revolves not so much around music as around his wife .",
+"predicate": "revolves",
+"selected_span": [
+"not so much",
+"ARGM-ADV",
+[
+7,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+402,
+7,
+7,
+10,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"about it\" is a contiguous phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"do nothing about it\", the argument \"about it\" indicates the thing the action is done about, matching the role description for ARG2.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 762,
+"sentences": "Question two , did the Pentagon and the CIA get the message and do nothing about it ?",
+"predicate": "do",
+"selected_span": [
+"about it",
+"ARG2",
+[
+15,
+17
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+73,
+14,
+15,
+17,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"to keep electricity flowing to California\" is a continuous infinitival clause that fully captures the purpose complement of the predicate \"extended\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"to keep electricity flowing to California\" expresses the purpose of the action denoted by \"extended\", aligning with the PRP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 777,
+"sentences": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+"predicate": "extended",
+"selected_span": [
+"to keep electricity flowing to California",
+"ARGM-PRP",
+[
+10,
+16
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+765,
+7,
+10,
+16,
+25
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"into the hull of the Navy destroyer\" is a continuous prepositional phrase precisely extracted from the sentence, providing a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase introduced by \"into\" indicates the direction or destination of the action \"blew\" (where the hole was blown), which aligns with the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 797,
+"sentences": "17 sailors were killed and dozens were injured when the explosion blew a huge hole into the hull of the Navy destroyer as it was refueling in Aden .",
+"predicate": "blew",
+"selected_span": [
+"into the hull of the Navy destroyer",
+"ARGM-DIR",
+[
+15,
+22
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2823,
+12,
+15,
+22,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"more\" is a contiguous single word in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the non-finite clause \"to come\", \"more\" functions as the entity that will come, satisfying the ARG1 role as the entity in motion.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 818,
+"sentences": "Is it a taste of more to come in Iraq ?",
+"predicate": "come",
+"selected_span": [
+"more",
+"ARG1",
+[
+5,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1032,
+8,
+5,
+6,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for Mr. Putin\" is correctly extracted as a continuous prepositional phrase directly modifying the predicate \"was\" and has clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"for Mr. Putin\" functions as an adverbial modifier of the verb \"was\", indicating the perspective/beneficiary and thus fits the ADV role label.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 832,
+"sentences": "There was none of that for Mr. Putin , but he did receive a very warm welcome , although most ordinary Indians who were actually rather captivated by Mr. Clinton 's visit did not really pay much attention to Mr. Putin 's visit .",
+"predicate": "was",
+"selected_span": [
+"for Mr. Putin",
+"ARGM-ADV",
+[
+5,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3906,
+2,
+5,
+8,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"because in 1990 , Saddam Hussein made the only self criticism\" is a continuous clause in the sentence and fully captures the causal adjunct to the predicate \"was\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause introduced by \"because\" clearly provides the cause for the state expressed by the predicate \"was\", matching the CAU role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role assignment are correct.",
+"index_sen": 835,
+"sentences": "I was n't in a position that my dear friend was in when he was killed outside Bagdad airport but I had long thought and I was in Iraq in the previous war that really all the talk that had been about the rush to war , the push for war , the drive for war , all that propaganda , was essentially nonsensical because in 1990 , Saddam Hussein made the only self criticism .",
+"predicate": "was",
+"selected_span": [
+"because in 1990 , Saddam Hussein made the only self criticism",
+"ARGM-CAU",
+[
+64,
+75
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1879,
+27,
+64,
+75,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"to us\" is correctly extracted as a complete prepositional phrase modifying the predicate \"grown\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"to us\" functions as an adverbial modifier of the predicate \"grown\", specifying viewpoint or beneficiary, which aligns with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 845,
+"sentences": "Since then this relationship has grown in importance to us both through good times and bad .",
+"predicate": "grown",
+"selected_span": [
+"to us",
+"ARGM-ADV",
+[
+8,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+421,
+6,
+8,
+10,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument its is correctly extracted as the subject of the predicate be in the infinitival construction, with a precise boundary as the minimal semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause or be political in origin, its functions as the topic (subject) of the predicate be, aligning with the definition of ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 848,
+"sentences": "It is the world at its most carnival - like , and yet it is virtually impossible , is n't it , for a Chinese artist to do something or to make a statement without its having some kind of either political effect or be political in origin .",
+"predicate": "be",
+"selected_span": [
+"its",
+"ARG1",
+[
+35,
+36
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3862,
+45,
+35,
+36,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for its customers\" is a continuous prepositional phrase in the sentence that fully captures the intended modifier of the predicate \"keeping\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"for its customers\" expresses the intended recipient or goal of keeping prices low, aligning with the GOL role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 856,
+"sentences": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+"predicate": "keeping",
+"selected_span": [
+"for its customers",
+"ARGM-GOL",
+[
+33,
+36
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2705,
+31,
+33,
+36,
+17
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"he\" is correctly extracted as the subject of the predicate \"takes\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"he\" functions as the actor or taker of the action \"takes\", matching the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 892,
+"sentences": "He had survived , if you will , a death sentence , and now in that new freedom of the life in front of him , he takes to the road in the tradition of old Chinese poets and records what he sees , what he hears , the stories that he is told .",
+"predicate": "takes",
+"selected_span": [
+"he",
+"ARG0",
+[
+41,
+42
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3867,
+28,
+41,
+42,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"more than 30\" is a continuous span correctly capturing the quantifier modifying \"shows\", providing a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"More than 30\" functions as an adjectival modifier specifying the quantity of the event \"shows\", aligning with the ADJ role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 896,
+"sentences": "He has had more than 30 one - man shows and his paintings are quite delicately done and there he is also very well known as a playwright .",
+"predicate": "shows",
+"selected_span": [
+"more than 30",
+"ARGM-ADJ",
+[
+3,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3302,
+10,
+3,
+6,
+9
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"on Afghanistan\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"set up a joint working group on Afghanistan\", the argument \"on Afghanistan\" specifies the attribute or topic of the predicate \"set\", which aligns with the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 901,
+"sentences": "They have also set up a joint working group on Afghanistan , which is of course a cause of concern for both countries .",
+"predicate": "set",
+"selected_span": [
+"on Afghanistan",
+"ARG2",
+[
+9,
+11
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3346,
+4,
+9,
+11,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"as far as climate change is concerned\" is a continuous span at the end of the sentence and forms a complete adjunct specifying the domain, so it is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"as far as climate change is concerned\" functions as an adverbial adjunct modifying the scope of what everyone \"needs\" to get done, aligning with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 929,
+"sentences": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+"predicate": "needs",
+"selected_span": [
+"as far as climate change is concerned",
+"ARGM-ADV",
+[
+17,
+24
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3038,
+14,
+17,
+24,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"today\" is correctly extracted as it is a continuous single-word span that marks temporal information for the predicate \"says\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument \"today\" provides temporal information about the event expressed by the predicate \"says\", which aligns with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 953,
+"sentences": "Not yet , says President George W. Bush , at the White House today , demanding that Khaddafi meet certain conditions first , to accept responsibility for this act , and to compensate the families .",
+"predicate": "says",
+"selected_span": [
+"today",
+"ARGM-TMP",
+[
+13,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2392,
+4,
+13,
+14,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"mostly Palestinians, but also several Israeli soldiers\" is a contiguous phrase in the sentence and forms a complete semantic unit denoting who was wounded.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase identifies the injured party of the predicate \"wounded,\" aligning perfectly with the description of ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 966,
+"sentences": "More than 70 people have been wounded , mostly Palestinians , but also several Israeli soldiers .",
+"predicate": "wounded",
+"selected_span": [
+"mostly Palestinians , but also several Israeli soldiers",
+"C-ARG1",
+[
+8,
+16
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3,
+7,
+8,
+16,
+31
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"maybe\" is correctly extracted as a single word functioning as an adverb, with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"maybe\" functions as an adverbial modifier of the predicate \"were\", indicating probability/uncertainty, aligning with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 984,
+"sentences": "When we started there were maybe two or three hip - hop groups in Dakar and now today we got more than 2000 groups only in Dakar , let 's say in Senegal .",
+"predicate": "were",
+"selected_span": [
+"maybe",
+"ARGM-ADV",
+[
+5,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2590,
+5,
+5,
+6,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"as long as the hen left her crate to do business, she was no harm to the pup\" is a single contiguous subordinate clause conveying the complete content that was assured.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause expresses exactly what the vet assured, matching the role description of the \"assured one\" for the predicate \"assured\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 987,
+"sentences": "The Scotts ran it past their vet and the vet assured them , as long as the hen left her crate to do business , she was no harm to the pup .",
+"predicate": "assured",
+"selected_span": [
+"as long as the hen left her crate to do business , she was no harm to the pup",
+"ARG1",
+[
+13,
+32
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2188,
+11,
+13,
+32,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"if you come to a passage\" is a continuous subordinate conditional clause in the sentence, correctly capturing the full condition and its boundaries as a semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"if you come to a passage\" functions as an adverbial modifier of the predicate \"hear\", specifying the condition under which the hearing will occur, fitting the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 992,
+"sentences": "Greg , go ahead , if you come to a passage we should hear .",
+"predicate": "hear",
+"selected_span": [
+"if you come to a passage",
+"ARGM-ADV",
+[
+5,
+11
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1255,
+14,
+5,
+11,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"you\" is a single-word pronoun correctly extracted as a complete semantic unit representing the subject.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"you have a new he\", \"you\" functions as the owner/subject of the predicate \"have\", which aligns with ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 995,
+"sentences": "Characters proliferate out of the imagination of the narrator so that at a certain point , you have a new he , you have a new she , you have a you , and each one of these characters tells stories , each story of which is designed to give you a deeper sense of the richness and the complexity of life in China .",
+"predicate": "have",
+"selected_span": [
+"you",
+"ARG0",
+[
+28,
+29
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2066,
+24,
+28,
+29,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"out\" is a contiguous single word directly modifying the predicate \"go\" to indicate the direction of the movement, so its boundary is correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument \"out\" denotes the direction of the action expressed by \"go\", matching the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 1018,
+"sentences": "You go out .",
+"predicate": "go",
+"selected_span": [
+"out",
+"ARGM-DIR",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3589,
+2,
+2,
+3,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"so\" is correctly extracted as a single word serving as a discourse marker preceding the predicate \"sets\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"So\" functions as a discourse connector relating the preceding context to the event expressed by \"sets\", aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1025,
+"sentences": "He gets a second chest X-ray , discovers that he does n't have lung cancer , recognizes that by virtue of the kinds of things that he is writing , his openness to Western literary ideas , that he is in political trouble again , and so he sets out on an extraordinary odyssey of some 15,000 kilometers , mostly on foot , which he takes through southwestern China .",
+"predicate": "sets",
+"selected_span": [
+"so",
+"ARGM-DIS",
+[
+46,
+47
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2033,
+49,
+46,
+47,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Twisted\" is correctly extracted as a single contiguous word forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Twisted\" functions as the agent that performs the overturning action, which matches the description of ARG0 as the overturner.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1043,
+"sentences": "Twisted overturned construction equipment .",
+"predicate": "overturned",
+"selected_span": [
+"Twisted",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3640,
+2,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"virtually impossible\" is a contiguous phrase forming a complete semantic unit and correctly captures the complement of the predicate \"is\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"it is virtually impossible\", \"virtually impossible\" serves as the comment or attribute of the copular verb \"is\", which aligns with the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1046,
+"sentences": "It is the world at its most carnival - like , and yet it is virtually impossible , is n't it , for a Chinese artist to do something or to make a statement without its having some kind of either political effect or be political in origin .",
+"predicate": "is",
+"selected_span": [
+"virtually impossible",
+"ARG2",
+[
+15,
+17
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3858,
+19,
+15,
+17,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"citing the unstable political climate\" is a continuous participle clause in the sentence that fully captures the adverbial modifier of the predicate \"close\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"citing the unstable political climate\" functions as an adverbial modifier expressing the reason for closing the mission, aligning with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1047,
+"sentences": "On Wednesday UN Secretary General Kofi Annan called on his organization to close its mission in Haiti citing the unstable political climate .",
+"predicate": "close",
+"selected_span": [
+"citing the unstable political climate",
+"ARGM-ADV",
+[
+17,
+22
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3284,
+13,
+17,
+22,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "\"for its stockholders\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit indicating the beneficiary of the action.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"declared a dividend for its stockholders,\" the phrase \"for its stockholders\" specifies the benefactive participant of the predicate \"declared,\" matching the role description for ARG3.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1062,
+"sentences": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+"predicate": "declared",
+"selected_span": [
+"for its stockholders",
+"ARG3",
+[
+8,
+11
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2701,
+6,
+8,
+11,
+5
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"perhaps\" is correctly extracted as a single adverbial modifier with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The adverb \"perhaps\" modifies the verb \"seen\" by expressing uncertainty or possibility, aligning with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1066,
+"sentences": "We have seen some more power techniques perhaps from his Foreign Minister Amre Moussa over the last few weeks , but Amre Moussa today at the Foreign Minister 's meeting was calling simply for the return of East Jerusalem to the Palestinians , in stark contrast to Syrian Foreign Minister Faruq al - Shara who was pulling for a complete cut in diplomatic relations between Israel and the two Arab states that happen .",
+"predicate": "seen",
+"selected_span": [
+"perhaps",
+"ARGM-ADV",
+[
+7,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1996,
+3,
+7,
+8,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"here\" is correctly extracted as a single word functioning as a complete locative adjunct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument \"here\" indicates the location of the welcoming event expressed by the predicate \"Welcome\", which aligns with the LOC role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1078,
+"sentences": "Welcome to another hour of news and information here on the Voice of America .",
+"predicate": "Welcome",
+"selected_span": [
+"here",
+"ARGM-LOC",
+[
+8,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1387,
+1,
+8,
+9,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The pronoun 'I' correctly serves as the subject (the user) of the verb 'use' in the clause 'What I want to do is to use this opportunity...', forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "'I' functions as the user (agent) of the predicate 'use', matching the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1080,
+"sentences": "Just one last thing quoting him and I wonder if you could respond to this , Christopher , he said at the very beginning of his wonderful speech to the Nobel Prize Committee , he said , `` I do not wish to waste this talk on literature by saying too much about politics and history , What I want to do is to use this opportunity to speak as one writer in the voice of an individual . ''",
+"predicate": "use",
+"selected_span": [
+"I",
+"ARG0",
+[
+58,
+59
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2062,
+65,
+58,
+59,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"has\" is correctly extracted as a single word serving as the light verb for the noun predicate \"influence\" without extra or missing tokens.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"has\" functions as the light verb supporting the nominal predicate \"influence,\" satisfying the LVB (light verb) relation.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling (LVB) are correct for the predicate \"influence\" and argument \"has.\"",
+"index_sen": 1087,
+"sentences": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+"predicate": "influence",
+"selected_span": [
+"has",
+"ARGM-LVB",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3887,
+5,
+1,
+2,
+19
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"back\" is correctly extracted as the single word immediately following the predicate \"turn\", capturing the complete directional information.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the phrase \"take a turn back\", \"back\" indicates the direction of the turning action, satisfying the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1091,
+"sentences": "We do have to try to reduce the violee and take a turn back for a period of calmness so that we can move back to a peace process , but even if the violence subsides , Israelis and Palestinians will still have to deal with an open wound -- a scar so long and so deep from these last two weeks , it may be years before there is a real effort at talking peace again .",
+"predicate": "turn",
+"selected_span": [
+"back",
+"ARGM-DIR",
+[
+24,
+25
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1864,
+13,
+24,
+25,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"So\" is correctly extracted as a single-word discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"So\" functions as a discourse connector organizing the context for the predicate \"know\", aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1101,
+"sentences": "So you know it is amazing .",
+"predicate": "know",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1785,
+3,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"have\" is correctly extracted as a single word directly modifying the predicate \"file\" in the phrase \"have to file\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The auxiliary \"have\" functions as a modal that provides a general modification to the event expressed by \"file\", aligning with the MOD role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1118,
+"sentences": "One large utility company , Southern California Edison says it may have to file for bankruptcy unless government officials can offer some relief .",
+"predicate": "file",
+"selected_span": [
+"have",
+"ARGM-MOD",
+[
+11,
+12
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3505,
+14,
+11,
+12,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"He\" is correctly extracted as the subject pronoun with clear boundaries, serving as a complete semantic unit for the predicate \"sets\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"he sets out on an extraordinary odyssey\", \"He\" is the one performing the action, fulfilling the prototypical agent role (ARG0) of the predicate \"sets\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1120,
+"sentences": "He gets a second chest X-ray , discovers that he does n't have lung cancer , recognizes that by virtue of the kinds of things that he is writing , his openness to Western literary ideas , that he is in political trouble again , and so he sets out on an extraordinary odyssey of some 15,000 kilometers , mostly on foot , which he takes through southwestern China .",
+"predicate": "sets",
+"selected_span": [
+"He",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2033,
+49,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"since by a half application of violence through sanctions and overflights\" is a continuous span that forms a complete adverbial clause modifying the predicate \"tortured\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The subordinate clause introduced by \"since\" specifies the temporal starting point for the torture event, fulfilling the TMP role as a temporal modifier.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1126,
+"sentences": "It hurts to think of how many wonderful people in Iraq at the academic community , lawyers , human rights activists , civilians , intellectuals , people -- would now be alive , who have been horribly murdered and tortured and reduced to misery since by a half application of violence through sanctions and overflights .",
+"predicate": "tortured",
+"selected_span": [
+"since by a half application of violence through sanctions and overflights",
+"ARGM-TMP",
+[
+44,
+55
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3708,
+40,
+44,
+55,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"out of the Bronx\" is a continuous span in the sentence and correctly captures the prepositional phrase expressing the location of origin of the event \"comes\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"out of the Bronx\" indicates the direction (origin) of the action expressed by \"comes\", matching the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1187,
+"sentences": "Positive Black Soul sings in Senegal 's main language Wolof but if the music sounds like it comes straight out of the Bronx , well , you are not far off .",
+"predicate": "comes",
+"selected_span": [
+"out of the Bronx",
+"ARGM-DIR",
+[
+19,
+23
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2555,
+18,
+19,
+23,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument 'What' is correctly extracted as a single wh-pronoun forming a complete semantic unit and serving as the object of the predicate 'referring'.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause 'What I was referring to...', 'What' functions as the thing being referred to by the predicate 'referring', which aligns with the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling correctly identify the argument span and its role.",
+"index_sen": 1191,
+"sentences": "What I was referring to in that quote you had was the number of cases we see day in and day out at the lowest levels , scams and so forth , where considerable amounts of money are being made and lost by relatively small investors .",
+"predicate": "referring",
+"selected_span": [
+"What",
+"ARG1",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3712,
+4,
+0,
+1,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"on California\" is a contiguous prepositional phrase that forms a complete semantic unit as the complement of \"cap\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"on California\" specifies the entity to which the \"cap\" applies, matching the role description of ARG1 as the 'thing topped' of 'cap'.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1215,
+"sentences": "Last week federal regulators imposed a so - called soft cap on California , which requires power firms to justify prices above 150 dollars per megawatt hour .",
+"predicate": "cap",
+"selected_span": [
+"on California",
+"ARG1",
+[
+11,
+13
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3500,
+11,
+11,
+13,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"who\" is correctly extracted as the subject pronoun immediately preceding the predicate \"vote\" in the subordinate clause, forming a complete minimal semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"who legally voted\" the pronoun \"who\" performs the action of voting and thus functions as the agent (ARG0) of the predicate \"vote\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1217,
+"sentences": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+"predicate": "vote",
+"selected_span": [
+"who",
+"ARG0",
+[
+7,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+491,
+7,
+7,
+8,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"They\" is correctly extracted as the subject of \"trying\" with clear boundaries and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause where \"trying\" occurs, \"They\" functions as the agent performing the action of trying, satisfying the role of ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1293,
+"sentences": "They use the gunships to kill , we think , not less than 50,000 inhabitants of southern Iraq and trying to do that to the Kurds , as well , so it was a knife edge .",
+"predicate": "trying",
+"selected_span": [
+"They",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2256,
+20,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"where she met with crown prince Abdullah and the new Syrian President Bashar Al - Assad\" is a continuous span forming a complete adjunct clause specifying location, correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The ‘where’ clause provides locative adverbial information modifying the predicate ‘was’, aligning with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 1296,
+"sentences": "I mean Madeleine Albright was in Saudi Arabia yesterday where she met with crown prince Abdullah and the new Syrian President Bashar Al - Assad .",
+"predicate": "was",
+"selected_span": [
+"where she met with crown prince Abdullah and the new Syrian President Bashar Al - Assad",
+"ARGM-ADV",
+[
+9,
+25
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3229,
+5,
+9,
+25,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"yesterday\" is correctly extracted as a single adverbial temporal unit and its boundaries match the sentence span precisely.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"yesterday\" provides temporal information for the event expressed by \"met\", fulfilling the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1300,
+"sentences": "I mean Madeleine Albright was in Saudi Arabia yesterday where she met with crown prince Abdullah and the new Syrian President Bashar Al - Assad .",
+"predicate": "met",
+"selected_span": [
+"yesterday",
+"ARGM-TMP",
+[
+8,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+3230,
+12,
+8,
+9,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"unlike Milosevic\" is a continuous phrase in the sentence and fully captures the adverbial modifier, so its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"unlike Milosevic\" functions as an adverbial modifier providing a contrastive comparison to the clause with predicate \"says\", aligning with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role label are correct.",
+"index_sen": 1313,
+"sentences": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+"predicate": "says",
+"selected_span": [
+"unlike Milosevic",
+"ARGM-ADV",
+[
+13,
+15
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2549,
+12,
+13,
+15,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"took\" is correctly extracted as a single word immediately preceding the noun predicate \"trip\", forming a complete semantic unit for the light-verb construction.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"took\" functions as a light verb supporting the noun predicate \"trip\", forming a standard light-verb construction (LVB).",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1318,
+"sentences": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+"predicate": "trip",
+"selected_span": [
+"took",
+"ARGM-LVB",
+[
+4,
+5
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+612,
+7,
+4,
+5,
+19
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"which site\" is correctly extracted as the wh-phrase indicating the location of the event, forming a complete semantic unit for the predicate \"hoisted\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Which site\" specifies the location where the flag was hoisted, directly matching the LOC role description for the predicate \"hoisted\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1322,
+"sentences": "I wish I could tell you which site this flag was hoisted in .",
+"predicate": "hoisted",
+"selected_span": [
+"which site",
+"ARGM-LOC",
+[
+6,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1099,
+12,
+6,
+8,
+18
+],
+"conflict_span": null
+}
+]

@@ -1,0 +1,8 @@
+1.0LLM_question_generation.py: 对应 question_generation_prompt_v1
+1.0LLM_question_generation: 使用DeepSeek V3.2进行问题生成,prompt考虑了冗余,但不一定有效; prompt见question_generation_prompt;
+1.1LLM_question_generation: 使用o1-mini进行问题生成,Prompt同1.0;
+
+2.0LLM_question_answer:针对1.0生成的问题,使用ds v3.2进行回答,Prompt见question_answer_prompt;
+2.1LLM_question_answer:针对1.0生成的问题,使用ds v3.2进行回答,增加已产出数据的保留,不重复产出,Prompt见question_answer_prompt;
+2.2LLM_question_answer:针对1.0生成的问题,使用o1-mini进行回答,增加已产出数据的保留,同时针对openai报错增加处理机制,额外记录LLM返回空的情况,Prompt见question_answer_prompt;
+

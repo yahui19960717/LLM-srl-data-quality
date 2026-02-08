@@ -1,0 +1,10 @@
+总数分布：{'right': 427, 'label_error': 128, 'boundary_error': 42, 'redundant': 248}
+生成问题分布：{'right': 253, 'label_error': 81, 'boundary_error': 30, 'redundant': 104}
+正确但未生成问题的角色类型分布：{'ARG1': 7, 'DIS': 89, 'ARG0': 11, 'MOD': 9, 'ADV': 34, 'NEG': 6, 'TMP': 12, 'ARG2': 3, 'CAU': 1, 'LOC': 1, 'DIR': 1}
+标签错误且未生成问题的角色类型分布：{'ADV': 14, 'DIS': 13, 'MOD': 1, 'TMP': 3, 'ARG1': 4, 'DIR': 1, 'MNR': 4, 'LOC': 1, 'NEG': 1, 'ARG2': 1, 'ARG0': 3, 'PRD': 1}
+边界错误且未生成问题的角色类型分布：{'TMP': 4, 'DIS': 2, 'ADV': 1, 'ARG1': 2, 'ARG2': 3}
+冗余且生成问题的角色类型分布：{'DIS': 3, 'ARG4': 4, 'DIR': 3, 'TMP': 8, 'ARG2': 9, 'ADV': 16, 'CAU': 2, 'ARG1': 32, 'LOC': 3, 'ARG0': 13, 'NEG': 3, 'MNR': 1, 'PRD': 1, 'EXT': 1, 'PRP': 2, 'ADJ': 1, 'ARG3': 1, 'MOD': 1}
+正确且生成问题的角色类型分布：{'ARG1': 93, 'EXT': 3, 'TMP': 16, 'ARG0': 52, 'ARG2': 33, 'DIS': 11, 'NEG': 9, 'ADV': 10, 'ARG3': 2, 'DIR': 3, 'PRD': 4, 'MNR': 3, 'CAU': 1, 'LOC': 9, 'ARG4': 3, 'PRP': 1}
+标签错误但生成问题的角色类型分布：{'ARG2': 10, 'ARG1': 15, 'PNC': 5, 'ADV': 14, 'EXT': 1, 'ARG4': 4, 'TMP': 5, 'DIR': 9, 'MNR': 5, 'ARG0': 5, 'DIS': 2, 'ARG3': 5, 'NEG': 1}
+边界错误但生成问题的角色类型分布：{'ARG2': 8, 'CAU': 3, 'ARG4': 1, 'ARG1': 11, 'LOC': 1, 'TMP': 2, 'ADV': 2, 'ARG3': 2}
+冗余但未生成问题的角色类型分布：{'ARG0': 16, 'ARG1': 27, 'MOD': 22, 'DIS': 34, 'ADV': 24, 'NEG': 2, 'TMP': 13, 'ARG2': 4, 'MNR': 1, 'DIR': 1}

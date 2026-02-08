@@ -10,6 +10,11 @@ llmout-old:是之前的输出
 1. 7.0build_data4LLM.py：主要是构建基础信息，句子、谓词、span、错误类型等
 2. 7.1find_frame4labels.py：主要是在7.0的基础上添加frame的相关info, 要用到llamafactory的环境
 3. 7.2checkdata.py：主要是check数据，王老师写的代码 check boundary
+4. 8.0LLM6_wlj_judge_o1mini.py： o1-mini,基于王老师的prompt
+5. 8.1LLM6_wlj_judge_4omini.py： 4o-mini,基于王老师的prompt
+6. 9.0.stas_accuracy.py：王老师写的统计代码
+7. 9.1.postprocessing.py： 后处理获得PRF值以及一些统计信息
+8. 
 
 
 
@@ -23,8 +28,50 @@ TODO：
 3)现在的谓词，能分出实动词、系动词或助动词、形容词吗
 4)升级为大模型看一下上限（用o1 mini试试），看看国内模型是不是更加便宜呢，还有，gpt之前开源了oss，那个模型也还可以的，开源的应该便宜点。将gpt-4o升级为思考模型，成本是如何的，以及是否先升级为大模型看一下上限
 5)尝试三个大模型投票,如果一个模型的性能不行的话
+### 目标：
+1）融入大模型是否可提升效果，含delete和add；2）若大模型效果很好，是否可代替人工标注或是否可大幅提升标注效率和降低标注成本（可能要多模型融合）；3）若大模型效果不好，在哪方面不好（这部分可能要跟领域相关，非通用的，可以作为分析单独说明）
+2）如果写成论文，我们都可以从哪些点去说，说明工作的意义
 
-
+### Daily
+2026.1.30
+1. 选候选的结果
+2026.1.29
+1. 写投票的脚本，看了下结果，deepseek的结果不是很好，vote的结果也不是很好
+2026.1.28
+1. 
+2026.1.27
+1. 我的工作：
+    1）看下王老师的PPT；
+    2）跑deepseek的实验
+2026.1.26
+1. 我的工作：
+    1） candidate span 的也跑一下，就是你论文中的 add 操作，看是否能提升 F1，那就是先选择候选span，然后让大模型来判断，对于判断正确的加入到原始的结果中
+    2）跑下这三个文件的PRF值,看结果的时候发现新修改的prompt没有跑完，出现问题： Error code: 500 - {'error': {'message': 'upstream error: do request failed (request id: 202601240208465024182514F8IDBuV)', 'type': 'new_api_error', 'param': '', 'code': 'do_request_failed'}}
+    3) 统计角色
+    4） 看下并集和交集，但还是有点问题
+2026.1.24
+1. 跑了下新prompt下nw-tc的结果
+2026.1.23
+1. 和王老师讨论：o1-mini将召回率降低明显，是将太多span认为错误了，感觉应该是redundant判断不好导致的，这部分应该是不需要识别出来的角色吧，这里需要细统计一下，看一下到底是什么问题
+    王老师的工作：这两个错误类型（label error和redundant)，王老师看一下，增加一些示例是否会有帮助，redundant可能会有帮助，label error不好说
+    yahui：1）需要细节分析下o1-mini为什么会R值下降，这里到底是什么问题； 2）candidate span 的也跑一下，就是你论文中的 add 操作，看是否能提升 F1，那就是先选择候选span，然后让大模型来判断，对于判断正确的加入到原始的结果中
+2. 晚上和王老师讨论：按着我们目标，
+    1）王老师发现error_type == redundant & final_judgement == correct的，在核心角色上，主要是角色词在多个地方出现，但select span中index对应的角色不是正确位置的；但有很多是关于ARGM-DIS的，这个不是很好确定【yh:我感觉和领域有关系，dis就是话语连接词，如果是新闻领域就没那么多，这个是电话交谈相关的领域，一些oh uh 这种停顿的很多，也是dis】
+    2）
+3. 今日工作：
+    1)跑nw-tc和nw-bn下o1-mini的结果,用于对比不同领域之间错误spans的相似之处和区别;
+    2)写脚本分析细节分析下o1-mini为什么会R值下降：主要是
+2026.1.22
+和王老师讨论：如果按着当前统计，现在准确率比小模型的高了，我们是不是可以先基于现在的 prompt 版本，算一下准确率、召回率和 F1，看一下整体能提升多少；以及，是不是可以把 candidate span 的也跑一下，就是你论文中的 add 操作，看是否能提升 F1。相当于先把这个prompt 版本作为初版，看一下整体效果。然后我们两个同步继续看一下优化空间和后续优化方法。计算的时候这里需要把之前 flag=0 flag=1 的也算进去
+1. 跑了下4o-mini的结果：和o1-mini的结果对比了下（思考模型和非思考模型对比），发现o1-mini无论是在核心论元还是非核心论元都是比4o-mini强的；核心论元的准确率更高一些。
+2. 写了下分析脚本：分析了下LLM判断正确的spans中错误分布，发现大模型对于正确的和boundary错误识别更好，其他两种错误没有4o-mini好。
+    原始分布：{'right': 793, 'label_error': 112, 'boundary_error': 145, 'redundant': 304}
+    4o-mini: {'right': 528(66.42%), 'label_error': 58(51.79%), 'boundary_error': 69 (47.59%), 'redundant': 163(53.80%)}
+    o1-mini:{'right': 696 (87.77%), 'label_error': 53(47.32), 'boundary_error': 88 (60.69%), 'redundant': 129 (42.43%)}
+3. 跑了下PRF值：发现o1-mini的结果是最高的，应该是得益于模型的种类（思考模型）。
+    SLM结果：P: 75.17, R: 67.95, F: 71.38
+    4o-mini: P: 79.97, R: 61.45, F: 69.50
+    o1-mini: P: 80.51, R: 65.59, F: 72.29
 2026.1.21
 1. 王老师主要是跑了她修改之后prompt的结果，并统计了结果中核心角色和非核心角色的效果：
     Total Instances: 1352, Correct Instances: 935, Accuracy: 0.6916, Previous Accuracy: 0.8010

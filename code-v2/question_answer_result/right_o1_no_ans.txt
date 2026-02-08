@@ -1,0 +1,37 @@
+12 	 And then they operated on 	 operated 	 then 	 ARGM-TMP 	 right 	 yes 	 When did they operate? 	 no 	  	 None
+13 	 and I just believe it 's you know time , you know 	 know 	 you 	 ARG0 	 right 	 yes 	 Who knows? 	 no 	  	 None
+25 	 So is it really overcrowded ? 	 is 	 really overcrowded 	 ARG2 	 right 	 yes 	 How is it? 	 no 	  	 None
+53 	 and so Neil then -- Said oh just a second I -- like a week later came to Bryn Mawr 	 came 	 so 	 ARGM-DIS 	 right 	 yes 	 How did Neil come to Bryn Mawr a week later? 	 no 	  	 None
+74 	 I 'm going to tell you why 	 tell 	 why 	 ARG1 	 right 	 yes 	 Why are you going to tell me? 	 no 	  	 None
+84 	 I guess not 	 guess 	 not 	 ARGM-NEG 	 right 	 yes 	 Who doesn't someone guess? 	 no 	  	 None
+97 	 and the black 's not going to be so hot you know 	 know 	 you 	 ARG0 	 right 	 yes 	 Who knows that the black is not going to be so hot? 	 no 	  	 None
+112 	 I said I feel like I know you even though I never met you . 	 met 	 never 	 ARGM-NEG 	 right 	 yes 	 When did someone say they never met you? 	 no 	  	 None
+132 	 yeah , that 's the other 	 's 	 yeah 	 ARGM-DIS 	 right 	 yes 	 Who or what is the other? 	 no 	  	 None
+224 	 yup she sure is . 	 is 	 sure 	 ARGM-ADV 	 right 	 yes 	 How is she? 	 no 	  	 None
+239 	 But then I 've already made say like fifteen thousand or whatever here in Washington 	 made 	 then 	 ARGM-TMP 	 right 	 yes 	 When did I already make say like fifteen thousand or whatever here in Washington? 	 no 	  	 None
+243 	 Well that 's a deal . 	 's 	 Well 	 ARGM-DIS 	 right 	 yes 	 What is a deal? 	 no 	  	 None
+270 	 %um , well that 's what happens . 	 's 	 well 	 ARGM-DIS 	 right 	 yes 	 What is well? 	 no 	  	 None
+273 	 So uh-huh . I think %um tonight Charlie and I are going to go over and join up . 	 go 	 over 	 ARGM-DIR 	 right 	 yes 	 Where are Charlie and I going? 	 no 	  	 None
+326 	 You know , I mean , we 're d- , you know , 	 're 	 d- 	 ARG2 	 right 	 yes 	 Who are someone? 	 no 	  	 None
+373 	 so that 's why it 's actually a big deal is 	 's 	 why 	 ARGM-CAU 	 right 	 yes 	 Why is it actually a big deal? 	 no 	  	 None
+410 	 And so it 's 	 's 	 it 	 ARG1 	 right 	 yes 	 What is? 	 no 	  	 None
+416 	 Who was at mom and dad 's table ? 	 was 	 at mom and dad 's table 	 ARG2 	 right 	 yes 	 Where was someone? 	 no 	  	 None
+434 	 But you know it 'll never be more than about seventy or eighty percent . Which is fine . 	 be 	 never 	 ARGM-NEG 	 right 	 yes 	 How will it be more than about seventy or eighty percent? 	 no 	  	 None
+438 	 yeah it 's amazing 	 's 	 amazing 	 ARG2 	 right 	 yes 	 What is it? 	 no 	  	 None
+531 	 So that 's what I 'm doing . 	 doing 	 what 	 ARG1 	 right 	 yes 	 What is someone doing? 	 no 	  	 None
+535 	 I mean you 're 	 're 	 you 	 ARG1 	 right 	 yes 	 Who is someone? 	 no 	  	 None
+643 	 Is that what that is ? 	 Is 	 that 	 ARG1 	 right 	 yes 	 What is it? 	 no 	  	 None
+692 	 But I 'm sure for people who go in the daytime it 's probably dead . yeah . You know 	 know 	 You 	 ARG0 	 right 	 yes 	 Who knows? 	 no 	  	 None
+699 	 so that 's why it 's actually a big deal is 	 's 	 why it 's actually a big deal 	 ARG2 	 right 	 yes 	 Why is it a big deal? 	 no 	  	 None
+700 	 But I 'm sure for people who go in the daytime it 's probably dead . yeah . You know 	 's 	 it 	 ARG1 	 right 	 yes 	 What is probably dead? 	 no 	  	 None
+737 	 I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics 	 know 	 you 	 ARG0 	 right 	 yes 	 Who knows? 	 no 	  	 None
+741 	 %um and I keep thinking maybe I 'd get in touch 	 get 	 maybe 	 ARGM-ADV 	 right 	 yes 	 How might the speaker get in touch? 	 no 	  	 None
+755 	 %um , in fact I 'm still officially on leave . 	 'm 	 in fact 	 ARGM-ADV 	 right 	 yes 	 How am I still officially on leave? 	 no 	  	 None
+768 	 oh man %uh it was 	 was 	 it 	 ARG1 	 right 	 yes 	 What was? 	 no 	  	 None
+769 	 So I do n't know 	 know 	 n't 	 ARGM-NEG 	 right 	 yes 	 When does the speaker not know something? 	 no 	  	 None
+780 	 I think what we got to do is just when he comes just have lots of cereal . 	 got 	 to do 	 ARG1 	 right 	 yes 	 What did we get? 	 no 	  	 None
+783 	 Which one is he with . 	 is 	 with 	 ARG2 	 right 	 yes 	 How is he? 	 no 	  	 None
+799 	 but that 's what he said . 	 said 	 what 	 R-ARG1 	 right 	 yes 	 What did he say? 	 no 	  	 None
+802 	 did they do like %uh the same thing they had to do last time ? 	 do 	 they 	 ARG0 	 right 	 yes 	 Who did do like %uh the same thing they had to do last time? 	 no 	  	 None
+806 	 With your parents when your father was stationed over here , right ? 	 stationed 	 when 	 ARGM-TMP 	 right 	 yes 	 When was your father stationed over here? 	 no 	  	 None
+839 	 %um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen . 	 know 	 you 	 ARG0 	 right 	 yes 	 Who knows? 	 no 	  	 None

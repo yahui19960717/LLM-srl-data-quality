@@ -1,0 +1,5 @@
+nw-nw-test:
+o1-mini:
+Total Instances: 1657, Correct Instances: 1019, Accuracy: 0.6150, Previous Accuracy: 0.5142
+Core Role Instances: 786, Correct Core Role Instances: 522, Core Role Accuracy: 0.6641, Previous Core Role Accuracy: 0.5242
+Non-Core Role Instances: 871, Correct Non-Core Role Instances: 497, Non-Core Role Accuracy: 0.5706, Previous Non-Core Role Accuracy: 0.5052

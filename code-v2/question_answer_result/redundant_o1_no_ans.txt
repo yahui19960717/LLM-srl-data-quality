@@ -1,0 +1,39 @@
+17 	 and we 're going to go see her next Thursday and talk about her making my wedding dress . 	 go 	 next Thursday 	 ARGM-TMP 	 redundant 	 yes 	 When are we going to go see her? 	 yes 	 next Thursday 	 None
+95 	 But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this , 	 said 	 after two years there now 	 ARGM-TMP 	 redundant 	 yes 	 When did she say she has come to terms with this? 	 yes 	 after two years there now 	 None
+138 	 And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit 	 know 	 he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit 	 ARG1 	 redundant 	 yes 	 What does someone know before he leaves every morning? 	 yes 	 he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit 	 None
+142 	 and my taxes here are fifty percent of income . 	 are 	 here 	 ARGM-LOC 	 redundant 	 yes 	 Where are my taxes fifty percent of income? 	 yes 	 here 	 None
+165 	 But %uh , first they have to find me . 	 have 	 first 	 ARGM-TMP 	 redundant 	 yes 	 When do they have to find me? 	 yes 	 first 	 None
+246 	 %um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see . 	 sit 	 I 	 ARG1 	 redundant 	 yes 	 Who will sit and talk with Anya about some things? 	 yes 	 I 	 None
+306 	 I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you . 	 know 	 when you truly give your heart to Allah 	 ARGM-TMP 	 redundant 	 yes 	 When do you know that only Allah can make the way clear for you? 	 yes 	 when you truly give your heart to Allah 	 None
+369 	 I learned quick fast in a hurry because I 've gained so much weight . 	 learned 	 in a hurry 	 ARGM-ADV 	 redundant 	 yes 	 How did I learn quick fast? 	 yes 	 in a hurry 	 None
+377 	 And so %uh , that 's yeah at least dealt with . 	 dealt 	 that 	 ARG1 	 redundant 	 yes 	 What is dealt with? 	 yes 	 that 	 None
+393 	 so that 's why it 's actually a big deal is 	 is 	 a big deal 	 ARG2 	 redundant 	 yes 	 What is it actually? 	 yes 	 a big deal 	 None
+400 	 so I decided that it would make sense to do this . 	 do 	 I 	 ARG0 	 redundant 	 yes 	 Who decided that it would make sense to do this? 	 yes 	 I 	 None
+405 	 There 's a pretty good sale . %mm . So now we have to keep our eyes open for a champagne sale . 	 have 	 now 	 ARGM-TMP 	 redundant 	 yes 	 When do we have to keep our eyes open for a champagne sale? 	 yes 	 now 	 None
+408 	 I just would n't go . 	 go 	 I 	 ARG0 	 redundant 	 yes 	 Who just wouldn't go? 	 yes 	 I 	 None
+446 	 they consider it a luxury to call around the world 	 call 	 the world 	 ARG1 	 redundant 	 yes 	 Where do they consider it a luxury to call around? 	 yes 	 the world 	 None
+500 	 I 'm really looking forward to moving to Oregon and dealing with , 	 moving 	 I 	 ARG1 	 redundant 	 yes 	 Who is really looking forward to moving to Oregon? 	 yes 	 I 	 None
+523 	 %um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see . 	 talk 	 I 	 ARG0 	 redundant 	 yes 	 Who will sit and talk with Anya? 	 yes 	 I 	 None
+525 	 I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you . 	 said 	 mom 	 ARG2 	 redundant 	 yes 	 Who did I say it to? 	 yes 	 mom 	 None
+543 	 This girl has everything in her dreams you know . 	 know 	 everything 	 ARG1 	 redundant 	 yes 	 What does the girl have in her dreams according to the statement? 	 yes 	 everything 	 None
+549 	 And so , I then had to go bike hunting and eventually get another bike , 	 had 	 then 	 ARGM-TMP 	 redundant 	 yes 	 When did I have to go bike hunting? 	 yes 	 then 	 None
+573 	 So you have no intentions of coming over this way any time soon ? 	 coming 	 you 	 ARG1 	 redundant 	 yes 	 Who has no intentions of coming over this way any time soon? 	 yes 	 you 	 None
+587 	 Well I 'm figuring it out fast because -- okay -- with not working out and all yeah . it 's pretty miserable my crunch tape . 	 's 	 my crunch tape 	 ARG1 	 redundant 	 yes 	 What is pretty miserable? 	 yes 	 my crunch tape 	 None
+626 	 I found a gym yesterday here that 's only eight pounds a month which is like twelve dollars , twelve fifty 	 's 	 here 	 ARGM-LOC 	 redundant 	 yes 	 Where is the gym that is only eight pounds a month? 	 yes 	 here 	 None
+636 	 And she went from Penn , %um To Columbia . to Columbia to U R I . 	 went 	 To Columbia 	 ARG4 	 redundant 	 yes 	 Where did she go from Penn? 	 yes 	 To Columbia 	 None
+637 	 this place is incredibly easy to break into if you want to . 	 break 	 this place 	 ARG1 	 redundant 	 yes 	 What is incredibly easy to break into? 	 yes 	 this place 	 None
+651 	 And maybe I 'll come by , public transport . 	 come 	 public transport 	 ARGM-ADV 	 redundant 	 yes 	 How will I come by? 	 yes 	 public transport 	 None
+655 	 and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them . 	 pay 	 to go to Germany or something for them 	 ARG3 	 redundant 	 yes 	 What is the speaker not going to pay out of their own expenses for? 	 yes 	 to go to Germany or something for them 	 None
+667 	 I said to Mark oh my god . What 's she going to say 	 said 	 oh my god 	 ARGM-ADV 	 redundant 	 yes 	 What did I say to Mark? 	 yes 	 oh my god 	 None
+676 	 and all I had to do was get on it and follow it . 	 get 	 I 	 ARG1 	 redundant 	 yes 	 Who had to get on it and follow it? 	 yes 	 I 	 None
+687 	 That we were abusing , 	 abusing 	 That 	 R-ARG1 	 redundant 	 yes 	 What were we abusing? 	 yes 	 That 	 None
+698 	 and all I had to do was get on it and follow it . 	 follow 	 I 	 ARG0 	 redundant 	 yes 	 Who had to get on it and follow it? 	 yes 	 I 	 None
+721 	 and I think they would then feel guilty for not inviting me . 	 feel 	 for not inviting me 	 ARGM-CAU 	 redundant 	 yes 	 For what would they feel guilty? 	 yes 	 for not inviting me 	 None
+725 	 %uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either , 	 mean 	 if they denied my citizenship and I became a citizen here I probably would n't be a horror either 	 ARG1 	 redundant 	 yes 	 What do you mean? 	 yes 	 if they denied my citizenship and I became a citizen here I probably would n't be a horror either 	 None
+739 	 So if you want we can take a ride and go see stuff at night 	 see 	 at night 	 ARGM-TMP 	 redundant 	 yes 	 When can we go see stuff? 	 yes 	 at night 	 None
+764 	 I 've actually been doing a lot of it . 	 've 	 I 	 R-ARG0 	 redundant 	 yes 	 Who has actually been doing a lot of it? 	 yes 	 I 	 None
+772 	 So if you want we can take a ride and go see stuff at night 	 go 	 we 	 ARG0 	 redundant 	 yes 	 Who can go see stuff at night? 	 yes 	 we 	 None
+778 	 but I 'm planning on making a trip down to visit her . 	 making 	 I 	 ARG0 	 redundant 	 yes 	 Who is planning on making a trip down to visit her? 	 yes 	 I 	 None
+789 	 and %mm . that cost me a lot of time . 	 cost 	 that 	 ARG1 	 redundant 	 yes 	 What cost me a lot of time? 	 yes 	 that 	 None
+792 	 Some amount that has to be deducted a certain amount 	 deducted 	 Some amount 	 ARG1 	 redundant 	 yes 	 What has to be deducted? 	 yes 	 Some amount 	 None
+825 	 did they do like %uh the same thing they had to do last time ? 	 do 	 they 	 ARG0 	 redundant 	 yes 	 Who had to do the same thing like that last time? 	 yes 	 they 	 None

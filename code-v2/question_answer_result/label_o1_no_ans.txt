@@ -1,0 +1,10 @@
+109 	 and they 'll still be enough time when I come home for me to order those . 	 come 	 when 	 R-ARGM-TMP 	 label_error 	 yes 	 When will I come home? 	 no 	  	 ARGM-TMP
+147 	 And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that . 	 brings 	 with him 	 ARGM-MNR 	 label_error 	 yes 	 Who does he bring four sandwiches with? 	 no 	  	 ARGM-ADV
+188 	 Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um 	 gotten 	 he 	 ARG0 	 label_error 	 yes 	 Who has gotten how far? 	 no 	  	 ARG1
+198 	 oh that 's some deep , 	 's 	 oh 	 ARGM-ADV 	 label_error 	 yes 	 What is some deep? 	 no 	  	 ARGM-DIS
+328 	 So , I assume it 's hard for you not to eat as much as he does . 	 eat 	 as much as he does 	 ARGM-ADV 	 label_error 	 yes 	 How much does someone eat? 	 no 	  	 ARGM-EXT
+445 	 It 's just , %uh , people get sick , 	 's 	 just 	 ARG2 	 label_error 	 yes 	 How is it? 	 no 	  	 ARGM-ADV
+494 	 because I knew what she would do if I took her somewhere you know what she would say 	 took 	 somewhere 	 ARGM-DIR 	 label_error 	 yes 	 Where did someone take her? 	 no 	  	 ARGM-GOL
+593 	 %uh would you mind %uh taking her back 	 taking 	 back 	 ARGM-DIR 	 label_error 	 yes 	 Where would someone mind taking her? 	 no 	  	 ARGM-GOL
+625 	 I do n't know if you spoke to me before that or when it was that was happening . Or 	 was 	 when 	 ARGM-TMP 	 label_error 	 yes 	 When was it that what was happening? 	 no 	  	 ARG2
+820 	 Is it paid today ? 	 paid 	 it 	 ARG3 	 label_error 	 yes 	 What was paid today? 	 no 	  	 ARG1

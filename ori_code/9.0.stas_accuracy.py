@@ -34,12 +34,13 @@ def stas_accuracy(data, path_save):
         error_type = instance.get('error_type', None)
         selected_span = instance.get('selected_span', None)
         org_span = instance.get('org_span', None)
+        conflict_span = instance.get('conflict_span', None)
         temp_span = selected_span[1].split("-")[-1]
         if temp_span in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}:
             core_total_num += 1
         else:
-            nocore_total_num += 1        
-        if final_judgement == 'correct' and (error_type == 'right' or error_type == 'boundary_error' and selected_span[2][0] == org_span[2] and selected_span[2][1] == org_span[3]):
+            nocore_total_num += 1       
+        if final_judgement == 'correct' and error_type == 'right':
             correct_num += 1
             if temp_span in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}:
                 core_correct_num += 1
@@ -54,7 +55,7 @@ def stas_accuracy(data, path_save):
         else:
             if temp_span in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}:
                 err_results.append(instance)
-        if error_type == 'right' or error_type == "boundary_error" and selected_span[2][0] == org_span[2] and selected_span[2][1] == org_span[3]:
+        if error_type == 'right':
             old_correct_num += 1
             if temp_span in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}:
                 old_core_correct_num += 1
@@ -77,7 +78,7 @@ def stas_accuracy(data, path_save):
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # 只使用第 0 块 GPU
     dataset = ['test'] #dev, 
-    source = ['bn'] #["nw",  "bn", "bc" ]# 'bn'
+    source = ['nw'] #["nw",  "bn", "bc" ]# 'bn'
     target = ['tc'] #['tc', 'bn', 'nw', 'bc'] # 'tc',
     for k in dataset:
         for i in source:
@@ -85,6 +86,11 @@ if __name__=="__main__":
                 print(f'{i}-{j}-{k}:')
                 data = read_json(f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp.json')
                 path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmerror.json'
+                print("o1-mini:")
                 stas_accuracy(data, path_llmout)
+                # data = read_json(f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp-4o-mini.json')
+                # path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmerror-4o-mini.json'
+                # print("4o-mini:")
+                # stas_accuracy(data, path_llmout)
 
     

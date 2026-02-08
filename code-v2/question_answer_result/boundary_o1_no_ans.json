@@ -1,0 +1,699 @@
+[
+{
+"index_sen": 110,
+"sentences": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+"selected_span": [
+"to %uh",
+"ARG4",
+[
+27,
+29
+]
+],
+"predicate": "going",
+"org_span": [
+90,
+26,
+27,
+29,
+6
+],
+"selected_other_spans": [
+"she:ARG1"
+],
+"predict_prob": 0.9491399526596069,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+90,
+26,
+27,
+30,
+6
+],
+"lemma": "go",
+"pred_sense": "02",
+"candidate_roles": {
+"ARG0": "goer",
+"ARG1": "journey",
+"ARG3": "start point",
+"ARG4": "end point"
+},
+"examples": [
+{
+"example_name": "go-v: journey",
+"example_text": "He and two colleagues went on an overnight fishing trip .",
+"example_rel": "went",
+"arguments": [
+{
+"ARG0": "He and two colleagues",
+"role_descrip": "goer"
+},
+{
+"ARG1": "on an overnight fishing trip",
+"role_descrip": "journey"
+}
+]
+},
+{
+"example_name": "go-v: end point",
+"example_text": "The lawyers went to work",
+"example_rel": "went",
+"arguments": [
+{
+"ARG0": "The lawyers",
+"role_descrip": "goer"
+},
+{
+"ARG4": "to work",
+"role_descrip": "end point"
+}
+]
+},
+{
+"example_name": "go-v: with manner",
+"example_text": "Currently in the middle of a four - week , 20 - city tour as a solo pianist , Mr. Glass has left behind his synthesizers , equipment and collaborators in favor of going it alone .",
+"example_rel": "going",
+"arguments": [
+{
+"ARG0": "Mr. Glass",
+"role_descrip": "goer"
+},
+{
+"ARG1": "it",
+"role_descrip": "journey"
+},
+{
+"ARGM-MNR": "alone",
+"role_descrip": "manner"
+}
+]
+},
+{
+"example_name": "going-n: as nominal",
+"example_text": "`` I think Bush 's going there is a helpful sign , '' said Sen. Terry Sanford ( D. , N.C. ) a member of the Foreign Relations Committee who pushed to provide Costa Rica about the same amount of aid as it received last year .",
+"example_rel": "going",
+"arguments": [
+{
+"ARG0": "Bush 's",
+"role_descrip": "goer"
+},
+{
+"ARG4": "there",
+"role_descrip": "end point"
+}
+]
+},
+{
+"example_name": "gone-j: go on vacation, leave habitual places",
+"example_text": "I am gone for three weeks on vacation .",
+"example_rel": "gone",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "goer"
+},
+{
+"ARGM-TMP": "for three weeks",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "on vacation",
+"role_descrip": "journey"
+}
+]
+},
+{
+"example_name": "gone-j: MIA",
+"example_text": "The pen is gone .",
+"example_rel": "gone",
+"arguments": [
+{
+"ARG0": "The pen",
+"role_descrip": "goer"
+}
+]
+},
+{
+"example_name": "gone-j: Gone from place",
+"example_text": "I am gone from the forum for two days and what happens ?",
+"example_rel": "gone",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "goer"
+},
+{
+"ARG3": "from the forum",
+"role_descrip": "start point"
+},
+{
+"ARGM-TMP": "for two days",
+"role_descrip": "temporal"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Where may she end up going?\"}",
+"ans_response": "{\"has_answer\":\"no\",\"answer\":\"\"}"
+},
+{
+"index_sen": 241,
+"sentences": "and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the",
+"selected_span": [
+"in",
+"ARGM-LOC",
+[
+20,
+21
+]
+],
+"predicate": "living",
+"org_span": [
+676,
+20,
+20,
+21,
+18
+],
+"selected_other_spans": [
+"Ginny Totta you know in the alumni thing:ARG0"
+],
+"predict_prob": 0.7746347784996033,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+676,
+20,
+20,
+22,
+18
+],
+"lemma": "live",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "alive entity",
+"ARG1": "life"
+},
+"examples": [
+{
+"example_name": "live-v: ARG0",
+"example_text": "A Mrs. Chao , who lives in Neihu , explains that on weekends or vacation days the whole family sleeps late .",
+"example_rel": "lives",
+"arguments": [
+{
+"ARG0": "A Mrs. Chao",
+"role_descrip": "alive entity"
+},
+{
+"R-ARG0": "who",
+"role_descrip": "alive entity"
+},
+{
+"ARGM-LOC": "in Neihu",
+"role_descrip": "location"
+}
+]
+},
+{
+"example_name": "live-v: a kind of manner",
+"example_text": "He lived with her .",
+"example_rel": "lived",
+"arguments": [
+{
+"ARG0": "He",
+"role_descrip": "alive entity"
+},
+{
+"ARGM-MNR": "with her",
+"role_descrip": "manner"
+}
+]
+},
+{
+"example_name": "live-v: ARG0 and ARG1",
+"example_text": "\" Snake Daddy \" Lin Hua - ching says that as far as is known from observation of snakes in the wild , they live largely solitary lives .",
+"example_rel": "live",
+"arguments": [
+{
+"ARGM-ADV": "as far as is known from observation of snakes in the wild",
+"role_descrip": "adverbial modification"
+},
+{
+"ARG0": "they",
+"role_descrip": "alive entity"
+},
+{
+"ARG1": "largely solitary lives",
+"role_descrip": "life"
+}
+]
+},
+{
+"example_name": "living-n: Arg0, LOC",
+"example_text": "His works of the 1960s show the influence of his travels in Europe and his living in New York City at the height of the abstract expressionists .",
+"example_rel": "living",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "alive entity"
+},
+{
+"ARGM-LOC": "in New York City",
+"role_descrip": "location"
+},
+{
+"ARGM-TMP": "at the height of the abstract expressionists",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "living-n: Arg0,1",
+"example_text": "He forgot to mention his living a life of quiet .",
+"example_rel": "living",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "alive entity"
+},
+{
+"ARG1": "a life of quiet",
+"role_descrip": "life"
+}
+]
+},
+{
+"example_name": "lived-j: MNR and arg1",
+"example_text": "I would like to move into the next stage of my life as an older woman , hopefully putting the wisdom of a hard - lived life to good use , both at home and at work .",
+"example_rel": "lived",
+"arguments": [
+{
+"ARGM-MNR": "hard",
+"role_descrip": "manner"
+},
+{
+"ARG1": "life",
+"role_descrip": "life"
+}
+]
+},
+{
+"example_name": "lived-j: arg1, TMP",
+"example_text": "The migraine was short - lived .",
+"example_rel": "lived",
+"arguments": [
+{
+"ARG0": "The migraine",
+"role_descrip": "alive entity"
+},
+{
+"ARGM-TMP": "short",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "alive-j: Somewhat depressing example",
+"example_text": "In 10 yrs time with radiation alone , she has a 65 % chance of being alive and disease free .",
+"example_rel": "alive",
+"arguments": [
+{
+"ARG0": "she",
+"role_descrip": "alive entity"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Where is Ginny Totta living?\"}",
+"ans_response": "{\"has_answer\": \"no\", \"answer\": \"\"}"
+},
+{
+"index_sen": 419,
+"sentences": "Alice , I 've never seen anybody eat as much as he does",
+"selected_span": [
+"anybody eat as much as he",
+"ARG1",
+[
+6,
+12
+]
+],
+"predicate": "seen",
+"org_span": [
+2145,
+6,
+6,
+12,
+3
+],
+"selected_other_spans": [
+"Alice:ARGM-DIS",
+"I:ARG0",
+"never:ARGM-TMP"
+],
+"predict_prob": 0.5632117986679077,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+2145,
+6,
+6,
+13,
+3
+],
+"lemma": "see",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "viewer",
+"ARG1": "thing viewed",
+"ARG2": "attribute of arg1, further description"
+},
+"examples": [
+{
+"example_name": "see-v: ARG0 and ARG1",
+"example_text": "But recently many people who are not ordinarily superstitious have sought the services of fortunetellers when they 've seen the value of their stocks decline .",
+"example_rel": "seen",
+"arguments": [
+{
+"ARGM-TMP": "when",
+"role_descrip": "temporal"
+},
+{
+"ARG0": "they",
+"role_descrip": "viewer"
+},
+{
+"ARG1": "the value of their stocks decline",
+"role_descrip": "thing viewed"
+}
+]
+},
+{
+"example_name": "see-v: ARG0 and ARG1 and ARG2",
+"example_text": "\" The key factor allowing men to have the courage to display their own bodies is that they see their bodies as their own .",
+"example_rel": "see",
+"arguments": [
+{
+"ARG0": "they",
+"role_descrip": "viewer"
+},
+{
+"ARG1": "their bodies",
+"role_descrip": "thing viewed"
+},
+{
+"ARG2": "as their own",
+"role_descrip": "attribute of arg1, further description"
+}
+]
+},
+{
+"example_name": "sight-v: found",
+"example_text": "No major oil concentrations have been sighted recently more than 6 miles northwest of the source of the vessel .",
+"example_rel": "sighted",
+"arguments": [
+{
+"ARG1": "No major oil concentrations",
+"role_descrip": "thing viewed"
+},
+{
+"ARGM-TMP": "recently",
+"role_descrip": "temporal"
+},
+{
+"ARGM-LOC": "more than 6 miles northwest of the source of the vessel",
+"role_descrip": "location"
+}
+]
+},
+{
+"example_name": "sight-n: both args",
+"example_text": "The climax is his visit to the dead man 's house and his sight of the body .",
+"example_rel": "sight",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "viewer"
+},
+{
+"ARG1": "of the body",
+"role_descrip": "thing viewed"
+}
+]
+},
+{
+"example_name": "sight-n: just arg1",
+"example_text": "The sight of professionals in suits and ties rushing to class at dusk contrasts greatly from the typical jeans and casual attire of fresh - faced undergrads .",
+"example_rel": "sight",
+"arguments": [
+{
+"ARG1": "of professionals in suits and ties rushing to class at dusk",
+"role_descrip": "thing viewed"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who has Alice never seen?\"}",
+"ans_response": "{\"has_answer\":\"no\",\"answer\":\"\"}"
+},
+{
+"index_sen": 421,
+"sentences": "And if you do , I 'll send it by email okay if I get it before this weekend",
+"selected_span": [
+"okay if I get it before this weekend",
+"ARGM-ADV",
+[
+11,
+19
+]
+],
+"predicate": "send",
+"org_span": [
+344,
+8,
+11,
+19,
+10
+],
+"selected_other_spans": [
+"And:ARGM-DIS",
+"if you do:ARGM-ADV",
+"I:ARG0",
+"'ll:ARGM-MOD",
+"it:ARG1",
+"by email:ARGM-MNR"
+],
+"predict_prob": 0.9485127329826355,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+344,
+8,
+12,
+19,
+10
+],
+"lemma": "send",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "sender",
+"ARG1": "sent",
+"ARG2": "sent-to"
+},
+"examples": [
+{
+"example_name": "ditransitive",
+"example_text": "They have begun sending letters explain the program to about five million card holders .",
+"example_rel": "sending",
+"arguments": [
+{
+"ARG0": "They",
+"role_descrip": "sender"
+},
+{
+"ARG1": "letters explain the program",
+"role_descrip": "sent"
+},
+{
+"ARG2": "to about five million card holders",
+"role_descrip": "sent-to"
+}
+]
+},
+{
+"example_name": "double object",
+"example_text": "He sent merchants around the country a form asking them to check one of three answers .",
+"example_rel": "sent",
+"arguments": [
+{
+"ARG0": "He",
+"role_descrip": "sender"
+},
+{
+"ARG2": "merchants around the country",
+"role_descrip": "sent-to"
+},
+{
+"ARG1": "a form asking them to check one of three answers",
+"role_descrip": "sent"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What will happen if you send it by email?\"}",
+"ans_response": "{\"has_answer\":\"no\",\"answer\":\"\"}"
+},
+{
+"index_sen": 460,
+"sentences": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+"selected_span": [
+"%um and again",
+"ARGM-TMP",
+[
+0,
+3
+]
+],
+"predicate": "said",
+"org_span": [
+80,
+19,
+0,
+3,
+29
+],
+"selected_other_spans": [
+"my husband:ARG0",
+"he was even going to have to sheik pray over her:ARG1"
+],
+"predict_prob": 0.8425756692886353,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+80,
+19,
+2,
+3,
+29
+],
+"lemma": "say",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "Sayer",
+"ARG1": "Utterance",
+"ARG2": "Hearer",
+"ARG3": "Attributive"
+},
+"examples": [
+{
+"example_name": "Transitive",
+"example_text": "A Lorillard spokeswoman said \" This is an old story . \"",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "A Lorillard spokeswoman",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "\" This is an old story . \"",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Fronted",
+"example_text": "Kent cigarettes were sold , the company said",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "the company",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "Kent cigarettes were sold",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Inverted",
+"example_text": "What matters is what advertisers will pay , said Newsweek 's chairman",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "What matters is what advertisers will pay",
+"role_descrip": "Utterance"
+},
+{
+"ARG0": "Newsweek 's chairman",
+"role_descrip": "Sayer"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG2",
+"example_text": "On December 9 , the British firm Tesco said hello to consumers in Taiwan when it formally opened its clean , bright and spacious store .",
+"example_rel": "said",
+"arguments": [
+{
+"ARGM-TMP": "On December 9",
+"role_descrip": "temporal"
+},
+{
+"ARG0": "the British firm Tesco",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "hello",
+"role_descrip": "Utterance"
+},
+{
+"ARG2": "to consumers in Taiwan",
+"role_descrip": "Hearer"
+},
+{
+"ARGM-TMP": "when it formally opened its clean , bright and spacious store",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG3",
+"example_text": "Although Lee 's trip would seem to have been a shot in the arm for the deadlocked cross - strait relationship , it also generated a lot of speculation and ill will because neither Lee nor anyone who met with him was willing to say a word about the content of their discussions , and ROC officials who went to call on Lee at his hotel skulked around in underground walkways and service elevators to avoid journalists .",
+"example_rel": "say",
+"arguments": [
+{
+"ARG0": "neither Lee nor anyone who met with him",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "a word",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "about the content of their discussions",
+"role_descrip": "Attributive"
+}
+]
+},
+{
+"example_name": "ARG1 and ARG3",
+"example_text": "But the truth is that objects said to attract money sell just as well in good times as bad , for when the economy is strong , people are willing to spend large sums to ensure that they can hold onto their wealth .",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "objects",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "to attract money",
+"role_descrip": "Attributive"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When did my husband say?\"}",
+"ans_response": "{\"has_answer\":\"no\",\"answer\":\"\"}"
+}
+]

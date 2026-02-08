@@ -1,0 +1,1370 @@
+[
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"when it could have been finished\" is a complete temporal clause modifying the predicate \"finished\" and is correctly extracted as a continuous span.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"when it could have been finished\" provides the temporal information for the event \"finished\", matching the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 33,
+"sentences": "He was right about that , but that means that he inaugurated at that point like a dozen - years war where the United States could be criticized for doing too little and acting too slowly but all we 're arguing about lately is to do with those that should have been finished in `91 when it could have been finished .",
+"predicate": "finished",
+"selected_span": [
+"when it could have been finished",
+"ARGM-TMP",
+[
+55,
+61
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1903,
+53,
+55,
+61,
+29
+],
+"conflict_span": [
+1903,
+53,
+53,
+61,
+29
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"to a passage\" is a contiguous prepositional phrase that forms a complete semantic unit indicating direction or destination.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"you come to a passage,\" \"to a passage\" denotes the destination or end point of the motion expressed by \"come,\" matching the ARG4 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the semantic role labeling are correct.",
+"index_sen": 35,
+"sentences": "Greg , go ahead , if you come to a passage we should hear .",
+"predicate": "come",
+"selected_span": [
+"to a passage",
+"ARG4",
+[
+8,
+11
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1254,
+8,
+8,
+11,
+6
+],
+"conflict_span": [
+1254,
+8,
+8,
+14,
+6
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"certainly on the surface there has been little US action\" is a contiguous clause functioning as a complete semantic unit representing the content of the utterance.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In this clause, the argument represents the utterance or content of the predicate \"say\", which aligns with the role description for ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling correctly identify the content of what is said by the predicate.",
+"index_sen": 128,
+"sentences": "So , as of today , I would say certainly on the surface there has been little US action .",
+"predicate": "say",
+"selected_span": [
+"certainly on the surface there has been little US action",
+"ARG1",
+[
+9,
+19
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+543,
+9,
+9,
+19,
+3
+],
+"conflict_span": [
+543,
+9,
+10,
+19,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument is a contiguous noun phrase complement of the copular verb “Is,” containing two coordinated “that”-clauses and forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The extracted argument serves as the comment or complement of the predicate “Is,” which aligns with the ARG2 role description for a copular predicate.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the assigned semantic role are appropriate and accurate.",
+"index_sen": 137,
+"sentences": "Is it your sense that the United States is on the right track ? that there is a commitment here on the part of the United States to --",
+"predicate": "Is",
+"selected_span": [
+"your sense that the United States is on the right track ? that there is a commitment here on the part of the United States to",
+"ARG2",
+[
+2,
+28
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+3019,
+1,
+2,
+28,
+4
+],
+"conflict_span": [
+3019,
+1,
+2,
+4,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"lifting economic sanctions against Yugoslavia\" is a continuous phrase in the sentence and forms a complete semantic unit as the event being started.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"will start lifting economic sanctions against Yugoslavia today,\" the argument represents the Theme of the predicate \"start,\" matching the ARG1 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and its assigned semantic role are correct.",
+"index_sen": 165,
+"sentences": "The United States and the European Union will start lifting economic sanctions against Yugoslavia today .",
+"predicate": "start",
+"selected_span": [
+"lifting economic sanctions against Yugoslavia",
+"ARG1",
+[
+9,
+14
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1407,
+9,
+9,
+14,
+3
+],
+"conflict_span": [
+1407,
+9,
+9,
+15,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument is a contiguous noun phrase immediately following the predicate \"think\", fully capturing the proposition being thought and forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument expresses the content or proposition that the speaker believes, aligning precisely with the ‘Thought’ role (ARG1) of the predicate \"think\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 222,
+"sentences": "I think a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street .",
+"predicate": "think",
+"selected_span": [
+"a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC",
+"ARG1",
+[
+2,
+28
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1907,
+2,
+2,
+28,
+3
+],
+"conflict_span": [
+1907,
+2,
+2,
+63,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument “so that at a certain point , you have a new he , you have a new she , you have a you” is a continuous purpose clause introduced by “so that” and forms a complete adjunct modifying the predicate “proliferate.”",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause expresses the intended outcome or purpose of the proliferation of characters, aligning with the PRP role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 275,
+"sentences": "Characters proliferate out of the imagination of the narrator so that at a certain point , you have a new he , you have a new she , you have a you , and each one of these characters tells stories , each story of which is designed to give you a deeper sense of the richness and the complexity of life in China .",
+"predicate": "proliferate",
+"selected_span": [
+"so that at a certain point , you have a new he , you have a new she , you have a you",
+"ARGM-PRP",
+[
+9,
+32
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2064,
+2,
+9,
+32,
+25
+],
+"conflict_span": [
+2064,
+2,
+9,
+64,
+25
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"at the top of the hour\" is a continuous prepositional phrase in the sentence and forms a complete temporal adjunct describing when the delivering occurs.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"At the top of the hour\" specifies the time of the event expressed by \"delivering\", fulfilling the TMP (temporal) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 326,
+"sentences": "We 're all getting , this news in from the speech that the Homeland Security Secretary Tom Ridge is expected to be delivering at the international press club around 1:00 Eastern at the top of the hour .",
+"predicate": "delivering",
+"selected_span": [
+"at the top of the hour",
+"ARGM-TMP",
+[
+31,
+37
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2231,
+23,
+31,
+37,
+29
+],
+"conflict_span": [
+2231,
+23,
+28,
+37,
+29
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"his organization\" is a contiguous phrase in the sentence and forms a complete semantic unit as the entity receiving the call.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"called on his organization to close its mission...\", \"his organization\" functions as the addressee (prototypical patient) of the predicate \"called\",\" aligning with the ARG1 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 359,
+"sentences": "On Wednesday UN Secretary General Kofi Annan called on his organization to close its mission in Haiti citing the unstable political climate .",
+"predicate": "called",
+"selected_span": [
+"his organization",
+"ARG1",
+[
+9,
+11
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+3283,
+8,
+9,
+11,
+3
+],
+"conflict_span": [
+3283,
+8,
+8,
+11,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"that we saw coming from Iraq\" is a continuous span forming a complete relative clause modifying the noun predicate \"coverage\", and its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The relative clause functions as an adjectival modifier of the noun \"coverage\", which aligns with the ADJ role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 373,
+"sentences": "David Williams , one of the POWs whose face we got to know in the coverage that we saw coming from Iraq .",
+"predicate": "coverage",
+"selected_span": [
+"that we saw coming from Iraq",
+"ARGM-ADJ",
+[
+16,
+22
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2974,
+16,
+16,
+22,
+9
+],
+"conflict_span": [
+2974,
+16,
+16,
+19,
+9
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument encompasses the entire spoken content attributed to \"said\", corresponding exactly to the quotation and forming a complete contiguous semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument is the reported speech (utterance) of the predicate \"said\", which aligns with the ARG1 role description for utterance.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling correctly identify the utterance relationship.",
+"index_sen": 381,
+"sentences": "Just one last thing quoting him and I wonder if you could respond to this , Christopher , he said at the very beginning of his wonderful speech to the Nobel Prize Committee , he said , `` I do not wish to waste this talk on literature by saying too much about politics and history , What I want to do is to use this opportunity to speak as one writer in the voice of an individual . ''",
+"predicate": "said",
+"selected_span": [
+"I do not wish to waste this talk on literature by saying too much about politics and history , What I want to do is to use this opportunity to speak as one writer in the voice of an individual",
+"ARG1",
+[
+38,
+78
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2053,
+36,
+38,
+78,
+3
+],
+"conflict_span": [
+2053,
+36,
+37,
+78,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"today of sorts\" is a continuous span that correctly captures the temporal adjunct modifying the predicate \"reached\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"today of sorts\" indicates when the event \"reached\" occurred, which aligns with the TMP (temporal) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 450,
+"sentences": "And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",
+"predicate": "reached",
+"selected_span": [
+"today of sorts",
+"ARGM-TMP",
+[
+13,
+16
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+3804,
+11,
+13,
+16,
+29
+],
+"conflict_span": [
+3804,
+11,
+13,
+14,
+29
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"D - Day\" is correctly extracted as a contiguous phrase representing the complete predicative complement of \"was\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"Today was D - Day...\", \"D - Day\" functions as the predicative complement or comment of the copular predicate \"was\", matching the ARG2 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role assignment are correct.",
+"index_sen": 509,
+"sentences": "Today was D - Day in the murder trial which in the end brought some relief .",
+"predicate": "was",
+"selected_span": [
+"D - Day",
+"ARG2",
+[
+2,
+5
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+497,
+2,
+2,
+5,
+4
+],
+"conflict_span": [
+497,
+2,
+2,
+16,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument spans the full noun phrase including its relative clause as a contiguous and complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The noun phrase denotes the entity performing the action of 'starts', satisfying the Agent role ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 534,
+"sentences": "At home , President Vojislav Kostunica says that he intends to promote democracy and free speech , but Kostunica just might have second thoughts , once a theater group that roasted his predecessor over the coals starts turning him on a spit .",
+"predicate": "starts",
+"selected_span": [
+"a theater group that roasted his predecessor over the coals",
+"ARG0",
+[
+26,
+36
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+3844,
+37,
+26,
+36,
+2
+],
+"conflict_span": [
+3844,
+37,
+26,
+29,
+2
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"a pop on these games\" is a contiguous phrase in the sentence and forms a complete semantic unit as the object of the predicate \"spending\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"Kids are spending $ 50 to $ 70, you know, a pop on these games\", the argument \"a pop on these games\" denotes the amount and target of the spending, aligning with the role description for ARG1 as the commodity of \"spending\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 566,
+"sentences": "Kids are spending $ 50 to $ 70 , you know , a pop on these games .",
+"predicate": "spending",
+"selected_span": [
+"a pop on these games",
+"ARG1",
+[
+12,
+17
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+117,
+3,
+12,
+17,
+3
+],
+"conflict_span": [
+117,
+3,
+14,
+17,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"in\" is correctly extracted as the directional adverbial head modifying the predicate \"flying\", forming a complete constituent expressing direction.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"In\" functions as a directional adjunct indicating the direction of the flying event, aligning with the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 571,
+"sentences": "Reporter Lee , flying in from California , unsure if his wife was alive , today , identifying his remains , and tonight survivor John Diaz begins the long trip home to California .",
+"predicate": "flying",
+"selected_span": [
+"in",
+"ARGM-DIR",
+[
+4,
+5
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2362,
+4,
+4,
+5,
+13
+],
+"conflict_span": [
+2362,
+4,
+4,
+7,
+13
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"what\" is the direct object pronoun representing the thing being done by \"doing\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"what\" functions as the direct object of \"doing\", indicating the thing being done, which aligns with the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 576,
+"sentences": "The question should be what the Hosni Mubarak are they still doing there eight years after the peace process began .",
+"predicate": "doing",
+"selected_span": [
+"what",
+"ARG1",
+[
+4,
+5
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+28,
+12,
+4,
+5,
+3
+],
+"conflict_span": [
+28,
+12,
+4,
+8,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"not to move toward Bagdad with bad information\" is a contiguous phrase forming a complete clause that corresponds exactly to the content decided by the predicate \"decision\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "For the nominal predicate \"decision\", ARG1 denotes the thing decided (the patient/theme), which here is precisely \"not to move toward Bagdad with bad information\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 643,
+"sentences": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+"predicate": "decision",
+"selected_span": [
+"not to move toward Bagdad with bad information",
+"ARG1",
+[
+5,
+13
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+336,
+5,
+5,
+13,
+3
+],
+"conflict_span": [
+336,
+5,
+5,
+10,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"in importance\" is a complete prepositional phrase expressing the extent by which the relationship has grown.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"in importance\" specifies the extent or amount by which the predicate \"grown\" increased, matching the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the semantic role labeling are correct.",
+"index_sen": 700,
+"sentences": "Since then this relationship has grown in importance to us both through good times and bad .",
+"predicate": "grown",
+"selected_span": [
+"in importance",
+"ARG2",
+[
+6,
+8
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+421,
+6,
+6,
+8,
+4
+],
+"conflict_span": [
+421,
+6,
+6,
+11,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"to a peace process\" is a contiguous prepositional phrase that forms a complete semantic unit indicating the endpoint of the movement.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"to a peace process\" specifies the destination of the predicate \"move,\" which matches the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the semantic role assignment are accurate.",
+"index_sen": 738,
+"sentences": "We do have to try to reduce the violee and take a turn back for a period of calmness so that we can move back to a peace process , but even if the violence subsides , Israelis and Palestinians will still have to deal with an open wound -- a scar so long and so deep from these last two weeks , it may be years before there is a real effort at talking peace again .",
+"predicate": "move",
+"selected_span": [
+"to a peace process",
+"ARG2",
+[
+25,
+29
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1865,
+24,
+25,
+29,
+4
+],
+"conflict_span": [
+1865,
+24,
+24,
+29,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"at that point in Lebanon now with the Palestinians\" is a continuous adverbial phrase directly modifying the predicate \"involving\", capturing the full temporal context of the event.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase provides temporal information (\"at that point\", \"now\") for the event expressed by \"involving\", aligning with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the temporal role labeling are correct.",
+"index_sen": 756,
+"sentences": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+"predicate": "involving",
+"selected_span": [
+"at that point in Lebanon now with the Palestinians",
+"ARGM-TMP",
+[
+34,
+43
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1972,
+32,
+34,
+43,
+29
+],
+"conflict_span": [
+1972,
+32,
+34,
+37,
+29
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"not sufficiently clear\" is a contiguous adjective phrase forming the complete predicative complement of the copular predicate \"are\" and is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"We are usually not sufficiently clear\", \"not sufficiently clear\" functions as the predicative comment or complement of the copular verb \"are\", aligning with the role description for ARG2 as comment.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 789,
+"sentences": "We are usually not sufficiently clear , we meaning the Secretariat , in explaining that sovereignty and final analysis belongs to the people and sovereignty should be seen in a democratic context .",
+"predicate": "are",
+"selected_span": [
+"not sufficiently clear",
+"ARG2",
+[
+3,
+6
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2665,
+2,
+3,
+6,
+4
+],
+"conflict_span": [
+2665,
+2,
+4,
+32,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"how close to exploding\" is a contiguous phrase that forms a complete semantic unit representing the comment of the predicate \"is\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"how close to exploding it really is\", the phrase \"how close to exploding\" functions as the comment of the predicate \"is\", aligning with the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 801,
+"sentences": "When you talk about Arafat and the people around him , you have to understand how young this population really is -- how volatile , how close to exploding it really is .",
+"predicate": "is",
+"selected_span": [
+"how close to exploding",
+"ARG2",
+[
+25,
+29
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2115,
+32,
+25,
+29,
+4
+],
+"conflict_span": [
+2115,
+32,
+22,
+29,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"a sign of genuine friendship that we are able to have disagreements , but remain firm partners\" is a contiguous phrase and forms the complete NP complement of the predicate \"is\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause, the argument functions as the comment or predicate complement of the copular verb \"is\", which aligns with the role description for ARG2.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 855,
+"sentences": "Mr. President , it is , I believe , a sign of genuine friendship that we are able to have disagreements , but remain firm partners .",
+"predicate": "is",
+"selected_span": [
+"a sign of genuine friendship that we are able to have disagreements , but remain firm partners",
+"ARG2",
+[
+9,
+26
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+3119,
+5,
+9,
+26,
+4
+],
+"conflict_span": [
+3119,
+5,
+9,
+14,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"an edge\" is a contiguous noun phrase serving as the object of the predicate and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"what an edge West African music can really have\", \"an edge\" denotes the possession that the predicate \"have\" describes, aligning with ARG1 as the possessed entity.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 884,
+"sentences": "When American saxophonist David Murray recorded his acclaimed afrocentric jazz album , Fo Juke Review in Dakar , he recruited Amidu Berry and DJ Awadi from PBS to show what an edge West African music can really have .",
+"predicate": "have",
+"selected_span": [
+"an edge",
+"ARG1",
+[
+30,
+32
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2560,
+38,
+30,
+32,
+3
+],
+"conflict_span": [
+2560,
+38,
+29,
+32,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"in `91\" correctly captures the complete temporal prepositional phrase modifying \"finished\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"in `91\" provides the temporal information specifying when the event of \"finished\" should have occurred, matching the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 916,
+"sentences": "He was right about that , but that means that he inaugurated at that point like a dozen - years war where the United States could be criticized for doing too little and acting too slowly but all we 're arguing about lately is to do with those that should have been finished in `91 when it could have been finished .",
+"predicate": "finished",
+"selected_span": [
+"in `91",
+"ARGM-TMP",
+[
+53,
+55
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1903,
+53,
+53,
+55,
+29
+],
+"conflict_span": [
+1903,
+53,
+53,
+61,
+29
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"around 1:00 Eastern\" is a continuous time expression in the sentence and fully captures the temporal adjunct of the predicate \"delivering\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"around 1:00 Eastern\" correctly specifies the time when the event of \"delivering\" occurs, aligning with the TMP role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 964,
+"sentences": "We 're all getting , this news in from the speech that the Homeland Security Secretary Tom Ridge is expected to be delivering at the international press club around 1:00 Eastern at the top of the hour .",
+"predicate": "delivering",
+"selected_span": [
+"around 1:00 Eastern",
+"ARGM-TMP",
+[
+28,
+31
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2231,
+23,
+28,
+31,
+29
+],
+"conflict_span": [
+2231,
+23,
+28,
+37,
+29
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"later\" is a single word with clear boundaries and forms a complete semantic unit indicating time.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Later\" provides temporal information for the event expressed by \"said\", matching the TMP role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1044,
+"sentences": "Maybe before the weapon and then later he said , Oh , I should have got the nuclear weapon before I invaded .",
+"predicate": "said",
+"selected_span": [
+"later",
+"ARGM-TMP",
+[
+6,
+7
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2991,
+9,
+6,
+7,
+29
+],
+"conflict_span": [
+2991,
+9,
+0,
+7,
+29
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"from Central Florida\" is correctly extracted as the full prepositional phrase indicating the origin and is a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause “coming in from Central Florida,” the phrase “from Central Florida” specifies the start point (origin) of the motion described by “coming,” which aligns with the ARG3 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1068,
+"sentences": "We have the pictures coming in from Central Florida , News 13 .",
+"predicate": "coming",
+"selected_span": [
+"from Central Florida",
+"ARG3",
+[
+6,
+9
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1101,
+5,
+6,
+9,
+5
+],
+"conflict_span": [
+1101,
+5,
+5,
+9,
+5
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"dead\" is a contiguous adjective in the sentence serving as the complete predicative complement of the verb \"are\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"82 are dead,\" \"dead\" functions as the comment (predicate complement) of the copular verb \"are,\" which aligns with the role description for ARG2.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1081,
+"sentences": "Tonight it appears at least 82 are dead from what may have been a wrong turn .",
+"predicate": "are",
+"selected_span": [
+"dead",
+"ARG2",
+[
+7,
+8
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+435,
+7,
+7,
+8,
+4
+],
+"conflict_span": [
+435,
+7,
+7,
+16,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the first Arab country to make peace with the Jewish state\" is a contiguous noun phrase fully covering the predicate complement and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause where \"was\" appears, this phrase serves as the comment/predicate nominal of the copular verb, matching the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1083,
+"sentences": "On the other hand we have Egypt which was the first Arab country to make peace with the Jewish state , which is of course also a top recipient of US aid .",
+"predicate": "was",
+"selected_span": [
+"the first Arab country to make peace with the Jewish state",
+"ARG2",
+[
+9,
+20
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2483,
+9,
+9,
+20,
+4
+],
+"conflict_span": [
+2483,
+9,
+9,
+32,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"what\" is correctly extracted as a single pronoun forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause, \"what\" functions as the direct object of \"accept\", representing the thing accepted and matching the ARG1 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1099,
+"sentences": "You know , this decision by the Gore campaign , a refusal to concede even if they do not prevail in the manual recounts under way certainly carries some political risk , but the Gore team tonight defends the decision , saying that fellow Democrats and the public would not only accept but demand what they call a fair and accurate recount in all the relevant counties .",
+"predicate": "accept",
+"selected_span": [
+"what",
+"ARG1",
+[
+54,
+55
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1966,
+52,
+54,
+55,
+3
+],
+"conflict_span": [
+1966,
+52,
+54,
+67,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"where\" is correctly extracted as the wh-adverb indicating the location endpoint and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"where to go for milk\", \"where\" stands for the endpoint location of the action \"go\", which aligns with ARG4 as the end point role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1110,
+"sentences": "When the mom comes in , the puppies know exactly where to go for milk -- sort of a little confusion .",
+"predicate": "go",
+"selected_span": [
+"where",
+"ARG4",
+[
+10,
+11
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+251,
+13,
+10,
+11,
+6
+],
+"conflict_span": [
+251,
+13,
+9,
+11,
+6
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Pelswick\" is correctly extracted as it is the proper noun title of the show, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Pelswick\" satisfies the role description as the thing being shown by the predicate \"show\", matching ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1170,
+"sentences": "Gloria Hillard takes a look at what the show `` Pelswick '' means to some children .",
+"predicate": "show",
+"selected_span": [
+"Pelswick",
+"ARG1",
+[
+10,
+11
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+137,
+9,
+10,
+11,
+3
+],
+"conflict_span": [
+137,
+9,
+9,
+12,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"from California\" is a continuous prepositional phrase in the sentence and fully captures the origin location, serving as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"From California\" specifies the origin of the motion described by \"flying,\" which aligns with the DIR (direction) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1200,
+"sentences": "Reporter Lee , flying in from California , unsure if his wife was alive , today , identifying his remains , and tonight survivor John Diaz begins the long trip home to California .",
+"predicate": "flying",
+"selected_span": [
+"from California",
+"ARGM-DIR",
+[
+5,
+7
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2362,
+4,
+5,
+7,
+13
+],
+"conflict_span": [
+2362,
+4,
+4,
+7,
+13
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"a classified message\" is a contiguous noun phrase in the sentence that fully captures the item being sent.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"a classified message\" functions as the theme or patient of the predicate \"sent\", aligning with the ARG1 role for the entity being sent.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1232,
+"sentences": "The next morning , August 1998 , the FBI sent out a classified message , under Director Louis Freeh 's name , warning of a plot to attack a U.S. Navy ship in Yemen .",
+"predicate": "sent",
+"selected_span": [
+"a classified message",
+"ARG1",
+[
+11,
+14
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2143,
+10,
+11,
+14,
+3
+],
+"conflict_span": [
+2143,
+10,
+11,
+34,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument is a contiguous phrase in the sentence and includes both the object 'this news in' and its source PP 'from the speech ... at the top of the hour', forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause 'We’re all getting this news in from the speech ...', the argument denotes the 'thing gotten' of the predicate 'getting', matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1268,
+"sentences": "We 're all getting , this news in from the speech that the Homeland Security Secretary Tom Ridge is expected to be delivering at the international press club around 1:00 Eastern at the top of the hour .",
+"predicate": "getting",
+"selected_span": [
+"this news in from the speech that the Homeland Security Secretary Tom Ridge is expected to be delivering at the international press club around 1:00 Eastern at the top of the hour",
+"ARG1",
+[
+5,
+37
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2226,
+4,
+5,
+37,
+3
+],
+"conflict_span": [
+2226,
+4,
+5,
+7,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"a Serb - dominated Yugoslavia\" is a contiguous phrase in the sentence and forms a complete semantic unit, correctly capturing the entity being dominated.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the phrase, \"a Serb - dominated Yugoslavia\" is the entity that is dominated by Serbs, which aligns with the role description for ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1323,
+"sentences": "His brutal efforts to create a Serb - dominated Yugoslavia earned him the nickname `` Butcher of the Balkans . ''",
+"predicate": "dominated",
+"selected_span": [
+"a Serb - dominated Yugoslavia",
+"ARG1",
+[
+5,
+10
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+156,
+9,
+5,
+10,
+3
+],
+"conflict_span": [
+156,
+9,
+9,
+10,
+3
+]
+}
+]

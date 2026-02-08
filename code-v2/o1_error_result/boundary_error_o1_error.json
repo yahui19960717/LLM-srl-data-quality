@@ -1,0 +1,686 @@
+[
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"very important\" is a contiguous adjectival phrase directly following the predicate and serves as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"turn out to be very important\", \"very important\" functions as the attribute complement of the predicate \"turn\", matching the ARG2 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 6,
+"sentences": "actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .",
+"predicate": "turn",
+"selected_span": [
+"very important",
+"ARG2",
+[
+26,
+28
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+352,
+23,
+26,
+28,
+4
+],
+"conflict_span": [
+352,
+23,
+24,
+31,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"since I had a client to just kind of set up my own company , of sorts\" is a continuous span in the sentence and forms a complete causal adjunct, so its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument provides the reason or cause for the predicate \"seemed\", fitting the CAU role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 166,
+"sentences": "well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .",
+"predicate": "seemed",
+"selected_span": [
+"since I had a client to just kind of set up my own company , of sorts",
+"ARGM-CAU",
+[
+6,
+23
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+677,
+3,
+6,
+23,
+11
+],
+"conflict_span": [
+677,
+3,
+6,
+11,
+11
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"what is happening\" is a contiguous clause in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"it is just awesome to her what is happening\", the argument \"what is happening\" functions as the topic or content of the predicate \"is\", which aligns with the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 223,
+"sentences": "she said it is just awesome to her what is happening .",
+"predicate": "is",
+"selected_span": [
+"what is happening",
+"ARG1",
+[
+8,
+11
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+509,
+4,
+8,
+11,
+3
+],
+"conflict_span": [
+509,
+4,
+10,
+11,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"yeah\" is correctly extracted as a single-word discourse marker with clear boundaries preceding the predicate \"accepted\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In this sentence, \"yeah\" functions as a discourse marker organizing the speaker’s stance and connecting to the clause with predicate \"accepted\", which aligns with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 269,
+"sentences": "and yeah . she 's accepted that there 's a lot of good things in Rhode Island .",
+"predicate": "accepted",
+"selected_span": [
+"yeah",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+163,
+6,
+1,
+2,
+14
+],
+"conflict_span": [
+163,
+6,
+1,
+3,
+14
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument spans the entire complement clause of the predicate ‘is’ and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In this copular construction, the clause functions as the comment/predicative complement (ARG2) of ‘is’, aligning with the role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 288,
+"sentences": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+"predicate": "is",
+"selected_span": [
+"when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you",
+"ARG2",
+[
+5,
+35
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+61,
+5,
+5,
+35,
+4
+],
+"conflict_span": [
+61,
+5,
+5,
+25,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"so hot you know\" is a contiguous phrase and forms a complete semantic unit as the complement of the copular predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause where \"be\" is located, \"so hot you know\" functions as the comment or complement of the copular verb, matching the ARG2 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 301,
+"sentences": "and the black 's not going to be so hot you know",
+"predicate": "be",
+"selected_span": [
+"so hot you know",
+"ARG2",
+[
+8,
+12
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+577,
+8,
+8,
+12,
+4
+],
+"conflict_span": [
+577,
+8,
+8,
+10,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"before\" is correctly extracted as a single temporal adverb specifying the time relation of the event \"met\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The adverb \"before\" functions as a temporal modifier, indicating that the meeting occurred previously, satisfying the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 363,
+"sentences": "just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before .",
+"predicate": "met",
+"selected_span": [
+"before",
+"ARGM-TMP",
+[
+25,
+26
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+780,
+24,
+25,
+26,
+29
+],
+"conflict_span": [
+780,
+24,
+24,
+26,
+29
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"because of irritation\" is a continuous span in the sentence and forms a complete adjunct clause expressing the cause of the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"because of irritation\" explicitly expresses the cause of the event \"develops\", matching the CAU role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 380,
+"sentences": "It develops because of irritation , because of a %um , inflammation .",
+"predicate": "develops",
+"selected_span": [
+"because of irritation",
+"ARGM-CAU",
+[
+2,
+5
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1972,
+2,
+2,
+5,
+11
+],
+"conflict_span": [
+1972,
+2,
+2,
+12,
+11
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"all black\" is a contiguous phrase in the sentence and forms a complete semantic unit as the utterance content.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"all black\" represents the utterance (content) of the predicate \"told\", matching the ARG1 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 412,
+"sentences": "oh I already told them all black",
+"predicate": "told",
+"selected_span": [
+"all black",
+"ARG1",
+[
+5,
+7
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1796,
+4,
+5,
+7,
+3
+],
+"conflict_span": [
+1796,
+4,
+6,
+7,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"only eight pounds a month\" is a contiguous phrase serving as a complete predicative complement to the copular predicate, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "As a predicative complement to the copular verb 's, “only eight pounds a month” expresses the comment or attribute of the subject, aligning with ARG2.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 432,
+"sentences": "I found a gym yesterday here that 's only eight pounds a month which is like twelve dollars , twelve fifty",
+"predicate": "'s",
+"selected_span": [
+"only eight pounds a month",
+"ARG2",
+[
+8,
+13
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+256,
+8,
+8,
+13,
+4
+],
+"conflict_span": [
+256,
+8,
+8,
+21,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"even if it was going to be in September\" is a contiguous phrase that fully captures the subordinate clause and constitutes a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"she said even if it was going to be in September\", the phrase functions as the content or utterance of the predicate \"said\", aligning with ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 496,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "said",
+"selected_span": [
+"even if it was going to be in September",
+"ARG1",
+[
+5,
+14
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+92,
+5,
+5,
+14,
+3
+],
+"conflict_span": [
+92,
+5,
+5,
+30,
+3
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"if we do it that way than if we actually make my parents in law pay it\" is a complete conditional/comparative subordinate clause directly modifying the predicate and correctly captures the intended span.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause functions as an adverbial modifier by specifying the condition/comparison under which \"it 's a lot less expensive\", which aligns with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling correctly identify and label the adverbial clause modifying the predicate 's.",
+"index_sen": 502,
+"sentences": "%uh but it 's a lot less expensive if we do it that way than if we actually make my parents in law pay it ,",
+"predicate": "'s",
+"selected_span": [
+"if we do it that way than if we actually make my parents in law pay it",
+"ARGM-ADV",
+[
+8,
+25
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+788,
+4,
+8,
+25,
+10
+],
+"conflict_span": [
+788,
+4,
+8,
+14,
+10
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"just when he comes\" is a continuous span representing a complete temporal subordinate clause that modifies the predicate \"have\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Just when he comes\" provides the temporal context for the event \"have lots of cereal\", fulfilling the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role label TMP are correct.",
+"index_sen": 666,
+"sentences": "I think what we got to do is just when he comes just have lots of cereal .",
+"predicate": "have",
+"selected_span": [
+"just when he comes",
+"ARGM-TMP",
+[
+8,
+12
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+273,
+14,
+8,
+12,
+29
+],
+"conflict_span": [
+273,
+14,
+9,
+12,
+29
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument Anya 's American salary is a contiguous noun phrase in the sentence and forms a complete complement of the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "Anya 's American salary functions as the comment or complement of the copular predicate be, which aligns with the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 670,
+"sentences": "the problem 's going to %uh be Anya 's American salary is taxable here and at fifty percent",
+"predicate": "be",
+"selected_span": [
+"Anya 's American salary",
+"ARG2",
+[
+7,
+11
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+330,
+7,
+7,
+11,
+4
+],
+"conflict_span": [
+330,
+7,
+7,
+18,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"paid today\" is a contiguous phrase and functions as a complete predicative complement to the copular predicate \"Is\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"Is it paid today?\", \"paid today\" serves as the comment (predicative complement) of the predicate \"Is\", matching the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 675,
+"sentences": "Is it paid today ?",
+"predicate": "Is",
+"selected_span": [
+"paid today",
+"ARG2",
+[
+2,
+4
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1216,
+1,
+2,
+4,
+4
+],
+"conflict_span": [
+1216,
+1,
+2,
+3,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"your whole life\" is a contiguous phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the copular clause \"the thing is your whole life has been around her\", \"your whole life\" functions as the comment or predicative complement of \"is\", matching the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 756,
+"sentences": "oh well the thing is your whole life has been around her mhm . more or less",
+"predicate": "is",
+"selected_span": [
+"your whole life",
+"ARG2",
+[
+5,
+8
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+228,
+5,
+5,
+8,
+4
+],
+"conflict_span": [
+228,
+5,
+5,
+17,
+4
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"back\" is a single-word adverbial particle in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"back\" expresses the state after the action of \"bring\", aligning with the role description for ARG3.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 762,
+"sentences": "bring me back active duty and pay me for the day if they 're going to drag me off somewhere .",
+"predicate": "bring",
+"selected_span": [
+"back",
+"ARG3",
+[
+2,
+3
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+310,
+1,
+2,
+3,
+5
+],
+"conflict_span": [
+310,
+1,
+2,
+5,
+5
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"active duty\" is correctly extracted as a contiguous noun phrase representing a complete semantic unit of the state or condition.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"bring me back active duty\", \"active duty\" denotes the state resulting from the action of bringing, aligning with the role description of ARG3 as the attribute or state after the action.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 807,
+"sentences": "bring me back active duty and pay me for the day if they 're going to drag me off somewhere .",
+"predicate": "bring",
+"selected_span": [
+"active duty",
+"ARG3",
+[
+3,
+5
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+310,
+1,
+3,
+5,
+5
+],
+"conflict_span": [
+310,
+1,
+2,
+5,
+5
+]
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"twelve\" is correctly extracted as a single contiguous word forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"they 're twelve\", \"twelve\" functions as the comment of the copular verb \"'re\", which aligns with the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 810,
+"sentences": "And they 're twelve and ,",
+"predicate": "'re",
+"selected_span": [
+"twelve",
+"ARG2",
+[
+3,
+4
+]
+],
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1676,
+3,
+3,
+4,
+4
+],
+"conflict_span": [
+1676,
+3,
+3,
+5,
+4
+]
+}
+]

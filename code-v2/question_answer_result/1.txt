@@ -1,0 +1,100 @@
+[
+{
+"index_sen": 4,
+"sentences": "So what 's happening is that the modes are oscillating out of phase so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies .",
+"selected_span": [
+"completely",
+"ARGM-EXT",
+[
+16,
+17
+]
+],
+"predicate": "mask",
+"org_span": [
+26,
+18,
+16,
+17,
+16
+],
+"selected_other_spans": [
+"they:ARG0",
+"each other 's Exactly . %hm . oscillations on these other frequencies:ARG1"
+],
+"predict_prob": 0.777614414691925,
+"error_type": "right",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "mask",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "coverer",
+"ARG1": "thing covered",
+"ARG2": "instrument, mask"
+},
+"examples": [
+{
+"example_name": "mask-v: instrumental subject",
+"example_text": "Analysts said the results were as expected , but several added that the earnings masked underlying weaknesses in several businesses .",
+"example_rel": "masked",
+"arguments": [
+{
+"ARG2": "the earnings",
+"role_descrip": "instrument, mask"
+},
+{
+"ARG1": "underlying weaknesses in several businesses",
+"role_descrip": "thing covered"
+}
+]
+},
+{
+"example_name": "mask-v: passive with instrument",
+"example_text": "Real estate analyst Lloyd Lynford says the Northeast 's distress is masked by relatively low vacancy rates .",
+"example_rel": "masked",
+"arguments": [
+{
+"ARG1": "the Northeast 's distress",
+"role_descrip": "thing covered"
+},
+{
+"ARG2": "by relatively low vacancy rates",
+"role_descrip": "instrument, mask"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1",
+"example_text": "They hollow out the bat and stick the cork in there to mask the hollow sound .",
+"example_rel": "mask",
+"arguments": [
+{
+"ARG0": "They",
+"role_descrip": "coverer"
+},
+{
+"ARG1": "the hollow sound",
+"role_descrip": "thing covered"
+}
+]
+},
+{
+"example_name": "masking-n",
+"example_text": "Diploid having two copies of every gene within an organism , it is believed that `` the masking of deleterious alleles favors the evolution of a dominant diploid phase in organisms that alternate between haploid and diploid phases '' where recombination occurs freely .",
+"example_rel": "masking",
+"arguments": [
+{
+"ARG1": "of deleterious alleles",
+"role_descrip": "thing covered"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"How do the modes mask each other?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"oscillating out of phase\"}"
+},
+{
+"index_sen": 32,
+"sentences": "and I still would like to be welcome in my own country .",
+"selected_span": [

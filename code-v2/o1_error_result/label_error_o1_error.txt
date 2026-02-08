@@ -1,0 +1,66 @@
+18 	 Milo , get out of there 	 get 	 out of there 	 ARG2 	 label_error 	 correct 	 ARGM-DIR 	 None
+21 	 And I was in the inactive reserves the entire time I was in college too . 	 was 	 too 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-DIS 	 None
+28 	 He went for a walk this morning at five seventeen . 	 went 	 for a walk 	 ARGM-PNC 	 label_error 	 correct 	 ARG1 	 None
+29 	 well unfortunately for some reason she 's not like into cardio vascular . 	 's 	 for some reason 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-CAU 	 None
+31 	 So when I 'm still riding the bike she 's completely finished her weight lifting routine . 	 finished 	 completely 	 ARGM-EXT 	 label_error 	 correct 	 ARGM-ADV 	 None
+37 	 And she went from Penn , %um To Columbia . to Columbia to U R I . 	 went 	 to Columbia 	 ARG4 	 label_error 	 correct 	 ARGM-DIR 	 None
+40 	 but yeah if you just separate normally and you have n't served at least eight years , then you owe it . 	 owe 	 then 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-TMP 	 None
+43 	 and mhm %um you know . It feels like maybe she made a compromise 	 feels 	 like maybe she made a compromise 	 ARG1 	 label_error 	 correct 	 ARG2 	 None
+44 	 %um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen . 	 give 	 a month 	 ARGM-TMP 	 label_error 	 correct 	 ARG1 	 None
+51 	 I said %um please come to Shabbat 	 come 	 please 	 ARGM-MOD 	 label_error 	 correct 	 ARGM-DIS 	 None
+61 	 Somehow it raises a small amount . 	 raises 	 Somehow 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-MNR 	 None
+75 	 and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them . 	 pay 	 my trip back to the states 	 ARG1 	 label_error 	 correct 	 ARG3 	 None
+83 	 I ca n't say too bad things about the military though . 	 say 	 though 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-ADV 	 None
+86 	 and I can take you to some places , 	 take 	 to some places 	 ARGM-DIR 	 label_error 	 correct 	 ARGM-GOL 	 None
+104 	 and then she came over here , and %um , checked out a room here . 	 came 	 over here 	 ARGM-DIR 	 label_error 	 correct 	 ARG4 	 None
+147 	 And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that . 	 brings 	 with him 	 ARGM-MNR 	 label_error 	 correct 	 ARGM-ADV 	 None
+152 	 but if you do n't get email then just call Anya 's parents 	 call 	 then 	 ARGM-TMP 	 label_error 	 correct 	 ARGM-ADV 	 None
+188 	 Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um 	 gotten 	 he 	 ARG0 	 label_error 	 correct 	 ARG1 	 None
+200 	 You do burn a lot of calories an hour though , lifting weights . 	 burn 	 lifting weights 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-CAU 	 None
+213 	 So what 's happening is that the modes are oscillating out of phase so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies . 	 oscillating 	 out of phase 	 ARGM-DIR 	 label_error 	 correct 	 ARGM-MNR 	 None
+221 	 If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too . 	 do 	 too 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-ADV 	 None
+233 	 And what 's actually kind of interesting is I kept telling Neil that I thought that this was kind of significant . 	 is 	 I kept telling Neil that I thought that this was kind of significant 	 ARG1 	 label_error 	 correct 	 ARG2 	 None
+250 	 I thought you were talking to somebody else and like put the phone down or something . 	 put 	 down 	 ARG2 	 label_error 	 correct 	 ARGM-DIR 	 None
+281 	 So now you think my wedding 's going to be pretty tasteful right ? 	 think 	 now 	 ARGM-TMP 	 label_error 	 correct 	 ARGM-DIS 	 None
+283 	 and then next year it 'll be eleven thousand . 	 be 	 then 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-TMP 	 None
+302 	 I mean things have been happening that has just scared the heck out of me . 	 scared 	 just 	 ARGM-TMP 	 label_error 	 correct 	 ARGM-ADV 	 None
+324 	 and then yeah you can just call up 	 call 	 then 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-TMP 	 None
+328 	 So , I assume it 's hard for you not to eat as much as he does . 	 eat 	 as much as he does 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-EXT 	 None
+329 	 or maybe I 'll just call you when we get in Holland just to let you know we 're there , 	 call 	 just to let you know we 're there 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-PRP 	 None
+331 	 You know , I went from Chicago to U C S G to here . 	 went 	 from Chicago 	 ARGM-DIR 	 label_error 	 correct 	 ARG3 	 None
+385 	 Of course I 'm talking to you . 	 talking 	 Of course 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-ADV 	 None
+399 	 You know Tufts yeah . sent her to Taiwa 	 sent 	 to Taiwa 	 ARG2 	 label_error 	 correct 	 ARG4 	 None
+413 	 Of course it ends on the twenty second of July . 	 ends 	 Of course 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-ADV 	 None
+414 	 But I 'm sure for people who go in the daytime it 's probably dead . yeah . You know 	 's 	 for people who go in the daytime 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-GOL 	 None
+415 	 She called mom to talk to mom 	 called 	 to talk to mom 	 ARGM-PNC 	 label_error 	 correct 	 ARGM-PRP 	 None
+433 	 %eh I truly believe that **Salem** 	 believe 	 truly 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-MNR 	 None
+454 	 and she climbs up the stairs , Selema . 	 climbs 	 up the stairs 	 ARGM-DIR 	 label_error 	 correct 	 ARG1 	 None
+465 	 So what 's happening is that the modes are oscillating out of phase so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies . 	 oscillating 	 so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies 	 ARGM-PNC 	 label_error 	 correct 	 ARGM-PRP 	 None
+472 	 You can just call her Missus 	 call 	 Missus 	 ARG1 	 label_error 	 correct 	 ARG2 	 None
+494 	 because I knew what she would do if I took her somewhere you know what she would say 	 took 	 somewhere 	 ARGM-DIR 	 label_error 	 correct 	 ARGM-GOL 	 None
+504 	 If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam . 	 go 	 still 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-TMP 	 None
+521 	 I can hardly hear you . 	 hear 	 hardly 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-EXT 	 None
+550 	 and I kind of hinted to her that really the only way to lose weight is cardio vascular . mhm . It 's true . And that lifting the weights wo n't lose weight . 	 hinted 	 kind of 	 ARGM-MNR 	 label_error 	 correct 	 ARGM-ADV 	 None
+554 	 Actually I 've been up to Holland before . 	 been 	 Actually 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-DIS 	 None
+568 	 I kind of assumed everyone would be at the shore . 	 assumed 	 kind of 	 ARGM-MNR 	 label_error 	 correct 	 ARGM-ADV 	 None
+572 	 maybe she 'll catch on soon . 	 catch 	 maybe 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-ADV 	 None
+577 	 but -- oh it is . it 's pretty de classe . 	 is 	 oh 	 ARG2 	 label_error 	 correct 	 ARGM-DIS 	 None
+593 	 %uh would you mind %uh taking her back 	 taking 	 back 	 ARGM-DIR 	 label_error 	 correct 	 ARGM-GOL 	 None
+602 	 %um , depends on what you guys want to see . 	 depends 	 %um 	 ARG0 	 label_error 	 correct 	 ARGM-DIS 	 None
+604 	 so we 're going to owe some money to the Dutch government on her salary . 	 owe 	 on her salary 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-PRD 	 None
+618 	 Actually in the first week I was here -- mhm . -- I gained a lot 	 gained 	 a lot 	 ARG1 	 label_error 	 correct 	 ARGM-EXT 	 None
+624 	 Dad and I went to buy the wine the other day . 	 went 	 to buy the wine 	 ARGM-PNC 	 label_error 	 correct 	 ARGM-PRP 	 None
+635 	 You do burn a lot of calories an hour though , lifting weights . 	 burn 	 though 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-ADV 	 None
+647 	 you can just call her Missus and speak English to her . 	 call 	 just 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-ADV 	 None
+661 	 And they 're doing great . 	 doing 	 great 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-MNR 	 None
+681 	 but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t- 	 reserved 	 us 	 ARG1 	 label_error 	 correct 	 ARG2 	 None
+696 	 I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you . 	 give 	 truly 	 ARGM-MNR 	 label_error 	 correct 	 ARGM-ADV 	 None
+717 	 yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um 	 carving 	 of course 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-ADV 	 None
+729 	 So they had to take it down and drive her home . 	 drive 	 home 	 ARGM-DIR 	 label_error 	 correct 	 ARG1 	 None
+730 	 and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump 	 look 	 on me 	 ARGM-ADV 	 label_error 	 correct 	 ARGM-LOC 	 None
+746 	 Oregon you pay state tax 	 pay 	 state tax 	 ARG1 	 label_error 	 correct 	 ARG3 	 None
+753 	 Actually in the first week I was here -- mhm . -- I gained a lot 	 gained 	 Actually 	 ARGM-DIS 	 label_error 	 correct 	 ARGM-ADV 	 None
+786 	 but yeah if you just separate normally and you have n't served at least eight years , then you owe it . 	 separate 	 you 	 ARG0 	 label_error 	 correct 	 ARG1 	 None
+805 	 You know , I went from Chicago to U C S G to here . 	 went 	 to U C S G 	 ARG4 	 label_error 	 correct 	 ARGM-DIR 	 None
+820 	 Is it paid today ? 	 paid 	 it 	 ARG3 	 label_error 	 correct 	 ARG1 	 None
+841 	 I mean things have been happening that has just scared the heck out of me . 	 scared 	 that 	 R-ARG0 	 label_error 	 correct 	 ARG0 	 None

@@ -1,0 +1,4352 @@
+[
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 8,
+"sentences": "I kind of want to",
+"predicate": "want",
+"selected_span": [
+"to",
+"ARG1",
+[
+4,
+5
+]
+],
+"predict_prob": 0.6029775738716125,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1423,
+4,
+4,
+5,
+3
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 10,
+"sentences": "but I would not feel comfortable going .",
+"predicate": "feel",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9863258004188538,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1825,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 14,
+"sentences": "oh I 'm han-",
+"predicate": "'m",
+"selected_span": [
+"oh",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9992409348487854,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+879,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 19,
+"sentences": "oh well the thing is your whole life has been around her mhm . more or less",
+"predicate": "is",
+"selected_span": [
+"oh well",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"predict_prob": 0.7792641520500183,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+228,
+5,
+0,
+2,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 26,
+"sentences": "but it has to be debited from a bank account so it 's got to be debited from his .",
+"predicate": "got",
+"selected_span": [
+"it",
+"ARG0",
+[
+11,
+12
+]
+],
+"predict_prob": 0.9994146227836609,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+265,
+14,
+11,
+12,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 27,
+"sentences": "And they 're doing great .",
+"predicate": "doing",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9994860291481018,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1585,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 39,
+"sentences": "oh , I 'm sorry we 're going to miss her .",
+"predicate": "'m",
+"selected_span": [
+"oh",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9945865869522095,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+394,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 50,
+"sentences": "And she 's teaching at U R I .",
+"predicate": "teaching",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9552985429763794,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1569,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 66,
+"sentences": "But then I 've already made say like fifteen thousand or whatever here in Washington",
+"predicate": "made",
+"selected_span": [
+"But",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9437600374221802,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2212,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 69,
+"sentences": "%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,",
+"predicate": "be",
+"selected_span": [
+"would",
+"ARGM-MOD",
+[
+16,
+17
+]
+],
+"predict_prob": 0.9998732209205627,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+812,
+19,
+16,
+17,
+21
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 73,
+"sentences": "But almighty God is",
+"predicate": "is",
+"selected_span": [
+"But",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9897545576095581,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1082,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 80,
+"sentences": "Alice , I 've never seen anybody eat as much as he does",
+"predicate": "seen",
+"selected_span": [
+"Alice",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.690920889377594,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2145,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 89,
+"sentences": "I actually got to see her I guess a day before she died .",
+"predicate": "guess",
+"selected_span": [
+"I",
+"ARG0",
+[
+6,
+7
+]
+],
+"predict_prob": 0.998893141746521,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1963,
+8,
+6,
+7,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 92,
+"sentences": "Anyway , he 's enjoying it and liking it",
+"predicate": "liking",
+"selected_span": [
+"Anyway",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9996783137321472,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1601,
+8,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 93,
+"sentences": "And , %um , you know , their life is a lot less complicated ,",
+"predicate": "is",
+"selected_span": [
+"%um",
+"ARGM-DIS",
+[
+2,
+3
+]
+],
+"predict_prob": 0.8707444071769714,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1986,
+10,
+2,
+3,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 96,
+"sentences": "and she said that if it was n't for Jetta you know Jasmine 's daddy would n't be",
+"predicate": "said",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9107897281646729,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+217,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 98,
+"sentences": "I just would n't go .",
+"predicate": "go",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9992664456367493,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1829,
+5,
+1,
+2,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 99,
+"sentences": "well she does n't run",
+"predicate": "run",
+"selected_span": [
+"n't",
+"ARGM-NEG",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9980868697166443,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1191,
+5,
+3,
+4,
+22
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 105,
+"sentences": "Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,",
+"predicate": "say",
+"selected_span": [
+"would",
+"ARGM-MOD",
+[
+2,
+3
+]
+],
+"predict_prob": 0.999893844127655,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+118,
+4,
+2,
+3,
+21
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 114,
+"sentences": "And if you do , I 'll send it by email okay if I get it before this weekend",
+"predicate": "send",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.985680341720581,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+344,
+8,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 117,
+"sentences": "And this made writing my thesis very annoying because you know there was n't much discussion .",
+"predicate": "was",
+"selected_span": [
+"n't",
+"ARGM-NEG",
+[
+13,
+14
+]
+],
+"predict_prob": 0.989982545375824,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+193,
+13,
+13,
+14,
+22
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 118,
+"sentences": "so you might as well spend the time .",
+"predicate": "spend",
+"selected_span": [
+"so",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9999216198921204,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1621,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 122,
+"sentences": "well unfortunately for some reason she 's not like into cardio vascular .",
+"predicate": "'s",
+"selected_span": [
+"well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9970620274543762,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2133,
+7,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 124,
+"sentences": "So he found this new job as a financial consultant and seems to be happy with that .",
+"predicate": "found",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9999333024024963,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+169,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 127,
+"sentences": "and I still would like to be welcome in my own country .",
+"predicate": "like",
+"selected_span": [
+"still",
+"ARGM-TMP",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9665244221687317,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2200,
+5,
+2,
+3,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 131,
+"sentences": "but You 'll be a student",
+"predicate": "be",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9985018372535706,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1924,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 137,
+"sentences": "Well that 's good .",
+"predicate": "'s",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9999433159828186,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+994,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 146,
+"sentences": "but she crawls real fast .",
+"predicate": "crawls",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8480282425880432,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1733,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 151,
+"sentences": "and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child .",
+"predicate": "acting",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+20,
+21
+]
+],
+"predict_prob": 0.9988431334495544,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+75,
+23,
+20,
+21,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 153,
+"sentences": "And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier ,",
+"predicate": "went",
+"selected_span": [
+"monetary value",
+"ARG1",
+[
+11,
+13
+]
+],
+"predict_prob": 0.9994378089904785,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+48,
+14,
+11,
+13,
+3
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 159,
+"sentences": "but yeah if you just separate normally and you have n't served at least eight years , then you owe it .",
+"predicate": "owe",
+"selected_span": [
+"yeah",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9431262016296387,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+808,
+20,
+1,
+2,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 161,
+"sentences": "And so I think they told me that .",
+"predicate": "think",
+"selected_span": [
+"so",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9873958230018616,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1562,
+4,
+1,
+2,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 162,
+"sentences": "And that 's one of those things they just never tell you up front .",
+"predicate": "tell",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+8,
+9
+]
+],
+"predict_prob": 0.4439302086830139,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2197,
+11,
+8,
+9,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 164,
+"sentences": "And %uh Ron and Doris sent us a picture of theirs",
+"predicate": "sent",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9854047894477844,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+456,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 169,
+"sentences": "but yeah if you just separate normally and you have n't served at least eight years , then you owe it .",
+"predicate": "separate",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+4,
+5
+]
+],
+"predict_prob": 0.9996901750564575,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+806,
+6,
+4,
+5,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 172,
+"sentences": "yet their experiments showed it as a driven frequency .",
+"predicate": "showed",
+"selected_span": [
+"yet",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9541504979133606,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+486,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 184,
+"sentences": "Well , %um actually I think this phone call 's just about to end cause it 's only half an hour ,",
+"predicate": "think",
+"selected_span": [
+"actually",
+"ARGM-ADV",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9948328137397766,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+821,
+6,
+3,
+4,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 194,
+"sentences": "She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .",
+"predicate": "qualified",
+"selected_span": [
+"really",
+"ARGM-ADV",
+[
+9,
+10
+]
+],
+"predict_prob": 0.9476634860038757,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+668,
+13,
+9,
+10,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 195,
+"sentences": "And then , are you coming over to the States at all this summer ?",
+"predicate": "coming",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9243853092193604,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1953,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 199,
+"sentences": "but that 's only when yo- .",
+"predicate": "'s",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9877128005027771,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1772,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 201,
+"sentences": "So you have no intentions of coming over this way any time soon ?",
+"predicate": "have",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9584152102470398,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2008,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 205,
+"sentences": "And then %um , I 'm not exactly sure what it is now .",
+"predicate": "'m",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9999033212661743,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1969,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 208,
+"sentences": "it has an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless .",
+"predicate": "makes",
+"selected_span": [
+"which",
+"R-ARG0",
+[
+13,
+14
+]
+],
+"predict_prob": 0.6100680828094482,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+717,
+15,
+13,
+14,
+48
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 222,
+"sentences": "And I was paid too .",
+"predicate": "paid",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.7382736206054688,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1758,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 232,
+"sentences": "Well did she come home and say I saw her , I look like her or what ?",
+"predicate": "say",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9989660382270813,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+214,
+7,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 234,
+"sentences": "But I still need to go more often .",
+"predicate": "need",
+"selected_span": [
+"But",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.892642080783844,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1761,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 244,
+"sentences": "and , who would have ever thought it though ,",
+"predicate": "thought",
+"selected_span": [
+"though",
+"ARGM-ADV",
+[
+8,
+9
+]
+],
+"predict_prob": 0.9929130673408508,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+535,
+7,
+8,
+9,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 248,
+"sentences": "so when they broke in the second time did they steal the %uh offboard amplifier ?",
+"predicate": "steal",
+"selected_span": [
+"so",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.999908983707428,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2050,
+11,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 252,
+"sentences": "so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science .",
+"predicate": "pushing",
+"selected_span": [
+"so",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.999826192855835,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+194,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 261,
+"sentences": "and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .",
+"predicate": "spending",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9963537454605103,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+43,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 264,
+"sentences": "So if you do n't have any ideas we 'll just put something together for you .",
+"predicate": "put",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+10,
+11
+]
+],
+"predict_prob": 0.9211530089378357,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+304,
+12,
+10,
+11,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 266,
+"sentences": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+"predicate": "know",
+"selected_span": [
+"you",
+"ARG0",
+[
+20,
+21
+]
+],
+"predict_prob": 0.7571390271186829,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+732,
+22,
+20,
+21,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 267,
+"sentences": "well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .",
+"predicate": "make",
+"selected_span": [
+"it",
+"ARG0",
+[
+1,
+2
+]
+],
+"predict_prob": 0.6376065015792847,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+678,
+5,
+1,
+2,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 274,
+"sentences": "And then %um , I 'm not exactly sure what it is now .",
+"predicate": "'m",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+1,
+2
+]
+],
+"predict_prob": 0.7510736584663391,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1969,
+6,
+1,
+2,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 280,
+"sentences": "It 's probably easier for me to come by public transport in Amsterdam than it is for me to come by car to be honest .",
+"predicate": "come",
+"selected_span": [
+"me",
+"ARG1",
+[
+17,
+18
+]
+],
+"predict_prob": 0.9994679689407349,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+795,
+20,
+17,
+18,
+3
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 295,
+"sentences": "And he just keeps forgetting .",
+"predicate": "keeps",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9985944032669067,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1853,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 299,
+"sentences": "oh he did tell you .",
+"predicate": "tell",
+"selected_span": [
+"oh",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8312926888465881,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1849,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 305,
+"sentences": "And she said the students are just ,",
+"predicate": "said",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8046321868896484,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1571,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 308,
+"sentences": "And there was n't anything anybody could do .",
+"predicate": "was",
+"selected_span": [
+"n't",
+"ARGM-NEG",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9993906617164612,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1514,
+3,
+3,
+4,
+22
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 316,
+"sentences": "At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer .",
+"predicate": "make",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9958676695823669,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+723,
+6,
+2,
+3,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 317,
+"sentences": "I said to Mark oh my god . What 's she going to say",
+"predicate": "say",
+"selected_span": [
+"What",
+"ARG1",
+[
+8,
+9
+]
+],
+"predict_prob": 0.9680927395820618,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2088,
+14,
+8,
+9,
+3
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 321,
+"sentences": "or maybe I 'll just call you when we get in Holland just to let you know we 're there ,",
+"predicate": "let",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+12,
+13
+]
+],
+"predict_prob": 0.9285539388656616,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+336,
+15,
+12,
+13,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 322,
+"sentences": "And so you should n't actually really be able to ever see it .",
+"predicate": "be",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.7750778198242188,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2017,
+8,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 334,
+"sentences": "And I was having a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven .",
+"predicate": "driven",
+"selected_span": [
+"not",
+"ARGM-NEG",
+[
+27,
+28
+]
+],
+"predict_prob": 0.9993464946746826,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+42,
+29,
+27,
+28,
+22
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 336,
+"sentences": "And %uh , I turned in my Master 's thesis back in May ,",
+"predicate": "turned",
+"selected_span": [
+"%uh",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9813830256462097,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2011,
+5,
+1,
+2,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 340,
+"sentences": "or maybe I 'll just call you when we get in Holland just to let you know we 're there ,",
+"predicate": "call",
+"selected_span": [
+"maybe",
+"ARGM-ADV",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9948784708976746,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+334,
+6,
+1,
+2,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 344,
+"sentences": "And at her sister 's wedding %uh , they provided champagne and beer .",
+"predicate": "provided",
+"selected_span": [
+"%uh",
+"ARGM-DIS",
+[
+6,
+7
+]
+],
+"predict_prob": 0.6541141271591187,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2171,
+10,
+6,
+7,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 345,
+"sentences": "or maybe I 'll just call you when we get in Holland just to let you know we 're there ,",
+"predicate": "call",
+"selected_span": [
+"or",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9998998045921326,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+334,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 354,
+"sentences": "and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the",
+"predicate": "saw",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9994600415229797,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+674,
+4,
+1,
+2,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 357,
+"sentences": "if that was you , yeah . yeah , she was just not in",
+"predicate": "was",
+"selected_span": [
+"in",
+"ARG2",
+[
+13,
+14
+]
+],
+"predict_prob": 0.6031315326690674,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1966,
+11,
+13,
+14,
+4
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 360,
+"sentences": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+"predicate": "think",
+"selected_span": [
+"maybe",
+"ARGM-ADV",
+[
+13,
+14
+]
+],
+"predict_prob": 0.9808160662651062,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+799,
+16,
+13,
+14,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 362,
+"sentences": "Well he 's working for an American firm over here ,",
+"predicate": "working",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9996728301048279,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+434,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 365,
+"sentences": "%ah , you know I would n't trust it because it 's so complicated with this international garbage or else the Turbo Tax with the Dutch modules . that I just would n't trust it .",
+"predicate": "trust",
+"selected_span": [
+"would",
+"ARGM-MOD",
+[
+5,
+6
+]
+],
+"predict_prob": 0.9999256730079651,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+143,
+8,
+5,
+6,
+21
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 370,
+"sentences": "I do n't know if you spoke to me before that or when it was that was happening . Or",
+"predicate": "happening",
+"selected_span": [
+"that",
+"ARG1",
+[
+15,
+16
+]
+],
+"predict_prob": 0.9996364712715149,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+149,
+18,
+15,
+16,
+3
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 372,
+"sentences": "And then an aunt of Chris 's Aunt Mamie up in Maine passed away .",
+"predicate": "passed",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9995789527893066,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1960,
+13,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 376,
+"sentences": "but she was in a place called Taiwa .",
+"predicate": "was",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9206092357635498,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1495,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 383,
+"sentences": "So if you do n't have any ideas we 'll just put something together for you .",
+"predicate": "put",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9823414087295532,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+304,
+12,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 384,
+"sentences": "But , %uh , we want to write a letter , and then a couple articles .",
+"predicate": "want",
+"selected_span": [
+"%uh",
+"ARGM-DIS",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9866783022880554,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+196,
+6,
+2,
+3,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 388,
+"sentences": "Well it 's hard to you know not eat when somebody else is eating .",
+"predicate": "'s",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9989810585975647,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2155,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 395,
+"sentences": "I kind of want to",
+"predicate": "want",
+"selected_span": [
+"kind of",
+"ARGM-ADV",
+[
+1,
+3
+]
+],
+"predict_prob": 0.9968112111091614,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1423,
+4,
+1,
+3,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 406,
+"sentences": "and then Dutch it 's Mifrau",
+"predicate": "'s",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9304928779602051,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1937,
+5,
+1,
+2,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 411,
+"sentences": "And so %uh , that 's yeah at least dealt with .",
+"predicate": "dealt",
+"selected_span": [
+"at least",
+"ARGM-ADV",
+[
+7,
+9
+]
+],
+"predict_prob": 0.9996819496154785,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+495,
+10,
+7,
+9,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 417,
+"sentences": "oh well the thing is your whole life has been around her mhm . more or less",
+"predicate": "been",
+"selected_span": [
+"more or less",
+"ARGM-ADV",
+[
+14,
+17
+]
+],
+"predict_prob": 0.715342104434967,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+229,
+10,
+14,
+17,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 423,
+"sentences": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+"predicate": "know",
+"selected_span": [
+"you",
+"ARG0",
+[
+21,
+22
+]
+],
+"predict_prob": 0.7652134895324707,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+753,
+23,
+21,
+22,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 424,
+"sentences": "And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier ,",
+"predicate": "was",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9528806805610657,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+50,
+18,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 426,
+"sentences": "The only thing is , that , when you do the experiment you see it .",
+"predicate": "do",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+7,
+8
+]
+],
+"predict_prob": 0.9998892545700073,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2020,
+10,
+7,
+8,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 427,
+"sentences": "and they 'll still be enough time when I come home for me to order those .",
+"predicate": "be",
+"selected_span": [
+"'ll",
+"ARGM-MOD",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9996551871299744,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+288,
+5,
+2,
+3,
+21
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 430,
+"sentences": "but I would not feel comfortable going .",
+"predicate": "feel",
+"selected_span": [
+"would",
+"ARGM-MOD",
+[
+2,
+3
+]
+],
+"predict_prob": 0.99993497133255,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1825,
+5,
+2,
+3,
+21
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 436,
+"sentences": "and then we can make arrangements that day %um , that I can meet you in Amsterdam .",
+"predicate": "make",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.7274184823036194,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+294,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 437,
+"sentences": "actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .",
+"predicate": "turns",
+"selected_span": [
+"actually",
+"ARGM-ADV",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9713184833526611,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+349,
+3,
+0,
+1,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 444,
+"sentences": "No that had not happened , no .",
+"predicate": "happened",
+"selected_span": [
+"no",
+"ARGM-DIS",
+[
+6,
+7
+]
+],
+"predict_prob": 0.8707977533340454,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1516,
+5,
+6,
+7,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 451,
+"sentences": "She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .",
+"predicate": "feel",
+"selected_span": [
+"really",
+"ARGM-ADV",
+[
+20,
+21
+]
+],
+"predict_prob": 0.9995126128196716,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+670,
+24,
+20,
+21,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 452,
+"sentences": "So , it actually creates a situation where you get the right sort of answer , you just ca n't always write it down very easily .",
+"predicate": "creates",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9999011158943176,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+691,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 455,
+"sentences": "and I 'm actually presently working on , %um , several , %uh , articles oh , okay . Impressive . from it .",
+"predicate": "working",
+"selected_span": [
+"actually",
+"ARGM-ADV",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9993593096733093,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+684,
+6,
+3,
+4,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 456,
+"sentences": "And that thing that came up recently , , you know I had , oh , a kind of a knee problem a couple of years ago .",
+"predicate": "had",
+"selected_span": [
+"oh",
+"ARGM-DIS",
+[
+14,
+15
+]
+],
+"predict_prob": 0.999805212020874,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+654,
+13,
+14,
+15,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 468,
+"sentences": "but if you do n't get email then just call Anya 's parents",
+"predicate": "call",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.997252881526947,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2233,
+10,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 470,
+"sentences": "but we 'll still owe some taxes .",
+"predicate": "owe",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.5078491568565369,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1915,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 480,
+"sentences": "So we 'll just see . You know",
+"predicate": "know",
+"selected_span": [
+"You",
+"ARG0",
+[
+6,
+7
+]
+],
+"predict_prob": 0.9155367612838745,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1536,
+8,
+6,
+7,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 484,
+"sentences": "Well , , Leo 's big . You know ,",
+"predicate": "'s",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9996662735939026,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+454,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 486,
+"sentences": "Unless you became C E O of the company then maybe like a thousand dollars would be taxable , right ?",
+"predicate": "be",
+"selected_span": [
+"maybe",
+"ARGM-ADV",
+[
+10,
+11
+]
+],
+"predict_prob": 0.9979714751243591,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+327,
+17,
+10,
+11,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 488,
+"sentences": "I do n't know , %eh .",
+"predicate": "know",
+"selected_span": [
+"%eh",
+"ARGM-DIS",
+[
+5,
+6
+]
+],
+"predict_prob": 0.9930629730224609,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1919,
+4,
+5,
+6,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 489,
+"sentences": "So you guys should pick out the things you want to see and let me know .",
+"predicate": "pick",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9999155402183533,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+298,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 495,
+"sentences": "Apparently they were also carrying lillies which is kind of goofy .",
+"predicate": "carrying",
+"selected_span": [
+"Apparently",
+"ARGM-ADV",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9995343685150146,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+579,
+5,
+0,
+1,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 498,
+"sentences": "but -- oh it is . it 's pretty de classe .",
+"predicate": "'s",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8289598822593689,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+588,
+8,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 506,
+"sentences": "and mhm %um you know . It feels like maybe she made a compromise",
+"predicate": "know",
+"selected_span": [
+"you",
+"ARG0",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9999226927757263,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1997,
+5,
+3,
+4,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 515,
+"sentences": "%uh would you mind %uh taking her back",
+"predicate": "mind",
+"selected_span": [
+"would",
+"ARGM-MOD",
+[
+1,
+2
+]
+],
+"predict_prob": 0.999328076839447,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1638,
+4,
+1,
+2,
+21
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 524,
+"sentences": "you can just call her Missus and speak English to her .",
+"predicate": "speak",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9401563405990601,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+643,
+8,
+2,
+3,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 529,
+"sentences": "but that 's what he said .",
+"predicate": "'s",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9982869029045105,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1583,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 544,
+"sentences": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+"predicate": "was",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8752507567405701,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+367,
+7,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 546,
+"sentences": "And so I think they told me that .",
+"predicate": "think",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9998049139976501,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1562,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 547,
+"sentences": "And so it 's",
+"predicate": "'s",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9853432178497314,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+837,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 552,
+"sentences": "%um , actually right at the moment finances are not going real well .",
+"predicate": "going",
+"selected_span": [
+"actually",
+"ARGM-ADV",
+[
+2,
+3
+]
+],
+"predict_prob": 0.7438544631004333,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2010,
+11,
+2,
+3,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 562,
+"sentences": "well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .",
+"predicate": "set",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+12,
+13
+]
+],
+"predict_prob": 0.9740360379219055,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+680,
+16,
+12,
+13,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 565,
+"sentences": "%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,",
+"predicate": "be",
+"selected_span": [
+"either",
+"ARGM-ADV",
+[
+21,
+22
+]
+],
+"predict_prob": 0.987934947013855,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+812,
+19,
+21,
+22,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 567,
+"sentences": "I figured there was something like that because",
+"predicate": "figured",
+"selected_span": [
+"because",
+"ARGM-CAU",
+[
+7,
+8
+]
+],
+"predict_prob": 0.9983604550361633,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1888,
+2,
+7,
+8,
+11
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 570,
+"sentences": "so I decided that it would make sense to do this .",
+"predicate": "decided",
+"selected_span": [
+"so",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9998176097869873,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+469,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 576,
+"sentences": "and so we met , %um , %uh Adrian , their kid , who was three uh-huh . and just a really lovely little boy .",
+"predicate": "met",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8775970339775085,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+672,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 578,
+"sentences": "so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science .",
+"predicate": "is",
+"selected_span": [
+"whatever",
+"ARG2",
+[
+13,
+14
+]
+],
+"predict_prob": 0.9794730544090271,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+195,
+16,
+13,
+14,
+4
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 579,
+"sentences": "So you guys should pick out the things you want to see and let me know .",
+"predicate": "let",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9896034598350525,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+301,
+14,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 580,
+"sentences": "So , it actually creates a situation where you get the right sort of answer , you just ca n't always write it down very easily .",
+"predicate": "write",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+17,
+18
+]
+],
+"predict_prob": 0.999823272228241,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+693,
+22,
+17,
+18,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 589,
+"sentences": "Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .",
+"predicate": "get",
+"selected_span": [
+"obviously",
+"ARGM-ADV",
+[
+4,
+5
+]
+],
+"predict_prob": 0.7208907008171082,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+760,
+12,
+4,
+5,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 590,
+"sentences": "So I probably will come by public transport",
+"predicate": "come",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9995988607406616,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1863,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 591,
+"sentences": "and then she came over here , and %um , checked out a room here .",
+"predicate": "came",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9911595582962036,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1950,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 596,
+"sentences": "and then she came over here , and %um , checked out a room here .",
+"predicate": "checked",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9998105764389038,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1951,
+11,
+1,
+2,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 601,
+"sentences": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+"predicate": "show",
+"selected_span": [
+"could",
+"ARGM-MOD",
+[
+49,
+50
+]
+],
+"predict_prob": 0.9998155832290649,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+373,
+52,
+49,
+50,
+21
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 609,
+"sentences": "you know that 's",
+"predicate": "'s",
+"selected_span": [
+"that",
+"ARG1",
+[
+2,
+3
+]
+],
+"predict_prob": 0.6981536746025085,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1113,
+4,
+2,
+3,
+3
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 623,
+"sentences": "If not , call Anya 's parents if you do n't have a new phone number for me .",
+"predicate": "call",
+"selected_span": [
+"If not",
+"ARGM-ADV",
+[
+0,
+2
+]
+],
+"predict_prob": 0.9999194145202637,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+341,
+4,
+0,
+2,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 630,
+"sentences": "and %um it 's just been quite interesting although when she was in Rhode Island she was very disruptive , %um down there and really caused Francis a lot of stress",
+"predicate": "been",
+"selected_span": [
+"just",
+"ARGM-ADV",
+[
+4,
+5
+]
+],
+"predict_prob": 0.9981482028961182,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+68,
+6,
+4,
+5,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 632,
+"sentences": "%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,",
+"predicate": "be",
+"selected_span": [
+"probably",
+"ARGM-ADV",
+[
+15,
+16
+]
+],
+"predict_prob": 0.9915859699249268,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+812,
+19,
+15,
+16,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 639,
+"sentences": "Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,",
+"predicate": "call",
+"selected_span": [
+"n't",
+"ARGM-NEG",
+[
+16,
+17
+]
+],
+"predict_prob": 0.9996322989463806,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+122,
+19,
+16,
+17,
+22
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 648,
+"sentences": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+"predicate": "go",
+"selected_span": [
+"ca",
+"ARGM-MOD",
+[
+10,
+11
+]
+],
+"predict_prob": 0.9998926520347595,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+377,
+13,
+10,
+11,
+21
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 650,
+"sentences": "And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that .",
+"predicate": "brings",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9775970578193665,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+113,
+8,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 657,
+"sentences": "but she 's working very hard .",
+"predicate": "working",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.5322331786155701,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1678,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 660,
+"sentences": "%um , the only way to be a dual citizen is if you 're born in a foreign country",
+"predicate": "is",
+"selected_span": [
+"%um",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8421610593795776,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+315,
+11,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 662,
+"sentences": "and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the",
+"predicate": "saw",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9957125186920166,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+674,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 664,
+"sentences": "like if I were born in Holland and then had American parents . Then I could be a dual citizen .",
+"predicate": "be",
+"selected_span": [
+"Then",
+"ARGM-TMP",
+[
+13,
+14
+]
+],
+"predict_prob": 0.9989820718765259,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+319,
+17,
+13,
+14,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 665,
+"sentences": "And maybe I 'll come by , public transport .",
+"predicate": "come",
+"selected_span": [
+"maybe",
+"ARGM-ADV",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9998123645782471,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+605,
+5,
+1,
+2,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 671,
+"sentences": "but yeah if you just separate normally and you have n't served at least eight years , then you owe it .",
+"predicate": "owe",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.998727560043335,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+808,
+20,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 673,
+"sentences": "And so you should n't actually really be able to ever see it .",
+"predicate": "be",
+"selected_span": [
+"actually",
+"ARGM-ADV",
+[
+5,
+6
+]
+],
+"predict_prob": 0.9973899126052856,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2017,
+8,
+5,
+6,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 678,
+"sentences": "And then , are you coming over to the States at all this summer ?",
+"predicate": "coming",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+1,
+2
+]
+],
+"predict_prob": 0.7358540892601013,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1953,
+6,
+1,
+2,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 682,
+"sentences": "well she does n't run",
+"predicate": "run",
+"selected_span": [
+"well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9664431810379028,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1191,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 683,
+"sentences": "And %uh , I turned in my Master 's thesis back in May ,",
+"predicate": "turned",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9997612833976746,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2011,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 688,
+"sentences": "and then next year it 'll be eleven thousand .",
+"predicate": "be",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8305600881576538,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+636,
+7,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 693,
+"sentences": "it 'll probably be about five thousand dollars the portion of this year that I 'm in Oregon",
+"predicate": "'m",
+"selected_span": [
+"that",
+"R-ARGM-TMP",
+[
+13,
+14
+]
+],
+"predict_prob": 0.9584305882453918,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+333,
+16,
+13,
+14,
+64
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 695,
+"sentences": "But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,",
+"predicate": "was",
+"selected_span": [
+"But",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9571957588195801,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+0,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 702,
+"sentences": "And what 's actually kind of interesting is I kept telling Neil that I thought that this was kind of significant .",
+"predicate": "is",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.7657999396324158,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+703,
+8,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 709,
+"sentences": "%uh would you mind %uh taking her back",
+"predicate": "mind",
+"selected_span": [
+"%uh",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.5384670495986938,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1638,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 710,
+"sentences": "And so you should n't actually really be able to ever see it .",
+"predicate": "be",
+"selected_span": [
+"really",
+"ARGM-ADV",
+[
+6,
+7
+]
+],
+"predict_prob": 0.9973874688148499,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2017,
+8,
+6,
+7,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 711,
+"sentences": "and , who would have ever thought it though ,",
+"predicate": "thought",
+"selected_span": [
+"who",
+"ARG0",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9997979402542114,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+535,
+7,
+2,
+3,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 720,
+"sentences": "And at her sister 's wedding %uh , they provided champagne and beer .",
+"predicate": "provided",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9985935091972351,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2171,
+10,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 723,
+"sentences": "and she said that if it was n't for Jetta you know Jasmine 's daddy would n't be",
+"predicate": "be",
+"selected_span": [
+"would",
+"ARGM-MOD",
+[
+15,
+16
+]
+],
+"predict_prob": 0.6770332455635071,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+220,
+18,
+15,
+16,
+21
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 724,
+"sentences": "Which was actually where the major problem came . Exactly . Exactly . yeah . Is that I suddenly had no transportation .",
+"predicate": "came",
+"selected_span": [
+"where",
+"ARG2",
+[
+3,
+4
+]
+],
+"predict_prob": 0.47859761118888855,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+720,
+8,
+3,
+4,
+4
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 732,
+"sentences": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+"predicate": "reserved",
+"selected_span": [
+"where",
+"R-ARGM-LOC",
+[
+9,
+10
+]
+],
+"predict_prob": 0.9998663663864136,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+87,
+13,
+9,
+10,
+59
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 752,
+"sentences": "Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,",
+"predicate": "let",
+"selected_span": [
+"n't",
+"ARGM-NEG",
+[
+16,
+17
+]
+],
+"predict_prob": 0.9545736908912659,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+123,
+24,
+16,
+17,
+22
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 754,
+"sentences": "and all I had to do was get on it and follow it .",
+"predicate": "was",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9317380785942078,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2063,
+7,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 771,
+"sentences": "Well , %um actually I think this phone call 's just about to end cause it 's only half an hour ,",
+"predicate": "think",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.6116335988044739,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+821,
+6,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 776,
+"sentences": "just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before .",
+"predicate": "met",
+"selected_span": [
+"at least",
+"ARGM-ADV",
+[
+21,
+23
+]
+],
+"predict_prob": 0.9994551539421082,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+780,
+24,
+21,
+23,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 779,
+"sentences": "and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .",
+"predicate": "means",
+"selected_span": [
+"also",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9243707656860352,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+755,
+8,
+1,
+2,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 782,
+"sentences": "At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer .",
+"predicate": "make",
+"selected_span": [
+"that",
+"ARG0",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9168475270271301,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+723,
+6,
+3,
+4,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 785,
+"sentences": "and then we can make arrangements that day %um , that I can meet you in Amsterdam .",
+"predicate": "make",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9795992374420166,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+294,
+5,
+1,
+2,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 787,
+"sentences": "And then they operated on",
+"predicate": "operated",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9949343800544739,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+870,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 791,
+"sentences": "%um , actually , I 'm not sure if we 're shooting for op- ,",
+"predicate": "'m",
+"selected_span": [
+"actually",
+"ARGM-ADV",
+[
+2,
+3
+]
+],
+"predict_prob": 0.983256995677948,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2025,
+6,
+2,
+3,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 796,
+"sentences": "So when I 'm still riding the bike she 's completely finished her weight lifting routine .",
+"predicate": "riding",
+"selected_span": [
+"still",
+"ARGM-TMP",
+[
+4,
+5
+]
+],
+"predict_prob": 0.9944495558738708,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+243,
+6,
+4,
+5,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 801,
+"sentences": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+"predicate": "play",
+"selected_span": [
+"she",
+"ARG0",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9970422983169556,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+729,
+10,
+3,
+4,
+2
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 812,
+"sentences": "so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .",
+"predicate": "get",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+16,
+17
+]
+],
+"predict_prob": 0.9998995065689087,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+827,
+19,
+16,
+17,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 816,
+"sentences": "so I just got to pray that they",
+"predicate": "got",
+"selected_span": [
+"so",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9845533967018127,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1881,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 818,
+"sentences": "You know everybody 's kind of passed away , almost .",
+"predicate": "passed",
+"selected_span": [
+"almost",
+"ARGM-ADV",
+[
+9,
+10
+]
+],
+"predict_prob": 0.5514482855796814,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+405,
+7,
+9,
+10,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 823,
+"sentences": "So I do n't know",
+"predicate": "know",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9977820515632629,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1235,
+5,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 826,
+"sentences": "there would be a minimum amount of work , of about %uh , a day a week for the next two three years . mhm . Which is sufficient to pay all my bills then",
+"predicate": "is",
+"selected_span": [
+"Which",
+"R-ARG1",
+[
+26,
+27
+]
+],
+"predict_prob": 0.7554240822792053,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+14,
+28,
+26,
+27,
+49
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 827,
+"sentences": "the sins of your parents will be waged back at you , %hm . you know ,",
+"predicate": "waged",
+"selected_span": [
+"back",
+"ARGM-DIR",
+[
+8,
+9
+]
+],
+"predict_prob": 0.999639630317688,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+226,
+8,
+8,
+9,
+13
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 828,
+"sentences": "and now it 's my left knee .",
+"predicate": "'s",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8596431016921997,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1539,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 829,
+"sentences": "and there 's no parking .",
+"predicate": "'s",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.8877809047698975,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1862,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 834,
+"sentences": "And then they operated on it once ,",
+"predicate": "operated",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9521347284317017,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1532,
+4,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 836,
+"sentences": "Well it 's good to hear from Francis who 's had a lot of child-",
+"predicate": "'s",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9994280338287354,
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2115,
+3,
+0,
+1,
+14
+]
+}
+]

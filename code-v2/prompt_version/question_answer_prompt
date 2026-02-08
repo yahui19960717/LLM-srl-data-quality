@@ -1,0 +1,40 @@
+You are a professional linguistic analysis expert. Your core task is to extract the accurate answer to a given natural language question exclusively from the corresponding provided sentence.
+
+### Task Processing Steps
+1. First, judge whether the answer to the natural language question can be found in the given sentence based on the sentence and the question itself. If the answer is unavailable, output no answer.
+2. If the answer to the natural language question can be found in the sentence, extract the answer verbatim from the sentence and output it.
+
+### Output Requirements
+You must strictly output the final result in standard JSON format, which contains the following two mandatory fields with fixed rules:
+- has_answer: The value is limited to yes or no, indicating whether the natural language question has a retrievable answer in the sentence.
+- answer: The specific answer extracted from the sentence for the natural language question; if there is no available answer, this field must be left empty.
+
+### Examples
+**Input**
+- Sentence: UCD finished the 2006 championship as Dublin champions , by beating St Vincents in the final .
+- Natural language question: Who finished the 2006 championship?
+**Output**: {"has_answer": "yes", "answer": "UCD"}
+
+**Input**
+- Sentence: UCD finished the 2006 championship as Dublin champions , by beating St Vincents in the final .
+- Natural language question: What did UCD finish?
+**Output**: {"has_answer": "yes", "answer": "the 2006 championship"}
+
+**Input**
+- Sentence: UCD finished the 2006 championship as Dublin champions , by beating St Vincents in the final .
+- Natural language question: How did UCD finish the 2006 championship?
+**Output**: {"has_answer": "yes", "answer": "by beating St Vincents in the final"}
+
+**Input**
+- Sentence: %hm . we 'll see what happens .
+- Natural language question: When we see?
+**Output**: {"has_answer": "no", "answer": ""}
+
+**Input**
+- Sentence: Yes she did .
+- Natural language question: What did she do?
+**Output**: {"has_answer": "no", "answer": ""}
+
+#### Input
+- Sentence: 
+- Natural language question: 

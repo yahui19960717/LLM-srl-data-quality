@@ -1,0 +1,4849 @@
+[
+{
+"index_sen": 17,
+"sentences": "and we 're going to go see her next Thursday and talk about her making my wedding dress .",
+"selected_span": [
+"next Thursday",
+"ARGM-TMP",
+[
+8,
+10
+]
+],
+"predicate": "go",
+"org_span": [
+279,
+6,
+8,
+10,
+29
+],
+"selected_other_spans": [
+"we:ARG0"
+],
+"predict_prob": 0.8190473914146423,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "go",
+"pred_sense": "05",
+"candidate_roles": {
+"ARG0": "subject",
+"ARG1": "subsequent action"
+},
+"examples": [
+{
+"example_name": "go-v: very typical",
+"example_text": "He went looking for a replacement for Mr. Landry .",
+"example_rel": "went",
+"arguments": [
+{
+"ARG0": "He",
+"role_descrip": "subject"
+},
+{
+"ARG1": "looking for a replacement for Mr. Landry",
+"role_descrip": "subsequent action"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When are we going to go see her?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"next Thursday\"}"
+},
+{
+"index_sen": 95,
+"sentences": "But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,",
+"selected_span": [
+"after two years there now",
+"ARGM-TMP",
+[
+14,
+19
+]
+],
+"predicate": "said",
+"org_span": [
+2,
+14,
+14,
+19,
+29
+],
+"selected_other_spans": [
+"she:ARG0",
+"she %um has come to terms with this:ARG1"
+],
+"predict_prob": 0.6333121061325073,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "say",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "Sayer",
+"ARG1": "Utterance",
+"ARG2": "Hearer",
+"ARG3": "Attributive"
+},
+"examples": [
+{
+"example_name": "Transitive",
+"example_text": "A Lorillard spokeswoman said \" This is an old story . \"",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "A Lorillard spokeswoman",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "\" This is an old story . \"",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Fronted",
+"example_text": "Kent cigarettes were sold , the company said",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "the company",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "Kent cigarettes were sold",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Inverted",
+"example_text": "What matters is what advertisers will pay , said Newsweek 's chairman",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "What matters is what advertisers will pay",
+"role_descrip": "Utterance"
+},
+{
+"ARG0": "Newsweek 's chairman",
+"role_descrip": "Sayer"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG2",
+"example_text": "On December 9 , the British firm Tesco said hello to consumers in Taiwan when it formally opened its clean , bright and spacious store .",
+"example_rel": "said",
+"arguments": [
+{
+"ARGM-TMP": "On December 9",
+"role_descrip": "temporal"
+},
+{
+"ARG0": "the British firm Tesco",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "hello",
+"role_descrip": "Utterance"
+},
+{
+"ARG2": "to consumers in Taiwan",
+"role_descrip": "Hearer"
+},
+{
+"ARGM-TMP": "when it formally opened its clean , bright and spacious store",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG3",
+"example_text": "Although Lee 's trip would seem to have been a shot in the arm for the deadlocked cross - strait relationship , it also generated a lot of speculation and ill will because neither Lee nor anyone who met with him was willing to say a word about the content of their discussions , and ROC officials who went to call on Lee at his hotel skulked around in underground walkways and service elevators to avoid journalists .",
+"example_rel": "say",
+"arguments": [
+{
+"ARG0": "neither Lee nor anyone who met with him",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "a word",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "about the content of their discussions",
+"role_descrip": "Attributive"
+}
+]
+},
+{
+"example_name": "ARG1 and ARG3",
+"example_text": "But the truth is that objects said to attract money sell just as well in good times as bad , for when the economy is strong , people are willing to spend large sums to ensure that they can hold onto their wealth .",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "objects",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "to attract money",
+"role_descrip": "Attributive"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When did she say she has come to terms with this?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"after two years there now\"}"
+},
+{
+"index_sen": 138,
+"sentences": "And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+"selected_span": [
+"he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+"ARG1",
+[
+9,
+27
+]
+],
+"predicate": "know",
+"org_span": [
+762,
+4,
+9,
+27,
+3
+],
+"selected_other_spans": [
+"And:ARGM-DIS",
+"then:ARGM-TMP",
+"you:ARG0",
+"before he leaves every morning:ARGM-TMP"
+],
+"predict_prob": 0.9998940229415894,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "know",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "knower",
+"ARG1": "fact that is known",
+"ARG2": "entity that arg1 is known ABOUT"
+},
+"examples": [
+{
+"example_name": "know-v: just transitive",
+"example_text": "I need to know the aircraft and flight number .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "knower"
+},
+{
+"ARG1": "the aircraft and flight number",
+"role_descrip": "fact that is known"
+}
+]
+},
+{
+"example_name": "know-v: sentential thing known",
+"example_text": "The other side knows that Giuliani has always been prochoice .",
+"example_rel": "knows",
+"arguments": [
+{
+"ARG0": "The other side",
+"role_descrip": "knower"
+},
+{
+"ARG1": "that Giuliani has always been prochoice",
+"role_descrip": "fact that is known"
+}
+]
+},
+{
+"example_name": "know-v: attributive",
+"example_text": "He did n't know ( anything ) about most of the cases until Wednesday .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "He",
+"role_descrip": "knower"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG1": "anything",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "about most of the cases",
+"role_descrip": "entity that arg1 is known ABOUT"
+},
+{
+"ARGM-TMP": "until Wednesday",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "knowledgeable-j: args 0, 2",
+"example_text": "I 'm fairly knowledgeable about how the culture works in that part of the world , as is many of the experts .",
+"example_rel": "knowledgeable",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "knower"
+},
+{
+"ARGM-EXT": "fairly",
+"role_descrip": "extent"
+},
+{
+"ARG2": "about how the culture works in that part of the world",
+"role_descrip": "entity that arg1 is known ABOUT"
+},
+{
+"ARGM-ADV": "as is many of the experts",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "idk-v: both args",
+"example_text": "Idk what I 'm going to do without you",
+"example_rel": "Idk",
+"arguments": [
+{
+"ARG1": "what I 'm going to do without you",
+"role_descrip": "fact that is known"
+}
+]
+},
+{
+"example_name": "know vs. know about, compare with .02 examples",
+"example_text": "I know a lot about London . ( I have read much about it . )",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "knower"
+},
+{
+"ARG1": "a lot",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "about London",
+"role_descrip": "entity that arg1 is known ABOUT"
+}
+]
+},
+{
+"example_name": "Know TO BE, rephrasable as We know the truth of your words, ignore arg2 for AMR.",
+"example_text": "We know your words to be true .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "We",
+"role_descrip": "knower"
+},
+{
+"ARG1": "to be true",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "your words",
+"role_descrip": "entity that arg1 is known ABOUT"
+}
+]
+},
+{
+"example_name": "Know TO BE, more weird syntax for PB, ignore arg2 for AMR",
+"example_text": "They know the Cherokee Nation to be a sovereign state .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "They",
+"role_descrip": "knower"
+},
+{
+"ARG1": "to be a sovereign state",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "the Cherokee Nation",
+"role_descrip": "entity that arg1 is known ABOUT"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What does someone know before he leaves every morning?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit\"}"
+},
+{
+"index_sen": 142,
+"sentences": "and my taxes here are fifty percent of income .",
+"selected_span": [
+"here",
+"ARGM-LOC",
+[
+3,
+4
+]
+],
+"predicate": "are",
+"org_span": [
+629,
+5,
+3,
+4,
+18
+],
+"selected_other_spans": [
+"my taxes:ARG1",
+"fifty percent of income:ARG2"
+],
+"predict_prob": 0.9975054264068604,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\":\"yes\",\"question\":\"Where are my taxes fifty percent of income?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"here\"}"
+},
+{
+"index_sen": 165,
+"sentences": "But %uh , first they have to find me .",
+"selected_span": [
+"first",
+"ARGM-TMP",
+[
+3,
+4
+]
+],
+"predicate": "have",
+"org_span": [
+619,
+6,
+3,
+4,
+29
+],
+"selected_other_spans": [],
+"predict_prob": 0.9365994334220886,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "have",
+"pred_sense": "02",
+"candidate_roles": {},
+"examples": [
+{
+"example_name": "unk",
+"example_text": "With the full adoption of two - day weekends every other week , people in Taiwan have had to figure out what to do with these new days off .",
+"example_rel": "had",
+"arguments": [
+{
+"ARGM-CAU": "With the full adoption of two - day weekends every other week",
+"role_descrip": "cause"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When do they have to find me?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"first\"}"
+},
+{
+"index_sen": 246,
+"sentences": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+"selected_span": [
+"I",
+"ARG1",
+[
+2,
+3
+]
+],
+"predicate": "sit",
+"org_span": [
+797,
+5,
+2,
+3,
+3
+],
+"selected_other_spans": [
+"'ll:ARGM-MOD"
+],
+"predict_prob": 0.9975554347038269,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "sit",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "thing sitting",
+"ARG2": "location or position"
+},
+"examples": [
+{
+"example_name": "sit-v: explicit location",
+"example_text": "`` You 've got two champions sitting right before you , '' said Mr. Baum .",
+"example_rel": "sitting",
+"arguments": [
+{
+"ARG1": "two champions",
+"role_descrip": "thing sitting"
+},
+{
+"ARG2": "right before you",
+"role_descrip": "location or position"
+}
+]
+},
+{
+"example_name": "sit-v: manner instead of position",
+"example_text": "Traders said most of their major institutional investors , on the other hand , sat tight .",
+"example_rel": "sat",
+"arguments": [
+{
+"ARG1": "most of their major institutional investors",
+"role_descrip": "thing sitting"
+},
+{
+"ARGM-DIS": "on the other hand",
+"role_descrip": "discourse"
+},
+{
+"ARGM-MNR": "tight",
+"role_descrip": "manner"
+}
+]
+},
+{
+"example_name": "sitting-n: Arg1,2",
+"example_text": "I 'm pretty sure the dog is gaming us with his constant sitting by the door to go out .",
+"example_rel": "sitting",
+"arguments": [
+{
+"ARG1": "his",
+"role_descrip": "thing sitting"
+},
+{
+"ARGM-TMP": "constant",
+"role_descrip": "temporal"
+},
+{
+"ARG2": "by the door",
+"role_descrip": "location or position"
+},
+{
+"ARGM-PRP": "to go out",
+"role_descrip": "purpose"
+}
+]
+}
+],
+"response": "{\"exist_relation\":\"yes\",\"question\":\"Who will sit and talk with Anya about some things?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"I\"}"
+},
+{
+"index_sen": 306,
+"sentences": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+"selected_span": [
+"when you truly give your heart to Allah",
+"ARGM-TMP",
+[
+17,
+25
+]
+],
+"predicate": "know",
+"org_span": [
+64,
+17,
+17,
+25,
+29
+],
+"selected_other_spans": [
+"when:ARGM-TMP",
+"you:ARG0"
+],
+"predict_prob": 0.9970478415489197,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "know",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "knower",
+"ARG1": "fact that is known",
+"ARG2": "entity that arg1 is known ABOUT"
+},
+"examples": [
+{
+"example_name": "know-v: just transitive",
+"example_text": "I need to know the aircraft and flight number .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "knower"
+},
+{
+"ARG1": "the aircraft and flight number",
+"role_descrip": "fact that is known"
+}
+]
+},
+{
+"example_name": "know-v: sentential thing known",
+"example_text": "The other side knows that Giuliani has always been prochoice .",
+"example_rel": "knows",
+"arguments": [
+{
+"ARG0": "The other side",
+"role_descrip": "knower"
+},
+{
+"ARG1": "that Giuliani has always been prochoice",
+"role_descrip": "fact that is known"
+}
+]
+},
+{
+"example_name": "know-v: attributive",
+"example_text": "He did n't know ( anything ) about most of the cases until Wednesday .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "He",
+"role_descrip": "knower"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG1": "anything",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "about most of the cases",
+"role_descrip": "entity that arg1 is known ABOUT"
+},
+{
+"ARGM-TMP": "until Wednesday",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "knowledgeable-j: args 0, 2",
+"example_text": "I 'm fairly knowledgeable about how the culture works in that part of the world , as is many of the experts .",
+"example_rel": "knowledgeable",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "knower"
+},
+{
+"ARGM-EXT": "fairly",
+"role_descrip": "extent"
+},
+{
+"ARG2": "about how the culture works in that part of the world",
+"role_descrip": "entity that arg1 is known ABOUT"
+},
+{
+"ARGM-ADV": "as is many of the experts",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "idk-v: both args",
+"example_text": "Idk what I 'm going to do without you",
+"example_rel": "Idk",
+"arguments": [
+{
+"ARG1": "what I 'm going to do without you",
+"role_descrip": "fact that is known"
+}
+]
+},
+{
+"example_name": "know vs. know about, compare with .02 examples",
+"example_text": "I know a lot about London . ( I have read much about it . )",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "knower"
+},
+{
+"ARG1": "a lot",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "about London",
+"role_descrip": "entity that arg1 is known ABOUT"
+}
+]
+},
+{
+"example_name": "Know TO BE, rephrasable as We know the truth of your words, ignore arg2 for AMR.",
+"example_text": "We know your words to be true .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "We",
+"role_descrip": "knower"
+},
+{
+"ARG1": "to be true",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "your words",
+"role_descrip": "entity that arg1 is known ABOUT"
+}
+]
+},
+{
+"example_name": "Know TO BE, more weird syntax for PB, ignore arg2 for AMR",
+"example_text": "They know the Cherokee Nation to be a sovereign state .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "They",
+"role_descrip": "knower"
+},
+{
+"ARG1": "to be a sovereign state",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "the Cherokee Nation",
+"role_descrip": "entity that arg1 is known ABOUT"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When do you know that only Allah can make the way clear for you?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"when you truly give your heart to Allah\"}"
+},
+{
+"index_sen": 369,
+"sentences": "I learned quick fast in a hurry because I 've gained so much weight .",
+"selected_span": [
+"in a hurry",
+"ARGM-ADV",
+[
+4,
+7
+]
+],
+"predicate": "learned",
+"org_span": [
+2150,
+2,
+4,
+7,
+10
+],
+"selected_other_spans": [
+"I:ARG0",
+"quick fast:ARGM-MNR",
+"because I 've gained so much weight:ARGM-CAU"
+],
+"predict_prob": 0.8664712905883789,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "learn",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "student",
+"ARG1": "subject",
+"ARG2": "teacher"
+},
+"examples": [
+{
+"example_name": "learn an NP",
+"example_text": "He was shocked , associates say , to learn of Mr. Icahn 's new takeover threat .",
+"example_rel": "learn",
+"arguments": [
+{
+"ARG0": "He",
+"role_descrip": "student"
+},
+{
+"ARG1": "of Mr. Icahn 's new takeover threat",
+"role_descrip": "subject"
+}
+]
+},
+{
+"example_name": "learn an infinitival S",
+"example_text": "Apparently they are learning to say no to excess risk .",
+"example_rel": "learning",
+"arguments": [
+{
+"ARGM-DIS": "Apparently",
+"role_descrip": "discourse"
+},
+{
+"ARG0": "they",
+"role_descrip": "student"
+},
+{
+"ARG1": "to say no to excess risk",
+"role_descrip": "subject"
+}
+]
+},
+{
+"example_name": "learn a finite S",
+"example_text": "Mr. Birnbaum recalls that Mr. Guber and Mr. Peters shifted into high gear a few years back upon learning that they had competition for the story of the murdered naturalist Dian Fossey , which became `` Gorillas in the Mist . ''",
+"example_rel": "learning",
+"arguments": [
+{
+"ARG0": "Mr. Guber and Mr. Peters",
+"role_descrip": "student"
+},
+{
+"ARG1": "that they had competition for the story of the murdered naturalist Dian Fossey , which became `` Gorillas in the Mist",
+"role_descrip": "subject"
+}
+]
+},
+{
+"example_name": "include WH-complementizers!",
+"example_text": "Kenneth Mitchell , director of Dow 's polyethylene business , says producers were surprised to learn how much inventories had swelled throughout the distribution chain as prices spiraled up .",
+"example_rel": "learn",
+"arguments": [
+{
+"ARG0": "producers",
+"role_descrip": "student"
+},
+{
+"ARG1": "how much inventories had swelled throughout the distribution chain as prices spiraled up",
+"role_descrip": "subject"
+}
+]
+},
+{
+"example_name": "it-support",
+"example_text": "Meanwhile , in another sign that a new bid is n't imminent , it was learned that the UAL board held a telephone meeting Monday to hear an update on the situation .",
+"example_rel": "learned",
+"arguments": [
+{
+"ARGM-TMP": "Meanwhile",
+"role_descrip": "temporal"
+},
+{
+"ARGM-DIS": "in another sign that a new bid is n't imminent",
+"role_descrip": "discourse"
+},
+{
+"ARG1": "that the UAL board held a telephone meeting Monday to hear an update on the situation",
+"role_descrip": "subject"
+}
+]
+},
+{
+"example_name": "with teacher",
+"example_text": "John learned his lesson from Mary .",
+"example_rel": "learned",
+"arguments": [
+{
+"ARG0": "John",
+"role_descrip": "student"
+},
+{
+"ARG1": "his lesson",
+"role_descrip": "subject"
+},
+{
+"ARG2": "from Mary",
+"role_descrip": "teacher"
+}
+]
+},
+{
+"example_name": "Arg0,1",
+"example_text": "At my parent conference , his teacher told me that the only problem he is having is with his learning the letters of the alphabet .",
+"example_rel": "learning",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "student"
+},
+{
+"ARG1": "the letters of the alphabet",
+"role_descrip": "subject"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"How did I learn quick fast?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"in a hurry\"}"
+},
+{
+"index_sen": 377,
+"sentences": "And so %uh , that 's yeah at least dealt with .",
+"selected_span": [
+"that",
+"ARG1",
+[
+4,
+5
+]
+],
+"predicate": "dealt",
+"org_span": [
+495,
+10,
+4,
+5,
+3
+],
+"selected_other_spans": [
+"at least:ARGM-ADV",
+"with:ARG1"
+],
+"predict_prob": 0.8653106093406677,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "deal",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "dealer (or all dealers)",
+"ARG1": "co-dealer",
+"ARG2": "subject/type of transaction",
+"ARG3": "value of transaction"
+},
+"examples": [
+{
+"example_name": "deal-v: deal with",
+"example_text": "By contrast , Value Line said Georgia - Pacific `` is in a comparatively good position to deal with weakening paper markets , '' ...",
+"example_rel": "deal",
+"arguments": [
+{
+"ARG0": "Georgia - Pacific",
+"role_descrip": "dealer (or all dealers)"
+},
+{
+"ARG2": "with weakening paper markets",
+"role_descrip": "subject/type of transaction"
+}
+]
+},
+{
+"example_name": "deal-v: deal in",
+"example_text": "The idea was to let small investors , the backbone of the fund business , deal in the money market 's high short - term interest rates .",
+"example_rel": "deal",
+"arguments": [
+{
+"ARG0": "small investors , the backbone of the fund business",
+"role_descrip": "dealer (or all dealers)"
+},
+{
+"ARG2": "in the money market 's high short - term interest rates",
+"role_descrip": "subject/type of transaction"
+}
+]
+},
+{
+"example_name": "deal-n: with arg2 as adj",
+"example_text": "a plea deal",
+"example_rel": "deal",
+"arguments": [
+{
+"ARG2": "plea",
+"role_descrip": "subject/type of transaction"
+}
+]
+},
+{
+"example_name": "deal-n: with arg1",
+"example_text": "a deal with North Korea",
+"example_rel": "deal",
+"arguments": [
+{
+"ARG1": "with North Korea",
+"role_descrip": "co-dealer"
+}
+]
+},
+{
+"example_name": "deal-n: args 1 and 2 (with 2 as proposition)",
+"example_text": "a series of deals with Russia to acquire an aircraft carrier , fighter jets and tanks",
+"example_rel": "deals",
+"arguments": [
+{
+"ARG1": "with Russia",
+"role_descrip": "co-dealer"
+},
+{
+"ARG2": "to acquire an aircraft carrier , fighter jets and tanks",
+"role_descrip": "subject/type of transaction"
+}
+]
+},
+{
+"example_name": "deal-n: arg0, agreement",
+"example_text": "when he signed for his deal ...",
+"example_rel": "deal",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "dealer (or all dealers)"
+}
+]
+},
+{
+"example_name": "deal-n: all dealers as arg1, and TMP",
+"example_text": "the final deal between us and the Palestinians",
+"example_rel": "deal",
+"arguments": [
+{
+"ARGM-TMP": "final",
+"role_descrip": "temporal"
+},
+{
+"ARG0": "between us and the Palestinians",
+"role_descrip": "dealer (or all dealers)"
+}
+]
+},
+{
+"example_name": "deal-n: args 0, 2 and 3",
+"example_text": "Kohlberg Kravis Roberts 's megabillion RJR Nabisco deal",
+"example_rel": "deal",
+"arguments": [
+{
+"ARG0": "Kohlberg Kravis Roberts 's",
+"role_descrip": "dealer (or all dealers)"
+},
+{
+"ARG3": "megabillion",
+"role_descrip": "value of transaction"
+},
+{
+"ARG2": "RJR Nabisco",
+"role_descrip": "subject/type of transaction"
+}
+]
+},
+{
+"example_name": "dealing-n: both args with co-dealer",
+"example_text": "What is you stance on his dealing with China about Sikkim and Tibet ? ? ! ! !",
+"example_rel": "dealing",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "dealer (or all dealers)"
+},
+{
+"ARG1": "with China",
+"role_descrip": "co-dealer"
+},
+{
+"ARG2": "about Sikkim and Tibet",
+"role_descrip": "subject/type of transaction"
+}
+]
+},
+{
+"example_name": "dealing-n: both args: dealing in",
+"example_text": "the prohibition against their dealing in new articles of clothing ;",
+"example_rel": "dealing",
+"arguments": [
+{
+"ARG0": "their",
+"role_descrip": "dealer (or all dealers)"
+},
+{
+"ARG2": "in new articles of clothing",
+"role_descrip": "subject/type of transaction"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What is dealt with?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"that\"}"
+},
+{
+"index_sen": 393,
+"sentences": "so that 's why it 's actually a big deal is",
+"selected_span": [
+"a big deal",
+"ARG2",
+[
+7,
+10
+]
+],
+"predicate": "is",
+"org_span": [
+485,
+11,
+7,
+10,
+4
+],
+"selected_other_spans": [],
+"predict_prob": 0.8633415699005127,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What is it actually?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"a big deal\"}"
+},
+{
+"index_sen": 400,
+"sentences": "so I decided that it would make sense to do this .",
+"selected_span": [
+"I",
+"ARG0",
+[
+1,
+2
+]
+],
+"predicate": "do",
+"org_span": [
+471,
+10,
+1,
+2,
+2
+],
+"selected_other_spans": [
+"this:ARG1"
+],
+"predict_prob": 0.9975103139877319,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "do",
+"pred_sense": "02",
+"candidate_roles": {
+"ARG0": "agent, doer",
+"ARG1": "thing done",
+"ARG2": "benefactive, done for or about",
+"ARG3": "instrumental",
+"ARG4": "comitative, companion while doing"
+},
+"examples": [
+{
+"example_name": "do-v",
+"example_text": "In this department we are doing fine this fall .",
+"example_rel": "doing",
+"arguments": [
+{
+"ARGM-LOC": "In this department",
+"role_descrip": "location"
+},
+{
+"ARG0": "we",
+"role_descrip": "agent, doer"
+},
+{
+"ARGM-MNR": "fine",
+"role_descrip": "manner"
+},
+{
+"ARGM-TMP": "this fall",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "do-v",
+"example_text": "do - v : Seymour Cray can do it again .",
+"example_rel": "do",
+"arguments": [
+{
+"ARG0": "Seymour Cray",
+"role_descrip": "agent, doer"
+},
+{
+"ARGM-MOD": "can",
+"role_descrip": "general modification"
+},
+{
+"ARG1": "it",
+"role_descrip": "thing done"
+},
+{
+"ARGM-TMP": "again",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "do-v: with benefactive",
+"example_text": "Congress will do stupid things with the Tax Code .",
+"example_rel": "do",
+"arguments": [
+{
+"ARG0": "Congress",
+"role_descrip": "agent, doer"
+},
+{
+"ARGM-MOD": "will",
+"role_descrip": "general modification"
+},
+{
+"ARG1": "stupid things",
+"role_descrip": "thing done"
+},
+{
+"ARG2": "with the Tax Code",
+"role_descrip": "benefactive, done for or about"
+}
+]
+},
+{
+"example_name": "do-v: with instrument",
+"example_text": "Anyone buying the stock now must do so using some guesswork .",
+"example_rel": "do",
+"arguments": [
+{
+"ARG0": "Anyone buying the stock now",
+"role_descrip": "agent, doer"
+},
+{
+"ARGM-MOD": "must",
+"role_descrip": "general modification"
+},
+{
+"ARG1": "so",
+"role_descrip": "thing done"
+},
+{
+"ARG3": "using some guesswork",
+"role_descrip": "instrumental"
+}
+]
+},
+{
+"example_name": "doing-n: args 0 and 1",
+"example_text": "From him , we could expect nothing other than his doing the \" right thing , \" as we should expect from all our elected officials .",
+"example_rel": "doing",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "agent, doer"
+},
+{
+"ARG1": "the \" right thing , \"",
+"role_descrip": "thing done"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who decided that it would make sense to do this?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"I\"}"
+},
+{
+"index_sen": 405,
+"sentences": "There 's a pretty good sale . %mm . So now we have to keep our eyes open for a champagne sale .",
+"selected_span": [
+"now",
+"ARGM-TMP",
+[
+10,
+11
+]
+],
+"predicate": "have",
+"org_span": [
+786,
+13,
+10,
+11,
+29
+],
+"selected_other_spans": [
+"So:ARGM-DIS"
+],
+"predict_prob": 0.9577749371528625,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "have",
+"pred_sense": "02",
+"candidate_roles": {},
+"examples": [
+{
+"example_name": "unk",
+"example_text": "With the full adoption of two - day weekends every other week , people in Taiwan have had to figure out what to do with these new days off .",
+"example_rel": "had",
+"arguments": [
+{
+"ARGM-CAU": "With the full adoption of two - day weekends every other week",
+"role_descrip": "cause"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When do we have to keep our eyes open for a champagne sale?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"now\"}"
+},
+{
+"index_sen": 408,
+"sentences": "I just would n't go .",
+"selected_span": [
+"I",
+"ARG0",
+[
+0,
+1
+]
+],
+"predicate": "go",
+"org_span": [
+1829,
+5,
+0,
+1,
+2
+],
+"selected_other_spans": [
+"just:ARGM-ADV",
+"would:ARGM-MOD",
+"n't:ARGM-NEG"
+],
+"predict_prob": 0.9331410527229309,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "go",
+"pred_sense": "02",
+"candidate_roles": {
+"ARG0": "goer",
+"ARG1": "journey",
+"ARG3": "start point",
+"ARG4": "end point"
+},
+"examples": [
+{
+"example_name": "go-v: journey",
+"example_text": "He and two colleagues went on an overnight fishing trip .",
+"example_rel": "went",
+"arguments": [
+{
+"ARG0": "He and two colleagues",
+"role_descrip": "goer"
+},
+{
+"ARG1": "on an overnight fishing trip",
+"role_descrip": "journey"
+}
+]
+},
+{
+"example_name": "go-v: end point",
+"example_text": "The lawyers went to work",
+"example_rel": "went",
+"arguments": [
+{
+"ARG0": "The lawyers",
+"role_descrip": "goer"
+},
+{
+"ARG4": "to work",
+"role_descrip": "end point"
+}
+]
+},
+{
+"example_name": "go-v: with manner",
+"example_text": "Currently in the middle of a four - week , 20 - city tour as a solo pianist , Mr. Glass has left behind his synthesizers , equipment and collaborators in favor of going it alone .",
+"example_rel": "going",
+"arguments": [
+{
+"ARG0": "Mr. Glass",
+"role_descrip": "goer"
+},
+{
+"ARG1": "it",
+"role_descrip": "journey"
+},
+{
+"ARGM-MNR": "alone",
+"role_descrip": "manner"
+}
+]
+},
+{
+"example_name": "going-n: as nominal",
+"example_text": "`` I think Bush 's going there is a helpful sign , '' said Sen. Terry Sanford ( D. , N.C. ) a member of the Foreign Relations Committee who pushed to provide Costa Rica about the same amount of aid as it received last year .",
+"example_rel": "going",
+"arguments": [
+{
+"ARG0": "Bush 's",
+"role_descrip": "goer"
+},
+{
+"ARG4": "there",
+"role_descrip": "end point"
+}
+]
+},
+{
+"example_name": "gone-j: go on vacation, leave habitual places",
+"example_text": "I am gone for three weeks on vacation .",
+"example_rel": "gone",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "goer"
+},
+{
+"ARGM-TMP": "for three weeks",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "on vacation",
+"role_descrip": "journey"
+}
+]
+},
+{
+"example_name": "gone-j: MIA",
+"example_text": "The pen is gone .",
+"example_rel": "gone",
+"arguments": [
+{
+"ARG0": "The pen",
+"role_descrip": "goer"
+}
+]
+},
+{
+"example_name": "gone-j: Gone from place",
+"example_text": "I am gone from the forum for two days and what happens ?",
+"example_rel": "gone",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "goer"
+},
+{
+"ARG3": "from the forum",
+"role_descrip": "start point"
+},
+{
+"ARGM-TMP": "for two days",
+"role_descrip": "temporal"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who just wouldn't go?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"I\"}"
+},
+{
+"index_sen": 446,
+"sentences": "they consider it a luxury to call around the world",
+"selected_span": [
+"the world",
+"ARG1",
+[
+8,
+10
+]
+],
+"predicate": "call",
+"org_span": [
+601,
+7,
+8,
+10,
+3
+],
+"selected_other_spans": [
+"they:ARG0",
+"around:ARGM-DIR"
+],
+"predict_prob": 0.8439184427261353,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "call",
+"pred_sense": "02",
+"candidate_roles": {
+"ARG0": "caller",
+"ARG1": "entity summoned",
+"ARG2": "benefactive"
+},
+"examples": [
+{
+"example_name": "call-v: without benefactive",
+"example_text": "The bells called the faithful to evensong",
+"example_rel": "called",
+"arguments": [
+{
+"ARG0": "The bells",
+"role_descrip": "caller"
+},
+{
+"ARG1": "the faithful",
+"role_descrip": "entity summoned"
+},
+{
+"ARGM-GOL": "to evensong",
+"role_descrip": "goal"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG2",
+"example_text": "KMT party chairman Lee Teng - hui has repeatedly called on voters to cherish the system of party politics that has been constructed in the process of democratization ; the KMT wants confirmation that people still see it as a coherent , positive political institution .",
+"example_rel": "on called",
+"arguments": [
+{
+"ARG0": "KMT party chairman Lee Teng - hui",
+"role_descrip": "caller"
+},
+{
+"ARGM-ADV": "repeatedly",
+"role_descrip": "adverbial modification"
+},
+{
+"ARG1": "voters",
+"role_descrip": "entity summoned"
+},
+{
+"ARG2": "to cherish the system of party politics that has been constructed in the process of democratization",
+"role_descrip": "benefactive"
+}
+]
+},
+{
+"example_name": "call-n: phone call",
+"example_text": "Her call to the pentagon was dropped when she went through a tunnel .",
+"example_rel": "call",
+"arguments": [
+{
+"ARG0": "Her",
+"role_descrip": "caller"
+},
+{
+"ARG1": "to the pentagon",
+"role_descrip": "entity summoned"
+}
+]
+},
+{
+"example_name": "call-n: LV",
+"example_text": "Well , and then what happened was , we had a conference call .",
+"example_rel": "call",
+"arguments": [
+{
+"ARG0": "we",
+"role_descrip": "caller"
+},
+{
+"ARGM-LVB": "had",
+"role_descrip": "light verb (for nouns only)"
+},
+{
+"ARGM-MNR": "conference",
+"role_descrip": "manner"
+}
+]
+},
+{
+"example_name": "calling-n",
+"example_text": "... his calling the police for us .",
+"example_rel": "calling",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "caller"
+},
+{
+"ARG1": "the police",
+"role_descrip": "entity summoned"
+},
+{
+"ARG2": "for us",
+"role_descrip": "benefactive"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Where do they consider it a luxury to call around?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"the world\"}"
+},
+{
+"index_sen": 500,
+"sentences": "I 'm really looking forward to moving to Oregon and dealing with ,",
+"selected_span": [
+"I",
+"ARG1",
+[
+0,
+1
+]
+],
+"predicate": "moving",
+"org_span": [
+2207,
+7,
+0,
+1,
+3
+],
+"selected_other_spans": [
+"to Oregon:ARG2"
+],
+"predict_prob": 0.9957190752029419,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "move",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "mover",
+"ARG1": "moved",
+"ARG2": "destination",
+"ARG3": "aspect, domain in which arg1 moving"
+},
+"examples": [
+{
+"example_name": "move-v: agentive",
+"example_text": "The leadership hopes to move the compromise measure promptly to the White House .",
+"example_rel": "move",
+"arguments": [
+{
+"ARG0": "The leadership",
+"role_descrip": "mover"
+},
+{
+"ARG1": "the compromise measure",
+"role_descrip": "moved"
+},
+{
+"ARGM-TMP": "promptly",
+"role_descrip": "temporal"
+},
+{
+"ARG2": "to the White House",
+"role_descrip": "destination"
+}
+]
+},
+{
+"example_name": "move-v: ergative",
+"example_text": "... including about two million customers who have moved during that period .",
+"example_rel": "moved",
+"arguments": [
+{
+"ARG1": "about two million customers",
+"role_descrip": "moved"
+},
+{
+"R-ARG1": "who",
+"role_descrip": "moved"
+},
+{
+"ARGM-TMP": "during that period",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "move-v: with EXT",
+"example_text": "The Dow Jones Industrial Average moved 50 points .",
+"example_rel": "moved",
+"arguments": [
+{
+"ARG1": "The Dow Jones Industrial Average",
+"role_descrip": "moved"
+},
+{
+"ARGM-EXT": "50 points",
+"role_descrip": "extent"
+}
+]
+},
+{
+"example_name": "move-v: all args",
+"example_text": "When I was a senior in high school , my parents moved house to the outskirts of Lexington , Massachusetts .",
+"example_rel": "moved",
+"arguments": [
+{
+"ARGM-TMP": "When I was a senior in high school",
+"role_descrip": "temporal"
+},
+{
+"ARG0": "my parents",
+"role_descrip": "mover"
+},
+{
+"ARG1": "house",
+"role_descrip": "moved"
+},
+{
+"ARG2": "to the outskirts of Lexington , Massachusetts",
+"role_descrip": "destination"
+}
+]
+},
+{
+"example_name": "move-n: autogen1",
+"example_text": "his move to the chairmanship",
+"example_rel": "move",
+"arguments": [
+{
+"ARG1": "his",
+"role_descrip": "moved"
+},
+{
+"ARG2": "to the chairmanship",
+"role_descrip": "destination"
+}
+]
+},
+{
+"example_name": "move-n: autogen2",
+"example_text": "Digital 's move into mainframes",
+"example_rel": "move",
+"arguments": [
+{
+"ARG0": "Digital 's",
+"role_descrip": "mover"
+},
+{
+"ARG2": "into mainframes",
+"role_descrip": "destination"
+}
+]
+},
+{
+"example_name": "move-n: with EXT",
+"example_text": "the large - scale move by Taiwan companies to the PRC",
+"example_rel": "move",
+"arguments": [
+{
+"ARGM-EXT": "large - scale",
+"role_descrip": "extent"
+},
+{
+"ARG0": "by Taiwan companies",
+"role_descrip": "mover"
+},
+{
+"ARG2": "to the PRC",
+"role_descrip": "destination"
+}
+]
+},
+{
+"example_name": "move-n: With DIR",
+"example_text": "a downward move in dollar - mark trade",
+"example_rel": "move",
+"arguments": [
+{
+"ARGM-DIR": "downward",
+"role_descrip": "direction"
+},
+{
+"ARG1": "in dollar - mark trade",
+"role_descrip": "moved"
+}
+]
+},
+{
+"example_name": "move-n",
+"example_text": "Cotto himself swore that he would never let Margarito earn another penny from his name , but another recent stoppage defeat to Manny Pacquiao and a move up in weight has left the Caguas resident with little routes left to big money purse fights .",
+"example_rel": "move",
+"arguments": [
+{
+"ARGM-DIR": "up",
+"role_descrip": "direction"
+},
+{
+"ARG3": "in weight",
+"role_descrip": "aspect, domain in which arg1 moving"
+}
+]
+},
+{
+"example_name": "moving-n: arg1, 2",
+"example_text": "The San Jose attorneys also assert that the grant of San Jose territorial rights to the Giants was \" subject to their moving to Santa Clara County .",
+"example_rel": "moving",
+"arguments": [
+{
+"ARG1": "their",
+"role_descrip": "moved"
+},
+{
+"ARG2": "to Santa Clara County",
+"role_descrip": "destination"
+}
+]
+},
+{
+"example_name": "movement-n",
+"example_text": "the movement of young cattle onto feedlots in the month of September in seven big ranch states",
+"example_rel": "movement",
+"arguments": [
+{
+"ARG1": "of young cattle",
+"role_descrip": "moved"
+},
+{
+"ARG2": "onto feedlots",
+"role_descrip": "destination"
+},
+{
+"ARGM-TMP": "in the month of September",
+"role_descrip": "temporal"
+},
+{
+"ARGM-LOC": "in seven big ranch states",
+"role_descrip": "location"
+}
+]
+},
+{
+"example_name": "movement-n",
+"example_text": "a series of sell lists hit the Street and capped upward price movement in the sector",
+"example_rel": "movement",
+"arguments": [
+{
+"ARGM-DIR": "upward",
+"role_descrip": "direction"
+},
+{
+"ARG1": "price",
+"role_descrip": "moved"
+},
+{
+"ARGM-LOC": "in the sector",
+"role_descrip": "location"
+}
+]
+},
+{
+"example_name": "movement-n",
+"example_text": "Israeli security restrictions on cross - border movement",
+"example_rel": "movement",
+"arguments": [
+{
+"ARG2": "cross - border",
+"role_descrip": "destination"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who is really looking forward to moving to Oregon?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"I\"}"
+},
+{
+"index_sen": 523,
+"sentences": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+"selected_span": [
+"I",
+"ARG0",
+[
+2,
+3
+]
+],
+"predicate": "talk",
+"org_span": [
+798,
+7,
+2,
+3,
+2
+],
+"selected_other_spans": [
+"'ll:ARGM-MOD",
+"with Anya:ARG2",
+"about some things that maybe we think that it would be neat for you to see:ARG1"
+],
+"predict_prob": 0.9991230964660645,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "talk",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "talker",
+"ARG1": "subject",
+"ARG2": "hearer"
+},
+"examples": [
+{
+"example_name": "talk-v: no hearer",
+"example_text": "We 're talking about years ago before anyone heard of asbestos having any questionable properties .",
+"example_rel": "talking",
+"arguments": [
+{
+"ARG0": "We",
+"role_descrip": "talker"
+},
+{
+"ARG1": "about years ago before anyone heard of asbestos having any questionable properties",
+"role_descrip": "subject"
+}
+]
+},
+{
+"example_name": "talk-v: no subject",
+"example_text": "Cray says it is talking with several prospects .",
+"example_rel": "talking",
+"arguments": [
+{
+"ARG0": "it",
+"role_descrip": "talker"
+},
+{
+"ARG2": "with several prospects",
+"role_descrip": "hearer"
+}
+]
+},
+{
+"example_name": "talk-v: both",
+"example_text": "Mr. Simonds - Gooding is n't talking to any studios about investing .",
+"example_rel": "talking",
+"arguments": [
+{
+"ARG0": "Mr. Simonds - Gooding",
+"role_descrip": "talker"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG2": "to any studios",
+"role_descrip": "hearer"
+},
+{
+"ARG1": "about investing",
+"role_descrip": "subject"
+}
+]
+},
+{
+"example_name": "talk-v: Example with all args",
+"example_text": "its steel talks with the U.S.",
+"example_rel": "talks",
+"arguments": [
+{
+"ARG0": "its",
+"role_descrip": "talker"
+},
+{
+"ARG1": "steel",
+"role_descrip": "subject"
+},
+{
+"ARG2": "with the U.S.",
+"role_descrip": "hearer"
+}
+]
+},
+{
+"example_name": "talks-n: Arg 1 example",
+"example_text": "pay talks",
+"example_rel": "talks",
+"arguments": [
+{
+"ARG1": "pay",
+"role_descrip": "subject"
+}
+]
+},
+{
+"example_name": "talk-n: Slightly different arg 0 use",
+"example_text": "talk among Republicans that maybe Conrad Burns would find something else to do maybe in the Bush administration",
+"example_rel": "talk",
+"arguments": [
+{
+"ARG0": "among Republicans",
+"role_descrip": "talker"
+},
+{
+"ARG1": "that maybe Conrad Burns would find something else to do maybe in the Bush administration",
+"role_descrip": "subject"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who will sit and talk with Anya?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"I\"}"
+},
+{
+"index_sen": 525,
+"sentences": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+"selected_span": [
+"mom",
+"ARG2",
+[
+2,
+3
+]
+],
+"predicate": "said",
+"org_span": [
+60,
+2,
+2,
+3,
+4
+],
+"selected_other_spans": [
+"I:ARG0",
+"it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you:ARG1"
+],
+"predict_prob": 0.4978906512260437,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "say",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "Sayer",
+"ARG1": "Utterance",
+"ARG2": "Hearer",
+"ARG3": "Attributive"
+},
+"examples": [
+{
+"example_name": "Transitive",
+"example_text": "A Lorillard spokeswoman said \" This is an old story . \"",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "A Lorillard spokeswoman",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "\" This is an old story . \"",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Fronted",
+"example_text": "Kent cigarettes were sold , the company said",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "the company",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "Kent cigarettes were sold",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Inverted",
+"example_text": "What matters is what advertisers will pay , said Newsweek 's chairman",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "What matters is what advertisers will pay",
+"role_descrip": "Utterance"
+},
+{
+"ARG0": "Newsweek 's chairman",
+"role_descrip": "Sayer"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG2",
+"example_text": "On December 9 , the British firm Tesco said hello to consumers in Taiwan when it formally opened its clean , bright and spacious store .",
+"example_rel": "said",
+"arguments": [
+{
+"ARGM-TMP": "On December 9",
+"role_descrip": "temporal"
+},
+{
+"ARG0": "the British firm Tesco",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "hello",
+"role_descrip": "Utterance"
+},
+{
+"ARG2": "to consumers in Taiwan",
+"role_descrip": "Hearer"
+},
+{
+"ARGM-TMP": "when it formally opened its clean , bright and spacious store",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG3",
+"example_text": "Although Lee 's trip would seem to have been a shot in the arm for the deadlocked cross - strait relationship , it also generated a lot of speculation and ill will because neither Lee nor anyone who met with him was willing to say a word about the content of their discussions , and ROC officials who went to call on Lee at his hotel skulked around in underground walkways and service elevators to avoid journalists .",
+"example_rel": "say",
+"arguments": [
+{
+"ARG0": "neither Lee nor anyone who met with him",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "a word",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "about the content of their discussions",
+"role_descrip": "Attributive"
+}
+]
+},
+{
+"example_name": "ARG1 and ARG3",
+"example_text": "But the truth is that objects said to attract money sell just as well in good times as bad , for when the economy is strong , people are willing to spend large sums to ensure that they can hold onto their wealth .",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "objects",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "to attract money",
+"role_descrip": "Attributive"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who did I say it to?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"mom\"}"
+},
+{
+"index_sen": 543,
+"sentences": "This girl has everything in her dreams you know .",
+"selected_span": [
+"everything",
+"ARG1",
+[
+3,
+4
+]
+],
+"predicate": "know",
+"org_span": [
+499,
+9,
+3,
+4,
+3
+],
+"selected_other_spans": [
+"you:ARG0"
+],
+"predict_prob": 0.9949352145195007,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "know",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "knower",
+"ARG1": "fact that is known",
+"ARG2": "entity that arg1 is known ABOUT"
+},
+"examples": [
+{
+"example_name": "know-v: just transitive",
+"example_text": "I need to know the aircraft and flight number .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "knower"
+},
+{
+"ARG1": "the aircraft and flight number",
+"role_descrip": "fact that is known"
+}
+]
+},
+{
+"example_name": "know-v: sentential thing known",
+"example_text": "The other side knows that Giuliani has always been prochoice .",
+"example_rel": "knows",
+"arguments": [
+{
+"ARG0": "The other side",
+"role_descrip": "knower"
+},
+{
+"ARG1": "that Giuliani has always been prochoice",
+"role_descrip": "fact that is known"
+}
+]
+},
+{
+"example_name": "know-v: attributive",
+"example_text": "He did n't know ( anything ) about most of the cases until Wednesday .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "He",
+"role_descrip": "knower"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG1": "anything",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "about most of the cases",
+"role_descrip": "entity that arg1 is known ABOUT"
+},
+{
+"ARGM-TMP": "until Wednesday",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "knowledgeable-j: args 0, 2",
+"example_text": "I 'm fairly knowledgeable about how the culture works in that part of the world , as is many of the experts .",
+"example_rel": "knowledgeable",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "knower"
+},
+{
+"ARGM-EXT": "fairly",
+"role_descrip": "extent"
+},
+{
+"ARG2": "about how the culture works in that part of the world",
+"role_descrip": "entity that arg1 is known ABOUT"
+},
+{
+"ARGM-ADV": "as is many of the experts",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "idk-v: both args",
+"example_text": "Idk what I 'm going to do without you",
+"example_rel": "Idk",
+"arguments": [
+{
+"ARG1": "what I 'm going to do without you",
+"role_descrip": "fact that is known"
+}
+]
+},
+{
+"example_name": "know vs. know about, compare with .02 examples",
+"example_text": "I know a lot about London . ( I have read much about it . )",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "knower"
+},
+{
+"ARG1": "a lot",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "about London",
+"role_descrip": "entity that arg1 is known ABOUT"
+}
+]
+},
+{
+"example_name": "Know TO BE, rephrasable as We know the truth of your words, ignore arg2 for AMR.",
+"example_text": "We know your words to be true .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "We",
+"role_descrip": "knower"
+},
+{
+"ARG1": "to be true",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "your words",
+"role_descrip": "entity that arg1 is known ABOUT"
+}
+]
+},
+{
+"example_name": "Know TO BE, more weird syntax for PB, ignore arg2 for AMR",
+"example_text": "They know the Cherokee Nation to be a sovereign state .",
+"example_rel": "know",
+"arguments": [
+{
+"ARG0": "They",
+"role_descrip": "knower"
+},
+{
+"ARG1": "to be a sovereign state",
+"role_descrip": "fact that is known"
+},
+{
+"ARG2": "the Cherokee Nation",
+"role_descrip": "entity that arg1 is known ABOUT"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What does the girl have in her dreams according to the statement?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"everything\"}"
+},
+{
+"index_sen": 549,
+"sentences": "And so , I then had to go bike hunting and eventually get another bike ,",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+4,
+5
+]
+],
+"predicate": "had",
+"org_span": [
+2051,
+6,
+4,
+5,
+29
+],
+"selected_other_spans": [
+"And so:ARGM-DIS"
+],
+"predict_prob": 0.9928401112556458,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "have",
+"pred_sense": "02",
+"candidate_roles": {},
+"examples": [
+{
+"example_name": "unk",
+"example_text": "With the full adoption of two - day weekends every other week , people in Taiwan have had to figure out what to do with these new days off .",
+"example_rel": "had",
+"arguments": [
+{
+"ARGM-CAU": "With the full adoption of two - day weekends every other week",
+"role_descrip": "cause"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When did I have to go bike hunting?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"then\"}"
+},
+{
+"index_sen": 573,
+"sentences": "So you have no intentions of coming over this way any time soon ?",
+"selected_span": [
+"you",
+"ARG1",
+[
+1,
+2
+]
+],
+"predicate": "coming",
+"org_span": [
+2009,
+7,
+1,
+2,
+3
+],
+"selected_other_spans": [
+"over:ARGM-DIR",
+"this way:ARGM-MNR",
+"any time soon:ARGM-TMP"
+],
+"predict_prob": 0.9881665110588074,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "come",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "entity in motion / 'comer'",
+"ARG2": "extent -- rare",
+"ARG3": "start point",
+"ARG4": "end point"
+},
+"examples": [
+{
+"example_name": "come-v: destination",
+"example_text": "Mrs. Yeargin came to work on weekends .",
+"example_rel": "came",
+"arguments": [
+{
+"ARG1": "Mrs. Yeargin",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARG4": "to work",
+"role_descrip": "end point"
+},
+{
+"ARGM-TMP": "on weekends",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "come-v: with purpose",
+"example_text": "Students , teachers , and parents came to testify on her behalf .",
+"example_rel": "came",
+"arguments": [
+{
+"ARG1": "Students , teachers , and parents",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-PRP": "to testify on her behalf",
+"role_descrip": "purpose"
+}
+]
+},
+{
+"example_name": "come-v: destination as by-phrase",
+"example_text": "You may come by the agency to read but not copy the books .",
+"example_rel": "come",
+"arguments": [
+{
+"ARG1": "You",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-MOD": "may",
+"role_descrip": "general modification"
+},
+{
+"ARG4": "by the agency",
+"role_descrip": "end point"
+},
+{
+"ARGM-PRP": "to read but not copy the books",
+"role_descrip": "purpose"
+}
+]
+},
+{
+"example_name": "come-v: come back (not phrasal)",
+"example_text": "They are n't going to come back to the US .",
+"example_rel": "to come",
+"arguments": [
+{
+"ARG1": "They",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-DIR": "back",
+"role_descrip": "direction"
+},
+{
+"ARG4": "to the US",
+"role_descrip": "end point"
+}
+]
+},
+{
+"example_name": "come-v: nice syntactic reversal",
+"example_text": "`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says .",
+"example_rel": "come",
+"arguments": [
+{
+"ARG4": "here",
+"role_descrip": "end point"
+},
+{
+"ARG1": "the ringers",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARG3": "from above",
+"role_descrip": "start point"
+},
+{
+"ARGM-ADV": "making a very obvious exit while the congregation is at prayer",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "come-v: temporal coming",
+"example_text": "It is also the sovereign power that , come 1997 , will take over this British colony .",
+"example_rel": "come",
+"arguments": [
+{
+"ARG1": "1997",
+"role_descrip": "entity in motion / 'comer'"
+}
+]
+},
+{
+"example_name": "come-v: ARG1",
+"example_text": "In contrast , Taiwan is still showing a nasty deficit in knowledge trade , with money going out twice as fast as it is coming in .",
+"example_rel": "coming",
+"arguments": [
+{
+"ARG1": "it",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-DIR": "In",
+"role_descrip": "direction"
+}
+]
+},
+{
+"example_name": "come-v: another with start point",
+"example_text": "But at the time when he stood to speak , I was in the restroom and sort of coming back from the restroom",
+"example_rel": "coming",
+"arguments": [
+{
+"ARGM-TMP": "at the time when he stood to speak",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "I",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-ADV": "sort of",
+"role_descrip": "adverbial modification"
+},
+{
+"ARG3": "back from the restroom",
+"role_descrip": "start point"
+}
+]
+},
+{
+"example_name": "coming-n: arg1",
+"example_text": "Haha , that s what I said in conversation with someone last night , she 's the second coming of Dan Quayle !",
+"example_rel": "coming",
+"arguments": [
+{
+"ARGM-TMP": "second",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "of Dan Quayle",
+"role_descrip": "entity in motion / 'comer'"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who has no intentions of coming over this way any time soon?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"you\"}"
+},
+{
+"index_sen": 587,
+"sentences": "Well I 'm figuring it out fast because -- okay -- with not working out and all yeah . it 's pretty miserable my crunch tape .",
+"selected_span": [
+"my crunch tape",
+"ARG1",
+[
+23,
+26
+]
+],
+"predicate": "'s",
+"org_span": [
+768,
+21,
+23,
+26,
+3
+],
+"selected_other_spans": [
+"all yeah:ARGM-ADV",
+"it:ARG1",
+"pretty miserable:ARG2"
+],
+"predict_prob": 0.999150812625885,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\":\"yes\",\"question\":\"What is pretty miserable?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"my crunch tape\"}"
+},
+{
+"index_sen": 626,
+"sentences": "I found a gym yesterday here that 's only eight pounds a month which is like twelve dollars , twelve fifty",
+"selected_span": [
+"here",
+"ARGM-LOC",
+[
+5,
+6
+]
+],
+"predicate": "'s",
+"org_span": [
+256,
+8,
+5,
+6,
+18
+],
+"selected_other_spans": [
+"that:ARG1",
+"only eight pounds a month:ARG2",
+"which:R-ARG1",
+"like twelve dollars , twelve fifty:ARG2"
+],
+"predict_prob": 0.7804534435272217,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Where is the gym that is only eight pounds a month?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"here\"}"
+},
+{
+"index_sen": 636,
+"sentences": "And she went from Penn , %um To Columbia . to Columbia to U R I .",
+"selected_span": [
+"To Columbia",
+"ARG4",
+[
+7,
+9
+]
+],
+"predicate": "went",
+"org_span": [
+159,
+3,
+7,
+9,
+6
+],
+"selected_other_spans": [
+"And:ARGM-DIS",
+"she:ARG1",
+"%um:ARGM-DIR",
+"to Columbia:ARG4",
+"to U R I:ARG4"
+],
+"predict_prob": 0.9455395936965942,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "go",
+"pred_sense": "02",
+"candidate_roles": {
+"ARG0": "goer",
+"ARG1": "journey",
+"ARG3": "start point",
+"ARG4": "end point"
+},
+"examples": [
+{
+"example_name": "go-v: journey",
+"example_text": "He and two colleagues went on an overnight fishing trip .",
+"example_rel": "went",
+"arguments": [
+{
+"ARG0": "He and two colleagues",
+"role_descrip": "goer"
+},
+{
+"ARG1": "on an overnight fishing trip",
+"role_descrip": "journey"
+}
+]
+},
+{
+"example_name": "go-v: end point",
+"example_text": "The lawyers went to work",
+"example_rel": "went",
+"arguments": [
+{
+"ARG0": "The lawyers",
+"role_descrip": "goer"
+},
+{
+"ARG4": "to work",
+"role_descrip": "end point"
+}
+]
+},
+{
+"example_name": "go-v: with manner",
+"example_text": "Currently in the middle of a four - week , 20 - city tour as a solo pianist , Mr. Glass has left behind his synthesizers , equipment and collaborators in favor of going it alone .",
+"example_rel": "going",
+"arguments": [
+{
+"ARG0": "Mr. Glass",
+"role_descrip": "goer"
+},
+{
+"ARG1": "it",
+"role_descrip": "journey"
+},
+{
+"ARGM-MNR": "alone",
+"role_descrip": "manner"
+}
+]
+},
+{
+"example_name": "going-n: as nominal",
+"example_text": "`` I think Bush 's going there is a helpful sign , '' said Sen. Terry Sanford ( D. , N.C. ) a member of the Foreign Relations Committee who pushed to provide Costa Rica about the same amount of aid as it received last year .",
+"example_rel": "going",
+"arguments": [
+{
+"ARG0": "Bush 's",
+"role_descrip": "goer"
+},
+{
+"ARG4": "there",
+"role_descrip": "end point"
+}
+]
+},
+{
+"example_name": "gone-j: go on vacation, leave habitual places",
+"example_text": "I am gone for three weeks on vacation .",
+"example_rel": "gone",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "goer"
+},
+{
+"ARGM-TMP": "for three weeks",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "on vacation",
+"role_descrip": "journey"
+}
+]
+},
+{
+"example_name": "gone-j: MIA",
+"example_text": "The pen is gone .",
+"example_rel": "gone",
+"arguments": [
+{
+"ARG0": "The pen",
+"role_descrip": "goer"
+}
+]
+},
+{
+"example_name": "gone-j: Gone from place",
+"example_text": "I am gone from the forum for two days and what happens ?",
+"example_rel": "gone",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "goer"
+},
+{
+"ARG3": "from the forum",
+"role_descrip": "start point"
+},
+{
+"ARGM-TMP": "for two days",
+"role_descrip": "temporal"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Where did she go from Penn?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"To Columbia\"}"
+},
+{
+"index_sen": 637,
+"sentences": "this place is incredibly easy to break into if you want to .",
+"selected_span": [
+"this place",
+"ARG1",
+[
+0,
+2
+]
+],
+"predicate": "break",
+"org_span": [
+2039,
+7,
+0,
+2,
+3
+],
+"selected_other_spans": [],
+"predict_prob": 0.9999185800552368,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "break",
+"pred_sense": "02",
+"candidate_roles": {
+"ARG0": "enterer",
+"ARG1": "place/domain broken into"
+},
+"examples": [
+{
+"example_name": "break-v: not exactly a robbery",
+"example_text": "All of Japan 's so-called Big Four securities firms have suffered setbacks in their attempts to break into foreign markets .",
+"example_rel": "break",
+"arguments": [
+{
+"ARG0": "All of Japan 's so-called Big Four securities firms",
+"role_descrip": "enterer"
+},
+{
+"ARG1": "into foreign markets",
+"role_descrip": "place/domain broken into"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1",
+"example_text": "And thieves can break into your house and steal them .",
+"example_rel": "break",
+"arguments": [
+{
+"ARGM-DIS": "And",
+"role_descrip": "discourse"
+},
+{
+"ARG0": "thieves",
+"role_descrip": "enterer"
+},
+{
+"ARGM-MOD": "can",
+"role_descrip": "general modification"
+},
+{
+"ARG1": "into your house",
+"role_descrip": "place/domain broken into"
+}
+]
+},
+{
+"example_name": "break_in-v",
+"example_text": "I did n't think I had much time , so I broke in , figuring I 'd get a few hours , maybe a day before they clear out all of this stuff .",
+"example_rel": "broke in",
+"arguments": [
+{
+"ARGM-ADV": "I did n't think I had much time",
+"role_descrip": "adverbial modification"
+},
+{
+"ARGM-ADV": "so",
+"role_descrip": "adverbial modification"
+},
+{
+"ARG0": "I",
+"role_descrip": "enterer"
+},
+{
+"ARGM-ADV": "figuring I 'd get a few hours , maybe a day before they clear out all of this stuff",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "break_in-n",
+"example_text": "Ginny smiled ; she remembered Harry telling her about his break - in into the Lestrange vault .",
+"example_rel": "break in",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "enterer"
+},
+{
+"ARG1": "into the Lestrange vault",
+"role_descrip": "place/domain broken into"
+}
+]
+},
+{
+"example_name": "break_in-n",
+"example_text": "the Cabinet will convene , the Council of Ministers , and demand ah and we give authorization to the Lebanese army to perform break - ins",
+"example_rel": "break ins",
+"arguments": []
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What is incredibly easy to break into?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"this place\"}"
+},
+{
+"index_sen": 651,
+"sentences": "And maybe I 'll come by , public transport .",
+"selected_span": [
+"public transport",
+"ARGM-ADV",
+[
+7,
+9
+]
+],
+"predicate": "come",
+"org_span": [
+605,
+5,
+7,
+9,
+10
+],
+"selected_other_spans": [
+"And:ARGM-DIS",
+"maybe:ARGM-ADV",
+"I:ARG1",
+"'ll:ARGM-MOD",
+"by:ARGM-DIR"
+],
+"predict_prob": 0.9977763295173645,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "come",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "entity in motion / 'comer'",
+"ARG2": "extent -- rare",
+"ARG3": "start point",
+"ARG4": "end point"
+},
+"examples": [
+{
+"example_name": "come-v: destination",
+"example_text": "Mrs. Yeargin came to work on weekends .",
+"example_rel": "came",
+"arguments": [
+{
+"ARG1": "Mrs. Yeargin",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARG4": "to work",
+"role_descrip": "end point"
+},
+{
+"ARGM-TMP": "on weekends",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "come-v: with purpose",
+"example_text": "Students , teachers , and parents came to testify on her behalf .",
+"example_rel": "came",
+"arguments": [
+{
+"ARG1": "Students , teachers , and parents",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-PRP": "to testify on her behalf",
+"role_descrip": "purpose"
+}
+]
+},
+{
+"example_name": "come-v: destination as by-phrase",
+"example_text": "You may come by the agency to read but not copy the books .",
+"example_rel": "come",
+"arguments": [
+{
+"ARG1": "You",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-MOD": "may",
+"role_descrip": "general modification"
+},
+{
+"ARG4": "by the agency",
+"role_descrip": "end point"
+},
+{
+"ARGM-PRP": "to read but not copy the books",
+"role_descrip": "purpose"
+}
+]
+},
+{
+"example_name": "come-v: come back (not phrasal)",
+"example_text": "They are n't going to come back to the US .",
+"example_rel": "to come",
+"arguments": [
+{
+"ARG1": "They",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-DIR": "back",
+"role_descrip": "direction"
+},
+{
+"ARG4": "to the US",
+"role_descrip": "end point"
+}
+]
+},
+{
+"example_name": "come-v: nice syntactic reversal",
+"example_text": "`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says .",
+"example_rel": "come",
+"arguments": [
+{
+"ARG4": "here",
+"role_descrip": "end point"
+},
+{
+"ARG1": "the ringers",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARG3": "from above",
+"role_descrip": "start point"
+},
+{
+"ARGM-ADV": "making a very obvious exit while the congregation is at prayer",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "come-v: temporal coming",
+"example_text": "It is also the sovereign power that , come 1997 , will take over this British colony .",
+"example_rel": "come",
+"arguments": [
+{
+"ARG1": "1997",
+"role_descrip": "entity in motion / 'comer'"
+}
+]
+},
+{
+"example_name": "come-v: ARG1",
+"example_text": "In contrast , Taiwan is still showing a nasty deficit in knowledge trade , with money going out twice as fast as it is coming in .",
+"example_rel": "coming",
+"arguments": [
+{
+"ARG1": "it",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-DIR": "In",
+"role_descrip": "direction"
+}
+]
+},
+{
+"example_name": "come-v: another with start point",
+"example_text": "But at the time when he stood to speak , I was in the restroom and sort of coming back from the restroom",
+"example_rel": "coming",
+"arguments": [
+{
+"ARGM-TMP": "at the time when he stood to speak",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "I",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-ADV": "sort of",
+"role_descrip": "adverbial modification"
+},
+{
+"ARG3": "back from the restroom",
+"role_descrip": "start point"
+}
+]
+},
+{
+"example_name": "coming-n: arg1",
+"example_text": "Haha , that s what I said in conversation with someone last night , she 's the second coming of Dan Quayle !",
+"example_rel": "coming",
+"arguments": [
+{
+"ARGM-TMP": "second",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "of Dan Quayle",
+"role_descrip": "entity in motion / 'comer'"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"How will I come by?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"public transport\"}"
+},
+{
+"index_sen": 655,
+"sentences": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+"selected_span": [
+"to go to Germany or something for them",
+"ARG3",
+[
+58,
+66
+]
+],
+"predicate": "pay",
+"org_span": [
+390,
+53,
+58,
+66,
+5
+],
+"selected_other_spans": [
+"I:ARG0",
+"going:ARGM-MOD",
+"out of my own expenses:ARG3"
+],
+"predict_prob": 0.8995132446289062,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "pay",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "payer or buyer",
+"ARG1": "money or attention",
+"ARG2": "person being paid, destination of attention",
+"ARG3": "commodity, paid for what"
+},
+"examples": [
+{
+"example_name": "pay-v: price and commodity",
+"example_text": "Investors pay higher prices for country funds .",
+"example_rel": "pay",
+"arguments": [
+{
+"ARG0": "Investors",
+"role_descrip": "payer or buyer"
+},
+{
+"ARG1": "higher prices",
+"role_descrip": "money or attention"
+},
+{
+"ARG3": "for country funds",
+"role_descrip": "commodity, paid for what"
+}
+]
+},
+{
+"example_name": "pay-v: seller and purpose",
+"example_text": "Theatres pay movie producers for showing their films .",
+"example_rel": "pay",
+"arguments": [
+{
+"ARG0": "Theatres",
+"role_descrip": "payer or buyer"
+},
+{
+"ARG2": "movie producers",
+"role_descrip": "person being paid, destination of attention"
+},
+{
+"ARG3": "for showing their films",
+"role_descrip": "commodity, paid for what"
+}
+]
+},
+{
+"example_name": "pay-v: passive, price and receiver",
+"example_text": "Mr. Cray was paid $ 600,000 at Cray Research last year .",
+"example_rel": "paid",
+"arguments": [
+{
+"ARG2": "Mr. Cray",
+"role_descrip": "person being paid, destination of attention"
+},
+{
+"ARG1": "$ 600,000",
+"role_descrip": "money or attention"
+},
+{
+"ARGM-LOC": "at Cray Research",
+"role_descrip": "location"
+},
+{
+"ARGM-TMP": "last year",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "pay-v: variant: pay on",
+"example_text": "The Latin American nation has paid very little on its debt .",
+"example_rel": "paid",
+"arguments": [
+{
+"ARG0": "The Latin American nation",
+"role_descrip": "payer or buyer"
+},
+{
+"ARG1": "very little",
+"role_descrip": "money or attention"
+},
+{
+"ARG2": "on its debt",
+"role_descrip": "person being paid, destination of attention"
+}
+]
+},
+{
+"example_name": "pay-v: agentive passive",
+"example_text": "... the TV commercial paid for by Giuliani 's campaign ...",
+"example_rel": "paid",
+"arguments": [
+{
+"ARG3": "for",
+"role_descrip": "commodity, paid for what"
+},
+{
+"C-ARG3": "the TV commercial",
+"role_descrip": "commodity, paid for what"
+},
+{
+"ARG0": "by Giuliani 's campaign",
+"role_descrip": "payer or buyer"
+}
+]
+},
+{
+"example_name": "pay-v: payer, payee, payment",
+"example_text": "The transaction would pay shareholders $ 55 a share .",
+"example_rel": "pay",
+"arguments": [
+{
+"ARG0": "The transaction",
+"role_descrip": "payer or buyer"
+},
+{
+"ARGM-MOD": "would",
+"role_descrip": "general modification"
+},
+{
+"ARG2": "shareholders",
+"role_descrip": "person being paid, destination of attention"
+},
+{
+"ARG1": "$ 55 a share",
+"role_descrip": "money or attention"
+}
+]
+},
+{
+"example_name": "payments-n: with MNR",
+"example_text": "in November and December alone , junk bond investors will receive $ 4.8 billion of coupon interest payments",
+"example_rel": "payments",
+"arguments": [
+{
+"ARGM-MNR": "coupon",
+"role_descrip": "manner"
+},
+{
+"ARG3": "interest",
+"role_descrip": "commodity, paid for what"
+}
+]
+},
+{
+"example_name": "payment-n: args 0 and 2",
+"example_text": "Bally 's alleged greenmail payment to Mr. Trump",
+"example_rel": "payment",
+"arguments": [
+{
+"ARG0": "Bally 's",
+"role_descrip": "payer or buyer"
+},
+{
+"ARGM-PRD": "alleged",
+"role_descrip": "secondary predication"
+},
+{
+"ARGM-PRP": "greenmail",
+"role_descrip": "purpose"
+},
+{
+"ARG2": "to Mr. Trump",
+"role_descrip": "person being paid, destination of attention"
+}
+]
+},
+{
+"example_name": "payments-n: Arg 3 only",
+"example_text": "tax payments",
+"example_rel": "payments",
+"arguments": [
+{
+"ARG3": "tax",
+"role_descrip": "commodity, paid for what"
+}
+]
+},
+{
+"example_name": "payment-n: args 0, 1, and 3",
+"example_text": "your final $ 2500 house payment",
+"example_rel": "payment",
+"arguments": [
+{
+"ARG0": "your",
+"role_descrip": "payer or buyer"
+},
+{
+"ARG1": "$ 2500",
+"role_descrip": "money or attention"
+},
+{
+"ARG3": "house",
+"role_descrip": "commodity, paid for what"
+}
+]
+},
+{
+"example_name": "make_payment-l",
+"example_text": "It said it needs to make the payment by Dec. 1 to avoid a default that could lead to an acceleration of the debt .",
+"example_rel": "payment",
+"arguments": [
+{
+"ARG0": "it",
+"role_descrip": "payer or buyer"
+},
+{
+"ARGM-LVB": "make",
+"role_descrip": "light verb (for nouns only)"
+},
+{
+"ARGM-TMP": "by Dec. 1",
+"role_descrip": "temporal"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What is the speaker not going to pay out of their own expenses for?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"to go to Germany or something for them\"}"
+},
+{
+"index_sen": 667,
+"sentences": "I said to Mark oh my god . What 's she going to say",
+"selected_span": [
+"oh my god",
+"ARGM-ADV",
+[
+4,
+7
+]
+],
+"predicate": "said",
+"org_span": [
+2085,
+2,
+4,
+7,
+10
+],
+"selected_other_spans": [
+"I:ARG0",
+"to Mark:ARG2",
+"What:ARG1"
+],
+"predict_prob": 0.5466723442077637,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "say",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "Sayer",
+"ARG1": "Utterance",
+"ARG2": "Hearer",
+"ARG3": "Attributive"
+},
+"examples": [
+{
+"example_name": "Transitive",
+"example_text": "A Lorillard spokeswoman said \" This is an old story . \"",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "A Lorillard spokeswoman",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "\" This is an old story . \"",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Fronted",
+"example_text": "Kent cigarettes were sold , the company said",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "the company",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "Kent cigarettes were sold",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Inverted",
+"example_text": "What matters is what advertisers will pay , said Newsweek 's chairman",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "What matters is what advertisers will pay",
+"role_descrip": "Utterance"
+},
+{
+"ARG0": "Newsweek 's chairman",
+"role_descrip": "Sayer"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG2",
+"example_text": "On December 9 , the British firm Tesco said hello to consumers in Taiwan when it formally opened its clean , bright and spacious store .",
+"example_rel": "said",
+"arguments": [
+{
+"ARGM-TMP": "On December 9",
+"role_descrip": "temporal"
+},
+{
+"ARG0": "the British firm Tesco",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "hello",
+"role_descrip": "Utterance"
+},
+{
+"ARG2": "to consumers in Taiwan",
+"role_descrip": "Hearer"
+},
+{
+"ARGM-TMP": "when it formally opened its clean , bright and spacious store",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG3",
+"example_text": "Although Lee 's trip would seem to have been a shot in the arm for the deadlocked cross - strait relationship , it also generated a lot of speculation and ill will because neither Lee nor anyone who met with him was willing to say a word about the content of their discussions , and ROC officials who went to call on Lee at his hotel skulked around in underground walkways and service elevators to avoid journalists .",
+"example_rel": "say",
+"arguments": [
+{
+"ARG0": "neither Lee nor anyone who met with him",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "a word",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "about the content of their discussions",
+"role_descrip": "Attributive"
+}
+]
+},
+{
+"example_name": "ARG1 and ARG3",
+"example_text": "But the truth is that objects said to attract money sell just as well in good times as bad , for when the economy is strong , people are willing to spend large sums to ensure that they can hold onto their wealth .",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "objects",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "to attract money",
+"role_descrip": "Attributive"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What did I say to Mark?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"oh my god\"}"
+},
+{
+"index_sen": 676,
+"sentences": "and all I had to do was get on it and follow it .",
+"selected_span": [
+"I",
+"ARG1",
+[
+2,
+3
+]
+],
+"predicate": "get",
+"org_span": [
+2064,
+8,
+2,
+3,
+3
+],
+"selected_other_spans": [
+"on it:ARG2"
+],
+"predict_prob": 0.9999030232429504,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "get",
+"pred_sense": "05",
+"candidate_roles": {
+"ARG0": "causer of motion",
+"ARG1": "thing in motion",
+"ARG2": "destination"
+},
+"examples": [
+{
+"example_name": "get-v: metaphorical motion",
+"example_text": "Financing problems caused a nine - month delay in *trace* getting the product to market .",
+"example_rel": "getting",
+"arguments": [
+{
+"ARG0": "*trace*",
+"role_descrip": "causer of motion"
+},
+{
+"ARG1": "the product",
+"role_descrip": "thing in motion"
+},
+{
+"ARG2": "to market",
+"role_descrip": "destination"
+}
+]
+},
+{
+"example_name": "get-v: destination and source all at once",
+"example_text": "Getting to and from the airport in coming weeks may be theproblem , however .",
+"example_rel": "Getting",
+"arguments": [
+{
+"ARG2": "to and from the airport",
+"role_descrip": "destination"
+},
+{
+"ARGM-TMP": "in coming weeks",
+"role_descrip": "temporal"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who had to get on it and follow it?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"I\"}"
+},
+{
+"index_sen": 687,
+"sentences": "That we were abusing ,",
+"selected_span": [
+"That",
+"R-ARG1",
+[
+0,
+1
+]
+],
+"predicate": "abusing",
+"org_span": [
+1103,
+4,
+0,
+1,
+49
+],
+"selected_other_spans": [
+"we:ARG0"
+],
+"predict_prob": 0.9882175326347351,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "abuse",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "abuser, agent",
+"ARG1": "entity abused"
+},
+"examples": [
+{
+"example_name": "abuse-v: transitive",
+"example_text": "These are the families who used -- and sometime abused -- their sharecroppers , people who had no encouragement and little access to an education or training for a better life .",
+"example_rel": "abused",
+"arguments": [
+{
+"ARG0": "the families",
+"role_descrip": "abuser, agent"
+},
+{
+"R-ARG0": "who",
+"role_descrip": "abuser, agent"
+},
+{
+"ARGM-TMP": "sometime",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "their sharecroppers , people who had no encouragement and little access to an education or training for a better life",
+"role_descrip": "entity abused"
+}
+]
+},
+{
+"example_name": "abuse-n: With Manner",
+"example_text": "The teens withstood `` mental abuse '' from coaches .",
+"example_rel": "abuse",
+"arguments": [
+{
+"ARGM-MNR": "mental",
+"role_descrip": "manner"
+},
+{
+"ARG0": "from coaches",
+"role_descrip": "abuser, agent"
+}
+]
+},
+{
+"example_name": "abuse-n: Abused only",
+"example_text": "The court determined it was a clear case of child abuse .",
+"example_rel": "abuse",
+"arguments": [
+{
+"ARG1": "child",
+"role_descrip": "entity abused"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1",
+"example_text": "Taipei mayor Ma Ying - jeou was angered to learn that intelligence organs would abuse their power by carrying out political surveillance against the Taipei City Government .",
+"example_rel": "abuse",
+"arguments": [
+{
+"ARG0": "intelligence organs",
+"role_descrip": "abuser, agent"
+},
+{
+"ARGM-MOD": "would",
+"role_descrip": "general modification"
+},
+{
+"ARG1": "their power",
+"role_descrip": "entity abused"
+},
+{
+"ARGM-MNR": "by carrying out political surveillance against the Taipei City Government",
+"role_descrip": "manner"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What were we abusing?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"That\"}"
+},
+{
+"index_sen": 698,
+"sentences": "and all I had to do was get on it and follow it .",
+"selected_span": [
+"I",
+"ARG0",
+[
+2,
+3
+]
+],
+"predicate": "follow",
+"org_span": [
+2065,
+12,
+2,
+3,
+2
+],
+"selected_other_spans": [
+"it:ARG2"
+],
+"predict_prob": 0.9227761626243591,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "follow",
+"pred_sense": "02",
+"candidate_roles": {
+"ARG0": "acceptor, pursuer",
+"ARG1": "thing followed",
+"ARG2": "benefactive"
+},
+"examples": [
+{
+"example_name": "follow-v: another transitive",
+"example_text": "Many investors follow a strategy of buying and holding a mix of stocks .",
+"example_rel": "follow",
+"arguments": [
+{
+"ARG0": "Many investors",
+"role_descrip": "acceptor, pursuer"
+},
+{
+"ARG1": "a strategy of buying and holding a mix of stocks",
+"role_descrip": "thing followed"
+}
+]
+},
+{
+"example_name": "follow-v: ARG0 and ARG1 and ARG2",
+"example_text": "For most investors `` the benefits just are n't worth the risks , '' says Barbara Roper , who follows financial - planning issues for the Consumer Federation of America , a consumer - advocacy organization based in Washington .",
+"example_rel": "follows",
+"arguments": [
+{
+"R-ARG0": "who",
+"role_descrip": "acceptor, pursuer"
+},
+{
+"ARG0": "Barbara Roper",
+"role_descrip": "acceptor, pursuer"
+},
+{
+"ARG1": "financial - planning issues",
+"role_descrip": "thing followed"
+},
+{
+"ARG2": "for the Consumer Federation of America , a consumer - advocacy organization based in Washington",
+"role_descrip": "benefactive"
+}
+]
+},
+{
+"example_name": "following-n: arg 1 first",
+"example_text": "its loyal following among buyers of equipment",
+"example_rel": "following",
+"arguments": [
+{
+"ARG1": "its",
+"role_descrip": "thing followed"
+},
+{
+"ARGM-MNR": "loyal",
+"role_descrip": "manner"
+},
+{
+"ARG0": "among buyers of equipment",
+"role_descrip": "acceptor, pursuer"
+}
+]
+},
+{
+"example_name": "following-n: arg 0 only",
+"example_text": "Baker had a large gay following later in her career when she was an overdressed singer rather than underdressed dancer",
+"example_rel": "following",
+"arguments": [
+{
+"ARGM-ADJ": "large",
+"role_descrip": "adjectival (nouns only)"
+},
+{
+"ARG0": "gay",
+"role_descrip": "acceptor, pursuer"
+}
+]
+},
+{
+"example_name": "following-n: Arg 1 only",
+"example_text": "bling following of fads",
+"example_rel": "following",
+"arguments": [
+{
+"ARGM-MNR": "bling",
+"role_descrip": "manner"
+},
+{
+"ARG1": "of fads",
+"role_descrip": "thing followed"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who had to get on it and follow it?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"I\"}"
+},
+{
+"index_sen": 721,
+"sentences": "and I think they would then feel guilty for not inviting me .",
+"selected_span": [
+"for not inviting me",
+"ARGM-CAU",
+[
+8,
+12
+]
+],
+"predicate": "feel",
+"org_span": [
+2160,
+7,
+8,
+12,
+11
+],
+"selected_other_spans": [
+"they:ARG0",
+"would:ARGM-MOD",
+"then:ARGM-TMP",
+"guilty:ARG1"
+],
+"predict_prob": 0.9996485710144043,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "feel",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "feeler, person experiencing emotion",
+"ARG1": "emotion or sensation",
+"ARG2": "entity towards or for whom the emotion is directed"
+},
+"examples": [
+{
+"example_name": "under pressure",
+"example_text": "The colony 's consumers feel more pressured than those in any of the other surveyed markets .",
+"example_rel": "feel",
+"arguments": [
+{
+"ARG0": "The colony 's consumers",
+"role_descrip": "feeler, person experiencing emotion"
+},
+{
+"ARG1": "more pressured than those in any of the other surveyed markets",
+"role_descrip": "emotion or sensation"
+}
+]
+},
+{
+"example_name": "all args",
+"example_text": "Andrew felt an almost unbearable tenderness for Addiline",
+"example_rel": "felt",
+"arguments": [
+{
+"ARG0": "Andrew",
+"role_descrip": "feeler, person experiencing emotion"
+},
+{
+"ARG1": "an almost unbearable tenderness",
+"role_descrip": "emotion or sensation"
+},
+{
+"ARG2": "for Addiline",
+"role_descrip": "entity towards or for whom the emotion is directed"
+}
+]
+},
+{
+"example_name": "Arg0 and Arg1",
+"example_text": "Dexter 's feeling of being watched increased as he kept hearing small creaks and breathing sounds . ?",
+"example_rel": "feeling",
+"arguments": [
+{
+"ARG0": "Dexter 's",
+"role_descrip": "feeler, person experiencing emotion"
+},
+{
+"ARG1": "of being watched",
+"role_descrip": "emotion or sensation"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"For what would they feel guilty?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"for not inviting me\"}"
+},
+{
+"index_sen": 725,
+"sentences": "%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,",
+"selected_span": [
+"if they denied my citizenship and I became a citizen here I probably would n't be a horror either",
+"ARG1",
+[
+3,
+22
+]
+],
+"predicate": "mean",
+"org_span": [
+809,
+3,
+3,
+22,
+3
+],
+"selected_other_spans": [
+"I:ARG0"
+],
+"predict_prob": 0.9993314146995544,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "mean",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "agent",
+"ARG1": "element containing meaning",
+"ARG2": "meaning",
+"ARG3": "perceiver, beneficiary"
+},
+"examples": [
+{
+"example_name": "mean-v: resulted in",
+"example_text": "Huge gains by her students in 1987 and 1988 meant a total of $ 5000 in bonuses over two years .",
+"example_rel": "meant",
+"arguments": [
+{
+"ARG1": "Huge gains by her students in 1987 and 1988",
+"role_descrip": "element containing meaning"
+},
+{
+"ARG2": "a total of $ 5000 in bonuses over two years",
+"role_descrip": "meaning"
+}
+]
+},
+{
+"example_name": "mean-v: this means that",
+"example_text": "The leeway that Sea Containers has means that Temple would have to substantially increase their bid .",
+"example_rel": "means",
+"arguments": [
+{
+"ARG1": "The leeway that Sea Containers has",
+"role_descrip": "element containing meaning"
+},
+{
+"ARG2": "that Temple would have to substantially increase their bid",
+"role_descrip": "meaning"
+}
+]
+},
+{
+"example_name": "mean-v: with ARG2",
+"example_text": "What a Lien victory means for the New Party .",
+"example_rel": "means",
+"arguments": [
+{
+"ARG1": "a Lien victory",
+"role_descrip": "element containing meaning"
+},
+{
+"ARG2": "What",
+"role_descrip": "meaning"
+},
+{
+"ARG3": "for the New Party",
+"role_descrip": "perceiver, beneficiary"
+}
+]
+},
+{
+"example_name": "meaning-n: resulted in",
+"example_text": "The name Melchizedek , king of Salem , also has a meaning \" King of Righteousness \" .",
+"example_rel": "meaning",
+"arguments": [
+{
+"ARG1": "The name Melchizedek , king of Salem",
+"role_descrip": "element containing meaning"
+},
+{
+"ARGM-ADV": "also",
+"role_descrip": "adverbial modification"
+},
+{
+"ARGM-LVB": "has",
+"role_descrip": "light verb (for nouns only)"
+},
+{
+"ARG2": "\" King of Righteousness \"",
+"role_descrip": "meaning"
+}
+]
+},
+{
+"example_name": "mean-v: arg0",
+"example_text": "What do you mean by that ?",
+"example_rel": "mean",
+"arguments": [
+{
+"ARG0": "you",
+"role_descrip": "agent"
+},
+{
+"ARG1": "by that",
+"role_descrip": "element containing meaning"
+},
+{
+"ARG2": "What",
+"role_descrip": "meaning"
+}
+]
+},
+{
+"example_name": "mean-v: again, seperate agent and conveyer",
+"example_text": "I do n't mean anything by that .",
+"example_rel": "mean",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "agent"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG2": "anything",
+"role_descrip": "meaning"
+},
+{
+"ARG1": "by that",
+"role_descrip": "element containing meaning"
+}
+]
+},
+{
+"example_name": "mean-v: volitional and intentional = agent",
+"example_text": "I mean that you look silly in that hat .",
+"example_rel": "mean",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "agent"
+},
+{
+"ARG2": "that you look silly in that hat",
+"role_descrip": "meaning"
+}
+]
+},
+{
+"example_name": "mean-v: non-agentive, non-volitional conveyer of meaning",
+"example_text": "A wagging tail means the dog is happy .",
+"example_rel": "means",
+"arguments": [
+{
+"ARG1": "A wagging tail",
+"role_descrip": "element containing meaning"
+},
+{
+"ARG2": "the dog is happy",
+"role_descrip": "meaning"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What do you mean?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"if they denied my citizenship and I became a citizen here I probably would n't be a horror either\"}"
+},
+{
+"index_sen": 739,
+"sentences": "So if you want we can take a ride and go see stuff at night",
+"selected_span": [
+"at night",
+"ARGM-TMP",
+[
+13,
+15
+]
+],
+"predicate": "see",
+"org_span": [
+2190,
+12,
+13,
+15,
+29
+],
+"selected_other_spans": [
+"we:ARG0",
+"stuff:ARG1"
+],
+"predict_prob": 0.9983776211738586,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "see",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "viewer",
+"ARG1": "thing viewed",
+"ARG2": "attribute of arg1, further description"
+},
+"examples": [
+{
+"example_name": "see-v: ARG0 and ARG1",
+"example_text": "But recently many people who are not ordinarily superstitious have sought the services of fortunetellers when they 've seen the value of their stocks decline .",
+"example_rel": "seen",
+"arguments": [
+{
+"ARGM-TMP": "when",
+"role_descrip": "temporal"
+},
+{
+"ARG0": "they",
+"role_descrip": "viewer"
+},
+{
+"ARG1": "the value of their stocks decline",
+"role_descrip": "thing viewed"
+}
+]
+},
+{
+"example_name": "see-v: ARG0 and ARG1 and ARG2",
+"example_text": "\" The key factor allowing men to have the courage to display their own bodies is that they see their bodies as their own .",
+"example_rel": "see",
+"arguments": [
+{
+"ARG0": "they",
+"role_descrip": "viewer"
+},
+{
+"ARG1": "their bodies",
+"role_descrip": "thing viewed"
+},
+{
+"ARG2": "as their own",
+"role_descrip": "attribute of arg1, further description"
+}
+]
+},
+{
+"example_name": "sight-v: found",
+"example_text": "No major oil concentrations have been sighted recently more than 6 miles northwest of the source of the vessel .",
+"example_rel": "sighted",
+"arguments": [
+{
+"ARG1": "No major oil concentrations",
+"role_descrip": "thing viewed"
+},
+{
+"ARGM-TMP": "recently",
+"role_descrip": "temporal"
+},
+{
+"ARGM-LOC": "more than 6 miles northwest of the source of the vessel",
+"role_descrip": "location"
+}
+]
+},
+{
+"example_name": "sight-n: both args",
+"example_text": "The climax is his visit to the dead man 's house and his sight of the body .",
+"example_rel": "sight",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "viewer"
+},
+{
+"ARG1": "of the body",
+"role_descrip": "thing viewed"
+}
+]
+},
+{
+"example_name": "sight-n: just arg1",
+"example_text": "The sight of professionals in suits and ties rushing to class at dusk contrasts greatly from the typical jeans and casual attire of fresh - faced undergrads .",
+"example_rel": "sight",
+"arguments": [
+{
+"ARG1": "of professionals in suits and ties rushing to class at dusk",
+"role_descrip": "thing viewed"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When can we go see stuff?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"at night\"}"
+},
+{
+"index_sen": 764,
+"sentences": "I 've actually been doing a lot of it .",
+"selected_span": [
+"I",
+"R-ARG0",
+[
+0,
+1
+]
+],
+"predicate": "'ve",
+"org_span": [
+475,
+2,
+0,
+1,
+48
+],
+"selected_other_spans": [
+"actually:ARGM-ADV"
+],
+"predict_prob": 0.61253821849823,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "have",
+"pred_sense": "01",
+"candidate_roles": {},
+"examples": [
+{
+"example_name": "unk",
+"example_text": "Shopping at these large stores has quickly become a part of leisure - time life in Taiwan .",
+"example_rel": "has",
+"arguments": []
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who has actually been doing a lot of it?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"I\"}"
+},
+{
+"index_sen": 772,
+"sentences": "So if you want we can take a ride and go see stuff at night",
+"selected_span": [
+"we",
+"ARG0",
+[
+4,
+5
+]
+],
+"predicate": "go",
+"org_span": [
+2189,
+11,
+4,
+5,
+2
+],
+"selected_other_spans": [
+"if you want:ARGM-ADV",
+"can:ARGM-MOD"
+],
+"predict_prob": 0.9997113347053528,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "go",
+"pred_sense": "05",
+"candidate_roles": {
+"ARG0": "subject",
+"ARG1": "subsequent action"
+},
+"examples": [
+{
+"example_name": "go-v: very typical",
+"example_text": "He went looking for a replacement for Mr. Landry .",
+"example_rel": "went",
+"arguments": [
+{
+"ARG0": "He",
+"role_descrip": "subject"
+},
+{
+"ARG1": "looking for a replacement for Mr. Landry",
+"role_descrip": "subsequent action"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who can go see stuff at night?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"we\"}"
+},
+{
+"index_sen": 778,
+"sentences": "but I 'm planning on making a trip down to visit her .",
+"selected_span": [
+"I",
+"ARG0",
+[
+1,
+2
+]
+],
+"predicate": "making",
+"org_span": [
+2076,
+6,
+1,
+2,
+2
+],
+"selected_other_spans": [],
+"predict_prob": 0.9972050189971924,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "make",
+"pred_sense": "18",
+"candidate_roles": {
+"ARG0": "achiever, agent",
+"ARG1": "goal"
+},
+"examples": [
+{
+"example_name": "make-v",
+"example_text": "Overcome by hunger pains Sellers would eat massive amounts of food and then throw it up to make weight .",
+"example_rel": "make",
+"arguments": [
+{
+"ARG0": "Sellers",
+"role_descrip": "achiever, agent"
+},
+{
+"ARG1": "weight",
+"role_descrip": "goal"
+}
+]
+},
+{
+"example_name": "make-v",
+"example_text": "Some other stories making headlines right now .",
+"example_rel": "making",
+"arguments": [
+{
+"ARG0": "Some other stories",
+"role_descrip": "achiever, agent"
+},
+{
+"ARG1": "headlines",
+"role_descrip": "goal"
+},
+{
+"ARGM-TMP": "right now",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "make-v",
+"example_text": "We made the finish line !",
+"example_rel": "made",
+"arguments": [
+{
+"ARG0": "We",
+"role_descrip": "achiever, agent"
+},
+{
+"ARG1": "the finish line",
+"role_descrip": "goal"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who is planning on making a trip down to visit her?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"I\"}"
+},
+{
+"index_sen": 789,
+"sentences": "and %mm . that cost me a lot of time .",
+"selected_span": [
+"that",
+"ARG1",
+[
+3,
+4
+]
+],
+"predicate": "cost",
+"org_span": [
+493,
+5,
+3,
+4,
+3
+],
+"selected_other_spans": [
+"me:ARG3",
+"a lot of time:ARG2"
+],
+"predict_prob": 0.9998833537101746,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "cost",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "commodity",
+"ARG2": "price",
+"ARG3": "buyer"
+},
+"examples": [
+{
+"example_name": "with an extra modifier",
+"example_text": "The new Mips machine will cost $ 150,000 for a basic system .",
+"example_rel": "cost",
+"arguments": [
+{
+"ARG1": "The new Mips machine",
+"role_descrip": "commodity"
+},
+{
+"ARG2": "$ 150,000",
+"role_descrip": "price"
+},
+{
+"ARGM-ADV": "for a basic system",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "price and commodity",
+"example_text": "The increase in minimum wage will cost many thousands of jobs .",
+"example_rel": "cost",
+"arguments": [
+{
+"ARG1": "The increase in minimum wage",
+"role_descrip": "commodity"
+},
+{
+"ARG2": "many thousands of jobs",
+"role_descrip": "price"
+}
+]
+},
+{
+"example_name": "all args",
+"example_text": "The service costs the caller 30 cents a minute",
+"example_rel": "costs",
+"arguments": [
+{
+"ARG1": "The service",
+"role_descrip": "commodity"
+},
+{
+"ARG3": "the caller",
+"role_descrip": "buyer"
+},
+{
+"ARG2": "30 cents a minute",
+"role_descrip": "price"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What cost me a lot of time?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"that\"}"
+},
+{
+"index_sen": 792,
+"sentences": "Some amount that has to be deducted a certain amount",
+"selected_span": [
+"Some amount",
+"ARG1",
+[
+0,
+2
+]
+],
+"predicate": "deducted",
+"org_span": [
+631,
+7,
+0,
+2,
+3
+],
+"selected_other_spans": [
+"that:R-ARG1",
+"has:ARGM-MOD",
+"a certain amount:ARGM-EXT"
+],
+"predict_prob": 0.9995993971824646,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "deduct",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "subtracter",
+"ARG1": "thing being subtracted",
+"ARG2": "thing being subtracted from"
+},
+"examples": [
+{
+"example_name": "canonical",
+"example_text": "Tax - loss sellers , those investors who sell loss - making stocks so they can deduct their losses from this year 's income , are also getting out , Mr. Mills said .",
+"example_rel": "deduct",
+"arguments": [
+{
+"ARG0": "they",
+"role_descrip": "subtracter"
+},
+{
+"ARGM-MOD": "can",
+"role_descrip": "general modification"
+},
+{
+"ARG1": "their losses",
+"role_descrip": "thing being subtracted"
+},
+{
+"ARG2": "from this year 's income",
+"role_descrip": "thing being subtracted from"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What has to be deducted?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"Some amount\"}"
+},
+{
+"index_sen": 825,
+"sentences": "did they do like %uh the same thing they had to do last time ?",
+"selected_span": [
+"they",
+"ARG0",
+[
+8,
+9
+]
+],
+"predicate": "do",
+"org_span": [
+2123,
+3,
+8,
+9,
+2
+],
+"selected_other_spans": [
+"they:ARG0"
+],
+"predict_prob": 0.5383011698722839,
+"error_type": "redundant",
+"gold_label": null,
+"conflict_span": null,
+"lemma": "do",
+"pred_sense": "02",
+"candidate_roles": {
+"ARG0": "agent, doer",
+"ARG1": "thing done",
+"ARG2": "benefactive, done for or about",
+"ARG3": "instrumental",
+"ARG4": "comitative, companion while doing"
+},
+"examples": [
+{
+"example_name": "do-v",
+"example_text": "In this department we are doing fine this fall .",
+"example_rel": "doing",
+"arguments": [
+{
+"ARGM-LOC": "In this department",
+"role_descrip": "location"
+},
+{
+"ARG0": "we",
+"role_descrip": "agent, doer"
+},
+{
+"ARGM-MNR": "fine",
+"role_descrip": "manner"
+},
+{
+"ARGM-TMP": "this fall",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "do-v",
+"example_text": "do - v : Seymour Cray can do it again .",
+"example_rel": "do",
+"arguments": [
+{
+"ARG0": "Seymour Cray",
+"role_descrip": "agent, doer"
+},
+{
+"ARGM-MOD": "can",
+"role_descrip": "general modification"
+},
+{
+"ARG1": "it",
+"role_descrip": "thing done"
+},
+{
+"ARGM-TMP": "again",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "do-v: with benefactive",
+"example_text": "Congress will do stupid things with the Tax Code .",
+"example_rel": "do",
+"arguments": [
+{
+"ARG0": "Congress",
+"role_descrip": "agent, doer"
+},
+{
+"ARGM-MOD": "will",
+"role_descrip": "general modification"
+},
+{
+"ARG1": "stupid things",
+"role_descrip": "thing done"
+},
+{
+"ARG2": "with the Tax Code",
+"role_descrip": "benefactive, done for or about"
+}
+]
+},
+{
+"example_name": "do-v: with instrument",
+"example_text": "Anyone buying the stock now must do so using some guesswork .",
+"example_rel": "do",
+"arguments": [
+{
+"ARG0": "Anyone buying the stock now",
+"role_descrip": "agent, doer"
+},
+{
+"ARGM-MOD": "must",
+"role_descrip": "general modification"
+},
+{
+"ARG1": "so",
+"role_descrip": "thing done"
+},
+{
+"ARG3": "using some guesswork",
+"role_descrip": "instrumental"
+}
+]
+},
+{
+"example_name": "doing-n: args 0 and 1",
+"example_text": "From him , we could expect nothing other than his doing the \" right thing , \" as we should expect from all our elected officials .",
+"example_rel": "doing",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "agent, doer"
+},
+{
+"ARG1": "the \" right thing , \"",
+"role_descrip": "thing done"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Who had to do the same thing like that last time?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"they\"}"
+}
+]

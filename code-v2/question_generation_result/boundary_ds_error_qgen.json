@@ -1,0 +1,302 @@
+[
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 5,
+"sentences": "I found a gym yesterday here that 's only eight pounds a month which is like twelve dollars , twelve fifty",
+"predicate": "found",
+"selected_span": [
+"yesterday here",
+"ARGM-TMP",
+[
+4,
+6
+]
+],
+"predict_prob": 0.5997336506843567,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+255,
+2,
+4,
+6,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 54,
+"sentences": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+"predicate": "said",
+"selected_span": [
+"%um and again",
+"ARGM-TMP",
+[
+0,
+3
+]
+],
+"predict_prob": 0.9995364546775818,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+76,
+6,
+0,
+3,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 182,
+"sentences": "So , %uh oh , yeah . things are busy .",
+"predicate": "are",
+"selected_span": [
+"yeah",
+"ARGM-DIS",
+[
+5,
+6
+]
+],
+"predict_prob": 0.9946014285087585,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+402,
+9,
+5,
+6,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 269,
+"sentences": "and yeah . she 's accepted that there 's a lot of good things in Rhode Island .",
+"predicate": "accepted",
+"selected_span": [
+"yeah",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"predict_prob": 0.8549474477767944,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+163,
+6,
+1,
+2,
+14
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 290,
+"sentences": "Well I 'm figuring it out fast because -- okay -- with not working out and all yeah . it 's pretty miserable my crunch tape .",
+"predicate": "'s",
+"selected_span": [
+"all yeah",
+"ARGM-ADV",
+[
+16,
+18
+]
+],
+"predict_prob": 0.5445711016654968,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+768,
+21,
+16,
+18,
+10
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 363,
+"sentences": "just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before .",
+"predicate": "met",
+"selected_span": [
+"before",
+"ARGM-TMP",
+[
+25,
+26
+]
+],
+"predict_prob": 0.9459824562072754,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+780,
+24,
+25,
+26,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 397,
+"sentences": "I said to Mark oh my god . What 's she going to say",
+"predicate": "said",
+"selected_span": [
+"What",
+"ARG1",
+[
+8,
+9
+]
+],
+"predict_prob": 0.9568527340888977,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2085,
+2,
+8,
+9,
+3
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 442,
+"sentences": "Well it 's good to hear from Francis who 's had a lot of child-",
+"predicate": "hear",
+"selected_span": [
+"from Francis who 's had a lot of",
+"ARG2",
+[
+6,
+14
+]
+],
+"predict_prob": 0.5775378346443176,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+2116,
+6,
+6,
+14,
+4
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 666,
+"sentences": "I think what we got to do is just when he comes just have lots of cereal .",
+"predicate": "have",
+"selected_span": [
+"just when he comes",
+"ARGM-TMP",
+[
+8,
+12
+]
+],
+"predict_prob": 0.9959477782249451,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+273,
+14,
+8,
+12,
+29
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 675,
+"sentences": "Is it paid today ?",
+"predicate": "Is",
+"selected_span": [
+"paid today",
+"ARG2",
+[
+2,
+4
+]
+],
+"predict_prob": 0.9486923813819885,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+1216,
+1,
+2,
+4,
+4
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 705,
+"sentences": "Which was actually where the major problem came . Exactly . Exactly . yeah . Is that I suddenly had no transportation .",
+"predicate": "Is",
+"selected_span": [
+"Which",
+"ARG1",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9748232364654541,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+721,
+16,
+0,
+1,
+3
+]
+},
+{
+"exist_relation": "no",
+"question": "",
+"index_sen": 736,
+"sentences": "I 'll tell dad that you still think about the",
+"predicate": "think",
+"selected_span": [
+"the",
+"ARG2",
+[
+9,
+10
+]
+],
+"predict_prob": 0.49250727891921997,
+"error_type": "boundary_error",
+"gold_label": null,
+"org_span": [
+585,
+8,
+9,
+10,
+4
+]
+}
+]

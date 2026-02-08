@@ -1,4 +1,4 @@
-# 构建prompt来应用LLM
+# 构建prompt来应用LLM wlj老师构造的新版本
 
 import os
 import sys
@@ -207,7 +207,7 @@ def build_prompt(instance):
 
 def get_completion(prompt):
     response = client.chat.completions.create(
-                model="o1-mini",
+                model="gpt-4o-mini",
                 messages=[
                     {
                         "role": "system",
@@ -218,15 +218,15 @@ def get_completion(prompt):
                         "content": prompt
                     }
                 ],
-                # temperature=0.2,
-                # seed=42,
-                # top_p=0.95,
-                # n=1,
-                # max_tokens=500, 
+                temperature=0.2,
+                seed=42,
+                top_p=0.95,
+                n=1,
+                max_tokens=500, 
             )
     
     res = response.choices[0].message.content
-    # import pdb;pdb.set_trace()
+    import pdb;pdb.set_trace()
     return res
     
 def parse_response(instance, response):
@@ -324,22 +324,22 @@ def LLM_prompt(data, path_save, path_save2):
     flag_num = Counter(flag_list)
     print("*"*30)
     print(f'frame file selected :{flag_num} \n Sum: {sum(flag_num.values())} \n All span: {len(data)} \n LLM deal: {len(data)-sum(flag_num.values())}')
-
+    print(acc)
     print("*"*30)
 
 
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
     dataset = ['test'] #dev, 
-    source = ['bn'] #["nw",  "bn", "bc" ]# 'bn'
-    target = ['tc'] #['tc', 'bn', 'nw', 'bc'] # 'tc','bc'
+    source = ['nw'] #["nw",  "bn", "bc" ]# 'bn'
+    target = ['bn'] #['tc', 'bn', 'nw', 'bc'] # 'tc','bc'
     for k in dataset:
         for i in source:
             for j in target:
                 print(f'{i}-{j}-{k}:')
                 data = read_json(f'../forllm_frames_newest/{i}/{i}-{j}-{k}.json')
-                path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llm.json'
-                path_llmout2 = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp.json'
+                path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llm-4o-mini.json'
+                path_llmout2 = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp-4o-mini.json'
                 LLM_prompt(data, path_llmout, path_llmout2)
                 print("工作保存完成！")
             

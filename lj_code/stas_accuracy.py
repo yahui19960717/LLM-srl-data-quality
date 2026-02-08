@@ -40,7 +40,8 @@ def stas_accuracy(data, path_save):
             core_total_num += 1
         else:
             nocore_total_num += 1        
-        if final_judgement == 'correct' and (error_type == 'right' or error_type == 'boundary_error' and selected_span[2][0] == org_span[2] and selected_span[2][1] == org_span[3]):
+        # if final_judgement == 'correct' and (error_type == 'right' or error_type == 'boundary_error' and selected_span[2][0] == org_span[2] and selected_span[2][1] == org_span[3]):
+        if final_judgement == 'correct' and error_type == 'right':
             correct_num += 1
             if temp_span in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}:
                 core_correct_num += 1
@@ -56,7 +57,7 @@ def stas_accuracy(data, path_save):
             if temp_span in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}:
                 err_results.append(instance)
         # if error_type == 'right' or error_type == "boundary_error" and selected_span[2][0] == org_span[2] and selected_span[2][1] == org_span[3]:
-        if error_type == 'right' or error_type == "boundary_error" and selected_span[2][0] == conflict_span[2] and selected_span[2][1] == conflict_span[3]:
+        if error_type == 'right':
             old_correct_num += 1
             if temp_span in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}:
                 old_core_correct_num += 1
@@ -75,9 +76,34 @@ def stas_accuracy(data, path_save):
     print(f"Non-Core Role Instances: {nocore_total_num}, Correct Non-Core Role Instances: {nocore_correct_num}, Non-Core Role Accuracy: {nocore_accuracy:.4f}, Previous Non-Core Role Accuracy: {old_nocore_accuracy:.4f}")
     return accuracy, core_accuracy, nocore_accuracy
 
+def stas_redundant(data, path_save):
+    err_results = []
+    err_label_type = dict()
+    for instance in tqdm(data):
+        final_judgement = instance.get('final_judgement', None)
+        error_type = instance.get('error_type', None)
+        if error_type != 'redundant':
+            continue
+        if final_judgement == 'incorrect':
+            continue
+        print(error_type, final_judgement)
+        err_results.append(instance) 
+        selected_span = instance.get('selected_span', None)
+        temp_span = selected_span[1].split("-")[-1]
+        if temp_span in err_label_type:
+            err_label_type[temp_span] += 1
+        else:
+            err_label_type[temp_span] = 1
+    json.dump(err_results, open(path_save, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) 
+    print(err_label_type)
+    return err_label_type   
+    
 
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # 只使用第 0 块 GPU
+    data = read_json('bn-tc-test-llmsimp-yh.json')
+    stas_redundant(data, 'bn-tc-test-llmredundant-yh.json')
+    """
     dataset = ['test'] #dev, 
     source = ['bn'] #["nw",  "bn", "bc" ]# 'bn'
     target = ['tc'] #['tc', 'bn', 'nw', 'bc'] # 'tc',
@@ -88,5 +114,6 @@ if __name__=="__main__":
                 data = read_json(f'llmout/{i}/{i}-{j}-{k}-llmsimp.json')
                 path_llmout = f'llmout/{i}/{i}-{j}-{k}-llmerror.json'
                 stas_accuracy(data, path_llmout)
+    """
 
     

@@ -1,5 +1,6 @@
 # 构建prompt来应用LLM
 
+#  wlj老师构造的新版本
 import os
 import sys
 #print(sys.executable)
@@ -12,42 +13,19 @@ import json
 from openai import OpenAI
 import numpy as np
 import random
-from collections import defaultdict, Counter
-from config import Defination, read, write_json, read_json, labels_conll
+from collections import  Counter
+from config import Defination,  read_json, labels_conll
 conll12_label = ['<pad>', 'O', 'ARG0', 'ARG1', 'ARG2', 'ARG3', 'ARG4', 'ARG5', 'ARGA', 'ARGM-ADJ', 'ARGM-ADV', 'ARGM-CAU', 'ARGM-COM', 'ARGM-DIR', 'ARGM-DIS', 'ARGM-DSP', 'ARGM-EXT', 'ARGM-GOL', 'ARGM-LOC', 'ARGM-LVB', 'ARGM-MNR', 'ARGM-MOD', 'ARGM-NEG', 'ARGM-PNC', 'ARGM-PRD', 'ARGM-PRP', 'ARGM-PRR', 'ARGM-PRX', 'ARGM-REC', 'ARGM-TMP', 'C-ARG0', 'C-ARG1', 'C-ARG2', 'C-ARG3', 'C-ARG4', 'C-ARGM-ADJ', 'C-ARGM-ADV', 'C-ARGM-COM', 'C-ARGM-MOD', 'C-ARGM-DIR', 'C-ARGM-DIS', 'C-ARGM-DSP', 'C-ARGM-EXT', 'C-ARGM-LOC', 'C-ARGM-MNR', 'C-ARGM-NEG', 'C-ARGM-PRP', 'C-ARGM-TMP', 'R-ARG0', 'R-ARG1', 'R-ARG2', 'R-ARG3', 'R-ARG4', 'R-ARGM-ADV', 'R-ARGM-CAU', 'R-ARGM-COM', 'R-ARGM-DIR', 'R-ARGM-EXT', 'R-ARGM-GOL', 'R-ARGM-LOC', 'R-ARGM-MNR', 'R-ARGM-MOD', 'R-ARGM-PNC', 'R-ARGM-PRP', 'R-ARGM-TMP', 'R-ARGM-PRD',]
 conll05_label = ['<pad>', 'O', 'A0', 'A1', 'A2', 'A3', 'A4', 'A5', 'AA', 'AM', 'AM-ADV', 'AM-CAU', 'AM-DIR', 'AM-DIS', 'AM-EXT', 'AM-LOC', 'AM-MNR', 'AM-MOD', 'AM-NEG', 'AM-PNC', 'AM-PRD', 'AM-REC', 'AM-TMP', 'C-A0', 'C-A1', 'C-A2', 'C-A3', 'C-A4', 'C-A5', 'C-AM-ADV', 'C-AM-CAU', 'C-AM-DIR', 'C-AM-DIS', 'C-AM-EXT', 'C-AM-LOC', 'C-AM-MNR', 'C-AM-NEG', 'C-AM-PNC', 'C-AM-TMP', 'C-V', 'R-A0', 'R-A1', 'R-A2', 'R-A3', 'R-A4', 'R-AA', 'R-AM-ADV', 'R-AM-CAU', 'R-AM-DIR', 'R-AM-EXT', 'R-AM-LOC', 'R-AM-MNR', 'R-AM-PNC', 'R-AM-TMP', 'V']
 
 random.seed(42)
 client = OpenAI(
     base_url="https://api2.aigcbest.top/v1",#tcy
-    api_key="sk-lQZso15BZziwxSs6mOjpHPHl6AX832tMh4g8FZwa444vKOSz" # tcy
+    # api_key="sk-uwG3FOUM8NQJswVXoWOLuVYa7OrDoNxd7t7O1it5RLirJiMP" # tcy
+    api_key="sk-wUaE2guPPNKLKYTWAhcq7pFNXQMQa6JadrASpFdxsPBbKgkm"
+    # sk-lQZso15BZziwxSs6mOjpHPHl6AX832tMh4g8FZwa444vKOSz
+    
 )
-
-
-def check_error(instance):
-    sen_id = instance['index_sen'] #句子id
-    sentence = instance['sentences'] #句子字符串
-    sen_span = instance['selected_span'] #候选论元信息 (含论元字符串, 角色标签, 论元在句子中的位置，起始位置、终止位置+1)
-    error_type = instance['error_type'] #错误类型，根据golden结果和预测结果生成的，含关系错误、边界错误、正确、多余
-    org_span = instance["org_span"] # golden论元在句子xx，谓词id+1，起始位置、终止位置+1，xx
-
-    if error_type == "boundary_error":
-        if sen_span[2][0] == org_span[2] and sen_span[2][1] == org_span[3]:  #预测边界跟golden边界一致，应该是数据处理错误
-            return True
-    return False
-
-def check_data(data, path_save):
-    error_instance_list = []
-    error_num = 0
-    for instance in tqdm(data): 
-        flag = check_error(instance)
-        if flag == True:
-            error_num += 1
-            error_instance_list.append(instance)
-    print(error_num)
-    json.dump(error_instance_list, open(path_save, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) 
-
-
 
 #核心角色，且知道该谓词frame中有这个角色，重点判断角色是否提取正确
 def get_prompt_for_corerole(sentence, predicate, argument, role, role_mean):
@@ -166,7 +144,6 @@ def build_prompt(instance):
     gold_label = instance['gold_label'] #正确角色关系标签
     lemma = instance['lemma'] #谓词lemma，原型
     org_span = instance["org_span"] # golden论元在句子xx，谓词id+1，起始位置、终止位置+1，xx
-    
     prd_id = org_span[1]
     prd_with_ = "_"+predicate+"_" # 谓词加下划线标记，标记谓词，防止多个相同词有歧义
     arg_with_star = "**"+sen_span[0]+"**" # 论元加粗标记，防止多个相同词有歧义
@@ -208,9 +185,9 @@ def build_prompt(instance):
                     return prompt, flag # 这个谓词没有这个标签，直接返回是否OK呢，没有经过大模型判断，算是作弊吗？（其他论文也都这么操作吗，基于lemma的frame进行后处理过滤）
                 span_mean = labels_conll[temp_span]
                 prompt = get_prompt_for_otherrole(sentence=new_sen_,predicate=predicate,argument=sen_span[0],role=temp_span,role_mean=span_mean)
+                # import pdb;pdb.set_trace()
                 return prompt, flag
 
-        #import pdb;pdb.set_trace()
         #return prompt, flag
     except:
         # 没有frame file的情况
@@ -230,13 +207,11 @@ def build_prompt(instance):
         print("-"*50)
         print(f"No frame file: \n\t句子：{sentence}\n\tpredicate: {predicate} \n\tlemma: {lemma}")
         print("-"*50)
-        #import pdb;pdb.set_trace()
         return prompt, flag
 
 def get_completion(prompt):
     response = client.chat.completions.create(
-                # model="gpt-4o-mini", 
-                model="o1-mini",# lyh修改
+                model="deepseek-ai/DeepSeek-V3.2",
                 messages=[
                     {
                         "role": "system",
@@ -247,17 +222,13 @@ def get_completion(prompt):
                         "content": prompt
                     }
                 ],
-                temperature=0.2,
-                seed=42,
-                top_p=0.95,
-                n=1,
-                max_tokens=500, 
+                extra_body={"thinking": {"type": "enabled"}}
             )
     
     res = response.choices[0].message.content
-    
+    import pdb;pdb.set_trace()
     return res
-    
+      
 def parse_response(instance, response):
     try:
         parse_tag = False
@@ -280,7 +251,7 @@ def parse_response(instance, response):
         res_data['error_type'] = instance['error_type']
         res_data['gold_label'] = instance['gold_label']
         res_data['org_span'] = instance['org_span']
-        res_data['conflict_span'] = instance['conflict_span'] # 这里 lyh增加
+        res_data['conflict_span'] = instance['conflict_span']
         return res_data, parse_tag
     except json.JSONDecodeError as e:
         print(f"JSON解析失败: {str(e)}，response原始内容: {response}")
@@ -293,15 +264,14 @@ def parse_response(instance, response):
 
 def stas_accuracy(data):
     correct_num = 0
-    total_num = len(data)
+    total_num = len(data) # 所有模型判断的span
     for instance in data:
         final_judgement = instance.get('final_judgement', None)
         error_type = instance.get('error_type', None)
         selected_span = instance.get('selected_span', None)
         org_span = instance.get('org_span', None)
         conflict_span = instance.get('conflict_span', None)
-        # if final_judgement == 'correct' and (error_type == 'right' or error_type == 'boundary_error' and selected_span[2][0] == org_span[2] and selected_span[2][1] == org_span[3]):
-        if final_judgement == 'correct' and (error_type == 'right' or error_type == 'boundary_error' and selected_span[2][0] == conflict_span[2] and selected_span[2][1] == conflict_span[3]): # lyh更改    
+        if final_judgement == 'correct' and (error_type == 'right' or error_type == 'boundary_error' and selected_span[2][0] == conflict_span[2] and selected_span[2][1] == conflict_span[3]):
             correct_num += 1
         elif final_judgement == 'incorrect' and error_type != 'right':
             correct_num += 1
@@ -316,7 +286,7 @@ def LLM_prompt(data, path_save, path_save2):
     results_simple = []
 
     # 先看下是否之前已经跑了一些结果
-    """
+
     if os.path.exists(path_save):
         results = read_json(path_save)
         final_ins = results[-1]
@@ -325,8 +295,16 @@ def LLM_prompt(data, path_save, path_save2):
                 data = data[i+1:]       
                 break  
     print(f'已存在的数据有:{len(results)}')  
+
+    if os.path.exists(path_save2):
+        results_simple = read_json(path_save2)
+        final_ins = results_simple[-1]
+        for i in range(len(data)):
+            if data[i]["index_sen"] == final_ins['index_sen']:
+                data = data[i+1:]       
+                break  
+    print(f'已存在的数据有:{len(results_simple)}')
     print("-" * 60)
-    """
     flag_list = []
     test_num = 0
     for instance in tqdm(data): # 一个句子
@@ -348,7 +326,7 @@ def LLM_prompt(data, path_save, path_save2):
         results.append(instance)
 
         json.dump(results, open(path_save, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) 
-        json.dump(results_simple, open(path_save2, 'w', encoding="utf-8"), indent=0, ensure_ascii=False)
+        json.dump(results_simple, open(path_save2, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) # 只有大模型的结果
     
     acc = stas_accuracy(results_simple)
     flag_num = Counter(flag_list)
@@ -359,22 +337,18 @@ def LLM_prompt(data, path_save, path_save2):
 
 
 if __name__=="__main__":
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # 只使用第 0 块 GPU
+    os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
     dataset = ['test'] #dev, 
-    source = ['bn'] #["nw",  "bn", "bc" ]# 'bn'
-    target = ['tc', 'bc'] #['tc', 'bn', 'nw', 'bc'] # 'tc',
+    source = ['nw'] #["nw",  "bn", "bc" ]# 'bn'
+    target = ['bn'] #bn 
     for k in dataset:
         for i in source:
             for j in target:
                 print(f'{i}-{j}-{k}:')
-                data = read_json(f'forllm_frames_newest/{i}/{i}-{j}-{k}.json')
-                path_llmout = f'llmout/{i}/{i}-{j}-{k}-llm.json'
-                path_llmout2 = f'llmout/{i}/{i}-{j}-{k}-llmsimp.json'
-                #path_error = f'llmout/{i}/{i}-{j}-{k}-error.json'
-                #check_data(data, path_error)
-                #print("数据检查完成！")
+                data = read_json(f'../forllm_frames_newest/{i}/{i}-{j}-{k}.json')
+                path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llm-deepseek.json'
+                path_llmout2 = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp-deepseek.json'
                 LLM_prompt(data, path_llmout, path_llmout2)
                 print("工作保存完成！")
-                #exit()
             
     

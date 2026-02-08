@@ -46,83 +46,39 @@ def analysis_llm_res(data):
     '''
     # 先检查下大模型对错率
     results=[]
-    num_right, num_wrong = 0, 0
-    num_right_iserror = 0
-    count = 0
-    dic_error_type = {"right":0,  "label_error":0, "boundary_error":0, "redundant":0}
-    dic_org_error_type = {"right":0,  "label_error":0, "boundary_error":0, "redundant":0}
-    right_span, error_span = set(), set()
+    num_right_but_wrong = 0
+    span = []
+    dic_error_type = {"yesno":0,  "nono":0, "noyes":0, "yesyes":0}
     for instance in tqdm(data): # 一个句子
-        dic_org_error_type[instance['error_type']]+=1
-        try:    
-            res =json.loads(instance['response'])
-            judge = res['correct']
-            # print(instance["error_type"], judge)
-            if instance["error_type"]!="right" and instance["error_type"]=="redundant" and (judge==True or judge=="true"):
-                print("sentence: ", instance['sentences'])
-                print("prd: ",instance['predicate'])
-                print("arg: ", instance['selected_span'])
-                print("error_type: ", instance['error_type'])
-                print("prob: ",instance['predict_prob'])
-                print("LLM judge response: ", instance['response'])
-                # import pdb;pdb.set_trace()
-            if instance["error_type"]=="right" and (judge==True or judge=="true"):
-                num_right+=1
-                dic_error_type[instance["error_type"]]+=1
-                right_span.add(tuple(instance['org_span']))
-            elif instance["error_type"]!="right" and (judge == False or judge=="false"):
-                num_right+=1
-                num_right_iserror += 1
-                dic_error_type[instance["error_type"]]+=1
-                right_span.add(tuple(instance['org_span']))
+        judge = instance['final_judgement']
+        if judge != "correct" and instance["error_type"]=="right":
+            num_right_but_wrong += 1
+            span.append(instance)
+            if instance['argument_extraction_evaluation']=="yes" and instance['role_evaluation']=="no":
+                dic_error_type["yesno"]+=1
+            elif instance['argument_extraction_evaluation']=="no" and instance['role_evaluation']=="no":
+                dic_error_type["nono"]+=1
+            elif instance['argument_extraction_evaluation']=="no" and instance['role_evaluation']=="yes":
+                dic_error_type["noyes"]+=1
+            elif instance['argument_extraction_evaluation']=="yes" and instance['role_evaluation']=="yes":
+                dic_error_type["yesyes"]+=1
             else:
-                num_wrong += 1
-                # import pdb;pdb.set_trace()
-                error_span.add(tuple(instance['org_span']))
-            if judge==False or judge=="false":
-                results.append(tuple(instance['org_span']))
-        except:
-            try:
-                json_str = json_str = re.sub(r'("reason":\s*")([^"]+)"([^"]*)"', r'\1\2\3"', instance["response"])
-                res =json.loads(json_str)
-                judge = res['correct']
-                # print(instance["error_type"], judge)
-                if instance["error_type"]=="right" and (judge==True or judge=="true"):
-                    num_right+=1
-                    right_span.add(tuple(instance['org_span']))
-                    dic_error_type[instance["error_type"]]+=1
-                elif instance["error_type"]!="right" and (judge == False or judge=="false"):
-                    num_right+=1
-                    num_right_iserror += 1
-                    dic_error_type[instance["error_type"]]+=1
-                    right_span.add(tuple(instance['org_span']))    
-                else:
-                    
-                    num_wrong += 1
-                    error_span.add(tuple(instance['org_span']))
-                if judge==False or judge=="false":
-                    results.append(tuple(instance['org_span']))
-            except:
-                count+=1
-                error_span.add(tuple(instance['org_span']))
-                # print(instance['response'])
-                # # import pdb;pdb.set_trace()
-                # print(count)
-    assert (len(right_span)+len(error_span))==len(data)
-    assert num_right == len(right_span)
-    assert num_wrong+count == len(error_span)
-    print(f'原始数据中的错误分布：{dic_org_error_type}')
-    print(f'大模型判断正确的spans个数为:{num_right}') 
-    print(f'大模型判断错误的spans个数为 {num_wrong}' )
-    print(f'大模型判断正确的错误span个数为(判断正确的spans个数的子集）：{num_right_iserror}')
-    print(f'大模型输出错误的spans个数为:{count}')
-    print(f'判断正确的span中错误分布(说明大模型擅长解决什么方面的问题）：{dic_error_type}')
-    print(f'判断正确的span中错误分布：right ratio:{dic_error_type["right"]/dic_org_error_type["right"]*100:.2f}')
-    print(f'\t label error ratio: {dic_error_type["label_error"]/dic_org_error_type["label_error"]*100:.2f}')
-    print(f'\t boundary_error ratio: {dic_error_type["boundary_error"]/dic_org_error_type["boundary_error"]*100:.2f}')
-    print(f'\t  redundant ratio: {dic_error_type["redundant"]/dic_org_error_type["redundant"]*100:.2f}')
-    print(f'大模型准确率为:{num_right/(num_right+num_wrong+count) * 100:.3f}')
-    return results, right_span, error_span
+                import pdb;pdb.set_trace()
+            print("----------------------"*2)
+            print("sentence:", instance['sentences'])
+            print("predicate: " , instance['predicate'])
+            print("span:", instance['selected_span'][0], ":", instance['selected_span'][1]) 
+            print("'argument_extraction_evaluation':", instance['argument_extraction_evaluation'])
+            print("role_evaluation: ", instance['role_evaluation'])
+            print("----------------------"*2)
+            print("\n")
+            # import pdb;pdb.set_trace()
+            
+          
+    print(f'The number of spans:{num_right_but_wrong}') 
+    print(dic_error_type)
+    import pdb;pdb.set_trace()
+    return span
 
 def judge_label(label):
     if label.split("-")[0]=="C":
@@ -156,11 +112,10 @@ def LLM_result_analysis(data):
     error_label, error_dic = get_label_distribution(error)
     print(f"Right: {right_label} \n {right_dic} ")
     print(f"Error: {error_label} \n {error_dic} ")
-        
+
+     
 def LLM_result_prf(data, all_data, selected_spans):
-
     ## 看下预测结果中的PRF值，看下小模型选择之后的PRF值，看下大模型选择之后的PRF值
-
     results, _, _ = analysis_llm_res(data)
     all_gold_spans = all_data["all_gold_spans"]
     dic_pred_spans = all_data['dic_pred_spans']
@@ -168,14 +123,14 @@ def LLM_result_prf(data, all_data, selected_spans):
     dic_gold_spans = {(sen_id, prd, start, end, label):score  for sen_id, prd, start, end, label, score in all_gold_spans}
     print("-"*50)
     print("*"*50)
-    print("小模型的PRF值：")
+    print("SML's PRF1：")
     P_or, R_or, F_or = obtain_prf(dic_gold_spans.keys(), dic_pred_spans.keys())
     print("*"*50)
-    print("小模型去掉不确定span之后的PRF值：")
+    print("(SML - uncertain spans)'s PRF：")
     small_model_pred = dic_pred_spans.keys() - selected_small_model
     P_sm, R_sm, F_sm = obtain_prf(dic_gold_spans.keys(), small_model_pred)
     print("*"*50)
-    print("大模型从不确定span中召回判断之后的PRF值：")
+    print("LLM (after recall some spans) PRF：")
     selected_llm = set(results)
     llm_pred = dic_pred_spans.keys() - selected_llm
     P_llm, R_llm, F_llm = obtain_prf(dic_gold_spans.keys(), llm_pred)
@@ -188,21 +143,17 @@ def LLM_result_prf(data, all_data, selected_spans):
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # 只使用第 0 块 GPU
     dataset = ['test'] #dev, 
-    source = ["bn" ]#'nw', 'bc'
-    target = [ 'tc'] # 'nw', 'bn', 'bc' 
+    source = ["bn"]# 'bn'
+    target = ["tc"]
     for k in dataset:
         for i in source:
             for j in target:
                 print(f'{i}-{j}-{k}:')
                 print("--"*100)
-                distributions = read(f"prob_distribution/{k}/{i}-{j}-{k}-distribution.pt")
-                llmresults = read_json(f'llmout/llmout_fewshotframe_unite/{i}/{i}-{j}-{k}-frames-fewshot6.json') 
-                # llmresults = read_json(f'llmout/llmout_frames/{i}/{i}-{j}-{k}-frames-judge-zeroshotvote.json') 
-                selected_spans = read_json(f"selected_spans_unite/{i}/{i}-{j}-{k}.json")
+                distributions = read(f"../prob_distribution/{k}/{i}-{j}-{k}-distribution.pt")
+                llmresults = read_json(f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp-4o-mini.json')
+                selected_spans = read_json(f"../selected_spans_unite/{i}/{i}-{j}-{k}.json")
                 LLM_result_analysis(llmresults)
-                LLM_result_prf(llmresults, distributions, selected_spans)
-                print("工作保存完成！")
-                print("--"*100)
                 exit()
             
     

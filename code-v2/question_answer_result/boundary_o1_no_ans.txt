@@ -1,0 +1,5 @@
+110 	 but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t- 	 going 	 to %uh 	 ARG4 	 boundary_error 	 yes 	 Where may she end up going? 	 no 	  	 None
+241 	 and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the 	 living 	 in 	 ARGM-LOC 	 boundary_error 	 yes 	 Where is Ginny Totta living? 	 no 	  	 None
+419 	 Alice , I 've never seen anybody eat as much as he does 	 seen 	 anybody eat as much as he 	 ARG1 	 boundary_error 	 yes 	 Who has Alice never seen? 	 no 	  	 None
+421 	 And if you do , I 'll send it by email okay if I get it before this weekend 	 send 	 okay if I get it before this weekend 	 ARGM-ADV 	 boundary_error 	 yes 	 What will happen if you send it by email? 	 no 	  	 None
+460 	 %um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen . 	 said 	 %um and again 	 ARGM-TMP 	 boundary_error 	 yes 	 When did my husband say? 	 no 	  	 None

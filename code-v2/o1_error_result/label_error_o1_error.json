@@ -1,0 +1,1982 @@
+[
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"out of there\" is a contiguous prepositional phrase forming a complete semantic unit specifying the destination.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence \"Milo, get out of there\", \"out of there\" indicates the destination to which the addressee should move, aligning with the ARG2 role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 18,
+"sentences": "Milo , get out of there",
+"predicate": "get",
+"selected_span": [
+"out of there",
+"ARG2",
+[
+3,
+6
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIR",
+"org_span": [
+1886,
+3,
+3,
+6,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"too\" is correctly extracted as a single adverb with clear boundaries, serving as a complete semantic unit modifying the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Too\" functions as an adverbial modifier providing additive meaning to the predicate \"was\", which aligns with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 21,
+"sentences": "And I was in the inactive reserves the entire time I was in college too .",
+"predicate": "was",
+"selected_span": [
+"too",
+"ARGM-ADV",
+[
+14,
+15
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIS",
+"org_span": [
+2199,
+12,
+14,
+15,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for a walk\" is a continuous prepositional phrase in the sentence, correctly capturing the entire adjunct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"for a walk\" expresses the purpose of the action \"went,\" aligning with the PNC (purpose) role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 28,
+"sentences": "He went for a walk this morning at five seventeen .",
+"predicate": "went",
+"selected_span": [
+"for a walk",
+"ARGM-PNC",
+[
+2,
+5
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG1",
+"org_span": [
+597,
+2,
+2,
+5,
+23
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for some reason\" is a continuous prepositional phrase that is correctly extracted and forms a complete adverbial adjunct in the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"for some reason\" functions as an adverbial modifier providing a reason for the state expressed by the predicate \"'s\", which aligns with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 29,
+"sentences": "well unfortunately for some reason she 's not like into cardio vascular .",
+"predicate": "'s",
+"selected_span": [
+"for some reason",
+"ARGM-ADV",
+[
+2,
+5
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-CAU",
+"org_span": [
+2133,
+7,
+2,
+5,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"completely\" is correctly extracted as a single-word adverb directly modifying the predicate and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"completely\" functions as a degree adverb indicating the extent to which the event 'finished' has occurred, matching the EXT role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 31,
+"sentences": "So when I 'm still riding the bike she 's completely finished her weight lifting routine .",
+"predicate": "finished",
+"selected_span": [
+"completely",
+"ARGM-EXT",
+[
+10,
+11
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+245,
+12,
+10,
+11,
+16
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"to Columbia\" is a contiguous prepositional phrase that forms a complete semantic unit representing a destination.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"to Columbia\" indicates the end point (destination) of the motion described by \"went\", which aligns with the ARG4 role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both argument extraction and semantic role labeling are correct.",
+"index_sen": 37,
+"sentences": "And she went from Penn , %um To Columbia . to Columbia to U R I .",
+"predicate": "went",
+"selected_span": [
+"to Columbia",
+"ARG4",
+[
+10,
+12
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIR",
+"org_span": [
+159,
+3,
+10,
+12,
+6
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is correctly extracted as a single-word discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"then\" functions as a discourse connector between the conditional clause and the main clause, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 40,
+"sentences": "but yeah if you just separate normally and you have n't served at least eight years , then you owe it .",
+"predicate": "owe",
+"selected_span": [
+"then",
+"ARGM-DIS",
+[
+17,
+18
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-TMP",
+"org_span": [
+808,
+20,
+17,
+18,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument like maybe she made a compromise is a contiguous phrase following the predicate feels and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument expresses the stimulus of the predicate feels, matching the role description for ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 43,
+"sentences": "and mhm %um you know . It feels like maybe she made a compromise",
+"predicate": "feels",
+"selected_span": [
+"like maybe she made a compromise",
+"ARG1",
+[
+8,
+14
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG2",
+"org_span": [
+1998,
+8,
+8,
+14,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"a month\" is a continuous span in the sentence and fully captures the temporal expression associated with the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"a month\" specifies the temporal duration of the event expressed by \"give\", fitting the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the assigned TMP role are appropriate for the sentence context.",
+"index_sen": 44,
+"sentences": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+"predicate": "give",
+"selected_span": [
+"a month",
+"ARGM-TMP",
+[
+12,
+14
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG1",
+"org_span": [
+78,
+11,
+12,
+14,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"please\" is correctly extracted as a single-word continuous span immediately preceding the predicate \"come\",\" serving as a complete argument unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Please\" functions as a general adverbial modifier expressing politeness and modifies the event expressed by \"come\", matching the MOD role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 51,
+"sentences": "I said %um please come to Shabbat",
+"predicate": "come",
+"selected_span": [
+"please",
+"ARGM-MOD",
+[
+3,
+4
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIS",
+"org_span": [
+1637,
+5,
+3,
+4,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Somehow\" is correctly extracted as a single-word adverbial modifier with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Somehow\" functions as an adverbial modifier of the predicate \"raises\", matching the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 61,
+"sentences": "Somehow it raises a small amount .",
+"predicate": "raises",
+"selected_span": [
+"Somehow",
+"ARGM-ADV",
+[
+0,
+1
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-MNR",
+"org_span": [
+1914,
+3,
+0,
+1,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"my trip back to the states\" is a contiguous noun phrase directly following the predicate \"pay\" and serves as the complete object being paid, so its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"pay my trip back to the states\", the phrase denotes the cost or money to be paid, which aligns with the ARG1 role as 'money or attention'.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 75,
+"sentences": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+"predicate": "pay",
+"selected_span": [
+"my trip back to the states",
+"ARG1",
+[
+32,
+38
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG3",
+"org_span": [
+387,
+32,
+32,
+38,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"though\" is correctly extracted as a single-word discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"though\" functions as a discourse marker modifying the clause where \"say\" is the predicate, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 83,
+"sentences": "I ca n't say too bad things about the military though .",
+"predicate": "say",
+"selected_span": [
+"though",
+"ARGM-DIS",
+[
+10,
+11
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+616,
+4,
+10,
+11,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"to some places\" is a complete prepositional phrase marking the directional complement of the verb \"take\" and is correctly extracted with precise boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"to some places\" indicates the destination or direction of the action expressed by \"take\", which aligns with the DIR role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 86,
+"sentences": "and I can take you to some places ,",
+"predicate": "take",
+"selected_span": [
+"to some places",
+"ARGM-DIR",
+[
+5,
+8
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-GOL",
+"org_span": [
+1869,
+4,
+5,
+8,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"over here\" is a continuous phrase in the sentence and fully captures the directional adjunct associated with the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Over here\" indicates the direction of the movement expressed by \"came\", matching the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 104,
+"sentences": "and then she came over here , and %um , checked out a room here .",
+"predicate": "came",
+"selected_span": [
+"over here",
+"ARGM-DIR",
+[
+4,
+6
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG4",
+"org_span": [
+1950,
+4,
+4,
+6,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"with him\" is a continuous span immediately following the predicate \"brings\" and correctly captures the comitative adjunct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"With him\" functions as a comitative adjunct indicating accompaniment, which aligns with the manner (MNR) role for the predicate \"brings\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 147,
+"sentences": "And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that .",
+"predicate": "brings",
+"selected_span": [
+"with him",
+"ARGM-MNR",
+[
+10,
+12
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+113,
+8,
+10,
+12,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is correctly extracted as a single-word temporal adverb marking the time-related adjunct for the predicate \"call\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The adverb \"then\" indicates a temporal sequence for the action \"call\", aligning with the TMP role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role label correctly identify \"then\" as a temporal adjunct for the predicate \"call\".",
+"index_sen": 152,
+"sentences": "but if you do n't get email then just call Anya 's parents",
+"predicate": "call",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+7,
+8
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+2233,
+10,
+7,
+8,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"he\" is a single pronoun serving as the subject of \"gotten\" and is correctly extracted as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"given how far he's gotten\", \"he\" is the causer or agent of the motion/change of state expressed by \"gotten\", which aligns with the ARG0 description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 188,
+"sentences": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+"predicate": "gotten",
+"selected_span": [
+"he",
+"ARG0",
+[
+7,
+8
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG1",
+"org_span": [
+7,
+10,
+7,
+8,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"lifting weights\" is a continuous non-finite clause in the sentence and forms a complete semantic unit modifying the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"lifting weights\" specifies the manner or means by which calories are burned, functioning as an adverbial modifier of the predicate \"burn\", consistent with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 200,
+"sentences": "You do burn a lot of calories an hour though , lifting weights .",
+"predicate": "burn",
+"selected_span": [
+"lifting weights",
+"ARGM-ADV",
+[
+11,
+13
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-CAU",
+"org_span": [
+2136,
+3,
+11,
+13,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"out of phase\" is a continuous phrase directly modifying the predicate \"oscillating\" and its boundaries correctly capture the full descriptive unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"out of phase\" specifies the relative direction (phase relationship) of the oscillation event, satisfying the DIR role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 213,
+"sentences": "So what 's happening is that the modes are oscillating out of phase so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies .",
+"predicate": "oscillating",
+"selected_span": [
+"out of phase",
+"ARGM-DIR",
+[
+10,
+13
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-MNR",
+"org_span": [
+25,
+10,
+10,
+13,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"too\" is correctly extracted as a single word with clear boundaries, serving as a complete discourse marker adjunct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The word \"too\" functions as a discourse marker (DIS), adding an additive meaning to the event \"do\", consistent with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 221,
+"sentences": "If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too .",
+"predicate": "do",
+"selected_span": [
+"too",
+"ARGM-DIS",
+[
+28,
+29
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+129,
+27,
+28,
+29,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument 'I kept telling Neil that I thought that this was kind of significant' is a contiguous phrase and forms a complete semantic unit directly following the predicate 'is'.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause 'And what’s actually kind of interesting is I kept telling Neil that I thought that this was kind of significant', the quoted clause functions as the topic or focus of 'is', matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 233,
+"sentences": "And what 's actually kind of interesting is I kept telling Neil that I thought that this was kind of significant .",
+"predicate": "is",
+"selected_span": [
+"I kept telling Neil that I thought that this was kind of significant",
+"ARG1",
+[
+8,
+21
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG2",
+"org_span": [
+703,
+8,
+8,
+21,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"down\" is a contiguous word in the clause and forms a complete semantic unit as a directional complement indicating location for the predicate \"put\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"down\" indicates the final location/direction of the predicate \"put\", aligning with the 'where put' semantic role for ARG2.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 250,
+"sentences": "I thought you were talking to somebody else and like put the phone down or something .",
+"predicate": "put",
+"selected_span": [
+"down",
+"ARG2",
+[
+13,
+14
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIR",
+"org_span": [
+293,
+11,
+13,
+14,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"now\" is a single word with clear boundaries, correctly extracted as a temporal adjunct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"now\" provides temporal information about the event of thinking, aligning with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 281,
+"sentences": "So now you think my wedding 's going to be pretty tasteful right ?",
+"predicate": "think",
+"selected_span": [
+"now",
+"ARGM-TMP",
+[
+1,
+2
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIS",
+"org_span": [
+2162,
+4,
+1,
+2,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is correctly extracted as a single word and forms a complete discourse marker for the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"then\" functions as a discourse marker organizing the context for the event expressed by \"be\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 283,
+"sentences": "and then next year it 'll be eleven thousand .",
+"predicate": "be",
+"selected_span": [
+"then",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-TMP",
+"org_span": [
+636,
+7,
+1,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"just\" is correctly extracted as a single adverb modifying the predicate and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Just\" indicates that the event occurred very recently, providing temporal information about \"scared,\" which aligns with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 302,
+"sentences": "I mean things have been happening that has just scared the heck out of me .",
+"predicate": "scared",
+"selected_span": [
+"just",
+"ARGM-TMP",
+[
+8,
+9
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+2068,
+10,
+8,
+9,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is a single, continuous word that functions as a discourse marker preceding the predicate \"call\", and its boundaries are correctly identified.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In this sentence, \"then\" serves as a discourse connector marking sequence and linking the context to the action expressed by \"call\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 324,
+"sentences": "and then yeah you can just call up",
+"predicate": "call",
+"selected_span": [
+"then",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-TMP",
+"org_span": [
+1930,
+7,
+1,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"as much as he does\" is a continuous span in the sentence and forms a complete comparative clause modifying the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"As much as he does\" functions as an adverbial modifier indicating the degree of the action \"eat\", which aligns with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 328,
+"sentences": "So , I assume it 's hard for you not to eat as much as he does .",
+"predicate": "eat",
+"selected_span": [
+"as much as he does",
+"ARGM-ADV",
+[
+12,
+17
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-EXT",
+"org_span": [
+276,
+12,
+12,
+17,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"just to let you know we 're there\" is a continuous span in the sentence and forms a complete purpose clause, correctly extracted as an adjunct of the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause provides an adverbial (purpose) modification of the event expressed by \"call\", aligning with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 329,
+"sentences": "or maybe I 'll just call you when we get in Holland just to let you know we 're there ,",
+"predicate": "call",
+"selected_span": [
+"just to let you know we 're there",
+"ARGM-ADV",
+[
+12,
+20
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-PRP",
+"org_span": [
+334,
+6,
+12,
+20,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"from Chicago\" is a continuous prepositional phrase correctly marking the origin of the movement and is fully captured.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"From Chicago\" specifies the source or starting point of the action \"went\", which aligns with the DIR (direction) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 331,
+"sentences": "You know , I went from Chicago to U C S G to here .",
+"predicate": "went",
+"selected_span": [
+"from Chicago",
+"ARGM-DIR",
+[
+5,
+7
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG3",
+"org_span": [
+1978,
+5,
+5,
+7,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Of course\" is correctly extracted as a contiguous discourse marker and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"Of course\" functions as a discourse marker that organizes the context around the event expressed by \"talking\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 385,
+"sentences": "Of course I 'm talking to you .",
+"predicate": "talking",
+"selected_span": [
+"Of course",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+1845,
+5,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"to Taiwa\" is a contiguous prepositional phrase indicating the destination, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"to Taiwa\" denotes the endpoint/destination (EXT) of the sending action, which aligns with ARG2 for \"sent\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 399,
+"sentences": "You know Tufts yeah . sent her to Taiwa",
+"predicate": "sent",
+"selected_span": [
+"to Taiwa",
+"ARG2",
+[
+7,
+9
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG4",
+"org_span": [
+1498,
+6,
+7,
+9,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Of course\" is a continuous two-word phrase serving as a discourse marker at the beginning of the sentence, so its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Of course\" functions as a discourse marker expressing the speaker's stance toward the event \"ends\", which matches the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 413,
+"sentences": "Of course it ends on the twenty second of July .",
+"predicate": "ends",
+"selected_span": [
+"Of course",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+401,
+4,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for people who go in the daytime\" is a continuous PP span that functions as an adverbial adjunct in the sentence, and its boundaries are correctly identified.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The PP \"for people who go in the daytime\" provides adverbial modification to the copular predicate \"'s\", indicating for whom the state holds, which aligns with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 414,
+"sentences": "But I 'm sure for people who go in the daytime it 's probably dead . yeah . You know",
+"predicate": "'s",
+"selected_span": [
+"for people who go in the daytime",
+"ARGM-ADV",
+[
+4,
+11
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-GOL",
+"org_span": [
+253,
+13,
+4,
+11,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"to talk to mom\" is a continuous span in the sentence and forms a complete phrase functioning as a purpose adjunct of the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"to talk to mom\" clearly expresses the purpose of the action \"called\", which aligns with the PNC (purpose) role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 415,
+"sentences": "She called mom to talk to mom",
+"predicate": "called",
+"selected_span": [
+"to talk to mom",
+"ARGM-PNC",
+[
+3,
+7
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-PRP",
+"org_span": [
+1699,
+2,
+3,
+7,
+23
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"truly\" is a single-word adverb directly modifying the predicate \"believe\", with correct boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"truly\" functions as an adverbial modifier of \"believe\", expressing the speaker’s degree of belief, which matches the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 433,
+"sentences": "%eh I truly believe that **Salem**",
+"predicate": "believe",
+"selected_span": [
+"truly",
+"ARGM-ADV",
+[
+2,
+3
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-MNR",
+"org_span": [
+1668,
+4,
+2,
+3,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"up the stairs\" is a continuous prepositional phrase correctly extracted as the directional complement of the predicate \"climbs\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"up the stairs\" specifies the direction of the climbing action, matching the DIR role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 454,
+"sentences": "and she climbs up the stairs , Selema .",
+"predicate": "climbs",
+"selected_span": [
+"up the stairs",
+"ARGM-DIR",
+[
+3,
+6
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG1",
+"org_span": [
+1735,
+3,
+3,
+6,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument spans the full subordinate clause from “so that” through “frequencies,” forming a continuous purpose adjunct of the predicate despite the embedded disfluencies.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause introduced by “so that” expresses the intended purpose of the oscillation—masking each other’s oscillations on other frequencies—fitting the PNC (purpose) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "The argument is correctly delimited as the purpose adjunct to “oscillating,” and the PNC label accurately reflects its semantic role.",
+"index_sen": 465,
+"sentences": "So what 's happening is that the modes are oscillating out of phase so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies .",
+"predicate": "oscillating",
+"selected_span": [
+"so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies",
+"ARGM-PNC",
+[
+13,
+30
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-PRP",
+"org_span": [
+25,
+10,
+13,
+30,
+23
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Missus\" is a contiguous phrase in the sentence and forms a complete semantic unit as the label being assigned.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"You can just call her Missus\", \"Missus\" is the label assigned by the predicate \"call\", matching the role description for ARG1 as the item being labelled.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 472,
+"sentences": "You can just call her Missus",
+"predicate": "call",
+"selected_span": [
+"Missus",
+"ARG1",
+[
+5,
+6
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG2",
+"org_span": [
+1942,
+4,
+5,
+6,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"somewhere\" is correctly extracted as a single-word adverbial denoting the destination of the action expressed by \"took\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"somewhere\" functions as the directional complement of \"took\", indicating the destination and thus satisfying the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 494,
+"sentences": "because I knew what she would do if I took her somewhere you know what she would say",
+"predicate": "took",
+"selected_span": [
+"somewhere",
+"ARGM-DIR",
+[
+11,
+12
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-GOL",
+"org_span": [
+223,
+10,
+11,
+12,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"still\" is correctly extracted as a single adverb immediately preceding the predicate \"go\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"still\" functions as an adverbial modifier of \"go\", indicating that the action remains possible, which aligns with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 504,
+"sentences": "If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam .",
+"predicate": "go",
+"selected_span": [
+"still",
+"ARGM-ADV",
+[
+10,
+11
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-TMP",
+"org_span": [
+661,
+12,
+10,
+11,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"hardly\" is correctly extracted as a single-word adverb with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Hardly\" functions as an adverbial modifier of the event expressed by \"hear\", matching the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 521,
+"sentences": "I can hardly hear you .",
+"predicate": "hear",
+"selected_span": [
+"hardly",
+"ARGM-ADV",
+[
+2,
+3
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-EXT",
+"org_span": [
+1846,
+4,
+2,
+3,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"kind of\" is a contiguous two-word phrase that correctly captures the hedge modifying the predicate \"hinted\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Kind of\" functions as an adverbial hedge expressing the manner/degree of the action \"hinted\", which aligns with the MNR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 550,
+"sentences": "and I kind of hinted to her that really the only way to lose weight is cardio vascular . mhm . It 's true . And that lifting the weights wo n't lose weight .",
+"predicate": "hinted",
+"selected_span": [
+"kind of",
+"ARGM-MNR",
+[
+2,
+4
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+106,
+5,
+2,
+4,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Actually\" is a single-word adverb that is correctly extracted and forms a complete semantic unit modifying the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Actually\" functions as an adverbial modifier to the verb \"been\", expressing the speaker’s stance on the event, which aligns with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 554,
+"sentences": "Actually I 've been up to Holland before .",
+"predicate": "been",
+"selected_span": [
+"Actually",
+"ARGM-ADV",
+[
+0,
+1
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIS",
+"org_span": [
+1874,
+4,
+0,
+1,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"kind of\" is a continuous span immediately preceding the predicate and forms a complete adverbial phrase indicating degree/manner.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Kind of\" functions as a manner modifier of the event expressed by \"assumed\", which aligns with the MNR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 568,
+"sentences": "I kind of assumed everyone would be at the shore .",
+"predicate": "assumed",
+"selected_span": [
+"kind of",
+"ARGM-MNR",
+[
+1,
+3
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+547,
+4,
+1,
+3,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"maybe\" is correctly extracted as a single-word discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In this sentence, \"maybe\" functions as a discourse marker conveying the speaker’s attitude and organizing the context, which aligns with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 572,
+"sentences": "maybe she 'll catch on soon .",
+"predicate": "catch",
+"selected_span": [
+"maybe",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+1773,
+4,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"oh\" is correctly extracted as a single word, representing an interjection in the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"oh it is.\", \"oh\" functions as an interjection expressing a comment or reaction toward the predicate \"is\", which matches the ARG2 role description for comment.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 577,
+"sentences": "but -- oh it is . it 's pretty de classe .",
+"predicate": "is",
+"selected_span": [
+"oh",
+"ARG2",
+[
+2,
+3
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIS",
+"org_span": [
+587,
+5,
+2,
+3,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"back\" is correctly extracted as a single contiguous adverbial element indicating direction and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Back\" explicitly expresses the direction of the action \"taking,\" matching the DIR role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 593,
+"sentences": "%uh would you mind %uh taking her back",
+"predicate": "taking",
+"selected_span": [
+"back",
+"ARGM-DIR",
+[
+7,
+8
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-GOL",
+"org_span": [
+1639,
+6,
+7,
+8,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"%um\" is correctly extracted as a standalone token immediately preceding the predicate and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause “%um, depends on…”, \"%um\" functions as the dependent (depender) of the verb \"depends\", which aligns with the proto-agent role ARG0 for this stative predicate.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 602,
+"sentences": "%um , depends on what you guys want to see .",
+"predicate": "depends",
+"selected_span": [
+"%um",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIS",
+"org_span": [
+606,
+3,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"on her salary\" is a contiguous prepositional phrase in the sentence and fully captures the semantic unit modifying the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"On her salary\" functions as an adverbial prepositional phrase indicating the means by which the owing occurs, aligning with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 604,
+"sentences": "so we 're going to owe some money to the Dutch government on her salary .",
+"predicate": "owe",
+"selected_span": [
+"on her salary",
+"ARGM-ADV",
+[
+12,
+15
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-PRD",
+"org_span": [
+2205,
+6,
+12,
+15,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"a lot\" is a contiguous phrase in the sentence and forms a complete noun phrase.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"I gained a lot\", \"a lot\" serves as the thing acquired by the predicate \"gained\", matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 618,
+"sentences": "Actually in the first week I was here -- mhm . -- I gained a lot",
+"predicate": "gained",
+"selected_span": [
+"a lot",
+"ARG1",
+[
+14,
+16
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-EXT",
+"org_span": [
+2154,
+14,
+14,
+16,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"to buy the wine\" is a continuous infinitive clause with clear boundaries, correctly capturing the semantic unit modifying the predicate \"went\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"to buy the wine\" expresses the purpose of the action \"went\", aligning with the PNC (purpose) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 624,
+"sentences": "Dad and I went to buy the wine the other day .",
+"predicate": "went",
+"selected_span": [
+"to buy the wine",
+"ARGM-PNC",
+[
+4,
+8
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-PRP",
+"org_span": [
+591,
+4,
+4,
+8,
+23
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"though\" is correctly extracted as a single discourse marker closely tied to the clause containing \"burn\", and its boundaries are clear.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In this sentence, \"though\" functions as a discourse marker expressing a concessive relation to the event of \"burn\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 635,
+"sentences": "You do burn a lot of calories an hour though , lifting weights .",
+"predicate": "burn",
+"selected_span": [
+"though",
+"ARGM-DIS",
+[
+9,
+10
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+2136,
+3,
+9,
+10,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"just\" is a single continuous word in the sentence and forms a complete semantic unit as a discourse modifier.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"just\" functions as a discourse marker expressing the speaker’s attitude toward the event expressed by \"call\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 647,
+"sentences": "you can just call her Missus and speak English to her .",
+"predicate": "call",
+"selected_span": [
+"just",
+"ARGM-DIS",
+[
+2,
+3
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+642,
+4,
+2,
+3,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"great\" is correctly extracted as a single word with clear boundaries, serving as a complete semantic unit modifying the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Great\" provides manner/degree information about the event \"doing\", aligning with the adverbial modification role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 661,
+"sentences": "And they 're doing great .",
+"predicate": "doing",
+"selected_span": [
+"great",
+"ARGM-ADV",
+[
+4,
+5
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-MNR",
+"org_span": [
+1585,
+4,
+4,
+5,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"us\" is a contiguous pronoun in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"he's reserved us of that\", \"us\" functions as the thing being reserved by the predicate \"reserved\", matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 681,
+"sentences": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+"predicate": "reserved",
+"selected_span": [
+"us",
+"ARG1",
+[
+13,
+14
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG2",
+"org_span": [
+87,
+13,
+13,
+14,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"truly\" is correctly extracted as a single-word adverb directly modifying the predicate \"give\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Truly\" indicates the manner in which the action of giving is performed, aligning with the MNR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 696,
+"sentences": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+"predicate": "give",
+"selected_span": [
+"truly",
+"ARGM-MNR",
+[
+19,
+20
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+65,
+21,
+19,
+20,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"of course\" is a continuous two-word span and functions as a complete discourse marker preceding the predicate \"carving\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Of course\" serves as a discourse adjunct expressing the speaker’s attitude and organizing the context for the event \"carving\", matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 717,
+"sentences": "yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um",
+"predicate": "carving",
+"selected_span": [
+"of course",
+"ARGM-DIS",
+[
+12,
+14
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+173,
+15,
+12,
+14,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"home\" is a single continuous span accurately extracted from the sentence and serves as a complete semantic unit denoting the endpoint of the action.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the context of \"drive her home\", \"home\" specifies the destination or direction of the driving action, which aligns with the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 729,
+"sentences": "So they had to take it down and drive her home .",
+"predicate": "drive",
+"selected_span": [
+"home",
+"ARGM-DIR",
+[
+10,
+11
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG1",
+"org_span": [
+573,
+9,
+10,
+11,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"on me\" is a continuous prepositional phrase directly modifying the predicate \"look\" and is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"On me\" functions as an adverbial modifier of the predicate \"look\", specifying the location/target of the appearance, which aligns with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 730,
+"sentences": "and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump",
+"predicate": "look",
+"selected_span": [
+"on me",
+"ARGM-ADV",
+[
+5,
+7
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-LOC",
+"org_span": [
+773,
+4,
+5,
+7,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"state tax\" is a contiguous phrase in the sentence and forms a complete semantic unit as the object of \"pay\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"state tax\" denotes the money being paid, which matches the role description of ARG1 as the \"money or attention\" of the predicate \"pay\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 746,
+"sentences": "Oregon you pay state tax",
+"predicate": "pay",
+"selected_span": [
+"state tax",
+"ARG1",
+[
+3,
+5
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG3",
+"org_span": [
+1445,
+3,
+3,
+5,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Actually\" is correctly extracted as a discrete discourse marker at the beginning of the sentence with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Actually\" functions as a discourse adverb expressing the speaker’s stance and organizing the context for the clause where \"gained\" is the predicate, which aligns with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 753,
+"sentences": "Actually in the first week I was here -- mhm . -- I gained a lot",
+"predicate": "gained",
+"selected_span": [
+"Actually",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-ADV",
+"org_span": [
+2154,
+14,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"you\" is correctly extracted as the subject performing the action \"separate\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"if you just separate normally\", \"you\" is the actor causing the action \"separate\", matching the role description for ARG0 as the entity causing separation.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 786,
+"sentences": "but yeah if you just separate normally and you have n't served at least eight years , then you owe it .",
+"predicate": "separate",
+"selected_span": [
+"you",
+"ARG0",
+[
+3,
+4
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG1",
+"org_span": [
+806,
+6,
+3,
+4,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"to U C S G\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit expressing a location.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"to U C S G\" identifies the destination or end point of the motion verb \"went\", which aligns with the ARG4 role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 805,
+"sentences": "You know , I went from Chicago to U C S G to here .",
+"predicate": "went",
+"selected_span": [
+"to U C S G",
+"ARG4",
+[
+7,
+12
+]
+],
+"error_type": "label_error",
+"gold_label": "ARGM-DIR",
+"org_span": [
+1978,
+5,
+7,
+12,
+6
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"it\" is correctly extracted as a single word with clear boundaries, serving as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence \"Is it paid today?\", \"it\" functions as the commodity being paid, which matches the role description for ARG3.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 820,
+"sentences": "Is it paid today ?",
+"predicate": "paid",
+"selected_span": [
+"it",
+"ARG3",
+[
+1,
+2
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG1",
+"org_span": [
+1217,
+3,
+1,
+2,
+5
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"that\" is correctly extracted as the subject relative pronoun in the clause containing \"scared\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"that has just scared the heck out of me\", the pronoun \"that\" functions as the cause or \"scary entity\" of the predicate \"scared\", aligning with the role description for ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 841,
+"sentences": "I mean things have been happening that has just scared the heck out of me .",
+"predicate": "scared",
+"selected_span": [
+"that",
+"R-ARG0",
+[
+6,
+7
+]
+],
+"error_type": "label_error",
+"gold_label": "ARG0",
+"org_span": [
+2068,
+10,
+6,
+7,
+48
+],
+"conflict_span": null
+}
+]

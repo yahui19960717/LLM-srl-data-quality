@@ -1,0 +1,4322 @@
+[
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument span omits the focal nominal constituent “Mr. Clinton” and includes only the relative clause, failing to capture the complete clefted constituent.",
+"correct_argument": "Mr. Clinton that stole the Indian lawmakers' hearts",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The clause “that stole the Indian lawmakers' hearts” alone does not function as the topic or complement of the predicate “was”; the full clefted constituent is required.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is incorrect and the assigned semantic role is invalid.",
+"index_sen": 20,
+"sentences": "That 's an interesting question because Vladimir Putin on Wednesday addressed the Indian Parliament just as Bill Clinton had done six months ago , and I think it 's safe to say that Mr. Putin actually probably accomplished more than Mr. Clinton did in the hard concrete terms of arms sales and that sort of thing , but it was Mr. Clinton that stole the Indian lawmakers ' hearts .",
+"predicate": "was",
+"selected_span": [
+"that stole the Indian lawmakers ' hearts",
+"ARG1",
+[
+62,
+69
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2088,
+60,
+62,
+69,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument 'when' is only a conjunction and does not capture the full temporal clause; the correct argument should include the entire clause 'when Bear Stearns stepped out of line in the view of the SEC'.",
+"correct_argument": "when Bear Stearns stepped out of line in the view of the SEC",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The extracted argument 'when' alone does not provide the temporal information for the predicate 'stepped'; the temporal adjunct should be the full clause 'when Bear Stearns stepped out of line in the view of the SEC'.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument boundary is incorrect (insufficient extraction), and thus the role labeling is also incorrect.",
+"index_sen": 24,
+"sentences": "And some people are surprised and I might even add pleased in this city that your SEC has been quick to react when Phil Purcell of Morgan Stanley made a statement that your SEC did n't think and that you did n't think expressed appropriate contrition when Bear Stearns stepped out of line in the view of the SEC .",
+"predicate": "stepped",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+46,
+47
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3732,
+50,
+46,
+47,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" is only the subordinating conjunction and does not constitute the full temporal adjunct clause modifying the predicate \"involving\".",
+"correct_argument": "at that point in Lebanon now with the Palestinians",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The token \"when\" alone does not provide the temporal information of the event expressed by \"involving\"; the full temporal adjunct (e.g., \"at that point in Lebanon now with the Palestinians\") is needed.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect (under-extracted), and the semantic role label is therefore invalid.",
+"index_sen": 41,
+"sentences": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+"predicate": "involving",
+"selected_span": [
+"when",
+"R-ARGM-TMP",
+[
+28,
+29
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1972,
+32,
+28,
+29,
+64
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"that\" is a single pronoun from the sentence functioning as a complete semantic unit and correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Although \"that\" serves as the subject (ARG0) of the predicate \"feature\", it does not represent the \"cause of prominence\"; it refers to the entity performing the action (the shows).",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"that\" does not satisfy the specified role relationship as the cause of prominence of \"feature\".",
+"index_sen": 48,
+"sentences": "Allison says she hopes there will be other shows that feature kids like her .",
+"predicate": "feature",
+"selected_span": [
+"that",
+"R-ARG0",
+[
+9,
+10
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+963,
+11,
+9,
+10,
+48
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"from pneumonia\" is correctly extracted as a contiguous prepositional phrase forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"from pneumonia\" indicates the cause or source of the complications, not a prototypical agent, so ARG0 is incorrect.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct but the semantic role label is incorrect.",
+"index_sen": 62,
+"sentences": "He died yesterday of renal failure and complications from pneumonia .",
+"predicate": "complications",
+"selected_span": [
+"from pneumonia",
+"ARG0",
+[
+8,
+10
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1282,
+8,
+8,
+10,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Lou\" is correctly extracted as a single word with clear boundaries, serving as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Lou\" is a vocative addressee, not a discourse marker organizing or connecting the context to the predicate \"think\", thus does not satisfy the DIS role description.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"Lou\" does not fulfill the DIS role as described.",
+"index_sen": 85,
+"sentences": "I think so , Lou .",
+"predicate": "think",
+"selected_span": [
+"Lou",
+"ARGM-DIS",
+[
+4,
+5
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1682,
+2,
+4,
+5,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"what\" is only the free relative marker introducing the clause, not the complete semantic unit serving as the complement of the predicate 'been'.",
+"correct_argument": "a ripple effect of the Middle East crisis",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"what\" does not function as the topic of 'been'; the actual topic/complement is \"a ripple effect of the Middle East crisis\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect and thus the semantic role labeling fails.",
+"index_sen": 96,
+"sentences": "In what may have been a ripple effect of the Middle East crisis , an explosion today killed at least four sailors on a US Navy destroyer in the Yemeni port of Aden .",
+"predicate": "been",
+"selected_span": [
+"what",
+"ARG1",
+[
+1,
+2
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2417,
+5,
+1,
+2,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The provided argument 'into' is only a preposition and does not include its object; the complete argument should be the prepositional phrase 'into Tuesday night'.",
+"correct_argument": "into Tuesday night",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The argument 'into' by itself does not fulfill the 'instrument, thing hit by or with' role, as it lacks the object. The correct ARG2 should be the full PP 'into Tuesday night'.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is incorrect, and the semantic role labeling is therefore incorrect.",
+"index_sen": 98,
+"sentences": "This is what the 747 slammed into Tuesday night in a blinding rain storm .",
+"predicate": "slammed",
+"selected_span": [
+"into",
+"ARG2",
+[
+6,
+7
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1231,
+6,
+6,
+7,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument “when” is only the subordinating conjunction and does not include the full temporal clause required to express the temporal information of the event.",
+"correct_argument": "when the explosion blew a huge hole into the hull of the Navy destroyer as it was refueling in Aden",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The conjunction “when” indeed introduces temporal information for the event expressed by “blew,” satisfying the TMP role relationship.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the role labeling is appropriate, the argument extraction is insufficient because it omits the full temporal clause.",
+"index_sen": 112,
+"sentences": "17 sailors were killed and dozens were injured when the explosion blew a huge hole into the hull of the Navy destroyer as it was refueling in Aden .",
+"predicate": "blew",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+8,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2823,
+12,
+8,
+9,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"wo\" is only part of the contraction \"won't\" and does not form a standalone modifier; the actual general modifier of \"look\" is the focus particle \"even\".",
+"correct_argument": "even",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Wo\" is part of the negation in the modal verb \"won't\" and does not function as a general modifier of the event \"look\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, and thus the assigned semantic role is also incorrect.",
+"index_sen": 116,
+"sentences": "And those dreams were a little closer to coming true this day , and with shows like `` Pelswick , '' they say -- well , when they get a little older , maybe people wo n't even look down first .",
+"predicate": "look",
+"selected_span": [
+"wo",
+"ARGM-MOD",
+[
+35,
+36
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2174,
+39,
+35,
+36,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"that\" is a relative pronoun introducing the clause, not the actual entity being followed; the correct argument should be \"the template of social consciousness\".",
+"correct_argument": "the template of social consciousness",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The argument \"that\" does not represent the \"thing followed\" of \"follow\"; the actual \"thing followed\" is \"the template of social consciousness\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are incorrect.",
+"index_sen": 127,
+"sentences": "Positive Black Soul are now the oldsters of Dakar 's hip - hop scene and they have established the template of social consciousness that many Senegalese hip - hop groups follow like Bootin Bye , which recently scored this hit about AIDS prevention .",
+"predicate": "follow",
+"selected_span": [
+"that",
+"R-ARG1",
+[
+23,
+24
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3854,
+31,
+23,
+24,
+49
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"We\" is correctly extracted as a single pronoun serving as the subject of the predicate with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"We\" functions as the theme or subject of the copular verb \"are\" rather than as a topical entity, so labeling it ARG1 as 'topic' is incorrect.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role labeling is incorrect.",
+"index_sen": 140,
+"sentences": "We are usually not sufficiently clear , we meaning the Secretariat , in explaining that sovereignty and final analysis belongs to the people and sovereignty should be seen in a democratic context .",
+"predicate": "are",
+"selected_span": [
+"We",
+"ARG1",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2665,
+2,
+0,
+1,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The extracted argument 'When' is only the subordinating conjunction and does not include the full temporal clause needed to specify when the event occurred.",
+"correct_argument": "When Awadi and Barry performed",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Because the argument span is incomplete and only the conjunction 'When', it cannot independently fulfill the temporal (TMP) role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, which causes the semantic role labeling to be invalid.",
+"index_sen": 141,
+"sentences": "When Awadi and Barry performed , they managed simultaneously to bathe in the group of American hip - hop and they keep a clear sense that they are from Senegal .",
+"predicate": "performed",
+"selected_span": [
+"When",
+"ARGM-TMP",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2561,
+5,
+0,
+1,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Western hip - hop lyrics\" is a contiguous phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In the clause \"Western hip - hop lyrics often revolve around...\", \"Western hip - hop lyrics\" functions as the theme or topic of the predicate \"revolve\", not as a prototypical patient.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because the argument does not satisfy the specified role relationship as the prototypical patient of \"revolve\".",
+"index_sen": 147,
+"sentences": "Western hip - hop lyrics often revolve around the accumulation of material wealth and throwing parties .",
+"predicate": "revolve",
+"selected_span": [
+"Western hip - hop lyrics",
+"ARG1",
+[
+0,
+5
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+582,
+7,
+0,
+5,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"there\" is correctly extracted as a single-word locative, forming a complete semantic unit referring to a location.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In the clause \"that 's been there,\" \"there\" functions as a locative complement indicating location, not as a comment of the predicate \"been,\" so it does not satisfy the role description for ARG2.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is correct, but the semantic role labeling is incorrect because \"there\" does not fulfill the 'comment' role for \"been\".",
+"index_sen": 156,
+"sentences": "It really comes from the actual bands and the fact that there 's this grassroots following that 's been there , you know , for a long time , primarily started by the Grateful Dead , at least the future by the Grateful Dead .",
+"predicate": "been",
+"selected_span": [
+"there",
+"ARG2",
+[
+19,
+20
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3669,
+19,
+19,
+20,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"he\" is a single pronoun with clear boundaries, correctly extracted as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In the clause \"he was going\", \"he\" is the agent/theme performing the action of going, not the journey itself; thus it does not fulfill the ARG1 role as described.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role labeling is incorrect.",
+"index_sen": 169,
+"sentences": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+"predicate": "going",
+"selected_span": [
+"he",
+"ARG1",
+[
+27,
+28
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2225,
+30,
+27,
+28,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The provided argument \"case\" is only the head noun and omits the full noun phrase including the determiner and adjectives; the complete span should be \"an open and shut case\".",
+"correct_argument": "an open and shut case",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The noun \"case\" (as part of the complete NP) is indeed the entity being closed by the predicate \"shut\", matching the role of the “thing closing” for ARG1.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is incorrect (insufficient span), although the semantic role relation itself is correct.",
+"index_sen": 197,
+"sentences": "They could very well be biological weapons production facilities , but I do n't think the intelligence community has made an open and shut case .",
+"predicate": "shut",
+"selected_span": [
+"case",
+"ARG1",
+[
+24,
+25
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3056,
+24,
+24,
+25,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument “Why” is a single wh-adverb extracted directly from the sentence and correctly spans the interrogative adjunct modifying the predicate “adopt.”",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "“Why” in this sentence functions as a question word asking for the cause rather than providing cause information itself, so it does not fulfill the CAU role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the extraction of the argument is correct, the semantic role label is incorrect because “Why” does not express an actual cause of the event but poses a question about it.",
+"index_sen": 198,
+"sentences": "People have long struggled with the question , Why did the chicken cross the road ? - but all the Scott family wants to know is , Why did a chicken adopt their ten new puppies ?",
+"predicate": "adopt",
+"selected_span": [
+"Why",
+"ARGM-CAU",
+[
+27,
+28
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2186,
+32,
+27,
+28,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"in the group of American hip - hop\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit as the complement of the predicate.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The phrase denotes a location or medium of bathing rather than the patient or thing being washed; the actual patient of \"bathe\" would be the entity being washed (\"they\").",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument boundaries are correct, but the assigned semantic role is incorrect.",
+"index_sen": 200,
+"sentences": "When Awadi and Barry performed , they managed simultaneously to bathe in the group of American hip - hop and they keep a clear sense that they are from Senegal .",
+"predicate": "bathe",
+"selected_span": [
+"in the group of American hip - hop",
+"ARG1",
+[
+11,
+19
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2563,
+11,
+11,
+19,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Constitutionally\" is a single continuous adverbial modifier directly linked to the predicate \"barred\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Constitutionally\" indicates the legal basis or cause for the barring rather than the manner in which the action occurred, so it does not fulfill the MNR role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "While the argument extraction is correct, the assigned role MNR is inappropriate because the adverb expresses cause/legal basis, not manner.",
+"index_sen": 201,
+"sentences": "Constitutionally barred from serving a third term as Serbian President , he clung to power by having the federal parliament elect him President of Yugoslavia .",
+"predicate": "barred",
+"selected_span": [
+"Constitutionally",
+"ARGM-MNR",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2869,
+2,
+0,
+1,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" is only the subordinating conjunction and fails to include the full temporal clause. The temporal information is expressed by the entire clause starting with \"when\": \"when a Scottish court, meeting in the Netherlands, finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103\".",
+"correct_argument": "when a Scottish court, meeting in the Netherlands, finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"when\" serves as a temporal marker for the predicate \"found\", indicating the time at which the event occurred, consistent with the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect due to an incomplete span, despite the role labeling being correct.",
+"index_sen": 202,
+"sentences": "And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",
+"predicate": "found",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+17,
+18
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3806,
+30,
+17,
+18,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"without its having some kind of either political effect or be political in origin\" is a continuous span immediately following the predicate and fully captures the adjunct clause modifying \"statement\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The clause introduced by \"without\" expresses a condition under which the statement is made, not the manner of the statement, so it should be labeled as a condition adjunct (CND), not MNR.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "While the argument extraction is correct, the semantic role label is incorrect; the adjunct is conditional rather than manner.",
+"index_sen": 208,
+"sentences": "It is the world at its most carnival - like , and yet it is virtually impossible , is n't it , for a Chinese artist to do something or to make a statement without its having some kind of either political effect or be political in origin .",
+"predicate": "statement",
+"selected_span": [
+"without its having some kind of either political effect or be political in origin",
+"ARGM-MNR",
+[
+34,
+48
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3860,
+34,
+34,
+48,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Israeli leaders\" is a contiguous phrase in the sentence and forms a complete semantic unit as the object of the preposition \"on\" in the verb phrase \"called on\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Although \"Israeli leaders\" is correctly identified as the target of \"called on\", it does not act as a prototypical patient undergoing change, but rather as the recipient or target of the calling.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"Israeli leaders\" does not function as a prototypical patient of the predicate \"called\".",
+"index_sen": 217,
+"sentences": "Egypt 's President Hosni Mubarak has called on Israeli leaders to stop talking about war and to make peace with the Palestinians and Syria .",
+"predicate": "called",
+"selected_span": [
+"Israeli leaders",
+"ARG1",
+[
+8,
+10
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3523,
+7,
+8,
+10,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"When\" is only the subordinating conjunction and does not constitute the full temporal adjunct specifying when the recording occurred; the full temporal clause should be captured.",
+"correct_argument": "When American saxophonist David Murray recorded his acclaimed afrocentric jazz album, Fo Juke Review in Dakar",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The word \"When\" functions as a temporal conjunction introducing the event of \"recorded\", thus serving a TMP role in indicating the time of the recording.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect due to insufficient boundary extraction, although the role labeling is correct.",
+"index_sen": 218,
+"sentences": "When American saxophonist David Murray recorded his acclaimed afrocentric jazz album , Fo Juke Review in Dakar , he recruited Amidu Berry and DJ Awadi from PBS to show what an edge West African music can really have .",
+"predicate": "recorded",
+"selected_span": [
+"When",
+"ARGM-TMP",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2557,
+6,
+0,
+1,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"collective\" is correctly extracted as a single word modifying the predicate \"bargaining\" and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"collective\" functions as an attributive component within the compound noun \"collective bargaining\" rather than an adjunct expressing manner, so MNR is not appropriate.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "While the argument extraction is correct, the semantic role label MNR is incorrect because \"collective\" does not serve as a manner adjunct for \"bargaining\".",
+"index_sen": 219,
+"sentences": "The US is committed to working with Bangladesh on this and other core labor standards including freedom of association and collective bargaining .",
+"predicate": "bargaining",
+"selected_span": [
+"collective",
+"ARGM-MNR",
+[
+20,
+21
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3397,
+22,
+20,
+21,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The provided argument \"stock\" is only the modifier in the compound noun \"stock performance\" and does not represent a complete semantic unit as the patient of \"performance\".",
+"correct_argument": "stock performance",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"stock\" alone does not fulfill the role of the prototypical patient of \"performance\"; the full phrase \"stock performance\" would be the patient.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument boundary is insufficient and the semantic role label is therefore invalid.",
+"index_sen": 224,
+"sentences": "I think there 's been too much emphasis on performance defined strictly by stock performance and earnings per share .",
+"predicate": "performance",
+"selected_span": [
+"stock",
+"ARG1",
+[
+13,
+14
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+348,
+15,
+13,
+14,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument span is only the conjunction “when” and fails to include the full temporal clause that specifies when the event occurred.",
+"correct_argument": "when the plane bound for New York exploded over Lockerbie, Scotland",
+"role_evaluation": "no",
+"reason_for_role_judgement": "As given, the argument “when” alone does not provide temporal information—it is merely a conjunction. The full clause is needed to fulfill the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is insufficient and thus the TMP role assignment is invalid.",
+"index_sen": 230,
+"sentences": "The court ruled this senior Libyan intelligence agent planted the bomb that killed 270 , mostly Americans , when the plane bound for New York exploded over Lockerbie , Scotland .",
+"predicate": "exploded",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+18,
+19
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2391,
+26,
+18,
+19,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"firmly in agreement on the route we have decided in the United Nations\" is a continuous adverbial phrase modifying the predicate \"look\" and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The phrase expresses a reason or condition enabling the event of looking forward (causal information), rather than describing the manner of the action, so it should be labeled CAU instead of MNR.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect as the argument conveys cause rather than manner.",
+"index_sen": 237,
+"sentences": "It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq , but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations , although , the tragic loss of British lives today reminds us all of the difficulties to be faced .",
+"predicate": "look",
+"selected_span": [
+"firmly in agreement on the route we have decided in the United Nations",
+"ARGM-MNR",
+[
+31,
+44
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1921,
+29,
+31,
+44,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"with a couple of urgent questions for the government\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The phrase introduces the starting content or topic of \"begin\" rather than serving as an instrument; thus it does not fulfill the Instrument role of ARG2.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is correct but the assigned role is incorrect.",
+"index_sen": 238,
+"sentences": "We begin tonight with a couple of urgent questions for the government .",
+"predicate": "begin",
+"selected_span": [
+"with a couple of urgent questions for the government",
+"ARG2",
+[
+3,
+12
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+888,
+2,
+3,
+12,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"which\" is correctly extracted as a single word, forming a complete semantic unit and serving as a relative pronoun referring back to \"calls for war\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The pronoun \"which\" functions as the subject/theme of the predicate \"were\", representing what is described as \"very serious\", not as the \"topic\" of \"were\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the argument extraction is correct, the semantic role label is incorrect because \"which\" does not fulfill the specified role of \"topic\" for the predicate \"were\".",
+"index_sen": 243,
+"sentences": "Well , actually President Mubarak was very categorical today in condemning calls for war , which he said were very serious and people should understand the implications of just what it meant .",
+"predicate": "were",
+"selected_span": [
+"which",
+"ARG1",
+[
+15,
+16
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2491,
+19,
+15,
+16,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The span \"which requires power firms to justify prices above 150 dollars per megawatt hour\" is a relative clause modifying the noun phrase and not the direct object of \"imposed\".",
+"correct_argument": "a so-called soft cap on California",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The provided argument does not represent the \"thing imposed\"; the actual thing imposed by \"imposed\" is the NP \"a so-called soft cap on California\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are incorrect.",
+"index_sen": 265,
+"sentences": "Last week federal regulators imposed a so - called soft cap on California , which requires power firms to justify prices above 150 dollars per megawatt hour .",
+"predicate": "imposed",
+"selected_span": [
+"which requires power firms to justify prices above 150 dollars per megawatt hour",
+"C-ARG1",
+[
+14,
+27
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3498,
+5,
+14,
+27,
+31
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Why\" is correctly extracted as a single interrogative adverb with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Why\" functions as an interrogative word introducing a question and does not provide a cause for the event expressed by \"come\", so it does not satisfy the CAU role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"Why\" does not represent the cause of the predicate \"come\".",
+"index_sen": 269,
+"sentences": "Why does the trip come now ?",
+"predicate": "come",
+"selected_span": [
+"Why",
+"ARGM-CAU",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1807,
+5,
+0,
+1,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The word 'will' is a modal auxiliary that forms part of the predicate phrase 'will be selected', not an independent argument. Auxiliaries are not extracted as arguments.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "'will' does not serve as a separate modifier argument but is part of the predicate itself, so it cannot be assigned the MOD role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Because 'will' is not an independent argument, the argument extraction and the semantic role labeling are incorrect.",
+"index_sen": 272,
+"sentences": "He says it 's unlikely Gore will be selected , because he does n't have enough experience in the academic world .",
+"predicate": "selected",
+"selected_span": [
+"will",
+"ARGM-MOD",
+[
+6,
+7
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+180,
+9,
+6,
+7,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The provided argument \"when\" only includes the subordinating conjunction and does not capture the full temporal clause. The complete temporal adjunct is \"when we see people who don't appear to be taking it too seriously\".",
+"correct_argument": "when we see people who don't appear to be taking it too seriously",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"when we see people who don't appear to be taking it too seriously\" provides temporal information about the event of \"see\", matching the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect because the full temporal clause was not captured, although the semantic role labeling is correct.",
+"index_sen": 295,
+"sentences": "We 're deadly serious about some of the actions we 've taken , and when we see people who do n't appear to be taking it too seriously , we 're going to get to them right away .",
+"predicate": "see",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+14,
+15
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2269,
+17,
+14,
+15,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The provided argument 'a time' is insufficiently extracted. The full temporal adjunct is the prepositional phrase 'at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians'.",
+"correct_argument": "at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument 'a time' conveys temporal information about the event expressed by 'involving', satisfying the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect (insufficient span), although the semantic role label is appropriate.",
+"index_sen": 299,
+"sentences": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+"predicate": "involving",
+"selected_span": [
+"a time",
+"ARGM-TMP",
+[
+26,
+28
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1972,
+32,
+26,
+28,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"as Haiti 's leader\" is a continuous span and forms a complete semantic unit specifying the capacity in which he faces obstacles.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The phrase \"as Haiti 's leader\" indicates the capacity adjunct of the event \"faces\", not a secondary predication of the predicate, so it does not satisfy the PRD role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label PRD is incorrect.",
+"index_sen": 306,
+"sentences": "He now faces huge obstacles as Haiti 's leader .",
+"predicate": "faces",
+"selected_span": [
+"as Haiti 's leader",
+"ARGM-PRD",
+[
+5,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1794,
+3,
+5,
+9,
+24
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" is only the subordinating conjunction and does not capture the full temporal adjunct; the complete temporal argument is the clause \"when both sides would call off the violence\".",
+"correct_argument": "when both sides would call off the violence",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The single word \"when\" alone does not provide the temporal information for the predicate \"call\"; the full clause is required to fulfill the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incomplete and the semantic role labeling is therefore incorrect.",
+"index_sen": 319,
+"sentences": "This was supposed to be the day the truce went into effect , when both sides would call off the violence , but that clearly has not happened , and here in the streets , peace seems very unlikely .",
+"predicate": "call",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+13,
+14
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2120,
+18,
+13,
+14,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The provided argument 'school' is only the modifier within the noun phrase 'school exchanges'; it does not form a complete semantic unit. The full argument should be 'school exchanges'.",
+"correct_argument": "school exchanges",
+"role_evaluation": "no",
+"reason_for_role_judgement": "'School' by itself does not function as the thing being traded in the nominal predicate 'exchanges'; rather, it is part of the compound noun 'school exchanges', so the role assignment is incorrect.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument span is incorrectly extracted and the semantic role labeling is also incorrect.",
+"index_sen": 331,
+"sentences": "At the same time , work continues to bring the young people of our countries closer together through language , teaching , school exchanges and university programs .",
+"predicate": "exchanges",
+"selected_span": [
+"school",
+"ARG1",
+[
+22,
+23
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3129,
+24,
+22,
+23,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"When\" is under-extracted; the temporal information is expressed by the full subordinate clause \"When you talk about Arafat and the people around him\", not just the single word.",
+"correct_argument": "When you talk about Arafat and the people around him",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The single word \"When\" alone does not constitute the temporal argument for the predicate \"talk\"; the complete clause is required to fulfill the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Because the argument span is under-extracted, the semantic role labeling is also incorrect.",
+"index_sen": 356,
+"sentences": "When you talk about Arafat and the people around him , you have to understand how young this population really is -- how volatile , how close to exploding it really is .",
+"predicate": "talk",
+"selected_span": [
+"When",
+"ARGM-TMP",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2111,
+3,
+0,
+1,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"it\" is correctly extracted as a single-word pronoun with clear boundaries, serving as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The pronoun \"it\" refers to the Navy destroyer, which is the entity being refueled (patient), not the provider of fuel or agent.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role labeling is incorrect because \"it\" does not serve as the provider of fuel or agent for \"refueling\".",
+"index_sen": 364,
+"sentences": "17 sailors were killed and dozens were injured when the explosion blew a huge hole into the hull of the Navy destroyer as it was refueling in Aden .",
+"predicate": "refueling",
+"selected_span": [
+"it",
+"ARG0",
+[
+23,
+24
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2825,
+26,
+23,
+24,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The word \"Why\" functions as an interrogative marker introducing a question and is not an adjunct expressing cause of the event \"cross\", so it is not a correctly extracted argument for the predicate.",
+"correct_argument": "No CAU argument present for the predicate \"cross\"",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Why\" does not express a cause of the event \"cross\" but serves as a question word, so it does not satisfy the CAU relation.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect and the semantic role labeling is also incorrect.",
+"index_sen": 378,
+"sentences": "People have long struggled with the question , Why did the chicken cross the road ? - but all the Scott family wants to know is , Why did a chicken adopt their ten new puppies ?",
+"predicate": "cross",
+"selected_span": [
+"Why",
+"ARGM-CAU",
+[
+8,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2181,
+13,
+8,
+9,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"What\" is only the wh-word and does not form a complete semantic unit; the entire wh-clause \"What I want to do\" is the minimal argument for the predicate \"do\".",
+"correct_argument": "What I want to do",
+"role_evaluation": "no",
+"reason_for_role_judgement": "As extracted, \"What\" does not fully represent the \"thing done\" of \"do\"; the role requires the complete clause \"What I want to do\" as the theme.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument boundary is incorrect, so the semantic role labeling is invalid.",
+"index_sen": 401,
+"sentences": "Just one last thing quoting him and I wonder if you could respond to this , Christopher , he said at the very beginning of his wonderful speech to the Nobel Prize Committee , he said , `` I do not wish to waste this talk on literature by saying too much about politics and history , What I want to do is to use this opportunity to speak as one writer in the voice of an individual . ''",
+"predicate": "do",
+"selected_span": [
+"What",
+"ARG1",
+[
+57,
+58
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2060,
+62,
+57,
+58,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument “Singapore Airlines flight 6” is a contiguous noun phrase in the sentence and represents a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "“Singapore Airlines flight 6” functions as the initiator (agent) of the intransitive action “take off,” not as a prototypical patient of “take.”",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because the flight is not the patient of “take.”",
+"index_sen": 417,
+"sentences": "Sources close to the investigation tell NBC News that Singapore Airlines flight 6 tried to take off on a runway closed for repairs .",
+"predicate": "take",
+"selected_span": [
+"Singapore Airlines flight 6",
+"ARG1",
+[
+9,
+13
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3132,
+16,
+9,
+13,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The given argument \"ca\" is an incomplete span; it is part of the auxiliary modal \"can't\" which modifies the predicate.",
+"correct_argument": "can't",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"ca\" alone does not constitute a complete modifier; the full auxiliary \"can't\" would function as a general modifier of \"boast\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is incorrect, leading to an invalid semantic role assignment.",
+"index_sen": 435,
+"sentences": "The little town I was in this southern Iraq , as far as I got , I ca n't boast of further , is where the talks took place .",
+"predicate": "boast",
+"selected_span": [
+"ca",
+"ARGM-MOD",
+[
+17,
+18
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3011,
+20,
+17,
+18,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"He\" is correctly extracted as a single-word pronoun serving as the subject of \"sat\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"He\" functions as the subject or agent in the clause \"He sat out 1 term\", not as a prototypical patient of \"sat\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"He\" does not satisfy the specified role relationship as the prototypical patient.",
+"index_sen": 438,
+"sentences": "He sat out 1 term after losing a U.S Senate race in the 1960s , but for 24 terms , Yates represented Chicago 's northern lake front and northern suburbs .",
+"predicate": "sat",
+"selected_span": [
+"He",
+"ARG1",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2405,
+2,
+0,
+1,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"of the game\" is only part of the full prepositional phrase \"out of the game\", which denotes the item sold, so the provided argument is insufficient.",
+"correct_argument": "out of the game",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The provided argument is not a complete prototypical patient of the predicate; the full complement \"out of the game\" is required to satisfy the ARG1 role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, leading to an invalid semantic role assignment.",
+"index_sen": 457,
+"sentences": "As Greg Lefevre reports , many stores have sold out of the game even before its release .",
+"predicate": "sold",
+"selected_span": [
+"of the game",
+"ARG1",
+[
+10,
+13
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+114,
+9,
+10,
+13,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"where\" is only a wh-word and does not form a complete argument span for the predicate \"is\"; the full locative complement is the entire subordinate clause.",
+"correct_argument": "where her husband is now",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"where\" functions as a clause introducer in an indirect question, not as the comment (ARG2) of the copular verb \"is\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction boundary and the assigned semantic role are incorrect.",
+"index_sen": 462,
+"sentences": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+"predicate": "is",
+"selected_span": [
+"where",
+"ARG2",
+[
+4,
+5
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2220,
+8,
+4,
+5,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"that\" is correctly extracted as the subject of the predicate \"means\", forming a single-word minimal semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"that\" functions as the theme/subject of the stative verb \"means\", not as a volitional agent.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"that\" is not the agent of \"means\".",
+"index_sen": 474,
+"sentences": "Now , Greg , the only question that means anything at this hour .",
+"predicate": "means",
+"selected_span": [
+"that",
+"R-ARG0",
+[
+7,
+8
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1236,
+9,
+7,
+8,
+48
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"Egypt\" is not the direct subject of the predicate \"was\" in its clause; the predicate occurs in the relative clause \"which was the first Arab country...\" where the subject is the pronoun \"which\".",
+"correct_argument": "which",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Because the provided argument is incorrect, \"Egypt\" does not serve as the topic of \"was\" in the clause.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, so the semantic role labeling is also incorrect.",
+"index_sen": 476,
+"sentences": "On the other hand we have Egypt which was the first Arab country to make peace with the Jewish state , which is of course also a top recipient of US aid .",
+"predicate": "was",
+"selected_span": [
+"Egypt",
+"ARG1",
+[
+6,
+7
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2483,
+9,
+6,
+7,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"with that surprise, the malfeasance that is crossing your desk\" is a contiguous prepositional phrase that forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The phrase introduced by \"with\" specifies the starting point or theme of \"start\", not the instrument used, so it does not fulfill the \"Instrument\" role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the assigned role label is incorrect because the phrase does not function as an instrument of \"start\".",
+"index_sen": 489,
+"sentences": "Let 's start with that surprise , the malfeasance that is crossing your desk .",
+"predicate": "start",
+"selected_span": [
+"with that surprise , the malfeasance that is crossing your desk",
+"ARG2",
+[
+3,
+14
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1130,
+3,
+3,
+14,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The provided argument span includes the adjunct relative clause “where the ‘USS Cole’ was ultimately attacked,” which is not part of the core planned action. The minimal complete argument should be the infinitival clause alone.",
+"correct_argument": "to bomb an American ship in Yemen",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument ‘to bomb an American ship in Yemen’ correctly represents the plotted action or plan of the predicate ‘plot’, satisfying the ARG1 role description.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the semantic role assignment is correct, the argument extraction is over-extended and thus incorrect.",
+"index_sen": 491,
+"sentences": "The FBI says when they questioned him , he told them of another plot to bomb an American ship in Yemen , where the `` USS Cole '' was ultimately attacked .",
+"predicate": "plot",
+"selected_span": [
+"to bomb an American ship in Yemen , where the `` USS Cole '' was ultimately attacked",
+"ARG1",
+[
+14,
+31
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2139,
+14,
+14,
+31,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"with the mother\" is a continuous prepositional phrase immediately following the predicate \"sits\" and forms a complete semantic unit, so the span is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"with the mother\" expresses accompaniment (comitative) rather than manner of sitting, so it does not fulfill the MNR (manner) role for the predicate \"sits\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the assigned semantic role (MNR) is incorrect because the phrase denotes accompaniment, not manner.",
+"index_sen": 496,
+"sentences": "They goes in there and nuzzles with the puppies , or lays her eggs and sits there with the mother .",
+"predicate": "sits",
+"selected_span": [
+"with the mother",
+"ARGM-MNR",
+[
+17,
+20
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+245,
+16,
+17,
+20,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the plane\" is a contiguous noun phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"the plane\" is the entity performing the action of taking off (agent/theme), not a prototypical patient of \"taking\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is correct but the semantic role labeling is incorrect because the plane is not the prototypical patient of the predicate.",
+"index_sen": 502,
+"sentences": "As the plane was taking off this passenger noticed she did n't see any runway lights .",
+"predicate": "taking",
+"selected_span": [
+"the plane",
+"ARG1",
+[
+1,
+3
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+445,
+5,
+1,
+3,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"how\" is only a wh‐word and not a complete semantic constituent modifying the predicate. The full clause \"how the show began\" would be the correct span if it were a manner adjunct.",
+"correct_argument": "how the show began",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"How\" here introduces an embedded question clause rather than specifying the manner of the event 'began', so it does not function as a Manner (MNR) modifier of the predicate.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument span is insufficient and the assigned role label is inappropriate, so the annotation is incorrect.",
+"index_sen": 505,
+"sentences": "Actor Drugewbo Unitich tells how the show began .",
+"predicate": "began",
+"selected_span": [
+"how",
+"ARGM-MNR",
+[
+4,
+5
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1775,
+8,
+4,
+5,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"emotional\" is a single contiguous adjective directly modifying the nominal predicate and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The adjective \"emotional\" expresses an attribute of the noun \"experience\" rather than the experiencer; it does not represent the \"experienced\" argument (ARG1).",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is correct, but the semantic role labeling is incorrect because \"emotional\" does not fulfill the ARG1 role (the experienced) for \"experience\".",
+"index_sen": 532,
+"sentences": "Quite an emotional experience and one of us can only imagine what it must have been like to endure .",
+"predicate": "experience",
+"selected_span": [
+"emotional",
+"ARG1",
+[
+2,
+3
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+327,
+4,
+2,
+3,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The span “his” is only the possessive determiner and does not form a complete NP argument; the full argument should include the noun it modifies.",
+"correct_argument": "his wonderful speech",
+"role_evaluation": "no",
+"reason_for_role_judgement": "A possessive determiner cannot function as the prototypical agent; the agent of the speech is the speaker himself, not the word “his.”",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument boundary is insufficient and the semantic role assignment is incorrect.",
+"index_sen": 554,
+"sentences": "Just one last thing quoting him and I wonder if you could respond to this , Christopher , he said at the very beginning of his wonderful speech to the Nobel Prize Committee , he said , `` I do not wish to waste this talk on literature by saying too much about politics and history , What I want to do is to use this opportunity to speak as one writer in the voice of an individual . ''",
+"predicate": "speech",
+"selected_span": [
+"his",
+"ARG0",
+[
+25,
+26
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2052,
+28,
+25,
+26,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" is only a subordinating conjunction and does not form a complete temporal argument; the full temporal adjunct is the clause \"when they get a little older\".",
+"correct_argument": "when they get a little older",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"when they get a little older\" provides temporal information for the predicate \"get\", which aligns with the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, although the semantic role label is appropriate.",
+"index_sen": 555,
+"sentences": "And those dreams were a little closer to coming true this day , and with shows like `` Pelswick , '' they say -- well , when they get a little older , maybe people wo n't even look down first .",
+"predicate": "get",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+26,
+27
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2173,
+29,
+26,
+27,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" is only a subordinating conjunction and does not form a complete temporal expression; the full temporal adjunct should include the entire subordinate clause.",
+"correct_argument": "when Jamie got a second phone call from a flight attendant",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Since the extracted span is incorrect and does not provide complete temporal information, it cannot fulfill the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, leading to an incorrect semantic role assignment.",
+"index_sen": 575,
+"sentences": "He got on a flight to an undisclosed location , when Jamie got a second phone call from a flight attendant .",
+"predicate": "got",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+10,
+11
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+319,
+13,
+10,
+11,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"Mr. Putin 's visit\" falls outside the clause containing the predicate \"was\"; in the clause \"which was to finalize some very substantial arms deals\", the correct argument span is the relative pronoun \"which\".",
+"correct_argument": "which",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Because the provided argument span is incorrect, \"Mr. Putin 's visit\" cannot serve as the \"topic\" of the predicate \"was\"; the actual argument \"which\" fulfills that role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, leading to an incorrect semantic role assignment.",
+"index_sen": 581,
+"sentences": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+"predicate": "was",
+"selected_span": [
+"Mr. Putin 's visit",
+"ARG1",
+[
+31,
+35
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3890,
+38,
+31,
+35,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"he\" is correctly extracted as a single-word pronoun directly associated with the predicate \"get\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"he\" serves as the agent/subject performing the action of \"get\", not as the 'thing' being gotten.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect since \"he\" does not fulfill the described role of representing the 'thing' of \"get\".",
+"index_sen": 595,
+"sentences": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+"predicate": "get",
+"selected_span": [
+"he",
+"ARG1",
+[
+33,
+34
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2042,
+42,
+33,
+34,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"that\" is only the complementizer and does not constitute the full proposition or utterance content; the full subordinate clause should be included as the argument.",
+"correct_argument": "that indeed this novel, which is a celebration as well of the self of the individual, goes so far as to even divide up to the self",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The word \"that\" alone does not fulfill the role of Utterance (suggestion); it is merely a complementizer without the propositional content.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument span is insufficient, and the semantic role assignment is invalid for the provided argument.",
+"index_sen": 598,
+"sentences": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+"predicate": "suggests",
+"selected_span": [
+"that",
+"ARG1",
+[
+13,
+14
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3874,
+13,
+13,
+14,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"a squadron of Marines\" is a contiguous noun phrase in the sentence and forms a complete semantic unit corresponding to the by-agent of the passive predicate.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In this passive construction, \"a squadron of Marines\" functions as the agent/sayer of the predicate \"told\", not as the Hearer, so it does not satisfy the ARG2 role description.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the argument extraction is correct, the semantic role label is incorrect because the phrase is the Agent (speaker), not the Hearer of \"told\".",
+"index_sen": 631,
+"sentences": "Other POWs from Iraq after they were captured and released , that dramatic release that Sunday morning when they were picked up by a squadron of Marines who had wandered in a town in Baghdad and were told where they were being kept .",
+"predicate": "told",
+"selected_span": [
+"a squadron of Marines",
+"ARG2",
+[
+23,
+27
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3695,
+38,
+23,
+27,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The provided argument is only the word \"where\", which does not capture the full locative adjunct. The complete argument span should be the subordinate clause \"where the talks took place\" to convey the location information.",
+"correct_argument": "where the talks took place",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The word \"where\" functions as a locative adverbial modifying the predicate \"took\", providing the location of the event, thus fulfilling the LOC role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument boundary is incorrect, even though the semantic role label LOC is appropriate.",
+"index_sen": 633,
+"sentences": "The little town I was in this southern Iraq , as far as I got , I ca n't boast of further , is where the talks took place .",
+"predicate": "took",
+"selected_span": [
+"where",
+"ARGM-LOC",
+[
+24,
+25
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3014,
+28,
+24,
+25,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"free\" is correctly extracted as a single-token adjective modifier of the noun predicate \"speech\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The adjective \"free\" denotes an attribute or type of speech (i.e., unrestricted) rather than describing the manner in which the speech event is delivered, so it does not fulfill the MNR role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"free\" does not express a manner for the predicate \"speech\".",
+"index_sen": 634,
+"sentences": "At home , President Vojislav Kostunica says that he intends to promote democracy and free speech , but Kostunica just might have second thoughts , once a theater group that roasted his predecessor over the coals starts turning him on a spit .",
+"predicate": "speech",
+"selected_span": [
+"free",
+"ARGM-MNR",
+[
+14,
+15
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3841,
+16,
+14,
+15,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"federal\" is a single-word adjective modifying \"indictment\" in the noun phrase \"federal indictment\" and forms a complete, minimal semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Federal\" specifies the type or jurisdiction of the indictment as an adjectival modifier and does not represent the entity performing the action of indicting, so it cannot be the prototypical agent (ARG0).",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"federal\" does not serve as the prototypical agent of \"indictment\".",
+"index_sen": 638,
+"sentences": "She announced her decision to vacate her post as chief executive of Martha Stewart Living Omnimedia , following word of a federal indictment .",
+"predicate": "indictment",
+"selected_span": [
+"federal",
+"ARG0",
+[
+21,
+22
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2923,
+23,
+21,
+22,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The provided argument 'how' is only the wh-adverb, whereas the complete argument is the full wh-clause 'how they make cartoons', which semantically conveys the manner of the event.",
+"correct_argument": "how they make cartoons",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The wh-clause 'how they make cartoons' clearly expresses the manner of the event denoted by 'make', satisfying the MNR role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect (insufficient span), even though the role label is appropriate.",
+"index_sen": 640,
+"sentences": "Imagine being able to visit Nickelodeon to see how they make cartoons .",
+"predicate": "make",
+"selected_span": [
+"how",
+"ARGM-MNR",
+[
+8,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+954,
+11,
+8,
+9,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The extracted span omits the adverb 'together', which is part of the manner expression modifying 'work', so the argument extraction is incomplete.",
+"correct_argument": "together bilaterally and on the international stage",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase specifies how the work is done, indicating the manner of the action and thus correctly fulfills the MNR role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The semantic role labeling is correct but the argument extraction is incomplete, making the overall annotation incorrect.",
+"index_sen": 641,
+"sentences": "We work together bilatarily and on the international stage , and we are developing new links all the time in fields of commerce , culture , counterterrorism , energy , education environment .",
+"predicate": "work",
+"selected_span": [
+"bilatarily and on the international stage",
+"ARGM-MNR",
+[
+3,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2345,
+2,
+3,
+9,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"When\" is only the wh-word introducing the clause and does not constitute a complete temporal expression for the predicate \"retired\". The correct temporal argument is \"last year\".",
+"correct_argument": "last year",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"When\" by itself does not provide the temporal information of the retirement event. The temporal role (TMP) should be filled by \"last year\", which indicates when he retired.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect (insufficient span) and the semantic role label is therefore also incorrect.",
+"index_sen": 642,
+"sentences": "When he retired last year , he was the oldest and longest serving member of the house .",
+"predicate": "retired",
+"selected_span": [
+"When",
+"ARGM-TMP",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+512,
+3,
+0,
+1,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"who\" is under-extracted; the full free relative clause \"who they really are as people\" functions as the comment of the predicate \"are\".",
+"correct_argument": "who they really are as people",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The extracted argument \"who\" alone does not fulfill the role of comment; the complete clause is necessary to represent the comment of \"are\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Due to the incorrect argument span and the failure to satisfy the comment role, the SRL annotation is incorrect.",
+"index_sen": 647,
+"sentences": "Kids lead the way in diversity , because they 're very accepting of other kids in terms of who they are , and who they really are as people .",
+"predicate": "are",
+"selected_span": [
+"who",
+"ARG2",
+[
+23,
+24
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2858,
+27,
+23,
+24,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument “When” is only the subordinating conjunction and fails to include the full temporal clause that modifies “find”; the complete temporal argument should be the entire clause.",
+"correct_argument": "When you find one where no one has been there",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "“When” functions as a temporal conjunction modifying the event expressed by “find,” satisfying the TMP role description.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument boundary is insufficient, even though the role label TMP is appropriate.",
+"index_sen": 650,
+"sentences": "When you find one where no one has been there , you are the first person , the adrenaline is phenomenal .",
+"predicate": "find",
+"selected_span": [
+"When",
+"ARGM-TMP",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+46,
+3,
+0,
+1,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Among other things\" is a continuous phrase forming a complete adjunct and is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Among other things\" functions as a discourse-level enumerator modifying the entire clause (both \"freeze\" and \"restrict\"), not specifically serving as an adverbial modifier of the predicate \"restrict\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the argument extraction is correct, the semantic role label ADV is inappropriate for this discourse marker adjunct.",
+"index_sen": 659,
+"sentences": "Among other things , they would also freeze Taliban assets abroad and restrict foreign travel by Taliban officials .",
+"predicate": "restrict",
+"selected_span": [
+"Among other things",
+"ARGM-ADV",
+[
+0,
+3
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+739,
+13,
+0,
+3,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" is only the subordinating conjunction; the full temporal adjunct should be the clause \"when he spoke to the parliament\", so the provided span is insufficient.",
+"correct_argument": "when he spoke to the parliament",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The element \"when\" (as part of the temporal clause) provides temporal information for the predicate \"spoke\", satisfying the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect due to an insufficient span, even though the assigned TMP role is correct.",
+"index_sen": 662,
+"sentences": "Of course you will recall when he spoke to the parliament there was an ecstatic welcome for him .",
+"predicate": "spoke",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+5,
+6
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+673,
+8,
+5,
+6,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"what\" is correctly extracted as a single pronoun forming a complete semantic unit and serves as the subject of \"been\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In the clause \"what may have been a wrong turn\", \"what\" functions as the subject (ARG0) of the copular verb \"been\", not as the topic (ARG1).",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"what\" does not fulfill the role of topic for \"been\".",
+"index_sen": 664,
+"sentences": "Tonight it appears at least 82 are dead from what may have been a wrong turn .",
+"predicate": "been",
+"selected_span": [
+"what",
+"ARG1",
+[
+9,
+10
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+437,
+13,
+9,
+10,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for the end of the summit on Sunday\" is a contiguous span that forms a complete prepositional phrase modifying \"statement\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The phrase specifies the time or intended occasion for the statement (temporal adjunct), not the purpose of making the statement; it does not express a goal or intention in the sense of a purpose clause.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is correct, but the semantic role label is incorrect because the phrase is a temporal adjunct rather than a purpose adjunct.",
+"index_sen": 684,
+"sentences": "We have already seen problems from Libyan leader Muammar Gaddafi on Tuesday who appeared on Al - Jazeera , the pan-Arab satellite channel , and , rubbish , what he said was a draft statement for the end of the summit on Sunday .",
+"predicate": "statement",
+"selected_span": [
+"for the end of the summit on Sunday",
+"ARGM-PRP",
+[
+35,
+43
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3836,
+35,
+35,
+43,
+25
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The word \"around\" is a particle that forms part of the phrasal verb \"check around\" and thus is part of the predicate, not an independent argument.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Since \"around\" is part of the predicate rather than a separate directional adjunct, it does not fulfill the DIR role requirement for the predicate \"check\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect as \"around\" is part of the predicate, and the semantic role assignment is consequently invalid.",
+"index_sen": 686,
+"sentences": "So before they say it is a white man tangle you know it 's because of a white man that this happens and they got to , you know , check around and they say who is the real guilty .",
+"predicate": "check",
+"selected_span": [
+"around",
+"ARGM-DIR",
+[
+31,
+32
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2586,
+31,
+31,
+32,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The word \"when\" is a subordinating conjunction introducing a temporal clause for the predicate \"flag\", not an argument of \"come\"; thus extracting \"when\" alone for \"come\" is boundary incorrect.",
+"correct_argument": "to the first portion",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The extracted argument \"when\" does not function as a temporal modifier of \"come\"; it introduces an adverbial clause modifying \"flag\" rather than providing temporal information for \"come\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are incorrect.",
+"index_sen": 687,
+"sentences": "You flag us when you come to the first portion we should hear aloud .",
+"predicate": "come",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+3,
+4
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1258,
+6,
+3,
+4,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The provided argument 'Constitutionally barred from serving a third term as Serbian President' is a fronted participial clause modifying 'he' and not a participant of the predicate 'clung'. The entity actually clung to is expressed by the prepositional phrase 'to power'.",
+"correct_argument": "to power",
+"role_evaluation": "no",
+"reason_for_role_judgement": "'Constitutionally barred from serving a third term as Serbian President' does not fulfill the role of the 'clingy thing' of 'clung'. The correct entity clung to (ARG1) is 'power' in the phrase 'to power'.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are incorrect.",
+"index_sen": 698,
+"sentences": "Constitutionally barred from serving a third term as Serbian President , he clung to power by having the federal parliament elect him President of Yugoslavia .",
+"predicate": "clung",
+"selected_span": [
+"Constitutionally barred from serving a third term as Serbian President",
+"R-ARG0",
+[
+0,
+10
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2871,
+13,
+0,
+10,
+48
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument 'people' is under-extracted. The complete NP 'people who don't appear to be taking it too seriously' functions as the subject argument of the predicate 'taking'.",
+"correct_argument": "people who don't appear to be taking it too seriously",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause 'people who don't appear to be taking it too seriously', 'people' is the entity performing/experiencing the action of 'taking', which aligns with the ARG0 role as the understander of 'taking'.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The semantic role labeling is correct, but the argument extraction is incorrect due to under-extraction.",
+"index_sen": 699,
+"sentences": "We 're deadly serious about some of the actions we 've taken , and when we see people who do n't appear to be taking it too seriously , we 're going to get to them right away .",
+"predicate": "taking",
+"selected_span": [
+"people",
+"ARG0",
+[
+17,
+18
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2272,
+25,
+17,
+18,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"who\" is insufficient; the complete complement of the predicate \"are\" is \"who they are\".",
+"correct_argument": "who they are",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The argument \"who\" alone does not represent the full comment of the predicate \"are\"; the correct comment argument is \"who they are\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, and thus the semantic role labeling is invalid.",
+"index_sen": 707,
+"sentences": "Kids lead the way in diversity , because they 're very accepting of other kids in terms of who they are , and who they really are as people .",
+"predicate": "are",
+"selected_span": [
+"who",
+"ARG2",
+[
+18,
+19
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2857,
+21,
+18,
+19,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" is only the subordinating conjunction and does not include the full temporal clause; the complete temporal argument should be \"when they do open their eyes\".",
+"correct_argument": "when they do open their eyes",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The extracted argument \"when\" alone does not convey the full temporal information of the event; the full clause \"when they do open their eyes\" correctly fulfills the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is incorrect, and as a result the semantic role labeling is also incorrect.",
+"index_sen": 725,
+"sentences": "Those puppies are in for a heck of a surprise when they do open their eyes , are n't they ?",
+"predicate": "open",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+10,
+11
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+259,
+14,
+10,
+11,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"every reason\" is not a constituent argument of the predicate \"suspect\"; it belongs to the matrix verb \"had\". The true complement of \"suspect\" is the clause \"that the blast was caused by terrorists\".",
+"correct_argument": "that the blast was caused by terrorists",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Every reason\" does not denote the cause of the suspecting event. The cause information for \"suspect\" is provided by the content clause \"that the blast was caused by terrorists\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The provided argument is not correctly extracted for the predicate \"suspect\" and the role label CAU is therefore incorrect.",
+"index_sen": 727,
+"sentences": "But in Washington , Pentagon officials went further saying that they had every reason to suspect that the blast was caused by terrorists .",
+"predicate": "suspect",
+"selected_span": [
+"every reason",
+"ARGM-CAU",
+[
+12,
+14
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3183,
+16,
+12,
+14,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "\"Brian\" is a vocative addressee, not a semantic argument of the predicate \"have\", so it is incorrectly extracted.",
+"correct_argument": "In fact",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Brian\" does not serve as a discourse marker organizing or connecting the context for the predicate \"have\"; the true discourse adjunct is \"In fact\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument \"Brian\" is wrongly extracted and mislabelled as DIS; the correct discourse adjunct is \"In fact\".",
+"index_sen": 759,
+"sentences": "In fact , Brian I do have it handed to me now .",
+"predicate": "have",
+"selected_span": [
+"Brian",
+"ARGM-DIS",
+[
+3,
+4
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1251,
+7,
+3,
+4,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"home\" is a single contiguous word immediately following the predicate \"call\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"home\" denotes the destination/location of the call, not the utterance content of the call as required by ARG1.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role labeling is incorrect because \"home\" does not represent an utterance of the call.",
+"index_sen": 773,
+"sentences": "Some U.S. troops have not had a chance to call home since they were deployed for duty in `` Operation Iraqi Freedom . ''",
+"predicate": "call",
+"selected_span": [
+"home",
+"ARG1",
+[
+10,
+11
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2956,
+10,
+10,
+11,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"never\" is correctly extracted as a single-word adverbial modifier of the predicate \"been\" with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Never\" functions as a negation marker indicating polarity rather than providing a temporal specification of when the event occurred; it should be labeled as a negation adjunct (e.g., AM-NEG) rather than TMP.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label TMP is incorrect because \"never\" expresses negation, not temporal information.",
+"index_sen": 805,
+"sentences": "I just want to get home , never been so ready to get back to the United States .",
+"predicate": "been",
+"selected_span": [
+"never",
+"ARGM-TMP",
+[
+7,
+8
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+456,
+9,
+7,
+8,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument “wherever” is only the subordinating conjunction and does not constitute the full locative argument. The complete locative argument is the entire clause introduced by “wherever”.",
+"correct_argument": "wherever there is an emigrant community from the former Yugoslavia scattered by the wars here",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause introduced by “wherever” functions as a locative adjunct to the predicate “is”, satisfying the LOC role description.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The semantic role labeling is correct but the argument extraction is insufficient, making the overall annotation incorrect.",
+"index_sen": 807,
+"sentences": "They toured the world and performed wherever there is an emigrant community from the former Yugoslavia scattered by the wars here , from Australia to New York where Index will be returning in late November .",
+"predicate": "is",
+"selected_span": [
+"wherever",
+"ARGM-LOC",
+[
+6,
+7
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2517,
+9,
+6,
+7,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"it\" is a single-token pronoun correctly extracted as the subject of the predicate \"is\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The pronoun \"it\" functions as an expletive placeholder and does not represent the topic of the predicate \"is\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role labeling is incorrect because \"it\" is an expletive subject, not the topic.",
+"index_sen": 822,
+"sentences": "Nonetheless , the fact that she did meet with Bashar Al - Assad and it was n't Saudi Arabia which is traditionally being more dovish and has supported US policy , it is significant .",
+"predicate": "is",
+"selected_span": [
+"it",
+"ARG1",
+[
+31,
+32
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2515,
+33,
+31,
+32,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"He\" is a contiguous pronoun serving as the subject of the clause and is correctly extracted as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In the clause \"He was fined 100,000 dollars\", \"He\" is the entity receiving the fine (the fined person), which corresponds to ARG1 rather than ARG2 (the amount of money).",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct but the assigned semantic role is incorrect.",
+"index_sen": 823,
+"sentences": "He was sentenced to 17 months in prison and fined 100,000 dollars after pleading guilty to mail fraud .",
+"predicate": "fined",
+"selected_span": [
+"He",
+"ARG2",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+635,
+10,
+0,
+1,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"many people\" is a contiguous noun phrase serving as the subject of the predicate \"rally\" and is correctly bounded.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In this sentence \"many people\" are the ones performing the action of rally (agent/theme), not the \"summoned\" entity as described.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"many people\" does not fulfill the described \"summoned\" role for \"rally.\"",
+"index_sen": 828,
+"sentences": "A sense of nationalism has grown stronger here as many people rally against what they say is a siege on their country .",
+"predicate": "rally",
+"selected_span": [
+"many people",
+"ARG1",
+[
+9,
+11
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3332,
+12,
+9,
+11,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"what\" is only a fragment and does not capture the complete utterance; the full clause \"what he said\" should be extracted as the argument.",
+"correct_argument": "what he said",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The argument \"what\" alone does not represent the full utterance of the predicate \"said\"; the complete clause \"what he said\" is needed to fulfill the ARG1 role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, leading to an incorrect semantic role assignment.",
+"index_sen": 830,
+"sentences": "We have already seen problems from Libyan leader Muammar Gaddafi on Tuesday who appeared on Al - Jazeera , the pan-Arab satellite channel , and , rubbish , what he said was a draft statement for the end of the summit on Sunday .",
+"predicate": "said",
+"selected_span": [
+"what",
+"ARG1",
+[
+28,
+29
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3834,
+31,
+28,
+29,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"tonight\" is a single word continuous span in the sentence and is correctly identified.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In this sentence, \"tonight\" temporally modifies the noun phrase \"NBC's Jim Maceda\" (indicating when he appears) rather than the event of thanking, so it does not serve as a TMP adjunct of the predicate \"Thanks\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the argument boundary is correct, the semantic role label is incorrect because \"tonight\" does not provide the temporal information of the act of thanking.",
+"index_sen": 837,
+"sentences": "Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash .",
+"predicate": "Thanks",
+"selected_span": [
+"tonight",
+"ARGM-TMP",
+[
+8,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+510,
+1,
+8,
+9,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"struggles\" is correctly extracted as the head noun modified by the predicate \"running\", forming a complete and minimal semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Struggles\" is not a machine, operation, or procedure; it is the theme of the adjectival predicate \"running\" indicating an ongoing state, which does not match the provided role description.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "While the argument extraction is correct, the semantic role label is incorrect because the argument does not satisfy the specified role relationship.",
+"index_sen": 842,
+"sentences": "And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",
+"predicate": "running",
+"selected_span": [
+"struggles",
+"ARG1",
+[
+6,
+7
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3803,
+6,
+6,
+7,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The span 'that' is insufficient as it only functions as a relative pronoun and does not denote the 'thing done' by 'did'.",
+"correct_argument": "the amount of damage",
+"role_evaluation": "no",
+"reason_for_role_judgement": "'that' does not fulfill the role of the 'thing done' for predicate 'did'; the correct ARG1 is 'the amount of damage'.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are incorrect.",
+"index_sen": 861,
+"sentences": "That craft that approached the Cole is a rubber boat , not a big craft , but they would have had to pack it fully with explosives to do the amount of damage that they did to the Cole and that certainly would have taken time to get that put together .",
+"predicate": "did",
+"selected_span": [
+"that",
+"R-ARG1",
+[
+33,
+34
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3826,
+36,
+33,
+34,
+49
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The provided argument 'their' is only a possessive determiner and does not constitute a complete noun phrase; the actual voter participant is 'the people'.",
+"correct_argument": "the people",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The entity 'the people' represents the voters (ARG0) of the predicate 'vote'.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The role label is appropriate, but the argument span is incorrect.",
+"index_sen": 863,
+"sentences": "The right of the people to cast their vote , the court said , is paramount .",
+"predicate": "vote",
+"selected_span": [
+"their",
+"ARG0",
+[
+7,
+8
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+460,
+9,
+7,
+8,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"what\" is only a single wh-pronoun and under-extracts the complete free relative clause, which is the true semantic unit acting as the argument of \"called\".",
+"correct_argument": "what officials called security reasons",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The extracted argument \"what\" alone does not fulfill the role of the \"item being labelled\"; the full phrase \"what officials called security reasons\" is required to represent that role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect (under-extraction), and thus the semantic role labeling is invalid.",
+"index_sen": 864,
+"sentences": "No threats are specified but the US embassy in Rome was closed Friday for what officials called security reasons .",
+"predicate": "called",
+"selected_span": [
+"what",
+"ARG1",
+[
+14,
+15
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+816,
+17,
+14,
+15,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument 'When' is only the subordinating conjunction and does not convey temporal information by itself. The complete temporal clause 'When they made the decision not to move toward Bagdad with bad information' should be extracted.",
+"correct_argument": "When they made the decision not to move toward Bagdad with bad information",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The single word 'When' does not fulfill the TMP role as it lacks the actual temporal content. TMP requires the full temporal clause.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Because the argument span is insufficient, the semantic role labeling is also incorrect.",
+"index_sen": 878,
+"sentences": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+"predicate": "decision",
+"selected_span": [
+"When",
+"ARGM-TMP",
+[
+0,
+1
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+336,
+5,
+0,
+1,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Tony\" is a single-word vocative at the end of the sentence, correctly extracted as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Tony\" functions as a vocative address, not as a discourse marker organizing or connecting the event expressed by \"Thank\", so it does not satisfy the DIS role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"Tony\" is a vocative, not a discourse adjunct (DIS).",
+"index_sen": 879,
+"sentences": "Thank you very much , Tony .",
+"predicate": "Thank",
+"selected_span": [
+"Tony",
+"ARGM-DIS",
+[
+5,
+6
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1845,
+1,
+5,
+6,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The phrase \"back to the US\" is a continuous span in the sentence and forms a complete locative adjunct phrase.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Back to the US\" describes the location or state of General Sanholi rather than the location of the telling event itself, so it does not fulfill the LOC role for the predicate \"telling\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument span is correctly extracted, but it does not represent the location of the predicate \"telling,\" making the semantic role label incorrect.",
+"index_sen": 880,
+"sentences": "Interestingly enough she is quoted as telling General Sanholi back to the US that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel .",
+"predicate": "telling",
+"selected_span": [
+"back to the US",
+"ARGM-LOC",
+[
+9,
+13
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2503,
+7,
+9,
+13,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"really\" is a single word with clear boundaries and is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Really\" functions as a discourse marker expressing the speaker’s attitude and modifies the entire clause, rather than serving as an adverbial modifier (ADV) of the predicate \"afford\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is correct, but the semantic role label is incorrect because \"really\" is a discourse marker (DIS), not an adverbial modification of \"afford\".",
+"index_sen": 889,
+"sentences": "He has invested an awful amount in the peace with Israel , and really he can not afford to let it fail .",
+"predicate": "afford",
+"selected_span": [
+"really",
+"ARGM-ADV",
+[
+13,
+14
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3221,
+18,
+13,
+14,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"why\" is only the wh-word and does not include the full subordinate clause needed to convey the semantic content related to the predicate; the complete argument should be \"why she stepped down\".",
+"correct_argument": "why she stepped down",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Even if the full clause \"why she stepped down\" were extracted, it does not express a purpose or cause role for the predicate \"stepped\" in this context but serves as the complement of \"analysis,\" so it is not an argument of \"stepped\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect (insufficient span) and the semantic role labeling is also incorrect.",
+"index_sen": 890,
+"sentences": "As we said , earlier this week , Christine Todd Whitman stepped down and now a whole lot of analysis is taking place as to why she stepped down , the job she 's done when she was in office and the job that has yet to be complete .",
+"predicate": "stepped",
+"selected_span": [
+"why",
+"ARGM-CAU",
+[
+25,
+26
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3738,
+28,
+25,
+26,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"foreign\" is only an adjective modifying \"travel\" and does not form a standalone semantic unit; the full nominal phrase \"foreign travel\" is the complete argument.",
+"correct_argument": "foreign travel",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"foreign\" (or \"foreign travel\") does not denote the location or path of the travel event but rather describes the type of travel; there is no explicit location/path argument in the sentence.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument boundary is incorrect and the semantic role assignment is invalid.",
+"index_sen": 891,
+"sentences": "Among other things , they would also freeze Taliban assets abroad and restrict foreign travel by Taliban officials .",
+"predicate": "travel",
+"selected_span": [
+"foreign",
+"ARG1",
+[
+13,
+14
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+740,
+15,
+13,
+14,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Karl\" is a single word correctly extracted from the sentence with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Karl\" functions as a vocative addressing the interlocutor, not as a discourse adjunct modifying the predicate \"killed\" and thus does not satisfy the DIS role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role labeling is incorrect because \"Karl\" is not a discourse adjunct of the predicate \"killed\".",
+"index_sen": 907,
+"sentences": "First of all , Karl , how many Iraqis were killed in that incident ?",
+"predicate": "killed",
+"selected_span": [
+"Karl",
+"ARGM-DIS",
+[
+4,
+5
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1095,
+11,
+4,
+5,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"number one rated\" is a continuous span in the sentence and forms a complete modifier phrase attributed to the predicate \"show\", thus correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"number one rated\" functions as an attributive modifier of the noun \"show\", not as a secondary predication (PRD).",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the role label PRD is incorrect because the argument does not represent a predicative complement of the predicate \"show\".",
+"index_sen": 912,
+"sentences": "I 'm not banking my whole life on bringing , you know , number one rated show .",
+"predicate": "show",
+"selected_span": [
+"number one rated",
+"ARGM-PRD",
+[
+13,
+16
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+391,
+17,
+13,
+16,
+24
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"with the child\" is a complete and contiguous prepositional phrase directly from the sentence, correctly capturing the intended span.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"with the child\" expresses accompaniment (comitative), not the manner in which the action was performed, so it does not satisfy the MNR role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "While the argument span is correctly extracted, the assigned MNR role is incorrect because the phrase denotes accompaniment rather than manner.",
+"index_sen": 922,
+"sentences": "That was after he had actually barricaded himself inside that bus with the child .",
+"predicate": "barricaded",
+"selected_span": [
+"with the child",
+"ARGM-MNR",
+[
+11,
+14
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1074,
+7,
+11,
+14,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument 'what' is only the head pronoun and does not include its complement 'everyone needs to get done', so it is an insufficient extraction.",
+"correct_argument": "what everyone needs to get done",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause, ‘what’ functions as the thing done by ‘done’, satisfying the ARG1 role as the theme of the predicate.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the semantic role label is correct, the argument boundary is insufficient and thus incorrectly extracted.",
+"index_sen": 930,
+"sentences": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+"predicate": "done",
+"selected_span": [
+"what",
+"ARG1",
+[
+11,
+12
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3040,
+17,
+11,
+12,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" alone only includes the conjunction and not the full temporal clause; it should include \"when he leaves\" to express complete temporal information.",
+"correct_argument": "when he leaves",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The temporal clause \"when he leaves\" indicates the time of the event expressed by \"leaves\", which aligns with the TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect (insufficient span), though the semantic role label is correct.",
+"index_sen": 945,
+"sentences": "Gao Xingjian arrived in Stockholm this week and when he leaves the Chinese born writer will have something extra in his suitcase , the Nobel Prize for Literature .",
+"predicate": "leaves",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+8,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3290,
+11,
+8,
+9,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"57th\" is a continuous span in the sentence and correctly extracted as the ordinal specifier modifying the noun predicate \"round\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The argument \"57th\" indicates the ordinal position of the round (sequence), not temporal information about when the round occurred. Therefore, it does not satisfy the TMP (temporal) role relation for the predicate \"round\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role labeling is incorrect.",
+"index_sen": 956,
+"sentences": "In Serbia it is 57th round of elections from September 2000 and Slobodan Milosevic appears on national tv and says , `` I want to greet you as your new President , my name is Vojislav Kostunica '' .",
+"predicate": "round",
+"selected_span": [
+"57th",
+"ARGM-TMP",
+[
+4,
+5
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2541,
+6,
+4,
+5,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"through these pictures of him taken before he left\" is a contiguous phrase in the sentence and forms a complete semantic unit as a prepositional phrase.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The phrase expresses the path or location through which the agent shuffles, not the entity in motion itself, so it does not satisfy the definition of ARG1 as the moving entity.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the argument extraction is correct, the semantic role labeling is incorrect because the phrase does not represent the entity in motion of \"shuffle\".",
+"index_sen": 980,
+"sentences": "She and her daughter Jordan often shuffle through these pictures of him taken before he left .",
+"predicate": "shuffle",
+"selected_span": [
+"through these pictures of him taken before he left",
+"ARG1",
+[
+7,
+16
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+310,
+7,
+7,
+16,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"shoes\" only captures the head noun but misses the full noun phrase \"A pair of Laci Peterson's shoes\", which is the complete semantic unit modified by \"missing\".",
+"correct_argument": "A pair of Laci Peterson's shoes",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the context of the predicate \"missing\", \"shoes\" represents the entity that is lacking, which aligns with the ARG1 role description of 'thing lacking'.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "While the role assignment is correct, the argument boundary is incorrect, resulting in an overall incorrect annotation.",
+"index_sen": 1009,
+"sentences": "A pair of Laci Peterson 's missing shoes could be very important evidence in Scott 's murder trial .",
+"predicate": "missing",
+"selected_span": [
+"shoes",
+"ARG1",
+[
+7,
+8
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+378,
+7,
+7,
+8,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the Indians\" is a contiguous noun phrase serving as the complete subject in the clause.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"the Indians\" functions as the subject/experiencer of the copular predicate \"were glad,\" not as a topic.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the role label is incorrect because the argument is not the topic of the predicate.",
+"index_sen": 1013,
+"sentences": "This is another thing that the Indians were glad to hear him say , and he also said that both India and Russia suffer from the same sort of terrorism , as he put it , referring of course to the separatist militancies in Chechnya and Russia and in Jammu and Kashmir .",
+"predicate": "were",
+"selected_span": [
+"the Indians",
+"ARG1",
+[
+5,
+7
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3879,
+8,
+5,
+7,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The span 'its way' marks the theme of the flying event rather than its direction; the directional argument is expressed by the prepositional phrase 'out of bankruptcy', which is missing.",
+"correct_argument": "out of bankruptcy",
+"role_evaluation": "no",
+"reason_for_role_judgement": "'its way' denotes what is being flown (theme), not the direction of the flight. Therefore it does not satisfy the DIR role for 'flying'.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role assignment are incorrect.",
+"index_sen": 1019,
+"sentences": "USAirways is flying its way out of bankruptcy .",
+"predicate": "flying",
+"selected_span": [
+"its way",
+"ARGM-DIR",
+[
+3,
+5
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1629,
+3,
+3,
+5,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"these people\" is a contiguous noun phrase and serves as the complete subject of the predicate \"go\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The predicate \"go\" is not an utterance verb, so \"these people\" functions as the agent or goers (ARG0), not as the Sayer; thus it does not satisfy the role description for Sayer.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is correct but the semantic role label is incorrect.",
+"index_sen": 1022,
+"sentences": "I hate these people that go , we 've been married for 56 years and never had a bad word .",
+"predicate": "go",
+"selected_span": [
+"these people",
+"ARG0",
+[
+2,
+4
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+396,
+6,
+2,
+4,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the economic embargo\" is a contiguous noun phrase and forms a complete semantic unit in the sentence.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In the clause \"the economic embargo meant to force him to disarm\", \"the economic embargo\" is the theme or patient of the intention (it is what was intended), not the agent performing the action of \"meant\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label ARG0 (agent) is incorrect for \"the economic embargo\", so the overall labeling is incorrect.",
+"index_sen": 1026,
+"sentences": "He was referring to his struggle against the US , which strongly supports the economic embargo meant to force him to disarm .",
+"predicate": "meant",
+"selected_span": [
+"the economic embargo",
+"ARG0",
+[
+13,
+16
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3327,
+17,
+13,
+16,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The word \"when\" is merely the subordinating conjunction introducing a temporal clause that modifies the predicate \"was\", not an argument of \"heard\". It does not form a complete semantic unit for the predicate \"heard\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Since \"when\" does not provide temporal information specifically about the event of \"heard\" but instead marks a clause modifying \"was\", it does not satisfy the TMP role for the predicate \"heard\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are incorrect.",
+"index_sen": 1030,
+"sentences": "President Clinton was in Northern Ireland when he heard the Supreme Court decision .",
+"predicate": "heard",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+6,
+7
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+882,
+9,
+6,
+7,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" is only a single word and does not include the full temporal clause \"when she was in office\", failing to capture the complete time information of the predicate \"was\".",
+"correct_argument": "when she was in office",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Without the full temporal clause as the argument, the label TMP assigned to \"when\" alone is incorrect; TMP requires the complete temporal expression for the predicate \"was\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect and thus the semantic role labeling is also incorrect.",
+"index_sen": 1051,
+"sentences": "As we said , earlier this week , Christine Todd Whitman stepped down and now a whole lot of analysis is taking place as to why she stepped down , the job she 's done when she was in office and the job that has yet to be complete .",
+"predicate": "was",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+35,
+36
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3740,
+38,
+35,
+36,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "Only the complementizer 'when' is extracted, which is insufficient because the full temporal adjunct is the clause 'when I enter his person'.",
+"correct_argument": "when I enter his person",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The extracted argument 'when' alone does not provide temporal information about the event 'enter'; the full clause would serve as the temporal argument.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect and thus the semantic role labeling is invalid.",
+"index_sen": 1064,
+"sentences": "I always felt when I enter his person , Okay , that I can do whatever I want and I always molested our fellow players you know .",
+"predicate": "enter",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+3,
+4
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3240,
+6,
+3,
+4,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"you\" is a single pronoun with clear boundaries and correctly extracted as it appears in the sentence.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"you\" serves as the subject of the copular question \"Are you sure?\" and does not represent the \"topic\" as described for ARG1.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the assigned semantic role is incorrect.",
+"index_sen": 1070,
+"sentences": "They ask again , Are you sure they mean that ?",
+"predicate": "Are",
+"selected_span": [
+"you",
+"ARG1",
+[
+5,
+6
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1122,
+5,
+5,
+6,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"an annual tradition\" is a contiguous phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In the clause \"an annual tradition is building\", \"an annual tradition\" functions as the subject undergoing the action of building, not as the \"place grown, substrate, material\" of \"building\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because the argument does not satisfy the relation of \"place grown, substrate, material\" with the predicate.",
+"index_sen": 1079,
+"sentences": "It looks like an annual tradition is building .",
+"predicate": "building",
+"selected_span": [
+"an annual tradition",
+"ARG1",
+[
+3,
+6
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1619,
+8,
+3,
+6,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"we\" is correctly extracted as a single pronominal entity from the sentence, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"we\" functions as the subject/experiencer of the predicate \"been\", not as its topic.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "While the argument extraction is correct, the assigned role label is incorrect because \"we\" does not fulfill the specified role of topic for the predicate \"been\".",
+"index_sen": 1086,
+"sentences": "I hate these people that go , we 've been married for 56 years and never had a bad word .",
+"predicate": "been",
+"selected_span": [
+"we",
+"ARG1",
+[
+7,
+8
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+397,
+10,
+7,
+8,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"in congressional election\" is a complete prepositional phrase directly extracted from the sentence and forms a coherent adjunct unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The phrase \"in congressional election\" specifies the event context or time when challengers faced him, rather than a physical location; it functions as a temporal adjunct, not LOC.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because the phrase represents temporal/event context, not location.",
+"index_sen": 1097,
+"sentences": "Sidney Yates was first elected to the U.S. house in 1948 , when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election .",
+"predicate": "face",
+"selected_span": [
+"in congressional election",
+"ARGM-LOC",
+[
+30,
+33
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2404,
+29,
+30,
+33,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"political\" is correctly extracted as a single-word modifier of the noun \"battles\", forming a complete semantic unit with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The adjective \"political\" denotes the type or category of the budget battles, not the manner in which the battles are conducted, so it does not fulfill the MNR role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is correct, but the semantic role label is incorrect because \"political\" does not express manner information for the predicate \"battles\".",
+"index_sen": 1105,
+"sentences": "They are angry that the President is threatening to veto it saying it 's wrong to have political budget battles right before the election .",
+"predicate": "battles",
+"selected_span": [
+"political",
+"ARGM-MNR",
+[
+17,
+18
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3159,
+20,
+17,
+18,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"which\" is correctly extracted as a single word with clear boundaries representing the relative pronoun acting as the subject of \"was\".",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"which\" functions as the subject (Arg0) of the copular verb \"was\", referring back to \"the second pillar…\", not as the \"topic\" (ARG1).",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"which\" does not serve as the \"topic\" (ARG1) of \"was\".",
+"index_sen": 1109,
+"sentences": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+"predicate": "was",
+"selected_span": [
+"which",
+"R-ARG1",
+[
+36,
+37
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3890,
+38,
+36,
+37,
+49
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"we\" is correctly extracted as a single pronoun with clear boundaries, serving as the subject in the clause containing the predicate.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"We\" functions as the agent (subject) performing the action \"go on\", not as a prototypical patient of \"go\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"we\" does not satisfy the prototypical patient role for \"go\".",
+"index_sen": 1112,
+"sentences": "Tonight on Israeli television , Prime Minister Barak said we can not go on as if nothing happened , and if the demonstrations do n't stop , Barak 's spokesman said Israel will continue to use live ammunition .",
+"predicate": "go",
+"selected_span": [
+"we",
+"ARG1",
+[
+9,
+10
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2125,
+13,
+9,
+10,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"best\" is a single-word modifier of the predicate \"known\" with clear boundaries and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Best\" expresses the degree (superlative) of the predicate \"known\", not the manner of the event, so it does not satisfy the MNR role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct but the semantic role label is incorrect because \"best\" represents degree rather than manner.",
+"index_sen": 1116,
+"sentences": "He is best known among his neighbors in Paris as a painter .",
+"predicate": "known",
+"selected_span": [
+"best",
+"ARGM-MNR",
+[
+2,
+3
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1374,
+4,
+2,
+3,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument “how” is under-extracted; the complete manner argument is the wh-clause “how they’re performing their duty as a director” which specifies the manner of the action.",
+"correct_argument": "how they’re performing their duty as a director",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The wh-adverbial clause “how they’re performing their duty as a director” provides manner information for the predicate “performing,” matching the MNR role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument span is insufficiently extracted, even though the semantic role labeling is correct.",
+"index_sen": 1127,
+"sentences": "I think a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street .",
+"predicate": "performing",
+"selected_span": [
+"how",
+"ARGM-MNR",
+[
+37,
+38
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1916,
+41,
+37,
+38,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"what\" is only the wh-word and does not capture the full free relative clause functioning as the object of \"sees\", which should be \"what he sees\".",
+"correct_argument": "what he sees",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"what\" functions as the direct object of \"sees\" and denotes the entity viewed, matching the role description for ARG1 as the thing viewed.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is incorrect, even though the semantic role labeling is correct.",
+"index_sen": 1132,
+"sentences": "He had survived , if you will , a death sentence , and now in that new freedom of the life in front of him , he takes to the road in the tradition of old Chinese poets and records what he sees , what he hears , the stories that he is told .",
+"predicate": "sees",
+"selected_span": [
+"what",
+"ARG1",
+[
+40,
+41
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3869,
+43,
+40,
+41,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The supplied argument span \"why\" is only the wh-word and does not include the full cause clause; the complete semantic argument is the entire wh-clause expressing why they stopped fighting.",
+"correct_argument": "why they're no longer fighting for Saddam Hussein",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The single word \"why\" cannot by itself express the cause relation for the predicate \"fighting\"; the full wh-clause is needed to fulfill the CAU role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Argument extraction is insufficient, and thus the semantic role labeling with the isolated word \"why\" is also invalid.",
+"index_sen": 1142,
+"sentences": "We 'll talk with a terror expert about that , and Iraqi deserters on the northern front , Ben Wedeman has their story why they 're no longer fighting for Saddam Hussein and Don Shepperd is going to answer some of your questions as he looks at the battle hot spots .",
+"predicate": "fighting",
+"selected_span": [
+"why",
+"ARGM-CAU",
+[
+23,
+24
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3674,
+29,
+23,
+24,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"him\" is correctly extracted as a single-word pronoun serving as the direct object of the predicate \"quoting\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"him\" refers to the person being quoted, not the content of the quote itself, so it does not satisfy the role description for ARG1.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "While the argument extraction is correct, the semantic role label is incorrect because \"him\" does not represent the quote itself.",
+"index_sen": 1145,
+"sentences": "Just one last thing quoting him and I wonder if you could respond to this , Christopher , he said at the very beginning of his wonderful speech to the Nobel Prize Committee , he said , `` I do not wish to waste this talk on literature by saying too much about politics and history , What I want to do is to use this opportunity to speak as one writer in the voice of an individual . ''",
+"predicate": "quoting",
+"selected_span": [
+"him",
+"ARG1",
+[
+5,
+6
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2047,
+5,
+5,
+6,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument 'how' is insufficiently extracted; the full wh-infinitival clause 'how to reach people' is needed to express the manner information for the predicate 'reach'.",
+"correct_argument": "how to reach people",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The isolated word 'how' does not form a complete manner adjunct for 'reach'; the entire clause 'how to reach people' would be required to satisfy the MNR role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, and thus the semantic role labeling is invalid.",
+"index_sen": 1153,
+"sentences": "We just felt he understands how to reach people and how to reach kids .",
+"predicate": "reach",
+"selected_span": [
+"how",
+"ARGM-MNR",
+[
+5,
+6
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+957,
+8,
+5,
+6,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"1948\" omits the preposition \"in\" and fails to capture the full temporal PP \"in 1948\", resulting in incomplete argument span.",
+"correct_argument": "in 1948",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"in 1948\" correctly provides temporal information for the event expressed by \"was\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect (missing the preposition), even though the role assignment is correct.",
+"index_sen": 1154,
+"sentences": "Sidney Yates was first elected to the U.S. house in 1948 , when Harry Truman was President and for more than 4 decades he trounced every challenger to face him in congressional election .",
+"predicate": "was",
+"selected_span": [
+"1948",
+"ARGM-TMP",
+[
+10,
+11
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2402,
+16,
+10,
+11,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"what\" is under-extracted; the full complement \"what Pelswick was\" forms the complete semantic unit as the argument of \"was\".",
+"correct_argument": "what Pelswick was",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The extracted argument \"what\" does not fully represent the comment (complement) of \"was\", which is the entire clause \"what Pelswick was\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are incorrect.",
+"index_sen": 1155,
+"sentences": "We 're normal people , and that 's what Pelswick was , he was just a normal kid .",
+"predicate": "was",
+"selected_span": [
+"what",
+"ARG2",
+[
+8,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+144,
+11,
+8,
+9,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"it\" is a single-word pronoun correctly extracted with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "In the sentence, \"it\" is the entity being followed (the theme or patient), not the benefactive of \"followed\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because \"it\" does not represent the benefactive of \"followed\".",
+"index_sen": 1158,
+"sentences": "He followed it to this narrow opening .",
+"predicate": "followed",
+"selected_span": [
+"it",
+"ARG2",
+[
+2,
+3
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1520,
+2,
+2,
+3,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument span “when” only covers the subordinating conjunction and omits the rest of the temporal clause. The complete temporal adjunct is required to capture the time information of the event.",
+"correct_argument": "when he delivers that speech over at the press club in the next hour",
+"role_evaluation": "no",
+"reason_for_role_judgement": "As extracted, “when” alone does not provide temporal information about the predicate; the full clause is needed for a TMP role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is insufficient and the role labeling is invalid based on the incomplete argument span.",
+"index_sen": 1190,
+"sentences": "Might get more information from Secretary Tom Ridge when he delivers that speech over at the press club in the next hour .",
+"predicate": "delivers",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+8,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2971,
+11,
+8,
+9,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the story\" is a contiguous phrase forming a complete noun phrase in the sentence.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"the story\" functions as the subject of \"goes\", not its object.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role labeling is incorrect because \"the story\" is the subject of \"goes\", not its object.",
+"index_sen": 1198,
+"sentences": "The wind was so strong , or so the story goes , that it blew his hat off his head .",
+"predicate": "goes",
+"selected_span": [
+"the story",
+"ARG1",
+[
+8,
+10
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+55,
+11,
+8,
+10,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"of the rescue of the POWs\" is a contiguous prepositional phrase and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The entity that comes is the video, not the ‘rescue of the POWs’. The phrase ‘of the rescue of the POWs’ modifies “video” and does not itself fulfill the ’entity in motion’ role.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the argument extraction is correct, the semantic role label is incorrect.",
+"index_sen": 1207,
+"sentences": "And you see Apache helicopter pilot and his wife Michelle who was talking with us on the telephone the Sunday morning when the video came in of the rescue of the POWs and , she identified her husband and life just got better and better for her after that .",
+"predicate": "came",
+"selected_span": [
+"of the rescue of the POWs",
+"C-ARG1",
+[
+26,
+32
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3700,
+25,
+26,
+32,
+31
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"us\" is part of the higher clause \"He asked us\" and not within the infinitival clause \"to let you know he’s okay\"; the subject of \"let\" is a null PRO controlled by \"us\", so \"us\" is not an overt argument of \"let\".",
+"correct_argument": "PRO",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Since \"us\" is not an argument of the predicate \"let\", it cannot serve as the allower (ARG0) in that clause.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are incorrect.",
+"index_sen": 1209,
+"sentences": "He asked us to call you to let you know he 's okay .",
+"predicate": "let",
+"selected_span": [
+"us",
+"ARG0",
+[
+2,
+3
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1081,
+8,
+2,
+3,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The phrase \"against her\" is a contiguous prepositional phrase that correctly captures the complete semantic unit indicating the target of the charges.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Against her\" does not denote an instrument; it indicates the target or patient of the charges, so it does not satisfy the role description for ARG2 as instrument.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Although the argument extraction is correct, the semantic role label is incorrect because \"against her\" does not function as an instrument of \"charges\".",
+"index_sen": 1210,
+"sentences": "The government also filed civil charges against her .",
+"predicate": "charges",
+"selected_span": [
+"against her",
+"ARG2",
+[
+6,
+8
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1614,
+6,
+6,
+8,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Among other things\" is a continuous phrase at the beginning of the sentence and forms a complete unit, correctly extracted as a single argument span.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"Among other things\" functions as a discourse connective indicating addition to other items, not as an adverbial modifier of the predicate \"freeze\" (it does not specify manner, time, place, or reason of freezing).",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label ADV is incorrect because the argument does not serve as an adverbial modifier of the predicate.",
+"index_sen": 1212,
+"sentences": "Among other things , they would also freeze Taliban assets abroad and restrict foreign travel by Taliban officials .",
+"predicate": "freeze",
+"selected_span": [
+"Among other things",
+"ARGM-ADV",
+[
+0,
+3
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+738,
+8,
+0,
+3,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"in a government of national emergency\" is a continuous prepositional phrase correctly extracted as an adjunct spanning from the preposition to its complement.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "The phrase specifies the entity (the government) that they are joining, not a physical location, so it does not fulfill the semantic role of LOC.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because the argument denotes the entity being joined rather than a location.",
+"index_sen": 1219,
+"sentences": "Late Thursday , Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency .",
+"predicate": "join",
+"selected_span": [
+"in a government of national emergency",
+"ARGM-LOC",
+[
+14,
+20
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+686,
+13,
+14,
+20,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The token \"would\" is an auxiliary verb of the clause \"would take appropriate action\" and does not function as a modifier or semantic argument of the nominal predicate \"action.\"",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "Because \"would\" is not a semantic argument or adjunct of the nominal predicate \"action,\" it cannot bear the MOD role with respect to that predicate.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument \"would\" is not correctly extracted as a modifier of the nominal predicate \"action,\" and therefore the proposed MOD labeling is invalid.",
+"index_sen": 1228,
+"sentences": "Still , she promised that the United States would take appropriate action if terrorists were found to be behind the blast , a sentiment echoed later in the day by President Clinton .",
+"predicate": "action",
+"selected_span": [
+"would",
+"ARGM-MOD",
+[
+8,
+9
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2445,
+12,
+8,
+9,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The span \"the first\" does not identify the actual agent performing the action; the logical subject of \"light\" is \"our lights\",\" not just \"the first\".",
+"correct_argument": "our lights",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"the first\" does not function as the prototypical agent of \"light\"; the agent role (ARG0) is realized by \"our lights\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "Both the argument span and the assigned role are incorrect: the correct agent is \"our lights\", not \"the first\".",
+"index_sen": 1245,
+"sentences": "The knowledge that our lights are the first to light it up , our footprints were the first , our eyes were first to see it .",
+"predicate": "light",
+"selected_span": [
+"the first",
+"ARG0",
+[
+6,
+8
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+2753,
+10,
+6,
+8,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"between our two countries\" is a contiguous phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"between our two countries\" expresses the participants or relation of the establishment event, not the prototypical agent performing the establishment.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is correct, but the semantic role label is incorrect because the phrase does not fulfill the role of ARG0 (agent) for the predicate \"establishment\".",
+"index_sen": 1252,
+"sentences": "An occasion that marked the formal establishment between our two countries .",
+"predicate": "establishment",
+"selected_span": [
+"between our two countries",
+"ARG0",
+[
+7,
+11
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1214,
+7,
+7,
+11,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argument_judgement": "The argument \"when\" is only a conjunction introducing the temporal clause and does not itself convey the time information; the full clause is needed.",
+"correct_argument": "when gunmen opened fire on an Israeli bus",
+"role_evaluation": "no",
+"reason_for_role_judgement": "As extracted, \"when\" alone does not provide temporal information about the event; it merely functions as a subordinating conjunction.",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument span is insufficient and the extracted span does not satisfy the TMP role as labeled.",
+"index_sen": 1276,
+"sentences": "Nine people were injured in Gaza when gunmen opened fire on an Israeli bus .",
+"predicate": "opened",
+"selected_span": [
+"when",
+"ARGM-TMP",
+[
+6,
+7
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+901,
+9,
+6,
+7,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "no",
+"reason_for_argment_judgement": "The argument \"that\" is only a relative pronoun/complementizer and does not form the full object being told; the actual utterance argument is \"the stories\".",
+"correct_argument": "the stories",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"that\" does not fulfill the role of Utterance for the predicate \"told\"; the correct Utterance argument is \"the stories\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument extraction is incorrect, leading to an incorrect semantic role labeling.",
+"index_sen": 1307,
+"sentences": "He had survived , if you will , a death sentence , and now in that new freedom of the life in front of him , he takes to the road in the tradition of old Chinese poets and records what he sees , what he hears , the stories that he is told .",
+"predicate": "told",
+"selected_span": [
+"that",
+"R-ARG1",
+[
+50,
+51
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+3872,
+54,
+50,
+51,
+49
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"from Chicago\" is a continuous prepositional phrase in the sentence and fully captures the intended location expression, so its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "no",
+"reason_for_role_judgement": "\"From Chicago\" indicates the source or origin of the report, not the direction or destination of an action. Therefore, it does not satisfy the DIR (direction) role for the predicate \"reports\".",
+"final_judgement": "incorrect",
+"reason_for_final_judgement": "The argument is correctly extracted, but the assigned semantic role DIR is incorrect because the phrase expresses source rather than direction.",
+"index_sen": 1331,
+"sentences": "NPR 's Sheryl Corley reports from Chicago .",
+"predicate": "reports",
+"selected_span": [
+"from Chicago",
+"ARGM-DIR",
+[
+5,
+7
+]
+],
+"error_type": "right",
+"gold_label": null,
+"org_span": [
+1756,
+5,
+5,
+7,
+13
+],
+"conflict_span": null
+}
+]

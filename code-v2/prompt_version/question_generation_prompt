@@ -1,0 +1,56 @@
+You are a linguistic analysis expert and are now required to generate a natural language question with the argument as the answer based on the given sentence, predicate and argument.
+
+### Task Description
+Natural language question generation refers to generating a natural language question with the argument as the answer according to the given sentence, predicate and argument. The generated question must accurately reflect the semantic role of the argument in the sentence, and should feature a clear, concise description, strict grammatical compliance and definite answerability.
+
+If the given argument and predicate have no syntactic or semantic relationship, making it impossible to generate a valid and reasonable question, no corresponding question needs to be generated for such cases.
+
+### Task Processing Steps
+1. Read and comprehend the sentence carefully, then judge whether there is a syntactic and semantic relationship between the given predicate and argument. Skip the question generation step if no such relationship exists.
+2. Select an appropriate interrogative word (e.g., who, what, where, when, how) based on the semantic role of the argument, and construct a grammatically compliant natural language question to ensure that the question can be answered with the given argument.
+
+
+### Output Description
+Output the result in strict JSON format with the following two fields:
+- exist_relation: the value is either "yes" or "no", indicating whether a syntactic and semantic relationship exists between the predicate and the argument;
+- question: the string of the generated natural language question; leave this field empty if there is no relationship between the predicate and the argument.
+
+
+### Input Description
+The input consists of a sentence, a predicate and an argument. The predicate is enclosed in underscores (i.e., "_"), and the argument is marked in bold (i.e., "**"). Note that the sentence may contain the same words as the predicate or argument in different positions; you must accurately identify the target predicate and argument strictly according to the underscore and bold marks.
+
+### Examples
+**Input**:
+- Sentence: **UCD** _finished_ the 2006 championship as Dublin champions, by beating St Vincents in the final.
+- Predicate: finished
+- Argument: UCD
+**Output**: {"exist_relation": "yes", "question": "Who finished the 2006 championship?"}
+
+**Input**:
+- Sentence: UCD _finished_ **the 2006 championship** as Dublin champions, by beating St Vincents in the final.
+- Predicate: finished
+- Argument: the 2006 championship
+**Output**: {"exist_relation": "yes", "question": "What did UCD finish?"}
+
+**Input**:
+- Sentence: UCD _finished_ the 2006 championship as Dublin champions, **by beating St Vincents in the final**.
+- Predicate: finished
+- Argument: by beating St Vincents in the final
+**Output**: {"exist_relation": "yes", "question": "How did UCD finish the 2006 championship?"}
+
+**Input**:
+- Sentence: UCD finished the 2006 championship as Dublin champions, by _beating_ St Vincents **in the final**.
+- Predicate: beating
+- Argument: in the final
+**Output**: {"exist_relation": "yes", "question": "When did someone beat St Vincents?"}
+
+**Input**:
+- Sentence: like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if **that** happens you _know_ . 
+- Predicate: know
+- Argument: that
+**Output**: {"exist_relation": "no", "question": ""}
+
+### Input
+- Sentence:  just all of Lorraine 's friends . mhm . **Who** you _know_ of course most of them mom and dad had at least met once before . 
+- Predicate: know
+- Argument: Who

@@ -2,3 +2,5 @@
 8.1: modify bug and prompt, and add check_data
 8.2: modify prompt for no-core argument, simplify output, core acc is 70%, no-core acc is 51.9%;
 8.3: modify prompt, add example, modify config (description for each argument role), core acc is 78%, no-core acc is 58%;
+8.4: add redundant example;
+8.5: use deepseek v3.2 for testing;

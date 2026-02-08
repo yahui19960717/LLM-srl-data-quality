@@ -1,0 +1,5252 @@
+[
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is a continuous two-word span in the sentence, correctly extracted as a complete discourse marker unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker that comments on or introduces the following clause containing the predicate \"be\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1,
+"sentences": "But you know , I mean that mhm . should n't be a big deal . %um",
+"predicate": "be",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+4,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+158,
+12,
+4,
+6,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%um\" is correctly extracted as a single word with clear boundaries, serving as a discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"%um\" functions as a discourse marker, aligning with the DIS role description for the predicate \"get\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 4,
+"sentences": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+"predicate": "get",
+"selected_span": [
+"%um",
+"ARGM-DIS",
+[
+27,
+28
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+378,
+19,
+27,
+28,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"next Thursday\" is a continuous span in the sentence and fully captures the temporal adjunct of the predicate 'go'.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"next Thursday\" specifies the time when the event 'go' occurs, aligning with the temporal role (TMP).",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both argument extraction and role labeling are correct.",
+"index_sen": 6,
+"sentences": "and we 're going to go see her next Thursday and talk about her making my wedding dress .",
+"predicate": "go",
+"selected_span": [
+"next Thursday",
+"ARGM-TMP",
+[
+8,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+279,
+6,
+8,
+10,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"yeah\" is correctly extracted as a single discourse marker with clear boundaries, serving as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"yeah\" functions as a discourse marker expressing the speaker’s attitude and connecting to the clause with the predicate \"know\", aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 9,
+"sentences": "You know Tufts yeah . sent her to Taiwa",
+"predicate": "know",
+"selected_span": [
+"yeah",
+"ARGM-DIS",
+[
+3,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1497,
+2,
+3,
+4,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is a continuous span at the sentence start and functions as a complete discourse marker adjunct, so its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" serves as a discourse marker organizing the speaker’s commentary and connecting the context to the clause with \"stays\", which aligns with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 30,
+"sentences": "I mean it stays light here till about ten thirty eleven o'clock mhm . at night .",
+"predicate": "stays",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+297,
+4,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is a contiguous discourse marker at the beginning of the sentence, correctly captured as a complete unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker organizing the context of the clause containing the predicate \"lay\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 36,
+"sentences": "I mean you lay her down on the bed",
+"predicate": "lay",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1732,
+4,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Well\" is correctly extracted as a single word serving as a discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Well\" functions as a discourse marker, organizing the discourse and expressing the speaker's attitude, which aligns with the DIS role for the predicate \"going\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 39,
+"sentences": "Well how often are you going ?",
+"predicate": "going",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1764,
+6,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"right\" is a single-word discourse marker with clear boundaries, correctly extracted as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"right\" functions as a discourse particle (tag question) confirming the assertion made by the predicate \"be\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 47,
+"sentences": "Unless you became C E O of the company then maybe like a thousand dollars would be taxable , right ?",
+"predicate": "be",
+"selected_span": [
+"right",
+"ARGM-DIS",
+[
+19,
+20
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+327,
+17,
+19,
+20,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"because she just was acting like a total nigger child\" is a continuous span in the sentence and forms a complete clause serving as a causal adjunct to the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument provides the reason why she came (she came because she was acting like a total nigger child), matching the CAU role of cause.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 48,
+"sentences": "and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child .",
+"predicate": "came",
+"selected_span": [
+"because she just was acting like a total nigger child",
+"ARGM-CAU",
+[
+18,
+28
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+73,
+11,
+18,
+28,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"like well\" is a continuous span immediately following the predicate \"was\" and forms a complete semantic unit of discourse markers.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "Both \"like\" and \"well\" function as discourse markers that organize the discourse and express the speaker’s attitude, fitting the DIS role for the event expressed by \"was\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 49,
+"sentences": "I was like well that 's fine",
+"predicate": "was",
+"selected_span": [
+"like well",
+"ARGM-DIS",
+[
+2,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1823,
+2,
+2,
+4,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is a single-word pronoun correctly extracted as the subject (knower) of the predicate \"know\" in the clause \"I know you\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"I know you\", the argument \"I\" functions as the agent or knower of the predicate \"know\", which aligns with the ARG0 role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 69,
+"sentences": "I said I feel like I know you even though I never met you .",
+"predicate": "know",
+"selected_span": [
+"I",
+"ARG0",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2073,
+7,
+2,
+3,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"may\" is correctly extracted as a single-word auxiliary modal directly modifying the predicate \"going\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"May\" expresses possibility and functions as a general modifier of the event \"going\", which aligns with the MOD role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 108,
+"sentences": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+"predicate": "going",
+"selected_span": [
+"may",
+"ARGM-MOD",
+[
+22,
+23
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+90,
+26,
+22,
+23,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"they\" is a single pronoun with clear boundaries, correctly extracted as the agent participant in the clause.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"not inviting me\", \"they\" functions as the agent (inviter) of the action \"inviting\", matching the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 111,
+"sentences": "and I think they would then feel guilty for not inviting me .",
+"predicate": "inviting",
+"selected_span": [
+"they",
+"ARG0",
+[
+3,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2161,
+11,
+3,
+4,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a discourse marker, clearly demarcated by commas and forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"you know\" functions as a discourse marker that organizes the context around the clause with predicate \"lose\", matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 115,
+"sentences": "You wo n't lose it , you know ,",
+"predicate": "lose",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+6,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1768,
+4,
+6,
+8,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"but\" is correctly extracted as a single word with clear boundaries, serving as a complete discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"but\" functions as a discourse marker that organizes the discourse and connects the context to the clause with the predicate \"is\", aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 119,
+"sentences": "but -- oh it is . it 's pretty de classe .",
+"predicate": "is",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+587,
+5,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"And\" is a single-word discourse marker at the beginning of the sentence, correctly extracted with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"And\" functions as a discourse marker connecting the context to the event expressed by \"writing\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 123,
+"sentences": "And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,",
+"predicate": "writing",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+709,
+4,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%um\" is correctly extracted as a single-word discourse marker, bounded by commas and forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The filler \"%um\" functions as a discourse marker expressing speaker hesitation, aligning with the DIS role for the predicate \"think\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 131,
+"sentences": "See I think y- , %um ,",
+"predicate": "think",
+"selected_span": [
+"%um",
+"ARGM-DIS",
+[
+5,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1925,
+3,
+5,
+6,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"but\" is correctly extracted as a single word with clear boundaries, serving as a discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"but\" functions as a conjunction organizing the discourse and connecting the clause containing the predicate \"know\" to the prior context, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 132,
+"sentences": "but you know it 's not going to be a fun tax return year .",
+"predicate": "know",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2213,
+3,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"would\" is a single modal auxiliary immediately preceding the predicate \"ask\", correctly extracted with complete boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In this sentence, \"would\" functions as a general modality marker modifying the event expressed by \"ask\", which aligns with the MOD role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 156,
+"sentences": "If I would to ask to become a citizen in Holland I would automatically lose my American citizenship .",
+"predicate": "ask",
+"selected_span": [
+"would",
+"ARGM-MOD",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+320,
+5,
+2,
+3,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"well\" is a single-word discourse marker immediately preceding the main clause of the predicate \"said\", so its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"well\" functions as a discourse marker organizing the speaker’s utterance and modifying the event expressed by \"said\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct: \"well\" is accurately identified as a discourse element for the predicate \"said\".",
+"index_sen": 159,
+"sentences": "I said well you call Selema",
+"predicate": "said",
+"selected_span": [
+"well",
+"ARGM-DIS",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1719,
+2,
+2,
+3,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"mhm\" is a standalone discourse marker in the sentence, correctly extracted with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"mhm\" functions as a discourse marker expressing speaker feedback and organizing the discourse around the predicate \"been\", matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 177,
+"sentences": "oh well the thing is your whole life has been around her mhm . more or less",
+"predicate": "been",
+"selected_span": [
+"mhm",
+"ARGM-DIS",
+[
+12,
+13
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+229,
+10,
+12,
+13,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"can\" is correctly extracted as a single word with clear boundaries, functioning as a complete modal auxiliary.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The modal auxiliary \"can\" expresses ability/possibility and modifies the event expressed by \"go\", aligning with the MOD role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 180,
+"sentences": "So if you want we can take a ride and go see stuff at night",
+"predicate": "go",
+"selected_span": [
+"can",
+"ARGM-MOD",
+[
+5,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2189,
+11,
+5,
+6,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is correctly extracted as a single-word pronoun directly corresponding to the subject in the clause.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I\" functions as the experiencer or Wan ter of the predicate \"want\", which aligns with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 185,
+"sentences": "%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .",
+"predicate": "want",
+"selected_span": [
+"I",
+"ARG0",
+[
+3,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+743,
+6,
+3,
+4,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"for a champagne sale\" is a continuous prepositional phrase directly following and modifying the predicate \"keep\" and correctly captures the full span of the adjunct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"for a champagne sale\" indicates the purpose ('in order to spot a champagne sale') of the action \"keep\" (our eyes open), which aligns with the PRP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role assignment as purpose (PRP) are appropriate.",
+"index_sen": 201,
+"sentences": "There 's a pretty good sale . %mm . So now we have to keep our eyes open for a champagne sale .",
+"predicate": "keep",
+"selected_span": [
+"for a champagne sale",
+"ARGM-PRP",
+[
+18,
+22
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+787,
+15,
+18,
+22,
+25
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I guess\" is a continuous, clearly bounded parenthetical discourse marker in the sentence and is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I guess\" functions as a discourse-level parenthetical expressing the speaker’s stance toward the event \"got\" and thus fits the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 205,
+"sentences": "I actually got to see her I guess a day before she died .",
+"predicate": "got",
+"selected_span": [
+"I guess",
+"ARGM-DIS",
+[
+6,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1961,
+3,
+6,
+8,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"So\" is correctly extracted as a single word with clear boundaries, serving as a complete discourse marker at the beginning of the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"So\" functions as a discourse marker organizing the discourse and linking to the clause where \"doing\" is the predicate, which matches the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 218,
+"sentences": "So , anyway , how are you doing these days ?",
+"predicate": "doing",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+467,
+8,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"And\" is correctly extracted as a single word and serves as a complete discourse marker preceding the predicate clause.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"And\" functions as a discourse connective linking the context to the clause where \"went\" is the predicate, aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 219,
+"sentences": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+"predicate": "went",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+370,
+23,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Kim\" is correctly extracted as a single contiguous token that functions as the experiencer of the predicate \"seeing\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Kim\" serves as the viewer/experiencer of the action \"seeing\", which aligns with ARG0 for perception predicates.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 233,
+"sentences": "But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .",
+"predicate": "seeing",
+"selected_span": [
+"Kim",
+"ARG0",
+[
+8,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+132,
+14,
+8,
+9,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"we\" is correctly extracted as the subject of the predicate \"make\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"we actually make my parents in law pay it\", \"we\" functions as the agent or impeller of the action, aligning with ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 241,
+"sentences": "%uh but it 's a lot less expensive if we do it that way than if we actually make my parents in law pay it ,",
+"predicate": "make",
+"selected_span": [
+"we",
+"ARG0",
+[
+16,
+17
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+790,
+19,
+16,
+17,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a contiguous discourse marker in the sentence, serving as a complete semantic unit modifying the clause containing the predicate \"look\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"you know\" functions as a discourse marker that organizes the discourse and modifies the clause where \"look\" is the predicate, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 254,
+"sentences": "and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump",
+"predicate": "look",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+8,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+773,
+4,
+8,
+10,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"a day before she died\" is a continuous span in the sentence and forms a complete temporal adjunct, correctly extracted as the time when the event occurred.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"a day before she died\" provides temporal information about the event expressed by \"got\", fitting the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 256,
+"sentences": "I actually got to see her I guess a day before she died .",
+"predicate": "got",
+"selected_span": [
+"a day before she died",
+"ARGM-TMP",
+[
+8,
+13
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1961,
+3,
+8,
+13,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Well\" is correctly extracted as a single-word discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Well\" functions as a discourse marker organizing the discourse and connecting the context for the predicate \"say\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 262,
+"sentences": "Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,",
+"predicate": "say",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+118,
+4,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"like in addition to like meals\" is a continuous span in the sentence and forms a complete adverbial adjunct modifying the eating event.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"like in addition to like meals\" functions as an adverbial modifier of the predicate \"eats\", indicating that the cereal is eaten beyond regular meals, which aligns with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 277,
+"sentences": "He eats at least like four of cereal a day like in addition to like meals .",
+"predicate": "eats",
+"selected_span": [
+"like in addition to like meals",
+"ARGM-ADV",
+[
+10,
+16
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+267,
+2,
+10,
+16,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"You\" is correctly extracted as the subject pronoun directly associated with the predicate \"know\" and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"You know\", \"You\" functions as the experiencer or agent (knower) of the predicate \"know\", aligning with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 280,
+"sentences": "You know , I mean , we 're d- , you know ,",
+"predicate": "know",
+"selected_span": [
+"You",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2101,
+12,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%hm\" is a single token at the sentence-initial position functioning as a discourse marker; the span is continuous and correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"%hm\" functions as a discourse marker expressing speaker hesitation and organizing the discourse before the event expressed by \"see\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 282,
+"sentences": "%hm . we 'll see what happens .",
+"predicate": "see",
+"selected_span": [
+"%hm",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1537,
+5,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is a continuous two-word discourse marker at the sentence’s start and is correctly extracted as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker modifying the proposition expressed by \"know\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 286,
+"sentences": "I mean she did n't know that I was there .",
+"predicate": "know",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+411,
+6,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"he\" is a contiguous pronoun correctly extracted as the subject who performs the possession action.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"having attention deficit disorder\", \"he\" is the one who possesses the disorder, matching the ARG0 role of owner.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 291,
+"sentences": "and he was diagnosed as having attention deficit disorder .",
+"predicate": "having",
+"selected_span": [
+"he",
+"ARG0",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+448,
+6,
+1,
+2,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is a contiguous sequence in the sentence and forms a complete discourse marker, correctly identified as an adjunct to the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"You know\" functions as a discourse marker organizing and connecting the context of the predicate \"brings\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 303,
+"sentences": "And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that .",
+"predicate": "brings",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+23,
+25
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+113,
+8,
+23,
+25,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"the entire time I was in college too\" is a continuous span in the sentence and forms a complete temporal adjunct specifying when the state expressed by \"was\" occurred.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument provides temporal information about the event/state expressed by \"was\", which aligns with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 352,
+"sentences": "And I was in the inactive reserves the entire time I was in college too .",
+"predicate": "was",
+"selected_span": [
+"the entire time I was in college too",
+"ARGM-TMP",
+[
+7,
+15
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2198,
+3,
+7,
+15,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"but\" is correctly extracted as a single word at the beginning of the sentence, serving as a complete discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"but\" functions as a discourse conjunction providing contrast for the clause with predicate \"was\", which matches the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 353,
+"sentences": "but she was very concerned about me and everything %um because %um the child had told some lies about me and about you .",
+"predicate": "was",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+725,
+3,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"right\" is a single-word discourse marker clearly demarcated in the sentence and functions as a tag question, so its span is correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The word \"right\" serves as a discourse marker (tag question) associated with the predicate \"be\" in the clause, matching the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 360,
+"sentences": "So now you think my wedding 's going to be pretty tasteful right ?",
+"predicate": "be",
+"selected_span": [
+"right",
+"ARGM-DIS",
+[
+12,
+13
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2165,
+10,
+12,
+13,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"not eat when somebody else is eating\" is a contiguous clause functioning as the complement of the predicate \"know\" and is correctly bounded.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause expresses the proposition or fact that is known, which aligns with the role description for ARG1 as the \"fact that is known.\"",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 362,
+"sentences": "Well it 's hard to you know not eat when somebody else is eating .",
+"predicate": "know",
+"selected_span": [
+"not eat when somebody else is eating",
+"ARG1",
+[
+7,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2156,
+7,
+7,
+14,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"dad does n't want black\" is a contiguous phrase in the sentence that forms a complete semantic unit representing the utterance spoken.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument corresponds to the content of what was said and correctly fulfills the ARG1 (Utterance) role for the predicate \"said\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 363,
+"sentences": "but dad does n't want black he said .",
+"predicate": "said",
+"selected_span": [
+"dad does n't want black",
+"ARG1",
+[
+1,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1798,
+8,
+1,
+6,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"she\" is correctly extracted as the subject pronoun immediately preceding the predicate \"said\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"she said she hurt Jasmine's Jetta\", the pronoun \"she\" serves as the Sayer of the predicate \"said\", which aligns with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 389,
+"sentences": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+"predicate": "said",
+"selected_span": [
+"she",
+"ARG0",
+[
+13,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+730,
+15,
+13,
+14,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"ages ago I got a card from Liz Gana\" is a contiguous clause in the sentence and forms a complete semantic unit expressing the fact known.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"You know ages ago I got a card from Liz Gana\", the argument specifies the proposition or fact that is known by the predicate \"know\", which aligns with the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 390,
+"sentences": "and %um You know ages ago I got a card from Liz Gana .",
+"predicate": "know",
+"selected_span": [
+"ages ago I got a card from Liz Gana",
+"ARG1",
+[
+4,
+13
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1999,
+4,
+4,
+13,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"my parents in law\" is a contiguous noun phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"my parents in law\" denotes the entity that performs the paying action, satisfying the ARG0 role as the payer.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 399,
+"sentences": "%uh but it 's a lot less expensive if we do it that way than if we actually make my parents in law pay it ,",
+"predicate": "pay",
+"selected_span": [
+"my parents in law",
+"ARG0",
+[
+19,
+23
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+791,
+24,
+19,
+23,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I was talking to my friend Heather from Wisconsin the other day\" is a complete contiguous subordinate clause serving as the complement of the predicate \"know\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument expresses the content or fact that is known by the subject, which aligns with the ARG1 role for the predicate \"know\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 401,
+"sentences": "You know I was talking to my friend Heather from Wisconsin the other day --",
+"predicate": "know",
+"selected_span": [
+"I was talking to my friend Heather from Wisconsin the other day",
+"ARG1",
+[
+2,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2166,
+2,
+2,
+14,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument 'that has always been very scary to me even after' is a contiguous clause complement to 'know', forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, the clause 'that has always been very scary to me even after' functions as the fact or proposition known, which aligns with the ARG1 role description for 'know'.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 414,
+"sentences": "You know that has always been very scary to me even after .",
+"predicate": "know",
+"selected_span": [
+"that has always been very scary to me even after",
+"ARG1",
+[
+2,
+12
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2083,
+2,
+2,
+12,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"to make sense since I had a client to just kind of set up my own company , of sorts\" is a contiguous clause serving as the full infinitival complement of \"seemed\", representing the complete semantic unit of the \"thing seeming\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The provided argument expresses the proposition attributed by the predicate \"seemed\", fulfilling the \"thing seeming\" role (ARG1) as described.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 416,
+"sentences": "well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .",
+"predicate": "seemed",
+"selected_span": [
+"to make sense since I had a client to just kind of set up my own company , of sorts",
+"C-ARG1",
+[
+3,
+23
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+677,
+3,
+3,
+23,
+31
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a continuous discourse marker from the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"you know\" functions as a discourse marker organizing and connecting the context of the clause containing \"go\", aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 422,
+"sentences": "If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam .",
+"predicate": "go",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+17,
+19
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+661,
+12,
+17,
+19,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"when you do the experiment\" is a continuous subordinate clause providing complete temporal information and is correctly delimited in the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause specifies the time at which the event of \"see\" occurs, aligning precisely with the TMP (temporal) role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 431,
+"sentences": "The only thing is , that , when you do the experiment you see it .",
+"predicate": "see",
+"selected_span": [
+"when you do the experiment",
+"ARGM-TMP",
+[
+7,
+12
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2021,
+14,
+7,
+12,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a continuous two-word discourse marker immediately preceding the predicate, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"you know\" functions as a discourse marker organizing the discourse and connecting context to the clause containing the predicate \"given\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 457,
+"sentences": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+"predicate": "given",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+1,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+5,
+5,
+1,
+3,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%ah\" is correctly extracted as a single-word discourse marker, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"%ah\" functions as a discourse marker organizing the discourse around the predicate \"know\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 460,
+"sentences": "%ah , you know I would n't trust it because it 's so complicated with this international garbage or else the Turbo Tax with the Dutch modules . that I just would n't trust it .",
+"predicate": "know",
+"selected_span": [
+"%ah",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+142,
+4,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is a continuous two-word discourse marker at the beginning of the sentence, correctly extracted as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker modifying the utterance containing the predicate \"think\", fitting the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the assignment of the DIS role to \"I mean\" are appropriate.",
+"index_sen": 463,
+"sentences": "I mean I do n't think you 're going to lose that much .",
+"predicate": "think",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2139,
+6,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"well\" is correctly extracted as a single-word discourse marker with clear boundaries, serving as a semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Well\" functions as a discourse marker organizing and connecting the context for the predicate \"was\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 474,
+"sentences": "And I was like , well I 've been telling you that Neil .",
+"predicate": "was",
+"selected_span": [
+"well",
+"ARGM-DIS",
+[
+5,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2032,
+3,
+5,
+6,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is correctly extracted as the subject of the predicate \"mean\" and represents a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I\" functions as the agent (initiator) of the predicate \"mean\" in the clause.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 480,
+"sentences": "I mean it is you know I mean absorbed",
+"predicate": "mean",
+"selected_span": [
+"I",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1664,
+8,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"and\" is correctly extracted as a single-word conjunction functioning as a discourse marker at the beginning of the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"and\" serves as a discourse connective that organizes the context for the predicate \"sounds\", matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 481,
+"sentences": "and she sounds like she 's really trying hard .",
+"predicate": "sounds",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+528,
+3,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"they\" is a contiguous word in the sentence serving as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"they do a Punktion,\" \"they\" functions as the agent/doer of the action \"do,\" matching the ARG0 role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 485,
+"sentences": "and they do a Punktion . Ich weiss nicht wer .",
+"predicate": "do",
+"selected_span": [
+"they",
+"ARG0",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+425,
+3,
+1,
+2,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is correctly extracted as the subject pronoun controlling the gerund \"dealing\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I\" functions as the dealer/agent performing the action of \"dealing\", which aligns with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 503,
+"sentences": "I 'm really looking forward to moving to Oregon and dealing with ,",
+"predicate": "dealing",
+"selected_span": [
+"I",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2208,
+11,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a single semantic unit serving as a discourse marker, with precise boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In this context, \"you know\" functions as a discourse marker organizing the discourse and connecting to the clause where \"feels\" is the predicate, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 531,
+"sentences": "and mhm %um you know . It feels like maybe she made a compromise",
+"predicate": "feels",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+3,
+5
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1998,
+8,
+3,
+5,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is extracted as a continuous phrase from the sentence and functions as a complete discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"you know\" serves as a discourse marker that organizes the discourse around the clause with the predicate \"is\", aligning with the DIS role definition.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 533,
+"sentences": "I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+"predicate": "is",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+3,
+5
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+698,
+19,
+3,
+5,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is a single pronoun with clear boundaries and serves as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"…looking forward to moving to Oregon…\", \"I\" is the entity undergoing the movement, matching the ARG1 role as the moved/theme of the predicate \"moving\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role assignment are accurate.",
+"index_sen": 534,
+"sentences": "I 'm really looking forward to moving to Oregon and dealing with ,",
+"predicate": "moving",
+"selected_span": [
+"I",
+"ARG1",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2207,
+7,
+0,
+1,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"And\" is correctly extracted as a single word with clear boundaries, serving as a complete discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"And\" functions as a conjunction that organizes discourse and connects the clause containing the predicate \"find\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 538,
+"sentences": "And %uh With a pretty simple model you can find that frequency in a transient ,",
+"predicate": "find",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2014,
+10,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"because I knew what she would do if I took her somewhere\" is a continuous span forming a complete subordinate clause that modifies the main predicate \"know\" and is extracted with correct boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause introduced by \"because\" provides the cause for the event expressed by \"know\", which aligns with the CAU role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 547,
+"sentences": "because I knew what she would do if I took her somewhere you know what she would say",
+"predicate": "know",
+"selected_span": [
+"because I knew what she would do if I took her somewhere",
+"ARGM-CAU",
+[
+0,
+12
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+224,
+14,
+0,
+12,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is a continuous span in the sentence and serves as a discourse marker, correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"you know\" functions as a discourse marker that organizes the discourse and connects to the clause where \"go\" is the predicate, which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 548,
+"sentences": "Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .",
+"predicate": "go",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+23,
+25
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+58,
+27,
+23,
+25,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"there\" is correctly extracted as the single-word locative adverb immediately preceding the predicate \"was\" and functions as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"there\" refers to the location (at the conference in Rochester) where the event expressed by \"was\" took place, aligning with the LOC role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 551,
+"sentences": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+"predicate": "was",
+"selected_span": [
+"there",
+"ARGM-LOC",
+[
+29,
+30
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+371,
+32,
+29,
+30,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"everybody 's kind of passed away , almost\" is a contiguous span that captures the full clause functioning as the known fact in the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument specifies the content or fact that is known by the predicate \"know\", which aligns with the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 564,
+"sentences": "You know everybody 's kind of passed away , almost .",
+"predicate": "know",
+"selected_span": [
+"everybody 's kind of passed away , almost",
+"ARG1",
+[
+2,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+403,
+2,
+2,
+10,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"you\" is correctly extracted as the complete pronoun serving as the subject (logical experiencer) of the predicate \"coming\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"coming over this way any time soon\", \"you\" is the entity performing the motion, aligning with ARG1 as the 'comer'.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 567,
+"sentences": "So you have no intentions of coming over this way any time soon ?",
+"predicate": "coming",
+"selected_span": [
+"you",
+"ARG1",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2009,
+7,
+1,
+2,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I tried my best\" is a contiguous clause forming a complete semantic unit in relation to the predicate \"know\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I tried my best\" expresses the proposition or fact that is known by the subject of \"know\", matching the role description of ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 568,
+"sentences": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+"predicate": "know",
+"selected_span": [
+"I tried my best",
+"ARG1",
+[
+17,
+21
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+751,
+17,
+17,
+21,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is correctly extracted as a single-word adverb functioning as a temporal modifier of the predicate \"seemed\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"then\" indicates temporal information for the event expressed by \"seemed\", aligning with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 581,
+"sentences": "And , then things seemed to be doing pretty well ,",
+"predicate": "seemed",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+420,
+5,
+2,
+3,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is a continuous two-word discourse marker with clear boundaries and is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker organizing the context for the predicate \"say\", matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 582,
+"sentences": "I mean of course I did n't say anything to her .",
+"predicate": "say",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+590,
+8,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I guess\" is a continuous two-word span and forms a complete discourse marker phrase, correctly extracted from the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I guess\" functions as a discourse marker expressing the speaker's attitude toward the event \"see\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 589,
+"sentences": "I actually got to see her I guess a day before she died .",
+"predicate": "see",
+"selected_span": [
+"I guess",
+"ARGM-DIS",
+[
+6,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1962,
+5,
+6,
+8,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"well\" is correctly extracted as a single word with clear boundaries, serving as a complete semantic unit functioning as a discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"well\" functions as a discourse marker that organizes discourse and connects the context to the clause where \"working\" is the predicate, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 590,
+"sentences": "But %ah well . I am working on that one .",
+"predicate": "working",
+"selected_span": [
+"well",
+"ARGM-DIS",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+473,
+7,
+2,
+3,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is a single-word pronoun correctly extracted with clear boundaries as the subject of the infinitive \"get\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"get on it\", \"I\" is the entity undergoing the motion of the action and thus fulfills the role of the \"thing in motion\" for the predicate \"get\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 608,
+"sentences": "and all I had to do was get on it and follow it .",
+"predicate": "get",
+"selected_span": [
+"I",
+"ARG1",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2064,
+8,
+2,
+3,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"that she may end up going %um to %uh\" is a contiguous clause functioning as the direct complement of \"know\" and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"that she may end up going %um to %uh\" expresses the proposition known by the subject, matching the \"fact that is known\" description for ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 614,
+"sentences": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+"predicate": "know",
+"selected_span": [
+"that she may end up going %um to %uh",
+"ARG1",
+[
+20,
+29
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+88,
+20,
+20,
+29,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is a single pronoun with clear boundaries, serving as a complete semantic unit in the clause where \"follow\" occurs.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I\" denotes the agent or pursuer performing the action of \"follow\", which aligns with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 615,
+"sentences": "and all I had to do was get on it and follow it .",
+"predicate": "follow",
+"selected_span": [
+"I",
+"ARG0",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2065,
+12,
+2,
+3,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"she\" is a single-word pronoun serving as the subject of the predicate \"said\", with clear boundaries and forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause where \"said\" is located, \"she\" functions as the Sayer (agent) of \"said\", which aligns with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 616,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "said",
+"selected_span": [
+"she",
+"ARG0",
+[
+15,
+16
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+92,
+5,
+15,
+16,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"because there 's no bases in Holland\" is a continuous clause in the sentence and fully captures the causal adjunct related to the predicate \"pay\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause provides the causal reason why they have to pay the trip back to the states, which aligns with the CAU role for the predicate \"pay\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 619,
+"sentences": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+"predicate": "pay",
+"selected_span": [
+"because there 's no bases in Holland",
+"ARGM-CAU",
+[
+39,
+46
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+387,
+32,
+39,
+46,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%uh\" is correctly extracted as a single discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"%uh\" functions as a discourse filler organizing the discourse around the predicate \"find\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 647,
+"sentences": "And %uh With a pretty simple model you can find that frequency in a transient ,",
+"predicate": "find",
+"selected_span": [
+"%uh",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2014,
+10,
+1,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"even though I never met you\" is a continuous subordinate clause in the sentence and fully captures the concessive modifier of the predicate \"know\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause \"even though I never met you\" functions as an adverbial concessive modifier of the event expressed by \"know\", aligning with the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 649,
+"sentences": "I said I feel like I know you even though I never met you .",
+"predicate": "know",
+"selected_span": [
+"even though I never met you",
+"ARGM-ADV",
+[
+8,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2073,
+7,
+8,
+14,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"everything\" is a single contiguous word functioning as the direct object of the predicate \"know\" and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"you know everything\", \"everything\" denotes the content or fact that is known, matching the ARG1 role description as the fact that is known.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 653,
+"sentences": "And she was just really concerned about you know everything . mhm you know . What the possibilities of like",
+"predicate": "know",
+"selected_span": [
+"everything",
+"ARG1",
+[
+9,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+234,
+9,
+9,
+10,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a continuous two-word span and serves as a discourse marker modifying the predicate \"talked\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"You know\" functions here as a discourse marker that organizes the flow of the utterance around the event expressed by \"talked\", matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 659,
+"sentences": "and you know she talked about %um her sisters you know and things",
+"predicate": "talked",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+9,
+11
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2079,
+5,
+9,
+11,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"right\" is correctly extracted as a single-word discourse marker at the end of the sentence, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Right\" functions as a tag question/discourse marker that organizes the discourse and expresses speaker attitude in relation to the event expressed by \"stationed\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 662,
+"sentences": "With your parents when your father was stationed over here , right ?",
+"predicate": "stationed",
+"selected_span": [
+"right",
+"ARGM-DIS",
+[
+11,
+12
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2191,
+8,
+11,
+12,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"So\" is correctly extracted as a single word with clear boundaries, serving as a complete semantic unit as a discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"So\" functions as a conjunction that organizes discourse and connects the context to the clause where \"take\" is the predicate, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 666,
+"sentences": "So they had to take it down and drive her home .",
+"predicate": "take",
+"selected_span": [
+"So",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+572,
+5,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"lillies\" is a contiguous noun phrase serving as the subject/topic of the predicate \"is\" and is correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the relative clause \"which is kind of goofy\", \"lillies\" functions as the topic (subject) of the copular predicate \"is\", aligning with the role description for ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 676,
+"sentences": "Apparently they were also carrying lillies which is kind of goofy .",
+"predicate": "is",
+"selected_span": [
+"lillies",
+"ARG1",
+[
+5,
+6
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+580,
+8,
+5,
+6,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is a single, continuous discourse marker immediately following the predicate and is correctly bounded as an independent semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"You know\" functions as a filler/discourse marker connecting and organizing the context around the event expressed by \"tolerate,\" matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the assignment of the DIS role to the discourse marker \"you know\" are appropriate and accurate.",
+"index_sen": 691,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "tolerate",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+23,
+25
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+96,
+23,
+23,
+25,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"%uh , %uh al kadir the destiny\" is a contiguous phrase following the predicate \"says\" and forms a complete semantic unit as the utterance.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument represents the content of what is being said, satisfying the ARG1 (Utterance) role for the predicate \"says\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 694,
+"sentences": "it is as my husband says %uh , %uh al kadir the destiny .",
+"predicate": "says",
+"selected_span": [
+"%uh , %uh al kadir the destiny",
+"ARG1",
+[
+6,
+13
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2060,
+6,
+6,
+13,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"she\" is a single-word contiguous phrase directly preceding the predicate \"said\" and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause where \"said\" is located, \"she\" functions as the Sayer (agent) of the utterance, matching the role description for ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 696,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "said",
+"selected_span": [
+"she",
+"ARG0",
+[
+3,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+95,
+17,
+3,
+4,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Julie is of course carving up and making beautiful\" corresponds exactly to the embedded clause complement of the predicate \"know\" and forms a complete semantic unit without the complementizer.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The argument expresses the fact that is known, matching the role description for ARG1 of \"know\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 697,
+"sentences": "yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um",
+"predicate": "know",
+"selected_span": [
+"Julie is of course carving up and making beautiful",
+"ARG1",
+[
+10,
+19
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+172,
+10,
+10,
+19,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a continuous two-word discourse marker in the sentence, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"you know\" functions as a discourse marker organizing the context of the clause containing \"give\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 718,
+"sentences": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+"predicate": "give",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+15,
+17
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+78,
+11,
+15,
+17,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"during the summer\" is a continuous span in the sentence and forms a complete temporal adjunct, correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"During the summer\" provides temporal information about the event expressed by \"make\", fitting the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 735,
+"sentences": "At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer .",
+"predicate": "make",
+"selected_span": [
+"during the summer",
+"ARGM-TMP",
+[
+7,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+723,
+6,
+7,
+10,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is correctly extracted as a self-contained discourse marker with clear boundaries in the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker that organizes and clarifies the speaker’s message, fitting the DIS role for the predicate \"want\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 738,
+"sentences": "right now I mean I do want to keep my American citizenship",
+"predicate": "want",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+2,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+622,
+7,
+2,
+4,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is a contiguous two-word span in the sentence and serves as a complete discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"you know\" functions as a discourse marker organizing the context around the event expressed by \"get\", consistent with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 741,
+"sentences": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+"predicate": "get",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+24,
+26
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+378,
+19,
+24,
+26,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a complete discourse marker preceding the predicate \"care\", serving as a standalone semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"You know\" functions as a discourse marker that organizes the discourse and connects the context to the event expressed by \"care\", matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 749,
+"sentences": "you know , they do n't care ,",
+"predicate": "care",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1574,
+7,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"he\" is a single pronoun forming a complete semantic unit and is correctly extracted from the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"he was even going to have to sheik pray over her\", \"he\" functions as the doer of the action \"pray\", satisfying the agent role ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 754,
+"sentences": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+"predicate": "pray",
+"selected_span": [
+"he",
+"ARG0",
+[
+19,
+20
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+83,
+28,
+19,
+20,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%um\" is correctly extracted as a single discourse marker with clear boundaries in the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"%um\" functions as a hesitation/discourse marker that organizes the discourse preceding the predicate \"is\", aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 758,
+"sentences": "which , %um , is kind of interesting considering that that 's not really my thing . . Indeed . Indeed . being an experimentalist , not a theorist .",
+"predicate": "is",
+"selected_span": [
+"%um",
+"ARGM-DIS",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+29,
+5,
+2,
+3,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%uh\" is correctly extracted as a single discourse marker appearing continuously at the start of the clause, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"%uh\" functions as a discourse marker providing organizational/discourse-level information for the clause containing the predicate \"lay\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 762,
+"sentences": "%uh lay there let me look at my grandmother kind of thing",
+"predicate": "lay",
+"selected_span": [
+"%uh",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+544,
+2,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"but\" is correctly extracted as a single token at the sentence start, serving as a complete discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"but\" functions as a discourse connective organizing the discourse and connecting the context to the clause with the predicate \"know\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 763,
+"sentences": "but you know you 've heard the saying I 'm sure from your grandmother",
+"predicate": "know",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2094,
+3,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is correctly extracted as a discourse marker, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"I mean\" functions as a discourse marker that organizes the discourse and connects the speaker's stance to the clause with the predicate \"get\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 771,
+"sentences": "Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .",
+"predicate": "get",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+2,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+760,
+12,
+2,
+4,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"which is when everyone else gets there\" is a complete subordinate clause functioning as an adverbial time modifier of \"get there\" and is correctly extracted with precise boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause provides adverbial information specifying the time when others arrive, thus serving as an adverbial modifier (ADV) of the predicate \"get\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 773,
+"sentences": "Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .",
+"predicate": "get",
+"selected_span": [
+"which is when everyone else gets there",
+"ARGM-ADV",
+[
+19,
+26
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+760,
+12,
+19,
+26,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"so that they completely mask each other's Exactly\" is a continuous clause that serves as an integral adverbial modifier of \"oscillating\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause expresses a resultative adverbial modification of the oscillating event, fitting the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 774,
+"sentences": "So what 's happening is that the modes are oscillating out of phase so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies .",
+"predicate": "oscillating",
+"selected_span": [
+"so that they completely mask each other 's Exactly",
+"ARGM-ADV",
+[
+13,
+22
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+25,
+10,
+13,
+22,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"a big issue among the people who were doing this work\" is a contiguous noun phrase that forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"this was a big issue among the people who were doing this work\", the phrase represents the topic or complement of the copular verb \"was\", satisfying the description for ARG1.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 779,
+"sentences": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+"predicate": "was",
+"selected_span": [
+"a big issue among the people who were doing this work",
+"ARG1",
+[
+32,
+43
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+371,
+32,
+32,
+43,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"mhm . you know\" is a continuous span in the sentence and serves as a complete discourse marker unit following the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"mhm . you know\" functions as discourse markers organizing the speaker’s utterance around the event expressed by \"wrote\", matching the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 787,
+"sentences": "She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,",
+"predicate": "wrote",
+"selected_span": [
+"mhm . you know",
+"ARGM-DIS",
+[
+5,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+733,
+2,
+5,
+9,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is a single pronoun subject with clear boundaries, correctly identifying the entity performing the action \"sit\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I\" serves as the entity that sits, aligning with the role description of the \"thing sitting\" for the predicate \"sit\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 794,
+"sentences": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+"predicate": "sit",
+"selected_span": [
+"I",
+"ARG1",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+797,
+5,
+2,
+3,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"science\" is a single word in the sentence and constitutes a complete semantic unit as the complement of the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"whatever it is science\", \"science\" serves as the comment or complement of the copular verb \"is\", matching the ARG2 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 799,
+"sentences": "so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science .",
+"predicate": "is",
+"selected_span": [
+"science",
+"ARG2",
+[
+16,
+17
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+195,
+16,
+16,
+17,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"of course\" is correctly extracted as a contiguous two-word phrase that functions as a complete discourse marker modifying the predicate \"know\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"of course\" serves as a discourse marker expressing the speaker’s attitude and organizing the discourse around the event expressed by \"know\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 814,
+"sentences": "just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before .",
+"predicate": "know",
+"selected_span": [
+"of course",
+"ARGM-DIS",
+[
+12,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+779,
+12,
+12,
+14,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"you\" is a single pronoun correctly extracted as the subject of the verb \"coming\", forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"you’re not planning on coming back…\", \"you\" functions as the entity in motion (the mover) for the predicate \"coming\", which aligns with the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the semantic role labeling are correct.",
+"index_sen": 815,
+"sentences": "if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .",
+"predicate": "coming",
+"selected_span": [
+"you",
+"ARG1",
+[
+9,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+137,
+15,
+9,
+10,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"But\" is correctly extracted as a single-word discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"But\" functions as a discourse connective organizing and contrasting the following clause containing the predicate \"’m\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 828,
+"sentences": "But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .",
+"predicate": "'m",
+"selected_span": [
+"But",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+130,
+5,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"and\" is correctly extracted as a single-word discourse marker at the beginning of the clause, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"and\" functions as a discourse conjunction connecting the clause containing \"do\" to the preceding context, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 837,
+"sentences": "and we can like do a quick dinner or something yeah and go see whatever you want to see ,",
+"predicate": "do",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+305,
+5,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I guess\" is a continuous span in the sentence and serves as a complete discourse marker unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I guess\" functions as a speaker-oriented discourse marker modifying the predicate \"is\", aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 870,
+"sentences": "and she just had bad luck I guess is all you can say .",
+"predicate": "is",
+"selected_span": [
+"I guess",
+"ARGM-DIS",
+[
+6,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1958,
+9,
+6,
+8,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is correctly extracted as the subject and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I\" functions as the goer (agent) of the predicate \"go\", which aligns with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 874,
+"sentences": "I just would n't go .",
+"predicate": "go",
+"selected_span": [
+"I",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1829,
+5,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"she\" is correctly extracted as the subject pronoun immediately preceding the predicate, serving as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"she said\", \"she\" functions as the agent performing the act of saying, matching the Sayer role for ARG0.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 885,
+"sentences": "%eh %eh You know , %um Well , she said that she was .",
+"predicate": "said",
+"selected_span": [
+"she",
+"ARG0",
+[
+8,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2103,
+10,
+8,
+9,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is correctly extracted as a single pronoun that serves as the controller and subject of the infinitival clause \"to visit her\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"to visit her\", \"I\" functions as the visitor (agent) of the predicate \"visit\", which matches the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 891,
+"sentences": "but I 'm planning on making a trip down to visit her .",
+"predicate": "visit",
+"selected_span": [
+"I",
+"ARG0",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2077,
+11,
+1,
+2,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"things\" is a single word correctly extracted as the subject performing the action and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the infinitive clause \"things seemed to be doing pretty well\", \"things\" functions as the agent or doer of the predicate \"doing\", matching the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 905,
+"sentences": "And , then things seemed to be doing pretty well ,",
+"predicate": "doing",
+"selected_span": [
+"things",
+"ARG0",
+[
+3,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+421,
+8,
+3,
+4,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The pronoun \"I\" is correctly extracted as a single-word argument representing the participant of the motion, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"I came to Bryn Mawr\", \"I\" functions as the entity in motion (the 'comer'), which aligns with the ARG1 role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 932,
+"sentences": "and so Neil then -- Said oh just a second I -- like a week later came to Bryn Mawr",
+"predicate": "came",
+"selected_span": [
+"I",
+"ARG1",
+[
+10,
+11
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+198,
+17,
+10,
+11,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"uh-huh\" is correctly extracted as a single-word discourse marker with clear boundaries, serving as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"uh-huh\" functions as a discourse marker providing peripheral discourse information to the predicate \"occurring\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 935,
+"sentences": "%um . I do n't see the finances occurring uh-huh , right . for a while .",
+"predicate": "occurring",
+"selected_span": [
+"uh-huh",
+"ARGM-DIS",
+[
+9,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+189,
+9,
+9,
+10,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Well\" is a single word at the beginning of the sentence, functioning as a discourse marker, and is correctly extracted with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"Well\" functions as a discourse marker preceding the clause with the predicate \"feel\", organizing the discourse, which aligns with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 946,
+"sentences": "Well , how does Akina feel ?",
+"predicate": "feel",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1655,
+6,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"and\" is correctly extracted as a single-word discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"And\" functions as a discourse conjunction organizing the discourse and connecting the context for the predicate \"was\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 952,
+"sentences": "and it was very , very bad .",
+"predicate": "was",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1659,
+3,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is correctly extracted as a single-word discourse marker modifying the predicate \"know\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"then\" functions as a discourse adverb connecting the context and modifying the predicate \"know\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 958,
+"sentences": "And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+"predicate": "know",
+"selected_span": [
+"then",
+"ARGM-DIS",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+762,
+4,
+1,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"into the countryside somewhere\" is a continuous span in the sentence forming a complete prepositional phrase that denotes the destination of the movement.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The prepositional phrase \"into the countryside somewhere\" specifies the direction of the event expressed by \"go\", which aligns with the DIR role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 965,
+"sentences": "If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too .",
+"predicate": "go",
+"selected_span": [
+"into the countryside somewhere",
+"ARGM-DIR",
+[
+7,
+11
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+127,
+5,
+7,
+11,
+13
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is correctly extracted as a continuous two-word span serving as a discourse marker at the beginning of the utterance.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker organizing the context and connecting the clause where \"be\" is the predicate, matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 971,
+"sentences": "%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,",
+"predicate": "be",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+1,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+812,
+19,
+1,
+3,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"anyway\" is correctly extracted as a single-word discourse marker from the sentence, with accurate span boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"anyway\" functions as a discourse marker that organizes the discourse and connects the context to the predicate \"doing\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 972,
+"sentences": "So , anyway , how are you doing these days ?",
+"predicate": "doing",
+"selected_span": [
+"anyway",
+"ARGM-DIS",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+467,
+8,
+2,
+3,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"we\" is a single pronoun and forms a complete semantic unit with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"we'll just see\", \"we\" functions as the viewer (ARG0) of the predicate \"see\" per the role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 981,
+"sentences": "So we 'll just see . You know",
+"predicate": "see",
+"selected_span": [
+"we",
+"ARG0",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1535,
+5,
+1,
+2,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%uh\" is correctly extracted as a single token functioning as a discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"%uh\" serves as a discourse marker for the predicate \"know\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 993,
+"sentences": "%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .",
+"predicate": "know",
+"selected_span": [
+"%uh",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+742,
+3,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"And\" is correctly extracted as a single word with clear boundaries, serving as a complete discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"And\" functions as a conjunction that organizes discourse and connects the context to the clause where \"know\" is the predicate, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 994,
+"sentences": "And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+"predicate": "know",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+762,
+4,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"which\" is a single pronoun correctly extracted as a minimal semantic unit in the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"which we had already anticipated that it was going to happen,\" the pronoun \"which\" refers to the thing anticipated by the predicate \"anticipated,\" matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the semantic role assignment are correct.",
+"index_sen": 1001,
+"sentences": "%um , %um , which we had already anticipated that it was going to happen .",
+"predicate": "anticipated",
+"selected_span": [
+"which",
+"ARG1",
+[
+4,
+5
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2056,
+9,
+4,
+5,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is correctly extracted as a single-word NP that serves as the agent (viewer) of the predicate \"see\"",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"to see again\", \"I\" functions as the viewer of the seeing event, matching the description of ARG0",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct",
+"index_sen": 1021,
+"sentences": "I have to go next week you know to see again .",
+"predicate": "see",
+"selected_span": [
+"I",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+416,
+10,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is correctly extracted as the experiencer (subject) of the predicate \"feel\" and is a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"I feel like I know you...\", \"I\" functions as the experiencer or believer of the predicate \"feel\", which matches the ARG0 role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1024,
+"sentences": "I said I feel like I know you even though I never met you .",
+"predicate": "feel",
+"selected_span": [
+"I",
+"ARG0",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2072,
+4,
+2,
+3,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Sure\" is correctly extracted as a single word serving as a complete discourse marker unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"Sure\" functions as a discourse marker organizing the discourse and aligning with the DIS role description for the predicate \"look\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1029,
+"sentences": "and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump",
+"predicate": "look",
+"selected_span": [
+"Sure",
+"ARGM-DIS",
+[
+14,
+15
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+773,
+4,
+14,
+15,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"as far as I knew\" is a continuous span that fully captures the epistemic adverbial phrase modifying the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"As far as I knew\" functions as an adverbial modifier expressing the speaker’s epistemic stance toward the act of saying, aligning with the ADV role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1035,
+"sentences": "You know I said as far as I knew we were n't charging people .",
+"predicate": "said",
+"selected_span": [
+"as far as I knew",
+"ARGM-ADV",
+[
+4,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2176,
+4,
+4,
+9,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Well\" is correctly extracted as a single word with clear boundaries, serving as a complete semantic unit as a discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"Well\" functions as a discourse marker that organizes the discourse and connects the context to the clause where \"come\" is the predicate, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1036,
+"sentences": "Well did she come home and say I saw her , I look like her or what ?",
+"predicate": "come",
+"selected_span": [
+"Well",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+213,
+4,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"can\" is correctly extracted as a single word functioning as a modal auxiliary modifying the predicate \"do\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The modal \"can\" provides a general modification (MOD) to the event expressed by \"do\", indicating ability, which matches the MOD role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1039,
+"sentences": "and we can like do a quick dinner or something yeah and go see whatever you want to see ,",
+"predicate": "do",
+"selected_span": [
+"can",
+"ARGM-MOD",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+305,
+5,
+2,
+3,
+21
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%uh\" is correctly extracted as a single discourse marker with clear boundaries, matching the segment in the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"%uh\" functions as a discourse marker introducing the utterance and organizing the context for the predicate \"been\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1053,
+"sentences": "%uh , it 's been pretty good .",
+"predicate": "been",
+"selected_span": [
+"%uh",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1525,
+5,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the legal guardian\" is a contiguous phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"she will become the legal guardian\", \"the legal guardian\" denotes the new state of the predicate \"become\", matching the role description for ARG2.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1055,
+"sentences": "%um she will become the legal guardian and that %um",
+"predicate": "become",
+"selected_span": [
+"the legal guardian",
+"ARG2",
+[
+4,
+7
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+525,
+4,
+4,
+7,
+4
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a discrete discourse marker immediately following the predicate clause, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"you know\" functions as a discourse marker that comments on or frames the event \"pray\", matching the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1063,
+"sentences": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+"predicate": "pray",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+31,
+33
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+83,
+28,
+31,
+33,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"now\" is a single-word temporal adverb correctly extracted as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"now\" provides temporal information indicating when the event expressed by \"reserved\" occurs, which aligns with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct; \"now\" validly functions as a temporal adjunct for \"reserved\".",
+"index_sen": 1065,
+"sentences": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+"predicate": "reserved",
+"selected_span": [
+"now",
+"ARGM-TMP",
+[
+8,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+87,
+13,
+8,
+9,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is a single pronoun with clear boundaries and forms a complete semantic unit as the subject of the predicate.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"I keep thinking\", \"I\" is the thinker performing the action of thinking, matching the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1070,
+"sentences": "%um and I keep thinking maybe I 'd get in touch",
+"predicate": "thinking",
+"selected_span": [
+"I",
+"ARG0",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+464,
+5,
+2,
+3,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"all of a sudden\" is a continuous adverbial phrase in the sentence and correctly captures the temporal modifier of the predicate \"rejected\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"all of a sudden\" indicates when the rejection event occurred, providing temporal information and thus satisfying the TMP role for the predicate \"rejected\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument span is correctly extracted and the semantic role label TMP appropriately represents the temporal modifier of the predicate.",
+"index_sen": 1078,
+"sentences": "and all of a sudden she 's getting conference papers rejected",
+"predicate": "rejected",
+"selected_span": [
+"all of a sudden",
+"ARGM-TMP",
+[
+1,
+5
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+441,
+11,
+1,
+5,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the things\" is the direct object of the predicate \"see\" in the infinitival clause \"to see the things\", and the phrase is a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"see the things\", \"the things\" functions as the thing viewed, which aligns with the ARG1 description for the predicate \"see\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1081,
+"sentences": "So you guys should pick out the things you want to see and let me know .",
+"predicate": "see",
+"selected_span": [
+"the things",
+"ARG1",
+[
+6,
+8
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+300,
+12,
+6,
+8,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"But\" is correctly extracted as a single word with clear boundaries, serving as a complete semantic unit as a discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"But\" functions as a discourse conjunction connecting the clause containing \"know\" to the preceding context, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1087,
+"sentences": "But you know I always worried",
+"predicate": "know",
+"selected_span": [
+"But",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1687,
+3,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is correctly extracted as a complete discourse marker at the beginning of the sentence.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker introducing or clarifying the statement about losing a baby, aligning with the DIS role for the predicate \"lose\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1090,
+"sentences": "I mean most women you lose your baby that 's it .",
+"predicate": "lose",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+504,
+6,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"things\" is a single, contiguous word that represents the entity being done, forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"qualified to do\", the predicate \"do\" takes \"things\" as its object, which aligns with the ARG1 description as the \"thing done\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role assignment correctly reflect that \"things\" is the thing done by \"do\".",
+"index_sen": 1094,
+"sentences": "She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .",
+"predicate": "do",
+"selected_span": [
+"things",
+"ARG1",
+[
+6,
+7
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+669,
+15,
+6,
+7,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is a single pronoun with clear boundaries, correctly extracted as the subject of the predicate \"mean\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I\" is the one performing the action expressed by \"mean\", fulfilling the agent role (ARG0).",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1095,
+"sentences": "I mean things have been happening that has just scared the heck out of me .",
+"predicate": "mean",
+"selected_span": [
+"I",
+"ARG0",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2066,
+2,
+0,
+1,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is a continuous span in the sentence and serves as a standalone discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker organizing the speaker’s stance and connecting to the clause where \"are\" is the predicate, aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1122,
+"sentences": "I mean the phones here are pretty good . once you 're in the country .",
+"predicate": "are",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2237,
+6,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"you\" is the subject of the predicate \"know\" and is correctly identified as a single pronoun with proper boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "As the subject of \"know\", \"you\" functions as the knower, aligning with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both argument extraction and semantic role labeling are correct.",
+"index_sen": 1127,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "know",
+"selected_span": [
+"you",
+"ARG0",
+[
+28,
+29
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+97,
+25,
+28,
+29,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"after I had turned in my thesis but before I saw Neil again\" is a continuous adverbial clause in the sentence that fully captures the temporal interval related to \"went\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The clause provides clear temporal information for the event expressed by \"went\", satisfying the TMP role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1132,
+"sentences": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+"predicate": "went",
+"selected_span": [
+"after I had turned in my thesis but before I saw Neil again",
+"ARGM-TMP",
+[
+7,
+20
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+370,
+23,
+7,
+20,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"the little things I can tolerate\" is a contiguous phrase in the sentence and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause where \"said\" appears, \"the little things I can tolerate\" functions as the content or utterance of the speech act, matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1152,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "said",
+"selected_span": [
+"the little things I can tolerate",
+"ARG1",
+[
+17,
+23
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+95,
+17,
+17,
+23,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"like\" is correctly extracted as a single discourse marker immediately following the predicate \"was\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"like\" functions as a discourse marker in the phrase \"I was like\", organizing the discourse and introducing reported speech, which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1179,
+"sentences": "And I was like , well I 've been telling you that Neil .",
+"predicate": "was",
+"selected_span": [
+"like",
+"ARGM-DIS",
+[
+3,
+4
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2032,
+3,
+3,
+4,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"she was in school\" is a contiguous clause in the sentence and constitutes a complete semantic unit representing the content that is known.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"you know she was in school,\" the phrase \"she was in school\" denotes the proposition that is known, matching the ARG1 role as the fact that is known of the predicate \"know\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument boundary and the assigned semantic role are correct.",
+"index_sen": 1190,
+"sentences": "and Francis was very concerned in reference to you know she was in school and things",
+"predicate": "know",
+"selected_span": [
+"she was in school",
+"ARG1",
+[
+10,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2092,
+10,
+10,
+14,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is correctly extracted as a continuous discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"you know\" functions as a discourse marker modifying the utterance expressed by the predicate \"said\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and semantic role labeling are correct.",
+"index_sen": 1202,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "said",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+23,
+25
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+95,
+17,
+23,
+25,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is correctly extracted as a single-word pronoun directly serving as the subject of the predicate and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"I mean...\", \"I\" is the performer of the action expressed by the verb \"mean\", which aligns with the agent role (ARG0).",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1211,
+"sentences": "right now I mean I do want to keep my American citizenship",
+"predicate": "mean",
+"selected_span": [
+"I",
+"ARG0",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+621,
+4,
+2,
+3,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"then\" is a single-word temporal adverb directly modifying the event expressed by \"had\" and is correctly identified as an argument span.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"then\" provides temporal sequencing information for the event \"had\", which aligns with the TMP role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1227,
+"sentences": "like if I were born in Holland and then had American parents . Then I could be a dual citizen .",
+"predicate": "had",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+8,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+318,
+10,
+8,
+9,
+29
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"At least\" is a continuous span at the start of the sentence and forms a complete discourse marker unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"At least\" functions as a discourse marker expressing the speaker’s stance and organizing the discourse around the clause with the predicate \"make\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1232,
+"sentences": "At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer .",
+"predicate": "make",
+"selected_span": [
+"At least",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+723,
+6,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"again\" is correctly extracted as a single-token adverb immediately modifying the verb \"seeing\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Again\" functions as an adverbial modifier indicating repetition of the event expressed by \"seeing\", which matches the ADV role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1234,
+"sentences": "Would you be interested in seeing Shape Headquarters again .",
+"predicate": "seeing",
+"selected_span": [
+"again",
+"ARGM-ADV",
+[
+8,
+9
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+615,
+6,
+8,
+9,
+10
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"%uh\" is correctly extracted as a single discourse marker with clear boundaries, serving as a filler discourse unit before the clause containing the predicate \"went\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"%uh\" functions as a discourse marker organizing the discourse and expressing speaker hesitation, which aligns with the DIS role for the predicate \"went\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1237,
+"sentences": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+"predicate": "went",
+"selected_span": [
+"%uh",
+"ARGM-DIS",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+370,
+23,
+2,
+3,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"right\" is correctly extracted as a single-word discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"right\" functions as a discourse marker that organizes the discourse and connects the context of the clause containing \"occurring\", consistent with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1245,
+"sentences": "%um . I do n't see the finances occurring uh-huh , right . for a while .",
+"predicate": "occurring",
+"selected_span": [
+"right",
+"ARGM-DIS",
+[
+11,
+12
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+189,
+9,
+11,
+12,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"since I had a client to just kind of set up my own company , of sorts\" is a continuous subordinate clause introduced by \"since\" that fully captures the causal information modifying the predicate \"make\"",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The subordinate clause provides the reason why it seemed to make sense, aligning with the CAU role for the predicate \"make\"",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1253,
+"sentences": "well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .",
+"predicate": "make",
+"selected_span": [
+"since I had a client to just kind of set up my own company , of sorts",
+"ARGM-CAU",
+[
+6,
+23
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+678,
+5,
+6,
+23,
+11
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"but\" is correctly extracted as a single word functioning as a discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"but\" serves as a discourse conjunction introducing the clause with predicate \"winding\" and thus fits the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1255,
+"sentences": "but they 're winding down , so you know them really well by this point .",
+"predicate": "winding",
+"selected_span": [
+"but",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1973,
+4,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"in my model\" is a continuous prepositional phrase directly modifying the predicate \"made\" and its boundaries fully capture the intended adjunct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"in my model\" indicates the locative context (where) of the alteration expressed by \"made\", which aligns with the LOC role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1264,
+"sentences": "But , %um Anyway , I had been kind of telling him that , you know , from my reading of the literature , I thought that this one little alteration I had made in my model was kind of clever and unique .",
+"predicate": "made",
+"selected_span": [
+"in my model",
+"ARGM-LOC",
+[
+34,
+37
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+358,
+34,
+34,
+37,
+18
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"how far he 's gotten\" is a contiguous clause functioning as the complement of \"given\" and correctly extracted as a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the structure \"given how far he 's gotten\", the phrase \"how far he 's gotten\" represents the thing given by the predicate \"given\", matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1291,
+"sentences": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+"predicate": "given",
+"selected_span": [
+"how far he 's gotten",
+"ARG1",
+[
+5,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+5,
+5,
+5,
+10,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"you know\" is a continuous span in the sentence and functions as a complete discourse marker, correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"you know\" functions as a discourse marker organizing the discourse and connecting context to the clause with predicate \"was\", consistent with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1300,
+"sentences": "It 's not a question of whether or not , %uh you know , that was easy ,",
+"predicate": "was",
+"selected_span": [
+"you know",
+"ARGM-DIS",
+[
+11,
+13
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+201,
+16,
+11,
+13,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"How\" is correctly extracted as a single-word interrogative adverb functioning as an adverbial modifier of the predicate \"understand\", forming a complete manner expression.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"How\" provides manner information for the event expressed by \"understand\", aligning with the MNR (manner) role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1306,
+"sentences": "How am I supposed to understand it ?",
+"predicate": "understand",
+"selected_span": [
+"How",
+"ARGM-MNR",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1922,
+6,
+0,
+1,
+20
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"But\" is correctly extracted as a single word with clear boundaries, serving as a discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"But\" functions as a discourse marker expressing contrast and organizing the discourse around the clause containing \"pay\", aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1307,
+"sentences": "But if you wanted any other kind of drink you had to pay for it .",
+"predicate": "pay",
+"selected_span": [
+"But",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2174,
+13,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Tufts\" is a correctly extracted contiguous noun phrase representing the entity known.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In \"You know Tufts\", \"Tufts\" denotes the entity or fact known by the subject, matching the role description for ARG1 as the \"fact that is known\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1310,
+"sentences": "You know Tufts yeah . sent her to Taiwa",
+"predicate": "know",
+"selected_span": [
+"Tufts",
+"ARG1",
+[
+2,
+3
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1497,
+2,
+2,
+3,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"oh my god\" is correctly extracted as a continuous span and serves as a complete discourse unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "The phrase \"oh my god\" functions as the discourse content spoken by the subject, aligning with the DIS role for the predicate \"said\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1331,
+"sentences": "I said to Mark oh my god . What 's she going to say",
+"predicate": "said",
+"selected_span": [
+"oh my god",
+"ARGM-DIS",
+[
+4,
+7
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2085,
+2,
+4,
+7,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"nah well\" is a continuous span in the sentence serving as a complete discourse marker, so its boundaries are correct.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"nah well\" functions as a discourse marker organizing the context and connecting to the event expressed by \"getting\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1346,
+"sentences": "Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .",
+"predicate": "getting",
+"selected_span": [
+"nah well",
+"ARGM-DIS",
+[
+10,
+12
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+54,
+15,
+10,
+12,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"she said even if it was going to be in September\" is a contiguous clause representing the full content of what 'mom said', correctly capturing the subordinate clause as the utterance.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause 'mom said she said even if it was going to be in September', this argument serves as the content (utterance) of the predicate 'said', matching the ARG1 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction boundary and the semantic role assignment are accurate.",
+"index_sen": 1348,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "said",
+"selected_span": [
+"she said even if it was going to be in September",
+"ARG1",
+[
+3,
+14
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+91,
+3,
+3,
+14,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"we\" is correctly extracted as a subject pronoun forming a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"we can take a ride and go see stuff at night\", \"we\" functions as the subject performing the action of \"go\", which aligns with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1350,
+"sentences": "So if you want we can take a ride and go see stuff at night",
+"predicate": "go",
+"selected_span": [
+"we",
+"ARG0",
+[
+4,
+5
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2189,
+11,
+4,
+5,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is a continuous span at the beginning of the sentence and serves as a complete discourse marker, correctly extracted.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker providing discourse-level information to the clause where \"is\" is the predicate, aligning with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1354,
+"sentences": "I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+"predicate": "is",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+698,
+19,
+0,
+2,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"and\" is correctly extracted as a single word with clear boundaries, functioning as a discourse marker (conjunction) at the beginning of the clause.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the sentence, \"and\" functions as a discourse marker organizing the context by connecting the clause containing the predicate \"know\" to prior discourse, which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1356,
+"sentences": "and you know she talked about %um her sisters you know and things",
+"predicate": "know",
+"selected_span": [
+"and",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2078,
+3,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"I\" is correctly extracted as a single word with clear boundaries, serving as the subject of the embedded verb \"making\".",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I\" functions as the agent (achiever) of the action expressed by \"making\", which aligns with the ARG0 role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1357,
+"sentences": "but I 'm planning on making a trip down to visit her .",
+"predicate": "making",
+"selected_span": [
+"I",
+"ARG0",
+[
+1,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2076,
+6,
+1,
+2,
+2
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"Actually\" is correctly extracted as a single-word discourse marker with clear boundaries.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"Actually\" functions as a discourse marker that organizes and frames the clause with predicate \"was\", matching the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1361,
+"sentences": "Actually in the first week I was here -- mhm . -- I gained a lot",
+"predicate": "was",
+"selected_span": [
+"Actually",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2153,
+7,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argment_judgement": "The argument \"Who\" is a standalone wh-pronoun functioning as the object of the predicate \"know\" and forms a complete semantic unit.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "In the clause \"Who you know...\", \"Who\" represents the entity known, matching the ARG1 role as the \"fact that is known\" of \"know\".",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1364,
+"sentences": "just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before .",
+"predicate": "know",
+"selected_span": [
+"Who",
+"ARG1",
+[
+9,
+10
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+779,
+12,
+9,
+10,
+3
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"And\" is correctly extracted as a single word at the sentence beginning, serving as a complete discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"And\" functions as a conjunction organizing the discourse and connecting to the clause with predicate \"forgetting\", which aligns with the DIS role description.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1365,
+"sentences": "And he just keeps forgetting .",
+"predicate": "forgetting",
+"selected_span": [
+"And",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1854,
+5,
+0,
+1,
+14
+],
+"conflict_span": null
+},
+{
+"argument_extraction_evaluation": "yes",
+"reason_for_argument_judgement": "The argument \"I mean\" is correctly extracted as a continuous span at the start of the sentence, functioning as a complete discourse marker.",
+"correct_argument": "",
+"role_evaluation": "yes",
+"reason_for_role_judgement": "\"I mean\" functions as a discourse marker organizing the discourse and connecting context to the predicate \"thinking\", aligning with the DIS role.",
+"final_judgement": "correct",
+"reason_for_final_judgement": "Both the argument extraction and the semantic role labeling are correct.",
+"index_sen": 1382,
+"sentences": "I mean I 've been thinking about it",
+"predicate": "thinking",
+"selected_span": [
+"I mean",
+"ARGM-DIS",
+[
+0,
+2
+]
+],
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1833,
+6,
+0,
+2,
+14
+],
+"conflict_span": null
+}
+]

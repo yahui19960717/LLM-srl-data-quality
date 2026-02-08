@@ -1,0 +1,62 @@
+8 	 I kind of want to 	 want 	 to 	 ARG1 	 right 	 incorrect 	 None 	 None
+33 	 and %um it 's just been quite interesting although when she was in Rhode Island she was very disruptive , %um down there and really caused Francis a lot of stress 	 been 	 it 	 ARG1 	 right 	 incorrect 	 None 	 None
+76 	 And it 'll be exactly what I want 	 want 	 exactly what 	 ARG1 	 right 	 incorrect 	 None 	 None
+80 	 Alice , I 've never seen anybody eat as much as he does 	 seen 	 Alice 	 ARGM-DIS 	 right 	 incorrect 	 None 	 None
+85 	 and she had to keep reminding herself . 	 reminding 	 herself 	 ARG1 	 right 	 incorrect 	 None 	 None
+88 	 Well I 'm figuring it out fast because -- okay -- with not working out and all yeah . it 's pretty miserable my crunch tape . 	 's 	 it 	 ARG1 	 right 	 incorrect 	 None 	 None
+91 	 so I decided that it would make sense to do this . 	 make 	 to do this 	 ARG0 	 right 	 incorrect 	 None 	 None
+103 	 or maybe I 'll just call you when we get in Holland just to let you know we 're there , 	 get 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+129 	 %um , they had just moved to He 's in New York now , right ? a really nice house in Westchester . 	 's 	 He 	 ARG1 	 right 	 incorrect 	 None 	 None
+148 	 So if you do n't have any ideas we 'll just put something together for you . 	 put 	 together 	 ARG2 	 right 	 incorrect 	 None 	 None
+153 	 And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier , 	 went 	 monetary value 	 ARG1 	 right 	 incorrect 	 None 	 None
+183 	 I remember So you talking a little bit about it at one point . 	 talking 	 about it 	 ARG1 	 right 	 incorrect 	 None 	 None
+210 	 I found a gym yesterday here that 's only eight pounds a month which is like twelve dollars , twelve fifty 	 is 	 only eight pounds a month 	 ARG1 	 right 	 incorrect 	 None 	 None
+219 	 and she has more time to be a parent . 	 be 	 she 	 ARG1 	 right 	 incorrect 	 None 	 None
+220 	 you went through like the thirty six two process . 	 went 	 you 	 ARG1 	 right 	 incorrect 	 None 	 None
+240 	 For a woman who is lifting not that much I do n't think yeah . You would . 	 lifting 	 not that much 	 ARG1 	 right 	 incorrect 	 None 	 None
+267 	 well it seemed to make sense since I had a client to just kind of set up my own company , of sorts . 	 make 	 it 	 ARG0 	 right 	 incorrect 	 None 	 None
+274 	 And then %um , I 'm not exactly sure what it is now . 	 'm 	 then 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+326 	 You know , I mean , we 're d- , you know , 	 're 	 d- 	 ARG2 	 right 	 incorrect 	 None 	 None
+343 	 and just remember to ask for her mother . 	 ask 	 for her mother 	 ARG1 	 right 	 incorrect 	 None 	 None
+355 	 And so %uh , that 's yeah at least dealt with . 	 dealt 	 with 	 ARG1 	 right 	 incorrect 	 None 	 None
+357 	 if that was you , yeah . yeah , she was just not in 	 was 	 in 	 ARG2 	 right 	 incorrect 	 None 	 None
+373 	 so that 's why it 's actually a big deal is 	 's 	 why 	 ARGM-CAU 	 right 	 incorrect 	 None 	 None
+387 	 At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer . 	 make 	 sense 	 ARG1 	 right 	 incorrect 	 None 	 None
+410 	 And so it 's 	 's 	 it 	 ARG1 	 right 	 incorrect 	 None 	 None
+426 	 The only thing is , that , when you do the experiment you see it . 	 do 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+431 	 I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you . 	 know 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+440 	 I mean you lay her down on the bed 	 lay 	 on the bed 	 ARG2 	 right 	 incorrect 	 None 	 None
+449 	 it was just that no one really knew it was worth breaking into . 	 was 	 it 	 ARG1 	 right 	 incorrect 	 None 	 None
+457 	 And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency . 	 get 	 anti phased , %uh , states 	 ARGM-LOC 	 right 	 incorrect 	 None 	 None
+475 	 it 'll probably be about five thousand dollars the portion of this year that I 'm in Oregon 	 be 	 it 	 ARG1 	 right 	 incorrect 	 None 	 None
+492 	 you know even after you left I said , I just hope Arlita knows that you know I tried my best you know 	 knows 	 that you know I tried my best you know 	 ARG1 	 right 	 incorrect 	 None 	 None
+517 	 yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um 	 carving 	 that 	 R-ARG1 	 right 	 incorrect 	 None 	 None
+518 	 So yeah , that particular frequency according to most models damps out very quickly . 	 damps 	 according to most models 	 ARGM-ADV 	 right 	 incorrect 	 None 	 None
+535 	 I mean you 're 	 're 	 you 	 ARG1 	 right 	 incorrect 	 None 	 None
+541 	 And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency . 	 get 	 where 	 R-ARGM-LOC 	 right 	 incorrect 	 None 	 None
+567 	 I figured there was something like that because 	 figured 	 because 	 ARGM-CAU 	 right 	 incorrect 	 None 	 None
+578 	 so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science . 	 is 	 whatever 	 ARG2 	 right 	 incorrect 	 None 	 None
+586 	 I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you . 	 have 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+588 	 and you know she talked about %um her sisters you know and things 	 talked 	 about %um her sisters you know and things 	 ARG1 	 right 	 incorrect 	 None 	 None
+589 	 Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there . 	 get 	 obviously 	 ARGM-ADV 	 right 	 incorrect 	 None 	 None
+592 	 but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t- 	 reserved 	 a point 	 ARGM-LOC 	 right 	 incorrect 	 None 	 None
+595 	 Adele was carrying on that she thought she was at a funeral 	 carrying 	 that she thought she was at a funeral 	 ARG1 	 right 	 incorrect 	 None 	 None
+596 	 and then she came over here , and %um , checked out a room here . 	 checked 	 then 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+607 	 So when I 'm still riding the bike she 's completely finished her weight lifting routine . 	 riding 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+609 	 you know that 's 	 's 	 that 	 ARG1 	 right 	 incorrect 	 None 	 None
+640 	 I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you . 	 believe 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+648 	 I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself , 	 go 	 ca 	 ARGM-MOD 	 right 	 incorrect 	 None 	 None
+677 	 but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t- 	 end 	 going %um to %uh t- 	 ARG2 	 right 	 incorrect 	 None 	 None
+690 	 and she climbs up the stairs , Selema . 	 climbs 	 Selema 	 ARGM-DIS 	 right 	 incorrect 	 None 	 None
+693 	 it 'll probably be about five thousand dollars the portion of this year that I 'm in Oregon 	 'm 	 that 	 R-ARGM-TMP 	 right 	 incorrect 	 None 	 None
+712 	 and we go through a box of cereal every two days . 	 go 	 through a box of cereal 	 ARG2 	 right 	 incorrect 	 None 	 None
+722 	 I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you . 	 give 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+732 	 but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t- 	 reserved 	 where 	 R-ARGM-LOC 	 right 	 incorrect 	 None 	 None
+768 	 oh man %uh it was 	 was 	 it 	 ARG1 	 right 	 incorrect 	 None 	 None
+782 	 At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer . 	 make 	 that 	 ARG0 	 right 	 incorrect 	 None 	 None
+783 	 Which one is he with . 	 is 	 with 	 ARG2 	 right 	 incorrect 	 None 	 None
+797 	 and mhm %um you know . It feels like maybe she made a compromise 	 feels 	 It 	 ARG1 	 right 	 incorrect 	 None 	 None
+803 	 I 'll give you a call when we arrive in h- , 	 arrive 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+806 	 With your parents when your father was stationed over here , right ? 	 stationed 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+812 	 so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that . 	 get 	 when 	 ARGM-TMP 	 right 	 incorrect 	 None 	 None
+824 	 it 's Frau in German 	 's 	 in German 	 ARGM-LOC 	 right 	 incorrect 	 None 	 None

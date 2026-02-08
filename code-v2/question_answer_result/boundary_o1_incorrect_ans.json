@@ -1,0 +1,1963 @@
+[
+{
+"index_sen": 6,
+"sentences": "actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .",
+"selected_span": [
+"very important",
+"ARG2",
+[
+26,
+28
+]
+],
+"predicate": "turn",
+"org_span": [
+352,
+23,
+26,
+28,
+4
+],
+"selected_other_spans": [
+"one thing , one little bit in what I was doing:ARG1",
+"in the end:ARGM-TMP",
+"from what I had been reading in the literature:ARGM-ADV"
+],
+"predict_prob": 0.993485152721405,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+352,
+23,
+24,
+31,
+4
+],
+"lemma": "turn",
+"pred_sense": "11",
+"response": "{\"exist_relation\": \"yes\", \"question\": \"How is one thing going to turn out?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"to be very important in the end\"}"
+},
+{
+"index_sen": 49,
+"sentences": "and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump",
+"selected_span": [
+"because I 'm",
+"ARGM-CAU",
+[
+22,
+25
+]
+],
+"predicate": "is",
+"org_span": [
+775,
+18,
+22,
+25,
+11
+],
+"selected_other_spans": [
+"which:ARG1",
+"necessary:ARG2",
+"at the moment:ARGM-TMP"
+],
+"predict_prob": 0.5660545825958252,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+775,
+18,
+22,
+26,
+11
+],
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Why is it necessary at the moment?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"because I 'm plump\"}"
+},
+{
+"index_sen": 166,
+"sentences": "well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .",
+"selected_span": [
+"since I had a client to just kind of set up my own company , of sorts",
+"ARGM-CAU",
+[
+6,
+23
+]
+],
+"predicate": "seemed",
+"org_span": [
+677,
+3,
+6,
+23,
+11
+],
+"selected_other_spans": [
+"well:ARGM-DIS",
+"it:ARG1",
+"to make sense:C-ARG1"
+],
+"predict_prob": 0.7233743667602539,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+677,
+3,
+6,
+11,
+11
+],
+"lemma": "seem",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "thing seeming",
+"ARG2": "perceiver"
+},
+"examples": [
+{
+"example_name": "it support",
+"example_text": "It seems that there 's a race on to come up with the priciest single bottle",
+"example_rel": "seems",
+"arguments": [
+{
+"ARG1": "that there 's a race on to come up with the priciest single bottle",
+"role_descrip": "thing seeming"
+}
+]
+},
+{
+"example_name": "X seems Y, with concatenation",
+"example_text": "These prices seem rather modest .",
+"example_rel": "seem",
+"arguments": [
+{
+"ARG1": "These prices",
+"role_descrip": "thing seeming"
+},
+{
+"C-ARG1": "rather modest",
+"role_descrip": "thing seeming"
+}
+]
+},
+{
+"example_name": "and again",
+"example_text": "Financial markets seem to be expecting easier credit as well .",
+"example_rel": "seem",
+"arguments": [
+{
+"ARG1": "Financial markets",
+"role_descrip": "thing seeming"
+},
+{
+"C-ARG1": "to be expecting easier credit as well",
+"role_descrip": "thing seeming"
+}
+]
+},
+{
+"example_name": "ARG1 and ARG2",
+"example_text": "But there is still another item that only seems to grow more indispensable the harder times become .",
+"example_rel": "seems",
+"arguments": [
+{
+"ARG1": "another item",
+"role_descrip": "thing seeming"
+},
+{
+"ARGM-ADV": "only",
+"role_descrip": "adverbial modification"
+},
+{
+"ARG2": "to grow more indispensable the harder times become",
+"role_descrip": "perceiver"
+},
+{
+"R-ARG1": "that",
+"role_descrip": "thing seeming"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Why did it seem to make sense?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"since I had a client to just kind of set up my own company, of sorts\"}"
+},
+{
+"index_sen": 288,
+"sentences": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+"selected_span": [
+"when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you",
+"ARG2",
+[
+5,
+35
+]
+],
+"predicate": "is",
+"org_span": [
+61,
+5,
+5,
+35,
+4
+],
+"selected_other_spans": [
+"it:ARG1"
+],
+"predict_prob": 0.9998502135276794,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+61,
+5,
+5,
+25,
+4
+],
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What is it?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"when you believe in Allah , when you have faith and know when you truly give your heart to Allah\"}"
+},
+{
+"index_sen": 297,
+"sentences": "I think what we got to do is just when he comes just have lots of cereal .",
+"selected_span": [
+"just when",
+"ARGM-TMP",
+[
+8,
+10
+]
+],
+"predicate": "comes",
+"org_span": [
+272,
+12,
+8,
+10,
+29
+],
+"selected_other_spans": [
+"he:ARG1"
+],
+"predict_prob": 0.9854022264480591,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+272,
+12,
+9,
+10,
+29
+],
+"lemma": "come",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "entity in motion / 'comer'",
+"ARG2": "extent -- rare",
+"ARG3": "start point",
+"ARG4": "end point"
+},
+"examples": [
+{
+"example_name": "come-v: destination",
+"example_text": "Mrs. Yeargin came to work on weekends .",
+"example_rel": "came",
+"arguments": [
+{
+"ARG1": "Mrs. Yeargin",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARG4": "to work",
+"role_descrip": "end point"
+},
+{
+"ARGM-TMP": "on weekends",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "come-v: with purpose",
+"example_text": "Students , teachers , and parents came to testify on her behalf .",
+"example_rel": "came",
+"arguments": [
+{
+"ARG1": "Students , teachers , and parents",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-PRP": "to testify on her behalf",
+"role_descrip": "purpose"
+}
+]
+},
+{
+"example_name": "come-v: destination as by-phrase",
+"example_text": "You may come by the agency to read but not copy the books .",
+"example_rel": "come",
+"arguments": [
+{
+"ARG1": "You",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-MOD": "may",
+"role_descrip": "general modification"
+},
+{
+"ARG4": "by the agency",
+"role_descrip": "end point"
+},
+{
+"ARGM-PRP": "to read but not copy the books",
+"role_descrip": "purpose"
+}
+]
+},
+{
+"example_name": "come-v: come back (not phrasal)",
+"example_text": "They are n't going to come back to the US .",
+"example_rel": "to come",
+"arguments": [
+{
+"ARG1": "They",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-DIR": "back",
+"role_descrip": "direction"
+},
+{
+"ARG4": "to the US",
+"role_descrip": "end point"
+}
+]
+},
+{
+"example_name": "come-v: nice syntactic reversal",
+"example_text": "`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , '' he says .",
+"example_rel": "come",
+"arguments": [
+{
+"ARG4": "here",
+"role_descrip": "end point"
+},
+{
+"ARG1": "the ringers",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARG3": "from above",
+"role_descrip": "start point"
+},
+{
+"ARGM-ADV": "making a very obvious exit while the congregation is at prayer",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "come-v: temporal coming",
+"example_text": "It is also the sovereign power that , come 1997 , will take over this British colony .",
+"example_rel": "come",
+"arguments": [
+{
+"ARG1": "1997",
+"role_descrip": "entity in motion / 'comer'"
+}
+]
+},
+{
+"example_name": "come-v: ARG1",
+"example_text": "In contrast , Taiwan is still showing a nasty deficit in knowledge trade , with money going out twice as fast as it is coming in .",
+"example_rel": "coming",
+"arguments": [
+{
+"ARG1": "it",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-DIR": "In",
+"role_descrip": "direction"
+}
+]
+},
+{
+"example_name": "come-v: another with start point",
+"example_text": "But at the time when he stood to speak , I was in the restroom and sort of coming back from the restroom",
+"example_rel": "coming",
+"arguments": [
+{
+"ARGM-TMP": "at the time when he stood to speak",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "I",
+"role_descrip": "entity in motion / 'comer'"
+},
+{
+"ARGM-ADV": "sort of",
+"role_descrip": "adverbial modification"
+},
+{
+"ARG3": "back from the restroom",
+"role_descrip": "start point"
+}
+]
+},
+{
+"example_name": "coming-n: arg1",
+"example_text": "Haha , that s what I said in conversation with someone last night , she 's the second coming of Dan Quayle !",
+"example_rel": "coming",
+"arguments": [
+{
+"ARGM-TMP": "second",
+"role_descrip": "temporal"
+},
+{
+"ARG1": "of Dan Quayle",
+"role_descrip": "entity in motion / 'comer'"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When should someone just have lots of cereal?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"when he comes\"}"
+},
+{
+"index_sen": 301,
+"sentences": "and the black 's not going to be so hot you know",
+"selected_span": [
+"so hot you know",
+"ARG2",
+[
+8,
+12
+]
+],
+"predicate": "be",
+"org_span": [
+577,
+8,
+8,
+12,
+4
+],
+"selected_other_spans": [
+"the black:ARG1"
+],
+"predict_prob": 0.9964190721511841,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+577,
+8,
+8,
+10,
+4
+],
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\":\"yes\",\"question\":\"What is the black not going to be?\"}",
+"ans_response": "{\"has_answer\": \"yes\", \"answer\": \"so hot\"}"
+},
+{
+"index_sen": 327,
+"sentences": "I said %um please come to Shabbat",
+"selected_span": [
+"%um please come to",
+"ARG1",
+[
+2,
+6
+]
+],
+"predicate": "said",
+"org_span": [
+1636,
+2,
+2,
+6,
+3
+],
+"selected_other_spans": [
+"I:ARG0"
+],
+"predict_prob": 0.9947052001953125,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+1636,
+2,
+3,
+7,
+3
+],
+"lemma": "say",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "Sayer",
+"ARG1": "Utterance",
+"ARG2": "Hearer",
+"ARG3": "Attributive"
+},
+"examples": [
+{
+"example_name": "Transitive",
+"example_text": "A Lorillard spokeswoman said \" This is an old story . \"",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "A Lorillard spokeswoman",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "\" This is an old story . \"",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Fronted",
+"example_text": "Kent cigarettes were sold , the company said",
+"example_rel": "said",
+"arguments": [
+{
+"ARG0": "the company",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "Kent cigarettes were sold",
+"role_descrip": "Utterance"
+}
+]
+},
+{
+"example_name": "Inverted",
+"example_text": "What matters is what advertisers will pay , said Newsweek 's chairman",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "What matters is what advertisers will pay",
+"role_descrip": "Utterance"
+},
+{
+"ARG0": "Newsweek 's chairman",
+"role_descrip": "Sayer"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG2",
+"example_text": "On December 9 , the British firm Tesco said hello to consumers in Taiwan when it formally opened its clean , bright and spacious store .",
+"example_rel": "said",
+"arguments": [
+{
+"ARGM-TMP": "On December 9",
+"role_descrip": "temporal"
+},
+{
+"ARG0": "the British firm Tesco",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "hello",
+"role_descrip": "Utterance"
+},
+{
+"ARG2": "to consumers in Taiwan",
+"role_descrip": "Hearer"
+},
+{
+"ARGM-TMP": "when it formally opened its clean , bright and spacious store",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1 and ARG3",
+"example_text": "Although Lee 's trip would seem to have been a shot in the arm for the deadlocked cross - strait relationship , it also generated a lot of speculation and ill will because neither Lee nor anyone who met with him was willing to say a word about the content of their discussions , and ROC officials who went to call on Lee at his hotel skulked around in underground walkways and service elevators to avoid journalists .",
+"example_rel": "say",
+"arguments": [
+{
+"ARG0": "neither Lee nor anyone who met with him",
+"role_descrip": "Sayer"
+},
+{
+"ARG1": "a word",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "about the content of their discussions",
+"role_descrip": "Attributive"
+}
+]
+},
+{
+"example_name": "ARG1 and ARG3",
+"example_text": "But the truth is that objects said to attract money sell just as well in good times as bad , for when the economy is strong , people are willing to spend large sums to ensure that they can hold onto their wealth .",
+"example_rel": "said",
+"arguments": [
+{
+"ARG1": "objects",
+"role_descrip": "Utterance"
+},
+{
+"ARG3": "to attract money",
+"role_descrip": "Attributive"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What did I say?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"%um please come to Shabbat\"}"
+},
+{
+"index_sen": 380,
+"sentences": "It develops because of irritation , because of a %um , inflammation .",
+"selected_span": [
+"because of irritation",
+"ARGM-CAU",
+[
+2,
+5
+]
+],
+"predicate": "develops",
+"org_span": [
+1972,
+2,
+2,
+5,
+11
+],
+"selected_other_spans": [
+"It:ARG1",
+"because of a %um , inflammation:ARGM-CAU"
+],
+"predict_prob": 0.689668595790863,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+1972,
+2,
+2,
+12,
+11
+],
+"lemma": "develop",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it",
+"ARG2": "theme, thing that develops"
+},
+"examples": [
+{
+"example_name": "develop-v: Intransitive / Inchoative-- new annotation of theme",
+"example_text": "A problem developed .",
+"example_rel": "developed",
+"arguments": [
+{
+"ARG2": "A problem",
+"role_descrip": "theme, thing that develops"
+}
+]
+},
+{
+"example_name": "develop-v: ARG1 and ARG2",
+"example_text": "A balance must be ensured between nature conservation and economic development so that Taiwan may develop into a sustainable green silicon island .",
+"example_rel": "develop",
+"arguments": [
+{
+"ARG1": "Taiwan",
+"role_descrip": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it"
+},
+{
+"ARGM-MOD": "may",
+"role_descrip": "general modification"
+},
+{
+"ARG2": "into a sustainable green silicon island",
+"role_descrip": "theme, thing that develops"
+}
+]
+},
+{
+"example_name": "development-n: autogen1",
+"example_text": "the development of cancer and other problems in the daughters ofwomen who took the drug",
+"example_rel": "development",
+"arguments": [
+{
+"ARG2": "of cancer and other problems",
+"role_descrip": "theme, thing that develops"
+},
+{
+"ARG1": "in the daughters ofwomen who took the drug",
+"role_descrip": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it"
+}
+]
+},
+{
+"example_name": "development-n: because this develops on its own",
+"example_text": "the development of a vigorous private sector",
+"example_rel": "development",
+"arguments": [
+{
+"ARG2": "of a vigorous private sector",
+"role_descrip": "theme, thing that develops"
+}
+]
+},
+{
+"example_name": "development-n: with MNR",
+"example_text": "the European TV industry 's sluggish development .",
+"example_rel": "development",
+"arguments": [
+{
+"ARG2": "the European TV industry 's",
+"role_descrip": "theme, thing that develops"
+},
+{
+"ARGM-MNR": "sluggish",
+"role_descrip": "manner"
+}
+]
+},
+{
+"example_name": "development-n: both args",
+"example_text": "the tumor 's development in salivary glands in rats .",
+"example_rel": "development",
+"arguments": [
+{
+"ARG2": "the tumor 's",
+"role_descrip": "theme, thing that develops"
+},
+{
+"ARG1": "in salivary glands in rats",
+"role_descrip": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it"
+}
+]
+},
+{
+"example_name": "development-n: both args in PPs",
+"example_text": "the development of tumors in animals after inoculation with tumor cells",
+"example_rel": "development",
+"arguments": [
+{
+"ARG2": "of tumors",
+"role_descrip": "theme, thing that develops"
+},
+{
+"ARG1": "in animals",
+"role_descrip": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it"
+},
+{
+"ARGM-TMP": "after inoculation with tumor cells",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "development-n: both args, arg2 POSS",
+"example_text": "his development of a condition believed to be autism .",
+"example_rel": "development",
+"arguments": [
+{
+"ARG1": "his",
+"role_descrip": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it"
+},
+{
+"ARG2": "of a condition believed to be autism",
+"role_descrip": "theme, thing that develops"
+}
+]
+},
+{
+"example_name": "developed-j: arg2",
+"example_text": "Because his consciousness is not very developed , the child can tolerate it , otherwise he would die .",
+"example_rel": "developed",
+"arguments": [
+{
+"ARG2": "his consciousness",
+"role_descrip": "theme, thing that develops"
+},
+{
+"ARGM-NEG": "not",
+"role_descrip": "negation"
+},
+{
+"ARGM-EXT": "very",
+"role_descrip": "extent"
+}
+]
+},
+{
+"example_name": "developed-v",
+"example_text": "The patient has sigmoid colon cancer that has developed liver metastases",
+"example_rel": "developed",
+"arguments": [
+{
+"ARG1": "that",
+"role_descrip": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it"
+},
+{
+"ARG2": "liver metastases",
+"role_descrip": "theme, thing that develops"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Why does it develop?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"because of irritation , because of a %um , inflammation\"}"
+},
+{
+"index_sen": 467,
+"sentences": "%uh would you mind %uh taking her back",
+"selected_span": [
+"%uh taking her back",
+"ARG1",
+[
+4,
+8
+]
+],
+"predicate": "mind",
+"org_span": [
+1638,
+4,
+4,
+8,
+3
+],
+"selected_other_spans": [
+"%uh:ARGM-DIS",
+"would:ARGM-MOD",
+"you:ARG0"
+],
+"predict_prob": 0.9992417693138123,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+1638,
+4,
+5,
+8,
+3
+],
+"lemma": "mind",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "entity being bothered",
+"ARG1": "bothered by"
+},
+"examples": [
+{
+"example_name": "mind-v",
+"example_text": "You have a right to read Voice of America scripts if you do n't mind traveling to Washington every week or so and visiting the Voice office during business hours .",
+"example_rel": "mind",
+"arguments": [
+{
+"ARG0": "you",
+"role_descrip": "entity being bothered"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG1": "traveling to Washington every week or so and visiting the Voice office during business hours",
+"role_descrip": "bothered by"
+}
+]
+},
+{
+"example_name": "mind-v: unstated or inconveniently-treed arg1",
+"example_text": "He said Apple 's family of Macintosh computers , for instance , uses four different buses `` and no one seems to mind . ''",
+"example_rel": "mind",
+"arguments": [
+{
+"ARG0": "no one",
+"role_descrip": "entity being bothered"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What would you mind?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"taking her back\"}"
+},
+{
+"index_sen": 499,
+"sentences": "And she was just really concerned about you know everything . mhm you know . What the possibilities of like",
+"selected_span": [
+"just really concerned about you know everything . mhm you know . What the possibilities of like",
+"ARG2",
+[
+3,
+20
+]
+],
+"predicate": "was",
+"org_span": [
+233,
+3,
+3,
+20,
+4
+],
+"selected_other_spans": [
+"And:ARGM-DIS",
+"she:ARG1"
+],
+"predict_prob": 0.9901340007781982,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+233,
+3,
+4,
+20,
+4
+],
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"How was she?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"just really concerned\"}"
+},
+{
+"index_sen": 502,
+"sentences": "%uh but it 's a lot less expensive if we do it that way than if we actually make my parents in law pay it ,",
+"selected_span": [
+"if we do it that way than if we actually make my parents in law pay it",
+"ARGM-ADV",
+[
+8,
+25
+]
+],
+"predicate": "'s",
+"org_span": [
+788,
+4,
+8,
+25,
+10
+],
+"selected_other_spans": [
+"it:ARG1",
+"a lot less expensive:ARG2"
+],
+"predict_prob": 0.9140874743461609,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+788,
+4,
+8,
+14,
+10
+],
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"When is it a lot less expensive?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"if we do it that way\"}"
+},
+{
+"index_sen": 507,
+"sentences": "and I think %uh %uh it 's not Frau",
+"selected_span": [
+"%uh %uh it 's not Frau",
+"ARG1",
+[
+3,
+9
+]
+],
+"predicate": "think",
+"org_span": [
+1934,
+3,
+3,
+9,
+3
+],
+"selected_other_spans": [
+"I:ARG0"
+],
+"predict_prob": 0.4905880093574524,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+1934,
+3,
+4,
+9,
+3
+],
+"lemma": "think",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "Thinker",
+"ARG1": "Thought",
+"ARG2": "Attributive (please look at the examples-- this is tricky)"
+},
+"examples": [
+{
+"example_name": "think-v: transitive",
+"example_text": "A Lorillard spokeswoman thought \" This is an old story . \"",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG0": "A Lorillard spokeswoman",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "\" This is an old story . \"",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "think-v: intransitive, with subject of thinking",
+"example_text": "People were n't thinking about targeting 10 years ago .",
+"example_rel": "thinking",
+"arguments": [
+{
+"ARG0": "People",
+"role_descrip": "Thinker"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG2": "about targeting",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+},
+{
+"ARGM-TMP": "10 years ago",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "think-v: transitive, with subject of thinking",
+"example_text": "People were n't thinking anything about targeting 10 years ago .",
+"example_rel": "thinking",
+"arguments": [
+{
+"ARG0": "People",
+"role_descrip": "Thinker"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG1": "anything",
+"role_descrip": "Thought"
+},
+{
+"ARG2": "about targeting",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+},
+{
+"ARGM-TMP": "10 years ago",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "think-v: fronted",
+"example_text": "Kent cigarettes were sold , the company thought",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG0": "the company",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "Kent cigarettes were sold",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "think-v: inverted",
+"example_text": "What matters is what advertisers will pay , thought Newsweek 's chairman",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG1": "What matters is what advertisers will pay",
+"role_descrip": "Thought"
+},
+{
+"ARG0": "Newsweek 's chairman",
+"role_descrip": "Thinker"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1",
+"example_text": "She had thought that these stores were only crowded on the weekends , but on a rainy weekday in November she decided she did n't feel like cooking and went to buy some prepared foods at the RT - Mart 's deli department .",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG0": "She",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "that these stores were only crowded on the weekends",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "think-v: attributive",
+"example_text": "They think of us as a good partner .",
+"example_rel": "think",
+"arguments": [
+{
+"ARG0": "They",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "of us",
+"role_descrip": "Thought"
+},
+{
+"ARG2": "as a good partner",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+}
+]
+},
+{
+"example_name": "ARG1",
+"example_text": "It was originally thought that the Taipei - Ilan Expressway , due for completion in 2003 , would also bring Pinglin new benefits , but the government is now planning to restrict the interchange to only large vehicles and locals from Pinglin .",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG1": "that the Taipei - Ilan Expressway , due for completion in 2003 , would also bring Pinglin new benefits",
+"role_descrip": "Thought"
+},
+{
+"ARGM-ADV": "originally",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "think-v: have a new idea",
+"example_text": "`` I ca n't think of any reason to join Lloyd 's now , '' says Keith Whitten , a British businessman and a Lloyd 's member since 1979 .",
+"example_rel": "think",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "Thinker"
+},
+{
+"ARGM-MOD": "ca",
+"role_descrip": "general modification"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG1": "of any reason to join Lloyd 's now",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "thought-n: Within LVC",
+"example_text": "I once had the thought that , relying on Japan 's technology and economic strength she would be able to build a road to the summit or simply put up a cable car .",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "Thinker"
+},
+{
+"ARGM-TMP": "once",
+"role_descrip": "temporal"
+},
+{
+"ARGM-LVB": "had",
+"role_descrip": "light verb (for nouns only)"
+},
+{
+"ARG1": "that , relying on Japan 's technology and economic strength she would be able to build a road to the summit or simply put up a cable car",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "thought-n: no mention of actual thought",
+"example_text": "She writes of her thoughts of her own possible death as she approaches the birth of one of her children .",
+"example_rel": "thoughts",
+"arguments": [
+{
+"ARG0": "her",
+"role_descrip": "Thinker"
+},
+{
+"ARG2": "of her own possible death",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+},
+{
+"ARGM-TMP": "as she approaches the birth of one of her children",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "thought-n: Args 0 & 2",
+"example_text": "Kim Hyung Jun discusses his thoughts about going solo .",
+"example_rel": "thoughts",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "Thinker"
+},
+{
+"ARG2": "about going solo",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+}
+]
+},
+{
+"example_name": "thought-n: With thought itself",
+"example_text": "The thought that we could just do what needs to be done to make it happen never passes their lips .",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG1": "that we could just do what needs to be done to make it happen",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "thinking-n: 0,1,2",
+"example_text": "This would explain people 's thinking nothing of advertising 40 years ago .",
+"example_rel": "thinking",
+"arguments": [
+{
+"ARG0": "people 's",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "nothing",
+"role_descrip": "Thought"
+},
+{
+"ARG2": "of advertising",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What does someone think?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"it 's not Frau\"}"
+},
+{
+"index_sen": 548,
+"sentences": "So uh-huh . I think %um tonight Charlie and I are going to go over and join up .",
+"selected_span": [
+"Charlie and I are going to go over and join up",
+"ARG1",
+[
+7,
+18
+]
+],
+"predicate": "think",
+"org_span": [
+258,
+5,
+7,
+18,
+3
+],
+"selected_other_spans": [
+"I:ARG0",
+"tonight:ARGM-TMP"
+],
+"predict_prob": 0.9956684708595276,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+258,
+5,
+6,
+18,
+3
+],
+"lemma": "think",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "Thinker",
+"ARG1": "Thought",
+"ARG2": "Attributive (please look at the examples-- this is tricky)"
+},
+"examples": [
+{
+"example_name": "think-v: transitive",
+"example_text": "A Lorillard spokeswoman thought \" This is an old story . \"",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG0": "A Lorillard spokeswoman",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "\" This is an old story . \"",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "think-v: intransitive, with subject of thinking",
+"example_text": "People were n't thinking about targeting 10 years ago .",
+"example_rel": "thinking",
+"arguments": [
+{
+"ARG0": "People",
+"role_descrip": "Thinker"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG2": "about targeting",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+},
+{
+"ARGM-TMP": "10 years ago",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "think-v: transitive, with subject of thinking",
+"example_text": "People were n't thinking anything about targeting 10 years ago .",
+"example_rel": "thinking",
+"arguments": [
+{
+"ARG0": "People",
+"role_descrip": "Thinker"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG1": "anything",
+"role_descrip": "Thought"
+},
+{
+"ARG2": "about targeting",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+},
+{
+"ARGM-TMP": "10 years ago",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "think-v: fronted",
+"example_text": "Kent cigarettes were sold , the company thought",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG0": "the company",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "Kent cigarettes were sold",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "think-v: inverted",
+"example_text": "What matters is what advertisers will pay , thought Newsweek 's chairman",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG1": "What matters is what advertisers will pay",
+"role_descrip": "Thought"
+},
+{
+"ARG0": "Newsweek 's chairman",
+"role_descrip": "Thinker"
+}
+]
+},
+{
+"example_name": "ARG0 and ARG1",
+"example_text": "She had thought that these stores were only crowded on the weekends , but on a rainy weekday in November she decided she did n't feel like cooking and went to buy some prepared foods at the RT - Mart 's deli department .",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG0": "She",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "that these stores were only crowded on the weekends",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "think-v: attributive",
+"example_text": "They think of us as a good partner .",
+"example_rel": "think",
+"arguments": [
+{
+"ARG0": "They",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "of us",
+"role_descrip": "Thought"
+},
+{
+"ARG2": "as a good partner",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+}
+]
+},
+{
+"example_name": "ARG1",
+"example_text": "It was originally thought that the Taipei - Ilan Expressway , due for completion in 2003 , would also bring Pinglin new benefits , but the government is now planning to restrict the interchange to only large vehicles and locals from Pinglin .",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG1": "that the Taipei - Ilan Expressway , due for completion in 2003 , would also bring Pinglin new benefits",
+"role_descrip": "Thought"
+},
+{
+"ARGM-ADV": "originally",
+"role_descrip": "adverbial modification"
+}
+]
+},
+{
+"example_name": "think-v: have a new idea",
+"example_text": "`` I ca n't think of any reason to join Lloyd 's now , '' says Keith Whitten , a British businessman and a Lloyd 's member since 1979 .",
+"example_rel": "think",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "Thinker"
+},
+{
+"ARGM-MOD": "ca",
+"role_descrip": "general modification"
+},
+{
+"ARGM-NEG": "n't",
+"role_descrip": "negation"
+},
+{
+"ARG1": "of any reason to join Lloyd 's now",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "thought-n: Within LVC",
+"example_text": "I once had the thought that , relying on Japan 's technology and economic strength she would be able to build a road to the summit or simply put up a cable car .",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG0": "I",
+"role_descrip": "Thinker"
+},
+{
+"ARGM-TMP": "once",
+"role_descrip": "temporal"
+},
+{
+"ARGM-LVB": "had",
+"role_descrip": "light verb (for nouns only)"
+},
+{
+"ARG1": "that , relying on Japan 's technology and economic strength she would be able to build a road to the summit or simply put up a cable car",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "thought-n: no mention of actual thought",
+"example_text": "She writes of her thoughts of her own possible death as she approaches the birth of one of her children .",
+"example_rel": "thoughts",
+"arguments": [
+{
+"ARG0": "her",
+"role_descrip": "Thinker"
+},
+{
+"ARG2": "of her own possible death",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+},
+{
+"ARGM-TMP": "as she approaches the birth of one of her children",
+"role_descrip": "temporal"
+}
+]
+},
+{
+"example_name": "thought-n: Args 0 & 2",
+"example_text": "Kim Hyung Jun discusses his thoughts about going solo .",
+"example_rel": "thoughts",
+"arguments": [
+{
+"ARG0": "his",
+"role_descrip": "Thinker"
+},
+{
+"ARG2": "about going solo",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+}
+]
+},
+{
+"example_name": "thought-n: With thought itself",
+"example_text": "The thought that we could just do what needs to be done to make it happen never passes their lips .",
+"example_rel": "thought",
+"arguments": [
+{
+"ARG1": "that we could just do what needs to be done to make it happen",
+"role_descrip": "Thought"
+}
+]
+},
+{
+"example_name": "thinking-n: 0,1,2",
+"example_text": "This would explain people 's thinking nothing of advertising 40 years ago .",
+"example_rel": "thinking",
+"arguments": [
+{
+"ARG0": "people 's",
+"role_descrip": "Thinker"
+},
+{
+"ARG1": "nothing",
+"role_descrip": "Thought"
+},
+{
+"ARG2": "of advertising",
+"role_descrip": "Attributive (please look at the examples-- this is tricky)"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What do I think?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"%um tonight Charlie and I are going to go over and join up\"}"
+},
+{
+"index_sen": 616,
+"sentences": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+"selected_span": [
+"that you ca n't go no place",
+"ARG1",
+[
+8,
+15
+]
+],
+"predicate": "'s",
+"org_span": [
+376,
+6,
+8,
+15,
+3
+],
+"selected_other_spans": [
+"a shame:ARG2"
+],
+"predict_prob": 0.9998661279678345,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+376,
+6,
+8,
+43,
+3
+],
+"lemma": "be",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG1": "topic",
+"ARG2": "comment"
+},
+"examples": [
+{
+"example_name": "be-v: ARG1 and ARG2",
+"example_text": "Ko has discovered that as more and more of these stores have opened in Kaohsiung , he and his wife go to department stores less , because in department stores you can only buy clothes , but in superstores you can buy daily necessities , hardware and so forth , and the selection is better .",
+"example_rel": "is",
+"arguments": [
+{
+"ARG1": "the selection",
+"role_descrip": "topic"
+},
+{
+"ARG2": "better",
+"role_descrip": "comment"
+}
+]
+},
+{
+"example_name": "being-n: Arg1, 2",
+"example_text": "George 's being a brat ruined the field trip for everybody .",
+"example_rel": "being",
+"arguments": [
+{
+"ARG1": "George 's",
+"role_descrip": "topic"
+},
+{
+"ARG2": "a brat",
+"role_descrip": "comment"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"What is a shame according to the speaker?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"that you can't go no place and I can get a good report on you\"}"
+},
+{
+"index_sen": 762,
+"sentences": "bring me back active duty and pay me for the day if they 're going to drag me off somewhere .",
+"selected_span": [
+"back",
+"ARG3",
+[
+2,
+3
+]
+],
+"predicate": "bring",
+"org_span": [
+310,
+1,
+2,
+3,
+5
+],
+"selected_other_spans": [
+"me:ARG1",
+"active duty:ARG3"
+],
+"predict_prob": 0.8373672962188721,
+"error_type": "boundary_error",
+"gold_label": null,
+"conflict_span": [
+310,
+1,
+2,
+5,
+5
+],
+"lemma": "bring",
+"pred_sense": "01",
+"candidate_roles": {
+"ARG0": "bringer",
+"ARG1": "thing brought",
+"ARG2": "benefactive or destination brought-for, brought-to,",
+"ARG3": "attribute, state after bringing, secondary action",
+"ARG4": "ablative, brought-from"
+},
+"examples": [
+{
+"example_name": "active, benefactive",
+"example_text": "She brought them shame .",
+"example_rel": "brought",
+"arguments": [
+{
+"ARG0": "She",
+"role_descrip": "bringer"
+},
+{
+"ARG2": "them",
+"role_descrip": "benefactive or destination brought-for, brought-to,"
+},
+{
+"ARG1": "shame",
+"role_descrip": "thing brought"
+}
+]
+},
+{
+"example_name": "bring-v: active, attributive",
+"example_text": "The surge brings to nearly 50 the number of country funds that are listed in New York or London .",
+"example_rel": "brings",
+"arguments": [
+{
+"ARG0": "The surge",
+"role_descrip": "bringer"
+},
+{
+"ARG3": "to nearly 50",
+"role_descrip": "attribute, state after bringing, secondary action"
+},
+{
+"ARG1": "the number of country funds that are listed in New York or London",
+"role_descrip": "thing brought"
+}
+]
+},
+{
+"example_name": "bring-v: with ablative",
+"example_text": "They may risk bringing some damaging influence from outside the markets .",
+"example_rel": "bringing",
+"arguments": [
+{
+"ARG0": "They",
+"role_descrip": "bringer"
+},
+{
+"ARG1": "some damaging influence",
+"role_descrip": "thing brought"
+},
+{
+"ARG4": "from outside the markets",
+"role_descrip": "ablative, brought-from"
+}
+]
+},
+{
+"example_name": "bring-v: active, attributive again",
+"example_text": "Bush administration officials are looking to the Fed to bring down rates .",
+"example_rel": "bring",
+"arguments": [
+{
+"ARG0": "the Fed",
+"role_descrip": "bringer"
+},
+{
+"ARG3": "down",
+"role_descrip": "attribute, state after bringing, secondary action"
+},
+{
+"ARG1": "rates",
+"role_descrip": "thing brought"
+}
+]
+},
+{
+"example_name": "bring-v: passive, attributive",
+"example_text": "... the Whiting field , the first of five small fields scheduled to be brought into production before the end of 1990 .",
+"example_rel": "brought",
+"arguments": [
+{
+"ARG1": "five small fields",
+"role_descrip": "thing brought"
+},
+{
+"ARG3": "into production",
+"role_descrip": "attribute, state after bringing, secondary action"
+},
+{
+"ARGM-TMP": "before the end of 1990",
+"role_descrip": "temporal"
+}
+]
+}
+],
+"response": "{\"exist_relation\": \"yes\", \"question\": \"Where did they want to bring me?\"}",
+"ans_response": "{\"has_answer\":\"yes\",\"answer\":\"active duty\"}"
+}
+]

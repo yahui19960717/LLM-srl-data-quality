@@ -1,0 +1,2602 @@
+[
+{
+"exist_relation": "yes",
+"question": "What did she do?",
+"index_sen": 0,
+"sentences": "Yes she did .",
+"predicate": "did",
+"selected_span": [
+"Yes",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.7091377377510071,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1068,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where did she first get out to?",
+"index_sen": 1,
+"sentences": "Now she had a job with an architectural group when she first got out to New York ,",
+"predicate": "got",
+"selected_span": [
+"to New York",
+"ARG4",
+[
+14,
+17
+]
+],
+"predict_prob": 0.6346268057823181,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+176,
+13,
+14,
+17,
+6
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where were they not planning on coming?",
+"index_sen": 7,
+"sentences": "if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .",
+"predicate": "coming",
+"selected_span": [
+"back",
+"ARGM-DIR",
+[
+15,
+16
+]
+],
+"predict_prob": 0.9998854994773865,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+137,
+15,
+15,
+16,
+13
+]
+},
+{
+"exist_relation": "yes",
+"question": "When are we going to go see her?",
+"index_sen": 17,
+"sentences": "and we 're going to go see her next Thursday and talk about her making my wedding dress .",
+"predicate": "go",
+"selected_span": [
+"next Thursday",
+"ARGM-TMP",
+[
+8,
+10
+]
+],
+"predict_prob": 0.8190473914146423,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+279,
+6,
+8,
+10,
+29
+]
+},
+{
+"exist_relation": "yes",
+"question": "What will there still be?",
+"index_sen": 36,
+"sentences": "and they 'll still be enough time when I come home for me to order those .",
+"predicate": "be",
+"selected_span": [
+"enough time when I come home for me to order those",
+"ARG2",
+[
+5,
+16
+]
+],
+"predict_prob": 0.9973179697990417,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+288,
+5,
+5,
+16,
+4
+]
+},
+{
+"exist_relation": "yes",
+"question": "What did she say?",
+"index_sen": 41,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "said",
+"selected_span": [
+"like mom said she said even if it was going to be in September",
+"ARGM-ADV",
+[
+0,
+14
+]
+],
+"predict_prob": 0.9999371767044067,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+95,
+17,
+0,
+14,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "Why is that?",
+"index_sen": 57,
+"sentences": "Is that because he 's not sleeping and",
+"predicate": "Is",
+"selected_span": [
+"because he 's not sleeping",
+"ARGM-CAU",
+[
+2,
+7
+]
+],
+"predict_prob": 0.9999442100524902,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1855,
+1,
+2,
+7,
+11
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who checked out a room here?",
+"index_sen": 58,
+"sentences": "and then she came over here , and %um , checked out a room here .",
+"predicate": "checked",
+"selected_span": [
+"%um",
+"ARGM-ADV",
+[
+8,
+9
+]
+],
+"predict_prob": 0.7085013389587402,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1951,
+11,
+8,
+9,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "How did the speaker think the alteration was clever and unique?",
+"index_sen": 63,
+"sentences": "But , %um Anyway , I had been kind of telling him that , you know , from my reading of the literature , I thought that this one little alteration I had made in my model was kind of clever and unique .",
+"predicate": "thought",
+"selected_span": [
+"you know , from my reading of the literature",
+"ARGM-ADV",
+[
+14,
+23
+]
+],
+"predict_prob": 0.34524276852607727,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+357,
+26,
+14,
+23,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is the fact?",
+"index_sen": 77,
+"sentences": "and yeah . %uh , it 's the fact that I would be writing a letter that is the impressive part of it all .",
+"predicate": "'s",
+"selected_span": [
+"yeah",
+"ARGM-ADV",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9773208498954773,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+699,
+7,
+1,
+2,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "When did she say she has come to terms with this?",
+"index_sen": 95,
+"sentences": "But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,",
+"predicate": "said",
+"selected_span": [
+"after two years there now",
+"ARGM-TMP",
+[
+14,
+19
+]
+],
+"predict_prob": 0.6333121061325073,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2,
+14,
+14,
+19,
+29
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where did it get to about eighty percent?",
+"index_sen": 116,
+"sentences": "%um , and it got back to about eighty percent .",
+"predicate": "got",
+"selected_span": [
+"back",
+"ARGM-DIR",
+[
+5,
+6
+]
+],
+"predict_prob": 0.9993616342544556,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+419,
+5,
+5,
+6,
+13
+]
+},
+{
+"exist_relation": "yes",
+"question": "What deals with something?",
+"index_sen": 121,
+"sentences": "And so %uh , that 's yeah at least dealt with .",
+"predicate": "'s",
+"selected_span": [
+"%uh",
+"ARGM-ADV",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9400501251220703,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+494,
+6,
+2,
+3,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is kind of interesting?",
+"index_sen": 128,
+"sentences": "which , %um , is kind of interesting considering that that 's not really my thing . . Indeed . Indeed . being an experimentalist , not a theorist .",
+"predicate": "is",
+"selected_span": [
+"%um",
+"ARGM-ADV",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9828382134437561,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+29,
+5,
+2,
+3,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "What does someone know before he leaves every morning?",
+"index_sen": 138,
+"sentences": "And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+"predicate": "know",
+"selected_span": [
+"he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+"ARG1",
+[
+9,
+27
+]
+],
+"predict_prob": 0.9998940229415894,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+762,
+4,
+9,
+27,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What do we have to do?",
+"index_sen": 140,
+"sentences": "I think what we got to do is just when he comes just have lots of cereal .",
+"predicate": "got",
+"selected_span": [
+"what",
+"ARG1",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9863629937171936,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+269,
+5,
+2,
+3,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where are my taxes fifty percent of income?",
+"index_sen": 142,
+"sentences": "and my taxes here are fifty percent of income .",
+"predicate": "are",
+"selected_span": [
+"here",
+"ARGM-LOC",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9975054264068604,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+629,
+5,
+3,
+4,
+18
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who should not eat when somebody else is eating?",
+"index_sen": 158,
+"sentences": "Well it 's hard to you know not eat when somebody else is eating .",
+"predicate": "eat",
+"selected_span": [
+"you",
+"ARG0",
+[
+5,
+6
+]
+],
+"predict_prob": 0.9991010427474976,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2157,
+9,
+5,
+6,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "What do you mean?",
+"index_sen": 160,
+"sentences": "I mean yeah",
+"predicate": "mean",
+"selected_span": [
+"yeah",
+"ARG1",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9988341927528381,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1233,
+2,
+2,
+3,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "When do they have to find me?",
+"index_sen": 165,
+"sentences": "But %uh , first they have to find me .",
+"predicate": "have",
+"selected_span": [
+"first",
+"ARGM-TMP",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9365994334220886,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+619,
+6,
+3,
+4,
+29
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who left?",
+"index_sen": 167,
+"sentences": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+"predicate": "left",
+"selected_span": [
+"I",
+"ARG0",
+[
+6,
+7
+]
+],
+"predict_prob": 0.9999182224273682,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+747,
+6,
+6,
+7,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where had the military taste been beaten from you?",
+"index_sen": 185,
+"sentences": "Somehow I had this feeling that the military taste had been beaten out of you .",
+"predicate": "beaten",
+"selected_span": [
+"out",
+"ARGM-DIR",
+[
+12,
+13
+]
+],
+"predict_prob": 0.9977248311042786,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2193,
+12,
+12,
+13,
+13
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who was not in?",
+"index_sen": 189,
+"sentences": "if that was you , yeah . yeah , she was just not in",
+"predicate": "was",
+"selected_span": [
+"not",
+"ARGM-NEG",
+[
+12,
+13
+]
+],
+"predict_prob": 0.9170151948928833,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1966,
+11,
+12,
+13,
+22
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who knows that I tried my best?",
+"index_sen": 197,
+"sentences": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+"predicate": "know",
+"selected_span": [
+"Arlita",
+"ARG0",
+[
+12,
+13
+]
+],
+"predict_prob": 0.6069841384887695,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+751,
+17,
+12,
+13,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "What was a big issue among the people who were doing this work?",
+"index_sen": 202,
+"sentences": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+"predicate": "was",
+"selected_span": [
+"a big issue among the people who were doing this work",
+"ARG1",
+[
+32,
+43
+]
+],
+"predict_prob": 0.9897023439407349,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+371,
+32,
+32,
+43,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who knows that writing a couple of articles based on your Master's thesis, is, not at all unusual in Physics?",
+"index_sen": 206,
+"sentences": "I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+"predicate": "know",
+"selected_span": [
+"I",
+"ARG0",
+[
+0,
+1
+]
+],
+"predict_prob": 0.994516909122467,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+695,
+5,
+0,
+1,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "How does she seem?",
+"index_sen": 228,
+"sentences": "and is she seem like she 's together enough ?",
+"predicate": "is",
+"selected_span": [
+"like she 's together enough",
+"C-ARG1",
+[
+4,
+9
+]
+],
+"predict_prob": 0.8730764389038086,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+500,
+2,
+4,
+9,
+31
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is a great idea?",
+"index_sen": 229,
+"sentences": "okay that 's a great idea .",
+"predicate": "'s",
+"selected_span": [
+"okay",
+"ARGM-ADV",
+[
+0,
+1
+]
+],
+"predict_prob": 0.519005537033081,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1929,
+3,
+0,
+1,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "When were people talking about how bad the black dresses were?",
+"index_sen": 236,
+"sentences": "apparently like at Lisa Manachi 's wedding like the whole night people were talking about how bad the black dresses were .",
+"predicate": "talking",
+"selected_span": [
+"like the whole night",
+"ARGM-MNR",
+[
+7,
+11
+]
+],
+"predict_prob": 0.9306389689445496,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+777,
+14,
+7,
+11,
+20
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who will sit and talk with Anya about some things?",
+"index_sen": 246,
+"sentences": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+"predicate": "sit",
+"selected_span": [
+"I",
+"ARG1",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9975554347038269,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+797,
+5,
+2,
+3,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where would you want to go?",
+"index_sen": 282,
+"sentences": "If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too .",
+"predicate": "go",
+"selected_span": [
+"into the countryside somewhere",
+"ARG4",
+[
+7,
+11
+]
+],
+"predict_prob": 0.8002381920814514,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+127,
+5,
+7,
+11,
+6
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is it like three times the money as?",
+"index_sen": 296,
+"sentences": "but it 's like three times the money as with everything else",
+"predicate": "'s",
+"selected_span": [
+"as with everything else",
+"ARGM-PRD",
+[
+8,
+12
+]
+],
+"predict_prob": 0.7282252311706543,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+462,
+3,
+8,
+12,
+24
+]
+},
+{
+"exist_relation": "yes",
+"question": "When do you know that only Allah can make the way clear for you?",
+"index_sen": 306,
+"sentences": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+"predicate": "know",
+"selected_span": [
+"when you truly give your heart to Allah",
+"ARGM-TMP",
+[
+17,
+25
+]
+],
+"predict_prob": 0.9970478415489197,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+64,
+17,
+17,
+25,
+29
+]
+},
+{
+"exist_relation": "yes",
+"question": "What are they shooting for?",
+"index_sen": 307,
+"sentences": "I think Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters .",
+"predicate": "shooting",
+"selected_span": [
+"that",
+"R-ARG1",
+[
+8,
+9
+]
+],
+"predict_prob": 0.9840928912162781,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+35,
+12,
+8,
+9,
+49
+]
+},
+{
+"exist_relation": "yes",
+"question": "What did it get back to?",
+"index_sen": 318,
+"sentences": "%um , and it got back to about eighty percent .",
+"predicate": "got",
+"selected_span": [
+"to about eighty percent",
+"ARG4",
+[
+6,
+10
+]
+],
+"predict_prob": 0.8830015063285828,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+419,
+5,
+6,
+10,
+6
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is the major problem?",
+"index_sen": 335,
+"sentences": "Which was actually where the major problem came . Exactly . Exactly . yeah . Is that I suddenly had no transportation .",
+"predicate": "Is",
+"selected_span": [
+"where the major problem came",
+"ARG2",
+[
+3,
+8
+]
+],
+"predict_prob": 0.913065493106842,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+721,
+16,
+3,
+8,
+4
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where do you dial?",
+"index_sen": 341,
+"sentences": "and remember that if you dial in Holland you need to add a zero",
+"predicate": "dial",
+"selected_span": [
+"Holland",
+"ARG1",
+[
+7,
+8
+]
+],
+"predict_prob": 0.9994313716888428,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2226,
+6,
+7,
+8,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "To whom do they do that?",
+"index_sen": 351,
+"sentences": "Do they do that to everyone ?",
+"predicate": "Do",
+"selected_span": [
+"to everyone",
+"ARG2",
+[
+4,
+6
+]
+],
+"predict_prob": 0.6428092122077942,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1884,
+1,
+4,
+6,
+4
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is yeah at least dealt with?",
+"index_sen": 364,
+"sentences": "And so %uh , that 's yeah at least dealt with .",
+"predicate": "'s",
+"selected_span": [
+"so",
+"ARGM-ADV",
+[
+1,
+2
+]
+],
+"predict_prob": 0.8830223083496094,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+494,
+6,
+1,
+2,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "How did I learn quick fast?",
+"index_sen": 369,
+"sentences": "I learned quick fast in a hurry because I 've gained so much weight .",
+"predicate": "learned",
+"selected_span": [
+"in a hurry",
+"ARGM-ADV",
+[
+4,
+7
+]
+],
+"predict_prob": 0.8664712905883789,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2150,
+2,
+4,
+7,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is dealt with?",
+"index_sen": 377,
+"sentences": "And so %uh , that 's yeah at least dealt with .",
+"predicate": "dealt",
+"selected_span": [
+"that",
+"ARG1",
+[
+4,
+5
+]
+],
+"predict_prob": 0.8653106093406677,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+495,
+10,
+4,
+5,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "According to the speaker, who loses their baby and that's it?",
+"index_sen": 386,
+"sentences": "I mean most women you lose your baby that 's it .",
+"predicate": "mean",
+"selected_span": [
+"most women you lose your baby",
+"ARG1",
+[
+2,
+8
+]
+],
+"predict_prob": 0.9628210067749023,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+503,
+2,
+2,
+8,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is the speaker spending a lot of time on now?",
+"index_sen": 391,
+"sentences": "So Cool . Cool . that 's mostly the sort of stuff that I 'm spending a lot of time on now . %um",
+"predicate": "spending",
+"selected_span": [
+"that",
+"R-ARG2",
+[
+12,
+13
+]
+],
+"predict_prob": 0.8668175339698792,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+714,
+16,
+12,
+13,
+50
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is it actually?",
+"index_sen": 393,
+"sentences": "so that 's why it 's actually a big deal is",
+"predicate": "is",
+"selected_span": [
+"a big deal",
+"ARG2",
+[
+7,
+10
+]
+],
+"predict_prob": 0.8633415699005127,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+485,
+11,
+7,
+10,
+4
+]
+},
+{
+"exist_relation": "yes",
+"question": "What does someone have to go do after getting one purchased?",
+"index_sen": 396,
+"sentences": "Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .",
+"predicate": "go",
+"selected_span": [
+"get it and things like that",
+"ARG1",
+[
+27,
+33
+]
+],
+"predict_prob": 0.9939395785331726,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+58,
+27,
+27,
+33,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What are we shooting for?",
+"index_sen": 398,
+"sentences": "I think Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters .",
+"predicate": "shooting",
+"selected_span": [
+"the one",
+"ARG2",
+[
+6,
+8
+]
+],
+"predict_prob": 0.996581494808197,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+35,
+12,
+6,
+8,
+4
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who decided that it would make sense to do this?",
+"index_sen": 400,
+"sentences": "so I decided that it would make sense to do this .",
+"predicate": "do",
+"selected_span": [
+"I",
+"ARG0",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9975103139877319,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+471,
+10,
+1,
+2,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "When do we have to keep our eyes open for a champagne sale?",
+"index_sen": 405,
+"sentences": "There 's a pretty good sale . %mm . So now we have to keep our eyes open for a champagne sale .",
+"predicate": "have",
+"selected_span": [
+"now",
+"ARGM-TMP",
+[
+10,
+11
+]
+],
+"predict_prob": 0.9577749371528625,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+786,
+13,
+10,
+11,
+29
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who just wouldn't go?",
+"index_sen": 408,
+"sentences": "I just would n't go .",
+"predicate": "go",
+"selected_span": [
+"I",
+"ARG0",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9331410527229309,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1829,
+5,
+0,
+1,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where is, you know?",
+"index_sen": 425,
+"sentences": "where is , you know",
+"predicate": "is",
+"selected_span": [
+"where",
+"ARG2",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9920467138290405,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1117,
+2,
+0,
+1,
+4
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who has that always been very scary to?",
+"index_sen": 439,
+"sentences": "You know that has always been very scary to me even after .",
+"predicate": "been",
+"selected_span": [
+"to me",
+"ARGM-ADV",
+[
+8,
+10
+]
+],
+"predict_prob": 0.9204254746437073,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2084,
+6,
+8,
+10,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where do they consider it a luxury to call around?",
+"index_sen": 446,
+"sentences": "they consider it a luxury to call around the world",
+"predicate": "call",
+"selected_span": [
+"the world",
+"ARG1",
+[
+8,
+10
+]
+],
+"predict_prob": 0.8439184427261353,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+601,
+7,
+8,
+10,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What do we think?",
+"index_sen": 462,
+"sentences": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+"predicate": "think",
+"selected_span": [
+"some things",
+"ARG1",
+[
+10,
+12
+]
+],
+"predict_prob": 0.783206045627594,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+799,
+16,
+10,
+12,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "When will we call you back?",
+"index_sen": 469,
+"sentences": "so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .",
+"predicate": "call",
+"selected_span": [
+"if we get in the eighteenth or the nineteenth",
+"ARGM-ADV",
+[
+1,
+10
+]
+],
+"predict_prob": 0.5748635530471802,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+826,
+13,
+1,
+10,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "How did Leo and Julie seem?",
+"index_sen": 474,
+"sentences": "%um , but Leo and Julie just seemed , %um sort of happy with the decisions they 've made .",
+"predicate": "seemed",
+"selected_span": [
+"%um sort of happy with the decisions they 've made",
+"C-ARG1",
+[
+9,
+19
+]
+],
+"predict_prob": 0.998820424079895,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+177,
+8,
+9,
+19,
+31
+]
+},
+{
+"exist_relation": "yes",
+"question": "With whom am I working?",
+"index_sen": 482,
+"sentences": "I think I had mentioned before %uh , that there 's a company now that I 'm working with %um , %uh , which is very much just myself and Guss .",
+"predicate": "working",
+"selected_span": [
+"a company",
+"ARG1",
+[
+11,
+13
+]
+],
+"predict_prob": 0.9731408357620239,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+12,
+18,
+11,
+13,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who is really looking forward to moving to Oregon?",
+"index_sen": 500,
+"sentences": "I 'm really looking forward to moving to Oregon and dealing with ,",
+"predicate": "moving",
+"selected_span": [
+"I",
+"ARG1",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9957190752029419,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2207,
+7,
+0,
+1,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What has to be deducted?",
+"index_sen": 509,
+"sentences": "Some amount that has to be deducted a certain amount",
+"predicate": "deducted",
+"selected_span": [
+"a certain amount",
+"ARGM-EXT",
+[
+7,
+10
+]
+],
+"predict_prob": 0.29520750045776367,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+631,
+7,
+7,
+10,
+16
+]
+},
+{
+"exist_relation": "yes",
+"question": "What do we have to keep our eyes open for?",
+"index_sen": 512,
+"sentences": "There 's a pretty good sale . %mm . So now we have to keep our eyes open for a champagne sale .",
+"predicate": "keep",
+"selected_span": [
+"for a champagne sale",
+"ARGM-PRP",
+[
+18,
+22
+]
+],
+"predict_prob": 0.7311844825744629,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+787,
+15,
+18,
+22,
+25
+]
+},
+{
+"exist_relation": "yes",
+"question": "What went as far as monetary value was the pre-amplifier of the stereo?",
+"index_sen": 514,
+"sentences": "And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier ,",
+"predicate": "went",
+"selected_span": [
+"that they stole",
+"ARGM-ADJ",
+[
+14,
+17
+]
+],
+"predict_prob": 0.9030383825302124,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+48,
+14,
+14,
+17,
+9
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who will sit and talk with Anya?",
+"index_sen": 523,
+"sentences": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+"predicate": "talk",
+"selected_span": [
+"I",
+"ARG0",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9991230964660645,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+798,
+7,
+2,
+3,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who did I say it to?",
+"index_sen": 525,
+"sentences": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+"predicate": "said",
+"selected_span": [
+"mom",
+"ARG2",
+[
+2,
+3
+]
+],
+"predict_prob": 0.4978906512260437,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+60,
+2,
+2,
+3,
+4
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where was a big issue among the people who were doing this work?",
+"index_sen": 527,
+"sentences": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+"predicate": "was",
+"selected_span": [
+"there",
+"ARGM-LOC",
+[
+29,
+30
+]
+],
+"predict_prob": 0.9999060034751892,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+371,
+32,
+29,
+30,
+18
+]
+},
+{
+"exist_relation": "yes",
+"question": "What does the girl have in her dreams according to the statement?",
+"index_sen": 543,
+"sentences": "This girl has everything in her dreams you know .",
+"predicate": "know",
+"selected_span": [
+"everything",
+"ARG1",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9949352145195007,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+499,
+9,
+3,
+4,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "When did I have to go bike hunting?",
+"index_sen": 549,
+"sentences": "And so , I then had to go bike hunting and eventually get another bike ,",
+"predicate": "had",
+"selected_span": [
+"then",
+"ARGM-TMP",
+[
+4,
+5
+]
+],
+"predict_prob": 0.9928401112556458,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2051,
+6,
+4,
+5,
+29
+]
+},
+{
+"exist_relation": "yes",
+"question": "How are we going to see Den Haag and places like that this time?",
+"index_sen": 557,
+"sentences": "But we got to see Den Haag and places like that too which we 're obviously not going to see this time .",
+"predicate": "going",
+"selected_span": [
+"not",
+"ARGM-NEG",
+[
+16,
+17
+]
+],
+"predict_prob": 0.9998981952667236,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+804,
+18,
+16,
+17,
+22
+]
+},
+{
+"exist_relation": "yes",
+"question": "Which one is he with?",
+"index_sen": 561,
+"sentences": "Which one is he with .",
+"predicate": "is",
+"selected_span": [
+"Which one",
+"ARG2",
+[
+0,
+2
+]
+],
+"predict_prob": 0.999383807182312,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1595,
+3,
+0,
+2,
+4
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who lay there?",
+"index_sen": 563,
+"sentences": "%uh lay there let me look at my grandmother kind of thing",
+"predicate": "lay",
+"selected_span": [
+"%uh",
+"ARG1",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9997398853302002,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+544,
+2,
+0,
+1,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who has no intentions of coming over this way any time soon?",
+"index_sen": 573,
+"sentences": "So you have no intentions of coming over this way any time soon ?",
+"predicate": "coming",
+"selected_span": [
+"you",
+"ARG1",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9881665110588074,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2009,
+7,
+1,
+2,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What do you hope?",
+"index_sen": 583,
+"sentences": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+"predicate": "hope",
+"selected_span": [
+"even after you left I said",
+"ARGM-TMP",
+[
+2,
+8
+]
+],
+"predict_prob": 0.9371063113212585,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+749,
+12,
+2,
+8,
+29
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is pretty miserable?",
+"index_sen": 587,
+"sentences": "Well I 'm figuring it out fast because -- okay -- with not working out and all yeah . it 's pretty miserable my crunch tape .",
+"predicate": "'s",
+"selected_span": [
+"my crunch tape",
+"ARG1",
+[
+23,
+26
+]
+],
+"predict_prob": 0.999150812625885,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+768,
+21,
+23,
+26,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What couldn't she do to Jasmine?",
+"index_sen": 594,
+"sentences": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+"predicate": "talk",
+"selected_span": [
+"play with Jasmine",
+"ARG1",
+[
+9,
+12
+]
+],
+"predict_prob": 0.9933574795722961,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+728,
+7,
+9,
+12,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What did you mean?",
+"index_sen": 597,
+"sentences": "I mean of course I did n't say anything to her .",
+"predicate": "mean",
+"selected_span": [
+"I did n't say anything to her",
+"ARG1",
+[
+4,
+11
+]
+],
+"predict_prob": 0.7707170248031616,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+589,
+2,
+4,
+11,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "How does the speaker think the wedding is going to be?",
+"index_sen": 614,
+"sentences": "So now you think my wedding 's going to be pretty tasteful right ?",
+"predicate": "be",
+"selected_span": [
+"right",
+"ARGM-ADV",
+[
+12,
+13
+]
+],
+"predict_prob": 0.9917804598808289,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2165,
+10,
+12,
+13,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where is the gym that is only eight pounds a month?",
+"index_sen": 626,
+"sentences": "I found a gym yesterday here that 's only eight pounds a month which is like twelve dollars , twelve fifty",
+"predicate": "'s",
+"selected_span": [
+"here",
+"ARGM-LOC",
+[
+5,
+6
+]
+],
+"predict_prob": 0.7804534435272217,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+256,
+8,
+5,
+6,
+18
+]
+},
+{
+"exist_relation": "yes",
+"question": "Where did she go from Penn?",
+"index_sen": 636,
+"sentences": "And she went from Penn , %um To Columbia . to Columbia to U R I .",
+"predicate": "went",
+"selected_span": [
+"To Columbia",
+"ARG4",
+[
+7,
+9
+]
+],
+"predict_prob": 0.9455395936965942,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+159,
+3,
+7,
+9,
+6
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is incredibly easy to break into?",
+"index_sen": 637,
+"sentences": "this place is incredibly easy to break into if you want to .",
+"predicate": "break",
+"selected_span": [
+"this place",
+"ARG1",
+[
+0,
+2
+]
+],
+"predict_prob": 0.9999185800552368,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2039,
+7,
+0,
+2,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who is not going to pay out of their own expenses to go to Germany or something for them?",
+"index_sen": 642,
+"sentences": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+"predicate": "going",
+"selected_span": [
+"not",
+"ARGM-NEG",
+[
+49,
+50
+]
+],
+"predict_prob": 0.9999052882194519,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+389,
+51,
+49,
+50,
+22
+]
+},
+{
+"exist_relation": "yes",
+"question": "How will I come by?",
+"index_sen": 651,
+"sentences": "And maybe I 'll come by , public transport .",
+"predicate": "come",
+"selected_span": [
+"public transport",
+"ARGM-ADV",
+[
+7,
+9
+]
+],
+"predict_prob": 0.9977763295173645,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+605,
+5,
+7,
+9,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is the speaker not going to pay out of their own expenses for?",
+"index_sen": 655,
+"sentences": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+"predicate": "pay",
+"selected_span": [
+"to go to Germany or something for them",
+"ARG3",
+[
+58,
+66
+]
+],
+"predict_prob": 0.8995132446289062,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+390,
+53,
+58,
+66,
+5
+]
+},
+{
+"exist_relation": "yes",
+"question": "What did she do?",
+"index_sen": 656,
+"sentences": "Yes she did .",
+"predicate": "did",
+"selected_span": [
+"Yes",
+"ARGM-DIS",
+[
+0,
+1
+]
+],
+"predict_prob": 0.7091377377510071,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1070,
+3,
+0,
+1,
+14
+]
+},
+{
+"exist_relation": "yes",
+"question": "What did I say to Mark?",
+"index_sen": 667,
+"sentences": "I said to Mark oh my god . What 's she going to say",
+"predicate": "said",
+"selected_span": [
+"oh my god",
+"ARGM-ADV",
+[
+4,
+7
+]
+],
+"predict_prob": 0.5466723442077637,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2085,
+2,
+4,
+7,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "What did I do that was similar to things she went through?",
+"index_sen": 668,
+"sentences": "And it was a very nice letter , because it sounded like she went through very similar things that I did .",
+"predicate": "did",
+"selected_span": [
+"that",
+"R-ARG1",
+[
+18,
+19
+]
+],
+"predict_prob": 0.9997376799583435,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+659,
+21,
+18,
+19,
+49
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who had to get on it and follow it?",
+"index_sen": 676,
+"sentences": "and all I had to do was get on it and follow it .",
+"predicate": "get",
+"selected_span": [
+"I",
+"ARG1",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9999030232429504,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2064,
+8,
+2,
+3,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "How does the speaker mean something?",
+"index_sen": 686,
+"sentences": "I mean of course I did n't say anything to her .",
+"predicate": "mean",
+"selected_span": [
+"of course",
+"ARGM-ADV",
+[
+2,
+4
+]
+],
+"predict_prob": 0.7707172632217407,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+589,
+2,
+2,
+4,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "What were we abusing?",
+"index_sen": 687,
+"sentences": "That we were abusing ,",
+"predicate": "abusing",
+"selected_span": [
+"That",
+"R-ARG1",
+[
+0,
+1
+]
+],
+"predict_prob": 0.9882175326347351,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1103,
+4,
+0,
+1,
+49
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who had to get on it and follow it?",
+"index_sen": 698,
+"sentences": "and all I had to do was get on it and follow it .",
+"predicate": "follow",
+"selected_span": [
+"I",
+"ARG0",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9227761626243591,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2065,
+12,
+2,
+3,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who does not eat as much?",
+"index_sen": 714,
+"sentences": "So , I assume it 's hard for you not to eat as much as he does .",
+"predicate": "does",
+"selected_span": [
+"he",
+"ARG1",
+[
+15,
+16
+]
+],
+"predict_prob": 0.5505055785179138,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+277,
+17,
+15,
+16,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "For what would they feel guilty?",
+"index_sen": 721,
+"sentences": "and I think they would then feel guilty for not inviting me .",
+"predicate": "feel",
+"selected_span": [
+"for not inviting me",
+"ARGM-CAU",
+[
+8,
+12
+]
+],
+"predict_prob": 0.9996485710144043,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2160,
+7,
+8,
+12,
+11
+]
+},
+{
+"exist_relation": "yes",
+"question": "What do you mean?",
+"index_sen": 725,
+"sentences": "%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,",
+"predicate": "mean",
+"selected_span": [
+"if they denied my citizenship and I became a citizen here I probably would n't be a horror either",
+"ARG1",
+[
+3,
+22
+]
+],
+"predict_prob": 0.9993314146995544,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+809,
+3,
+3,
+22,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who knows?",
+"index_sen": 726,
+"sentences": "But you know , I mean that mhm . should n't be a big deal . %um",
+"predicate": "know",
+"selected_span": [
+"I",
+"ARG0",
+[
+4,
+5
+]
+],
+"predict_prob": 0.522486686706543,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+156,
+3,
+4,
+5,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "When can we go see stuff?",
+"index_sen": 739,
+"sentences": "So if you want we can take a ride and go see stuff at night",
+"predicate": "see",
+"selected_span": [
+"at night",
+"ARGM-TMP",
+[
+13,
+15
+]
+],
+"predict_prob": 0.9983776211738586,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2190,
+12,
+13,
+15,
+29
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who has actually been doing a lot of it?",
+"index_sen": 764,
+"sentences": "I 've actually been doing a lot of it .",
+"predicate": "'ve",
+"selected_span": [
+"I",
+"R-ARG0",
+[
+0,
+1
+]
+],
+"predict_prob": 0.61253821849823,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+475,
+2,
+0,
+1,
+48
+]
+},
+{
+"exist_relation": "yes",
+"question": "When was someone in the inactive reserves the entire time they were in college?",
+"index_sen": 767,
+"sentences": "And I was in the inactive reserves the entire time I was in college too .",
+"predicate": "was",
+"selected_span": [
+"too",
+"ARGM-DIS",
+[
+14,
+15
+]
+],
+"predict_prob": 0.6556669473648071,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2198,
+3,
+14,
+15,
+14
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who can go see stuff at night?",
+"index_sen": 772,
+"sentences": "So if you want we can take a ride and go see stuff at night",
+"predicate": "go",
+"selected_span": [
+"we",
+"ARG0",
+[
+4,
+5
+]
+],
+"predict_prob": 0.9997113347053528,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2189,
+11,
+4,
+5,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "How does the speaker say it's probably easier for them to come?",
+"index_sen": 775,
+"sentences": "It 's probably easier for me to come by public transport in Amsterdam than it is for me to come by car to be honest .",
+"predicate": "come",
+"selected_span": [
+"to be honest",
+"ARGM-PRP",
+[
+22,
+25
+]
+],
+"predict_prob": 0.5388302803039551,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+795,
+20,
+22,
+25,
+25
+]
+},
+{
+"exist_relation": "yes",
+"question": "What does someone know?",
+"index_sen": 777,
+"sentences": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+"predicate": "know",
+"selected_span": [
+"if that happens",
+"ARGM-ADV",
+[
+25,
+28
+]
+],
+"predict_prob": 0.9813414216041565,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+97,
+25,
+25,
+28,
+10
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who is planning on making a trip down to visit her?",
+"index_sen": 778,
+"sentences": "but I 'm planning on making a trip down to visit her .",
+"predicate": "making",
+"selected_span": [
+"I",
+"ARG0",
+[
+1,
+2
+]
+],
+"predict_prob": 0.9972050189971924,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2076,
+6,
+1,
+2,
+2
+]
+},
+{
+"exist_relation": "yes",
+"question": "What was she concerned someone might know?",
+"index_sen": 781,
+"sentences": "And she was just really concerned about you know everything . mhm you know . What the possibilities of like",
+"predicate": "know",
+"selected_span": [
+"everything",
+"ARG1",
+[
+9,
+10
+]
+],
+"predict_prob": 0.9995555281639099,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+234,
+9,
+9,
+10,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What cost me a lot of time?",
+"index_sen": 789,
+"sentences": "and %mm . that cost me a lot of time .",
+"predicate": "cost",
+"selected_span": [
+"that",
+"ARG1",
+[
+3,
+4
+]
+],
+"predict_prob": 0.9998833537101746,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+493,
+5,
+3,
+4,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What has to be deducted?",
+"index_sen": 792,
+"sentences": "Some amount that has to be deducted a certain amount",
+"predicate": "deducted",
+"selected_span": [
+"Some amount",
+"ARG1",
+[
+0,
+2
+]
+],
+"predict_prob": 0.9995993971824646,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+631,
+7,
+0,
+2,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is all you can say?",
+"index_sen": 800,
+"sentences": "and she just had bad luck I guess is all you can say .",
+"predicate": "is",
+"selected_span": [
+"I guess",
+"ARG1",
+[
+6,
+8
+]
+],
+"predict_prob": 0.9285101890563965,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+1958,
+9,
+6,
+8,
+3
+]
+},
+{
+"exist_relation": "yes",
+"question": "What is someone going to try and become?",
+"index_sen": 811,
+"sentences": "Are you going to try and become a dual citizen ?",
+"predicate": "try",
+"selected_span": [
+"going",
+"ARGM-MOD",
+[
+2,
+3
+]
+],
+"predict_prob": 0.9989885091781616,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+626,
+5,
+2,
+3,
+21
+]
+},
+{
+"exist_relation": "yes",
+"question": "Who had to do the same thing like that last time?",
+"index_sen": 825,
+"sentences": "did they do like %uh the same thing they had to do last time ?",
+"predicate": "do",
+"selected_span": [
+"they",
+"ARG0",
+[
+8,
+9
+]
+],
+"predict_prob": 0.5383011698722839,
+"error_type": "redundant",
+"gold_label": null,
+"org_span": [
+2123,
+3,
+8,
+9,
+2
+]
+}
+]

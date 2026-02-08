@@ -1,0 +1,88 @@
+17 	 and we 're going to go see her next Thursday and talk about her making my wedding dress . 	 go 	 next Thursday 	 ARGM-TMP 	 redundant 	 correct 	 None 	 None
+30 	 Well did she come home and say I saw her , I look like her or what ? 	 come 	 Well 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+34 	 Well I mean I 'm still American citizen 	 mean 	 Well 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+35 	 yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um 	 know 	 Julie is of course carving up and making beautiful 	 ARG1 	 redundant 	 correct 	 None 	 None
+45 	 But you know it 'll never be more than about seventy or eighty percent . Which is fine . 	 know 	 But 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+55 	 But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things . 	 'm 	 then again 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
+57 	 Is that because he 's not sleeping and 	 Is 	 because he 's not sleeping 	 ARGM-CAU 	 redundant 	 correct 	 None 	 None
+59 	 %um , %um , which we had already anticipated that it was going to happen . 	 happen 	 going 	 ARGM-MOD 	 redundant 	 correct 	 None 	 None
+71 	 Well you know or luck making a way and making it at ease for you to 	 know 	 Well 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+79 	 But you know the weeknights is pretty crazy . 	 know 	 But 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+87 	 And she was just really concerned about you know everything . mhm you know . What the possibilities of like 	 know 	 you 	 ARG0 	 redundant 	 correct 	 None 	 None
+94 	 actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature . 	 turn 	 from what I had been reading in the literature 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
+107 	 Well how often are you going ? 	 going 	 Well 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+116 	 %um , and it got back to about eighty percent . 	 got 	 back 	 ARGM-DIR 	 redundant 	 correct 	 None 	 None
+125 	 Unless you became C E O of the company then maybe like a thousand dollars would be taxable , right ? 	 be 	 right 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+134 	 %um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see . 	 talk 	 'll 	 ARGM-MOD 	 redundant 	 correct 	 None 	 None
+141 	 and all of a sudden she 's getting conference papers rejected 	 rejected 	 all of a sudden 	 ARGM-TMP 	 redundant 	 correct 	 None 	 None
+142 	 and my taxes here are fifty percent of income . 	 are 	 here 	 ARGM-LOC 	 redundant 	 correct 	 None 	 None
+155 	 But you know I always worried 	 know 	 But 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+160 	 I mean yeah 	 mean 	 yeah 	 ARG1 	 redundant 	 correct 	 None 	 None
+174 	 So it 's just , l- . 	 's 	 l- 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+185 	 Somehow I had this feeling that the military taste had been beaten out of you . 	 beaten 	 out 	 ARGM-DIR 	 redundant 	 correct 	 None 	 None
+189 	 if that was you , yeah . yeah , she was just not in 	 was 	 not 	 ARGM-NEG 	 redundant 	 correct 	 None 	 None
+191 	 Well I mean he does work his ass off 	 mean 	 Well 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+196 	 But you know , I mean that mhm . should n't be a big deal . %um 	 know 	 But 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+202 	 And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency , 	 was 	 a big issue among the people who were doing this work 	 ARG1 	 redundant 	 correct 	 None 	 None
+204 	 Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there . 	 mean 	 Well 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+227 	 and Everybody has to keep them , Selema , everybody , everybody You know , 	 know 	 everybody 	 ARG1 	 redundant 	 correct 	 None 	 None
+245 	 And you know my sister was n't that old 	 know 	 And 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+246 	 %um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see . 	 sit 	 I 	 ARG1 	 redundant 	 correct 	 None 	 None
+253 	 like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know . 	 know 	 you 	 ARG0 	 redundant 	 correct 	 None 	 None
+260 	 oh oh Amway is probably going to have a rule though I could just 	 have 	 though I could just 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
+312 	 She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing . 	 doing 	 competent 	 ARGM-MNR 	 redundant 	 correct 	 None 	 None
+323 	 And he 's had 	 's 	 And 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+341 	 and remember that if you dial in Holland you need to add a zero 	 dial 	 Holland 	 ARG1 	 redundant 	 correct 	 None 	 None
+352 	 I think I had mentioned before %uh , that there 's a company now that I 'm working with %um , %uh , which is very much just myself and Guss . 	 working 	 %um , %uh 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+359 	 and she said that if it was n't for Jetta you know Jasmine 's daddy would n't be 	 be 	 if it was n't for Jetta 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
+369 	 I learned quick fast in a hurry because I 've gained so much weight . 	 learned 	 in a hurry 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
+386 	 I mean most women you lose your baby that 's it . 	 mean 	 most women you lose your baby 	 ARG1 	 redundant 	 correct 	 None 	 None
+393 	 so that 's why it 's actually a big deal is 	 is 	 a big deal 	 ARG2 	 redundant 	 correct 	 None 	 None
+398 	 I think Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters . 	 shooting 	 the one 	 ARG2 	 redundant 	 correct 	 None 	 None
+400 	 so I decided that it would make sense to do this . 	 do 	 I 	 ARG0 	 redundant 	 correct 	 None 	 None
+408 	 I just would n't go . 	 go 	 I 	 ARG0 	 redundant 	 correct 	 None 	 None
+435 	 Are you going to become a dual citizen ? 	 become 	 going 	 ARGM-MOD 	 redundant 	 correct 	 None 	 None
+447 	 I 'll have to get somebody to help me . 	 get 	 have 	 ARGM-MOD 	 redundant 	 correct 	 None 	 None
+469 	 so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that . 	 call 	 if we get in the eighteenth or the nineteenth 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
+474 	 %um , but Leo and Julie just seemed , %um sort of happy with the decisions they 've made . 	 seemed 	 %um sort of happy with the decisions they 've made 	 C-ARG1 	 redundant 	 correct 	 None 	 None
+483 	 we can %uh go see some stuff . 	 see 	 can 	 ARGM-MOD 	 redundant 	 correct 	 None 	 None
+490 	 so we 're going to owe some money to the Dutch government on her salary . 	 owe 	 so 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+508 	 And %uh With a pretty simple model you can find that frequency in a transient , 	 find 	 And 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+523 	 %um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see . 	 talk 	 I 	 ARG0 	 redundant 	 correct 	 None 	 None
+525 	 I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you . 	 said 	 mom 	 ARG2 	 redundant 	 correct 	 None 	 None
+527 	 And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency , 	 was 	 there 	 ARGM-LOC 	 redundant 	 correct 	 None 	 None
+530 	 but they 're winding down , so you know them really well by this point . 	 winding 	 but 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+561 	 Which one is he with . 	 is 	 Which one 	 ARG2 	 redundant 	 correct 	 None 	 None
+564 	 well it seemed to make sense since I had a client to just kind of set up my own company , of sorts . 	 seemed 	 well 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+569 	 And , then things seemed to be doing pretty well , 	 seemed 	 And 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+573 	 So you have no intentions of coming over this way any time soon ? 	 coming 	 you 	 ARG1 	 redundant 	 correct 	 None 	 None
+597 	 I mean of course I did n't say anything to her . 	 mean 	 I did n't say anything to her 	 ARG1 	 redundant 	 correct 	 None 	 None
+619 	 And , then things seemed to be doing pretty well , 	 seemed 	 then 	 ARGM-TMP 	 redundant 	 correct 	 None 	 None
+620 	 But I mean you 're below the poverty line at that level . 	 mean 	 But 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+634 	 they had the same , maybe just 	 had 	 maybe 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+636 	 And she went from Penn , %um To Columbia . to Columbia to U R I . 	 went 	 To Columbia 	 ARG4 	 redundant 	 correct 	 None 	 None
+637 	 this place is incredibly easy to break into if you want to . 	 break 	 this place 	 ARG1 	 redundant 	 correct 	 None 	 None
+641 	 I do n't know if you spoke to me before that or when it was that was happening . Or 	 happening 	 it 	 ARG1 	 redundant 	 correct 	 None 	 None
+655 	 and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them . 	 pay 	 to go to Germany or something for them 	 ARG3 	 redundant 	 correct 	 None 	 None
+669 	 You know everybody 's kind of passed away , almost . 	 passed 	 kind of 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
+676 	 and all I had to do was get on it and follow it . 	 get 	 I 	 ARG1 	 redundant 	 correct 	 None 	 None
+687 	 That we were abusing , 	 abusing 	 That 	 R-ARG1 	 redundant 	 correct 	 None 	 None
+689 	 %um . I do n't see the finances occurring uh-huh , right . for a while . 	 see 	 right 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+698 	 and all I had to do was get on it and follow it . 	 follow 	 I 	 ARG0 	 redundant 	 correct 	 None 	 None
+716 	 But we got to see Den Haag and places like that too which we 're obviously not going to see this time . 	 see 	 obviously 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
+721 	 and I think they would then feel guilty for not inviting me . 	 feel 	 for not inviting me 	 ARGM-CAU 	 redundant 	 correct 	 None 	 None
+725 	 %uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either , 	 mean 	 if they denied my citizenship and I became a citizen here I probably would n't be a horror either 	 ARG1 	 redundant 	 correct 	 None 	 None
+735 	 but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t- 	 reserved 	 of that 	 ARG1 	 redundant 	 correct 	 None 	 None
+739 	 So if you want we can take a ride and go see stuff at night 	 see 	 at night 	 ARGM-TMP 	 redundant 	 correct 	 None 	 None
+743 	 %hm . we 'll see what happens . 	 see 	 %hm 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+744 	 we 're going to be in need of some sort of accountant do it cause I have no clue how that all works . 	 be 	 going 	 ARGM-MOD 	 redundant 	 correct 	 None 	 None
+767 	 And I was in the inactive reserves the entire time I was in college too . 	 was 	 too 	 ARGM-DIS 	 redundant 	 correct 	 None 	 None
+772 	 So if you want we can take a ride and go see stuff at night 	 go 	 we 	 ARG0 	 redundant 	 correct 	 None 	 None
+773 	 Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um 	 know 	 Which 	 ARG1 	 redundant 	 correct 	 None 	 None
+777 	 like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know . 	 know 	 if that happens 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
+778 	 but I 'm planning on making a trip down to visit her . 	 making 	 I 	 ARG0 	 redundant 	 correct 	 None 	 None
+781 	 And she was just really concerned about you know everything . mhm you know . What the possibilities of like 	 know 	 everything 	 ARG1 	 redundant 	 correct 	 None 	 None
+789 	 and %mm . that cost me a lot of time . 	 cost 	 that 	 ARG1 	 redundant 	 correct 	 None 	 None
+793 	 just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before . 	 know 	 Who 	 ARG1 	 redundant 	 correct 	 None 	 None
+825 	 did they do like %uh the same thing they had to do last time ? 	 do 	 they 	 ARG0 	 redundant 	 correct 	 None 	 None
+830 	 just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before . 	 know 	 of course 	 ARGM-ADV 	 redundant 	 correct 	 None 	 None
