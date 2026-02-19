@@ -1,0 +1,47 @@
+3 	 Feldmessen is , %um , surveying . 	 is 	 2 	 %um 	 ARGM-ADV 	 [3, 4] 	 label_error 	 no 	  	 ARGM-DIS
+15 	 But , that 's dealt with at least . 	 dealt 	 5 	 at least 	 ARGM-DIS 	 [6, 8] 	 label_error 	 no 	  	 ARGM-ADV
+21 	 And I was in the inactive reserves the entire time I was in college too . 	 was 	 12 	 too 	 ARGM-ADV 	 [14, 15] 	 label_error 	 no 	  	 ARGM-DIS
+22 	 if it 's during the work hours , fine , call me at work . 	 call 	 11 	 fine 	 ARGM-ADV 	 [8, 9] 	 label_error 	 no 	  	 ARGM-DIS
+40 	 but yeah if you just separate normally and you have n't served at least eight years , then you owe it . 	 owe 	 20 	 then 	 ARGM-DIS 	 [17, 18] 	 label_error 	 no 	  	 ARGM-TMP
+51 	 I said %um please come to Shabbat 	 come 	 5 	 please 	 ARGM-MOD 	 [3, 4] 	 label_error 	 no 	  	 ARGM-DIS
+56 	 I was like well that 's fine 	 's 	 6 	 well 	 ARGM-ADV 	 [3, 4] 	 label_error 	 no 	  	 ARGM-DIS
+72 	 oh that 's life . 	 's 	 3 	 oh 	 ARGM-ADV 	 [0, 1] 	 label_error 	 no 	  	 ARGM-DIS
+83 	 I ca n't say too bad things about the military though . 	 say 	 4 	 though 	 ARGM-DIS 	 [10, 11] 	 label_error 	 no 	  	 ARGM-ADV
+152 	 but if you do n't get email then just call Anya 's parents 	 call 	 10 	 then 	 ARGM-TMP 	 [7, 8] 	 label_error 	 no 	  	 ARGM-ADV
+211 	 Because the last one I submitted , %um , was in the fall , 	 was 	 10 	 %um 	 ARGM-ADV 	 [7, 8] 	 label_error 	 no 	  	 ARGM-DIS
+221 	 If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too . 	 do 	 27 	 too 	 ARGM-DIS 	 [28, 29] 	 label_error 	 no 	  	 ARGM-ADV
+226 	 and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them . 	 give 	 9 	 yeah 	 ARGM-ADV 	 [5, 6] 	 label_error 	 no 	  	 ARGM-DIS
+238 	 So , who knows . %um . 	 knows 	 4 	 %um 	 ARG1 	 [5, 6] 	 label_error 	 no 	  	 ARGM-DIS
+281 	 So now you think my wedding 's going to be pretty tasteful right ? 	 think 	 4 	 now 	 ARGM-TMP 	 [1, 2] 	 label_error 	 no 	  	 ARGM-DIS
+283 	 and then next year it 'll be eleven thousand . 	 be 	 7 	 then 	 ARGM-DIS 	 [1, 2] 	 label_error 	 no 	  	 ARGM-TMP
+291 	 Some amount that has to be deducted a certain amount 	 deducted 	 7 	 that 	 R-ARG1 	 [2, 3] 	 label_error 	 no 	  	 ARG1
+292 	 And she went from Penn , %um To Columbia . to Columbia to U R I . 	 went 	 3 	 %um 	 ARGM-DIR 	 [6, 7] 	 label_error 	 no 	  	 ARGM-DIS
+347 	 I said well you call Selema 	 call 	 5 	 well 	 ARGM-MNR 	 [2, 3] 	 label_error 	 no 	  	 ARGM-DIS
+371 	 We 'll see where you 're staying 	 staying 	 7 	 where 	 ARGM-LOC 	 [3, 4] 	 label_error 	 no 	  	 ARG3
+385 	 Of course I 'm talking to you . 	 talking 	 5 	 Of course 	 ARGM-DIS 	 [0, 2] 	 label_error 	 no 	  	 ARGM-ADV
+413 	 Of course it ends on the twenty second of July . 	 ends 	 4 	 Of course 	 ARGM-DIS 	 [0, 2] 	 label_error 	 no 	  	 ARGM-ADV
+441 	 You can just leave a message . 	 leave 	 4 	 just 	 ARGM-DIS 	 [2, 3] 	 label_error 	 no 	  	 ARGM-ADV
+443 	 we can %uh go see some stuff . 	 go 	 4 	 %uh 	 ARGM-NEG 	 [2, 3] 	 label_error 	 no 	  	 ARGM-DIS
+487 	 the problem 's going to %uh be Anya 's American salary is taxable here and at fifty percent 	 be 	 7 	 %uh 	 ARGM-ADV 	 [5, 6] 	 label_error 	 no 	  	 ARGM-DIS
+521 	 I can hardly hear you . 	 hear 	 4 	 hardly 	 ARGM-ADV 	 [2, 3] 	 label_error 	 no 	  	 ARGM-EXT
+540 	 well it seemed to make sense since I had a client to just kind of set up my own company , of sorts . 	 set 	 16 	 kind of 	 ARGM-MNR 	 [13, 15] 	 label_error 	 no 	  	 ARGM-ADV
+550 	 and I kind of hinted to her that really the only way to lose weight is cardio vascular . mhm . It 's true . And that lifting the weights wo n't lose weight . 	 hinted 	 5 	 kind of 	 ARGM-MNR 	 [2, 4] 	 label_error 	 no 	  	 ARGM-ADV
+551 	 yeah it 's amazing 	 's 	 3 	 yeah 	 ARGM-ADV 	 [0, 1] 	 label_error 	 no 	  	 ARGM-DIS
+554 	 Actually I 've been up to Holland before . 	 been 	 4 	 Actually 	 ARGM-ADV 	 [0, 1] 	 label_error 	 no 	  	 ARGM-DIS
+560 	 Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um 	 gotten 	 10 	 how far 	 ARG1 	 [5, 7] 	 label_error 	 no 	  	 ARGM-EXT
+568 	 I kind of assumed everyone would be at the shore . 	 assumed 	 4 	 kind of 	 ARGM-MNR 	 [1, 3] 	 label_error 	 no 	  	 ARGM-ADV
+572 	 maybe she 'll catch on soon . 	 catch 	 4 	 maybe 	 ARGM-DIS 	 [0, 1] 	 label_error 	 no 	  	 ARGM-ADV
+577 	 but -- oh it is . it 's pretty de classe . 	 is 	 5 	 oh 	 ARG2 	 [2, 3] 	 label_error 	 no 	  	 ARGM-DIS
+602 	 %um , depends on what you guys want to see . 	 depends 	 3 	 %um 	 ARG0 	 [0, 1] 	 label_error 	 no 	  	 ARGM-DIS
+615 	 and she runs from , 	 runs 	 3 	 from 	 ARG1 	 [3, 4] 	 label_error 	 no 	  	 ARGM-DIR
+628 	 And , %um , I 'm sure she 'll find one . 	 'm 	 6 	 %um 	 ARGM-ADV 	 [2, 3] 	 label_error 	 no 	  	 ARGM-DIS
+635 	 You do burn a lot of calories an hour though , lifting weights . 	 burn 	 3 	 though 	 ARGM-DIS 	 [9, 10] 	 label_error 	 no 	  	 ARGM-ADV
+646 	 so I just got to pray that they 	 got 	 4 	 just 	 ARGM-TMP 	 [2, 3] 	 label_error 	 no 	  	 ARGM-ADV
+647 	 you can just call her Missus and speak English to her . 	 call 	 4 	 just 	 ARGM-DIS 	 [2, 3] 	 label_error 	 no 	  	 ARGM-ADV
+659 	 so like right now okay it 's one eight one zero area code . 	 's 	 7 	 okay 	 ARGM-PRD 	 [4, 5] 	 label_error 	 no 	  	 ARGM-DIS
+707 	 but the Americans as soon as you ask for another citizenship that act of asking for it takes away your American citizenship . 	 takes 	 18 	 the Americans 	 ARG0 	 [1, 3] 	 label_error 	 no 	  	 R-ARG0
+717 	 yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um 	 carving 	 15 	 of course 	 ARGM-DIS 	 [12, 14] 	 label_error 	 no 	  	 ARGM-ADV
+753 	 Actually in the first week I was here -- mhm . -- I gained a lot 	 gained 	 14 	 Actually 	 ARGM-DIS 	 [0, 1] 	 label_error 	 no 	  	 ARGM-ADV
+765 	 oh that 's good . 	 's 	 3 	 oh 	 ARGM-ADV 	 [0, 1] 	 label_error 	 no 	  	 ARGM-DIS
+821 	 And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency , 	 was 	 7 	 %uh 	 ARGM-ADV 	 [2, 3] 	 label_error 	 no 	  	 ARGM-DIS
+841 	 I mean things have been happening that has just scared the heck out of me . 	 scared 	 10 	 that 	 R-ARG0 	 [6, 7] 	 label_error 	 no 	  	 ARG0

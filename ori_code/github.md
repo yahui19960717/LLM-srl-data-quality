@@ -19,4 +19,11 @@ git push
 classic pat:用于push github
 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
 
-6.我设置了git config --global credential.helper store，希望下次再输入一次姓名和密码之后不需要再输入了
+6.我设置了git config --global credential.helper store，希望下次再输入一次姓名和密码之后不需要再输入了[已经可以了]
+
+
+
+
+其他github备份：
+PAT github
+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

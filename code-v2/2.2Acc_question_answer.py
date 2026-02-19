@@ -251,11 +251,113 @@ def stas_accuracy(data, path_save1, path_save2):
     return
 
 
+def stas_accuracy_for_pattern_question(data, path_save1, path_save2):
+    total_num = {'right':0, 'label_error':0, 'boundary_error':0, 'redundant':0}
+    correct_ans_num = {'right':0, 'label_error':0, 'boundary_error':0, 'redundant':0}
+    incorrect_ans_num = {'right':0, 'label_error':0, 'boundary_error':0, 'redundant':0}
+    error_ans_num = {'right':0, 'label_error':0, 'boundary_error':0, 'redundant':0}
+
+    #不同错误类型，未产出答案的分布
+    right_err_distribution = {}
+    label_err_distribution = {}
+    boundary_err_distribution = {}
+    redundant_err_distribution = {} 
+    # 不同错误类型下答案正确的分布
+    right_right_distribution = {}
+    label_right_distribution = {}
+    boundary_right_distribution = {}
+    redundant_right_distribution = {} 
+    # 不同错误类型下，有答案但答案错误的分布
+    right_incorrect_distribution = {}
+    label_incorrect_distribution = {}
+    boundary_incorrect_distribution = {}
+    redundant_incorrect_distribution = {}
+
+    error_result = [] #未产出答案数据
+    incorrect_result = [] #错误答案数据
+
+    for instance in data:
+        error_type = instance.get('error_type', None)
+        select_span = instance.get('selected_span', None)
+        temp_span = select_span[1].split("-")[-1]
+        has_answer = instance.get('has_answer', None)
+        answer = instance.get('answer', None)
+
+        if error_type not in total_num:
+            continue
+        total_num[error_type] += 1
+        if has_answer == 'yes' and answer == select_span[0]: #有答案 且 答案正确
+            correct_ans_num[error_type] += 1
+            if error_type == 'right':
+                right_right_distribution = add_dict(right_right_distribution, temp_span)
+            elif error_type == 'label_error':
+                label_right_distribution = add_dict(label_right_distribution, temp_span)
+            elif error_type == 'boundary_error':
+                boundary_right_distribution = add_dict(boundary_right_distribution, temp_span)
+            elif error_type == 'redundant':
+                error_result.append(instance)
+                redundant_err_distribution = add_dict(redundant_err_distribution, temp_span)
+        elif has_answer == 'yes' and answer != '' and answer != select_span[0]: #有答案 但答案错误
+            incorrect_ans_num[error_type] += 1
+            if error_type == 'right':
+                incorrect_result.append(instance)
+                right_incorrect_distribution = add_dict(right_incorrect_distribution, temp_span)
+            elif error_type == 'label_error':
+                incorrect_result.append(instance)
+                label_incorrect_distribution = add_dict(label_incorrect_distribution, temp_span)
+            elif error_type == 'boundary_error':
+                incorrect_result.append(instance)
+                boundary_incorrect_distribution = add_dict(boundary_incorrect_distribution, temp_span)
+            elif error_type == 'redundant':
+                incorrect_result.append(instance)
+                redundant_incorrect_distribution = add_dict(redundant_incorrect_distribution, temp_span)
+        else: #无答案
+            error_ans_num[error_type] += 1
+            if error_type == 'right':
+                error_result.append(instance)
+                right_err_distribution = add_dict(right_err_distribution, temp_span)
+            elif error_type == 'boundary_error':
+                error_result.append(instance)
+                boundary_err_distribution = add_dict(boundary_err_distribution, temp_span)
+            elif error_type == 'label_error':
+                error_result.append(instance)
+                label_err_distribution = add_dict(label_err_distribution, temp_span)
+            elif error_type == 'redundant':
+                redundant_right_distribution = add_dict(redundant_right_distribution, temp_span)
+
+    print(f'整体数据分布：{total_num}')
+    print(f'正确答案数据分布：{correct_ans_num}')
+    print(f'错误答案数据分布：{incorrect_ans_num}')
+    print(f'无答案数据分布：{error_ans_num}')
+    print(f'正确论元，未产出答案的角色类型分布：{right_err_distribution}')
+    print(f'关系错误论元，未产出答案的角色类型分布：{label_err_distribution}')
+    print(f'边界错误论元，未产出答案的角色类型分布：{boundary_err_distribution}')
+    print(f'冗余识别论元，产出与候选匹配答案的角色类型分布：{redundant_err_distribution}')
+    print(f'正确论元，答案正确的角色类型分布：{right_right_distribution}')
+    print(f'关系错误论元，答案正确的角色类型分布：{label_right_distribution}')
+    print(f'边界错误论元，答案正确的角色类型分布：{boundary_right_distribution}')
+    print(f'冗余识别论元，未产出答案的角色类型分布：{redundant_right_distribution}')
+    print(f'正确论元，产出答案与候选不匹配的角色类型分布：{right_incorrect_distribution}')
+    print(f'关系错误论元，产出答案与候选不匹配的角色类型分布：{label_incorrect_distribution}')
+    print(f'边界错误论元，产出答案与候选不匹配的角色类型分布：{boundary_incorrect_distribution}')
+    print(f'冗余识别论元，产出答案与候选不匹配的角色类型分布：{redundant_incorrect_distribution}')    
+    
+    json.dump(error_result, open(path_save1, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) 
+    json.dump(incorrect_result, open(path_save2, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) 
+    return
+
+
+
+
 # 训练遍历TEST下每一个文件，针对每一个边缘概率对应角色进行问题生成
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # 只使用第 0 块 GPU
-    data = read_json(f'../llmout_question_answer/nw/nw-tc-test-ds-o1.json')
+    #data = read_json(f'../llmout_question_answer/nw/nw-tc-test-ds-o1.json')
     #path_llmout = f'question_answer_result/right_o1_no_ans.json'
     #path_llmout2 = f'question_answer_result/right_o1_incorrect_ans.json'
     #stas_accuracy(data, path_llmout, path_llmout2)
-    stas_core_accuracy(data)
+    #stas_core_accuracy(data)
+    data = read_json(f'question_generation_result/nw-bn-test-pattern-o1-simp.json')
+    path_llmout = f'question_generation_result/nw-bn-test-pattern-o1-noans.0212.json'
+    path_llmout2 = f'question_generation_result/nw-bn-test-pattern-o1-incorrectans.0212.json'
+    stas_accuracy_for_pattern_question(data, path_llmout, path_llmout2)

@@ -290,7 +290,7 @@ def LLM_prompt(data, path_save, path_save2):
     results_simple = []
 
     # 先看下是否之前已经跑了一些结果
-
+    temp_num = 0
     if os.path.exists(path_save):
         results = read_json(path_save)
         final_ins = results[-1]
@@ -318,40 +318,46 @@ def LLM_prompt(data, path_save, path_save2):
         prompt, flag = build_prompt(instance)
         if flag == 0 or flag == 1:
             flag_list.append(flag)
+            temp_num += 1
             res = prompt
+            # if flag == 1:
+            #     print(instance["selected_span"])
         else:
             if flag == 2:
                 flag_list.append(flag)
-            res =  get_completion(prompt)
-            res_data, res_tag = parse_response(instance, res)
-            if res_tag == True:
-                results_simple.append(res_data)
-        instance['response'] = res
-        results.append(instance)
+                # import pdb;pdb.set_trace()
+                # print(instance["selected_span"])
+        #     res =  get_completion(prompt)
+        #     res_data, res_tag = parse_response(instance, res)
+        #     if res_tag == True:
+        #         results_simple.append(res_data)
+        # instance['response'] = res
+        # results.append(instance)
 
-        json.dump(results, open(path_save, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) 
-        json.dump(results_simple, open(path_save2, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) # 只有大模型的结果
+        # json.dump(results, open(path_save, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) 
+        # json.dump(results_simple, open(path_save2, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) # 只有大模型的结果
     
     acc = stas_accuracy(results_simple)
     flag_num = Counter(flag_list)
     print("*"*30)
     print(f'frame file selected :{flag_num} \n Sum: {sum(flag_num.values())} \n All span: {len(data)} \n LLM deal: {len(data)-sum(flag_num.values())}')
-
+    print(f'flag=1 + flag=2的个数为： {temp_num}')
+    import pdb;pdb.set_trace()
     print("*"*30)
 
 
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
     dataset = ['test'] #dev, 
-    source = ['bn'] #["nw",  "bn", "bc" ]# 'bn'
-    target = ['nw'] #bn 
+    source = ['nw'] #["nw",  "bn", "bc" ]# 'bn'
+    target = ['tc'] #bn 
     for k in dataset:
         for i in source:
             for j in target:
                 print(f'{i}-{j}-{k}:')
                 data = read_json(f'../forllm_frames_newest/{i}/{i}-{j}-{k}.json')
-                path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llm.json'
-                path_llmout2 = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp.json'
+                path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llm-ceshi.json'
+                path_llmout2 = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp-ceshi.json'
                 LLM_prompt(data, path_llmout, path_llmout2)
                 print("工作保存完成！")
             

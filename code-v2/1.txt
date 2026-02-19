@@ -1,8 +1,16 @@
-正确分布-LLM判断正确：{'ARG0': 108, 'ADV': 35, 'DIS': 29, 'DIR': 16, 'PRP': 5, 'TMP': 33, 'MNR': 27, 'LVB': 2, 'ARG3': 6, 'ARG1': 117, 'ADJ': 13, 'ARG2': 54, 'MOD': 25, 'LOC': 14, 'NEG': 12, 'ARG4': 5, 'PRD': 1, 'CAU': 5, 'EXT': 4, 'GOL': 1, 'PNC': 1}
-正确分布-LLM判断错误：{'ARG1': 47, 'TMP': 29, 'ARG0': 14, 'DIS': 4, 'ARG2': 12, 'MOD': 4, 'CAU': 6, 'MNR': 14, 'PRD': 2, 'LOC': 5, 'ADV': 3, 'PRP': 1, 'DIR': 3}
-标签错误分布-LLM判断正确：{'ARG1': 37, 'LOC': 13, 'ARG0': 13, 'TMP': 11, 'ARG2': 19, 'ARG3': 1, 'ADV': 8, 'DIR': 3, 'PNC': 6, 'MNR': 10, 'GOL': 1, 'ARG4': 1, 'PRD': 3, 'PRP': 3, 'CAU': 3, 'DIS': 2}
-标签错误分布-LLM判断错误：{'ADV': 32, 'LOC': 8, 'ARG0': 5, 'DIR': 15, 'MNR': 18, 'ADJ': 5, 'TMP': 10, 'ARG1': 10, 'ARG2': 10, 'DIS': 7, 'PNC': 10, 'NEG': 1, 'EXT': 7, 'ARG3': 1, 'PRD': 4, 'PRP': 1, 'GOL': 1}
-边界错误分布-LLM判断正确：{'ARG1': 9, 'ARG2': 6, 'MNR': 1, 'TMP': 1, 'ARG0': 3, 'DIS': 1, 'LOC': 1}
-边界错误分布-LLM判断错误：{'TMP': 7, 'ARG4': 2, 'ARG1': 14, 'ARG2': 9, 'PRP': 1, 'ADJ': 1, 'ARG0': 1, 'DIR': 2, 'ARG3': 1}
-冗余错误分布-LLM判断正确：{'TMP': 16, 'ARG2': 7, 'ARG1': 42, 'MOD': 18, 'ADV': 21, 'LOC': 12, 'ARG0': 31, 'DIR': 4, 'PRD': 3, 'MNR': 7, 'COM': 2, 'LVB': 1, 'PNC': 3, 'ARG3': 1, 'DIS': 3, 'CAU': 2, 'ADJ': 2, 'NEG': 1}
-冗余错误分布-LLM判断错误：{'LOC': 6, 'TMP': 11, 'DIS': 5, 'ARG0': 18, 'CAU': 3, 'MNR': 1, 'ARG1': 17, 'ARG2': 4, 'ADV': 21, 'EXT': 1, 'MOD': 2, 'DIR': 8, 'PNC': 1, 'ARG3': 3, 'LVB': 3, 'PRP': 1, 'GOL': 1, 'ADJ': 1}
+整体数据分布：{'right': 363, 'label_error': 136, 'boundary_error': 45, 'redundant': 145}
+正确答案数据分布：{'right': 211, 'label_error': 70, 'boundary_error': 19, 'redundant': 47}
+错误答案数据分布：{'right': 102, 'label_error': 38, 'boundary_error': 20, 'redundant': 69}
+无答案数据分布：{'right': 50, 'label_error': 28, 'boundary_error': 6, 'redundant': 29}
+正确论元，未产出答案的角色类型分布：{'ARG3': 1, 'ARG0': 17, 'ARG1': 21, 'ARG2': 11}
+关系错误论元，未产出答案的角色类型分布：{'TMP': 3, 'ARG3': 2, 'ARG1': 7, 'ARG2': 3, 'MNR': 1, 'ARG0': 4, 'DIR': 3, 'ADV': 1, 'PRP': 1, 'EXT': 1, 'LOC': 1, 'PNC': 1}
+边界错误论元，未产出答案的角色类型分布：{'ARG2': 1, 'ARG1': 5}
+冗余识别论元，产出与候选匹配答案的角色类型分布：{'ARG0': 24, 'ARG2': 4, 'ARG1': 18, 'ARG3': 1}
+正确论元，答案正确的角色类型分布：{'ARG0': 79, 'ARG1': 88, 'ARG3': 2, 'ARG2': 37, 'ARG4': 5}
+关系错误论元，答案正确的角色类型分布：{'ARG1': 21, 'ARG0': 6, 'DIR': 11, 'ARG4': 3, 'TMP': 3, 'ARG3': 2, 'ARG2': 6, 'MNR': 7, 'ADV': 4, 'LOC': 1, 'PRP': 1, 'ARG5': 1, 'PRD': 2, 'PNC': 1, 'GOL': 1}
+边界错误论元，答案正确的角色类型分布：{'ARG4': 1, 'ARG1': 9, 'ARG2': 6, 'ARG0': 2, 'ARG3': 1}
+冗余识别论元，未产出答案的角色类型分布：{'ARG1': 11, 'ARG0': 9, 'ARG2': 7, 'ARG3': 2}
+正确论元，产出答案与候选不匹配的角色类型分布：{'ARG0': 26, 'ARG1': 55, 'ARG2': 18, 'ARG3': 3}
+关系错误论元，产出答案与候选不匹配的角色类型分布：{'ARG1': 9, 'ARG0': 8, 'ARG2': 5, 'LOC': 2, 'ADJ': 1, 'ADV': 3, 'TMP': 3, 'ARG4': 1, 'DIR': 3, 'PRP': 1, 'MNR': 1, 'PNC': 1}
+边界错误论元，产出答案与候选不匹配的角色类型分布：{'ARG1': 9, 'ARG2': 8, 'ARG0': 2, 'ARG4': 1}
+冗余识别论元，产出答案与候选不匹配的角色类型分布：{'ARG2': 6, 'ARG1': 37, 'ARG0': 22, 'ARG3': 3, 'ARG4': 1}

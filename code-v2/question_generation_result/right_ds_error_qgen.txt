@@ -1,0 +1,174 @@
+8 	 I kind of want to 	 want 	 4 	 to 	 ARG1 	 [4, 5] 	 right 	 no 	  	 None
+10 	 but I would not feel comfortable going . 	 feel 	 5 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+14 	 oh I 'm han- 	 'm 	 3 	 oh 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+19 	 oh well the thing is your whole life has been around her mhm . more or less 	 is 	 5 	 oh well 	 ARGM-DIS 	 [0, 2] 	 right 	 no 	  	 None
+26 	 but it has to be debited from a bank account so it 's got to be debited from his . 	 got 	 14 	 it 	 ARG0 	 [11, 12] 	 right 	 no 	  	 None
+27 	 And they 're doing great . 	 doing 	 4 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+39 	 oh , I 'm sorry we 're going to miss her . 	 'm 	 4 	 oh 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+50 	 And she 's teaching at U R I . 	 teaching 	 4 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+66 	 But then I 've already made say like fifteen thousand or whatever here in Washington 	 made 	 6 	 But 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+69 	 %uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either , 	 be 	 19 	 would 	 ARGM-MOD 	 [16, 17] 	 right 	 no 	  	 None
+73 	 But almighty God is 	 is 	 4 	 But 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+80 	 Alice , I 've never seen anybody eat as much as he does 	 seen 	 6 	 Alice 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+89 	 I actually got to see her I guess a day before she died . 	 guess 	 8 	 I 	 ARG0 	 [6, 7] 	 right 	 no 	  	 None
+92 	 Anyway , he 's enjoying it and liking it 	 liking 	 8 	 Anyway 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+93 	 And , %um , you know , their life is a lot less complicated , 	 is 	 10 	 %um 	 ARGM-DIS 	 [2, 3] 	 right 	 no 	  	 None
+96 	 and she said that if it was n't for Jetta you know Jasmine 's daddy would n't be 	 said 	 3 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+98 	 I just would n't go . 	 go 	 5 	 just 	 ARGM-ADV 	 [1, 2] 	 right 	 no 	  	 None
+99 	 well she does n't run 	 run 	 5 	 n't 	 ARGM-NEG 	 [3, 4] 	 right 	 no 	  	 None
+105 	 Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are , 	 say 	 4 	 would 	 ARGM-MOD 	 [2, 3] 	 right 	 no 	  	 None
+114 	 And if you do , I 'll send it by email okay if I get it before this weekend 	 send 	 8 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+117 	 And this made writing my thesis very annoying because you know there was n't much discussion . 	 was 	 13 	 n't 	 ARGM-NEG 	 [13, 14] 	 right 	 no 	  	 None
+118 	 so you might as well spend the time . 	 spend 	 6 	 so 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+122 	 well unfortunately for some reason she 's not like into cardio vascular . 	 's 	 7 	 well 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+124 	 So he found this new job as a financial consultant and seems to be happy with that . 	 found 	 3 	 So 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+127 	 and I still would like to be welcome in my own country . 	 like 	 5 	 still 	 ARGM-TMP 	 [2, 3] 	 right 	 no 	  	 None
+131 	 but You 'll be a student 	 be 	 4 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+137 	 Well that 's good . 	 's 	 3 	 Well 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+146 	 but she crawls real fast . 	 crawls 	 3 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+151 	 and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child . 	 acting 	 23 	 just 	 ARGM-ADV 	 [20, 21] 	 right 	 no 	  	 None
+153 	 And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier , 	 went 	 14 	 monetary value 	 ARG1 	 [11, 13] 	 right 	 no 	  	 None
+159 	 but yeah if you just separate normally and you have n't served at least eight years , then you owe it . 	 owe 	 20 	 yeah 	 ARGM-DIS 	 [1, 2] 	 right 	 no 	  	 None
+161 	 And so I think they told me that . 	 think 	 4 	 so 	 ARGM-DIS 	 [1, 2] 	 right 	 no 	  	 None
+162 	 And that 's one of those things they just never tell you up front . 	 tell 	 11 	 just 	 ARGM-ADV 	 [8, 9] 	 right 	 no 	  	 None
+164 	 And %uh Ron and Doris sent us a picture of theirs 	 sent 	 6 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+169 	 but yeah if you just separate normally and you have n't served at least eight years , then you owe it . 	 separate 	 6 	 just 	 ARGM-ADV 	 [4, 5] 	 right 	 no 	  	 None
+172 	 yet their experiments showed it as a driven frequency . 	 showed 	 4 	 yet 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+184 	 Well , %um actually I think this phone call 's just about to end cause it 's only half an hour , 	 think 	 6 	 actually 	 ARGM-ADV 	 [3, 4] 	 right 	 no 	  	 None
+194 	 She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing . 	 qualified 	 13 	 really 	 ARGM-ADV 	 [9, 10] 	 right 	 no 	  	 None
+195 	 And then , are you coming over to the States at all this summer ? 	 coming 	 6 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+199 	 but that 's only when yo- . 	 's 	 3 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+201 	 So you have no intentions of coming over this way any time soon ? 	 have 	 3 	 So 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+205 	 And then %um , I 'm not exactly sure what it is now . 	 'm 	 6 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+208 	 it has an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless . 	 makes 	 15 	 which 	 R-ARG0 	 [13, 14] 	 right 	 no 	  	 None
+222 	 And I was paid too . 	 paid 	 4 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+232 	 Well did she come home and say I saw her , I look like her or what ? 	 say 	 7 	 Well 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+234 	 But I still need to go more often . 	 need 	 4 	 But 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+244 	 and , who would have ever thought it though , 	 thought 	 7 	 though 	 ARGM-ADV 	 [8, 9] 	 right 	 no 	  	 None
+248 	 so when they broke in the second time did they steal the %uh offboard amplifier ? 	 steal 	 11 	 so 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+252 	 so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science . 	 pushing 	 4 	 so 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+261 	 and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with . 	 spending 	 6 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+264 	 So if you do n't have any ideas we 'll just put something together for you . 	 put 	 12 	 just 	 ARGM-ADV 	 [10, 11] 	 right 	 no 	  	 None
+266 	 Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know 	 know 	 22 	 you 	 ARG0 	 [20, 21] 	 right 	 no 	  	 None
+267 	 well it seemed to make sense since I had a client to just kind of set up my own company , of sorts . 	 make 	 5 	 it 	 ARG0 	 [1, 2] 	 right 	 no 	  	 None
+274 	 And then %um , I 'm not exactly sure what it is now . 	 'm 	 6 	 then 	 ARGM-TMP 	 [1, 2] 	 right 	 no 	  	 None
+280 	 It 's probably easier for me to come by public transport in Amsterdam than it is for me to come by car to be honest . 	 come 	 20 	 me 	 ARG1 	 [17, 18] 	 right 	 no 	  	 None
+295 	 And he just keeps forgetting . 	 keeps 	 4 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+299 	 oh he did tell you . 	 tell 	 4 	 oh 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+305 	 And she said the students are just , 	 said 	 3 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+308 	 And there was n't anything anybody could do . 	 was 	 3 	 n't 	 ARGM-NEG 	 [3, 4] 	 right 	 no 	  	 None
+316 	 At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer . 	 make 	 6 	 Well 	 ARGM-DIS 	 [2, 3] 	 right 	 no 	  	 None
+317 	 I said to Mark oh my god . What 's she going to say 	 say 	 14 	 What 	 ARG1 	 [8, 9] 	 right 	 no 	  	 None
+321 	 or maybe I 'll just call you when we get in Holland just to let you know we 're there , 	 let 	 15 	 just 	 ARGM-ADV 	 [12, 13] 	 right 	 no 	  	 None
+322 	 And so you should n't actually really be able to ever see it . 	 be 	 8 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+334 	 And I was having a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven . 	 driven 	 29 	 not 	 ARGM-NEG 	 [27, 28] 	 right 	 no 	  	 None
+336 	 And %uh , I turned in my Master 's thesis back in May , 	 turned 	 5 	 %uh 	 ARGM-DIS 	 [1, 2] 	 right 	 no 	  	 None
+340 	 or maybe I 'll just call you when we get in Holland just to let you know we 're there , 	 call 	 6 	 maybe 	 ARGM-ADV 	 [1, 2] 	 right 	 no 	  	 None
+344 	 And at her sister 's wedding %uh , they provided champagne and beer . 	 provided 	 10 	 %uh 	 ARGM-DIS 	 [6, 7] 	 right 	 no 	  	 None
+345 	 or maybe I 'll just call you when we get in Holland just to let you know we 're there , 	 call 	 6 	 or 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+354 	 and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the 	 saw 	 4 	 then 	 ARGM-TMP 	 [1, 2] 	 right 	 no 	  	 None
+357 	 if that was you , yeah . yeah , she was just not in 	 was 	 11 	 in 	 ARG2 	 [13, 14] 	 right 	 no 	  	 None
+360 	 %um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see . 	 think 	 16 	 maybe 	 ARGM-ADV 	 [13, 14] 	 right 	 no 	  	 None
+362 	 Well he 's working for an American firm over here , 	 working 	 4 	 Well 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+365 	 %ah , you know I would n't trust it because it 's so complicated with this international garbage or else the Turbo Tax with the Dutch modules . that I just would n't trust it . 	 trust 	 8 	 would 	 ARGM-MOD 	 [5, 6] 	 right 	 no 	  	 None
+370 	 I do n't know if you spoke to me before that or when it was that was happening . Or 	 happening 	 18 	 that 	 ARG1 	 [15, 16] 	 right 	 no 	  	 None
+372 	 And then an aunt of Chris 's Aunt Mamie up in Maine passed away . 	 passed 	 13 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+376 	 but she was in a place called Taiwa . 	 was 	 3 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+383 	 So if you do n't have any ideas we 'll just put something together for you . 	 put 	 12 	 So 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+384 	 But , %uh , we want to write a letter , and then a couple articles . 	 want 	 6 	 %uh 	 ARGM-DIS 	 [2, 3] 	 right 	 no 	  	 None
+388 	 Well it 's hard to you know not eat when somebody else is eating . 	 's 	 3 	 Well 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+395 	 I kind of want to 	 want 	 4 	 kind of 	 ARGM-ADV 	 [1, 3] 	 right 	 no 	  	 None
+406 	 and then Dutch it 's Mifrau 	 's 	 5 	 then 	 ARGM-TMP 	 [1, 2] 	 right 	 no 	  	 None
+411 	 And so %uh , that 's yeah at least dealt with . 	 dealt 	 10 	 at least 	 ARGM-ADV 	 [7, 9] 	 right 	 no 	  	 None
+417 	 oh well the thing is your whole life has been around her mhm . more or less 	 been 	 10 	 more or less 	 ARGM-ADV 	 [14, 17] 	 right 	 no 	  	 None
+423 	 you know even after you left I said , I just hope Arlita knows that you know I tried my best you know 	 know 	 23 	 you 	 ARG0 	 [21, 22] 	 right 	 no 	  	 None
+424 	 And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier , 	 was 	 18 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+426 	 The only thing is , that , when you do the experiment you see it . 	 do 	 10 	 when 	 ARGM-TMP 	 [7, 8] 	 right 	 no 	  	 None
+427 	 and they 'll still be enough time when I come home for me to order those . 	 be 	 5 	 'll 	 ARGM-MOD 	 [2, 3] 	 right 	 no 	  	 None
+430 	 but I would not feel comfortable going . 	 feel 	 5 	 would 	 ARGM-MOD 	 [2, 3] 	 right 	 no 	  	 None
+436 	 and then we can make arrangements that day %um , that I can meet you in Amsterdam . 	 make 	 5 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+437 	 actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature . 	 turns 	 3 	 actually 	 ARGM-ADV 	 [0, 1] 	 right 	 no 	  	 None
+444 	 No that had not happened , no . 	 happened 	 5 	 no 	 ARGM-DIS 	 [6, 7] 	 right 	 no 	  	 None
+451 	 She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing . 	 feel 	 24 	 really 	 ARGM-ADV 	 [20, 21] 	 right 	 no 	  	 None
+452 	 So , it actually creates a situation where you get the right sort of answer , you just ca n't always write it down very easily . 	 creates 	 5 	 So 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+455 	 and I 'm actually presently working on , %um , several , %uh , articles oh , okay . Impressive . from it . 	 working 	 6 	 actually 	 ARGM-ADV 	 [3, 4] 	 right 	 no 	  	 None
+456 	 And that thing that came up recently , , you know I had , oh , a kind of a knee problem a couple of years ago . 	 had 	 13 	 oh 	 ARGM-DIS 	 [14, 15] 	 right 	 no 	  	 None
+468 	 but if you do n't get email then just call Anya 's parents 	 call 	 10 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+470 	 but we 'll still owe some taxes . 	 owe 	 5 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+480 	 So we 'll just see . You know 	 know 	 8 	 You 	 ARG0 	 [6, 7] 	 right 	 no 	  	 None
+484 	 Well , , Leo 's big . You know , 	 's 	 5 	 Well 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+486 	 Unless you became C E O of the company then maybe like a thousand dollars would be taxable , right ? 	 be 	 17 	 maybe 	 ARGM-ADV 	 [10, 11] 	 right 	 no 	  	 None
+488 	 I do n't know , %eh . 	 know 	 4 	 %eh 	 ARGM-DIS 	 [5, 6] 	 right 	 no 	  	 None
+489 	 So you guys should pick out the things you want to see and let me know . 	 pick 	 5 	 So 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+495 	 Apparently they were also carrying lillies which is kind of goofy . 	 carrying 	 5 	 Apparently 	 ARGM-ADV 	 [0, 1] 	 right 	 no 	  	 None
+498 	 but -- oh it is . it 's pretty de classe . 	 's 	 8 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+506 	 and mhm %um you know . It feels like maybe she made a compromise 	 know 	 5 	 you 	 ARG0 	 [3, 4] 	 right 	 no 	  	 None
+515 	 %uh would you mind %uh taking her back 	 mind 	 4 	 would 	 ARGM-MOD 	 [1, 2] 	 right 	 no 	  	 None
+524 	 you can just call her Missus and speak English to her . 	 speak 	 8 	 just 	 ARGM-ADV 	 [2, 3] 	 right 	 no 	  	 None
+529 	 but that 's what he said . 	 's 	 3 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+544 	 And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency , 	 was 	 7 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+546 	 And so I think they told me that . 	 think 	 4 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+547 	 And so it 's 	 's 	 4 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+552 	 %um , actually right at the moment finances are not going real well . 	 going 	 11 	 actually 	 ARGM-ADV 	 [2, 3] 	 right 	 no 	  	 None
+562 	 well it seemed to make sense since I had a client to just kind of set up my own company , of sorts . 	 set 	 16 	 just 	 ARGM-ADV 	 [12, 13] 	 right 	 no 	  	 None
+565 	 %uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either , 	 be 	 19 	 either 	 ARGM-ADV 	 [21, 22] 	 right 	 no 	  	 None
+567 	 I figured there was something like that because 	 figured 	 2 	 because 	 ARGM-CAU 	 [7, 8] 	 right 	 no 	  	 None
+570 	 so I decided that it would make sense to do this . 	 decided 	 3 	 so 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+576 	 and so we met , %um , %uh Adrian , their kid , who was three uh-huh . and just a really lovely little boy . 	 met 	 4 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+578 	 so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science . 	 is 	 16 	 whatever 	 ARG2 	 [13, 14] 	 right 	 no 	  	 None
+579 	 So you guys should pick out the things you want to see and let me know . 	 let 	 14 	 So 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+580 	 So , it actually creates a situation where you get the right sort of answer , you just ca n't always write it down very easily . 	 write 	 22 	 just 	 ARGM-ADV 	 [17, 18] 	 right 	 no 	  	 None
+589 	 Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there . 	 get 	 12 	 obviously 	 ARGM-ADV 	 [4, 5] 	 right 	 no 	  	 None
+590 	 So I probably will come by public transport 	 come 	 5 	 So 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+591 	 and then she came over here , and %um , checked out a room here . 	 came 	 4 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+596 	 and then she came over here , and %um , checked out a room here . 	 checked 	 11 	 then 	 ARGM-TMP 	 [1, 2] 	 right 	 no 	  	 None
+601 	 And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency , 	 show 	 52 	 could 	 ARGM-MOD 	 [49, 50] 	 right 	 no 	  	 None
+609 	 you know that 's 	 's 	 4 	 that 	 ARG1 	 [2, 3] 	 right 	 no 	  	 None
+623 	 If not , call Anya 's parents if you do n't have a new phone number for me . 	 call 	 4 	 If not 	 ARGM-ADV 	 [0, 2] 	 right 	 no 	  	 None
+630 	 and %um it 's just been quite interesting although when she was in Rhode Island she was very disruptive , %um down there and really caused Francis a lot of stress 	 been 	 6 	 just 	 ARGM-ADV 	 [4, 5] 	 right 	 no 	  	 None
+632 	 %uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either , 	 be 	 19 	 probably 	 ARGM-ADV 	 [15, 16] 	 right 	 no 	  	 None
+639 	 Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are , 	 call 	 19 	 n't 	 ARGM-NEG 	 [16, 17] 	 right 	 no 	  	 None
+648 	 I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself , 	 go 	 13 	 ca 	 ARGM-MOD 	 [10, 11] 	 right 	 no 	  	 None
+650 	 And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that . 	 brings 	 8 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+657 	 but she 's working very hard . 	 working 	 4 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+660 	 %um , the only way to be a dual citizen is if you 're born in a foreign country 	 is 	 11 	 %um 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+662 	 and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the 	 saw 	 4 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+664 	 like if I were born in Holland and then had American parents . Then I could be a dual citizen . 	 be 	 17 	 Then 	 ARGM-TMP 	 [13, 14] 	 right 	 no 	  	 None
+665 	 And maybe I 'll come by , public transport . 	 come 	 5 	 maybe 	 ARGM-ADV 	 [1, 2] 	 right 	 no 	  	 None
+671 	 but yeah if you just separate normally and you have n't served at least eight years , then you owe it . 	 owe 	 20 	 but 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+673 	 And so you should n't actually really be able to ever see it . 	 be 	 8 	 actually 	 ARGM-ADV 	 [5, 6] 	 right 	 no 	  	 None
+678 	 And then , are you coming over to the States at all this summer ? 	 coming 	 6 	 then 	 ARGM-TMP 	 [1, 2] 	 right 	 no 	  	 None
+682 	 well she does n't run 	 run 	 5 	 well 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+683 	 And %uh , I turned in my Master 's thesis back in May , 	 turned 	 5 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+688 	 and then next year it 'll be eleven thousand . 	 be 	 7 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+693 	 it 'll probably be about five thousand dollars the portion of this year that I 'm in Oregon 	 'm 	 16 	 that 	 R-ARGM-TMP 	 [13, 14] 	 right 	 no 	  	 None
+695 	 But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this , 	 was 	 6 	 But 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+702 	 And what 's actually kind of interesting is I kept telling Neil that I thought that this was kind of significant . 	 is 	 8 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+709 	 %uh would you mind %uh taking her back 	 mind 	 4 	 %uh 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+710 	 And so you should n't actually really be able to ever see it . 	 be 	 8 	 really 	 ARGM-ADV 	 [6, 7] 	 right 	 no 	  	 None
+711 	 and , who would have ever thought it though , 	 thought 	 7 	 who 	 ARG0 	 [2, 3] 	 right 	 no 	  	 None
+720 	 And at her sister 's wedding %uh , they provided champagne and beer . 	 provided 	 10 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+723 	 and she said that if it was n't for Jetta you know Jasmine 's daddy would n't be 	 be 	 18 	 would 	 ARGM-MOD 	 [15, 16] 	 right 	 no 	  	 None
+724 	 Which was actually where the major problem came . Exactly . Exactly . yeah . Is that I suddenly had no transportation . 	 came 	 8 	 where 	 ARG2 	 [3, 4] 	 right 	 no 	  	 None
+732 	 but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t- 	 reserved 	 13 	 where 	 R-ARGM-LOC 	 [9, 10] 	 right 	 no 	  	 None
+752 	 Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are , 	 let 	 24 	 n't 	 ARGM-NEG 	 [16, 17] 	 right 	 no 	  	 None
+754 	 and all I had to do was get on it and follow it . 	 was 	 7 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+771 	 Well , %um actually I think this phone call 's just about to end cause it 's only half an hour , 	 think 	 6 	 Well 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+776 	 just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before . 	 met 	 24 	 at least 	 ARGM-ADV 	 [21, 23] 	 right 	 no 	  	 None
+779 	 and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting . 	 means 	 8 	 also 	 ARGM-DIS 	 [1, 2] 	 right 	 no 	  	 None
+782 	 At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer . 	 make 	 6 	 that 	 ARG0 	 [3, 4] 	 right 	 no 	  	 None
+785 	 and then we can make arrangements that day %um , that I can meet you in Amsterdam . 	 make 	 5 	 then 	 ARGM-TMP 	 [1, 2] 	 right 	 no 	  	 None
+787 	 And then they operated on 	 operated 	 4 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+791 	 %um , actually , I 'm not sure if we 're shooting for op- , 	 'm 	 6 	 actually 	 ARGM-ADV 	 [2, 3] 	 right 	 no 	  	 None
+796 	 So when I 'm still riding the bike she 's completely finished her weight lifting routine . 	 riding 	 6 	 still 	 ARGM-TMP 	 [4, 5] 	 right 	 no 	  	 None
+801 	 Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know 	 play 	 10 	 she 	 ARG0 	 [3, 4] 	 right 	 no 	  	 None
+812 	 so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that . 	 get 	 19 	 when 	 ARGM-TMP 	 [16, 17] 	 right 	 no 	  	 None
+816 	 so I just got to pray that they 	 got 	 4 	 so 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+818 	 You know everybody 's kind of passed away , almost . 	 passed 	 7 	 almost 	 ARGM-ADV 	 [9, 10] 	 right 	 no 	  	 None
+823 	 So I do n't know 	 know 	 5 	 So 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+826 	 there would be a minimum amount of work , of about %uh , a day a week for the next two three years . mhm . Which is sufficient to pay all my bills then 	 is 	 28 	 Which 	 R-ARG1 	 [26, 27] 	 right 	 no 	  	 None
+827 	 the sins of your parents will be waged back at you , %hm . you know , 	 waged 	 8 	 back 	 ARGM-DIR 	 [8, 9] 	 right 	 no 	  	 None
+828 	 and now it 's my left knee . 	 's 	 4 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+829 	 and there 's no parking . 	 's 	 3 	 and 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+834 	 And then they operated on it once , 	 operated 	 4 	 And 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None
+836 	 Well it 's good to hear from Francis who 's had a lot of child- 	 's 	 3 	 Well 	 ARGM-DIS 	 [0, 1] 	 right 	 no 	  	 None

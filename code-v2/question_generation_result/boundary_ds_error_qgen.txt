@@ -1,0 +1,12 @@
+5 	 I found a gym yesterday here that 's only eight pounds a month which is like twelve dollars , twelve fifty 	 found 	 2 	 yesterday here 	 ARGM-TMP 	 [4, 6] 	 boundary_error 	 no 	  	 None
+54 	 %um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen . 	 said 	 6 	 %um and again 	 ARGM-TMP 	 [0, 3] 	 boundary_error 	 no 	  	 None
+182 	 So , %uh oh , yeah . things are busy . 	 are 	 9 	 yeah 	 ARGM-DIS 	 [5, 6] 	 boundary_error 	 no 	  	 None
+269 	 and yeah . she 's accepted that there 's a lot of good things in Rhode Island . 	 accepted 	 6 	 yeah 	 ARGM-DIS 	 [1, 2] 	 boundary_error 	 no 	  	 None
+290 	 Well I 'm figuring it out fast because -- okay -- with not working out and all yeah . it 's pretty miserable my crunch tape . 	 's 	 21 	 all yeah 	 ARGM-ADV 	 [16, 18] 	 boundary_error 	 no 	  	 None
+363 	 just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before . 	 met 	 24 	 before 	 ARGM-TMP 	 [25, 26] 	 boundary_error 	 no 	  	 None
+397 	 I said to Mark oh my god . What 's she going to say 	 said 	 2 	 What 	 ARG1 	 [8, 9] 	 boundary_error 	 no 	  	 None
+442 	 Well it 's good to hear from Francis who 's had a lot of child- 	 hear 	 6 	 from Francis who 's had a lot of 	 ARG2 	 [6, 14] 	 boundary_error 	 no 	  	 None
+666 	 I think what we got to do is just when he comes just have lots of cereal . 	 have 	 14 	 just when he comes 	 ARGM-TMP 	 [8, 12] 	 boundary_error 	 no 	  	 None
+675 	 Is it paid today ? 	 Is 	 1 	 paid today 	 ARG2 	 [2, 4] 	 boundary_error 	 no 	  	 None
+705 	 Which was actually where the major problem came . Exactly . Exactly . yeah . Is that I suddenly had no transportation . 	 Is 	 16 	 Which 	 ARG1 	 [0, 1] 	 boundary_error 	 no 	  	 None
+736 	 I 'll tell dad that you still think about the 	 think 	 8 	 the 	 ARG2 	 [9, 10] 	 boundary_error 	 no 	  	 None
