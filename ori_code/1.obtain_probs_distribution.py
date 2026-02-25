@@ -86,7 +86,7 @@ def obtain_spans_set(data):
         
     spans_set_dic["all_gold_spans"] = all_gold_spans
     spans_set_dic['all_pred_spans'] = all_pred_spans
-    spans_set_dic['all_candidate_spans'] = all_candidate_spans
+    spans_set_dic['all_candidate_spans'] = all_candidate_spans_temp
     all_candidate_spans_dic = {temp_key:0 for temp_key in all_candidate_spans}
     # spans_set_dic['all_mpi']  = all_mpi
     print(sen_idx)
@@ -114,7 +114,7 @@ if __name__=="__main__":
     # 'bc','nw' 'test'
     dataset = [ 'test'] #dev, 
     source = [ "nw"]# 'bn''bn', 'nw', 'bc', 
-    target = ['tc']
+    target = ['bn']
     for k in dataset:
         for i in source:
             for j in target:
