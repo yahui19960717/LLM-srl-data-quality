@@ -1,1 +1,0 @@
-print(all(temp_key in all_candidate_spans_dic for temp_key in all_gold_spans))
