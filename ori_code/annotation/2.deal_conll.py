@@ -208,5 +208,6 @@ if __name__ == "__main__":
     print(f'gold core number is : {number_core}')
     # 去除 be 动词之后的谓词个数为 ： 1455
     # 全部的谓词个数为：  1766    
+    # 2132
 
   

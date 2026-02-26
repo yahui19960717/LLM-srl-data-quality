@@ -96,7 +96,7 @@ def obtain_spans_set(data):
     #     if key not in all_candidate_spans.keys():
     #         import pdb;pdb.set_trace()
     print(all(temp_key in all_candidate_spans_dic for temp_key in all_gold_spans)) # 这里出现错误 gold的结果在candidate里面找不到很奇怪
-    import pdb;pdb.set_trace()
+    print(len(spans_set_dic))
     return spans_set_dic
     
 def get_all_spans_set(data, file_out):
@@ -120,7 +120,7 @@ if __name__=="__main__":
             for j in target:
                 print(f'{i}-{j}-{k}:')
                 path = f"../data-pt/{k}/{i}-{j}-{k}.pt"
-                file_out = f"../prob_distribution/{i}/{i}-{j}-{k}-distribution.pt"
+                file_out = f"../prob_distribution/{i}/{i}-{j}-{k}-distribution-maximum.pt"
                 run(path, file_out)
    
 

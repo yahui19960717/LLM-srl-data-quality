@@ -47,7 +47,7 @@ def get_semicrf_results(gold_data, index_data, path):
 
     write_json(new_data, path)
     print(f"core : {num_core}, overlap : {num_overlap}")
-
+    #2125
 
 if __name__=="__main__":
     domain = "bn"
