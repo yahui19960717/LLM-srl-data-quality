@@ -62,68 +62,69 @@ def get_prd_labels_dic(gold_sentences, pred_sentences):
     return pred_sentences
 
 def get_highprob_labels(distributions, data, index_data, path_out): # candidate是包含了所有gold结果、semicrf的预测结果等,找到预测结果高的
-    new_data = {}
+    new_data = []
     core_label = {'ARG0':0, 'ARG1':0, 'ARG2':0, 'ARG3':0, 'ARG4':0, 'ARG5':0}
     num_core, num_overlap1, num_overlap2, num_overlap3, all_num = 0, 0, 0, 0, 0
     non_core_num =  0
     error_num = 0
     num_gt, num_lt = 0, 0
     core_num_highprob = 0
-    data_in_highprob_arg_num = 0
-    temp_num = 0
+
     all_candidate_spans = distributions['all_candidate_spans']
     all_pred_spans = distributions['all_pred_spans']
     all_candidate_spans_dic = {temp_key:0 for temp_key in all_candidate_spans}
     print(all(temp_key in all_candidate_spans_dic for temp_key in all_pred_spans))
     all_candidate_spans_dic = {temp_key:0 for temp_key in all_candidate_spans}
-    highprob_dic = defaultdict(dict)
+    highprob_dic = defaultdict(lambda: defaultdict(dict))
     for key in all_candidate_spans_dic.keys():
         sen = " ".join(index_data[str(key[0])][0])
         prd = str(key[1])
         if key[-1] >= 0.5:
             num_gt += 1
-            highprob_dic[" ".join([sen, prd])][conll12_label[key[4]]] = [key[2], key[3]]
+            highprob_dic[" ".join([sen, prd])][conll12_label[key[4]]]["\t".join([str(key[2]), str(key[3])])] = key[5]
+            # highprob_dic_prob[" ".join([sen, prd])][conll12_label[key[4]]].append([key[2], key[3], key[5]])
             if conll12_label[key[4]] in core_label:
                 core_num_highprob += 1
-        else:
-            num_lt += 1
-            highprob_dic[" ".join([sen, prd])] = {}
-        # if len(highprob_dic[" ".join([sen, prd])]) >= 2:
-        #     import pdb;pdb.set_trace()
+  
     for key in data:
         sen = key['sen']
         prd = str(key['pred.idx'])
         temp = " ".join([sen, prd])
-        if temp in highprob_dic.keys():
+        if temp in highprob_dic.keys(): # 找到highprob对应的句子谓词
             key['high_mp'] = {}
             all_num += 1
-            data_in_highprob_arg_num += len(highprob_dic[temp])
             for ele in highprob_dic[temp]:
-                temp_num += 1
-                # import pdb;pdb.set_trace()
+                temp_high_mp  = highprob_dic[temp][ele]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
                 if ele in core_label.keys() :
-                        if ele in key['gold'].keys() and highprob_dic[temp][ele] == key['gold'][ele]:
+                        if ele in key['gold'].keys() and "\t".join([str(x) for x in key['gold'][ele][:2]]) in highprob_dic[temp][ele]:
                             num_overlap1 += 1
-                        elif ele in key['semicrf_label'].keys() and highprob_dic[temp][ele] == key['semicrf_label'][ele]:
+                            # import pdb;pdb.set_trace()
+                            temp_high_mp.pop("\t".join([str(x) for x in key['gold'][ele][:2]]))
+                            key['high_mp'][ele]= temp_high_mp
+                        elif ele in key['semicrf_label'].keys() and "\t".join([str(x) for x in key['semicrf_label'][ele][:2]]) in highprob_dic[temp][ele]:
                             num_overlap2 += 1
-                        elif ele in key['treecrf_label'].keys() and highprob_dic[temp][ele] == key['treecrf_label'][ele]:
-                            # print(3)
+                            temp_high_mp.pop("\t".join([str(x) for x in key['semicrf_label'][ele][:2]]))
+                            key['high_mp'][ele]= temp_high_mp
+                        elif ele in key['treecrf_label'].keys() and "\t".join([str(x) for x in key['treecrf_label'][ele][:2]]) in highprob_dic[temp][ele]:
                             num_overlap3 += 1
-                            # import pdb;pdb.set_trace()
+                            temp_high_mp.pop( "\t".join([str(x) for x in key['treecrf_label'][ele][:2]]))
+                            key['high_mp'][ele]= temp_high_mp
                         else:
-                            num_core += 1 # 不重叠的
-                            key['high_mp'][ele]= highprob_dic[temp][ele]
-                            # import pdb;pdb.set_trace()
+                            key['high_mp'][ele]= temp_high_mp      # import pdb;pdb.set_trace()
                 else:
                     # 对核心论元都是比较确性的
                     non_core_num += 1
+        
         else:   
             print(temp)
             print(key)
             error_num += 1
+            key['high_mp'] = {}
+        new_data.append(key)
 
-            # raise KeyError(f"Key '{temp}' not found in highprob_dic")
-
+    for key in new_data:
+        num_core = len(key['high_mp'] )
+    write_json(new_data, path_out)
     assert len(data)  == error_num + all_num
     write_json(new_data, path_out)
     print(f"core : {num_core}, overlap : {num_overlap1, num_overlap2, num_overlap3}, all num: {all_num}")
@@ -131,9 +132,7 @@ def get_highprob_labels(distributions, data, index_data, path_out): # candidate�
     print(f'non core num : {non_core_num}' )
     print(f'great than 0.5 : {num_gt}, less than 0.5: {num_lt}')
     print(core_num_highprob) #  
-    print(f' data_in_highprob_arg_num : {data_in_highprob_arg_num}')
-    print(temp_num)
-    assert temp_num == num_overlap1+num_overlap2+num_overlap3+num_core+non_core_num
+    # assert temp_num == num_overlap1+num_overlap2+num_overlap3+num_core+non_core_num
 
 # core : 0, overlap : 105, all num: 1438
 # error num : 17

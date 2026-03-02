@@ -29,6 +29,7 @@ def get_semicrf_results(gold_data, index_data, path):
             args_dic = {}
             for arg in argument:
                 if arg[3] != "O":
+                    # import pdb;pdb.set_trace()
                     args_dic[arg[3]] = [arg[1], arg[2]]
             key['semicrf_label'] = args_dic
             for ele in args_dic.keys():
@@ -39,6 +40,7 @@ def get_semicrf_results(gold_data, index_data, path):
                         num_core += 1
 
             new_data.append(key)
+            import pdb;pdb.set_trace()
             print(key['gold'])
             print(semicrf_dic[temp][3])
             # import pdb;pdb.set_trace()

@@ -1,8 +1,8 @@
 # 构建prompt来应用LLM
-
 #  wlj老师构造的新版本
 import os
 import sys
+import time
 #print(sys.executable)
 from sys import excepthook
 from sympy import O
@@ -135,80 +135,44 @@ def get_prompt_for_otherrole(sentence, predicate, argument, role, role_mean):
 
 # flag=0说明谓词没有论元；flag=1说明没有这个标签；flag=2说明没有framefile
 def build_prompt(instance):
-    sen_id = instance['index_sen'] #句子id
-    sentence = instance['sentences'] #句子字符串
-    predicate = instance['predicate'] #给定的谓词字符串
-    sen_span = instance['selected_span'] #候选论元信息 (含论元字符串, 角色标签, 论元在句子中的位置，起始位置、终止位置+1)
-    predict_prob = instance['predict_prob'] #模型预测的概率（用于选择边缘概率）
-    error_type = instance['error_type'] #错误类型，根据golden结果和预测结果生成的，含关系错误、边界错误、正确、多余
-    gold_label = instance['gold_label'] #正确角色关系标签
-    lemma = instance['lemma'] #谓词lemma，原型
-    org_span = instance["org_span"] # golden论元在句子xx，谓词id+1，起始位置、终止位置+1，xx
-    prd_id = org_span[1]
+    sen_id = instance['idx'] #句子id
+    sentence = instance['sen'] #句子字符串
+    predicate = instance['prd_word'] #给定的谓词字符串
+    sen_span = instance['span_idx'] #候选论元信息 (含论元字符串, 角色标签, 论元在句子中的位置，起始位置、终止位置+1)
+    label = instance['label']
+    lemma = instance['prd_lemma'] #谓词lemma，原型
+    prd_id = instance['prd_idx']
+    span_mean = instance['span_mean']
     prd_with_ = "_"+predicate+"_" # 谓词加下划线标记，标记谓词，防止多个相同词有歧义
-    arg_with_star = "**"+sen_span[0]+"**" # 论元加粗标记，防止多个相同词有歧义
+    arg_with_star = "**"+instance['span']+"**" # 论元加粗标记，防止多个相同词有歧义
+
+
 
     #构建新的句子，把谓词用下划线标记，论元用加粗标记
     new_sen = sentence.strip().split().copy()
     new_sen[prd_id-1]=prd_with_
-    new_sen = new_sen[0:sen_span[2][0]]+ [arg_with_star] + new_sen[sen_span[2][1]:]
+    new_sen = new_sen[0:sen_span[0]]+ [arg_with_star] + new_sen[sen_span[1]:]
     new_sen_ = " ".join(new_sen)
-    #print(new_sen)
-
+    print(new_sen)
+    flag = 0
     try:
-        candidate_labels = instance['candidate_roles'] #有一些lemma有frame文件，可以取到候选标签
-        examples = instance['examples'] #一些例子，用于辅助理解frame文件
-
-        flag=-1
-        if candidate_labels == {}:
-            flag = 0
-            prompt ={"correct": False,
-                "reason": "According to lemma'frame, this predicate has no arguments (not judged by LLM)."}
-            return prompt, flag # 这个谓词没有相关论元，直接返回是否OK呢，没有经过大模型判断，算是作弊吗？
-        else:
-            temp_span = sen_span[1].split("-")[-1] # 取最后，不考虑AGM，R-，C-
-            if temp_span in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}: # 标签是核心论元
-                if temp_span in candidate_labels.keys():
-                    span_mean = candidate_labels[temp_span]
-                    prompt = get_prompt_for_corerole(sentence=new_sen_,predicate=predicate,argument=sen_span[0],role=temp_span,role_mean=span_mean)
-                    return prompt, flag
+        if label in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}: # 标签是核心论元
+            if span_mean != None:
+                prompt = get_prompt_for_corerole(sentence=new_sen_,predicate=predicate,argument=instance['span'],role=label,role_mean=span_mean)
+                return prompt, flag 
+            else:
+                if label  in Defination.keys():
+                    span_mean = Defination[label]
+                    prompt = get_prompt_for_corerole(sentence=new_sen_,predicate=predicate,argument=instance['span'],role=label,role_mean=span_mean)
+                    return prompt, flag    
                 else:
                     flag=1
                     prompt ={"correct": False,
-                    "reason": "According to lemma'frame, this predicate has no this label (not judged by LLM)."}
-                    return prompt, flag # 这个谓词没有这个标签，直接返回是否OK呢，没有经过大模型判断，算是作弊吗？（其他论文也都这么操作吗，基于lemma的frame进行后处理过滤）
-            else: # span不属于核心论元
-                if temp_span not in labels_conll.keys():
-                    flag=1
-                    prompt ={"correct": False,
-                    "reason": "According to labels_conll, this role not exist (not judged by LLM)."}
-                    return prompt, flag # 这个谓词没有这个标签，直接返回是否OK呢，没有经过大模型判断，算是作弊吗？（其他论文也都这么操作吗，基于lemma的frame进行后处理过滤）
-                span_mean = labels_conll[temp_span]
-                prompt = get_prompt_for_otherrole(sentence=new_sen_,predicate=predicate,argument=sen_span[0],role=temp_span,role_mean=span_mean)
-                # import pdb;pdb.set_trace()
-                return prompt, flag
-
-        #return prompt, flag
-    except:
-        # 没有frame file的情况
-        flag = 2
-        temp_span = sen_span[1].split("-")[-1] # 取最后，不考虑R-，C-
-        if temp_span not in Defination.keys():
-            flag=1
-            prompt ={"correct": False,
-            "reason": "According to Defination, this role not exist (not judged by LLM)."}
-            return prompt, flag 
-        span_mean = Defination[temp_span]
-        if temp_span in {"ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5"}: # 标签是核心论元
-            prompt = get_prompt_for_corerole(sentence=new_sen_,predicate=predicate,argument=sen_span[0],role=temp_span,role_mean=span_mean)
-        else:
-            prompt = get_prompt_for_otherrole(sentence=new_sen_,predicate=predicate,argument=sen_span[0],role=temp_span,role_mean=span_mean)  
-        
-        print("-"*50)
-        print(f"No frame file: \n\t句子：{sentence}\n\tpredicate: {predicate} \n\tlemma: {lemma}")
-        print("-"*50)
-        return prompt, flag
-
+                    "reason": "According to Defination, this role not exist (not judged by LLM)."}
+                    return prompt, flag 
+         
+    except Exception as e:
+        print("数据错误！")
 def get_completion(prompt):
     response = client.chat.completions.create(
                 model="o1-mini",
@@ -222,15 +186,9 @@ def get_completion(prompt):
                         "content": prompt
                     }
                 ],
-                # temperature=0.2,
-                # seed=42,
-                # top_p=0.95,
-                # n=1,
-                # max_tokens=500, 
             )
     
     res = response.choices[0].message.content
-    import pdb;pdb.set_trace()
     return res
     
 def parse_response(instance, response):
@@ -248,14 +206,15 @@ def parse_response(instance, response):
 
         res_data = json.loads(res_str)
         parse_tag = True
-        res_data['index_sen'] = instance['index_sen']
-        res_data['sentences'] = instance['sentences']
-        res_data['predicate'] = instance['predicate']
-        res_data['selected_span'] = instance['selected_span']
-        res_data['error_type'] = instance['error_type']
-        res_data['gold_label'] = instance['gold_label']
-        res_data['org_span'] = instance['org_span']
-        res_data['conflict_span'] = instance['conflict_span']
+        res_data['idx'] = instance['idx']
+        res_data['sen'] = instance['sen']
+        res_data['prd_word'] = instance['prd_word']
+        res_data['span'] = instance['span']
+        res_data['prd_lemma'] = instance['prd_lemma']
+        res_data['prd_sense'] = instance['prd_sense']
+        res_data['prd_idx'] = instance['prd_idx']
+        res_data['label'] = instance['label']
+        res_data['span_idx'] = instance['span_idx']
         return res_data, parse_tag
     except json.JSONDecodeError as e:
         print(f"JSON解析失败: {str(e)}，response原始内容: {response}")
@@ -295,7 +254,8 @@ def LLM_prompt(data, path_save, path_save2):
         results = read_json(path_save)
         final_ins = results[-1]
         for i in range(len(data)):
-            if data[i]["index_sen"] == final_ins['index_sen']:
+            if data[i]["idx"] == final_ins['idx']:
+                
                 data = data[i+1:]       
                 break  
     print(f'已存在的数据有:{len(results)}')  
@@ -304,61 +264,45 @@ def LLM_prompt(data, path_save, path_save2):
         results_simple = read_json(path_save2)
         final_ins = results_simple[-1]
         for i in range(len(data)):
-            if data[i]["index_sen"] == final_ins['index_sen']:
+            if data[i]["idx"] == final_ins['idx']:
                 data = data[i+1:]       
                 break  
     print(f'已存在的数据有:{len(results_simple)}')
     print("-" * 60)
     flag_list = []
-    test_num = 0
     for instance in tqdm(data): # 一个句子
-        #if test_num > 1:
-        #    break
-        #test_num += 1
         prompt, flag = build_prompt(instance)
-        if flag == 0 or flag == 1:
+        if flag == 1:
             flag_list.append(flag)
             temp_num += 1
             res = prompt
-            # if flag == 1:
-            #     print(instance["selected_span"])
+ 
         else:
-            if flag == 2:
-                flag_list.append(flag)
-                # import pdb;pdb.set_trace()
-                # print(instance["selected_span"])
+            flag_list.append(flag)
             res =  get_completion(prompt)
             res_data, res_tag = parse_response(instance, res)
             if res_tag == True:
                 results_simple.append(res_data)
+                # import pdb;pdb.set_trace()
         instance['response'] = res
         results.append(instance)
 
         json.dump(results, open(path_save, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) 
         json.dump(results_simple, open(path_save2, 'w', encoding="utf-8"), indent=0, ensure_ascii=False) # 只有大模型的结果
-    
-    acc = stas_accuracy(results_simple)
-    flag_num = Counter(flag_list)
+    # acc = stas_accuracy(results_simple)
     print("*"*30)
-    print(f'frame file selected :{flag_num} \n Sum: {sum(flag_num.values())} \n All span: {len(data)} \n LLM deal: {len(data)-sum(flag_num.values())}')
-    print(f'flag=1 + flag=2的个数为： {temp_num}')
-    import pdb;pdb.set_trace()
+    print(f'\n All span: {len(data)}')
+    print(f'错误的个数为： {temp_num}')
     print("*"*30)
 
 
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
-    dataset = ['test'] #dev, 
-    source = ['nw'] #["nw",  "bn", "bc" ]# 'bn'
-    target = ['tc'] #bn 
-    for k in dataset:
-        for i in source:
-            for j in target:
-                print(f'{i}-{j}-{k}:')
-                data = read_json(f'../forllm_frames_newest/{i}/{i}-{j}-{k}.json')
-                path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llm-ceshi.json'
-                path_llmout2 = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp-ceshi.json'
-                LLM_prompt(data, path_llmout, path_llmout2)
-                print("工作保存完成！")
+    domain = "bn"
+    data = read_json( f"final_data/test_{domain}_4llm_core_gold.conll")
+    path_llmout = f"llm/test_{domain}_4llm_all.conll"
+    path_llmout2 = f"llm/test_{domain}_4llm_parseright.conll"
+    LLM_prompt(data, path_llmout, path_llmout2)
+    print("工作保存完成！")
             
     

@@ -15,5 +15,10 @@
 \llmout_question_generation
 \propbank_frames_main
 \prob_distribution_old
- 
+ori_code/annotation/llm
+ori_code/annotation/selected_data
+ori_code/annotation/final_data
+ori_code/annotation/test.py
+
+
 
