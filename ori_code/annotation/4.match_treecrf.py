@@ -119,6 +119,7 @@ def get_treecrf_results(gold_data, treecrf, path_out):
     
     write_json(new_data, path_out)
     print(f"core : {num_core}, overlap : {num_overlap}")
+    # core : 129, overlap : 2042
 
 
 if __name__=="__main__":

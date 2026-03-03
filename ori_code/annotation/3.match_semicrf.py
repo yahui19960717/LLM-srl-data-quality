@@ -40,16 +40,16 @@ def get_semicrf_results(gold_data, index_data, path):
                         num_core += 1
 
             new_data.append(key)
-            import pdb;pdb.set_trace()
-            print(key['gold'])
-            print(semicrf_dic[temp][3])
+            # # import pdb;pdb.set_trace()
+            # print(key['gold'])
+            # print(semicrf_dic[temp][3])
             # import pdb;pdb.set_trace()
         else:
             raise KeyError(f"Key '{temp}' not found in semicrf_dic")
 
     write_json(new_data, path)
     print(f"core : {num_core}, overlap : {num_overlap}")
-    #2125
+
 
 if __name__=="__main__":
     domain = "bn"
@@ -57,4 +57,6 @@ if __name__=="__main__":
     gold_data = read_json(f"final_data/test_{domain}_goldlabel.conll")
     path_out = f"final_data/test_{domain}_goldlabel_semicrflabel.conll"
     get_semicrf_results(gold_data, index_data, path_out)
+    # core : 319, overlap : 1806
+    #2125
       

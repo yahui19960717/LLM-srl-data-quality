@@ -1,5 +1,5 @@
 import json
-import random 
+import random
 random.seed(1)
 
 def read_json(file):
@@ -47,20 +47,62 @@ def parse_response(instance, response):
 
 
 
-def get_results():
-    print(len(llmout), len(llmout2))
-    for i in range(len(llmout2)):
-        response, tag = parse_response(llmout2[i], llmout2[i]['response'])
+def get_results(llmout, incorrect_file, correct_file):
+    
+    count_incorrect, count_correct = 0, 0 
+    incorrect_data, correct_data = [], []
+    for i in range(len(llmout)):
+        response, tag = parse_response(llmout[i], llmout[i]['response'])
         if tag:
-            import pdb;pdb.set_trace()
+            idx = llmout[i]['idx']
+            sen = llmout[i]['sen']
+            prd_word = llmout[i]['prd_word']
+            span = llmout[i]['span']
+            prd_lemma = llmout[i]['prd_lemma']
+            prd_sense = llmout[i]['prd_sense']
+            prd_idx = llmout[i]['prd_idx']
+            label = llmout[i]['label']
+            span_idx = llmout[i]['span_idx']
+            span_mean = llmout[i]['span_mean']
+            try:    
+                final_judgement = response['final_judgement']
+            except:
+                incorrect_data.append(llmout[i])
+                print(0)
+            if final_judgement == "incorrect":
+                count_incorrect += 1
+                incorrect_data.append(llmout[i])
+            else:
+                count_correct += 1
+                correct_data.append(llmout[i])
         else:
-            import pdb;pdb.set_trace()
-   
-# write_json(llmout, path_llmout)
+            print(1)
+            # import pdb;pdb.set_trace()
+        
+
+    write_json(correct_data, correct_file)
+    write_json(incorrect_data, incorrect_file)
+    print(len(correct_data), len(incorrect_data), len(correct_data)+ len(incorrect_data))
 
 if __name__ == "__main__":
-    path_llmout = "llm/test_bn_4llm_all.conll"
-
-    llmout = read_json(path_llmout)
+    # gold results
+    # domain = "bn"
+    # path_llmout = "llm/test_bn_4llm_all.conll"
+    # path_llmout2 = "llm/test_bn_4llm_parseright.conll"
+    # llmout = read_json(path_llmout)
     # llmout2 = read_json(path_llmout2)
-    
+    # print(len(llmout), len(llmout2))
+    # incorrect_data, correct_data = f"llm/incorrect_data_{domain}_gold.json", f"llm/correct_data_{domain}_gold.json"
+    # get_results(llmout, incorrect_data, correct_data)
+
+
+
+    # small model predictions
+    domain = "bn"
+    path_llmout = "llm/test_bn_4llm_all_smallmodel.conll"
+    path_llmout2 = "llm/test_bn_4llm_parseright_smallmodel.conll"
+    llmout = read_json(path_llmout)
+    llmout2 = read_json(path_llmout2)
+    print(len(llmout), len(llmout2))
+    incorrect_data, correct_data = f"llm/incorrect_data_{domain}_smallmodel.json", f"llm/correct_data_{domain}_smallmodel.json"
+    get_results(llmout, incorrect_data, correct_data)
