@@ -51,10 +51,10 @@ def get_gold_index(data, frames, outfile_core, outfile_all):
             dic_core['label'] = label
             dic_core['span'] = span
             dic_core['span_idx'] = [gold[arg][0], gold[arg][1]]
-            if label in roles:
+            if label in ins['roles']:
                 # if sen == "A note scribbled by an officer on the Russian nuclear submarine Kursk has revealed that at least 23 of its 118 crewmembers survived the explosions which sank the vessel ." and prd_word=="survived":
                 #         import pdb;pdb.set_trace()
-                dic_core['span_mean'] =  roles[label]
+                dic_core['span_mean'] =  ins['roles']
                 
             else:
                 dic_core['span_mean'] = None
@@ -119,9 +119,9 @@ def get_small_model_index(data, frames, outfile_core, outfile_all):
                 dic_core['label'] = label
                 dic_core['span'] = span
                 dic_core['span_idx'] = [semicrf[arg][0], semicrf[arg][1]]
-                if label in roles:
+                if label in ins['roles']:
                     # import pdb;pdb.set_trace()
-                    dic_core['span_mean'] =  roles[label]
+                    dic_core['span_mean'] =  ins['roles']
                 else:
                     dic_core['span_mean'] = None
                     noframe_semicrf += 1
@@ -149,9 +149,9 @@ def get_small_model_index(data, frames, outfile_core, outfile_all):
                 dic_core['label'] = label
                 dic_core['span'] = span
                 dic_core['span_idx'] = [treecrf[arg][0], treecrf[arg][1]]
-                if label in roles:
+                if label in ins['roles']:
                     # import pdb;pdb.set_trace()
-                    dic_core['span_mean'] =  roles[label]
+                    dic_core['span_mean'] =  ins['roles']
                 else:
                     dic_core['span_mean'] = None
                     noframe_treecrf += 1
@@ -214,8 +214,8 @@ def get_marginalprob_index(data, frames,file_out ):
                     span = " ".join(sen.split()[int(temp_idx[0]):int(temp_idx[1])])
                     dic_core['span'] = span
                     dic_core['span_idx'] = [int(temp_idx[0]),int(temp_idx[1])]
-                    if label in roles:
-                        dic_core['span_mean'] =  roles[label]
+                    if label in ins['roles']:
+                        dic_core['span_mean'] =  ins['roles']
                     else:
                         dic_core['span_mean'] = None
                     if label in core_label:
@@ -250,8 +250,8 @@ if __name__ == "__main__":
     
 
     ## gold转换可以LLM处理的格式
-    file_out =  f"final_data/test_{domain}_4llm_core_gold.conll"
-    file_outall = f"final_data/test_{domain}_4llm_all_gold.conll"
+    file_out =  f"final_data/errorversion_test_{domain}_4llm_core_gold.conll"
+    file_outall = f"final_data/errorversion_test_{domain}_4llm_all_gold.conll"
     get_gold_index(data, frames,  file_out, file_outall)
 
     # 数据已保存到: final_data/test_bn_4llm_core_gold.conll
@@ -260,8 +260,8 @@ if __name__ == "__main__":
     # Gold all predicate num :4531, Gold core predicate num : 2132
 
     # 小模型
-    file_out_smallmodel = f"final_data/test_{domain}_4llm_core_smallmodel.conll"
-    file_outall_smallmodel = f"final_data/test_{domain}_4llm_all_smallmodel.conll"
+    file_out_smallmodel = f"final_data/errorversion_test_{domain}_4llm_core_smallmodel.conll"
+    file_outall_smallmodel = f"final_data/errorversion_test_{domain}_4llm_all_smallmodel.conll"
     get_small_model_index(data, frames, file_out_smallmodel, file_outall_smallmodel)
 
 
@@ -276,6 +276,6 @@ if __name__ == "__main__":
 
     # # data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.5.conll")
     data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.1.conll")
-    file_out_prob = f"final_data/test_{domain}_4llm_core_high_prob.conll"
-    file_outall_prob = f"final_data/test_{domain}_4llm_all_high_prob.conll"
+    file_out_prob = f"final_data/errorversion_test_{domain}_4llm_core_high_prob.conll"
+    file_outall_prob = f"final_data/errorversion_test_{domain}_4llm_all_high_prob.conll"
     get_marginalprob_index(data, frames, file_out_prob)

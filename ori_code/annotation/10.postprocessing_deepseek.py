@@ -52,7 +52,7 @@ def get_results(llmout, incorrect_file, correct_file):
     count_incorrect, count_correct = 0, 0 
     incorrect_data, correct_data = [], []
     for i in range(len(llmout)):
-        response, tag = parse_response(llmout[i], llmout[i]['response'])
+        response, tag = parse_response(llmout[i], llmout[i]['response_deepseek'])
         if tag:
             idx = llmout[i]['idx']
             sen = llmout[i]['sen']
@@ -82,27 +82,27 @@ def get_results(llmout, incorrect_file, correct_file):
 
     write_json(correct_data, correct_file)
     write_json(incorrect_data, incorrect_file)
-    print(f'correct: {len(correct_data)}, incorrect: {len(incorrect_data)}, all: {len(correct_data)+ len(incorrect_data)}')
+    print(f'correct data: {len(correct_data)}, incorrect data: {len(incorrect_data)}, all num: {len(correct_data)+ len(incorrect_data)}')
 
 if __name__ == "__main__":
     # gold results
     domain = "bn"
-    path_llmout = "llm/test_bn_4llm_all_gold.conll"
-    path_llmout2 = "llm/test_bn_4llm_parseright_gold.conll"
+    path_llmout = f"llm/test_{domain}_4llm_all_deepseek_goldincorrect.conll" # o1mini判断错误的
+    path_llmout2 = f"llm/test_{domain}_4llm_parseright_deepseek_goldincorrect.conll"
     llmout = read_json(path_llmout)
     llmout2 = read_json(path_llmout2)
     print(len(llmout), len(llmout2))
-    incorrect_data, correct_data = f"llm/incorrect_data_{domain}_gold.json", f"llm/correct_data_{domain}_gold.json"
+    incorrect_data, correct_data = f"llm/incorrect_data_{domain}_gold_deepseek.json", f"llm/correct_data_{domain}_gold_deepseek.json"
     get_results(llmout, incorrect_data, correct_data)
 
 
 
-    # small model predictions
+    # # small model incorrect predictions
     # domain = "bn"
-    # path_llmout = "llm/test_bn_4llm_all_smallmodel.conll"
-    # path_llmout2 = "llm/test_bn_4llm_parseright_smallmodel.conll"
+    # path_llmout = f"llm/test_{domain}_4llm_all_deepseek_smallmodelincorrect.conll" # o1mini判断错误的smallmodel结果
+    # path_llmout2 = f"llm/test_{domain}_4llm_parseright_deepseek_smallmodelincorrect.conll"
     # llmout = read_json(path_llmout)
     # llmout2 = read_json(path_llmout2)
     # print(len(llmout), len(llmout2))
-    # incorrect_data, correct_data = f"llm/incorrect_data_{domain}_smallmodel.json", f"llm/correct_data_{domain}_smallmodel.json"
+    # incorrect_data, correct_data = f"llm/incorrect_data_{domain}_smallmodel_deepseek.json", f"llm/correct_data_{domain}_smallmodel_deepseek.json"
     # get_results(llmout, incorrect_data, correct_data)

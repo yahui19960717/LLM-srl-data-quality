@@ -10,7 +10,7 @@ import torch
 #print(torch.__file__)
 from tqdm import tqdm
 import json
-from openai import OpenAI
+from openai import OpenAI, BadRequestError
 import numpy as np
 import random
 from collections import  Counter
@@ -132,7 +132,18 @@ def get_prompt_for_otherrole(sentence, predicate, argument, role, role_mean):
     return prompt
 
 
-
+def rebuild_prompt_with_definition(instance):
+    """Rebuild prompt using Defination dictionary when span_mean is invalid"""
+    label = instance['label']
+    if label in Defination:
+        # Create a copy and replace span_mean
+        instance_copy = instance.copy()
+        span_mean = instance_copy['span_mean']
+        instance_copy['span_mean'] = Defination[label]
+        prompt, flag = build_prompt(instance_copy)
+        return prompt, flag, span_mean
+    else:
+        return None, 1
 # flag=0说明谓词没有论元；flag=1说明没有这个标签；flag=2说明没有framefile
 def build_prompt(instance):
     sen_id = instance['idx'] #句子id
@@ -282,10 +293,24 @@ def LLM_prompt(data, path_save, path_save2):
  
         else:
             flag_list.append(flag)
-            res =  get_completion(prompt)
-            res_data, res_tag = parse_response(instance, res)
-            if res_tag == True:
-                results_simple.append(res_data)
+            try: 
+                res =  get_completion(prompt)
+                res_data, res_tag = parse_response(instance, res)
+                if res_tag == True:
+                    results_simple.append(res_data)
+            except BadRequestError as e:
+                print(f"BadRequestError for idx {instance['idx']}, falling back to Defination")
+                safe_prompt, safe_flag, span_mean_temp = rebuild_prompt_with_definition(instance)
+                if safe_flag == 0:
+                    
+                    res = get_completion(safe_prompt)
+                    import pdb;pdb.set_trace()
+                    instance["span_mean"] = span_mean_temp
+                    res_data, res_tag = parse_response(instance, res)
+                    if res_tag == True:
+                        results_simple.append(res_data)
+                else:
+                    res = {"correct": False, "reason": "Label not in Defination dictionary"}
                 # import pdb;pdb.set_trace()
         instance['response_deepseek'] = res
         results.append(instance)

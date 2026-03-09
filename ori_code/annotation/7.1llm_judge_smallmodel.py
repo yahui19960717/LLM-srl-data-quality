@@ -174,6 +174,7 @@ def build_prompt(instance):
     except Exception as e:
         print("数据错误！")
 def get_completion(prompt):
+    
     response = client.chat.completions.create(
                 model="o1-mini",
                 messages=[
@@ -187,7 +188,6 @@ def get_completion(prompt):
                     }
                 ],
             )
-    
     res = response.choices[0].message.content
     return res
     
@@ -268,6 +268,7 @@ def LLM_prompt(data, path_save, path_save2):
                 data = data[i+1:]       
                 break  
     print(f'已存在的数据有:{len(results_simple)}')
+    # import pdb;pdb.set_trace()
     print("-" * 60)
     flag_list = []
     for instance in tqdm(data): # 一个句子
@@ -299,7 +300,8 @@ def LLM_prompt(data, path_save, path_save2):
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
     domain = "bn"
-    data = read_json( f"final_data/test_{domain}_4llm_core_smallmodel.conll")
+    data = read_json(f"final_data/test_bn_4llm_core_smallmodel.conll")
+    # data = read_json( f"llm-temp/test_{domain}_4llm_core_smallmodel.conll")
     path_llmout = f"llm/test_{domain}_4llm_all_smallmodel.conll"
     path_llmout2 = f"llm/test_{domain}_4llm_parseright_smallmodel.conll"
     LLM_prompt(data, path_llmout, path_llmout2)

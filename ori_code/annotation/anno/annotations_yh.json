@@ -1,0 +1,29 @@
+{
+  "annotations": [
+    {
+      "idx": 5,
+      "sentence": "A note scribbled by an officer on the Russian nuclear submarine Kursk has revealed that at least 23 of its 118 crewmembers survived the explosions which sank the vessel .",
+      "prd_word": "survived",
+      "prd_idx": 23,
+      "label": "ARG1",
+      "span_mean": "deceased",
+      "type": "gold_right, o1mini_wrong，deepseek_wrong",
+      "timestamp": "2026-03-05T11:28:59.710765",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 23,
+          "end": 28,
+          "text": "the explosions which sank the vessel",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    }
+  ],
+  "last_index": 5
+}

@@ -174,6 +174,7 @@ def build_prompt(instance):
     except Exception as e:
         print("数据错误！")
 def get_completion(prompt):
+    # import pdb;pdb.set_trace()
     response = client.chat.completions.create(
                 model="o1-mini",
                 messages=[
@@ -300,8 +301,8 @@ if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
     domain = "bn"
     data = read_json( f"final_data/test_{domain}_4llm_core_gold.conll")
-    path_llmout = f"llm/test_{domain}_4llm_all.conll"
-    path_llmout2 = f"llm/test_{domain}_4llm_parseright.conll"
+    path_llmout = f"llm/test_{domain}_4llm_all_gold.conll"
+    path_llmout2 = f"llm/test_{domain}_4llm_parseright_gold.conll"
     LLM_prompt(data, path_llmout, path_llmout2)
     print("工作保存完成！")
             

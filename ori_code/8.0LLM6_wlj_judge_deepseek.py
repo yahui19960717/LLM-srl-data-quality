@@ -346,9 +346,10 @@ if __name__=="__main__":
             for j in target:
                 print(f'{i}-{j}-{k}:')
                 data = read_json(f'../forllm_frames_newest/{i}/{i}-{j}-{k}.json')
-                path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llm-deepseek.json'
-                path_llmout2 = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp-deepseek.json'
-                LLM_prompt(data, path_llmout, path_llmout2)
+                import pdb;pdb.set_trace()
+                # path_llmout = f'../llmout_lyh/{i}/{i}-{j}-{k}-llm-deepseek.json'
+                # path_llmout2 = f'../llmout_lyh/{i}/{i}-{j}-{k}-llmsimp-deepseek.json'
+                # LLM_prompt(data, path_llmout, path_llmout2)
                 print("工作保存完成！")
             
     

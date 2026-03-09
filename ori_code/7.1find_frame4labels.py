@@ -166,7 +166,7 @@ def get_frame(sentences, orginal_sen, frames, file=None): # 获得对应谓词se
 
 
 
-
+    # 选择出来的结果来跑的
     
 
 if __name__=="__main__":
