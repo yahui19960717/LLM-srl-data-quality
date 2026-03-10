@@ -1,0 +1,73 @@
+Small Model:
+[语法错误过滤]
+  anno/annotations_wlj_smallmodel_163.json 认为句子正确个数：163 条，错误个数为 0 条
+  anno/annotations_lyh_smallmodel_163.json 认为句子正确个数：163 条，错误个数为 0 条
+  涉及 idx 共 0 个
+[对齐标注者数据]:
+双方共同标注（语法正确）：163 条
+[结果汇总]
+  共同标注（语法正确）：163 条
+  完全一致：64 条
+  不一致总计：99 条
+    部分匹配：48
+    完全不匹配：51
+        都有论元且完全不匹配：30
+        仅 wlj 有标注：20
+        仅 lyh 有标注：1
+  完全一致的标注一致率：64/163 = 39.26%
+  部分匹配的标注一致率：(64+48)/163 = 68.71%
+  需要reveiw的个数为:99
+{'total_aligned': 163, 'exact': 61, 'both_empty': 3, 'partial': 48, 'none': 30, 'empty_a': 1, 'empty_b': 20}
+
+Gold-single:
+[语法错误过滤]
+  anno/annotations_single_gold_wlj.json 认为句子正确个数：110 条，错误个数为 3 条
+  anno/annotations_single_gold_lyh.json 认为句子正确个数：111 条，错误个数为 2 条
+  涉及 idx 共 3 个
+  被过滤的 idx：[41, 42, 47]
+
+[对齐标注者数据]:
+双方共同标注（语法正确）：110 条
+正在处理: anno/annotations_single_gold_wlj.json  vs  anno/annotations_single_gold_lyh.json
+数据已保存到: analysis/annotators_analysis_gold113.json
+
+[结果汇总]
+  共同标注（语法正确）：110 条
+  完全一致：47 条
+  不一致总计：63 条
+    部分匹配：26
+    完全不匹配：37
+        都有论元且完全不匹配：18
+        仅 wlj 有标注：9
+        仅 lyh 有标注：10
+  完全一致的标注一致率：47/110 = 42.73%
+  部分匹配的标注一致率：(47+26)/110 = 66.36%
+  需要reveiw的个数为:63
+{'total_aligned': 110, 'exact': 37, 'both_empty': 10, 'partial': 26, 'none': 18, 'empty_a': 10, 'empty_b': 9}
+输出文件：analysis/annotators_analysis_gold113.json
+
+Gold-random:
+[语法错误过滤]
+  anno/annotations_single_gold_random30_wlj.json 认为句子正确个数：30 条，错误个数为 0 条
+  anno/annotations_single_gold_random30_lyh.json 认为句子正确个数：30 条，错误个数为 0 条
+  涉及 idx 共 0 个
+
+[对齐标注者数据]:
+双方共同标注（语法正确）：30 条
+正在处理: anno/annotations_single_gold_random30_wlj.json  vs  anno/annotations_single_gold_random30_lyh.json
+数据已保存到: analysis/annotators_analysis_goldrandom30.json
+
+[结果汇总]
+  共同标注（语法正确）：30 条
+  完全一致：15 条
+  不一致总计：15 条
+    部分匹配：5
+    完全不匹配：10
+        都有论元且完全不匹配：8
+        仅 wlj 有标注：2
+        仅 lyh 有标注：0
+  完全一致的标注一致率：15/30 = 50.00%
+  部分匹配的标注一致率：(15+5)/30 = 66.67%
+  需要reveiw的个数为:15
+{'total_aligned': 30, 'exact': 15, 'both_empty': 0, 'partial': 5, 'none': 8, 'empty_a': 0, 'empty_b': 2}
+输出文件：analysis/annotators_analysis_goldrandom30.json

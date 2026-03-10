@@ -182,8 +182,22 @@ if __name__=="__main__":
 
 
     # o1mini认为不对，但deepseek认为正确的，随机选择30个句子来判断
+    #domain = "bn"
+    #incorrecto1mini_and_deepseekincrrect_gold = read_json(f"llm/correct_data_{domain}_gold_deepseek.json")
+    #all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
+    #fileout = f"anno/bn_annotation_single_gold_random.pkl"
+    #deal_random_data(incorrecto1mini_and_deepseekincrrect_gold, all_data, fileout)
+
+    # golden结果，o1mini认为正确的，随机选择30个句子来判断
+    #domain = "bn"
+    #correct_o1mini_gold = read_json(f"llm/correct_data_{domain}_gold.json")
+    #all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
+    #fileout = f"anno/bn_annotation_gold_o1right_random.pkl"
+    #deal_random_data(correct_o1mini_gold, all_data, fileout)
+
+    # 小模型结果，o1mini和DeepSeek都认为错误的，随机选择30个句子来判断
     domain = "bn"
-    incorrecto1mini_and_deepseekincrrect_gold = read_json(f"llm/correct_data_{domain}_gold_deepseek.json")
+    incorrect_both_o1mini_and_deepseek_smallmodel = read_json(f"llm/incorrect_data_{domain}_smallmodel_deepseek.json")
     all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
-    fileout = f"anno/bn_annotation_single_gold_random.pkl"
-    deal_random_data(incorrecto1mini_and_deepseekincrrect_gold, all_data, fileout)
+    fileout = f"anno/bn_annotation_smallmodel_botherror_random.pkl"
+    deal_random_data(incorrect_both_o1mini_and_deepseek_smallmodel, all_data, fileout)

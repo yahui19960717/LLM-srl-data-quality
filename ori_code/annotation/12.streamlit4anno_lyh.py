@@ -8,8 +8,10 @@ from datetime import datetime
 import re
 # import socket
 # 数据文件路径
-DATA_FILE = "anno/bn_annotation_single_gold.pkl"
-ANNOTATION_SAVE_FILE = "anno/annotations_single_gold_lyh.json"
+DATA_FILE = "anno/bn_annotation_smallmodel.pkl"
+# DATA_FILE = "anno/bn_annotation_single_gold.pkl"
+# DATA_FILE = "anno/bn_annotation_single_gold_random.pkl"
+ANNOTATION_SAVE_FILE = "anno/annotations_single_gold_113_final.json"
 def read_pickle(file):
     """从文件读取pickle数据"""
     with open(file, 'rb') as f:
@@ -435,6 +437,7 @@ def main():
     # 3.1. 显示完整句子
     st.markdown("**📄 完整句子**")
     temp_sen = " ".join(current_data['sen'].split())
+    st.markdown(current_data['idx'],  unsafe_allow_html=True)
     st.markdown(temp_sen,  unsafe_allow_html=True)
     prd_idx_0based = current_data['prd_idx'] - 1
     html_sentence = display_sentence_with_highlights(
@@ -443,6 +446,7 @@ def main():
         selected_span=None,
         show_index=True
     )
+    
     st.markdown(f'<div class="sentence-box">{html_sentence}</div>', unsafe_allow_html=True)
 
     # 3.2. 语法检查
@@ -538,7 +542,7 @@ def main():
         selected_mapping = option_mappings[select_option]
         st.caption("预览效果:")
         st.markdown(f'<div class="preview-box">{selected_mapping["highlighted_sentence"]}</div>', unsafe_allow_html=True)
-        st.caption(f"来源: {', '.join(selected_mapping['models'])}  |  位置: [{selected_mapping['start']}:{selected_mapping['end']}]")
+        # st.caption(f"来源: {', '.join(selected_mapping['models'])}  |  位置: [{selected_mapping['start']}:{selected_mapping['end']}]")
     
 
         # 补充候选区域
