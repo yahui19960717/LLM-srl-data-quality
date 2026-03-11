@@ -161,9 +161,9 @@ def extract(aligned, grammar_filter_stats, file_a, file_b, name_1, name_2 ):
     }
 if __name__ == "__main__":
     base_dir = "anno"
-    file_1 = os.path.join(base_dir, f"annotations_wlj_smallmodel_163.json")
-    file_2 = os.path.join(base_dir, f"annotations_lyh_smallmodel_163.json")
-    output = "analysis/bn/annotators_analysis_smallmodel163.json"
+    # file_1 = os.path.join(base_dir, f"annotations_wlj_smallmodel_163.json")
+    # file_2 = os.path.join(base_dir, f"annotations_lyh_smallmodel_163.json")
+    # output = "analysis/bn/annotators_analysis_smallmodel163.json"
 
     # file_1 = os.path.join(base_dir, f"annotations_single_gold_wlj.json")
     # file_2 = os.path.join(base_dir, f"annotations_single_gold_lyh.json")
@@ -173,6 +173,19 @@ if __name__ == "__main__":
     # file_2 = os.path.join(base_dir, f"annotations_single_gold_random30_lyh.json")
     # output = "analysis/bn/annotators_analysis_goldrandom30.json"
 
+    # # o1mini认为正确
+    # file_1 = os.path.join(base_dir, f"annotations_gold_o1right_random_wlj.json")
+    # file_2 = os.path.join(base_dir, f"annotations_gold_o1right_random_lyh.json")
+    # output = "analysis/bn/annotators_analysis_o1right_random30.json"
+
+
+    # o1mini和deepseek都认为是错误的：
+    file_1 = os.path.join(base_dir, f"annotations_smallmodel_botherror_random_wlj.json")
+    file_2 = os.path.join(base_dir, f"annotations_smallmodel_botherror_random_lyh.json")
+    output = "analysis/bn/annotators_analysis_botherror_random30.json"
+
+    
+    
     file_wlj = read_json(file_1)
     file_lyh = read_json(file_2)
     

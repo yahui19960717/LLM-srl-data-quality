@@ -1,0 +1,546 @@
+{
+  "annotations": [
+    {
+      "idx": 1,
+      "sentence": "Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .",
+      "prd_word": "stretched",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": "agent, entity making something be longer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:22:59.587863",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 2,
+      "sentence": "Gao Xingjian arrived in Stockholm this week and when he leaves the Chinese born writer will have something extra in his suitcase , the Nobel Prize for Literature .",
+      "prd_word": "born",
+      "prd_idx": 14,
+      "label": "ARG0",
+      "span_mean": "mother",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:23:19.369235",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 3,
+      "sentence": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+      "prd_word": "does",
+      "prd_idx": 19,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:23:32.194057",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 4,
+      "sentence": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+      "prd_word": "make",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "creator",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:23:43.519338",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 5,
+      "sentence": "I 'm sure that it was difficult for her personally , but I think the commuter marriage perhaps would have been less stressful if everyday she did n't see herself being undermined and overruled .",
+      "prd_word": "did",
+      "prd_idx": 27,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:23:53.973159",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 6,
+      "sentence": "I think a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street .",
+      "prd_word": "think",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "Thought",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:30:01.444631",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 62,
+          "text": "a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "sentence": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+      "prd_word": "voted",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": "voter",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:32:02.367703",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "who",
+          "models": [
+            "自定义"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "sentence": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+      "prd_word": "make",
+      "prd_idx": 24,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:32:15.811068",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 9,
+      "sentence": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
+      "prd_word": "diagnosed",
+      "prd_idx": 40,
+      "label": "ARG2",
+      "span_mean": "illness",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:34:32.453439",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 41,
+          "end": 42,
+          "text": "lung cancer",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 41,
+          "end": 51,
+          "text": "lung cancer , which had killed his father three years earlier",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 40,
+          "end": 51,
+          "text": "with lung cancer , which had killed his father three years earlier",
+          "models": [
+            "自定义"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "sentence": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+      "prd_word": "finalize",
+      "prd_idx": 40,
+      "label": "ARG0",
+      "span_mean": "agent, entity finalizing something",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:34:46.171040",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 31,
+          "end": 34,
+          "text": "Mr. Putin 's visit",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "sentence": "Thank you James .",
+      "prd_word": "Thank",
+      "prd_idx": 1,
+      "label": "ARG2",
+      "span_mean": "for what?",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:34:59.198355",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 12,
+      "sentence": "The Bush team , responding quickly saying there would not be such support and that in that scenario Gore could only be seen as a sore loser .",
+      "prd_word": "responding",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "in response to",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:35:34.430732",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 13,
+      "sentence": "The Indian lawmakers were sort of clambering over each other to shake his hand as he left the parliament building .",
+      "prd_word": "clambering",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:39:25.969165",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 14,
+      "sentence": "The Israeli Army said it was checking the reports .",
+      "prd_word": "reports",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": "Reporter",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:39:45.542791",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 15,
+      "sentence": "The question should be what the Hosni Mubarak are they still doing there eight years after the peace process began .",
+      "prd_word": "doing",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "thing done",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:42:06.621807",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 4,
+          "text": "what",
+          "models": [
+            "自定义"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "sentence": "The warning came as General Anthony Zinni was finalizing an agreement for refueling ships in the Yemeni port of Aden .",
+      "prd_word": "refueling",
+      "prd_idx": 13,
+      "label": "ARG0",
+      "span_mean": "provider of fuel, agent",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:45:19.905930",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 17,
+      "sentence": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+      "prd_word": "speaking",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "hearer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:47:04.239566",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 18,
+      "sentence": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+      "prd_word": "try",
+      "prd_idx": 20,
+      "label": "ARG0",
+      "span_mean": "Agent/Entity Trying",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:48:35.198041",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "gold"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "sentence": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+      "prd_word": "keep",
+      "prd_idx": 22,
+      "label": "ARG0",
+      "span_mean": "causer of separation",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:50:04.635015",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "gold"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "sentence": "Violence ripped through almost every major Palestinian town today .",
+      "prd_word": "ripped",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "entity moving",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:51:51.305793",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "through almost every major Palestinian town",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 21,
+      "sentence": "We 'll talk with a terror expert about that , and Iraqi deserters on the northern front , Ben Wedeman has their story why they 're no longer fighting for Saddam Hussein and Don Shepperd is going to answer some of your questions as he looks at the battle hot spots .",
+      "prd_word": "fighting",
+      "prd_idx": 29,
+      "label": "ARG1",
+      "span_mean": "second fighter, if separate",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:53:38.466142",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 22,
+      "sentence": "We know their view is the hand counts should now be included .",
+      "prd_word": "included",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "theme, thing being included in some group",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:54:19.635734",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "the hand counts",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 23,
+      "sentence": "We will find out who is responsible and hold them accountable .",
+      "prd_word": "hold",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing held",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:55:22.821749",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 10,
+          "text": "accountable",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 24,
+      "sentence": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+      "prd_word": "celebration",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:55:37.325452",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 25,
+      "sentence": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+      "prd_word": "divide",
+      "prd_idx": 40,
+      "label": "ARG1",
+      "span_mean": "separated entity",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T11:59:15.331644",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 18,
+          "text": "this novel",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 17,
+          "end": 31,
+          "text": "this novel , which is a celebration as well of the self of the individual",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 42,
+          "end": 43,
+          "text": "the self",
+          "models": [
+            "自定义"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 26,
+      "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+      "prd_word": "urged",
+      "prd_idx": 26,
+      "label": "ARG1",
+      "span_mean": "impelled agent",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:01:05.810856",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 27,
+      "sentence": "While the Gore menu remains a family secret , the Bush clan all to happy to share some of his favorite fare -- jalapeno pecan cornbread stuffing and coconut cake .",
+      "prd_word": "share",
+      "prd_idx": 17,
+      "label": "ARG0",
+      "span_mean": "sharer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:02:33.052637",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "text": "the Bush clan",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 28,
+      "sentence": "Witnesses said Israeli soldiers fired live ammunition and rubber - coated metal bullets , wounding at least seven people .",
+      "prd_word": "coated",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "covered",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:04:13.945982",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": "metal bullets",
+          "models": [
+            "gold"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 29,
+      "sentence": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+      "prd_word": "compensation",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:04:25.896750",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    },
+    {
+      "idx": 30,
+      "sentence": "You know , as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see .",
+      "prd_word": "know",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:04:40.258507",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    }
+  ],
+  "last_index": 29
+}

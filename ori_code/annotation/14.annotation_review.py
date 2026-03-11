@@ -10,7 +10,9 @@ from typing import Dict, List, Optional, Tuple
 # ──────────────────────────────────────────────
 # DATA_FILE   = "analysis/bn/annotators_analysis_smallmodel163.json"
 # DATA_FILE   = "analysis/bn/annotators_analysis_gold113.json"       # extract_disagreements.py 生成的文件
-DATA_FILE   = "analysis/bn/annotators_analysis_goldrandom30.json"   
+# DATA_FILE   = "analysis/bn/annotators_analysis_goldrandom30.json"   
+# DATA_FILE   = "analysis/bn/annotators_analysis_o1right_random30.json" 
+DATA_FILE   = "analysis/bn/annotators_analysis_botherror_random30.json" 
 OUTPUT_FILE = "analysis/bn/adjudicated_goldrandom30.json"          # 裁判结果保存路径
 # ──────────────────────────────────────────────
 # 颜色常量

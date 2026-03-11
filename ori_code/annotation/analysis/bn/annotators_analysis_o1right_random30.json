@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name_a": "wlj",
+    "name_b": "lyh",
+    "file_a": "anno/annotations_gold_o1right_random_wlj.json",
+    "file_b": "anno/annotations_gold_o1right_random_lyh.json",
+    "grammar_filter_stats": {
+      "removed_idx_count": 0,
+      "removed_idx_list": [],
+      "removed_by_wlj": 0,
+      "removed_by_lyh": 0
+    },
+    "stats": {
+      "total_aligned": 30,
+      "exact": 28,
+      "both_empty": 1,
+      "partial": 0,
+      "none": 1,
+      "empty_a": 0,
+      "empty_b": 0
+    }
+  },
+  "records": [
+    {
+      "idx": 26,
+      "sentence": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+      "prd_word": "celebration",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": null,
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 27,
+          "end": 31,
+          "text": "the self of the individual",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 24,
+          "end": 31,
+          "text": "as well of the self of the individual",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 26,
+          "end": 31,
+          "text": "of the self of the individual",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "name_a": "wlj",
+    "name_b": "lyh",
+    "file_a": "anno/annotations_smallmodel_botherror_random_wlj.json",
+    "file_b": "anno/annotations_smallmodel_botherror_random_lyh.json",
+    "grammar_filter_stats": {
+      "removed_idx_count": 0,
+      "removed_idx_list": [],
+      "removed_by_wlj": 0,
+      "removed_by_lyh": 0
+    },
+    "stats": {
+      "total_aligned": 30,
+      "exact": 6,
+      "both_empty": 12,
+      "partial": 2,
+      "none": 5,
+      "empty_a": 5,
+      "empty_b": 0
+    }
+  },
+  "records": [
+    {
+      "idx": 1,
+      "sentence": "Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .",
+      "prd_word": "stretched",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": "agent, entity making something be longer",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "Electrical resources",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 6,
+          "text": "Electrical resources in the West Coast state",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 7,
+      "sentence": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+      "prd_word": "voted",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": "voter",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "who",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "everybody",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "text": "everybody who tried to vote",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 9,
+      "sentence": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
+      "prd_word": "diagnosed",
+      "prd_idx": 40,
+      "label": "ARG2",
+      "span_mean": "illness",
+      "match_type": "partial",
+      "score": 0.333,
+      "spans_a": [
+        {
+          "start": 41,
+          "end": 42,
+          "text": "lung cancer",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 41,
+          "end": 51,
+          "text": "lung cancer , which had killed his father three years earlier",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 40,
+          "end": 51,
+          "text": "with lung cancer , which had killed his father three years earlier",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 40,
+          "end": 42,
+          "text": "with lung cancer",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 41,
+          "end": 42,
+          "text": "lung cancer",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        1
+      ],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 10,
+      "sentence": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+      "prd_word": "finalize",
+      "prd_idx": 40,
+      "label": "ARG0",
+      "span_mean": "agent, entity finalizing something",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 31,
+          "end": 34,
+          "text": "Mr. Putin 's visit",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 31,
+          "end": 32,
+          "text": "Mr. Putin",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 31,
+          "end": 34,
+          "text": "Mr. Putin 's visit",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        1
+      ],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 16,
+      "sentence": "The warning came as General Anthony Zinni was finalizing an agreement for refueling ships in the Yemeni port of Aden .",
+      "prd_word": "refueling",
+      "prd_idx": 13,
+      "label": "ARG0",
+      "span_mean": "provider of fuel, agent",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 17,
+          "end": 20,
+          "text": "port of Aden .",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 18,
+      "sentence": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+      "prd_word": "try",
+      "prd_idx": 20,
+      "label": "ARG0",
+      "span_mean": "Agent/Entity Trying",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "she",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 19,
+      "sentence": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+      "prd_word": "keep",
+      "prd_idx": 22,
+      "label": "ARG0",
+      "span_mean": "causer of separation",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "she",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 20,
+      "sentence": "Violence ripped through almost every major Palestinian town today .",
+      "prd_word": "ripped",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "entity moving",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "through almost every major Palestinian town",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Violence",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 23,
+      "sentence": "We will find out who is responsible and hold them accountable .",
+      "prd_word": "hold",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing held",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 10,
+          "end": 10,
+          "text": "accountable",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 9,
+          "end": 10,
+          "text": "them accountable",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 24,
+      "sentence": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+      "prd_word": "celebration",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": null,
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 26,
+          "end": 31,
+          "text": "of the self of the individual",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 26,
+      "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+      "prd_word": "urged",
+      "prd_idx": 26,
+      "label": "ARG1",
+      "span_mean": "impelled agent",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 10,
+          "end": 12,
+          "text": "teams of experts",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 30,
+      "sentence": "You know , as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see .",
+      "prd_word": "know",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 29,
+          "text": ", as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    }
+  ]
+}

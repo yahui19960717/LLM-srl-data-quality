@@ -19,8 +19,11 @@ def write_json(sentences, path):
 
 # output = "analysis/bn/annotators_analysis_smallmodel163.json"
 # output = "analysis/bn/annotators_analysis_gold113.json"
-output = "analysis/bn/annotators_analysis_goldrandom30.json"
+# output = "analysis/bn/annotators_analysis_goldrandom30.json"
+# output = "analysis/bn/annotators_analysis_o1right_random30.json"
+output =  "analysis/bn/annotators_analysis_botherror_random30.json"
+
 instances = read_json(output)
 
 all_index = [instance['idx'] for instance in instances['records']]
-write_json(all_index,"analysis/bn/index_goldrandom30.json" )
+write_json(all_index,"analysis/bn/index_smallmodel_botherror_random30.json" )

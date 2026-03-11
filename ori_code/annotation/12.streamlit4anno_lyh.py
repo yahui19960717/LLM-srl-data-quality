@@ -8,10 +8,12 @@ from datetime import datetime
 import re
 # import socket
 # 数据文件路径
-DATA_FILE = "anno/bn_annotation_smallmodel.pkl"
+# DATA_FILE = "anno/bn_annotation_gold_o1right_random.pkl"
+# DATA_FILE = "anno/bn_annotation_smallmodel.pkl"
 # DATA_FILE = "anno/bn_annotation_single_gold.pkl"
 # DATA_FILE = "anno/bn_annotation_single_gold_random.pkl"
-ANNOTATION_SAVE_FILE = "anno/annotations_single_gold_113_final.json"
+DATA_FILE = "anno/bn_annotation_smallmodel_botherror_random.pkl"
+ANNOTATION_SAVE_FILE = "anno/annotations_smallmodel_botherror_random.json"
 def read_pickle(file):
     """从文件读取pickle数据"""
     with open(file, 'rb') as f:
@@ -542,7 +544,7 @@ def main():
         selected_mapping = option_mappings[select_option]
         st.caption("预览效果:")
         st.markdown(f'<div class="preview-box">{selected_mapping["highlighted_sentence"]}</div>', unsafe_allow_html=True)
-        # st.caption(f"来源: {', '.join(selected_mapping['models'])}  |  位置: [{selected_mapping['start']}:{selected_mapping['end']}]")
+        st.caption(f"来源: {', '.join(selected_mapping['models'])}  |  位置: [{selected_mapping['start']}:{selected_mapping['end']}]")
     
 
         # 补充候选区域

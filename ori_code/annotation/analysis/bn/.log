@@ -71,3 +71,39 @@ Gold-random:
   需要reveiw的个数为:15
 {'total_aligned': 30, 'exact': 15, 'both_empty': 0, 'partial': 5, 'none': 8, 'empty_a': 0, 'empty_b': 2}
 输出文件：analysis/annotators_analysis_goldrandom30.json
+
+
+
+
+o1mini认为正确的：
+[结果汇总]
+  共同标注（语法正确）：30 条
+  完全一致：29 条
+  不一致总计：1 条
+    部分匹配：0
+    完全不匹配：1
+        都有论元且完全不匹配：1
+        仅 wlj 有标注：0
+        仅 lyh 有标注：0
+  完全一致的标注一致率：29/30 = 96.67%
+  部分匹配的标注一致率：(29+0)/30 = 96.67%
+  需要reveiw的个数为:1
+{'total_aligned': 30, 'exact': 28, 'both_empty': 1, 'partial': 0, 'none': 1, 'empty_a': 0, 'empty_b': 0}
+
+输出文件：analysis/bn/annotators_analysis_o1right_random30.json
+
+
+both LLM认为小模型错误的结果：
+[结果汇总]
+  共同标注（语法正确）：30 条
+  完全一致：18 条
+  不一致总计：12 条
+    部分匹配：2
+    完全不匹配：10
+        都有论元且完全不匹配：5
+        仅 wlj 有标注：0
+        仅 lyh 有标注：5
+  完全一致的标注一致率：18/30 = 60.00%
+  部分匹配的标注一致率：(18+2)/30 = 66.67%
+  需要reveiw的个数为:12
+{'total_aligned': 30, 'exact': 6, 'both_empty': 12, 'partial': 2, 'none': 5, 'empty_a': 5, 'empty_b': 0}
