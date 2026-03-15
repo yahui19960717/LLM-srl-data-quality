@@ -107,3 +107,34 @@ both LLM认为小模型错误的结果：
   部分匹配的标注一致率：(18+2)/30 = 66.67%
   需要reveiw的个数为:12
 {'total_aligned': 30, 'exact': 6, 'both_empty': 12, 'partial': 2, 'none': 5, 'empty_a': 5, 'empty_b': 0}
+
+
+[去重]
+  anno/annotations_single_gold_o1wrongdsright_93_wlj.json 原始（去重后）：93 条
+  anno/annotations_single_gold_o1wrongdsright_93_lyh.json 原始（去重后）：93 条
+
+[语法错误过滤]
+  anno/annotations_single_gold_o1wrongdsright_93_wlj.json 认为句子正确个数：93 条，错误个数为 0 条
+  anno/annotations_single_gold_o1wrongdsright_93_lyh.json 认为句子正确个数：93 条，错误个数为 0 条
+  涉及 idx 共 0 个
+
+[对齐标注者数据]:
+双方共同标注（语法正确）：93 条
+正在处理: anno/annotations_single_gold_o1wrongdsright_93_wlj.json  vs  anno/annotations_single_gold_o1wrongdsright_93_lyh.json
+数据已保存到: analysis/bn/annotators_analysis_single_gold_o1wrongdsright_93.json
+
+[结果汇总]
+  共同标注（语法正确）：93 条
+  完全一致：51 条
+  不一致总计：42 条
+    部分匹配：10
+    完全不匹配：32
+        都有论元且完全不匹配：16
+        仅 wlj 有标注：13
+        仅 lyh 有标注：3
+  完全一致的标注一致率：51/93 = 54.84%
+  部分匹配的标注一致率：(51+10)/93 = 65.59%
+  需要reveiw的个数为:42
+{'total_aligned': 93, 'exact': 48, 'both_empty': 3, 'partial': 10, 'none': 16, 'empty_a': 3, 'empty_b': 13}
+
+输出文件：analysis/bn/annotators_analysis_single_gold_o1wrongdsright_93.json

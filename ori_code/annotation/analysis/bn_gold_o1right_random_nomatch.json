@@ -1,0 +1,45 @@
+[
+  {
+    "idx": 10,
+    "sentence": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+    "prd_word": "recall",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "memory",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-11T12:10:52.223469",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 5,
+        "end": 15,
+        "text": "the bombing of the US Marine barracks in Lebanon in 1983",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      5,
+      67
+    ]
+  },
+  {
+    "idx": 30,
+    "sentence": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+    "prd_word": "compensation",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span_mean": null,
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-11T12:21:32.356404",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [],
+    "span_idx": [
+      7,
+      8
+    ]
+  }
+]

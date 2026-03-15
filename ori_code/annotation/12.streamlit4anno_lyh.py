@@ -1,3 +1,7 @@
+"""
+标注界面
+可以选择spans，也可以自定义
+"""
 import os
 import streamlit as st
 import pandas as pd
@@ -12,8 +16,9 @@ import re
 # DATA_FILE = "anno/bn_annotation_smallmodel.pkl"
 # DATA_FILE = "anno/bn_annotation_single_gold.pkl"
 # DATA_FILE = "anno/bn_annotation_single_gold_random.pkl"
-DATA_FILE = "anno/bn_annotation_smallmodel_botherror_random.pkl"
-ANNOTATION_SAVE_FILE = "anno/annotations_smallmodel_botherror_random.json"
+# DATA_FILE = "anno/bn_annotation_smallmodel_botherror_random.pkl"
+DATA_FILE = "anno/bn_annotation_single_gold_o1wrongdsright_93.pkl"
+ANNOTATION_SAVE_FILE = "anno/annotations_gold_o1wrongdsright_lyh93.json"
 def read_pickle(file):
     """从文件读取pickle数据"""
     with open(file, 'rb') as f:

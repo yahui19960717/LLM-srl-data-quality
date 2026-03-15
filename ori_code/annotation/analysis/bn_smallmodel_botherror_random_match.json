@@ -1,0 +1,28 @@
+[
+  {
+    "idx": 23,
+    "sentence": "We will find out who is responsible and hold them accountable .",
+    "prd_word": "hold",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "thing held",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-11T11:55:22.821749",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 10,
+        "end": 10,
+        "text": "accountable",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      10,
+      11
+    ]
+  }
+]

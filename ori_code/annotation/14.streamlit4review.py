@@ -1,3 +1,7 @@
+"""
+在llamafactory的环境中运行（有streamlit包)
+审核界面，对于一个例子，可以看到两个标注者的标注结果、句子、需要标注的index等
+"""
 import os
 import json
 import copy
@@ -9,10 +13,11 @@ from typing import Dict, List, Optional, Tuple
 # 硬编码文件路径（按需修改）
 # ──────────────────────────────────────────────
 # DATA_FILE   = "analysis/bn/annotators_analysis_smallmodel163.json"
-# DATA_FILE   = "analysis/bn/annotators_analysis_gold113.json"       # extract_disagreements.py 生成的文件
+# DATA_FILE   = "analysis/bn/annotators_analysis_gold113.json" 
+DATA_FILE = "analysis/bn/annotators_analysis_single_gold_o1wrongdsright_93.json"      # extract_disagreements.py 生成的文件
 # DATA_FILE   = "analysis/bn/annotators_analysis_goldrandom30.json"   
 # DATA_FILE   = "analysis/bn/annotators_analysis_o1right_random30.json" 
-DATA_FILE   = "analysis/bn/annotators_analysis_botherror_random30.json" 
+# DATA_FILE   = "analysis/bn/annotators_analysis_botherror_random30.json" 
 OUTPUT_FILE = "analysis/bn/adjudicated_goldrandom30.json"          # 裁判结果保存路径
 # ──────────────────────────────────────────────
 # 颜色常量
@@ -83,6 +88,17 @@ st.markdown("""
         border-left: 3px solid #ff6b6b;
         box-shadow: 0 1px 4px rgba(0,0,0,0.05);
     }
+
+    /* 高亮样式优化 */
+    .predicate-highlight {
+        color: #d63031;
+        font-weight: 700;
+        background: linear-gradient(120deg, #ffe6e6 0%, #ffd7d7 100%);
+        padding: 2px 5px;
+        border-radius: 3px;
+        box-shadow: 0 1px 2px rgba(214, 48, 49, 0.2);
+    }
+
 
     .info-card {
         background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
@@ -236,6 +252,8 @@ def display_sentence_with_highlights(sentence, prd_idx, selected_span=None, show
             html_parts.append(f'{token}{index_tag}')
 
     return ' '.join(html_parts)
+
+
 def highlight_sentence(sentence: str,
                         spans_a: List[Dict],
                         spans_b: List[Dict],
@@ -443,10 +461,16 @@ def render_record(rec: Dict, name_a: str, name_b: str):
                     unsafe_allow_html=True)
 
     # ── 句子高亮
-    # display_sentence_with_highlights
+    html_sentence = display_sentence_with_highlights(
+        sentence,
+        
+        rec['prd_idx']-1,
+        selected_span=None,
+        show_index=True
+    )
     # st.markdown(f'<div class="sentence-box">{highlighted}</div>', unsafe_allow_html=True)
-    st.markdown(f'句子idx是{idx}')
-    st.markdown(f'{sentence}', unsafe_allow_html=True)
+    st.markdown(f'📒 {html_sentence}', unsafe_allow_html=True)
+    st.markdown(f'📋  {sentence}', unsafe_allow_html=True)
 
     # ── 双方标注对比
     col_a, col_b, col_adj = st.columns(3)

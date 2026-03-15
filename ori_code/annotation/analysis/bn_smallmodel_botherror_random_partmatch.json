@@ -1,0 +1,44 @@
+[
+  {
+    "idx": 25,
+    "sentence": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+    "prd_word": "divide",
+    "prd_idx": 40,
+    "label": "ARG1",
+    "span_mean": "separated entity",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-11T11:59:15.331644",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 17,
+        "end": 18,
+        "text": "this novel",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 31,
+        "text": "this novel , which is a celebration as well of the self of the individual",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "text": "the self",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      17,
+      19
+    ]
+  }
+]

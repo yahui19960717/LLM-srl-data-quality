@@ -1,0 +1,70 @@
+[
+  {
+    "idx": 6,
+    "sentence": "Motorola saying it will eliminate another 3,000 jobs , 3 % of its work force .",
+    "prd_word": "eliminate",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "entity removing",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-11T12:08:33.570847",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "Motorola",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 2,
+        "text": "it",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      2,
+      3
+    ]
+  },
+  {
+    "idx": 29,
+    "sentence": "Yesterday , Mr. Clinton spoke to supporters in his home state of Arkansas .",
+    "prd_word": "spoke",
+    "prd_idx": 5,
+    "label": "ARG2",
+    "span_mean": "hearer",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-11T12:21:17.384238",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 5,
+        "end": 6,
+        "text": "to supporters",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 12,
+        "text": "to supporters in his home state of Arkansas",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      5,
+      13
+    ]
+  }
+]

@@ -1,0 +1,1458 @@
+[
+  {
+    "idx": 2,
+    "sentence": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+    "prd_word": "charged",
+    "prd_idx": 21,
+    "label": "ARG1",
+    "span_mean": "assigned",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T14:13:55.369256",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 11,
+        "end": 16,
+        "text": "Abdel Basset Ali Al - megrahi",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      11,
+      17
+    ]
+  },
+  {
+    "idx": 6,
+    "sentence": "All this happening about 90 minutes ago based on the wire reports we 're getting here .",
+    "prd_word": "getting",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "thing gotten",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T14:19:31.573197",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 11,
+        "text": "the wire reports",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      12
+    ]
+  },
+  {
+    "idx": 7,
+    "sentence": "All this happening about 90 minutes ago based on the wire reports we 're getting here .",
+    "prd_word": "getting",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "thing gotten",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T14:19:46.315391",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 11,
+        "text": "the wire reports",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      12
+    ]
+  },
+  {
+    "idx": 26,
+    "sentence": "Give us your insights as to what you think the future holds .",
+    "prd_word": "holds",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "contents, attribute",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T14:55:14.446665",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 6,
+        "end": 6,
+        "text": "what",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      6,
+      7
+    ]
+  },
+  {
+    "idx": 30,
+    "sentence": "I 'm flipping through the summary of enacts because that is not important .",
+    "prd_word": "flipping",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "thing flipped",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:02:14.153664",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 4,
+        "end": 7,
+        "text": "the summary of enacts",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      4,
+      8
+    ]
+  },
+  {
+    "idx": 32,
+    "sentence": "I mean if Christy Whitman and the White House were on the same page , I do n't think I 've seen a book large enough to contain a page that big .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:05:09.811038",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 2,
+        "end": 31,
+        "text": "if Christy Whitman and the White House were on the same page , I do n't think I 've seen a book large enough to contain a page that big",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      2,
+      32
+    ]
+  },
+  {
+    "idx": 33,
+    "sentence": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+    "prd_word": "did",
+    "prd_idx": 18,
+    "label": "ARG0",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:06:15.965608",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 18,
+        "end": 18,
+        "text": "he",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      18,
+      19
+    ]
+  },
+  {
+    "idx": 46,
+    "sentence": "In another interview Palestinian leader Yasser Arafat said the Israelis and Palestinians had made real progress Red Sea resort of Taba , but Prime Minister Ehud Barak has suspended contacts with the Palestinians until after the February 6th election .",
+    "prd_word": "said",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:34:20.477817",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 20,
+        "text": "the Israelis and Palestinians had made real progress Red Sea resort of Taba",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      21
+    ]
+  },
+  {
+    "idx": 48,
+    "sentence": "Index Theater is planning a huge comeback now with a series of shows in Belgrade , but even though Milosevic is under de facto house arrest in Belgrade , he is very much present on the repertoire of political humors , says his impersonator , Dragewbo Yubitrich .",
+    "prd_word": "planning",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span_mean": "grounds for planning",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T15:40:26.665476",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 14,
+        "text": "with a series of shows in Belgrade",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      15
+    ]
+  },
+  {
+    "idx": 50,
+    "sentence": "It also got past the puppies ' protective father .",
+    "prd_word": "got",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "causer of motion",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:44:02.275283",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "It",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      0,
+      1
+    ]
+  },
+  {
+    "idx": 52,
+    "sentence": "It very well could , although , I must say that the Gore campaign has been somewhat disappointed by the number of votes they have not received thus far in the counties that are undertaking the manual recounts , Brian , but a lot of hand counts still must be tallied .",
+    "prd_word": "received",
+    "prd_idx": 27,
+    "label": "ARG1",
+    "span_mean": "thing gotten",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T15:47:05.184128",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 22,
+        "end": 22,
+        "text": "votes",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      22,
+      23
+    ]
+  },
+  {
+    "idx": 53,
+    "sentence": "It was the last of several speeches he has made in recent weeks to his backers across the country .",
+    "prd_word": "speeches",
+    "prd_idx": 7,
+    "label": "ARG0",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:47:24.254237",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 7,
+        "end": 7,
+        "text": "he",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      7,
+      8
+    ]
+  },
+  {
+    "idx": 56,
+    "sentence": "James Drummond , covering the Arab summit in Cairo for the Financial Times .",
+    "prd_word": "covering",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:50:54.538107",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 12,
+        "text": "for the Financial Times",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      13
+    ]
+  },
+  {
+    "idx": 58,
+    "sentence": "Keep in mind , those were not registered by the computers because they either had a hanging chad or dimpled chad .",
+    "prd_word": "Keep",
+    "prd_idx": 1,
+    "label": "ARG3",
+    "span_mean": null,
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T15:54:38.482404",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 1,
+        "end": 2,
+        "text": "in mind",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "idx": 60,
+    "sentence": "Kids are spending $ 50 to $ 70 , you know , a pop on these games .",
+    "prd_word": "spending",
+    "prd_idx": 3,
+    "label": "ARG3",
+    "span_mean": "price paid, money",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:55:48.084387",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 3,
+        "end": 7,
+        "text": "$ 50 to $ 70",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      3,
+      8
+    ]
+  },
+  {
+    "idx": 61,
+    "sentence": "Late Thursday , Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency .",
+    "prd_word": "join",
+    "prd_idx": 13,
+    "label": "ARG2",
+    "span_mean": "second thing, tied to what",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:57:19.542282",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 14,
+        "end": 19,
+        "text": "in a government of national emergency",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      14,
+      20
+    ]
+  },
+  {
+    "idx": 64,
+    "sentence": "Moving ahead now to a developing story , the hunt for so - called smoking gun , meant to prove that Iraq was developing weapons of mass destruction .",
+    "prd_word": "called",
+    "prd_idx": 14,
+    "label": "ARG2",
+    "span_mean": "name itself, attribute of arg1",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:14:16.752216",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 14,
+        "end": 15,
+        "text": "smoking gun",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      14,
+      16
+    ]
+  },
+  {
+    "idx": 65,
+    "sentence": "Moving ahead now to a developing story , the hunt for so - called smoking gun , meant to prove that Iraq was developing weapons of mass destruction .",
+    "prd_word": "meant",
+    "prd_idx": 18,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T16:17:09.066205",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 15,
+        "text": "the hunt for so - called smoking gun",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      16
+    ]
+  },
+  {
+    "idx": 72,
+    "sentence": "Ozzy Osbourne 's life filled with incredible highs crashing into devastating lows .",
+    "prd_word": "crashing",
+    "prd_idx": 9,
+    "label": "ARG4",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:24:17.788924",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 11,
+        "text": "into devastating lows",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      12
+    ]
+  },
+  {
+    "idx": 77,
+    "sentence": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+    "prd_word": "influence",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "influencer",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:28:32.864278",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "Russia",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      0,
+      1
+    ]
+  },
+  {
+    "idx": 81,
+    "sentence": "She and her daughter Jordan often shuffle through these pictures of him taken before he left .",
+    "prd_word": "taken",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span_mean": "thing taken",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:34:55.485186",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 11,
+        "text": "these pictures of him",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      12
+    ]
+  },
+  {
+    "idx": 82,
+    "sentence": "She and her daughter Jordan often shuffle through these pictures of him taken before he left .",
+    "prd_word": "taken",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span_mean": "thing taken",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T16:34:59.617397",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 11,
+        "text": "these pictures of him",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      12
+    ]
+  },
+  {
+    "idx": 83,
+    "sentence": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+    "prd_word": "going",
+    "prd_idx": 30,
+    "label": "ARG0",
+    "span_mean": "goer",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:35:31.844427",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 27,
+        "end": 27,
+        "text": "he",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      27,
+      28
+    ]
+  },
+  {
+    "idx": 86,
+    "sentence": "Since then this relationship has grown in importance to us both through good times and bad .",
+    "prd_word": "grown",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": "amount increased by, EXT or MNR",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:38:58.467002",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 6,
+        "end": 7,
+        "text": "in importance",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      6,
+      8
+    ]
+  },
+  {
+    "idx": 88,
+    "sentence": "Soon after , one of the family 's three chickens flew the coop and took up residence in the crate built especially for the puppies .",
+    "prd_word": "built",
+    "prd_idx": 21,
+    "label": "ARG3",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:41:17.761400",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 22,
+        "end": 24,
+        "text": "for the puppies",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      22,
+      25
+    ]
+  },
+  {
+    "idx": 89,
+    "sentence": "Sources close to the investigation tell NBC News that Singapore Airlines flight 6 tried to take off on a runway closed for repairs .",
+    "prd_word": "take",
+    "prd_idx": 16,
+    "label": "ARG0",
+    "span_mean": null,
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T16:42:01.152692",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 12,
+        "text": "Singapore Airlines flight 6",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      13
+    ]
+  },
+  {
+    "idx": 90,
+    "sentence": "Sovereignty is not simply a quality of statehood , but it has to do with the power of the people and democratic structures which make sovereignty an important human value .",
+    "prd_word": "has",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": null,
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T16:42:57.591968",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 12,
+        "end": 29,
+        "text": "to do with the power of the people and democratic structures which make sovereignty an important human value",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      12,
+      30
+    ]
+  },
+  {
+    "idx": 96,
+    "sentence": "That being said it could well be the beginning of a new pattern .",
+    "prd_word": "said",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:52:31.296729",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 3,
+        "end": 12,
+        "text": "it could well be the beginning of a new pattern",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      3,
+      13
+    ]
+  },
+  {
+    "idx": 99,
+    "sentence": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
+    "prd_word": "stopped",
+    "prd_idx": 37,
+    "label": "ARG4",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:58:43.736065",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 37,
+        "end": 38,
+        "text": "in Aden",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      37,
+      39
+    ]
+  },
+  {
+    "idx": 100,
+    "sentence": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+    "prd_word": "walks",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "entity being walked, where there is outside Agent",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T16:59:23.553115",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 9,
+        "text": "the gorges",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      10
+    ]
+  },
+  {
+    "idx": 101,
+    "sentence": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+    "prd_word": "hopes",
+    "prd_idx": 35,
+    "label": "ARG1",
+    "span_mean": "thing hoped (for)",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T17:02:11.783455",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 40,
+        "end": 50,
+        "text": "to get in touch with his soul , his individual soul",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      40,
+      51
+    ]
+  },
+  {
+    "idx": 102,
+    "sentence": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+    "prd_word": "hopes",
+    "prd_idx": 35,
+    "label": "ARG1",
+    "span_mean": "thing hoped (for)",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T17:02:15.915925",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 40,
+        "end": 50,
+        "text": "to get in touch with his soul , his individual soul",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      40,
+      51
+    ]
+  },
+  {
+    "idx": 105,
+    "sentence": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+    "prd_word": "write",
+    "prd_idx": 80,
+    "label": "ARG1",
+    "span_mean": "thing written",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T17:03:23.514369",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 70,
+        "end": 72,
+        "text": "the social realism",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      70,
+      73
+    ]
+  },
+  {
+    "idx": 106,
+    "sentence": "The bottom line , this court rules unanimously the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26 .",
+    "prd_word": "rules",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "domain the rule applies to",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T17:06:07.118043",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 17,
+        "text": "the right of the people to have the votes counted",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      18
+    ]
+  },
+  {
+    "idx": 109,
+    "sentence": "The emergency order last week and the extension announced in Denver at a meeting of western governors will keep electricity flowing to California through the middle of next week .",
+    "prd_word": "keep",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span_mean": "continued entity",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T17:10:42.207089",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 19,
+        "end": 22,
+        "text": "electricity flowing to California",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      19,
+      23
+    ]
+  },
+  {
+    "idx": 111,
+    "sentence": "The federal government will not appeal the court ruling that cleared the way for same - sex unions .",
+    "prd_word": "cleared",
+    "prd_idx": 11,
+    "label": "ARG3",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T17:12:11.167381",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 13,
+        "end": 17,
+        "text": "for same - sex unions",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      13,
+      18
+    ]
+  },
+  {
+    "idx": 113,
+    "sentence": "The knowledge that our lights are the first to light it up , our footprints were the first , our eyes were first to see it .",
+    "prd_word": "light",
+    "prd_idx": 10,
+    "label": "ARG0",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T17:14:08.197773",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "our lights",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      3,
+      5
+    ]
+  },
+  {
+    "idx": 114,
+    "sentence": "The knowledge that our lights are the first to light it up , our footprints were the first , our eyes were first to see it .",
+    "prd_word": "see",
+    "prd_idx": 25,
+    "label": "ARG0",
+    "span_mean": "viewer",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T17:14:17.378240",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 19,
+        "end": 20,
+        "text": "our eyes",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      19,
+      21
+    ]
+  },
+  {
+    "idx": 116,
+    "sentence": "The little town I was in this southern Iraq , as far as I got , I ca n't boast of further , is where the talks took place .",
+    "prd_word": "got",
+    "prd_idx": 15,
+    "label": "ARG0",
+    "span_mean": "causer of motion",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T17:15:29.118166",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 13,
+        "end": 13,
+        "text": "I",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      13,
+      14
+    ]
+  },
+  {
+    "idx": 117,
+    "sentence": "The people now in the streets are gathering because they feel that not just as Arabs , as human beings , that what is happening in Palestine is not humanitarian .",
+    "prd_word": "feel",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "belief",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T18:46:03.717167",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 11,
+        "end": 29,
+        "text": "that not just as Arabs , as human beings , that what is happening in Palestine is not humanitarian",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      11,
+      30
+    ]
+  },
+  {
+    "idx": 118,
+    "sentence": "The report shows the nation 's tight job market is loosening up a bit , but still unemployment is near a 30 - year low .",
+    "prd_word": "loosening",
+    "prd_idx": 11,
+    "label": "ARG2",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T18:46:35.979270",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 12,
+        "end": 13,
+        "text": "a bit",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      12,
+      14
+    ]
+  },
+  {
+    "idx": 126,
+    "sentence": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+    "prd_word": "declared",
+    "prd_idx": 6,
+    "label": "ARG3",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T18:56:25.659953",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 10,
+        "text": "for its stockholders",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      11
+    ]
+  },
+  {
+    "idx": 127,
+    "sentence": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+    "prd_word": "declared",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T18:56:32.319322",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 10,
+        "text": "for its stockholders",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      11
+    ]
+  },
+  {
+    "idx": 129,
+    "sentence": "They say , Okay , we have lost this round , Do you mind if we keep your helicopters in the air just to be able to transport things ? and he says , Yeah , that 's all right .",
+    "prd_word": "keep",
+    "prd_idx": 17,
+    "label": "ARG2",
+    "span_mean": "continued state or action",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T16:46:21.440611",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 19,
+        "end": 21,
+        "text": "in the air",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      19,
+      22
+    ]
+  },
+  {
+    "idx": 137,
+    "sentence": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+    "prd_word": "keep",
+    "prd_idx": 12,
+    "label": "ARG0",
+    "span_mean": "causer of continued action",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:09:29.032082",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 7,
+        "end": 9,
+        "text": "an emergency order",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      7,
+      10
+    ]
+  },
+  {
+    "idx": 138,
+    "sentence": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+    "prd_word": "flowing",
+    "prd_idx": 14,
+    "label": "ARG4",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:09:38.962860",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 14,
+        "end": 15,
+        "text": "to California",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      14,
+      16
+    ]
+  },
+  {
+    "idx": 139,
+    "sentence": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+    "prd_word": "extended",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "patient, thing getting longer",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:10:00.123107",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 7,
+        "end": 9,
+        "text": "an emergency order",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      7,
+      10
+    ]
+  },
+  {
+    "idx": 140,
+    "sentence": "Up next a global hip - hop beat laid down in New York and danced to in the West African nation of Senegal .",
+    "prd_word": "laid",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span_mean": "location",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:10:16.903382",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 10,
+        "end": 12,
+        "text": "in New York",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      10,
+      13
+    ]
+  },
+  {
+    "idx": 144,
+    "sentence": "We have the pictures coming in from Central Florida , News 13 .",
+    "prd_word": "coming",
+    "prd_idx": 5,
+    "label": "ARG3",
+    "span_mean": "start point",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T16:56:30.386831",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 6,
+        "end": 8,
+        "text": "from Central Florida",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      6,
+      9
+    ]
+  },
+  {
+    "idx": 145,
+    "sentence": "We just felt he understands how to reach people and how to reach kids .",
+    "prd_word": "reach",
+    "prd_idx": 13,
+    "label": "ARG0",
+    "span_mean": "reacher",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:15:12.569504",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "he",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      3,
+      4
+    ]
+  },
+  {
+    "idx": 151,
+    "sentence": "When Awadi and Barry performed , they managed simultaneously to bathe in the group of American hip - hop and they keep a clear sense that they are from Senegal .",
+    "prd_word": "bathe",
+    "prd_idx": 11,
+    "label": "ARG2",
+    "span_mean": "Liquid bathed in",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T19:27:51.602681",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 11,
+        "end": 18,
+        "text": "in the group of American hip - hop",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      11,
+      19
+    ]
+  },
+  {
+    "idx": 153,
+    "sentence": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+    "prd_word": "devastated",
+    "prd_idx": 21,
+    "label": "ARG1",
+    "span_mean": "thing destroyed",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:30:25.750168",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 16,
+        "end": 18,
+        "text": "the Republican Guard",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      16,
+      19
+    ]
+  },
+  {
+    "idx": 154,
+    "sentence": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+    "prd_word": "move",
+    "prd_idx": 8,
+    "label": "ARG2",
+    "span_mean": "destination",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:30:42.348533",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 9,
+        "text": "toward Bagdad",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      10
+    ]
+  },
+  {
+    "idx": 157,
+    "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+    "prd_word": "dispatched",
+    "prd_idx": 10,
+    "label": "ARG4",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:33:29.836682",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 13,
+        "end": 14,
+        "text": "to Yemen",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      13,
+      15
+    ]
+  },
+  {
+    "idx": 158,
+    "sentence": "While the Gore menu remains a family secret , the Bush clan all to happy to share some of his favorite fare -- jalapeno pecan cornbread stuffing and coconut cake .",
+    "prd_word": "share",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span_mean": "sharer",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:34:41.506750",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 11,
+        "text": "the Bush clan",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      12
+    ]
+  },
+  {
+    "idx": 163,
+    "sentence": "You know , as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see .",
+    "prd_word": "playing",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "game",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T19:38:51.935848",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 13,
+        "end": 14,
+        "text": "five acts",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "span_idx": [
+      13,
+      15
+    ]
+  }
+]

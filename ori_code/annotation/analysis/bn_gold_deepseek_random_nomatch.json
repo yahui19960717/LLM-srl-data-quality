@@ -1,0 +1,173 @@
+[
+  {
+    "idx": 1,
+    "sentence": "American Airlines ' fate is hanging on its flight attendant 's union , its narrowly rejected union today .",
+    "prd_word": "hanging",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": "suspended from",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T09:42:18.289084",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "on its flight attendant 's union",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      6,
+      17
+    ]
+  },
+  {
+    "idx": 11,
+    "sentence": "In October of 1985 , four hijackers under his command took over the Italian cruise ship `` Achille Lauro '' and killed a wheelchair - bound American tourist , Leo Klinghoffer .",
+    "prd_word": "bound",
+    "prd_idx": 26,
+    "label": "ARG1",
+    "span_mean": "thing bound",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T09:56:16.236745",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 26,
+        "end": 27,
+        "text": "American tourist",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "text": "Leo Klinghoffer",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      27,
+      28
+    ]
+  },
+  {
+    "idx": 13,
+    "sentence": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
+    "prd_word": "diagnosed",
+    "prd_idx": 40,
+    "label": "ARG2",
+    "span_mean": "illness",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T09:58:31.452095",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 40,
+        "end": 42,
+        "text": "with lung cancer",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "text": "lung cancer",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      40,
+      52
+    ]
+  },
+  {
+    "idx": 15,
+    "sentence": "Russian President was supposed to visit India as early as 97 - 1998 , but of course Boris Yeltsin 's health problems got in the way of that , and then of course , Mr. Yeltsin 's abrupt resignation last year another visit and then the subsequent election campaign and inauguration of Vladimir Putin took some time , so it 's been put off for a couple of years .",
+    "prd_word": "got",
+    "prd_idx": 23,
+    "label": "ARG2",
+    "span_mean": "destination",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T17:28:44.774175",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [],
+    "span_idx": [
+      23,
+      28
+    ]
+  },
+  {
+    "idx": 22,
+    "sentence": "The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .",
+    "prd_word": "success",
+    "prd_idx": 20,
+    "label": "ARG0",
+    "span_mean": null,
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T10:11:03.746592",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 1,
+        "text": "The congressman",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 14,
+        "text": "he",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      18,
+      19
+    ]
+  },
+  {
+    "idx": 29,
+    "sentence": "Tonight , some of those families made it clear their battle is not over to get to the truth and however difficult , punish the real authors of this crime .",
+    "prd_word": "battle",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "combatant",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T10:17:50.606607",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 2,
+        "end": 5,
+        "text": "some of those families",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      10
+    ]
+  }
+]

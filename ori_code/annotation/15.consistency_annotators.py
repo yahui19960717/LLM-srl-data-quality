@@ -1,5 +1,5 @@
 """
-比较 final 文件和标注者文件中的 selected_spans
+比较 final 文件（审核完成的，我和王老师，一个用审核界面，一个直接在原始标注的数据来标注）和标注者文件中的 selected_spans
 规则：只要标注者的 selected_spans 中有至少一个 span 与 gold 文件中的任意一个 span 完全匹配，则视为正确。
 """
 
@@ -94,7 +94,7 @@ def compare_spans(gold_file: str, annotator_file: str):
     print(f"错误数: {total - correct}")
     print(f"准确率: {correct / total * 100:.2f}%" if total > 0 else "准确率: N/A")
     print("=" * 70)
-
+    return correct, total
     # print("\n详细结果：\n")
     # for r in results:
     #     status_icon = "✅" if r["status"] == "CORRECT" else ("❌" if r["status"] == "WRONG" else "⚠️")
@@ -127,22 +127,59 @@ def compare_spans(gold_file: str, annotator_file: str):
 if __name__ == "__main__":
 
     # single gold random
-    # final_file = "annotated_final/annotations_single_gold_random_wlj_final.json"
-    # annotator_wlj = "anno/annotations_single_gold_random30_wlj.json" 96.67%
-    # annotator_lyh = "anno/annotations_single_gold_random30_lyh.json" 70%
+    final_file = "annotated_final/annotations_single_gold_random_wlj_final.json"
+    annotator_wlj = "anno/annotations_single_gold_random30_wlj.json" #96.67%
+    annotator_lyh = "anno/annotations_single_gold_random30_lyh.json" #70%
+    correct1, total1 =compare_spans(final_file, annotator_wlj)
+    correct2, total2 =compare_spans(final_file, annotator_lyh)
 
-    # # small model 163
-    # final_file = "annotated_final/annotations_wlj_smallmodel_163_final.json"
-    # annotator_wlj = "anno/annotations_wlj_smallmodel_163.json" # 84.05%
-    # annotator_lyh = "anno/annotations_lyh_smallmodel_163.json" # 73.62%
+    # # # small model 163
+    final_file = "annotated_final/annotations_wlj_smallmodel_163_final.json"
+    annotator_wlj = "anno/annotations_wlj_smallmodel_163.json" # 84.05%
+    annotator_lyh = "anno/annotations_lyh_smallmodel_163.json" # 73.62%
+    correct11, total11 =compare_spans(final_file, annotator_wlj)
+    correct22, total22 =compare_spans(final_file, annotator_lyh)
 
 
 
     final_file = "annotated_final/annotations_single_gold_wlj_final.json"
     annotator_wlj = "anno/annotations_single_gold_wlj.json" # 73.45%
     annotator_lyh = "anno/annotations_single_gold_lyh.json" # 62.83%
+    correct111, total111 =compare_spans(final_file, annotator_wlj)
+    correct222, total222 =compare_spans(final_file, annotator_lyh)
+
+    final_file = "annotated_final/annotations_gold_o1right_random_wlj_final.json"
+    annotator_wlj = "anno/annotations_gold_o1right_random_wlj.json" # 93.33%
+    annotator_lyh = "anno/annotations_gold_o1right_random_lyh.json" # 96.67%
+    correct1111, total1111 =compare_spans(final_file, annotator_wlj)
+    correct2222, total2222 =compare_spans(final_file, annotator_lyh)
+
+    final_file = "annotated_final/annotations_smallmodel_botherror_random_wlj_final.json"
+    annotator_wlj = "anno/annotations_smallmodel_botherror_random_wlj.json" # 40%
+    annotator_lyh = "anno/annotations_smallmodel_botherror_random_lyh.json" # 36.67%
+    correct11111, total11111 =compare_spans(final_file, annotator_wlj)
+    correct22222, total22222 =compare_spans(final_file, annotator_lyh)
+    # all_correct1 = correct1+ correct11+correct111+correct1111+correct11111
+    # all_correct2 = correct2+ correct22+correct222+correct2222+correct22222
 
 
-    compare_spans(final_file, annotator_wlj)
-    compare_spans(final_file, annotator_lyh)
+    final_file = "annotated_final/annotations_single_gold_o1wrongdsright_93_wlj_final.json"
+    annotator_wlj = "anno/annotations_single_gold_o1wrongdsright_93_wlj.json" #  86.02
+    annotator_lyh = "anno/annotations_single_gold_o1wrongdsright_93_lyh.json" #  67.74
+    correct111111, total111111 =compare_spans(final_file, annotator_wlj)
+    correct222222, total222222 =compare_spans(final_file, annotator_lyh)
+    all_correct1 = correct1+ correct11+correct111+correct1111+correct11111+correct111111
+    all_correct2 = correct2+ correct22+correct222+correct2222+correct22222+correct222222
 
+    totalall = total1+total11+total111+total1111+total11111+total111111
+
+    assert totalall == total2+total22+total222+total2222+total22222+total222222
+    print(correct1+ correct11+correct111+correct1111+correct11111)
+    print(correct2+ correct22+correct222+correct2222+correct22222)
+    print(total1+total11+total111+total1111+total11111)
+    print(f'{all_correct1} / {totalall} = {all_correct1/totalall:.2%}')
+    print(f'{all_correct2} / {totalall} = {all_correct2/totalall:.2%}')
+    # compare_spans(final_file, annotator_wlj)
+    # compare_spans(final_file, annotator_lyh)
+
+    # 77%;67.958

@@ -1,0 +1,180 @@
+[
+  {
+    "idx": 2,
+    "sentence": "And I think perhaps no one more surprised than some of the people running those firms on Wall Street .",
+    "prd_word": "running",
+    "prd_idx": 14,
+    "label": "ARG0",
+    "span_mean": "operator",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T17:22:02.822088",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 11,
+        "end": 12,
+        "text": "the people",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 12,
+        "text": "some of the people",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      11,
+      13
+    ]
+  },
+  {
+    "idx": 18,
+    "sentence": "The United States has issued a worldwide caution to Americans warning of possible terrorist threats .",
+    "prd_word": "warning",
+    "prd_idx": 11,
+    "label": "ARG2",
+    "span_mean": "entity getting warning, impelled agent",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T10:03:16.250562",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 9,
+        "text": "to Americans",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 9,
+        "text": "Americans",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      10
+    ]
+  },
+  {
+    "idx": 19,
+    "sentence": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
+    "prd_word": "refuel",
+    "prd_idx": 41,
+    "label": "ARG1",
+    "span_mean": "entity refueled",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T10:06:26.617083",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 21,
+        "end": 23,
+        "text": "the USS Cole",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 33,
+        "text": "the USS Cole , a state - of - the - art destroyer",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 34,
+        "end": 34,
+        "text": "that",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      34,
+      35
+    ]
+  },
+  {
+    "idx": 28,
+    "sentence": "Today Gao , who now lives in France , gave the traditional Nobel lecture as part of the festivities leading up to Sunday 's ceremony , and on the same day he collects the prize .",
+    "prd_word": "leading",
+    "prd_idx": 20,
+    "label": "ARG2",
+    "span_mean": "result, action or attribute on arg1",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T10:16:37.523666",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 20,
+        "end": 24,
+        "text": "up to Sunday 's ceremony",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 22,
+        "end": 24,
+        "text": "Sunday 's ceremony",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      20,
+      25
+    ]
+  },
+  {
+    "idx": 30,
+    "sentence": "We 'll try to follow that in our next half hour .",
+    "prd_word": "try",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "thing tried",
+    "type": "gold_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T17:39:20.852572",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 3,
+        "end": 5,
+        "text": "to follow that",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 3,
+        "end": 10,
+        "text": "to follow that in our next half hour",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      3,
+      11
+    ]
+  }
+]

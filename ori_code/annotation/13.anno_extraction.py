@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-抽取不匹配的标注数据，生成 disagreements.json 供 Streamlit 查看器使用。
+抽取不匹配的标注数据，生成文本 供 Streamlit 查看器使用。
 处理流程：
   1. 加载双方 JSON，去重
   2. 过滤掉任意一方标记为有语法错误的条目（grammar_status != "没有语法错误"）
   3. 对齐双方共同标注的 idx
   4. 计算匹配类型，抽取不一致条目
-
+规则：只要标注者的 selected_spans 中有至少一个 span 与 gold 文件中的任意一个 span 完全匹配，则视为正确。
 用法:
     python extract_disagreements.py \
-        --file_a lyh.json \
-        --file_b wlj.json \
+        --file_1 wlj.json \
+        --file_2 lyh.json \
         --output disagreements.json
 """
 
@@ -179,13 +179,16 @@ if __name__ == "__main__":
     # output = "analysis/bn/annotators_analysis_o1right_random30.json"
 
 
-    # o1mini和deepseek都认为是错误的：
-    file_1 = os.path.join(base_dir, f"annotations_smallmodel_botherror_random_wlj.json")
-    file_2 = os.path.join(base_dir, f"annotations_smallmodel_botherror_random_lyh.json")
-    output = "analysis/bn/annotators_analysis_botherror_random30.json"
+    # # o1mini和deepseek都认为是错误的：
+    # file_1 = os.path.join(base_dir, f"annotations_smallmodel_botherror_random_wlj.json")
+    # file_2 = os.path.join(base_dir, f"annotations_smallmodel_botherror_random_lyh.json")
+    # output = "analysis/bn/annotators_analysis_botherror_random30.json"
 
-    
-    
+    # o1mini wrong和deepseek right：
+    file_1 = os.path.join(base_dir, f"annotations_single_gold_o1wrongdsright_93_wlj.json")
+    file_2 = os.path.join(base_dir, f"annotations_single_gold_o1wrongdsright_93_lyh.json")
+    output = "analysis/bn/annotators_analysis_single_gold_o1wrongdsright_93.json"
+
     file_wlj = read_json(file_1)
     file_lyh = read_json(file_2)
     

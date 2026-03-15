@@ -1,0 +1,1180 @@
+[
+  {
+    "idx": 1,
+    "sentence": "A note scribbled by an officer on the Russian nuclear submarine Kursk has revealed that at least 23 of its 118 crewmembers survived the explosions which sank the vessel .",
+    "prd_word": "scribbled",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "scribbler",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T14:47:47.159772",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 4,
+        "end": 5,
+        "text": "an officer",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "text": "by an officer",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      3,
+      6
+    ]
+  },
+  {
+    "idx": 3,
+    "sentence": "All of our customers who participated in our presale list will get it .",
+    "prd_word": "participated",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "agent, entity participating",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T14:14:53.651832",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "All of our customers",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 4,
+        "text": "who",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      0,
+      4
+    ]
+  },
+  {
+    "idx": 4,
+    "sentence": "All the other ports that have been mentioned here that we should have considered as options have had specific threats .",
+    "prd_word": "considered",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "entity under consideration",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T14:52:35.309196",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "All the other ports that have been mentioned here",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 9,
+        "text": "that",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      0,
+      9
+    ]
+  },
+  {
+    "idx": 5,
+    "sentence": "All the other ports that have been mentioned here that we should have considered as options have had specific threats .",
+    "prd_word": "considered",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "entity under consideration",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T14:53:29.634034",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "All the other ports that have been mentioned here",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 9,
+        "text": "that",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      0,
+      9
+    ]
+  },
+  {
+    "idx": 8,
+    "sentence": "And I think perhaps no one more surprised than some of the people running those firms on Wall Street .",
+    "prd_word": "think",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Thought",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T14:21:09.768348",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 3,
+        "end": 18,
+        "text": "perhaps no one more surprised than some of the people running those firms on Wall Street",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 18,
+        "text": "no one more surprised than some of the people running those firms on Wall Street",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      4,
+      19
+    ]
+  },
+  {
+    "idx": 10,
+    "sentence": "And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",
+    "prd_word": "found",
+    "prd_idx": 30,
+    "label": "ARG0",
+    "span_mean": "finder",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T14:25:14.149431",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 18,
+        "end": 20,
+        "text": "a Scottish court",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "text": "a Scottish court , meeting in the Netherlands",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      18,
+      21
+    ]
+  },
+  {
+    "idx": 11,
+    "sentence": "And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",
+    "prd_word": "found",
+    "prd_idx": 30,
+    "label": "ARG0",
+    "span_mean": "finder",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T14:25:45.624399",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 18,
+        "end": 20,
+        "text": "a Scottish court",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "text": "a Scottish court , meeting in the Netherlands",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      18,
+      21
+    ]
+  },
+  {
+    "idx": 13,
+    "sentence": "As much as I 'd love to spend every day after school sucking up to teachers instead of hanging with my friends , I do n't want this job .",
+    "prd_word": "sucking",
+    "prd_idx": 13,
+    "label": "ARG2",
+    "span_mean": "source, entity that arg1 is sucked from",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T15:08:24.346963",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 15,
+        "end": 15,
+        "text": "teachers",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "text": "to teachers",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      14,
+      16
+    ]
+  },
+  {
+    "idx": 22,
+    "sentence": "Deputy Defense Minister Irfan Sneh said this week Israel now has a policy of tracking down Palestinians who attack Israelis .",
+    "prd_word": "said",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T14:45:48.241549",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 6,
+        "end": 19,
+        "text": "this week Israel now has a policy of tracking down Palestinians who attack Israelis",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 19,
+        "text": "Israel now has a policy of tracking down Palestinians who attack Israelis",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      6,
+      20
+    ]
+  },
+  {
+    "idx": 23,
+    "sentence": "Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .",
+    "prd_word": "stretched",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span_mean": "EXT or TMP, by how much or until when",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T15:15:43.790959",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 11,
+        "text": "to their limit",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "text": "their limit",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      12
+    ]
+  },
+  {
+    "idx": 25,
+    "sentence": "Gao Xingjian arrived in Stockholm this week and when he leaves the Chinese born writer will have something extra in his suitcase , the Nobel Prize for Literature .",
+    "prd_word": "have",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "possession",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T14:53:24.254825",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 23,
+        "end": 27,
+        "text": "the Nobel Prize for Literature",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "text": "something extra",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 27,
+        "text": "something extra in his suitcase , the Nobel Prize for Literature",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      17,
+      19
+    ]
+  },
+  {
+    "idx": 34,
+    "sentence": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+    "prd_word": "took",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "thing taken",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:07:11.170332",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 5,
+        "end": 6,
+        "text": "the trip",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 12,
+        "text": "the trip on which the novel was based",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      5,
+      13
+    ]
+  },
+  {
+    "idx": 38,
+    "sentence": "I think a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street .",
+    "prd_word": "performing",
+    "prd_idx": 41,
+    "label": "ARG1",
+    "span_mean": "performance, thing performed",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T15:20:07.385162",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 41,
+        "end": 42,
+        "text": "their duty",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "text": "their duty as a director",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      41,
+      43
+    ]
+  },
+  {
+    "idx": 45,
+    "sentence": "In October of 1985 , four hijackers under his command took over the Italian cruise ship `` Achille Lauro '' and killed a wheelchair - bound American tourist , Leo Klinghoffer .",
+    "prd_word": "bound",
+    "prd_idx": 26,
+    "label": "ARG1",
+    "span_mean": "thing bound",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T15:32:42.187273",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 26,
+        "end": 27,
+        "text": "American tourist",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "text": "Leo Klinghoffer",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "text": "American tourist , Leo Klinghoffer",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      26,
+      28
+    ]
+  },
+  {
+    "idx": 55,
+    "sentence": "Its personnel have served with US forces in Somalia , Haiti , Bosnia , and Kosovo .",
+    "prd_word": "served",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span_mean": "employer/recipient/beneficiary of service",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T15:50:30.160748",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 4,
+        "end": 6,
+        "text": "with US forces",
+        "models": [
+          "treecrf"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "text": "US forces",
+        "models": [
+          "补充"
+        ]
+      }
+    ],
+    "span_idx": [
+      4,
+      7
+    ]
+  },
+  {
+    "idx": 57,
+    "sentence": "Just go to our Website , cnn.com/wolf .",
+    "prd_word": "go",
+    "prd_idx": 2,
+    "label": "ARG4",
+    "span_mean": "end point",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T15:46:40.349032",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 2,
+        "end": 4,
+        "text": "to our Website",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 6,
+        "text": "to our Website , cnn.com/wolf",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      2,
+      5
+    ]
+  },
+  {
+    "idx": 66,
+    "sentence": "Mr. Clinton promised the gathering at the Norfolk Naval station Wednesday that those who carried out the deadly attack that killed 17 sailors will be found .",
+    "prd_word": "promised",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "person promised to",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T15:57:37.826306",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "the gathering",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 3,
+        "end": 9,
+        "text": "the gathering at the Norfolk Naval station",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      3,
+      10
+    ]
+  },
+  {
+    "idx": 67,
+    "sentence": "Mr. Clinton promised the gathering at the Norfolk Naval station Wednesday that those who carried out the deadly attack that killed 17 sailors will be found .",
+    "prd_word": "promised",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "person promised to",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T15:58:09.217182",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "the gathering",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 3,
+        "end": 9,
+        "text": "the gathering at the Norfolk Naval station",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      3,
+      10
+    ]
+  },
+  {
+    "idx": 70,
+    "sentence": "Now , with a third season set to start , will Ozzy 's role as a family man change the image in the annuls of heavy metal mad man ?",
+    "prd_word": "change",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span_mean": "thing changing",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T16:02:02.965969",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 19,
+        "end": 20,
+        "text": "the image",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 19,
+        "end": 28,
+        "text": "the image in the annuls of heavy metal mad man",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      19,
+      21
+    ]
+  },
+  {
+    "idx": 75,
+    "sentence": "Regarding the United States ' attitude in this regard , we find that the United States until now are supporting Israel .",
+    "prd_word": "find",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "thing found",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:27:12.358641",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 12,
+        "end": 20,
+        "text": "that the United States until now are supporting Israel",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "text": "the United States until now are supporting Israel",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      12,
+      21
+    ]
+  },
+  {
+    "idx": 76,
+    "sentence": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+    "prd_word": "finalize",
+    "prd_idx": 40,
+    "label": "ARG0",
+    "span_mean": "agent, entity finalizing something",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T16:09:45.314307",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 31,
+        "end": 32,
+        "text": "Mr. Putin",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 31,
+        "end": 34,
+        "text": "Mr. Putin 's visit",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      31,
+      35
+    ]
+  },
+  {
+    "idx": 92,
+    "sentence": "Thank you James .",
+    "prd_word": "Thank",
+    "prd_idx": 1,
+    "label": "ARG1",
+    "span_mean": "thanked",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T16:46:35.268529",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "you",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "text": "you James",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 2,
+        "text": "James",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      1,
+      3
+    ]
+  },
+  {
+    "idx": 110,
+    "sentence": "The federal government will not appeal the court ruling that cleared the way for same - sex unions .",
+    "prd_word": "cleared",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "thing made clean",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T17:12:06.811906",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 11,
+        "end": 12,
+        "text": "the way",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "text": "the way for same - sex unions",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      11,
+      13
+    ]
+  },
+  {
+    "idx": 119,
+    "sentence": "The show came back with a vengeance last fall chronicling Ozzy and Sharon dealing with cancer and the kids coping with new - found celebrity and one of the top rated shows .",
+    "prd_word": "coping",
+    "prd_idx": 20,
+    "label": "ARG1",
+    "span_mean": "coping with",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T18:48:54.596273",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 20,
+        "end": 24,
+        "text": "with new - found celebrity",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 24,
+        "text": "new - found celebrity",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      20,
+      25
+    ]
+  },
+  {
+    "idx": 120,
+    "sentence": "The two men are charged with murder and conspiracy in connection with the 1988 bombing that killed 270 people .",
+    "prd_word": "charged",
+    "prd_idx": 5,
+    "label": "ARG2",
+    "span_mean": "role or crime",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T16:41:26.665283",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 5,
+        "end": 8,
+        "text": "with murder and conspiracy",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 18,
+        "text": "with murder and conspiracy in connection with the 1988 bombing that killed 270 people",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      5,
+      9
+    ]
+  },
+  {
+    "idx": 122,
+    "sentence": "They have also set up a joint working group on Afghanistan , which is of course a cause of concern for both countries .",
+    "prd_word": "set",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": null,
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T16:42:15.743862",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 5,
+        "end": 8,
+        "text": "a joint working group",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "text": "a joint working group on Afghanistan",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      5,
+      9
+    ]
+  },
+  {
+    "idx": 130,
+    "sentence": "This connection to national and musical identities results partly from the fact that many Senegalese artists want to stay in Senegal to live and work says PBS singer Tidia Awadi .",
+    "prd_word": "results",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "Theme, prior condition",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:01:11.578451",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 24,
+        "text": "from the fact that many Senegalese artists want to stay in Senegal to live and work",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 24,
+        "text": "the fact that many Senegalese artists want to stay in Senegal to live and work",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      25
+    ]
+  },
+  {
+    "idx": 131,
+    "sentence": "This connection to national and musical identities results partly from the fact that many Senegalese artists want to stay in Senegal to live and work says PBS singer Tidia Awadi .",
+    "prd_word": "results",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "Theme, prior condition",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:01:32.909193",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 24,
+        "text": "from the fact that many Senegalese artists want to stay in Senegal to live and work",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 24,
+        "text": "the fact that many Senegalese artists want to stay in Senegal to live and work",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      9,
+      25
+    ]
+  },
+  {
+    "idx": 132,
+    "sentence": "This is Mr. Clinton 's third visit to Northern Ireland , and the Irish Republic to do what he can to generate a lasting peace .",
+    "prd_word": "generate",
+    "prd_idx": 22,
+    "label": "ARG0",
+    "span_mean": "creator",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:03:19.460363",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 18,
+        "end": 18,
+        "text": "he",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "text": "Mr. Clinton",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      18,
+      19
+    ]
+  },
+  {
+    "idx": 133,
+    "sentence": "This song is from their latest play , The Last Train for Serbia , which was recorded on the day protestors stormed the federal parliament in Belgrade and the main television stations .",
+    "prd_word": "recorded",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "record",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-06T19:05:33.088523",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 12,
+        "text": "The Last Train for Serbia",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 12,
+        "text": "their latest play , The Last Train for Serbia",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 6,
+        "text": "their latest play",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 14,
+        "text": "which",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      13
+    ]
+  },
+  {
+    "idx": 134,
+    "sentence": "This song is from their latest play , The Last Train for Serbia , which was recorded on the day protestors stormed the federal parliament in Belgrade and the main television stations .",
+    "prd_word": "recorded",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "record",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-06T19:06:15.425343",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 4,
+        "end": 6,
+        "text": "their latest play",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 12,
+        "text": "The Last Train for Serbia",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 12,
+        "text": "their latest play , The Last Train for Serbia",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 14,
+        "text": "which",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      8,
+      13
+    ]
+  },
+  {
+    "idx": 149,
+    "sentence": "When American saxophonist David Murray recorded his acclaimed afrocentric jazz album , Fo Juke Review in Dakar , he recruited Amidu Berry and DJ Awadi from PBS to show what an edge West African music can really have .",
+    "prd_word": "recruited",
+    "prd_idx": 20,
+    "label": "ARG1",
+    "span_mean": "recruit",
+    "type": "sm_right, o1mini_right(deepseek)",
+    "timestamp": "2026-03-10T17:00:36.819506",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 20,
+        "end": 24,
+        "text": "Amidu Berry and DJ Awadi",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "text": "Amidu Berry and DJ Awadi from PBS",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      20,
+      25
+    ]
+  },
+  {
+    "idx": 152,
+    "sentence": "When the mom comes in , the puppies know exactly where to go for milk -- sort of a little confusion .",
+    "prd_word": "go",
+    "prd_idx": 13,
+    "label": "ARG4",
+    "span_mean": "end point",
+    "type": "sm_right, o1mini_wrong，deepseek_right",
+    "timestamp": "2026-03-10T17:01:43.169874",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 10,
+        "end": 10,
+        "text": "where",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "text": "exactly where",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "span_idx": [
+      10,
+      11
+    ]
+  }
+]
