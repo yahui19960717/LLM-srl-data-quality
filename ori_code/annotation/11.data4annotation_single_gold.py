@@ -22,12 +22,6 @@ def write_pickle(sentences, path):
     with open(path, 'wb') as f:
         pickle.dump(sentences, f)
 
-def read_pickle(file):
-    """从文件读取pickle数据"""
-    with open(file, 'rb') as f:
-        data = pickle.load(f)
-    print(len(data))
-    return data
 
 def get_annotation_instance(type_data, new_data, dic_alldata, choice_multi, choice_1, type=None):
 
@@ -176,32 +170,6 @@ def deal_random_data(i1aidgold, all_data, fileout):
     
     write_pickle(newest_data, fileout)
 
-def remove_random(data_all, data_rm):
-    toanno = []
-    data_rm_dic = {}
-    for ins in data_rm:
-        sen = ins['sen']
-        prd_word = ins['prd_word']
-        prd_idx = ins['prd_idx']
-        label = ins['label']
-        key = "\t".join([sen, prd_word, str(prd_idx), label])
-        if key not in data_rm_dic.keys():
-            data_rm_dic[key] = ins
-        else:
-            print("error")
-    for ins in data_all:
-        sen = ins['sen']
-        prd_word = ins['prd_word']
-        prd_idx = ins['prd_idx']
-        label = ins['label']
-        key = "\t".join([sen, prd_word, str(prd_idx), label])
-        if key in data_rm_dic.keys():
-            continue
-        else:
-            toanno.append(ins)
-    
-    print(len(toanno))
-    return toanno
 
 
 if __name__=="__main__":
@@ -220,7 +188,6 @@ if __name__=="__main__":
     #fileout = f"anno/bn_annotation_single_gold_random.pkl"
     #deal_random_data(incorrecto1mini_and_deepseekincrrect_gold, all_data, fileout)
 
-
     # golden结果，o1mini认为正确的，随机选择30个句子来判断
     #domain = "bn"
     #correct_o1mini_gold = read_json(f"llm/correct_data_{domain}_gold.json")
@@ -228,20 +195,16 @@ if __name__=="__main__":
     #fileout = f"anno/bn_annotation_gold_o1right_random.pkl"
     #deal_random_data(correct_o1mini_gold, all_data, fileout)
 
-    # # 小模型结果，o1mini和DeepSeek都认为错误的，随机选择30个句子来判断
-    # domain = "bn"
-    # incorrect_both_o1mini_and_deepseek_smallmodel = read_json(f"llm/incorrect_data_{domain}_smallmodel_deepseek.json")
-    # all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
-    # fileout = f"anno/bn_annotation_smallmodel_botherror_random.pkl"
-    # deal_random_data(incorrect_both_o1mini_and_deepseek_smallmodel, all_data, fileout)
+    # 小模型结果，o1mini和DeepSeek都认为错误的，随机选择30个句子来判断
+    #domain = "bn"
+    #incorrect_both_o1mini_and_deepseek_smallmodel = read_json(f"llm/incorrect_data_{domain}_smallmodel_deepseek.json")
+    #all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
+    #fileout = f"anno/bn_annotation_smallmodel_botherror_random.pkl"
+    #deal_random_data(incorrect_both_o1mini_and_deepseek_smallmodel, all_data, fileout)
 
-
-    # o1mini认为不对，但deepseek认为正确的，去掉随机选择的30个句子来判断
+    # golden数据，大模型解析错误的
     domain = "bn"
-    incorrecto1mini_and_deepseekincrrect_gold = read_json(f"llm/correct_data_{domain}_gold_deepseek.json")
+    correct_o1mini_gold = read_json(f"final_data/test_bn_4llm_core_gold_not_parse.json")
     all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
-    random_30 = read_pickle(f"anno/bn_annotation_single_gold_random.pkl")
-    data_rmed = remove_random(incorrecto1mini_and_deepseekincrrect_gold, random_30)
-    fileout = f"anno/bn_annotation_single_gold_o1wrongdsright_93.pkl"
-    deal_data(data_rmed, all_data, fileout)
-    
+    fileout = f"anno/bn_annotation_gold_llm_not_parse.pkl"
+    deal_random_data(correct_o1mini_gold, all_data, fileout)

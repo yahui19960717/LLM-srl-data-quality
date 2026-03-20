@@ -300,7 +300,16 @@ def LLM_prompt(data, path_save, path_save2):
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
     domain = "bn"
-    data = read_json(f"final_data/test_bn_4llm_core_smallmodel.conll")
+    # 分为小模型各自标注的，和二者都有的
+    # data = read_json(f"final_data/test_bn_4llm_core_smallmodel.conll")
+    # # data = read_json( f"llm-temp/test_{domain}_4llm_core_smallmodel.conll")
+    # path_llmout = f"llm/test_{domain}_4llm_all_smallmodel.conll"
+    # path_llmout2 = f"llm/test_{domain}_4llm_parseright_smallmodel.conll"
+    # LLM_prompt(data, path_llmout, path_llmout2)
+    # print("工作保存完成！")
+
+
+    data = read_json(f"final_data/test_bn_4llm_core_smallmodel_.conll")
     # data = read_json( f"llm-temp/test_{domain}_4llm_core_smallmodel.conll")
     path_llmout = f"llm/test_{domain}_4llm_all_smallmodel.conll"
     path_llmout2 = f"llm/test_{domain}_4llm_parseright_smallmodel.conll"

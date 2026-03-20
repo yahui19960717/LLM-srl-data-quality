@@ -1,0 +1,422 @@
+{
+  "meta": {
+    "name_a": "wlj",
+    "name_b": "lyh",
+    "file_a": "anno/annotation_smnotrecall_21_wlj.json",
+    "file_b": "anno/annotation_smnotrecall_21_lyh.json",
+    "grammar_filter_stats": {
+      "removed_idx_count": 0,
+      "removed_idx_list": [],
+      "removed_by_wlj": 0,
+      "removed_by_lyh": 0
+    },
+    "stats": {
+      "total_aligned": 21,
+      "exact": 8,
+      "both_empty": 1,
+      "partial": 2,
+      "none": 2,
+      "empty_a": 4,
+      "empty_b": 4,
+      "optional": 1
+    }
+  },
+  "records": [
+    {
+      "idx": 1,
+      "sentence": "All this happening about 90 minutes ago based on the wire reports we 're getting here .",
+      "prd_word": "based",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "decision, whole",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "All this happening about 90 minutes ago",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": true,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 2,
+      "sentence": "And if this attack turns out to be the work of terrorists , Hoffman says it would signal a dangerous new trend .",
+      "prd_word": "turns",
+      "prd_idx": 5,
+      "label": "ARG2",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "to be the work of terrorists",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": true,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 5,
+      "sentence": "California 's utility companies are not able to generate all the power their customers need , so they have turned to outside suppliers and in the face of rising prices the state 's two largest utility firms have sunk more than eight billion dollars in debt .",
+      "prd_word": "sunk",
+      "prd_idx": 39,
+      "label": "ARG2",
+      "span_mean": "EXT",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 39,
+          "end": 45,
+          "text": "more than eight billion dollars in debt",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 45,
+          "text": "more than eight billion dollars in debt",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 39,
+          "end": 45,
+          "text": "more than eight billion dollars in debt",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 7,
+      "sentence": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+      "prd_word": "vote",
+      "prd_idx": 14,
+      "label": "ARG0",
+      "span_mean": "voter",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 12,
+          "end": 12,
+          "text": "their",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 9,
+          "text": "everybody who tried to vote who legally voted",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": true,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 8,
+      "sentence": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+      "prd_word": "make",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": null,
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 24,
+          "end": 24,
+          "text": "it",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 10,
+      "sentence": "Its personnel have served with US forces in Somalia , Haiti , Bosnia , and Kosovo .",
+      "prd_word": "served",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "job, project, service performed",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "with US forces",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 11,
+      "sentence": "Milosevic headed Yugoslavia 's state - run gas company and was President of a major Belgrade bank climbing the political ladder as a Communist technocrat .",
+      "prd_word": "run",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "operator",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Milosevic",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "text": "Yugoslavia 's state",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Milosevic headed Yugoslavia",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 13,
+      "sentence": "Ratings for the second season slid .",
+      "prd_word": "Ratings",
+      "prd_idx": 1,
+      "label": "ARG1",
+      "span_mean": null,
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "for the second season",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 15,
+      "sentence": "Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash .",
+      "prd_word": "trial",
+      "prd_idx": 12,
+      "label": "ARG3",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 12,
+          "end": 18,
+          "text": "of the Lockerbie 103 Pan Am crash",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": true,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 16,
+      "sentence": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+      "prd_word": "write",
+      "prd_idx": 80,
+      "label": "ARG1",
+      "span_mean": "thing written",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 70,
+          "end": 72,
+          "text": "the social realism",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 17,
+      "sentence": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+      "prd_word": "taken",
+      "prd_idx": 11,
+      "label": "ARG2",
+      "span_mean": "required-of, required-from ('ablative')",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 0,
+          "end": 8,
+          "text": "These arms agreements that we were just speaking about",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 18,
+      "sentence": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+      "prd_word": "keep",
+      "prd_idx": 12,
+      "label": "ARG0",
+      "span_mean": "causer of continued action",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "an emergency order",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "an emergency order",
+          "models": [
+            "semicrf"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 4,
+          "text": "US Energy Secretary Bill Richardson",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    }
+  ]
+}

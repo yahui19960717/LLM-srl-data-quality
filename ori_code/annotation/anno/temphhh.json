@@ -1,0 +1,46 @@
+{
+  "annotations": [
+    {
+      "idx": 1,
+      "sentence": "11 members had been charged with negligent homicide for forcing 18 - year - old pledge Walter Dean Jenning to drink an excessive amount of water .",
+      "prd_word": "forcing",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": "forcer",
+      "type": "gold_right, o1mini_wrong，deepseek_wrong",
+      "optional": true,
+      "timestamp": "2026-03-17T14:27:58.818801",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 2,
+      "sentence": "11 members had been charged with negligent homicide for forcing 18 - year - old pledge Walter Dean Jenning to drink an excessive amount of water .",
+      "prd_word": "charged",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "assigned",
+      "type": "gold_right, o1mini_wrong，deepseek_wrong",
+      "optional": false,
+      "timestamp": "2026-03-17T14:28:12.068459",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "11 members",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    }
+  ],
+  "last_index": 1
+}

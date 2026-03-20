@@ -133,7 +133,8 @@ if __name__=="__main__":
     gold_o1mini_right = "annotated_final/annotations_gold_o1right_random_wlj_final.json"
     gold_bothwrong = "annotated_final/annotations_single_gold_wlj_final.json"
     gold_o1wrong_dsright = "annotated_final/annotations_single_gold_random_wlj_final.json"
-    data_list =[gold_o1mini_right, gold_bothwrong, gold_o1wrong_dsright]
+    old_o1wrong_dsright_93 = "annotated_final/annotations_single_gold_o1wrongdsright_93_wlj_final.json"
+    data_list =[gold_o1mini_right, gold_bothwrong, gold_o1wrong_dsright, old_o1wrong_dsright_93]
     gold_repair = "annotated_final/allgold_final.json"
     
     

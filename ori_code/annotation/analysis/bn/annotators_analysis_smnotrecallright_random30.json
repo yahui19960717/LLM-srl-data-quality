@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "name_a": "wlj",
+    "name_b": "lyh",
+    "file_a": "anno/annotation_smnotrecallright_random30_wlj.json",
+    "file_b": "anno/annotation_smnotrecallright_random30_lyh.json",
+    "grammar_filter_stats": {
+      "removed_idx_count": 0,
+      "removed_idx_list": [],
+      "removed_by_wlj": 0,
+      "removed_by_lyh": 0
+    },
+    "stats": {
+      "total_aligned": 30,
+      "exact": 20,
+      "both_empty": 0,
+      "partial": 3,
+      "none": 2,
+      "empty_a": 3,
+      "empty_b": 2,
+      "optional": 1
+    }
+  },
+  "records": [
+    {
+      "idx": 2,
+      "sentence": "As much as I 'd love to spend every day after school sucking up to teachers instead of hanging with my friends , I do n't want this job .",
+      "prd_word": "spend",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "activity",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 12,
+          "end": 21,
+          "text": "sucking up to teachers instead of hanging with my friends",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "text": "sucking up to teachers",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 12,
+          "end": 21,
+          "text": "sucking up to teachers instead of hanging with my friends",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 5,
+      "sentence": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+      "prd_word": "based",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "justification, parts/ arg1 is made up of what?",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "the trip",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "on which",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "text": "the trip",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        1
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 7,
+      "sentence": "It how quickly they get handed .",
+      "prd_word": "handed",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "entity given to",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "they",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 9,
+      "sentence": "It is difficult to say , Arab 's summit have traditionally been exercises in division .",
+      "prd_word": "summit",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": "one party",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "Arab",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "Arab 's",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 6,
+          "text": "Arab",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        1
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 10,
+      "sentence": "Just as he did that , that 's when you saw the child just walking just a few feet away from him but the officers were able to get the child away .",
+      "prd_word": "get",
+      "prd_idx": 29,
+      "label": "ARG2",
+      "span_mean": "destination",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 31,
+          "end": 31,
+          "text": "away",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": true,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 11,
+      "sentence": "Karl Penhaul is joining us live on the phone with more .",
+      "prd_word": "joining",
+      "prd_idx": 4,
+      "label": "ARG2",
+      "span_mean": "secondary predication (with something, like news, for example)",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "live",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 14,
+      "sentence": "Mr. Arafat accused Israel of waging a savage and barbaric war against his people .",
+      "prd_word": "waging",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "foe, if separate from arg0",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 11,
+          "end": 13,
+          "text": "against his people",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "Israel",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 24,
+      "sentence": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+      "prd_word": "flowing",
+      "prd_idx": 14,
+      "label": "ARG4",
+      "span_mean": null,
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "to California",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 27,
+      "sentence": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+      "prd_word": "devastated",
+      "prd_idx": 21,
+      "label": "ARG0",
+      "span_mean": "destroyer",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 9,
+          "end": 9,
+          "text": "Bagdad",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 28,
+      "sentence": "While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war .",
+      "prd_word": "presented",
+      "prd_idx": 52,
+      "label": "ARG2",
+      "span_mean": "given to",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 52,
+          "end": 54,
+          "text": "the United Nations",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 23,
+          "end": 41,
+          "text": "the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    }
+  ]
+}

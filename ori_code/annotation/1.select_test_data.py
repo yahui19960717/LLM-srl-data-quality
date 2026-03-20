@@ -62,20 +62,20 @@ def write_text(sentences,file):
                 f.write(line)
                 f.write("\n")
             f.write('\n')
-def main(path):
+def main(path, num_data):
     filepath = f"/data/ljwang/span-SRL-LLM/data/{path}/test_{path}.conll"
-    file_out = f"selected_data/test_{path}_selected_data.conll"
+    file_out = f"selected_data/test_{path}_selected_data_{num_data}.conll"
     sentences = parse_conll(filepath) # 每个句子是n行
     print(f'{filepath}-> 句子的个数为：{len(sentences)}')
 
     # 筛选：不能所有谓词都是 be. 
     candidates = [s for s in sentences if has_non_be_predicate(s)] #  
 
-    if len(candidates) < 500:
-        print("符合条件的句子不足500个。")
+    if len(candidates) < num_data:
+        print(f"符合条件的句子不足{num_data}个。只有{len(candidates)}")
         return
 
-    sampled = random.sample(candidates, 500)
+    sampled = random.sample(candidates, num_data)
 
     write_text(sampled, file_out)
     exit()
@@ -88,4 +88,5 @@ def main(path):
 
 
 if __name__ == "__main__":
-    main("bn")
+    # main("bn", 500)
+    main("tc", 692)

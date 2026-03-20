@@ -1,0 +1,24 @@
+{
+  "Her stockbroker was also charged .\tcharged\t5": {
+    "prd_sense": "05",
+    "roles": {
+      "ARG0": "assigner",
+      "ARG1": "assigned",
+      "ARG2": "role or crime"
+    },
+    "Prompt": "Give a sentence：\"Her stockbroker was also charged .\", a predicate：\"charged\", all posssible argument roles and their descritions：{'ARG0': 'assigner', 'ARG1': 'assigned', 'ARG2': 'role or crime'}, please label all the possible argument about predicate \"charged\" of the sentence.\n Provide the answer in JSON format as follows: {\"comment\":{role: argument, role: argument, ...}} ",
+    "Prompt_Result": "{\"comment\":{\"ARG1\":\"Her stockbroker\"}}"
+  },
+  "Age groups span the generations , and it 's absolutely no longer guys only .\tspan\t3": {
+    "prd_sense": "01",
+    "roles": {
+      "ARG0": "thing extending",
+      "ARG1": "entity spanned",
+      "ARG2": "distance measurement",
+      "ARG3": "start point, first boundary",
+      "ARG4": "end point, second boundary"
+    },
+    "Prompt": "Give a sentence：\"Age groups span the generations , and it 's absolutely no longer guys only .\", a predicate：\"span\", all posssible argument roles and their descritions：{'ARG0': 'thing extending', 'ARG1': 'entity spanned', 'ARG2': 'distance measurement', 'ARG3': 'start point, first boundary', 'ARG4': 'end point, second boundary'}, please label all the possible argument about predicate \"span\" of the sentence.\n Provide the answer in JSON format as follows: {\"comment\":{role: argument, role: argument, ...}} ",
+    "Prompt_Result": "{\"comment\":{\"ARG0\":\"Age groups\",\"ARG1\":\"the generations\"}}"
+  }
+}

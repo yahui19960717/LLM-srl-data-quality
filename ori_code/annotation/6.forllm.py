@@ -34,9 +34,7 @@ def get_gold_index(data, frames, outfile_core, outfile_all):
                     roles = ins['roles']
         else:
             noframe += 1
-
-            
-        
+    
         for arg in gold:
             dic_core, dic_all = {}, {}
             idx += 1
@@ -71,15 +69,17 @@ def get_gold_index(data, frames, outfile_core, outfile_all):
 
 
 
-def get_small_model_index(data, frames, outfile_core, outfile_all):
+def get_small_model_index(data, frames, outfile_core, outfile_all, outfile_repeat):
     new_data_core = []
     new_data_all = []
+    repeat_data, repeat_core, repeat_all = [], 0, 0
     core_label = {'ARG0':0, 'ARG1':0, 'ARG2':0, 'ARG3':0, 'ARG4':0, 'ARG5':0}
     idx = 0
     semicrf_in_gold, semicrf_in_treecrf, treecrf_in_semicrf, treecrf_in_gold = 0, 0, 0, 0
     semicrf_num, treecrf_num = 0, 0
     semicrf_num_core, treecrf_num_core = 0, 0
     noframe, noframe_semicrf, noframe_treecrf = 0, 0, 0
+
     for key in data:
         sen = key['sen']
         prd_word = key['prd_word']
@@ -160,14 +160,49 @@ def get_small_model_index(data, frames, outfile_core, outfile_all):
                     treecrf_num_core += 1
                 new_data_all.append(dic_core)
                 treecrf_num += 1
+
+
+        for  arg in treecrf:
+            dic_core, dic_all = {}, {}
+            idx += 1
+            label = arg
+            if  label in semicrf and semicrf[label]==treecrf[label]  and (label in gold and gold[label]!=treecrf[label] or label not in gold):
+                span = " ".join(sen.split()[treecrf[arg][0]: treecrf[arg][1]])
+                dic_core["idx"] = idx
+                dic_core['sen'] = sen
+                dic_core['prd_word'] = prd_word
+                dic_core['prd_lemma'] = prd_lemma
+                dic_core['prd_sense'] = prd_sense
+                dic_core['prd_idx']  = prd_idx
+                dic_core['label'] = label
+                dic_core['span'] = span
+                dic_core['span_idx'] = [treecrf[arg][0], treecrf[arg][1]]
+                if label in roles:
+                    # import pdb;pdb.set_trace()
+                    dic_core['span_mean'] =  roles[label]
+                else:
+                    dic_core['span_mean'] = None
+                    noframe_treecrf += 1
+                if label in core_label:
+                    repeat_data.append(dic_core)
+                    repeat_core += 1
+                    new_data_core.append(dic_core)
+                # repeat_data.append(dic_core)
+                repeat_all += 1
+                new_data_all.append(dic_core)
     
-    write_json(new_data_core, outfile_core)
-    write_json(new_data_all, outfile_all)    # 包含了核心和非核心
+    # write_json(new_data_core, outfile_core)
+    # write_json(new_data_all, outfile_all)    # 包含了核心和非核心
+    write_json(repeat_data, outfile_repeat)# 下次需要和单独预测的放在一起
     print(f'No frame num in all predicate : {noframe}')
     print(f'Semicrf in gold :{semicrf_in_gold}, Semicrf in treecrf : {semicrf_in_treecrf}')
     print(f'Treecrf in gold :{treecrf_in_gold}, Treecrf in semicrf : {treecrf_in_semicrf}')
     print(f'Semicrf nonoverlap all num : {semicrf_num}, Treecrf nonoverlap all num : {treecrf_num}, all:{semicrf_num+treecrf_num}')
-    print(f'Semicrf nonoverlap core num : {semicrf_num_core}, Treecrf nonoverlap core num : {treecrf_num_core}, all core:{semicrf_num_core+treecrf_num_core}')
+    print(f'Semicrf nonoverlap core num : {semicrf_num_core}, Treecrf nonoverlap core num : {treecrf_num_core}, all saperate core:{semicrf_num_core+treecrf_num_core}')
+    print(f'不在gold中，但在semicrf和treecrf两者中的repeat 结果：{repeat_all}, 核心个数为：{repeat_core}')
+    print(f'all core:{semicrf_num_core+treecrf_num_core + repeat_core}, all data: {semicrf_num + treecrf_num + repeat_all}')
+    assert len(new_data_all)==(semicrf_num + treecrf_num + repeat_all)
+    assert len(new_data_core) == (semicrf_num_core+treecrf_num_core + repeat_core)
 
 def get_marginalprob_index(data, frames,file_out ):
     new_data_core = []
@@ -242,6 +277,7 @@ def get_marginalprob_index(data, frames,file_out ):
     print(all_num)
 
 
+
 if __name__ == "__main__":
     domain = "bn"
     
@@ -262,7 +298,8 @@ if __name__ == "__main__":
     # 小模型
     file_out_smallmodel = f"final_data/test_{domain}_4llm_core_smallmodel.conll"
     file_outall_smallmodel = f"final_data/test_{domain}_4llm_all_smallmodel.conll"
-    get_small_model_index(data, frames, file_out_smallmodel, file_outall_smallmodel)
+    file_repeat = f"final_data/test_{domain}_4llm_all_smallmodel_repeat.conll"
+    get_small_model_index(data, frames, file_out_smallmodel, file_outall_smallmodel, file_repeat)
 
 
     # 数据已保存到: final_data/test_bn_4llm_core_smallmodel.conll
@@ -274,8 +311,8 @@ if __name__ == "__main__":
     # Semicrf nonoverlap core num : 140, Treecrf nonoverlap core num : 129, all core:269
 
 
-    # # data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.5.conll")
-    data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.1.conll")
-    file_out_prob = f"final_data/test_{domain}_4llm_core_high_prob.conll"
-    file_outall_prob = f"final_data/test_{domain}_4llm_all_high_prob.conll"
-    get_marginalprob_index(data, frames, file_out_prob)
+    # # # data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.5.conll")
+    # data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.1.conll")
+    # file_out_prob = f"final_data/test_{domain}_4llm_core_high_prob.conll"
+    # file_outall_prob = f"final_data/test_{domain}_4llm_all_high_prob.conll"
+    # get_marginalprob_index(data, frames, file_out_prob)

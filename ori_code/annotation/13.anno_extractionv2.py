@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+相比于上一个版本，这个版本增加了可标可不标注的处理
 抽取不匹配的标注数据，生成文本 供 Streamlit 查看器使用。
 处理流程：
   1. 加载双方 JSON，去重
@@ -54,12 +55,16 @@ def filter_grammar_errors(data: List[Dict]) -> Tuple[List[Dict], List[Dict]]:
             clean.append(item)
         else:
             removed.append(item)
+            print(item)
     return clean, removed
 
 def align_annotations(data_a: List[Dict], data_b: List[Dict]) -> List[Tuple[Dict, Dict]]:
     dict_a = {item['idx']: item for item in data_a}
     dict_b = {item['idx']: item for item in data_b}
     common = set(dict_a.keys()) & set(dict_b.keys())
+    # dict_a = {(item['sentence'], item["prd_word"], item["prd_idx"], item['label']):item for item in data_a}
+    # dict_b = {(item['sentence'], item["prd_word"], item["prd_idx"], item['label']):item for item in data_b}
+    # common = set(dict_a.keys()) & set(dict_b.keys())
     for idx in sorted(common):
         assert dict_a[idx]['sentence'] == dict_b[idx]['sentence']
         assert dict_a[idx]['prd_word'] == dict_b[idx]['prd_word']
@@ -107,12 +112,18 @@ def extract(aligned, grammar_filter_stats, file_a, file_b, name_1, name_2 ):
     stats = {
         "total_aligned": len(aligned),
         "exact": 0, "both_empty": 0,
-        "partial": 0, "none": 0, "empty_a": 0, "empty_b": 0,
+        "partial": 0, "none": 0, "empty_a": 0, "empty_b": 0, "optional": 0, 
     }
-
     for item_a, item_b in aligned:
+        # import pdb;pdb.set_trace()
+
+        optional_a = item_a.get('optional', None)
+        optional_b = item_b.get('optional', None)
+        if optional_a == optional_b and optional_b == True:
+            stats["optional"] = stats.get("optional", 0) + 1 
         spans_a = item_a.get('selected_spans', []) # 每个人标注的全部数据
         spans_b = item_b.get('selected_spans', [])
+
         match_type, score = classify_match(spans_a, spans_b) # 看下双方spans的匹配数
         stats[match_type] = stats.get(match_type, 0) + 1 #对应的匹配类型+1
 
@@ -144,6 +155,8 @@ def extract(aligned, grammar_filter_stats, file_a, file_b, name_1, name_2 ):
             "spans_b":           spans_b,
             "matched_a_idx":     list(matched_a_idx),
             "matched_b_idx":     list(matched_b_idx),
+            "optional_a":        item_a.get('optional', False),
+            "optional_b":        item_b.get('optional', False),
             "adjudicated_spans": None,
             "adjudication_note": "",
         })
@@ -184,10 +197,26 @@ if __name__ == "__main__":
     # file_2 = os.path.join(base_dir, f"annotations_smallmodel_botherror_random_lyh.json")
     # output = "analysis/bn/annotators_analysis_botherror_random30.json"
 
-    # o1mini wrong和deepseek right：
-    file_1 = os.path.join(base_dir, f"annotations_single_gold_o1wrongdsright_93_wlj.json")
-    file_2 = os.path.join(base_dir, f"annotations_single_gold_o1wrongdsright_93_lyh.json")
-    output = "analysis/bn/annotators_analysis_single_gold_o1wrongdsright_93.json"
+    # # o1mini wrong和deepseek right：
+    # file_1 = os.path.join(base_dir, f"annotations_single_gold_o1wrongdsright_93_wlj.json")
+    # file_2 = os.path.join(base_dir, f"annotations_single_gold_o1wrongdsright_93_lyh.json")
+    # output = "analysis/bn/annotators_analysis_single_gold_o1wrongdsright_93.json"
+
+
+    # # mini wrong和deepseek right：
+    # file_1 = os.path.join(base_dir, f"annotation_smallmodel_overlap_wlj.json")
+    # file_2 = os.path.join(base_dir, f"annotation_smallmodel_overlap_lyh.json")
+    # output = "analysis/bn/annotators_analysis_ssmallmodel_overlap_179.json"
+
+    # # small model not recall的，不在final corrected data中,大模型判断错误的label
+    # file_1 = os.path.join(base_dir, f"annotation_smnotrecall_21_wlj.json")
+    # file_2 = os.path.join(base_dir, f"annotation_smnotrecall_21_lyh.json")
+    # output = "analysis/bn/annotators_analysis_smnotrecall_21.json"
+
+    # small model not recall的，不在final corrected data中的label，大模型判断正确的 抽查
+    file_1 = os.path.join(base_dir, f"annotation_smnotrecallright_random30_wlj.json")
+    file_2 = os.path.join(base_dir, f"annotation_smnotrecallright_random30_lyh.json")
+    output = "analysis/bn/annotators_analysis_smnotrecallright_random30.json"
 
     file_wlj = read_json(file_1)
     file_lyh = read_json(file_2)
@@ -223,7 +252,7 @@ if __name__ == "__main__":
         print(f"  被过滤的 idx：{preview}{suffix}")
 
 
-    # 步骤3: 对齐数据index：
+    # 步骤3: 对齐数据（sen, prd, prd_idx, label）
     print("\n[对齐标注者数据]:")
     aligned_data = align_annotations(clean_wlj, clean_lyh)
     print(f"双方共同标注（语法正确）：{len(aligned_data)} 条")
@@ -236,7 +265,7 @@ if __name__ == "__main__":
     s = results["meta"]["stats"]
     print(f"\n[结果汇总]")
     print(f"  共同标注（语法正确）：{s['total_aligned']} 条")
-    print(f"  完全一致：{s.get('exact', 0) + s.get('both_empty', 0)} 条")
+    print(f"  完全一致：{s.get('exact', 0) + s.get('both_empty', 0) +s.get('optional', 0)} 条")
     print(f"  不一致总计：{len(results['records'])} 条")
     print(f"    部分匹配：{s.get('partial', 0)}")
     print(f"    完全不匹配：{s.get('none', 0)+s.get('empty_b', 0)+s.get('empty_a', 0)}")

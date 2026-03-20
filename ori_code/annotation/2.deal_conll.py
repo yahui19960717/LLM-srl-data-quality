@@ -162,9 +162,9 @@ def write_json(sentences, path):
     print(f"数据已保存到: {path}")
 if __name__ == "__main__":
     core_label = {'ARG0':0, 'ARG1':0, 'ARG2':0, 'ARG3':0, 'ARG4':0, 'ARG5':0}
-    domain = 'bn'
+    domain = 'tc'
     number_core = 0
-    filepath = f"selected_data/test_{domain}_selected_data.conll"
+    filepath = f"selected_data/test_{domain}_selected_data_692.conll"
     fileout = f"final_data/test_{domain}_goldlabel.conll"
     sentences = parse_conll(filepath)
     prd_all_num, prd_rm_be_num = 0, 0
@@ -206,6 +206,7 @@ if __name__ == "__main__":
     print(f"去除 be 动词之后的谓词个数为 ： {prd_rm_be_num}")
     print(f'全部的谓词个数为：  {prd_all_num}')
     print(f'gold core number is : {number_core}')
+    # bn
     # 去除 be 动词之后的谓词个数为 ： 1455
     # 全部的谓词个数为：  1766    
     # 2132

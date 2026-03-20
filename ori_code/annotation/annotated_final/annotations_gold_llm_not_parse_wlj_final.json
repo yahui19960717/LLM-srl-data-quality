@@ -1,0 +1,83 @@
+{
+  "annotations": [
+    {
+      "idx": 1,
+      "sentence": "I think there are a number of other measures that indicate how well somebody 's doing running a company , and I think corporation boards need to spend more time on that dimension .",
+      "prd_word": "running",
+      "prd_idx": 17,
+      "label": "ARG1",
+      "span_mean": "machine, operation, procedure",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-18T11:06:29.428446",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 18,
+          "text": "a company",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "sentence": "Some Yemenis expressed relief to see the ship leave .",
+      "prd_word": "see",
+      "prd_idx": 6,
+      "label": "ARG0",
+      "span_mean": "viewer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-18T11:07:35.706494",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "Some Yemenis",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "sentence": "That 's the decision from a federal appeals court reversing a lower court ruling .",
+      "prd_word": "decision",
+      "prd_idx": 4,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-18T11:09:50.856931",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "a federal appeals court",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "text": "from a federal appeals court",
+          "models": [
+            "自定义"
+          ]
+        }
+      ]
+    }
+  ],
+  "last_index": 2
+}

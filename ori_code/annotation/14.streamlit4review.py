@@ -14,11 +14,16 @@ from typing import Dict, List, Optional, Tuple
 # ──────────────────────────────────────────────
 # DATA_FILE   = "analysis/bn/annotators_analysis_smallmodel163.json"
 # DATA_FILE   = "analysis/bn/annotators_analysis_gold113.json" 
-DATA_FILE = "analysis/bn/annotators_analysis_single_gold_o1wrongdsright_93.json"      # extract_disagreements.py 生成的文件
+# DATA_FILE = "analysis/bn/annotators_analysis_single_gold_o1wrongdsright_93.json"      # extract_disagreements.py 生成的文件
 # DATA_FILE   = "analysis/bn/annotators_analysis_goldrandom30.json"   
 # DATA_FILE   = "analysis/bn/annotators_analysis_o1right_random30.json" 
 # DATA_FILE   = "analysis/bn/annotators_analysis_botherror_random30.json" 
-OUTPUT_FILE = "analysis/bn/adjudicated_goldrandom30.json"          # 裁判结果保存路径
+# DATA_FILE = "analysis/bn/annotators_analysis_ssmallmodel_overlap_179.json"
+# OUTPUT_FILE = "analysis/bn/temp.json"          # 裁判结果保存路径
+
+# DATA_FILE = "analysis/bn/annotators_analysis_smnotrecall_21.json"
+DATA_FILE = "analysis/bn/annotators_analysis_smnotrecallright_random30.json"
+OUTPUT_FILE = "analysis/bn/temp.json" 
 # ──────────────────────────────────────────────
 # 颜色常量
 # ──────────────────────────────────────────────
@@ -477,9 +482,13 @@ def render_record(rec: Dict, name_a: str, name_b: str):
     with col_a:
         st.markdown(f'<div class="sec-title">🔴 {name_a}</div>', unsafe_allow_html=True)
         st.markdown(spans_to_display(spans_a, COL_A, COL_A_TXT), unsafe_allow_html=True)
+        if rec.get('optional_a'):
+            st.caption("⚠️ 可标可不标")
     with col_b:
         st.markdown(f'<div class="sec-title">🔵 {name_b}</div>', unsafe_allow_html=True)
         st.markdown(spans_to_display(spans_b, COL_B, COL_B_TXT), unsafe_allow_html=True)
+        if rec.get('optional_b'):
+            st.caption("⚠️ 可标可不标")
     with col_adj:
         st.markdown('<div class="sec-title">⚖️ 裁判结果</div>', unsafe_allow_html=True)
         st.markdown(spans_to_display(adj_spans or [], COL_ADJ, COL_ADJ_TXT),

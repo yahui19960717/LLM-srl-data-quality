@@ -1,16 +1,17 @@
 {
-  "total": 30,
-  "correct": 29,
-  "wrong": 1,
-  "accuracy": 96.67,
-  "details": [
+  "annotations": [
     {
       "idx": 1,
-      "status": "CORRECT",
       "sentence": "American Airlines ' fate is hanging on its flight attendant 's union , its narrowly rejected union today .",
       "prd_word": "hanging",
+      "prd_idx": 6,
       "label": "ARG2",
-      "gold_spans": [
+      "span_mean": "suspended from",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:42:18.289084",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 6,
           "end": 11,
@@ -18,33 +19,21 @@
           "models": [
             "自定义"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 6,
-          "end": 11,
-          "text": "on its flight attendant 's union",
-          "models": [
-            "自定义"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 6,
-          "end": 11,
-          "text": "on its flight attendant 's union"
         }
       ]
     },
     {
       "idx": 2,
-      "status": "CORRECT",
       "sentence": "And I think perhaps no one more surprised than some of the people running those firms on Wall Street .",
       "prd_word": "running",
+      "prd_idx": 14,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": "operator",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T17:22:02.822088",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 11,
           "end": 12,
@@ -60,33 +49,21 @@
           "models": [
             "自定义"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 9,
-          "end": 12,
-          "text": "some of the people",
-          "models": [
-            "自定义"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 9,
-          "end": 12,
-          "text": "some of the people"
         }
       ]
     },
     {
       "idx": 3,
-      "status": "CORRECT",
       "sentence": "And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",
       "prd_word": "brought",
+      "prd_idx": 38,
       "label": "ARG3",
-      "gold_spans": [
+      "span_mean": "attribute, state after bringing, secondary action",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:45:42.010738",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 38,
           "end": 38,
@@ -94,33 +71,21 @@
           "models": [
             "gold"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 38,
-          "end": 38,
-          "text": "down",
-          "models": [
-            "gold"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 38,
-          "end": 38,
-          "text": "down"
         }
       ]
     },
     {
       "idx": 4,
-      "status": "CORRECT",
       "sentence": "Arafat deliberately launched it in order to attract the attention of the world by paying with the blood of his own people .",
       "prd_word": "attract",
+      "prd_idx": 8,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": "attractor",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:46:40.398282",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 0,
           "end": 0,
@@ -130,35 +95,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 0,
-          "end": 0,
-          "text": "Arafat",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 0,
-          "end": 0,
-          "text": "Arafat"
         }
       ]
     },
     {
       "idx": 5,
-      "status": "CORRECT",
       "sentence": "As much as I 'd love to spend every day after school sucking up to teachers instead of hanging with my friends , I do n't want this job .",
       "prd_word": "hanging",
+      "prd_idx": 19,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "entity in the position",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:50:48.854247",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 3,
           "end": 3,
@@ -166,33 +117,21 @@
           "models": [
             "gold"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 3,
-          "end": 3,
-          "text": "I",
-          "models": [
-            "gold"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 3,
-          "end": 3,
-          "text": "I"
         }
       ]
     },
     {
       "idx": 6,
-      "status": "CORRECT",
       "sentence": "Clinton is also considering clemency for several other convicted criminals .",
       "prd_word": "convicted",
+      "prd_idx": 9,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "person convicted",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:52:03.969028",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 9,
           "end": 9,
@@ -202,35 +141,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 9,
-          "end": 9,
-          "text": "criminals",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 9,
-          "end": 9,
-          "text": "criminals"
         }
       ]
     },
     {
       "idx": 7,
-      "status": "CORRECT",
       "sentence": "Her stockbroker was also charged .",
       "prd_word": "charged",
+      "prd_idx": 5,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "assigned",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:52:13.644620",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 0,
           "end": 1,
@@ -240,35 +165,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 0,
-          "end": 1,
-          "text": "Her stockbroker",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 0,
-          "end": 1,
-          "text": "Her stockbroker"
         }
       ]
     },
     {
       "idx": 8,
-      "status": "CORRECT",
       "sentence": "I think what the show does is also show that you might be those things , but also might be a pretty great dad , too .",
       "prd_word": "does",
+      "prd_idx": 6,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "thing done",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:52:30.355846",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 2,
           "end": 2,
@@ -278,35 +189,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 2,
-          "end": 2,
-          "text": "what",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 2,
-          "end": 2,
-          "text": "what"
         }
       ]
     },
     {
       "idx": 9,
-      "status": "CORRECT",
       "sentence": "ISRAELI radio said four Palestinians were killed , but Palestinian security officials deny there were any casualties and they say no such incident took place .",
       "prd_word": "took",
+      "prd_idx": 24,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:52:44.438149",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 20,
           "end": 22,
@@ -316,35 +213,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 20,
-          "end": 22,
-          "text": "no such incident",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 20,
-          "end": 22,
-          "text": "no such incident"
         }
       ]
     },
     {
       "idx": 10,
-      "status": "CORRECT",
       "sentence": "If their intention was to deter us from our mission of promoting peace and security in the Middle East , they will fail utterly .",
       "prd_word": "deter",
+      "prd_idx": 6,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": "agent, deterer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:54:23.468508",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 20,
           "end": 20,
@@ -352,33 +235,21 @@
           "models": [
             "gold"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 20,
-          "end": 20,
-          "text": "they",
-          "models": [
-            "gold"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 20,
-          "end": 20,
-          "text": "they"
         }
       ]
     },
     {
       "idx": 11,
-      "status": "CORRECT",
       "sentence": "In October of 1985 , four hijackers under his command took over the Italian cruise ship `` Achille Lauro '' and killed a wheelchair - bound American tourist , Leo Klinghoffer .",
       "prd_word": "bound",
+      "prd_idx": 26,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "thing bound",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:56:16.236745",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 26,
           "end": 27,
@@ -394,46 +265,21 @@
           "models": [
             "自定义"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 26,
-          "end": 27,
-          "text": "American tourist",
-          "models": [
-            "自定义"
-          ]
-        },
-        {
-          "start": 29,
-          "end": 30,
-          "text": "Leo Klinghoffer",
-          "models": [
-            "自定义"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 26,
-          "end": 27,
-          "text": "American tourist"
-        },
-        {
-          "start": 29,
-          "end": 30,
-          "text": "Leo Klinghoffer"
         }
       ]
     },
     {
       "idx": 12,
-      "status": "CORRECT",
       "sentence": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
       "prd_word": "going",
+      "prd_idx": 30,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": "goer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:56:36.425368",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 2,
           "end": 2,
@@ -442,34 +288,21 @@
             "gold",
             "semicrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 2,
-          "end": 2,
-          "text": "he",
-          "models": [
-            "gold",
-            "semicrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 2,
-          "end": 2,
-          "text": "he"
         }
       ]
     },
     {
       "idx": 13,
-      "status": "CORRECT",
       "sentence": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
       "prd_word": "diagnosed",
+      "prd_idx": 40,
       "label": "ARG2",
-      "gold_spans": [
+      "span_mean": "illness",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:58:31.452095",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 40,
           "end": 42,
@@ -485,46 +318,21 @@
           "models": [
             "自定义"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 40,
-          "end": 42,
-          "text": "with lung cancer",
-          "models": [
-            "自定义"
-          ]
-        },
-        {
-          "start": 41,
-          "end": 42,
-          "text": "lung cancer",
-          "models": [
-            "自定义"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 40,
-          "end": 42,
-          "text": "with lung cancer"
-        },
-        {
-          "start": 41,
-          "end": 42,
-          "text": "lung cancer"
         }
       ]
     },
     {
       "idx": 14,
-      "status": "CORRECT",
       "sentence": "Let 's start with that surprise , the malfeasance that is crossing your desk .",
       "prd_word": "crossing",
+      "prd_idx": 12,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "first entity crossing (or all entities)",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T09:58:44.977304",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 12,
           "end": 13,
@@ -534,56 +342,34 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 12,
-          "end": 13,
-          "text": "your desk",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 12,
-          "end": 13,
-          "text": "your desk"
         }
       ]
     },
     {
       "idx": 15,
-      "status": "WRONG",
       "sentence": "Russian President was supposed to visit India as early as 97 - 1998 , but of course Boris Yeltsin 's health problems got in the way of that , and then of course , Mr. Yeltsin 's abrupt resignation last year another visit and then the subsequent election campaign and inauguration of Vladimir Putin took some time , so it 's been put off for a couple of years .",
       "prd_word": "got",
+      "prd_idx": 23,
       "label": "ARG2",
-      "gold_spans": [],
-      "ann_spans": [
-        {
-          "start": 23,
-          "end": 27,
-          "text": "in the way of that",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": []
+      "span_mean": "destination",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T17:28:44.774175",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
     },
     {
       "idx": 16,
-      "status": "CORRECT",
       "sentence": "She is charged with using insider information to bail out of a biotech stock the day before its price tanked , and then trying to cover it up .",
       "prd_word": "using",
+      "prd_idx": 5,
       "label": "ARG2",
-      "gold_spans": [
+      "span_mean": "purpose",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:00:24.938852",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 7,
           "end": 19,
@@ -592,34 +378,21 @@
             "gold",
             "semicrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 7,
-          "end": 19,
-          "text": "to bail out of a biotech stock the day before its price tanked",
-          "models": [
-            "gold",
-            "semicrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 7,
-          "end": 19,
-          "text": "to bail out of a biotech stock the day before its price tanked"
         }
       ]
     },
     {
       "idx": 17,
-      "status": "CORRECT",
       "sentence": "So before they say it is a white man tangle you know it 's because of a white man that this happens and they got to , you know , check around and they say who is the real guilty .",
       "prd_word": "tangle",
+      "prd_idx": 10,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": "causer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:01:47.645459",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 7,
           "end": 8,
@@ -628,34 +401,21 @@
             "gold",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 7,
-          "end": 8,
-          "text": "white man",
-          "models": [
-            "gold",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 7,
-          "end": 8,
-          "text": "white man"
         }
       ]
     },
     {
       "idx": 18,
-      "status": "CORRECT",
       "sentence": "The United States has issued a worldwide caution to Americans warning of possible terrorist threats .",
       "prd_word": "warning",
+      "prd_idx": 11,
       "label": "ARG2",
-      "gold_spans": [
+      "span_mean": "entity getting warning, impelled agent",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:03:16.250562",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 8,
           "end": 9,
@@ -671,46 +431,21 @@
           "models": [
             "自定义"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 8,
-          "end": 9,
-          "text": "to Americans",
-          "models": [
-            "自定义"
-          ]
-        },
-        {
-          "start": 9,
-          "end": 9,
-          "text": "Americans",
-          "models": [
-            "自定义"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 9,
-          "end": 9,
-          "text": "Americans"
-        },
-        {
-          "start": 8,
-          "end": 9,
-          "text": "to Americans"
         }
       ]
     },
     {
       "idx": 19,
-      "status": "CORRECT",
       "sentence": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
       "prd_word": "refuel",
+      "prd_idx": 41,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "entity refueled",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:06:26.617083",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 21,
           "end": 23,
@@ -734,59 +469,21 @@
           "models": [
             "自定义"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 21,
-          "end": 23,
-          "text": "the USS Cole",
-          "models": [
-            "自定义"
-          ]
-        },
-        {
-          "start": 21,
-          "end": 33,
-          "text": "the USS Cole , a state - of - the - art destroyer",
-          "models": [
-            "自定义"
-          ]
-        },
-        {
-          "start": 34,
-          "end": 34,
-          "text": "that",
-          "models": [
-            "自定义"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 34,
-          "end": 34,
-          "text": "that"
-        },
-        {
-          "start": 21,
-          "end": 23,
-          "text": "the USS Cole"
-        },
-        {
-          "start": 21,
-          "end": 33,
-          "text": "the USS Cole , a state - of - the - art destroyer"
         }
       ]
     },
     {
       "idx": 20,
-      "status": "CORRECT",
       "sentence": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
       "prd_word": "occurred",
+      "prd_idx": 5,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "event",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:08:46.878727",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 0,
           "end": 1,
@@ -796,35 +493,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 0,
-          "end": 1,
-          "text": "The blast",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 0,
-          "end": 1,
-          "text": "The blast"
         }
       ]
     },
     {
       "idx": 21,
-      "status": "CORRECT",
       "sentence": "The charges include conspiracy to obstruct justice and perjury connected to an insider trading scandal .",
       "prd_word": "include",
+      "prd_idx": 3,
       "label": "ARG2",
-      "gold_spans": [
+      "span_mean": "group",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:08:57.309146",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 0,
           "end": 1,
@@ -834,35 +517,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 0,
-          "end": 1,
-          "text": "The charges",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 0,
-          "end": 1,
-          "text": "The charges"
         }
       ]
     },
     {
       "idx": 22,
-      "status": "CORRECT",
       "sentence": "The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .",
       "prd_word": "success",
+      "prd_idx": 20,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:11:03.746592",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 0,
           "end": 1,
@@ -878,46 +547,21 @@
           "models": [
             "自定义"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 0,
-          "end": 1,
-          "text": "The congressman",
-          "models": [
-            "自定义"
-          ]
-        },
-        {
-          "start": 14,
-          "end": 14,
-          "text": "he",
-          "models": [
-            "自定义"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 14,
-          "end": 14,
-          "text": "he"
-        },
-        {
-          "start": 0,
-          "end": 1,
-          "text": "The congressman"
         }
       ]
     },
     {
       "idx": 23,
-      "status": "CORRECT",
       "sentence": "The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .",
       "prd_word": "getting",
+      "prd_idx": 22,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "a clause -- action done or descriptive small clause",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:11:31.027793",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 22,
           "end": 30,
@@ -927,35 +571,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 22,
-          "end": 30,
-          "text": "congress to finance for national endowment for the art",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 22,
-          "end": 30,
-          "text": "congress to finance for national endowment for the art"
         }
       ]
     },
     {
       "idx": 24,
-      "status": "CORRECT",
       "sentence": "The court ruled this senior Libyan intelligence agent planted the bomb that killed 270 , mostly Americans , when the plane bound for New York exploded over Lockerbie , Scotland .",
       "prd_word": "bound",
+      "prd_idx": 22,
       "label": "ARG2",
-      "gold_spans": [
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:13:08.620359",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 22,
           "end": 24,
@@ -964,34 +594,21 @@
             "gold",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 22,
-          "end": 24,
-          "text": "for New York",
-          "models": [
-            "gold",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 22,
-          "end": 24,
-          "text": "for New York"
         }
       ]
     },
     {
       "idx": 25,
-      "status": "CORRECT",
       "sentence": "The federal government will not appeal the court ruling that cleared the way for same - sex unions .",
       "prd_word": "cleared",
+      "prd_idx": 11,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": "cleaner",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:13:21.905749",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 6,
           "end": 8,
@@ -1001,35 +618,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 6,
-          "end": 8,
-          "text": "the court ruling",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 6,
-          "end": 8,
-          "text": "the court ruling"
         }
       ]
     },
     {
       "idx": 26,
-      "status": "CORRECT",
       "sentence": "The speech is being billed as a thank - you to the people who twice voted him into the White House and supported him even at his lowest moments .",
       "prd_word": "supported",
+      "prd_idx": 23,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": "helper",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:13:46.629097",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 11,
           "end": 12,
@@ -1039,35 +642,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 11,
-          "end": 12,
-          "text": "the people",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 11,
-          "end": 12,
-          "text": "the people"
         }
       ]
     },
     {
       "idx": 27,
-      "status": "CORRECT",
       "sentence": "To those who attacked them , we say you will not find a safe harbor , we will find you and justice will prevail .",
       "prd_word": "attacked",
+      "prd_idx": 4,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": "attacker",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:14:59.539286",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 1,
           "end": 1,
@@ -1077,35 +666,21 @@
             "semicrf",
             "treecrf"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 1,
-          "end": 1,
-          "text": "those",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 1,
-          "end": 1,
-          "text": "those"
         }
       ]
     },
     {
       "idx": 28,
-      "status": "CORRECT",
       "sentence": "Today Gao , who now lives in France , gave the traditional Nobel lecture as part of the festivities leading up to Sunday 's ceremony , and on the same day he collects the prize .",
       "prd_word": "leading",
+      "prd_idx": 20,
       "label": "ARG2",
-      "gold_spans": [
+      "span_mean": "result, action or attribute on arg1",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:16:37.523666",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 20,
           "end": 24,
@@ -1121,46 +696,21 @@
           "models": [
             "自定义"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 20,
-          "end": 24,
-          "text": "up to Sunday 's ceremony",
-          "models": [
-            "自定义"
-          ]
-        },
-        {
-          "start": 22,
-          "end": 24,
-          "text": "Sunday 's ceremony",
-          "models": [
-            "自定义"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 20,
-          "end": 24,
-          "text": "up to Sunday 's ceremony"
-        },
-        {
-          "start": 22,
-          "end": 24,
-          "text": "Sunday 's ceremony"
         }
       ]
     },
     {
       "idx": 29,
-      "status": "CORRECT",
       "sentence": "Tonight , some of those families made it clear their battle is not over to get to the truth and however difficult , punish the real authors of this crime .",
       "prd_word": "battle",
+      "prd_idx": 11,
       "label": "ARG0",
-      "gold_spans": [
+      "span_mean": "combatant",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T10:17:50.606607",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 2,
           "end": 5,
@@ -1168,33 +718,21 @@
           "models": [
             "自定义"
           ]
-        }
-      ],
-      "ann_spans": [
-        {
-          "start": 2,
-          "end": 5,
-          "text": "some of those families",
-          "models": [
-            "自定义"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 2,
-          "end": 5,
-          "text": "some of those families"
         }
       ]
     },
     {
       "idx": 30,
-      "status": "CORRECT",
       "sentence": "We 'll try to follow that in our next half hour .",
       "prd_word": "try",
+      "prd_idx": 3,
       "label": "ARG1",
-      "gold_spans": [
+      "span_mean": "thing tried",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-10T17:39:20.852572",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
         {
           "start": 3,
           "end": 5,
@@ -1211,26 +749,8 @@
             "自定义"
           ]
         }
-      ],
-      "ann_spans": [
-        {
-          "start": 3,
-          "end": 10,
-          "text": "to follow that in our next half hour",
-          "models": [
-            "gold",
-            "semicrf",
-            "treecrf"
-          ]
-        }
-      ],
-      "matched_spans": [
-        {
-          "start": 3,
-          "end": 10,
-          "text": "to follow that in our next half hour"
-        }
       ]
     }
-  ]
+  ],
+  "last_index": 29
 }

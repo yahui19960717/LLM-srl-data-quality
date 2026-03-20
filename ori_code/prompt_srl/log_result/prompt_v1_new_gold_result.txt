@@ -1,0 +1,18 @@
+process llm result
+
+process gold result
+
+A manic life , grounded in family values .	grounded	5 {'ARG2': ['in family values']}
+A note scribbled by an officer on the Russian nuclear submarine Kursk has revealed that at least 23 of its 118 crewmembers survived the explosions which sank the vessel .	revealed	14 {'ARG1': ['at least 23 of its 118 crewmembers survived the explosions which sank the vessel', 'that at least 23 of its 118 crewmembers survived the explosions which sank the vessel']}
+A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .	found	18 {'ARG1': ['guilty as charged']}
+AAA estimates 61 million Americans will be heading somewhere between this weekend and New Year 's .	heading	8 {'ARG1': ['somewhere']}
+All this happening about 90 minutes ago based on the wire reports we 're getting here .	getting	15 {'ARG2': ['here']}
+
+Evaluation Results:
+Role: ARG0       | P: 0.7560 | R: 0.7838 | F1: 0.7697
+Role: ARG1       | P: 0.6492 | R: 0.6110 | F1: 0.6295
+Role: ARG2       | P: 0.2972 | R: 0.4385 | F1: 0.3543
+Role: ARG3       | P: 0.0685 | R: 0.2381 | F1: 0.1064
+Role: ARG5       | P: 0.0000 | R: 0.0000 | F1: 0.0000
+Role: ARG4       | P: 0.2895 | R: 0.3793 | F1: 0.3284
+Role: OVERALL    | P: 0.5945 | R: 0.6513 | F1: 0.6216

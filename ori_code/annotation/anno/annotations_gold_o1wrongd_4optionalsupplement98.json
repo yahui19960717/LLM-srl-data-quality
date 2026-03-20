@@ -1,0 +1,50 @@
+{
+  "annotations": [
+    {
+      "idx": 38,
+      "sentence": "Front man Amidu Barry may look like he got his moves on the streets of Brooklyn but his critique of post-colonial finger pointing in Africa tells a different story .",
+      "prd_word": "got",
+      "prd_idx": 9,
+      "label": "ARG2",
+      "span_mean": "giver",
+      "type": "gold right, o1mini wrong",
+      "optional": true,
+      "timestamp": "2026-03-17T14:20:57.118158",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 55,
+      "sentence": "His brutal efforts to create a Serb - dominated Yugoslavia earned him the nickname `` Butcher of the Balkans . ''",
+      "prd_word": "create",
+      "prd_idx": 5,
+      "label": "ARG0",
+      "span_mean": "creator",
+      "type": "gold right, o1mini wrong",
+      "optional": true,
+      "timestamp": "2026-03-17T14:21:02.834974",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 67,
+      "sentence": "The knowledge that our lights are the first to light it up , our footprints were the first , our eyes were first to see it .",
+      "prd_word": "light",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "gold right, o1mini wrong",
+      "optional": false,
+      "timestamp": "2026-03-17T14:21:08.577162",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    }
+  ],
+  "last_index": 2
+}

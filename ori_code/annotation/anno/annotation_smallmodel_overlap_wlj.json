@@ -1,0 +1,4552 @@
+{
+  "annotations": [
+    {
+      "idx": 1,
+      "sentence": "A manic life , grounded in family values .",
+      "prd_word": "grounded",
+      "prd_idx": 5,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:28:21.693536",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "in family values",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 2,
+      "sentence": "A note scribbled by an officer on the Russian nuclear submarine Kursk has revealed that at least 23 of its 118 crewmembers survived the explosions which sank the vessel .",
+      "prd_word": "revealed",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "utterance, truth condition",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:28:30.990108",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 28,
+          "text": "at least 23 of its 118 crewmembers survived the explosions which sank the vessel",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 14,
+          "end": 28,
+          "text": "that at least 23 of its 118 crewmembers survived the explosions which sank the vessel",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 3,
+      "sentence": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+      "prd_word": "found",
+      "prd_idx": 18,
+      "label": "ARG1",
+      "span_mean": "thing found",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:28:38.908956",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 20,
+          "text": "guilty as charged",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 4,
+      "sentence": "AAA estimates 61 million Americans will be heading somewhere between this weekend and New Year 's .",
+      "prd_word": "heading",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "destination",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:28:55.069458",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "somewhere",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 5,
+      "sentence": "All this happening about 90 minutes ago based on the wire reports we 're getting here .",
+      "prd_word": "getting",
+      "prd_idx": 15,
+      "label": "ARG2",
+      "span_mean": "giver",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T13:29:04.406077",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 15,
+          "text": "here",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 6,
+      "sentence": "Along with the picture , the flight attendant wrote a letter saying she was praying for Jack 's safe return .",
+      "prd_word": "praying",
+      "prd_idx": 15,
+      "label": "ARG2",
+      "span_mean": "God",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:29:24.641877",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 19,
+          "text": "for Jack 's safe return",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 7,
+      "sentence": "American Airlines ' fate is hanging on its flight attendant 's union , its narrowly rejected union today .",
+      "prd_word": "hanging",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "suspended from",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:32:25.425912",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 11,
+          "text": "its flight attendant 's union",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 11,
+          "text": "on its flight attendant 's union",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 8,
+      "sentence": "American warns it will seek more layoffs if it does file for Chapter 11 .",
+      "prd_word": "file",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "file",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:34:37.116783",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 13,
+          "text": "for Chapter 11",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "text": "Chapter 11",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 9,
+      "sentence": "Among other things , the US has worked with Bangladesh to establish the Tropical Forest Conservation Fund , the first of its kind in the world .",
+      "prd_word": "establish",
+      "prd_idx": 12,
+      "label": "ARG0",
+      "span_mean": "agent, setter",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:35:56.569480",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "the US",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 10,
+      "sentence": "Among other things , they would also freeze Taliban assets abroad and restrict foreign travel by Taliban officials .",
+      "prd_word": "freeze",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "thing freezing",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:37:17.114890",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "Taliban assets abroad",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 11,
+      "sentence": "And I think perhaps no one more surprised than some of the people running those firms on Wall Street .",
+      "prd_word": "running",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "machine, operation, procedure",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:37:43.121719",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 18,
+          "text": "those firms on Wall Street",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "text": "those firms",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 12,
+      "sentence": "And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",
+      "prd_word": "found",
+      "prd_idx": 30,
+      "label": "ARG1",
+      "span_mean": "thing found",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:40:07.163490",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 30,
+          "end": 42,
+          "text": "someone guilty in the 1988 bombing that brought down Pan Am Flight 103",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "text": "someone guilty",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 13,
+      "sentence": "And she told us that he whipped out pictures of our kids and everything and showed all the family pictures and stuff .",
+      "prd_word": "showed",
+      "prd_idx": 16,
+      "label": "ARG1",
+      "span_mean": "thing seen/shown",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:41:25.031493",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 16,
+          "end": 19,
+          "text": "all the family pictures",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 16,
+          "end": 21,
+          "text": "all the family pictures and stuff",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 14,
+      "sentence": "And she told us that he whipped out pictures of our kids and everything and showed all the family pictures and stuff .",
+      "prd_word": "whipped",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:42:11.921933",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 13,
+          "text": "pictures of our kids and everything",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 15,
+      "sentence": "And you see Apache helicopter pilot and his wife Michelle who was talking with us on the telephone the Sunday morning when the video came in of the rescue of the POWs and , she identified her husband and life just got better and better for her after that .",
+      "prd_word": "got",
+      "prd_idx": 42,
+      "label": "ARG2",
+      "span_mean": "attribute of arg1 (not a VP node)",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:42:37.246360",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 42,
+          "end": 44,
+          "text": "better and better",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 16,
+      "sentence": "As much as I 'd love to spend every day after school sucking up to teachers instead of hanging with my friends , I do n't want this job .",
+      "prd_word": "hanging",
+      "prd_idx": 19,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:42:59.978718",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "I",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 17,
+      "sentence": "As you point out , of course , for the fact of the matter is , the mistakes of Saddam Hussein made possible his removal from power ultimately .",
+      "prd_word": "made",
+      "prd_idx": 22,
+      "label": "ARG1",
+      "span_mean": "impelled action/ predication",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:43:54.799278",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 22,
+          "end": 27,
+          "text": "possible his removal from power ultimately",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 18,
+      "sentence": "Barak , who has been forced to call national elections , offered to recognize a Palestinian state .",
+      "prd_word": "offered",
+      "prd_idx": 12,
+      "label": "ARG0",
+      "span_mean": "entity offering",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:44:48.962906",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Barak",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 9,
+          "text": "Barak , who has been forced to call national elections",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 19,
+      "sentence": "Barak , who has been forced to call national elections , offered to recognize a Palestinian state .",
+      "prd_word": "recognize",
+      "prd_idx": 14,
+      "label": "ARG0",
+      "span_mean": "applauder",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:45:26.218422",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Barak",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 9,
+          "text": "Barak , who has been forced to call national elections",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 20,
+      "sentence": "California 's utility companies are not able to generate all the power their customers need , so they have turned to outside suppliers and in the face of rising prices the state 's two largest utility firms have sunk more than eight billion dollars in debt .",
+      "prd_word": "sunk",
+      "prd_idx": 39,
+      "label": "ARG0",
+      "span_mean": "causer of sinking",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:47:34.388628",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 28,
+          "end": 29,
+          "text": "rising prices",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 21,
+      "sentence": "Carla Ponte is expected to meet today with Milosevic 's successor , Vojislav Kostunica , a critic of the War Crimes Tribunal at The Hague .",
+      "prd_word": "expected",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "thing expected",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:49:39.896110",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 13,
+          "text": "to meet today with Milosevic 's successor , Vojislav Kostunica",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 24,
+          "text": "to meet today with Milosevic 's successor , Vojislav Kostunica , a critic of the War Crimes Tribunal at The Hague",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 22,
+      "sentence": "Cheney gets a checkup call from Governor Bush and still expects to be released as early as tomorrow , and today , President Clinton cautiously speaks out about the Florida vote fight , saying everyone should , `` let the process play out . ''",
+      "prd_word": "gets",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "thing gotten",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:50:08.810584",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "a checkup call from Governor Bush",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "text": "a checkup call",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 23,
+      "sentence": "Cheney gets a checkup call from Governor Bush and still expects to be released as early as tomorrow , and today , President Clinton cautiously speaks out about the Florida vote fight , saying everyone should , `` let the process play out . ''",
+      "prd_word": "gets",
+      "prd_idx": 2,
+      "label": "ARG2",
+      "span_mean": "giver",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:50:38.946227",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "from Governor Bush",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "text": "from Governor Bush",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "text": "Governor Bush",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 24,
+      "sentence": "Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead , almost all of them Palestinian .",
+      "prd_word": "left",
+      "prd_idx": 22,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:52:53.492244",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 26,
+          "end": 26,
+          "text": "dead",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 25,
+      "sentence": "Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead , almost all of them Palestinian .",
+      "prd_word": "declare",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:53:16.323967",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Egypt",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "text": "the emergency summit",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 26,
+      "sentence": "Gao Xingjian arrived in Stockholm this week and when he leaves the Chinese born writer will have something extra in his suitcase , the Nobel Prize for Literature .",
+      "prd_word": "born",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "child",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T13:53:40.139130",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 14,
+          "text": "writer",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 27,
+      "sentence": "He 's suggested Milosevic and others stand trial in a Yugoslav court .",
+      "prd_word": "stand",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:58:29.376033",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 28,
+      "sentence": "He 's suggested Milosevic and others stand trial in a Yugoslav court .",
+      "prd_word": "stand",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "focus",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:58:36.098144",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "Milosevic and others",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 29,
+      "sentence": "He got on a flight to an undisclosed location , when Jamie got a second phone call from a flight attendant .",
+      "prd_word": "got",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "thing gotten",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:59:03.525350",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 20,
+          "text": "a second phone call from a flight attendant",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "text": "a second phone call",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 30,
+      "sentence": "He got on a flight to an undisclosed location , when Jamie got a second phone call from a flight attendant .",
+      "prd_word": "got",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "giver",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:59:23.519018",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 20,
+          "text": "from a flight attendant",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 31,
+      "sentence": "He has the responsibility for controlling the violence .",
+      "prd_word": "controlling",
+      "prd_idx": 6,
+      "label": "ARG0",
+      "span_mean": "controller",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T13:59:37.364889",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "He",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 32,
+      "sentence": "He sat out 1 term after losing a U.S Senate race in the 1960s , but for 24 terms , Yates represented Chicago 's northern lake front and northern suburbs .",
+      "prd_word": "race",
+      "prd_idx": 11,
+      "label": "ARG2",
+      "span_mean": "destination",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:02:52.396802",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "a U.S Senate",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "text": "U.S Senate",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 33,
+      "sentence": "He still trails far behind the hard line Likud Party leader Ariel Sharon in the opinion polls .",
+      "prd_word": "trails",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "thing followed",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:03:51.904830",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 12,
+          "text": "the hard line Likud Party leader Ariel Sharon",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 34,
+      "sentence": "How could comedy come out of chemotherapy treatments ?",
+      "prd_word": "come",
+      "prd_idx": 4,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:05:01.107917",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "out of chemotherapy treatments",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "text": "of chemotherapy treatments",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 35,
+      "sentence": "I mean if Christy Whitman and the White House were on the same page , I do n't think I 've seen a book large enough to contain a page that big .",
+      "prd_word": "contain",
+      "prd_idx": 28,
+      "label": "ARG0",
+      "span_mean": "container",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:05:26.836371",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 22,
+          "end": 23,
+          "text": "a book",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 36,
+      "sentence": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+      "prd_word": "mean",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "element containing meaning",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:05:44.736074",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 15,
+          "text": "this man took the trip on which the novel was based for political reasons",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 37,
+      "sentence": "I should point out , he is a former lawyer himself and so can help put this into English .",
+      "prd_word": "put",
+      "prd_idx": 16,
+      "label": "ARG0",
+      "span_mean": "putter",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:06:08.496418",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "he",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 38,
+      "sentence": "I think Ozzy 's the guy that hit a head of a bat , you know ?",
+      "prd_word": "think",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "Thought",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:06:28.936710",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 12,
+          "text": "Ozzy 's the guy that hit a head of a bat",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 39,
+      "sentence": "I think a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street .",
+      "prd_word": "performing",
+      "prd_idx": 51,
+      "label": "ARG1",
+      "span_mean": "performance, thing performed",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:08:00.212419",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 51,
+          "end": 62,
+          "text": "their duties on audit committees and compensation committees and in Wall Street",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 51,
+          "end": 52,
+          "text": "their duties",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 40,
+      "sentence": "I think there are a number of other measures that indicate how well somebody 's doing running a company , and I think corporation boards need to spend more time on that dimension .",
+      "prd_word": "indicate",
+      "prd_idx": 11,
+      "label": "ARG0",
+      "span_mean": "indicator",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:09:01.352446",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "other measures",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "text": "a number of other measures",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 41,
+      "sentence": "I think there are a number of other measures that indicate how well somebody 's doing running a company , and I think corporation boards need to spend more time on that dimension .",
+      "prd_word": "doing",
+      "prd_idx": 16,
+      "label": "ARG1",
+      "span_mean": "thing done",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T14:10:09.192708",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 16,
+          "end": 18,
+          "text": "running a company",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 42,
+      "sentence": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+      "prd_word": "have",
+      "prd_idx": 12,
+      "label": "ARG0",
+      "span_mean": "causer",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:10:49.977100",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 9,
+          "text": "everybody who tried to vote who legally voted",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 43,
+      "sentence": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+      "prd_word": "needs",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "thing needed",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T14:13:36.577808",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 11,
+          "text": "what",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 44,
+      "sentence": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+      "prd_word": "get",
+      "prd_idx": 16,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T14:14:56.628059",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 16,
+          "end": 16,
+          "text": "done",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 45,
+      "sentence": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+      "prd_word": "done",
+      "prd_idx": 17,
+      "label": "ARG0",
+      "span_mean": "agent, doer",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T14:15:16.718091",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 12,
+          "text": "everyone",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 46,
+      "sentence": "If the workers do n't approve the steep cutbacks American says it will file for bankruptcy .",
+      "prd_word": "file",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "file",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:15:49.378184",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "for bankruptcy",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 47,
+      "sentence": "If their intention was to deter us from our mission of promoting peace and security in the Middle East , they will fail utterly .",
+      "prd_word": "promoting",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "thing being pitched, advertised",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:16:39.482725",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 18,
+          "text": "peace and security in the Middle East",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 12,
+          "end": 14,
+          "text": "peace and security",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 48,
+      "sentence": "If you want to know what Gao Xingjian is all about , as a thinker and as an artist , our international book critic Christopher Meryl says Gao 's masterpiece is an ideal starting point .",
+      "prd_word": "know",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:17:04.080344",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 18,
+          "text": "what Gao Xingjian is all about , as a thinker and as an artist",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "what Gao Xingjian is all about",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 49,
+      "sentence": "In another interview Palestinian leader Yasser Arafat said the Israelis and Palestinians had made real progress Red Sea resort of Taba , but Prime Minister Ehud Barak has suspended contacts with the Palestinians until after the February 6th election .",
+      "prd_word": "progress",
+      "prd_idx": 16,
+      "label": "ARG4",
+      "span_mean": "end point",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T14:19:01.571701",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 16,
+          "end": 20,
+          "text": "Red Sea resort of Taba",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 50,
+      "sentence": "In fact , we 're hearing that those deals have now been finalized , that Russia will sell India 300 tanks , T - 90 tanks , very advanced tanks , that Russia will also sell to India some Sukoi - 30 bombers , fighter - bombers .",
+      "prd_word": "sell",
+      "prd_idx": 18,
+      "label": "ARG1",
+      "span_mean": "Thing Sold",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:19:42.991731",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 29,
+          "text": "300 tanks , T - 90 tanks , very advanced tanks",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 51,
+      "sentence": "Interestingly enough she is quoted as telling General Sanholi back to the US that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel .",
+      "prd_word": "get",
+      "prd_idx": 19,
+      "label": "ARG1",
+      "span_mean": "thing gotten",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:22:01.546949",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 23,
+          "text": "too much of a reception",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 19,
+          "end": 28,
+          "text": "too much of a reception from Bashar Al - Assad",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 52,
+      "sentence": "Interestingly enough she is quoted as telling General Sanholi back to the US that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel .",
+      "prd_word": "get",
+      "prd_idx": 19,
+      "label": "ARG2",
+      "span_mean": "giver",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:22:15.455403",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 28,
+          "text": "from Bashar Al - Assad",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 53,
+      "sentence": "Is that the way you 're going to operate ?",
+      "prd_word": "operate",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing operated",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T14:22:57.562661",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "the way",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 54,
+      "sentence": "Israeli helicopter gunships struck Palestinian targets in the West Bank and Gaza Strip , Thursday .",
+      "prd_word": "struck",
+      "prd_idx": 4,
+      "label": "ARG0",
+      "span_mean": "animate, volitional hitter",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:23:21.387525",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Israeli helicopter gunships",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 55,
+      "sentence": "It 's due to arrive in Pascagoula , Mississippi , this morning .",
+      "prd_word": "arrive",
+      "prd_idx": 5,
+      "label": "ARG4",
+      "span_mean": "end point, destination",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:23:53.728045",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "in Pascagoula , Mississippi",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 56,
+      "sentence": "It how quickly they get handed .",
+      "prd_word": "handed",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "thing given",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:25:16.181052",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 57,
+      "sentence": "It is because they know they have the inspiration in their country .",
+      "prd_word": "have",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "possession",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:25:53.209673",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 11,
+          "text": "the inspiration in their country",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "text": "the inspiration",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 58,
+      "sentence": "It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq , but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations , although , the tragic loss of British lives today reminds us all of the difficulties to be faced .",
+      "prd_word": "reminds",
+      "prd_idx": 55,
+      "label": "ARG2",
+      "span_mean": "recipient",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:27:50.925088",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 55,
+          "end": 56,
+          "text": "us all",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 59,
+      "sentence": "It is no secret that the significant differences between our two countries earlier this year on how best to handle Iraq , but we are now able to look forward together firmly in agreement on the route we have decided in the United Nations , although , the tragic loss of British lives today reminds us all of the difficulties to be faced .",
+      "prd_word": "reminds",
+      "prd_idx": 55,
+      "label": "ARG1",
+      "span_mean": "thing reminded about",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:28:02.605716",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 57,
+          "end": 62,
+          "text": "of the difficulties to be faced",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 60,
+      "sentence": "It very well could , although , I must say that the Gore campaign has been somewhat disappointed by the number of votes they have not received thus far in the counties that are undertaking the manual recounts , Brian , but a lot of hand counts still must be tallied .",
+      "prd_word": "say",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:30:10.279120",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 50,
+          "text": "that the Gore campaign has been somewhat disappointed by the number of votes they have not received thus far in the counties that are undertaking the manual recounts , Brian , but a lot of hand counts still must be tallied",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 61,
+      "sentence": "It was a visit by Mr. Sharon to a Jerusalem religious holy site that sparked the violence that began last month between Israelis and Palestinian protesters .",
+      "prd_word": "began",
+      "prd_idx": 19,
+      "label": "ARG0",
+      "span_mean": "beginner, Agent",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:31:12.835368",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 62,
+      "sentence": "It was n't one murder it was 270 people he murdered .",
+      "prd_word": "murdered",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "corpse",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:31:43.350078",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "270 people",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 63,
+      "sentence": "Jim Swire , whose daughter died in the 1988 crash , collapses .",
+      "prd_word": "collapses",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "thing collapsing",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:32:41.946504",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "Jim Swire",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 9,
+          "text": "Jim Swire , whose daughter died in the 1988 crash",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 64,
+      "sentence": "John M Wethy , ABC News , the Pentagon , still looking for answers .",
+      "prd_word": "looking",
+      "prd_idx": 12,
+      "label": "ARG0",
+      "span_mean": "looker",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:33:47.184755",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 8,
+          "text": "John M Wethy , ABC News , the Pentagon",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 65,
+      "sentence": "Kids lead the way in diversity , because they 're very accepting of other kids in terms of who they are , and who they really are as people .",
+      "prd_word": "lead",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "in the lead of",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:36:19.309083",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "the way in diversity",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "text": "in diversity",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "text": "diversity",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 66,
+      "sentence": "Milosevic headed Yugoslavia 's state - run gas company and was President of a major Belgrade bank climbing the political ladder as a Communist technocrat .",
+      "prd_word": "climbing",
+      "prd_idx": 18,
+      "label": "ARG0",
+      "span_mean": "climber",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:38:08.676214",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Milosevic",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 67,
+      "sentence": "Moving ahead now to a developing story , the hunt for so - called smoking gun , meant to prove that Iraq was developing weapons of mass destruction .",
+      "prd_word": "smoking",
+      "prd_idx": 15,
+      "label": "ARG0",
+      "span_mean": "causer of smoke emission",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:39:25.064411",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 68,
+      "sentence": "Moving ahead now to a developing story , the hunt for so - called smoking gun , meant to prove that Iraq was developing weapons of mass destruction .",
+      "prd_word": "prove",
+      "prd_idx": 20,
+      "label": "ARG1",
+      "span_mean": "proposition",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:40:39.963658",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 21,
+          "end": 27,
+          "text": "Iraq was developing weapons of mass destruction",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 20,
+          "end": 27,
+          "text": "that Iraq was developing weapons of mass destruction",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 69,
+      "sentence": "Mr. Arafat accused Israel of waging a savage and barbaric war against his people .",
+      "prd_word": "waging",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "war",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:41:54.823387",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "text": "a savage and barbaric war",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 13,
+          "text": "a savage and barbaric war against his people",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 70,
+      "sentence": "Mr. Arafat made no comment after Tuesday 's first round of White House talks moving quickly past journalists to a waiting limousine .",
+      "prd_word": "moving",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "moved",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:43:12.734018",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "Mr. Arafat",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 71,
+      "sentence": "No sign of Geragos or Peterson in court yesterday when a judge was considering whether to unseal warrants obtained before Scott Peterson 's arrest .",
+      "prd_word": "unseal",
+      "prd_idx": 17,
+      "label": "ARG0",
+      "span_mean": "agent, causer",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T14:45:21.085376",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 11,
+          "text": "a judge",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 72,
+      "sentence": "Not yet , says President George W. Bush , at the White House today , demanding that Khaddafi meet certain conditions first , to accept responsibility for this act , and to compensate the families .",
+      "prd_word": "compensate",
+      "prd_idx": 33,
+      "label": "ARG0",
+      "span_mean": "payer or buyer",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:46:57.262721",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 17,
+          "text": "Khaddafi",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 73,
+      "sentence": "Now let 's go back to Wolf Blitzer in Kuwait City for more special coverage of the war in Iraq .",
+      "prd_word": "go",
+      "prd_idx": 4,
+      "label": "ARG4",
+      "span_mean": "end point",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:48:01.936510",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 10,
+          "text": "back to Wolf Blitzer in Kuwait City",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "to Wolf Blitzer in Kuwait City",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 74,
+      "sentence": "Ozzy Osbourne 's life filled with incredible highs crashing into devastating lows .",
+      "prd_word": "crashing",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": "causer of damage, agent",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T14:51:57.246339",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "incredible highs",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 75,
+      "sentence": "Palestinian gunmen fired on an Israeli car killing the driver .",
+      "prd_word": "fired",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "gun/projectile",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:52:20.955954",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 76,
+      "sentence": "Palestinians say Israeli rocket fire hit a police post and killed at least one Palestinian security officer .",
+      "prd_word": "hit",
+      "prd_idx": 6,
+      "label": "ARG0",
+      "span_mean": "agent, hitter - animate only!",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T14:53:33.976928",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "Israeli rocket fire",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 77,
+      "sentence": "Positive Black Soul are now the oldsters of Dakar 's hip - hop scene and they have established the template of social consciousness that many Senegalese hip - hop groups follow like Bootin Bye , which recently scored this hit about AIDS prevention .",
+      "prd_word": "follow",
+      "prd_idx": 31,
+      "label": "ARG1",
+      "span_mean": "thing followed",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:55:21.170416",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 22,
+          "text": "the template of social consciousness",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 78,
+      "sentence": "President Clinton arrived in Brunei Tuesday , getting a red carpet welcome from officials of the tiny Islamic sultanate .",
+      "prd_word": "getting",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "thing gotten",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:55:47.863169",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 18,
+          "text": "a red carpet welcome from officials of the tiny Islamic sultanate",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "text": "a red carpet welcome",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 79,
+      "sentence": "President Clinton arrived in Brunei Tuesday , getting a red carpet welcome from officials of the tiny Islamic sultanate .",
+      "prd_word": "getting",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "giver",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:55:56.123732",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 18,
+          "text": "from officials of the tiny Islamic sultanate",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 80,
+      "sentence": "Question two , did the Pentagon and the CIA get the message and do nothing about it ?",
+      "prd_word": "do",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "thing done",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:56:17.409497",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 16,
+          "text": "nothing about it",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 14,
+          "end": 14,
+          "text": "nothing",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 81,
+      "sentence": "Question two , did the Pentagon and the CIA get the message and do nothing about it ?",
+      "prd_word": "do",
+      "prd_idx": 14,
+      "label": "ARG2",
+      "span_mean": "benefactive, done for or about",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:56:29.750821",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 16,
+          "text": "about it",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 82,
+      "sentence": "Reaction in Libya , where many followed the trial , mixed .",
+      "prd_word": "followed",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "thing followed",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:57:18.172210",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "the trial",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 83,
+      "sentence": "Reaction in Libya , where many followed the trial , mixed .",
+      "prd_word": "followed",
+      "prd_idx": 7,
+      "label": "ARG2",
+      "span_mean": "benefactive",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T14:58:33.219267",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 84,
+      "sentence": "Reporter Lee , flying in from California , unsure if his wife was alive , today , identifying his remains , and tonight survivor John Diaz begins the long trip home to California .",
+      "prd_word": "trip",
+      "prd_idx": 30,
+      "label": "ARG4",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:08:30.560478",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 85,
+      "sentence": "Russian and Norwegian divers searched the fourth compartment of the wrecked submarine Kursk , Sunday , but they found too much damage to proceed with the task of recovering bodies .",
+      "prd_word": "searched",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "Area searched",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:08:45.999950",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 12,
+          "text": "the fourth compartment of the wrecked submarine Kursk",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 86,
+      "sentence": "Saddam Hussein addressed the nation in a speech filled with rhetoric and a declaration of victory .",
+      "prd_word": "addressed",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "item being addressed (letter, speech, etc)",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T15:10:38.343479",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 7,
+          "text": "in a speech",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 87,
+      "sentence": "Senegalese rappers are also identified by what they say in their tracks .",
+      "prd_word": "identified",
+      "prd_idx": 5,
+      "label": "ARG0",
+      "span_mean": "caller",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:11:52.788022",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 88,
+      "sentence": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+      "prd_word": "got",
+      "prd_idx": 26,
+      "label": "ARG0",
+      "span_mean": "causer of motion",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:12:20.806980",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 24,
+          "text": "he",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 89,
+      "sentence": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+      "prd_word": "got",
+      "prd_idx": 26,
+      "label": "ARG1",
+      "span_mean": "thing in motion",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T15:14:06.481117",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 24,
+          "text": "he",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 90,
+      "sentence": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+      "prd_word": "going",
+      "prd_idx": 30,
+      "label": "ARG4",
+      "span_mean": "end point",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:14:25.605814",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 26,
+          "end": 26,
+          "text": "where",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 91,
+      "sentence": "She is charged with using insider information to bail out of a biotech stock the day before its price tanked , and then trying to cover it up .",
+      "prd_word": "tanked",
+      "prd_idx": 20,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:15:14.388572",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 92,
+      "sentence": "Should have taken the side of the rebels then , taken the risk of supporting a Shiite insurrection at that point , helping the Kurds , removing the regime .",
+      "prd_word": "helping",
+      "prd_idx": 23,
+      "label": "ARG1",
+      "span_mean": "project",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:16:38.681238",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 23,
+          "end": 24,
+          "text": "the Kurds",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 93,
+      "sentence": "So , as of today , I would say certainly on the surface there has been little US action .",
+      "prd_word": "say",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:18:20.093354",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 18,
+          "text": "certainly on the surface there has been little US action",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 94,
+      "sentence": "So before they say it is a white man tangle you know it 's because of a white man that this happens and they got to , you know , check around and they say who is the real guilty .",
+      "prd_word": "say",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:20:42.432354",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 21,
+          "text": "it is a white man tangle you know it 's because of a white man that this happens",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 9,
+          "text": "it is a white man tangle",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 95,
+      "sentence": "Some other western leaders are not convinced that a price cap will solve the problem .",
+      "prd_word": "solve",
+      "prd_idx": 13,
+      "label": "ARG0",
+      "span_mean": "solver",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:20:58.538611",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "a price cap",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 96,
+      "sentence": "Sony 's long - awaited release of its latest video game console is guaranteed to pump up the volume on video game sales , already a $ 7 billion business .",
+      "prd_word": "guaranteed",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "guarantee",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:22:40.472672",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 22,
+          "text": "pump up the volume on video game sales",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 14,
+          "end": 22,
+          "text": "to pump up the volume on video game sales",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 97,
+      "sentence": "Sony 's long - awaited release of its latest video game console is guaranteed to pump up the volume on video game sales , already a $ 7 billion business .",
+      "prd_word": "sales",
+      "prd_idx": 23,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:22:58.629079",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 20,
+          "end": 21,
+          "text": "video game",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 98,
+      "sentence": "Soon after , one of the family 's three chickens flew the coop and took up residence in the crate built especially for the puppies .",
+      "prd_word": "flew",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "passenger, cargo",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:25:42.705955",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 99,
+      "sentence": "Soon after , one of the family 's three chickens flew the coop and took up residence in the crate built especially for the puppies .",
+      "prd_word": "took",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:28:19.630300",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 100,
+      "sentence": "Soon after , one of the family 's three chickens flew the coop and took up residence in the crate built especially for the puppies .",
+      "prd_word": "built",
+      "prd_idx": 21,
+      "label": "ARG1",
+      "span_mean": "construction",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:28:41.439406",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 19,
+          "text": "the crate",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 101,
+      "sentence": "Sovereignty is not simply a quality of statehood , but it has to do with the power of the people and democratic structures which make sovereignty an important human value .",
+      "prd_word": "do",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:33:00.193247",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 102,
+      "sentence": "Sovereignty is not simply a quality of statehood , but it has to do with the power of the people and democratic structures which make sovereignty an important human value .",
+      "prd_word": "do",
+      "prd_idx": 14,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:34:01.612215",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 103,
+      "sentence": "Still hurts me to read this .",
+      "prd_word": "hurts",
+      "prd_idx": 2,
+      "label": "ARG0",
+      "span_mean": "agent, entity causing damage",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:34:20.549825",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "to read this",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 104,
+      "sentence": "Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash .",
+      "prd_word": "Thanks",
+      "prd_idx": 1,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:34:53.580869",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 105,
+      "sentence": "Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash .",
+      "prd_word": "trial",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:38:21.059399",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 18,
+          "text": "the Lockerbie 103 Pan Am crash",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 12,
+          "end": 18,
+          "text": "of the Lockerbie 103 Pan Am crash",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 106,
+      "sentence": "That 's an old Russian aircraft carrier that India has wanted to get for some time because India only has one other aircraft carrier , and this carrier in particular would allow the Indian Navy to extend its strategic strength much farther than it currently can now .",
+      "prd_word": "get",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "thing gotten",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:38:44.919824",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "that",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "text": "an old Russian aircraft carrier",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 107,
+      "sentence": "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .",
+      "prd_word": "end",
+      "prd_idx": 36,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T15:40:12.369824",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 20,
+          "end": 20,
+          "text": "she",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 108,
+      "sentence": "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .",
+      "prd_word": "becoming",
+      "prd_idx": 38,
+      "label": "ARG1",
+      "span_mean": "entity changing",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:41:38.270647",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 20,
+          "end": 20,
+          "text": "she",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 109,
+      "sentence": "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .",
+      "prd_word": "leading",
+      "prd_idx": 5,
+      "label": "ARG2",
+      "span_mean": "extent",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:43:13.510596",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 110,
+      "sentence": "That was after he had actually barricaded himself inside that bus with the child .",
+      "prd_word": "barricaded",
+      "prd_idx": 7,
+      "label": "ARG2",
+      "span_mean": "instrument, thing used to barricade",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:44:25.346930",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 111,
+      "sentence": "The Bush team , responding quickly saying there would not be such support and that in that scenario Gore could only be seen as a sore loser .",
+      "prd_word": "seen",
+      "prd_idx": 23,
+      "label": "ARG1",
+      "span_mean": "thing viewed",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:45:46.541919",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 18,
+          "text": "Gore",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 112,
+      "sentence": "The Bush team , responding quickly saying there would not be such support and that in that scenario Gore could only be seen as a sore loser .",
+      "prd_word": "seen",
+      "prd_idx": 23,
+      "label": "ARG2",
+      "span_mean": "attribute of arg1, further description",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:45:53.829660",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 23,
+          "end": 26,
+          "text": "as a sore loser",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 113,
+      "sentence": "The FBI says when they questioned him , he told them of another plot to bomb an American ship in Yemen , where the `` USS Cole '' was ultimately attacked .",
+      "prd_word": "questioned",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "question",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:46:47.600050",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 114,
+      "sentence": "The Indonesian billionaire James Riady has agreed to pay $ 8.5 million and plead guilty to illegally donating money for Bill Clinton 's 1992 presidential campaign .",
+      "prd_word": "donating",
+      "prd_idx": 18,
+      "label": "ARG0",
+      "span_mean": "giver",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:48:31.936048",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "The Indonesian billionaire James Riady",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 115,
+      "sentence": "The Serbian Prime Minister , Zoran Djindjic has died of his wounds after being shot , an assassination attempt .",
+      "prd_word": "shot",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "corpse",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:49:19.887005",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "The Serbian Prime Minister , Zoran Djindjic",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 116,
+      "sentence": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
+      "prd_word": "ripped",
+      "prd_idx": 14,
+      "label": "ARG0",
+      "span_mean": "ripper, agent",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:49:39.945418",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 11,
+          "text": "The blast , which occurred just after noon local time in Yemen",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 117,
+      "sentence": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
+      "prd_word": "stopped",
+      "prd_idx": 37,
+      "label": "ARG1",
+      "span_mean": "Theme (action or object being stopped)",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:51:45.208479",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 21,
+          "end": 23,
+          "text": "the USS Cole",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 25,
+          "end": 33,
+          "text": "a state - of - the - art destroyer",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 34,
+          "end": 34,
+          "text": "that",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 118,
+      "sentence": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
+      "prd_word": "refuel",
+      "prd_idx": 41,
+      "label": "ARG0",
+      "span_mean": "provider of fuel, agent",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:52:10.532940",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 119,
+      "sentence": "The bottom line , this court rules unanimously the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26 .",
+      "prd_word": "include",
+      "prd_idx": 28,
+      "label": "ARG2",
+      "span_mean": "group",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:52:33.512757",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 23,
+          "end": 25,
+          "text": "the amended certifications",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 120,
+      "sentence": "The court ruled this senior Libyan intelligence agent planted the bomb that killed 270 , mostly Americans , when the plane bound for New York exploded over Lockerbie , Scotland .",
+      "prd_word": "killed",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "corpse",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:52:47.691508",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 16,
+          "text": "270 , mostly Americans",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 121,
+      "sentence": "The family says the chicken keeps the place clean , so she 's free to stay .",
+      "prd_word": "says",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:54:06.449257",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 15,
+          "text": "the chicken keeps the place clean , so she 's free to stay",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 122,
+      "sentence": "The little town I was in this southern Iraq , as far as I got , I ca n't boast of further , is where the talks took place .",
+      "prd_word": "boast",
+      "prd_idx": 20,
+      "label": "ARG1",
+      "span_mean": "thing proud of",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:54:22.229038",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 123,
+      "sentence": "The next morning , August 1998 , the FBI sent out a classified message , under Director Louis Freeh 's name , warning of a plot to attack a U.S. Navy ship in Yemen .",
+      "prd_word": "sent",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "sent",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:55:44.883769",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 13,
+          "text": "a classified message",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 124,
+      "sentence": "The note was found in the pocket of Lieutenant Dimitri Kolesnikov whose body was one of the first to be recovered the explosions that shattered the submarine .",
+      "prd_word": "recovered",
+      "prd_idx": 21,
+      "label": "ARG1",
+      "span_mean": "that which was sick, now getting better",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:57:23.650699",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 125,
+      "sentence": "The real pioneers are men like John Sheltons who explore underground caves .",
+      "prd_word": "explore",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": "explorer",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:57:47.159095",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "John Sheltons",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 126,
+      "sentence": "The right of the people to cast their vote , the court said , is paramount .",
+      "prd_word": "said",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:58:22.617657",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 8,
+          "text": "The right of the people to cast their vote",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "text": "is paramount",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 127,
+      "sentence": "The right of the people to cast their vote , the court said , is paramount .",
+      "prd_word": "cast",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "thrower",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:58:58.959922",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "the people",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 128,
+      "sentence": "The speech is being billed as a thank - you to the people who twice voted him into the White House and supported him even at his lowest moments .",
+      "prd_word": "voted",
+      "prd_idx": 16,
+      "label": "ARG1",
+      "span_mean": "candidate or ballot issue",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T15:59:39.272385",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 16,
+          "end": 16,
+          "text": "him",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 129,
+      "sentence": "The speech is being billed as a thank - you to the people who twice voted him into the White House and supported him even at his lowest moments .",
+      "prd_word": "voted",
+      "prd_idx": 16,
+      "label": "ARG2",
+      "span_mean": "numerical count of vote, margin, down/up",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T16:01:59.862174",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 14,
+          "text": "twice",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 130,
+      "sentence": "The trial of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland , is entering its final stage .",
+      "prd_word": "entering",
+      "prd_idx": 19,
+      "label": "ARG0",
+      "span_mean": "entity entering",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:03:13.901754",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 15,
+          "text": "The trial of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 131,
+      "sentence": "The trial of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland , is entering its final stage .",
+      "prd_word": "trial",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:04:21.661369",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 15,
+          "text": "of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 3,
+          "end": 15,
+          "text": "two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 132,
+      "sentence": "The trial of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland , is entering its final stage .",
+      "prd_word": "accused",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "crime",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:05:46.090883",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 15,
+          "text": "bombing Pam Am Flight 103 over Lockerbie , Scotland",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "text": "of bombing Pam Am Flight 103 over Lockerbie , Scotland",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 133,
+      "sentence": "The trial of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland , is entering its final stage .",
+      "prd_word": "bombing",
+      "prd_idx": 8,
+      "label": "ARG0",
+      "span_mean": "attacker, agent",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:06:01.107423",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "two Libyans",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 134,
+      "sentence": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+      "prd_word": "taken",
+      "prd_idx": 11,
+      "label": "ARG0",
+      "span_mean": "requirer",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:07:37.770050",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "These arms agreements",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 8,
+          "text": "These arms agreements that we were just speaking about",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 135,
+      "sentence": "They do n't realize that you know the real execution is really black 's black like them .",
+      "prd_word": "know",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T16:10:28.786709",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 16,
+          "text": "the real execution is really black 's black like them",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 136,
+      "sentence": "They goes in there and nuzzles with the puppies , or lays her eggs and sits there with the mother .",
+      "prd_word": "goes",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "journey",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:11:13.367627",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 137,
+      "sentence": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+      "prd_word": "keeping",
+      "prd_idx": 31,
+      "label": "ARG1",
+      "span_mean": "continued entity",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:12:56.782027",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 31,
+          "end": 35,
+          "text": "prices low for its customers",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 31,
+          "end": 32,
+          "text": "prices low",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 138,
+      "sentence": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+      "prd_word": "declared",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:14:19.356392",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "text": "a dividend for its stockholders",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "text": "a dividend",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 139,
+      "sentence": "They leave no other way for us but to respond with fire , we 'll have to do this .",
+      "prd_word": "leave",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "thing given",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:15:14.913440",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "no other way",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "text": "no other way for us",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 140,
+      "sentence": "They leave no other way for us but to respond with fire , we 'll have to do this .",
+      "prd_word": "leave",
+      "prd_idx": 2,
+      "label": "ARG2",
+      "span_mean": "benefactive / given-to",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:15:24.488641",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "for us",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 141,
+      "sentence": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+      "prd_word": "putting",
+      "prd_idx": 15,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:15:40.172150",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 142,
+      "sentence": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+      "prd_word": "keep",
+      "prd_idx": 22,
+      "label": "ARG1",
+      "span_mean": "one noun",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:15:54.436049",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 22,
+          "end": 23,
+          "text": "the chicken",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 143,
+      "sentence": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+      "prd_word": "keep",
+      "prd_idx": 22,
+      "label": "ARG2",
+      "span_mean": "other noun",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:17:13.244520",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 144,
+      "sentence": "Thick fog , rain and high winds are limiting visibility at the site .",
+      "prd_word": "limiting",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing limited",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:17:51.072574",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 12,
+          "text": "visibility at the site",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 9,
+          "end": 9,
+          "text": "visibility",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 145,
+      "sentence": "This connection to national and musical identities results partly from the fact that many Senegalese artists want to stay in Senegal to live and work says PBS singer Tidia Awadi .",
+      "prd_word": "stay",
+      "prd_idx": 19,
+      "label": "ARG3",
+      "span_mean": "attribute of arg1: state, location stayed in",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:18:24.978826",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 20,
+          "text": "in Senegal",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 146,
+      "sentence": "This is a guy whose world revolves not so much around music as around his wife .",
+      "prd_word": "revolves",
+      "prd_idx": 7,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T16:21:10.336365",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 15,
+          "text": "not so much around music as around his wife",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 147,
+      "sentence": "This was supposed to be the day the truce went into effect , when both sides would call off the violence , but that clearly has not happened , and here in the streets , peace seems very unlikely .",
+      "prd_word": "seems",
+      "prd_idx": 37,
+      "label": "ARG1",
+      "span_mean": "thing seeming",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:22:17.385887",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 35,
+          "end": 35,
+          "text": "peace",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 148,
+      "sentence": "Those must be gone over by hand by each respective canvassing board .",
+      "prd_word": "gone",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "journey",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:23:35.155394",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Those",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 149,
+      "sentence": "To those who attacked them , we say you will not find a safe harbor , we will find you and justice will prevail .",
+      "prd_word": "prevail",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": "loser",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:24:45.019557",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 150,
+      "sentence": "Today Gao , who now lives in France , gave the traditional Nobel lecture as part of the festivities leading up to Sunday 's ceremony , and on the same day he collects the prize .",
+      "prd_word": "gave",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": "giver",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:25:21.585199",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 7,
+          "text": "Gao , who now lives in France",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 151,
+      "sentence": "Today Gao , who now lives in France , gave the traditional Nobel lecture as part of the festivities leading up to Sunday 's ceremony , and on the same day he collects the prize .",
+      "prd_word": "leading",
+      "prd_idx": 20,
+      "label": "ARG1",
+      "span_mean": "led entity",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:25:42.981532",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 18,
+          "text": "the festivities",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 152,
+      "sentence": "Tonight for both George Bush and Al Gore and their war rooms all their advisers , this really comes down to a numbers game .",
+      "prd_word": "comes",
+      "prd_idx": 19,
+      "label": "ARG2",
+      "span_mean": "extent -- rare",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T16:27:29.923611",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 20,
+          "end": 23,
+          "text": "to a numbers game",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 153,
+      "sentence": "Tonight on Israeli television , Prime Minister Barak said we can not go on as if nothing happened , and if the demonstrations do n't stop , Barak 's spokesman said Israel will continue to use live ammunition .",
+      "prd_word": "said",
+      "prd_idx": 31,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:27:51.829383",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 31,
+          "end": 37,
+          "text": "Israel will continue to use live ammunition",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 154,
+      "sentence": "Two others , her father apparently and another sister , have been wounded in this incident .",
+      "prd_word": "wounded",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "injured party",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:28:25.492028",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 8,
+          "text": "Two others , her father apparently and another sister",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 155,
+      "sentence": "UN Secretary General Kofi Annan who is leading mediation efforts in the Middle East urged Palestinians and Israelis , Thursday to show restraint .",
+      "prd_word": "leading",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "entity lead",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:28:51.205278",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "mediation efforts",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 8,
+          "end": 13,
+          "text": "mediation efforts in the Middle East",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 156,
+      "sentence": "Up next a global hip - hop beat laid down in New York and danced to in the West African nation of Senegal .",
+      "prd_word": "danced",
+      "prd_idx": 15,
+      "label": "ARG0",
+      "span_mean": "dancer",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:30:35.897444",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 157,
+      "sentence": "Violence ripped through almost every major Palestinian town today .",
+      "prd_word": "ripped",
+      "prd_idx": 2,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:30:52.961489",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Violence",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 158,
+      "sentence": "Want to get to Florida , a massive manhunt underway where a rapist is targeting children .",
+      "prd_word": "get",
+      "prd_idx": 3,
+      "label": "ARG2",
+      "span_mean": "destination",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:31:22.100281",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "to Florida",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 159,
+      "sentence": "We 'll keep our eye on that .",
+      "prd_word": "keep",
+      "prd_idx": 3,
+      "label": "ARG2",
+      "span_mean": "continued state or action",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:31:39.215636",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "on that",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 160,
+      "sentence": "We 're all getting , this news in from the speech that the Homeland Security Secretary Tom Ridge is expected to be delivering at the international press club around 1:00 Eastern at the top of the hour .",
+      "prd_word": "expected",
+      "prd_idx": 20,
+      "label": "ARG1",
+      "span_mean": "thing expected",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:36:57.071357",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 20,
+          "end": 36,
+          "text": "to be delivering at the international press club around 1:00 Eastern at the top of the hour",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 161,
+      "sentence": "We 're all getting , this news in from the speech that the Homeland Security Secretary Tom Ridge is expected to be delivering at the international press club around 1:00 Eastern at the top of the hour .",
+      "prd_word": "delivering",
+      "prd_idx": 23,
+      "label": "ARG1",
+      "span_mean": "sent",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:39:27.046586",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 10,
+          "text": "the speech",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 162,
+      "sentence": "We are also including the undervotes of 10,000 in Palm Beach and junt votes of 10,000 in Miami - Dade as well .",
+      "prd_word": "including",
+      "prd_idx": 4,
+      "label": "ARG2",
+      "span_mean": "group",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:41:08.442220",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 163,
+      "sentence": "We are also including the undervotes of 10,000 in Palm Beach and junt votes of 10,000 in Miami - Dade as well .",
+      "prd_word": "including",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "theme, thing being included in some group",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:41:28.525963",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 19,
+          "text": "the undervotes of 10,000 in Palm Beach and junt votes of 10,000 in Miami - Dade",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 21,
+          "text": "the undervotes of 10,000 in Palm Beach and junt votes of 10,000 in Miami - Dade as well",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 164,
+      "sentence": "We have the pictures coming in from Central Florida , News 13 .",
+      "prd_word": "have",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "possession",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:42:36.867638",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "the pictures",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 11,
+          "text": "the pictures coming in from Central Florida , News 13",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 165,
+      "sentence": "We just felt he understands how to reach people and how to reach kids .",
+      "prd_word": "reach",
+      "prd_idx": 8,
+      "label": "ARG0",
+      "span_mean": "reacher",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:42:51.373471",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "he",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 166,
+      "sentence": "We know their view is the hand counts should now be included .",
+      "prd_word": "counts",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "thing counted",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:44:20.028288",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 167,
+      "sentence": "When American saxophonist David Murray recorded his acclaimed afrocentric jazz album , Fo Juke Review in Dakar , he recruited Amidu Berry and DJ Awadi from PBS to show what an edge West African music can really have .",
+      "prd_word": "recruited",
+      "prd_idx": 20,
+      "label": "ARG2",
+      "span_mean": "group, job (sometimes predicate on arg1)",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:46:22.990667",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 168,
+      "sentence": "When American saxophonist David Murray recorded his acclaimed afrocentric jazz album , Fo Juke Review in Dakar , he recruited Amidu Berry and DJ Awadi from PBS to show what an edge West African music can really have .",
+      "prd_word": "show",
+      "prd_idx": 29,
+      "label": "ARG0",
+      "span_mean": "shower",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:48:22.547396",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "David Murray",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 18,
+          "end": 18,
+          "text": "he",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 169,
+      "sentence": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+      "prd_word": "decision",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:49:31.097642",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "not to move toward Bagdad",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 12,
+          "text": "not to move toward Bagdad with bad information",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 170,
+      "sentence": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+      "prd_word": "move",
+      "prd_idx": 8,
+      "label": "ARG0",
+      "span_mean": "mover",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:49:41.831996",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "they",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 171,
+      "sentence": "While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war .",
+      "prd_word": "predicted",
+      "prd_idx": 50,
+      "label": "ARG1",
+      "span_mean": "prediction",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:52:14.681348",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 23,
+          "end": 41,
+          "text": "the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 172,
+      "sentence": "While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war .",
+      "prd_word": "presented",
+      "prd_idx": 52,
+      "label": "ARG1",
+      "span_mean": "thing given",
+      "type": "small model overlap",
+      "optional": true,
+      "timestamp": "2026-03-18T16:53:34.567086",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 23,
+          "end": 41,
+          "text": "the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 173,
+      "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+      "prd_word": "jump",
+      "prd_idx": 34,
+      "label": "ARG2",
+      "span_mean": "thing jumped over",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:54:49.416295",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 174,
+      "sentence": "Witnesses say the shots came from the Palestinian international airport .",
+      "prd_word": "came",
+      "prd_idx": 5,
+      "label": "ARG2",
+      "span_mean": "extent -- rare",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:55:44.066216",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 175,
+      "sentence": "Yesterday , Mr. Clinton spoke to supporters in his home state of Arkansas .",
+      "prd_word": "spoke",
+      "prd_idx": 5,
+      "label": "ARG2",
+      "span_mean": "hearer",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:56:04.688421",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 12,
+          "text": "to supporters in his home state of Arkansas",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "text": "to supporters",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 176,
+      "sentence": "You go out .",
+      "prd_word": "go",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:56:31.499304",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "You",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 177,
+      "sentence": "You know , as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see .",
+      "prd_word": "see",
+      "prd_idx": 30,
+      "label": "ARG1",
+      "span_mean": "thing viewed",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T16:57:21.738775",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 25,
+          "end": 25,
+          "text": "that",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "text": "five acts",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 178,
+      "sentence": "Your journey , particularly to southern Iraq , what is evoked there a sense of both that you evoke is a sense of history of this regime .",
+      "prd_word": "evoked",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "thing evoked",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T17:00:17.032111",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "what",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 20,
+          "end": 26,
+          "text": "a sense of history of this regime",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 179,
+      "sentence": "Your journey , particularly to southern Iraq , what is evoked there a sense of both that you evoke is a sense of history of this regime .",
+      "prd_word": "evoke",
+      "prd_idx": 19,
+      "label": "ARG1",
+      "span_mean": "thing evoked",
+      "type": "small model overlap",
+      "optional": false,
+      "timestamp": "2026-03-18T17:00:38.254701",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 13,
+          "text": "a sense",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    }
+  ],
+  "last_index": 178
+}

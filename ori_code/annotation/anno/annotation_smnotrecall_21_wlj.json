@@ -1,0 +1,492 @@
+{
+  "annotations": [
+    {
+      "idx": 1,
+      "sentence": "All this happening about 90 minutes ago based on the wire reports we 're getting here .",
+      "prd_word": "based",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "decision, whole",
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-20T11:48:10.388256",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "All this happening about 90 minutes ago",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 2,
+      "sentence": "And if this attack turns out to be the work of terrorists , Hoffman says it would signal a dangerous new trend .",
+      "prd_word": "turns",
+      "prd_idx": 5,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-20T11:50:44.036503",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "to be the work of terrorists",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 3,
+      "sentence": "And with you as Chairman of the SEC exercising your bully pulpit , one assumes that --",
+      "prd_word": "assumes",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "Thought",
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-20T11:51:03.691622",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 15,
+          "text": "that",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 4,
+      "sentence": "As you point out , of course , for the fact of the matter is , the mistakes of Saddam Hussein made possible his removal from power ultimately .",
+      "prd_word": "point",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T11:52:10.913694",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 16,
+          "end": 27,
+          "text": "the mistakes of Saddam Hussein made possible his removal from power ultimately",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 5,
+      "sentence": "California 's utility companies are not able to generate all the power their customers need , so they have turned to outside suppliers and in the face of rising prices the state 's two largest utility firms have sunk more than eight billion dollars in debt .",
+      "prd_word": "sunk",
+      "prd_idx": 39,
+      "label": "ARG2",
+      "span_mean": "EXT",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T16:23:13.520769",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 39,
+          "end": 45,
+          "text": "more than eight billion dollars in debt",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 43,
+          "text": "more than eight billion dollars",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 6,
+      "sentence": "He had survived , if you will , a death sentence , and now in that new freedom of the life in front of him , he takes to the road in the tradition of old Chinese poets and records what he sees , what he hears , the stories that he is told .",
+      "prd_word": "sentence",
+      "prd_idx": 11,
+      "label": "ARG2",
+      "span_mean": "punishment",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T11:55:08.663602",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 9,
+          "text": "death",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 7,
+      "sentence": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+      "prd_word": "vote",
+      "prd_idx": 14,
+      "label": "ARG0",
+      "span_mean": "voter",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T16:25:19.150805",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 9,
+          "text": "everybody who tried to vote who legally voted",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 8,
+      "sentence": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+      "prd_word": "make",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-20T16:27:04.416930",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 24,
+          "text": "it",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 9,
+      "sentence": "It also got past the puppies ' protective father .",
+      "prd_word": "got",
+      "prd_idx": 3,
+      "label": "ARG0",
+      "span_mean": "causer of motion",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T12:00:53.166239",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "It",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 10,
+      "sentence": "Its personnel have served with US forces in Somalia , Haiti , Bosnia , and Kosovo .",
+      "prd_word": "served",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "job, project, service performed",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T12:01:59.870506",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "with US forces",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 11,
+      "sentence": "Milosevic headed Yugoslavia 's state - run gas company and was President of a major Belgrade bank climbing the political ladder as a Communist technocrat .",
+      "prd_word": "run",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "operator",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T12:03:12.492853",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Milosevic",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "text": "Yugoslavia 's state",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 12,
+      "sentence": "No telling how long the Osbourne phenomenon may last but the family 's loyal following will always be screaming for more .",
+      "prd_word": "screaming",
+      "prd_idx": 19,
+      "label": "ARG1",
+      "span_mean": "the scream",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T13:47:33.772564",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 13,
+      "sentence": "Ratings for the second season slid .",
+      "prd_word": "Ratings",
+      "prd_idx": 1,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T13:48:27.126273",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 14,
+      "sentence": "Russian and Norwegian divers searched the fourth compartment of the wrecked submarine Kursk , Sunday , but they found too much damage to proceed with the task of recovering bodies .",
+      "prd_word": "recovering",
+      "prd_idx": 29,
+      "label": "ARG0",
+      "span_mean": "entity getting something",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T13:49:14.793503",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 17,
+          "text": "they",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 15,
+      "sentence": "Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash .",
+      "prd_word": "trial",
+      "prd_idx": 12,
+      "label": "ARG3",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T16:31:58.065856",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 16,
+      "sentence": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+      "prd_word": "write",
+      "prd_idx": 80,
+      "label": "ARG1",
+      "span_mean": "thing written",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T13:53:59.075725",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 17,
+      "sentence": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+      "prd_word": "taken",
+      "prd_idx": 11,
+      "label": "ARG2",
+      "span_mean": "required-of, required-from ('ablative')",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T13:56:34.077453",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 18,
+      "sentence": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+      "prd_word": "keep",
+      "prd_idx": 12,
+      "label": "ARG0",
+      "span_mean": "causer of continued action",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T16:41:06.069477",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "an emergency order",
+          "models": [
+            "semicrf"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 4,
+          "text": "US Energy Secretary Bill Richardson",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 19,
+      "sentence": "We just felt he understands how to reach people and how to reach kids .",
+      "prd_word": "reach",
+      "prd_idx": 13,
+      "label": "ARG0",
+      "span_mean": "reacher",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T13:57:43.248750",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "he",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 20,
+      "sentence": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+      "prd_word": "devastated",
+      "prd_idx": 21,
+      "label": "ARG1",
+      "span_mean": "thing destroyed",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T13:58:27.297240",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 16,
+          "end": 18,
+          "text": "the Republican Guard",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 21,
+      "sentence": "`` Iraq has triumphed over its enemies , '' he said , `` and it will triumph in the remaining rounds of the battle . ''",
+      "prd_word": "triumph",
+      "prd_idx": 17,
+      "label": "ARG2",
+      "span_mean": "competition",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-20T13:59:08.800391",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 23,
+          "text": "in the remaining rounds of the battle",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    }
+  ],
+  "last_index": 18
+}

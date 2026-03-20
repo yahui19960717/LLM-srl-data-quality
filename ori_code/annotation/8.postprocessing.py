@@ -87,13 +87,27 @@ def get_results(llmout, incorrect_file, correct_file):
 if __name__ == "__main__":
     # gold results
     domain = "bn"
-    path_llmout = "llm/test_bn_4llm_all_gold.conll"
-    path_llmout2 = "llm/test_bn_4llm_parseright_gold.conll"
+
+
+
+
+    
+    # 可标可不标注补充
+    path_llmout = f"llm/test_{domain}_4llm_all_smnotrecall.conll"
+    path_llmout2 = f"llm/test_{domain}_4llm_parseright_smnotrecall.conll"
     llmout = read_json(path_llmout)
     llmout2 = read_json(path_llmout2)
     print(len(llmout), len(llmout2))
-    incorrect_data, correct_data = f"llm/incorrect_data_{domain}_gold.json", f"llm/correct_data_{domain}_gold.json"
-    get_results(llmout, incorrect_data, correct_data)
+    incorrect_data, correct_data = f"llm/incorrect_data_{domain}_smnotrecall.json", f"llm/correct_data_{domain}_smnotrecall.json"
+    get_results(llmout, incorrect_data, correct_data) # 正确247 ,不正确的34
+
+    # path_llmout = "llm/test_bn_4llm_all_gold.conll"
+    # path_llmout2 = "llm/test_bn_4llm_parseright_gold.conll"
+    # llmout = read_json(path_llmout)
+    # llmout2 = read_json(path_llmout2)
+    # print(len(llmout), len(llmout2))
+    # incorrect_data, correct_data = f"llm/incorrect_data_{domain}_gold.json", f"llm/correct_data_{domain}_gold.json"
+    # get_results(llmout, incorrect_data, correct_data)
 
 
 

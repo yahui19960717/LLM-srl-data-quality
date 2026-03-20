@@ -109,6 +109,7 @@ both LLM认为小模型错误的结果：
 {'total_aligned': 30, 'exact': 6, 'both_empty': 12, 'partial': 2, 'none': 5, 'empty_a': 5, 'empty_b': 0}
 
 
+o1mini认为错误，ds认为正确
 [去重]
   anno/annotations_single_gold_o1wrongdsright_93_wlj.json 原始（去重后）：93 条
   anno/annotations_single_gold_o1wrongdsright_93_lyh.json 原始（去重后）：93 条
@@ -138,3 +139,107 @@ both LLM认为小模型错误的结果：
 {'total_aligned': 93, 'exact': 48, 'both_empty': 3, 'partial': 10, 'none': 16, 'empty_a': 3, 'empty_b': 13}
 
 输出文件：analysis/bn/annotators_analysis_single_gold_o1wrongdsright_93.json
+
+  完全一致的标注一致率：15/30 = 50.00%
+  部分匹配的标注一致率：(15+5)/30 = 66.67%
+
+
+
+
+
+  (llamafactory) [yhliu@localhost annotation]$ python 13.anno_extraction.py 
+[去重]
+  anno/annotation_smallmodel_overlap_wlj.json 原始（去重后）：179 条
+  anno/annotation_smallmodel_overlap_lyh.json 原始（去重后）：179 条
+{'idx': 179, 'sentence': 'Your journey , particularly to southern Iraq , what is evoked there a sense of both that you evoke is a sense of history of this regime .', 'prd_word': 'evoke', 'prd_idx': 19, 'label': 'ARG1', 'span_mean': 'thing evoked', 'type': 'small model overlap', 'optional': False, 'timestamp': '2026-03-18T23:49:05.496513', 'grammar_status': '有语法错误', 'grammar_error_desc': '句式杂糅', 'selected_spans': [], 'has_custom': False}
+
+[语法错误过滤]
+  anno/annotation_smallmodel_overlap_wlj.json 认为句子正确个数：179 条，错误个数为 0 条
+  anno/annotation_smallmodel_overlap_lyh.json 认为句子正确个数：178 条，错误个数为 1 条
+  涉及 idx 共 1 个
+  被过滤的 idx：[179]
+
+[对齐标注者数据]:
+双方共同标注（语法正确）：178 条
+正在处理: anno/annotation_smallmodel_overlap_wlj.json  vs  anno/annotation_smallmodel_overlap_lyh.json
+数据已保存到: analysis/bn/annotators_analysis_ssmallmodel_overlap_179.json
+
+[结果汇总]
+  共同标注（语法正确）：178 条
+  完全一致：95 条
+  不一致总计：83 条
+    部分匹配：35
+    完全不匹配：48
+        都有论元且完全不匹配：13
+        仅 wlj 有标注：23
+        仅 lyh 有标注：12
+  完全一致的标注一致率：95/178 = 53.37%
+  部分匹配的标注一致率：(95+35)/178 = 73.03%
+  需要reveiw的个数为:83
+{'total_aligned': 178, 'exact': 78, 'both_empty': 17, 'partial': 35, 'none': 13, 'empty_a': 12, 'empty_b': 23}
+
+
+ # small model not recall的，不在final corrected data中的label,且大模型判断为错误的
+[[去重]
+  anno/annotation_smnotrecall_21_wlj.json 原始（去重后）：21 条
+  anno/annotation_smnotrecall_21_lyh.json 原始（去重后）：21 条
+
+[语法错误过滤]
+  anno/annotation_smnotrecall_21_wlj.json 认为句子正确个数：21 条，错误个数为 0 条
+  anno/annotation_smnotrecall_21_lyh.json 认为句子正确个数：21 条，错误个数为 0 条
+  涉及 idx 共 0 个
+
+[对齐标注者数据]:
+双方共同标注（语法正确）：21 条
+正在处理: anno/annotation_smnotrecall_21_wlj.json  vs  anno/annotation_smnotrecall_21_lyh.json
+数据已保存到: analysis/bn/annotators_analysis_smnotrecall_21.json
+
+[结果汇总]
+  共同标注（语法正确）：21 条
+  完全一致：10 条
+  不一致总计：12 条
+    部分匹配：2
+    完全不匹配：10
+        都有论元且完全不匹配：2
+        仅 wlj 有标注：4
+        仅 lyh 有标注：4
+  完全一致的标注一致率：9/21 = 42.86%
+  部分匹配的标注一致率：(9+2)/21 = 52.38%
+  需要reveiw的个数为:12
+{'total_aligned': 21, 'exact': 8, 'both_empty': 1, 'partial': 2, 'none': 2, 'empty_a': 4, 'empty_b': 4, 'optional': 1}
+
+输出文件：analysis/bn/annotators_analysis_smnotrecall_21.json
+
+
+
+ # small model not recall的，不在final corrected data中的label，且大模型认为是正确的
+
+[[去重]
+  anno/annotation_smnotrecallright_random30_wlj.json 原始（去重后）：30 条
+  anno/annotation_smnotrecallright_random30_lyh.json 原始（去重后）：30 条
+
+[语法错误过滤]
+  anno/annotation_smnotrecallright_random30_wlj.json 认为句子正确个数：30 条，错误个数为 0 条
+  anno/annotation_smnotrecallright_random30_lyh.json 认为句子正确个数：30 条，错误个数为 0 条
+  涉及 idx 共 0 个
+
+[对齐标注者数据]:
+双方共同标注（语法正确）：30 条
+正在处理: anno/annotation_smnotrecallright_random30_wlj.json  vs  anno/annotation_smnotrecallright_random30_lyh.json
+数据已保存到: analysis/bn/annotators_analysis_smnotrecallright_random30.json
+
+[结果汇总]
+  共同标注（语法正确）：30 条
+  完全一致：21 条
+  不一致总计：10 条
+    部分匹配：3
+    完全不匹配：7
+        都有论元且完全不匹配：2
+        仅 wlj 有标注：2
+        仅 lyh 有标注：3
+  完全一致的标注一致率：20/30 = 66.67%
+  部分匹配的标注一致率：(20+3)/30 = 76.67%
+  需要reveiw的个数为:10
+{'total_aligned': 30, 'exact': 20, 'both_empty': 0, 'partial': 3, 'none': 2, 'empty_a': 3, 'empty_b': 2, 'optional': 1}
+
+输出文件：analysis/bn/annotators_analysis_smnotrecallright_random30.json

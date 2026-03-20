@@ -1,0 +1,32 @@
+{
+  "Her stockbroker was also charged .\tcharged\t5": {
+    "prd_sense": "05",
+    "roles": {
+      "ARG0": "assigner",
+      "ARG1": "assigned",
+      "ARG2": "role or crime"
+    },
+    "Prompt_Result": {
+      "ARG0": "{\"ARG0\":\"None\"}",
+      "ARG1": "{\"ARG1\": \"Her stockbroker\"}",
+      "ARG2": "{\"ARG2\":\"None\"}"
+    }
+  },
+  "Age groups span the generations , and it 's absolutely no longer guys only .\tspan\t3": {
+    "prd_sense": "01",
+    "roles": {
+      "ARG0": "thing extending",
+      "ARG1": "entity spanned",
+      "ARG2": "distance measurement",
+      "ARG3": "start point, first boundary",
+      "ARG4": "end point, second boundary"
+    },
+    "Prompt_Result": {
+      "ARG0": "{\"ARG0\": \"Age groups\"}",
+      "ARG1": "{\"ARG1\": \"the generations\"}",
+      "ARG2": "{\"ARG2\": \"None\"}",
+      "ARG3": "{\"ARG3\": \"None\"}",
+      "ARG4": "None"
+    }
+  }
+}
