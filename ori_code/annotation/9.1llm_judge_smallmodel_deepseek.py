@@ -326,11 +326,19 @@ def LLM_prompt(data, path_save, path_save2):
 
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
-    domain = "bn"
-    data = read_json(f"llm/incorrect_data_{domain}_smallmodel.json")
-    path_llmout = f"llm/test_{domain}_4llm_all_deepseek_smallmodelincorrect.conll" # o1mini判断错误的
-    path_llmout2 = f"llm/test_{domain}_4llm_parseright_deepseek_smallmodelincorrect.conll"
+    domain = "tc"
+    data = read_json(f"llm/{domain}/incorrect_data_{domain}_smallmodel.json") # o1mini认为不正确的
+    path_llmout = f"llm/{domain}/test_{domain}_4llm_all_deepseek_smallmodelincorrect.conll" # o1mini判断错误的
+    path_llmout2 = f"llm/{domain}/test_{domain}_4llm_parseright_deepseek_smallmodelincorrect.conll"
     LLM_prompt(data, path_llmout, path_llmout2)
     print("工作保存完成！")
+
+
+    # domain = "bn"
+    # data = read_json(f"llm/incorrect_data_{domain}_smallmodel.json")
+    # path_llmout = f"llm/test_{domain}_4llm_all_deepseek_smallmodelincorrect.conll" # o1mini判断错误的
+    # path_llmout2 = f"llm/test_{domain}_4llm_parseright_deepseek_smallmodelincorrect.conll"
+    # LLM_prompt(data, path_llmout, path_llmout2)
+    # print("工作保存完成！")
             
     

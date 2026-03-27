@@ -1,0 +1,20 @@
+process llm result
+
+Warning: Could not parse Prompt_Result as JSON for key: If they want me they can pay ,	pay	7
+Warning: Could not parse Prompt_Result as JSON for key: This girl has everything in her dreams you know .	has	3
+process gold result
+
+-- and she 's telling me about you know her sister 's wedding .	telling	5 {'ARG1': ["about you know her sister 's wedding", "you know her sister 's wedding"]}
+and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child .	acting	23 {'ARG0': ['she']}
+and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child .	acting	23 {'ARG0': ['she'], 'ARG1': ['like a total nigger child']}
+%uh lay there let me look at my grandmother kind of thing	lay	2 {'ARG2': ['there']}
+%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	understand	9 {'ARG1': ['everything that has happened in the last several years yeah . and things like that']}
+
+Evaluation Results:
+Role: ARG0       | P: 0.8927 | R: 0.8839 | F1: 0.8883
+Role: ARG1       | P: 0.6333 | R: 0.6340 | F1: 0.6337
+Role: ARG2       | P: 0.2800 | R: 0.5731 | F1: 0.3762
+Role: ARG4       | P: 0.3514 | R: 0.4815 | F1: 0.4062
+Role: ARG3       | P: 0.1333 | R: 0.4444 | F1: 0.2051
+Role: ARG5       | P: 0.0000 | R: 0.0000 | F1: 0.0000
+Role: OVERALL    | P: 0.6470 | R: 0.7398 | F1: 0.6903

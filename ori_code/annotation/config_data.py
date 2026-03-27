@@ -19,7 +19,7 @@ def read_pickle(file):
     """从文件读取pickle数据"""
     with open(file, 'rb') as f:
         data = pickle.load(f)
-    print(len(data))
+    print(f'read pickle :data number {len(data)}')
     return data
 
 def parse_response(instance, response):

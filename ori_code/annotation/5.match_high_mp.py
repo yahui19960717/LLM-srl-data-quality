@@ -159,9 +159,9 @@ def get_highprob_labels(distributions, data, index_data, path_out, threshold): #
 # 看下是不是所有的预测结果都在候选结果中
 
 if __name__=="__main__":
-    domain = "bn"
+    domain = "tc" #"bn"
     distributions = read(f"../../prob_distribution/nw/nw-{domain}-test-distribution-maximum.pt") # 概率分布
-    gold_semicrf_treecrf =  read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
-    path_out = f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.1.conll"
+    gold_semicrf_treecrf =  read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    path_out = f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.1.conll"
     index_data = read_json(f"../../index_sen/nw/{domain}.test.json")
     get_highprob_labels(distributions, gold_semicrf_treecrf, index_data, path_out, threshold=0.1)

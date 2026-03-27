@@ -38,7 +38,6 @@ def build_bigmodel_dict_from_eval(gold_bigmodel, pred_bigmodel):
     bigmodel_all = gold_bigmodel + pred_bigmodel
     bigmodel_dict = defaultdict(lambda: defaultdict(list))
     for item in bigmodel_all:
-        
         sen     = item['sen']
         prd_word = item['prd_word']
         prd_idx  = item.get('pred.idx', item.get('prd_idx', -1))
@@ -69,7 +68,7 @@ def build_bigmodel_dict_from_eval_single(gold_bigmodel):
     return bigmodel_dict
     
 
-def evaluate_model_v2(model_name, eval_data, gold_dict):
+def evaluate_model_v2(model_name, eval_data, gold_dict, other_info):
     """
     根据dic_data构建的gold_dict评估某个小模型的ARG0-ARG5 PRF。
     
@@ -77,7 +76,6 @@ def evaluate_model_v2(model_name, eval_data, gold_dict):
     current_data: build_gold_spans_from_dic的输出
     """
     target_labels = {f'ARG{i}' for i in range(6)}
-    
     # 整体计数
     overall = {'tp': 0, 'fp': 0, 'fn': 0}
     # 每个标签计数
@@ -86,16 +84,19 @@ def evaluate_model_v2(model_name, eval_data, gold_dict):
     matched = 0
     unmatched_pred = 0
     for lookup_key in eval_data: # 谓词级别的处理
+        
         if lookup_key not in gold_dict:
             # 该谓词未在dic_data中，跳过 # 包含了之前处理的be动词、无论元的、语法错误的等等
             unmatched_pred += 1
-            # print(lookup_key)
+            import pdb;pdb.set_trace()
+            print(lookup_key)
             continue
-        matched += 1
-
-        gold_spans = gold_dict[lookup_key]   # {label: [(start,end),...]}
+        matched += 1 # 谓词匹配的
+        gold_spans = gold_dict[lookup_key]   # {label: [(start,end),...]} 对于某个谓词所有的label
         pred_spans=eval_data[lookup_key] #注意：单个span是{label: [(start,end)]}
+
         gold_set = spans_to_set(gold_spans)
+        temp_sen, temp_word, temp_idx = lookup_key
         
         # 将pred转成 {label: (start, end)}，只处理ARG0-ARG5
         pred_dict = {}
@@ -106,14 +107,23 @@ def evaluate_model_v2(model_name, eval_data, gold_dict):
 
         # 以label为单位计算TP/FP/FN
         # gold中出现的label集合 与 pred中出现的label集合
-        gold_labels = {lbl for lbl in gold_spans if lbl in target_labels}
+        gold_labels = {lbl for lbl in gold_spans if lbl in target_labels} # 获得所有的label
         pred_labels = set(pred_dict.keys())
-        # import pdb;pdb.set_trace()
         all_labels  = gold_labels | pred_labels # 所有可能的labels
-        # import pdb;pdb.set_trace()
         for lbl in all_labels:
             gold_set = set(gold_spans.get(lbl, []))  # 该label的所有合法span
             pred_list = pred_dict.get(lbl, [])        # 该label的预测span（最多一个）
+            # 先判断是不是语法错误
+            # import pdb;pdb.set_trace()
+            grammar = other_info[(temp_sen, temp_word, temp_idx)][lbl].get('grammar_error_desc', None) if isinstance(other_info[(temp_sen, temp_word, temp_idx)][lbl], dict) else []
+            opt = other_info[(temp_sen, temp_word, temp_idx)][lbl].get('optional', None) if isinstance(other_info[(temp_sen, temp_word, temp_idx)][lbl], dict) else []
+            if grammar == "有语法错误":
+                continue
+            elif opt==True:
+                overall['tp'] += 1
+                per_label[lbl]['tp'] += 1
+                continue
+
             # import pdb;pdb.set_trace()
             if pred_list:
                 assert len(pred_list) == 1
@@ -153,10 +163,93 @@ def evaluate_model_v2(model_name, eval_data, gold_dict):
         p, r, f = compute_prf(c['tp'], c['fp'], c['fn'])
         print(f"{lbl:<11} {p*100:>10.2f} {r*100:>10.2f} {f*100:>10.2f}"
               f"  {c['tp']:>6}  {c['fp']:>5}  {c['fn']:>5}")
-        # print(f"{lbl:<11} {p:>10.5f} {r:>10.5f} {f:>10.5f}"
-        #       f"  {c['tp']}  {c['fp']}  {c['fn']}")
     print(f"{'='*75}")
 
+def evaluate_model_v3(model_name, eval_data, gold_dict):
+    """
+    根据dic_data构建的gold_dict评估某个小模型的ARG0-ARG5 PRF。
+    
+    eval_data: bigmodel 所有预测结果为correct的例子
+    current_data: build_gold_spans_from_dic的输出
+    """
+    target_labels = {f'ARG{i}' for i in range(6)}
+    # 整体计数
+    overall = {'tp': 0, 'fp': 0, 'fn': 0}
+    # 每个标签计数
+    per_label = {lbl: {'tp': 0, 'fp': 0, 'fn': 0} for lbl in target_labels}
+
+    matched = 0
+    unmatched_pred = 0
+    for lookup_key in eval_data: # 谓词级别的处理
+        
+        if lookup_key not in gold_dict:
+            # 该谓词未在dic_data中，跳过 # 包含了之前处理的be动词、无论元的、语法错误的等等
+            unmatched_pred += 1
+            # print(lookup_key)
+            continue
+        matched += 1 # 谓词匹配的
+        gold_spans = gold_dict[lookup_key]   # {label: [(start,end),...]} 对于某个谓词所有的label
+        pred_spans=eval_data[lookup_key] #注意：单个span是{label: [(start,end)]}
+
+        gold_set = spans_to_set(gold_spans)
+        temp_sen, temp_word, temp_idx = lookup_key
+        
+        # 将pred转成 {label: (start, end)}，只处理ARG0-ARG5
+        pred_dict = {}
+        for label, span in pred_spans.items(): 
+            if label not in target_labels:
+                continue
+            pred_dict[label] = [(span[0][0], span[0][1])] 
+
+        # 以label为单位计算TP/FP/FN
+        # gold中出现的label集合 与 pred中出现的label集合
+        gold_labels = {lbl for lbl in gold_spans if lbl in target_labels} # 获得所有的label
+        pred_labels = set(pred_dict.keys())
+        all_labels  = gold_labels | pred_labels # 所有可能的labels
+        for lbl in all_labels:
+            gold_set = set(gold_spans.get(lbl, []))  # 该label的所有合法span
+            pred_list = pred_dict.get(lbl, [])        # 该label的预测span（最多一个）
+           
+            # import pdb;pdb.set_trace()
+            if pred_list:
+                assert len(pred_list) == 1
+                pred_span = pred_list[0]  # 预测中该label只有一个span
+                if pred_span in gold_set:
+                    # 命中gold中任意一个span → TP
+                    overall['tp'] += 1
+                    per_label[lbl]['tp'] += 1
+                else:
+                    # 未命中 → FP + FN（预测了但预测错了，gold该label也没被覆盖）
+                    overall['fp'] += 1
+                    per_label[lbl]['fp'] += 1
+                    if lbl in gold_labels:
+                        overall['fn'] += 1
+                        per_label[lbl]['fn'] += 1
+            else:
+                # 该label有gold但没有预测 → FN
+                if lbl in gold_labels:
+                    overall['fn'] += 1
+                    per_label[lbl]['fn'] += 1
+
+    print(f"\n{'='*75}")
+    print(f"模型: {model_name}  |  匹配谓词: {matched}  |  未命中: {unmatched_pred}")
+    print(f"{'='*75}")
+    print(f"{'标签':<12} {'Precision(%)':>8} {'Recall(%)':>8} {'F1(%)':>6}  {'TP':>5}   {'FP':>5}  {'FN':>5}")
+    print(f"{'-'*75}")
+
+    p, r, f = compute_prf(overall['tp'], overall['fp'], overall['fn'])
+    print(f"{'Overall':<11} {p*100:>10.2f} {r*100:>10.2f} {f*100:>10.2f}"
+          f"  {overall['tp']:>6}  {overall['fp']:>5}  {overall['fn']:>5}")
+    print(f"{'-'*75}")
+
+    for lbl in sorted(target_labels):
+        c = per_label[lbl]
+        if c['tp'] + c['fp'] + c['fn'] == 0:
+            continue
+        p, r, f = compute_prf(c['tp'], c['fp'], c['fn'])
+        print(f"{lbl:<11} {p*100:>10.2f} {r*100:>10.2f} {f*100:>10.2f}"
+              f"  {c['tp']:>6}  {c['fp']:>5}  {c['fn']:>5}")
+    print(f"{'='*75}")
 def build_gold_dict_from_eval(eval_data):
     """
     直接从eval_data中的gold字段构建gold_dict
@@ -176,8 +269,59 @@ def build_gold_dict_from_eval(eval_data):
                 gold_dict[key][label].append((span[0], span[1]-1))  # 这个是原始的结果，原始结果中span的end都要减一
 
     return gold_dict
+
+def build_corrected_data_for_dic(dict_data):
+    """
+    从dic_data构建current gold标准：
+    key = (sen, prd_word, prd_idx, label)
+    value = selected_spans列表（人工审核后的正确span边界集合）
+    
+    返回结构：
+    {
+      (sen, prd_word, prd_idx): {
+          label: [(start, end), ...]
+      }
+    }
+    """
+    corrected_dict = defaultdict(lambda: defaultdict(list))
+    other_info = defaultdict(lambda: defaultdict(list)) 
+    for ins in dict_data:
+        sen, prd_word, prd_idx, label = ins.split("\t")
+        item = dict_data[ins]
+        for span in item.get('selected_spans', []): # 若无span就不记录了
+            corrected_dict[(sen, prd_word, int(prd_idx))][label].append((span['start'], span['end']))
+            other_info[(sen, prd_word, int(prd_idx))][label] = item
+    print(len(corrected_dict), len(other_info))
+    return corrected_dict, other_info
+        
+    # for (sen, prd_word, prd_idx, label), item in dic_data.items():
+    #     for span in item.get('selected_spans', []):
+    #         gold_dict[(sen, prd_word, prd_idx)][label].append((span['start'], span['end']))
+    # return corrected_dict
 if __name__ == "__main__":
 
+    # step1 : 获得所有o1mini判断的结果：
+    domain = "bn"
+    gold_bigmodel = read_json(f"llm/correct_data_{domain}_gold.json")
+    pred_bigmodel = read_json(f"llm/correct_data_{domain}_smallmodel.json")
+    eval_data = build_bigmodel_dict_from_eval(gold_bigmodel, pred_bigmodel) # gold+pred
+
+    # eval_data = build_bigmodel_dict_from_eval_single(gold_bigmodel) # 仅gold结果
+    # final_data = read_pickle("annotated_final/final_annotated_all.pkl") # final annotated data bn
+    final_data = read_json(f"analysis/test_bn_500_core_final_v4.json")
+    corrected_data, other_info = build_corrected_data_for_dic(final_data)
+    print(len(eval_data), len(corrected_data))
+    evaluate_model_v2("o1mini", eval_data, corrected_data, other_info) # 这里的gold是不需要减1的
+
+    # # 基于原始gold字段评估
+    # print("\n===== 基于原始gold评估 =====")
+    # temp_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll") 
+    # gold_dict_origin = build_gold_dict_from_eval(temp_data) # 这里的gold是需要减1的
+    
+    # evaluate_model_v3("o1mini in org gold", eval_data, gold_dict_origin)
+
+
+    exit()
     # step1 : 获得所有大模型判断的结果：
     domain = "bn"
     gold_bigmodel = read_json(f"llm/correct_data_{domain}_gold.json")

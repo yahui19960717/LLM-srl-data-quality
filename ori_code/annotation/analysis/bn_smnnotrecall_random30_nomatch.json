@@ -1,0 +1,115 @@
+[
+  {
+    "idx": 7,
+    "sentence": "It how quickly they get handed .",
+    "prd_word": "handed",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": "entity given to",
+    "type": "the label of small model not recall",
+    "optional": false,
+    "timestamp": "2026-03-20T14:06:42.451140",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [],
+    "has_custom": false,
+    "span_idx": [
+      3,
+      4
+    ]
+  },
+  {
+    "idx": 9,
+    "sentence": "It is difficult to say , Arab 's summit have traditionally been exercises in division .",
+    "prd_word": "summit",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "one party",
+    "type": "the label of small model not recall",
+    "optional": false,
+    "timestamp": "2026-03-20T14:07:38.801939",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 6,
+        "end": 6,
+        "text": "Arab",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "has_custom": true,
+    "span_idx": [
+      6,
+      8
+    ]
+  },
+  {
+    "idx": 11,
+    "sentence": "Karl Penhaul is joining us live on the phone with more .",
+    "prd_word": "joining",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span_mean": "secondary predication (with something, like news, for example)",
+    "type": "the label of small model not recall",
+    "optional": false,
+    "timestamp": "2026-03-20T14:10:57.427392",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 5,
+        "end": 5,
+        "text": "live",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "has_custom": true,
+    "span_idx": [
+      9,
+      11
+    ]
+  },
+  {
+    "idx": 24,
+    "sentence": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+    "prd_word": "flowing",
+    "prd_idx": 14,
+    "label": "ARG4",
+    "span_mean": null,
+    "type": "the label of small model not recall",
+    "optional": false,
+    "timestamp": "2026-03-20T14:19:27.159417",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [],
+    "has_custom": false,
+    "span_idx": [
+      14,
+      16
+    ]
+  },
+  {
+    "idx": 27,
+    "sentence": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+    "prd_word": "devastated",
+    "prd_idx": 21,
+    "label": "ARG0",
+    "span_mean": "destroyer",
+    "type": "the label of small model not recall",
+    "optional": false,
+    "timestamp": "2026-03-20T14:21:19.828928",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [],
+    "has_custom": false,
+    "span_idx": [
+      16,
+      19
+    ]
+  }
+]

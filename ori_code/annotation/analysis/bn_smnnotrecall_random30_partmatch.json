@@ -1,0 +1,111 @@
+[
+  {
+    "idx": 2,
+    "sentence": "As much as I 'd love to spend every day after school sucking up to teachers instead of hanging with my friends , I do n't want this job .",
+    "prd_word": "spend",
+    "prd_idx": 8,
+    "label": "ARG2",
+    "span_mean": "activity",
+    "type": "the label of small model not recall",
+    "optional": false,
+    "timestamp": "2026-03-20T14:01:50.318483",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 12,
+        "end": 21,
+        "text": "sucking up to teachers instead of hanging with my friends",
+        "models": [
+          "gold",
+          "semicrf"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 15,
+        "text": "sucking up to teachers",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "has_custom": true,
+    "span_idx": [
+      12,
+      22
+    ]
+  },
+  {
+    "idx": 5,
+    "sentence": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+    "prd_word": "based",
+    "prd_idx": 13,
+    "label": "ARG2",
+    "span_mean": "justification, parts/ arg1 is made up of what?",
+    "type": "the label of small model not recall",
+    "optional": false,
+    "timestamp": "2026-03-20T16:44:13.891209",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 7,
+        "end": 8,
+        "text": "on which",
+        "models": [
+          "gold"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "text": "the trip",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "has_custom": true,
+    "span_idx": [
+      7,
+      9
+    ]
+  },
+  {
+    "idx": 20,
+    "sentence": "The federal government will not appeal the court ruling that cleared the way for same - sex unions .",
+    "prd_word": "cleared",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "thing made clean",
+    "type": "the label of small model not recall",
+    "optional": false,
+    "timestamp": "2026-03-20T14:17:06.216801",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "text": "the way for same - sex unions",
+        "models": [
+          "gold"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "text": "the way",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ],
+    "has_custom": false,
+    "span_idx": [
+      11,
+      13
+    ]
+  }
+]

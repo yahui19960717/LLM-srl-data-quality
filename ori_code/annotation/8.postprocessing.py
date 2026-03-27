@@ -45,8 +45,6 @@ def parse_response(instance, response):
         parse_tag = False
         return response, parse_tag
 
-
-
 def get_results(llmout, incorrect_file, correct_file):
     
     count_incorrect, count_correct = 0, 0 
@@ -85,21 +83,64 @@ def get_results(llmout, incorrect_file, correct_file):
     print(f'correct: {len(correct_data)}, incorrect: {len(incorrect_data)}, all: {len(correct_data)+ len(incorrect_data)}')
 
 if __name__ == "__main__":
-    # gold results
-    domain = "bn"
+    # # gold results
+    # domain = "tc"
+    # path_llmout = f"llm/{domain}/test_{domain}_4llm_all_gold.conll"
+    # path_llmout2 = f"llm/{domain}/test_{domain}_4llm_parseright_gold.conll"
+    # llmout = read_json(path_llmout)
+    # llmout2 = read_json(path_llmout2)
+    # print(len(llmout), len(llmout2))
+    # incorrect_data, correct_data = f"llm/{domain}/incorrect_data_{domain}_gold.json", f"llm/{domain}/correct_data_{domain}_gold.json"
+    # get_results(llmout, incorrect_data, correct_data)
 
+
+
+    # # small model predictions
+    # domain = "tc"
+    # path_llmout = f"llm/{domain}/test_{domain}_4llm_all_smallmodel.conll"
+    # path_llmout2 = f"llm/{domain}/test_{domain}_4llm_parseright_smallmodel.conll"
+    # llmout = read_json(path_llmout)
+    # llmout2 = read_json(path_llmout2)
+    # print(len(llmout), len(llmout2))
+    # incorrect_data, correct_data = f"llm/{domain}/incorrect_data_{domain}_smallmodel.json", f"llm/{domain}/correct_data_{domain}_smallmodel.json"
+    # get_results(llmout, incorrect_data, correct_data)
+
+
+    # small model not recall 
+    domain = "tc"
+    path_llmout = f"llm/{domain}/test_{domain}_4llm_all_smnotrecall.conll"
+    path_llmout2 = f"llm/{domain}/test_{domain}_4llm_parseright_smnotrecall.conll"
+    llmout = read_json(path_llmout)
+    llmout2 = read_json(path_llmout2)
+    print(len(llmout), len(llmout2))
+    incorrect_data, correct_data = f"llm/{domain}/incorrect_data_{domain}_smnotrecall.json", f"llm/{domain}/correct_data_{domain}_smnotrecall.json"
+    get_results(llmout, incorrect_data, correct_data)
+
+
+
+    # exit()
+    # #### bn处理数据
+    # domain = "bn"
+
+    # path_llmout = f"llm/test_{domain}_4llm_notjudged.conll"
+    # path_llmout2 = f"llm/test_{domain}_4llm_parseright_notjudged.conll"
+    # llmout = read_json(path_llmout)
+    # llmout2 = read_json(path_llmout2)
+    # print(len(llmout), len(llmout2))
+    # incorrect_data, correct_data = f"llm/incorrect_data_{domain}_bmnotjudged.json", f"llm/correct_data_{domain}_bmnotjudgedl.json"
+    # get_results(llmout, incorrect_data, correct_data) # 正确247 ,不正确的34
 
 
 
     
-    # 可标可不标注补充
-    path_llmout = f"llm/test_{domain}_4llm_all_smnotrecall.conll"
-    path_llmout2 = f"llm/test_{domain}_4llm_parseright_smnotrecall.conll"
-    llmout = read_json(path_llmout)
-    llmout2 = read_json(path_llmout2)
-    print(len(llmout), len(llmout2))
-    incorrect_data, correct_data = f"llm/incorrect_data_{domain}_smnotrecall.json", f"llm/correct_data_{domain}_smnotrecall.json"
-    get_results(llmout, incorrect_data, correct_data) # 正确247 ,不正确的34
+    # # 可标可不标注补充
+    # path_llmout = f"llm/test_{domain}_4llm_all_smnotrecall.conll"
+    # path_llmout2 = f"llm/test_{domain}_4llm_parseright_smnotrecall.conll"
+    # llmout = read_json(path_llmout)
+    # llmout2 = read_json(path_llmout2)
+    # print(len(llmout), len(llmout2))
+    # incorrect_data, correct_data = f"llm/incorrect_data_{domain}_smnotrecall.json", f"llm/correct_data_{domain}_smnotrecall.json"
+    # get_results(llmout, incorrect_data, correct_data) # 正确247 ,不正确的34
 
     # path_llmout = "llm/test_bn_4llm_all_gold.conll"
     # path_llmout2 = "llm/test_bn_4llm_parseright_gold.conll"

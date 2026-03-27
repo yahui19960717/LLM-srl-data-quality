@@ -95,11 +95,11 @@ def find_role_desc(frames, data, outfile):
     write_json(pred_dict, outfile)
 
 if __name__ == "__main__":
-    domain = "bn"
+    domain = "tc" # or bn
     
     # step1: 读取frames_info_3.4.json和原始gold数据
     frames = read_json("/data/ljwang/span-SRL-LLM/propbank_frames_main/frame_out/frames_info_3.4.json") 
-    original_data = read_json(f"/data/ljwang/span-SRL-LLM/ori_code/annotation/final_data/test_{domain}_4llm_core_gold.conll")
+    original_data = read_json(f"/data/ljwang/span-SRL-LLM/ori_code/annotation/final_data/{domain}/test_{domain}_4llm_core_gold.conll")
     # step2：调用find_role_desc函数，传入frames、original_data、outfile
     outfile = f"llm_result/test_{domain}_4llm_core_gold_role.json"
     find_role_desc(frames, original_data, outfile)

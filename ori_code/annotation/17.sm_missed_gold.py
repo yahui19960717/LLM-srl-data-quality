@@ -27,6 +27,7 @@ def get_missed_gold_args(data, current_gold_data):
         dic_org[key]  = item
         
     for item in current_gold_data:
+        # import pdb;pdb.set_trace()
         if item in dic_org:
             gold = dic_org[item]['gold']
             semicrf = dic_org[item]['semicrf_label']
@@ -122,10 +123,10 @@ def build_annotation_data(results, llm_wrong_data, llmwrong_sm):
 
 
 if __name__=="__main__":
-    domain = "bn"
 
     # step1 ：先找到小模型没有召回的gold的并集
-    org_gold_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll") 
+    domain="bn"
+    org_gold_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll") 
     final_data = read_pickle("annotated_final/final_annotated_all.pkl") # final annotated data bn
     current_gold_data = build_gold_spans_from_dic(final_data)
     result = get_missed_gold_args(org_gold_data, current_gold_data)

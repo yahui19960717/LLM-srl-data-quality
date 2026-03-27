@@ -1,0 +1,91 @@
+{
+  "annotations": [
+    {
+      "idx": 1,
+      "sentence": "-- and she 's telling me about you know her sister 's wedding .",
+      "prd_word": "telling",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "optional": false,
+      "timestamp": "2026-03-25T17:45:33.556488",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 12,
+          "text": "about you know her sister 's wedding",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 7,
+          "end": 12,
+          "text": "you know her sister 's wedding",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 2,
+      "sentence": "and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child .",
+      "prd_word": "acting",
+      "prd_idx": 23,
+      "label": "ARG0",
+      "span_mean": "player",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "optional": false,
+      "timestamp": "2026-03-25T17:45:56.769659",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 19,
+          "text": "she",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 3,
+      "sentence": "and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child .",
+      "prd_word": "acting",
+      "prd_idx": 23,
+      "label": "ARG1",
+      "span_mean": "role, behavior",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "optional": false,
+      "timestamp": "2026-03-25T17:46:11.005554",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 23,
+          "end": 27,
+          "text": "like a total nigger child",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    }
+  ],
+  "last_index": 2
+}

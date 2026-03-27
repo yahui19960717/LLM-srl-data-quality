@@ -1,0 +1,4939 @@
+{
+  "annotations": [
+    {
+      "idx": 1,
+      "sentence": "%uh lay there let me look at my grandmother kind of thing",
+      "prd_word": "lay",
+      "prd_idx": 2,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T12:41:02.492445",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "there",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 2,
+      "sentence": "%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .",
+      "prd_word": "understand",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing understood",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T12:42:20.480972",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 23,
+          "text": "everything that has happened in the last several years yeah . and things like that",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 9,
+          "end": 9,
+          "text": "everything",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 3,
+      "sentence": "%um , and he says he went in and had some tests ,",
+      "prd_word": "had",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": "owner",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T12:42:39.724678",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "he",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 4,
+      "sentence": "%um , and he says he went in and had some tests ,",
+      "prd_word": "had",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "possession",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T12:43:22.722640",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 11,
+          "text": "some tests",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 5,
+      "sentence": "%um , depends on what you guys want to see .",
+      "prd_word": "see",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "thing viewed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T12:43:39.807883",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 4,
+          "text": "what",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 6,
+      "sentence": "%um , they had just moved to He 's in New York now , right ? a really nice house in Westchester .",
+      "prd_word": "moved",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "destination",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T12:47:16.465828",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 11,
+          "text": "to He 's in New York",
+          "models": [
+            "semicrf"
+          ]
+        },
+        {
+          "start": 16,
+          "end": 21,
+          "text": "a really nice house in Westchester",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 7,
+      "sentence": "%um . I do n't see the finances occurring uh-huh , right . for a while .",
+      "prd_word": "see",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "thing viewed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T12:47:45.735610",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "the finances occurring",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 8,
+      "sentence": "%um . I do n't see the finances occurring uh-huh , right . for a while .",
+      "prd_word": "occurring",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "event",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T12:48:00.923711",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "the finances",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 9,
+      "sentence": "%um 118.91_120.82_B: Let 's see ,",
+      "prd_word": "Let",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "action allowed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T12:48:34.244898",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 4,
+          "text": "see",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 10,
+      "sentence": "%um and , %um , I 've been getting substantially more work than then .",
+      "prd_word": "getting",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing gotten",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T13:12:05.921562",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 13,
+          "text": "substantially more work than then",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "%um",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 11,
+      "sentence": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+      "prd_word": "see",
+      "prd_idx": 25,
+      "label": "ARG1",
+      "span_mean": "thing viewed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T13:12:45.880609",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 11,
+          "text": "some things",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 12,
+      "sentence": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+      "prd_word": "talk",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T13:12:57.656138",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 24,
+          "text": "about some things that maybe we think that it would be neat for you to see",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 13,
+      "sentence": "%um and I keep thinking maybe I 'd get in touch",
+      "prd_word": "get",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T13:13:48.937562",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 14,
+      "sentence": "%um and I keep thinking maybe I 'd get in touch",
+      "prd_word": "get",
+      "prd_idx": 9,
+      "label": "ARG2",
+      "span_mean": "attribute of arg1 (not a VP node)",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T13:13:52.774201",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 10,
+          "text": "in touch",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 15,
+      "sentence": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+      "prd_word": "have",
+      "prd_idx": 25,
+      "label": "ARG0",
+      "span_mean": "causer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T14:49:56.719670",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 19,
+          "text": "he",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 16,
+      "sentence": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+      "prd_word": "have",
+      "prd_idx": 25,
+      "label": "ARG1",
+      "span_mean": "action",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T14:50:34.895247",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 25,
+          "end": 35,
+          "text": "to sheik pray over her , you know for the jen",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 25,
+          "end": 29,
+          "text": "to sheik pray over her",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 17,
+      "sentence": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+      "prd_word": "pray",
+      "prd_idx": 28,
+      "label": "ARG0",
+      "span_mean": "pray-er",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T14:50:47.228907",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 19,
+          "text": "he",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 18,
+      "sentence": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+      "prd_word": "pray",
+      "prd_idx": 28,
+      "label": "ARG1",
+      "span_mean": "prayer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T14:51:03.665619",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 28,
+          "end": 29,
+          "text": "over her",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 19,
+      "sentence": "%um she caught ,",
+      "prd_word": "caught",
+      "prd_idx": 3,
+      "label": "ARG0",
+      "span_mean": "receiver",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T14:51:17.433591",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "she",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 20,
+      "sentence": "-- and she 's telling me about you know her sister 's wedding .",
+      "prd_word": "know",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": "knower",
+      "type": "gold_right, o1mini_wrong",
+      "optional": true,
+      "timestamp": "2026-03-23T14:51:28.675619",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "you",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 21,
+      "sentence": "Adele was carrying on that she thought she was at a funeral",
+      "prd_word": "carrying",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T14:52:41.741964",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 11,
+          "text": "that she thought she was at a funeral",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 22,
+      "sentence": "Alita I 'm telling you nobody can handle her but you , okay .",
+      "prd_word": "handle",
+      "prd_idx": 8,
+      "label": "ARG0",
+      "span_mean": "handler",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T14:52:54.257220",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "nobody",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 23,
+      "sentence": "And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier ,",
+      "prd_word": "went",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "entity in motion/goer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": true,
+      "timestamp": "2026-03-23T15:35:48.192484",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": "monetary value",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 24,
+      "sentence": "And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier ,",
+      "prd_word": "stole",
+      "prd_idx": 17,
+      "label": "ARG1",
+      "span_mean": "thing stolen",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:36:26.929099",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "the most worthwhile thing",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 25,
+      "sentence": "And I 'm actually waiting for Claudia to show up because we were supposed to go into town and meet some people in town .",
+      "prd_word": "show",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:40:06.809541",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "Claudia",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 26,
+      "sentence": "And I do n't know how much you know about scientific literature ,",
+      "prd_word": "know",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:42:15.583634",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "how much",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 9,
+          "end": 11,
+          "text": "about scientific literature",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 27,
+      "sentence": "And I got a card from ,",
+      "prd_word": "got",
+      "prd_idx": 3,
+      "label": "ARG2",
+      "span_mean": "giver",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:42:28.203846",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 28,
+      "sentence": "And I was having a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven .",
+      "prd_word": "driven",
+      "prd_idx": 29,
+      "label": "ARG1",
+      "span_mean": "thing in motion",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:43:22.977734",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 19,
+          "text": "this frequency",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 29,
+      "sentence": "And I was having a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven .",
+      "prd_word": "having",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "possession",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:44:12.575086",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 28,
+          "text": "a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 7,
+          "text": "a lot of trouble",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 30,
+      "sentence": "And I was having a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven .",
+      "prd_word": "getting",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing in motion",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:45:55.611208",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 28,
+          "text": "that all of the literature has this frequency in the transients Yes . %eh and not driven",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 31,
+      "sentence": "And I was like , well I 've been telling you that Neil .",
+      "prd_word": "telling",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:46:28.288348",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 11,
+          "text": "that",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 11,
+          "end": 12,
+          "text": "that Neil",
+          "models": [
+            "semicrf"
+          ]
+        },
+        {
+          "start": 12,
+          "end": 12,
+          "text": "Neil",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 32,
+      "sentence": "And in it I put , %um paint samples from Sherwin Williams uh-huh . of all the different like shades of what color I thought you might be thinking of for the bride 's maids .",
+      "prd_word": "thought",
+      "prd_idx": 25,
+      "label": "ARG1",
+      "span_mean": "Thought",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:47:13.666323",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 25,
+          "end": 34,
+          "text": "you might be thinking of for the bride 's maids",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 33,
+      "sentence": "And in it I put , %um paint samples from Sherwin Williams uh-huh . of all the different like shades of what color I thought you might be thinking of for the bride 's maids .",
+      "prd_word": "thinking",
+      "prd_idx": 29,
+      "label": "ARG2",
+      "span_mean": "Attributive (please look at the examples-- this is tricky)",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:47:24.724816",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 34,
+      "sentence": "And in it I put , %um paint samples from Sherwin Williams uh-huh . of all the different like shades of what color I thought you might be thinking of for the bride 's maids .",
+      "prd_word": "put",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "thing put",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:48:58.738450",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 11,
+          "text": "paint samples from Sherwin Williams",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 35,
+      "sentence": "And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .",
+      "prd_word": "call",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "item being labelled",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:51:03.855636",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 10,
+          "text": "what",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 36,
+      "sentence": "And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .",
+      "prd_word": "call",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "name itself, attribute of arg1",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:51:56.356396",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 18,
+          "text": "anti phased , %uh , states",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 37,
+      "sentence": "And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .",
+      "prd_word": "look",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": "thing looked at or for or on",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:52:29.538816",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 32,
+          "text": "at the total intensity uh-huh . of the laser",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 38,
+      "sentence": "And she 's just not going to have the same kind of career that she had thought about .",
+      "prd_word": "thought",
+      "prd_idx": 17,
+      "label": "ARG2",
+      "span_mean": "Attributive (please look at the examples-- this is tricky)",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:53:24.074756",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 39,
+      "sentence": "And so %uh , that 's yeah at least dealt with .",
+      "prd_word": "dealt",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "co-dealer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:53:47.715258",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 40,
+      "sentence": "And so , I then had to go bike hunting and eventually get another bike ,",
+      "prd_word": "go",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "journey",
+      "type": "gold_right, o1mini_wrong",
+      "optional": true,
+      "timestamp": "2026-03-23T15:54:04.672265",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "bike hunting",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 41,
+      "sentence": "And so the problem is that now they found out that it 's worth breaking into .",
+      "prd_word": "breaking",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "place/domain broken into",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:54:21.057386",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 42,
+      "sentence": "And then they operated on",
+      "prd_word": "operated",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:54:43.430184",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 43,
+      "sentence": "And there were having a sale on the wine dad wanted .",
+      "prd_word": "having",
+      "prd_idx": 4,
+      "label": "ARG0",
+      "span_mean": "owner",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:56:37.383250",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 44,
+      "sentence": "And this made writing my thesis very annoying because you know there was n't much discussion .",
+      "prd_word": "made",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "impelled action/ predication",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T15:59:31.083976",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "writing my thesis very annoying",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 45,
+      "sentence": "At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer .",
+      "prd_word": "make",
+      "prd_idx": 6,
+      "label": "ARG0",
+      "span_mean": "creator",
+      "type": "gold_right, o1mini_wrong",
+      "optional": true,
+      "timestamp": "2026-03-23T16:01:35.915216",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "that",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 46,
+      "sentence": "But , that 's dealt with at least .",
+      "prd_word": "dealt",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "co-dealer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:01:44.168055",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 47,
+      "sentence": "But I 'm sure for people who go in the daytime it 's probably dead . yeah . You know",
+      "prd_word": "go",
+      "prd_idx": 8,
+      "label": "ARG0",
+      "span_mean": "goer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:02:03.900124",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "people",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 48,
+      "sentence": "But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,",
+      "prd_word": "come",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:07:39.985994",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 20,
+          "end": 20,
+          "text": "she",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 49,
+      "sentence": "But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,",
+      "prd_word": "come",
+      "prd_idx": 24,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:07:48.162709",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 27,
+          "text": "to terms with this",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 50,
+      "sentence": "But that 's what she had wrote me .",
+      "prd_word": "wrote",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "thing written",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:09:22.314534",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "what",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 51,
+      "sentence": "But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .",
+      "prd_word": "seeing",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "thing viewed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:09:56.552116",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "Shape Headquarters",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 52,
+      "sentence": "But we got to see Den Haag and places like that too which we 're obviously not going to see this time .",
+      "prd_word": "see",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "thing viewed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:10:22.790594",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 11,
+          "text": "Den Haag and places like that too",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 53,
+      "sentence": "Climbs down the stairs",
+      "prd_word": "Climbs",
+      "prd_idx": 1,
+      "label": "ARG1",
+      "span_mean": "thing climbed (clomb?)",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:10:52.189517",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 3,
+          "text": "down the stairs",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "text": "the stairs",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 54,
+      "sentence": "Could you call Kate and tell her that ?",
+      "prd_word": "tell",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:11:06.255126",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "that",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 55,
+      "sentence": "Did she say how she felt about what had happened ?",
+      "prd_word": "felt",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "emotion or sensation",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:11:24.136232",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "how",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 56,
+      "sentence": "Did she say how she felt about what had happened ?",
+      "prd_word": "felt",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "entity towards or for whom the emotion is directed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:11:34.447135",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "about what had happened",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 57,
+      "sentence": "Did you have off yesterday ?",
+      "prd_word": "have",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "possession",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:11:42.257738",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "off",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 58,
+      "sentence": "For a woman who is lifting not that much I do n't think yeah . You would .",
+      "prd_word": "lifting",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "Logical subject, patient, thing rising",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:12:10.370485",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 59,
+      "sentence": "Got to get that up to five .",
+      "prd_word": "get",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "a clause -- action done or descriptive small clause",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:13:11.837977",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "that up to five .",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 60,
+      "sentence": "He could n't learn the whole new area %mm . that fast each time .",
+      "prd_word": "learn",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:13:27.417234",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "the whole new area",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 61,
+      "sentence": "He eats at least like four of cereal a day like in addition to like meals .",
+      "prd_word": "eats",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "meal",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:14:52.965703",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 15,
+          "text": "at least like four of cereal a day like in addition to like meals",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "text": "four of cereal",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 62,
+      "sentence": "How am I supposed to understand it ?",
+      "prd_word": "supposed",
+      "prd_idx": 4,
+      "label": "ARG2",
+      "span_mean": "attribute",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:18:43.516126",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "to understand it",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 63,
+      "sentence": "I 'll tell dad that you still think about the",
+      "prd_word": "think",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "Attributive (please look at the examples-- this is tricky)",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:20:58.892314",
+      "grammar_status": "有语法错误",
+      "grammar_error_desc": "不完整",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 64,
+      "sentence": "I 'm looking at , %um , multi mode lasers .",
+      "prd_word": "looking",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "thing looked at or for or on",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:25:23.652083",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 9,
+          "text": "at , %um , multi mode lasers",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 7,
+          "end": 9,
+          "text": "multi mode lasers",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 65,
+      "sentence": "I 'm looking forward to that cause %uh",
+      "prd_word": "looking",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:32:55.241379",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "to that",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 66,
+      "sentence": "I 'm really looking forward to moving to Oregon and dealing with ,",
+      "prd_word": "dealing",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "co-dealer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:33:13.864159",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 67,
+      "sentence": "I 'm really looking forward to moving to Oregon and dealing with ,",
+      "prd_word": "looking",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:33:37.421652",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 8,
+          "text": "to moving to Oregon",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 68,
+      "sentence": "I 've got to",
+      "prd_word": "got",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "Complement",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:34:02.660873",
+      "grammar_status": "有语法错误",
+      "grammar_error_desc": "句子不完整\n",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 69,
+      "sentence": "I ca n't say too bad things about the military though .",
+      "prd_word": "say",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:35:32.615401",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 6,
+          "text": "too bad things",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 70,
+      "sentence": "I ca n't say too bad things about the military though .",
+      "prd_word": "say",
+      "prd_idx": 4,
+      "label": "ARG3",
+      "span_mean": "Attributive",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:35:41.461251",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "about the military",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 71,
+      "sentence": "I do n't know if you spoke to me before that or when it was that was happening . Or",
+      "prd_word": "know",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:36:06.181519",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 17,
+          "text": "if you spoke to me before that or when it was that was happening",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 72,
+      "sentence": "I had to file Georgia , Kansas yeah and then my federal .",
+      "prd_word": "file",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "file",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:36:33.399415",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 11,
+          "text": "Georgia , Kansas yeah and then my federal",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 73,
+      "sentence": "I had to file three taxes .",
+      "prd_word": "file",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "file",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:36:53.782437",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "three taxes",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "text": "taxes",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 74,
+      "sentence": "I kind of want to",
+      "prd_word": "want",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "thing wanted",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:38:25.599707",
+      "grammar_status": "有语法错误",
+      "grammar_error_desc": "句子不完整",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 75,
+      "sentence": "I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+      "prd_word": "based",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "decision, whole",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:45:22.046904",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 10,
+          "text": "articles",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 76,
+      "sentence": "I mean the only thing is %um just getting your heart rate up for extended periods of time .",
+      "prd_word": "getting",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "a clause -- action done or descriptive small clause",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:46:03.650464",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 12,
+          "text": "your heart rate up",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 77,
+      "sentence": "I mean things have been happening that has just scared the heck out of me .",
+      "prd_word": "scared",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "scared entity",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:47:03.867085",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 14,
+          "text": "out of me",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 14,
+          "end": 14,
+          "text": "me",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 78,
+      "sentence": "I mean you lay her down on the bed",
+      "prd_word": "lay",
+      "prd_idx": 4,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:47:28.984748",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "on the bed",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 79,
+      "sentence": "I remember So you talking a little bit about it at one point .",
+      "prd_word": "talking",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:47:46.510916",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "about it",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 80,
+      "sentence": "I remember when I talked to you in the fall yeah . yeah . that %uh",
+      "prd_word": "remember",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "memory",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:48:13.372018",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 15,
+          "text": "when I talked to you in the fall yeah . yeah . that %uh",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 10,
+          "text": "when I talked to you in the fall yeah",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 81,
+      "sentence": "I said I feel like I know you even though I never met you .",
+      "prd_word": "said",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:48:27.079881",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 13,
+          "text": "I feel like I know you even though I never met you",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 82,
+      "sentence": "I said I feel like I know you even though I never met you .",
+      "prd_word": "know",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:48:34.237794",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "you",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 83,
+      "sentence": "I said to Mark oh my god . What 's she going to say",
+      "prd_word": "say",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:48:49.738324",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "What",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 84,
+      "sentence": "I think I had mentioned before %uh , that there 's a company now that I 'm working with %um , %uh , which is very much just myself and Guss .",
+      "prd_word": "working",
+      "prd_idx": 18,
+      "label": "ARG3",
+      "span_mean": "coworker",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:49:27.764443",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": "a company",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 85,
+      "sentence": "I think Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters .",
+      "prd_word": "shooting",
+      "prd_idx": 12,
+      "label": "ARG2",
+      "span_mean": "target",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:50:15.481984",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "Optics Letters",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 86,
+      "sentence": "I told you this .",
+      "prd_word": "told",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:50:21.317061",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "this",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 87,
+      "sentence": "Is it paid today ?",
+      "prd_word": "paid",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "money or attention",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:50:45.166115",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 88,
+      "sentence": "It 's crazy how much he eats .",
+      "prd_word": "eats",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "meal",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:50:55.051246",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 89,
+      "sentence": "It 's just But %um %uh , %uh , the main reason for that is I had not really anticipated a few expenses that recently came up %ah . %uh , related to a couple of burglaries that I had .",
+      "prd_word": "came",
+      "prd_idx": 26,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:59:16.311305",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 20,
+          "end": 22,
+          "text": "a few expenses",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 90,
+      "sentence": "It 's just But %um %uh , %uh , the main reason for that is I had not really anticipated a few expenses that recently came up %ah . %uh , related to a couple of burglaries that I had .",
+      "prd_word": "had",
+      "prd_idx": 40,
+      "label": "ARG1",
+      "span_mean": "possession",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T16:59:33.830113",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 36,
+          "end": 36,
+          "text": "burglaries",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 33,
+          "end": 36,
+          "text": "a couple of burglaries",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 91,
+      "sentence": "My daughter - in - law Barbara got on her case real serious yesterday .",
+      "prd_word": "got",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "thing",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:00:52.812897",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 6,
+          "text": "My daughter - in - law Barbara",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 92,
+      "sentence": "My daughter - in - law Barbara got on her case real serious yesterday .",
+      "prd_word": "got",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "attribute of arg1 (not a VP node)",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:01:31.202390",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": "real serious",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 93,
+      "sentence": "Not enough relatives left here anymore ?",
+      "prd_word": "left",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:05:24.454437",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Not enough relatives",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 2,
+          "text": "relatives",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 94,
+      "sentence": "Now , daddy got %um the invitations together for you today .",
+      "prd_word": "got",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "a clause -- action done or descriptive small clause",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:06:33.902303",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "the invitations",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 95,
+      "sentence": "Ron is working as a financial consultant for , %um , Meryl Lynch .",
+      "prd_word": "working",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "job, project",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:06:50.913713",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "as a financial consultant",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 96,
+      "sentence": "See I think y- , %um ,",
+      "prd_word": "think",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "Thought",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:07:08.583468",
+      "grammar_status": "有语法错误",
+      "grammar_error_desc": "句子不完整",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 97,
+      "sentence": "She 's coming back tonight .",
+      "prd_word": "coming",
+      "prd_idx": 3,
+      "label": "ARG3",
+      "span_mean": "start point",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:07:59.414419",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 98,
+      "sentence": "She 's trying to become a counselor in this drug program , and things",
+      "prd_word": "trying",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "thing tried",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:08:17.521732",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 10,
+          "text": "to become a counselor in this drug program",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 99,
+      "sentence": "She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .",
+      "prd_word": "do",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "thing done",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:09:15.045575",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "things",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 100,
+      "sentence": "She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .",
+      "prd_word": "feel",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": "emotion or sensation",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:09:39.684741",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 25,
+          "text": "competent doing",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 101,
+      "sentence": "She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .",
+      "prd_word": "had",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "action",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:10:42.109563",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 16,
+          "text": "her doing things that she really was n't qualified to do %ah .",
+          "models": [
+            "semicrf"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "text": "doing things",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 14,
+          "text": "her doing things that she really was n't qualified to do",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 102,
+      "sentence": "She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,",
+      "prd_word": "needing",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "thing needed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:11:08.299074",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 26,
+          "text": "a lot of love , a lot of %um help and different things like this",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 103,
+      "sentence": "She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,",
+      "prd_word": "wrote",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "thing written",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:11:18.333869",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "a letter",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 104,
+      "sentence": "So , %um , I found a simple modification of the original formula , which unfortunately makes the solutions horrendously nasty . And in most cases , %uh , insoluble .",
+      "prd_word": "makes",
+      "prd_idx": 17,
+      "label": "ARG1",
+      "span_mean": "impelled action/ predication",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:12:04.062443",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 20,
+          "text": "the solutions horrendously nasty",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 105,
+      "sentence": "So , %um , I found a simple modification of the original formula , which unfortunately makes the solutions horrendously nasty . And in most cases , %uh , insoluble .",
+      "prd_word": "found",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "thing found",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:12:40.725807",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 12,
+          "text": "a simple modification of the original formula",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 106,
+      "sentence": "So , I had one client who said that he 'd pay me a minimum amount .",
+      "prd_word": "said",
+      "prd_idx": 8,
+      "label": "ARG0",
+      "span_mean": "Sayer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:14:18.402680",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "one client",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 107,
+      "sentence": "So Cool . Cool . that 's mostly the sort of stuff that I 'm spending a lot of time on now . %um",
+      "prd_word": "spending",
+      "prd_idx": 16,
+      "label": "ARG2",
+      "span_mean": "activity",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:17:08.132827",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 11,
+          "text": "the sort of stuff",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 108,
+      "sentence": "So complicated when you 're dealing with a Dutch tax form .",
+      "prd_word": "dealing",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "co-dealer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:19:22.766797",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 109,
+      "sentence": "So let 's see .",
+      "prd_word": "let",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "action allowed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:19:38.406155",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "see",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 110,
+      "sentence": "So they had to take it down and drive her home .",
+      "prd_word": "drive",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "vehicle or path",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:29:40.214874",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 111,
+      "sentence": "So we 're looking forward to that .",
+      "prd_word": "looking",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:29:50.102275",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "to that",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 112,
+      "sentence": "So what 's happening is that the modes are oscillating out of phase so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies .",
+      "prd_word": "mask",
+      "prd_idx": 18,
+      "label": "ARG1",
+      "span_mean": "thing covered",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:31:05.220131",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 29,
+          "text": "each other 's Exactly . %hm . oscillations on these other frequencies",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 113,
+      "sentence": "Some amount that has to be deducted a certain amount",
+      "prd_word": "deducted",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "thing being subtracted",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:31:38.390825",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "Some amount",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 114,
+      "sentence": "Somehow I had this feeling that the military taste had been beaten out of you .",
+      "prd_word": "beaten",
+      "prd_idx": 12,
+      "label": "ARG2",
+      "span_mean": "direction, destination",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:32:02.636906",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 115,
+      "sentence": "Somehow it raises a small amount .",
+      "prd_word": "raises",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "Logical subject, patient, thing rising",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:32:51.589170",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "a small amount",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 116,
+      "sentence": "That same thing happened to Aliah .",
+      "prd_word": "happened",
+      "prd_idx": 4,
+      "label": "ARG2",
+      "span_mean": "benefactive",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:32:59.602667",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "to Aliah",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 117,
+      "sentence": "There 's a pretty good sale . %mm . So now we have to keep our eyes open for a champagne sale .",
+      "prd_word": "keep",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "continued entity",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:33:50.525760",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 16,
+          "text": "our eyes",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 118,
+      "sentence": "They 're the ones who can eat all day .",
+      "prd_word": "eat",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "consumer, eater",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:34:14.926089",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 119,
+      "sentence": "They 're winding down .",
+      "prd_word": "winding",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:35:48.293736",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 120,
+      "sentence": "They learned an amazing amount of German .",
+      "prd_word": "learned",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:36:01.607865",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "an amazing amount of German",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 121,
+      "sentence": "They seemed surprised that ,",
+      "prd_word": "seemed",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "thing seeming",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:36:49.907443",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 122,
+      "sentence": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+      "prd_word": "Told",
+      "prd_idx": 1,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:37:42.799140",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 11,
+          "text": "that she could n't talk to Jasmine play with Jasmine",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 3,
+          "end": 11,
+          "text": "she could n't talk to Jasmine play with Jasmine",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 123,
+      "sentence": "Well , how does Akina feel ?",
+      "prd_word": "feel",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "emotion or sensation",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:37:49.928825",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "how",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 124,
+      "sentence": "Well I mean he does work his ass off",
+      "prd_word": "work",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "thing manipulated",
+      "type": "gold_right, o1mini_wrong",
+      "optional": true,
+      "timestamp": "2026-03-23T17:38:55.166912",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "his ass",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 125,
+      "sentence": "Well I mean he does work his ass off",
+      "prd_word": "work",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "destination, end state",
+      "type": "gold_right, o1mini_wrong",
+      "optional": true,
+      "timestamp": "2026-03-23T17:39:38.338853",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "off",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 126,
+      "sentence": "Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,",
+      "prd_word": "let",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": "action allowed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:39:52.783518",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 28,
+          "text": "me know where you are",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 127,
+      "sentence": "Well it 'll look good on your C V , your resume .",
+      "prd_word": "look",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "thing looked at or for or on",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T17:40:16.481821",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "it",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 128,
+      "sentence": "Well it 's good to hear from Francis who 's had a lot of child-",
+      "prd_word": "had",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "entity birthed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:30:50.558692",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 14,
+          "text": "a lot of child-",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 129,
+      "sentence": "Well you know or luck making a way and making it at ease for you to",
+      "prd_word": "making",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "impelled action/ predication",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:31:05.710365",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 12,
+          "text": "it at ease",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 130,
+      "sentence": "Well you know or luck making a way and making it at ease for you to",
+      "prd_word": "making",
+      "prd_idx": 6,
+      "label": "ARG0",
+      "span_mean": "creator",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:48:43.011199",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 4,
+          "text": "luck",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 131,
+      "sentence": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+      "prd_word": "gotten",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "thing in motion",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:48:47.277349",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "he",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 132,
+      "sentence": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+      "prd_word": "got",
+      "prd_idx": 16,
+      "label": "ARG2",
+      "span_mean": "giver",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:49:35.610976",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 19,
+          "text": "at Tufts",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 133,
+      "sentence": "You do burn a lot of calories an hour though , lifting weights .",
+      "prd_word": "burn",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "thing burning",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:50:03.416642",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 6,
+          "text": "a lot of calories",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 134,
+      "sentence": "actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .",
+      "prd_word": "doing",
+      "prd_idx": 16,
+      "label": "ARG1",
+      "span_mean": "thing done",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:50:14.528581",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 12,
+          "text": "what",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 135,
+      "sentence": "actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .",
+      "prd_word": "turns",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:51:20.865540",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 30,
+          "text": "to be very important in the end",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 136,
+      "sentence": "actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .",
+      "prd_word": "reading",
+      "prd_idx": 40,
+      "label": "ARG3",
+      "span_mean": "text, content",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:51:33.993829",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 35,
+          "end": 35,
+          "text": "what",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 137,
+      "sentence": "actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .",
+      "prd_word": "reading",
+      "prd_idx": 40,
+      "label": "ARG1",
+      "span_mean": "thing read (book)",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:51:43.961826",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 40,
+          "end": 42,
+          "text": "in the literature",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 138,
+      "sentence": "and %um it 's just been quite interesting although when she was in Rhode Island she was very disruptive , %um down there and really caused Francis a lot of stress",
+      "prd_word": "caused",
+      "prd_idx": 26,
+      "label": "ARG1",
+      "span_mean": "impelled action",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:52:56.649860",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 26,
+          "end": 30,
+          "text": "Francis a lot of stress",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 139,
+      "sentence": "and Adele still talks about the black dress .",
+      "prd_word": "talks",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:53:07.443357",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "about the black dress",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 140,
+      "sentence": "and I 'm actually presently working on , %um , several , %uh , articles oh , okay . Impressive . from it .",
+      "prd_word": "working",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "job, project",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:53:38.781036",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 14,
+          "text": "several , %uh , articles",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 141,
+      "sentence": "and I kind of hinted to her that really the only way to lose weight is cardio vascular . mhm . It 's true . And that lifting the weights wo n't lose weight .",
+      "prd_word": "lose",
+      "prd_idx": 33,
+      "label": "ARG0",
+      "span_mean": "entity losing something",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:54:22.469356",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "her",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 142,
+      "sentence": "and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .",
+      "prd_word": "dealing",
+      "prd_idx": 17,
+      "label": "ARG1",
+      "span_mean": "co-dealer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:55:53.833697",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 143,
+      "sentence": "and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .",
+      "prd_word": "dealing",
+      "prd_idx": 29,
+      "label": "ARG1",
+      "span_mean": "co-dealer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:56:00.442241",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 144,
+      "sentence": "and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .",
+      "prd_word": "spending",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "activity",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:56:10.848060",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "on it",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 145,
+      "sentence": "and all of a sudden she 's getting conference papers rejected",
+      "prd_word": "getting",
+      "prd_idx": 8,
+      "label": "ARG0",
+      "span_mean": "receiver",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:56:28.474012",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "she",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 146,
+      "sentence": "and all of a sudden she 's getting conference papers rejected",
+      "prd_word": "getting",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "thing gotten",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:56:34.763182",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "conference papers rejected",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 147,
+      "sentence": "and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .",
+      "prd_word": "standing",
+      "prd_idx": 11,
+      "label": "ARG0",
+      "span_mean": "causal agent",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:56:53.143014",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "you",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 148,
+      "sentence": "and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .",
+      "prd_word": "means",
+      "prd_idx": 8,
+      "label": "ARG0",
+      "span_mean": "agent",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:57:24.935750",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 6,
+          "text": "lifting weights at Bally 's",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 149,
+      "sentence": "and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump",
+      "prd_word": "look",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "thing looked at or for or on",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:57:43.253050",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "it",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 150,
+      "sentence": "and mhm %um you know . It feels like maybe she made a compromise",
+      "prd_word": "feels",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "stimulus",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:58:23.606720",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 13,
+          "text": "like maybe she made a compromise",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 151,
+      "sentence": "and she got mad .",
+      "prd_word": "got",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "thing",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:58:36.935911",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "mad",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 152,
+      "sentence": "and she had to keep reminding herself .",
+      "prd_word": "reminding",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "thing reminded about",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:58:47.608318",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 153,
+      "sentence": "and so Neil then -- Said oh just a second I -- like a week later came to Bryn Mawr",
+      "prd_word": "came",
+      "prd_idx": 17,
+      "label": "ARG1",
+      "span_mean": "entity in motion / 'comer'",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T18:59:21.333162",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "Neil",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 10,
+          "end": 10,
+          "text": "I",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 154,
+      "sentence": "and that did n't work out .",
+      "prd_word": "work",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:07:29.711772",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "that",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 155,
+      "sentence": "and we 're going to go see her next Thursday and talk about her making my wedding dress .",
+      "prd_word": "talk",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:07:36.798567",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 17,
+          "text": "about her making my wedding dress",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 156,
+      "sentence": "and we can like do a quick dinner or something yeah and go see whatever you want to see ,",
+      "prd_word": "see",
+      "prd_idx": 19,
+      "label": "ARG1",
+      "span_mean": "thing viewed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:07:45.878946",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 14,
+          "text": "whatever",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 157,
+      "sentence": "and we go through a box of cereal every two days .",
+      "prd_word": "go",
+      "prd_idx": 3,
+      "label": "ARG2",
+      "span_mean": "direction, usually a particle",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:09:38.923546",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 7,
+          "text": "through a box of cereal",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 158,
+      "sentence": "and you tell her .",
+      "prd_word": "tell",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:09:44.546349",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 159,
+      "sentence": "apparently like at Lisa Manachi 's wedding like the whole night people were talking about how bad the black dresses were .",
+      "prd_word": "talking",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:09:51.145247",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 20,
+          "text": "about how bad the black dresses were",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 160,
+      "sentence": "as soon as you get into Holland and get yourself settled you can call me",
+      "prd_word": "get",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:10:08.588944",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 10,
+          "text": "yourself settled",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 161,
+      "sentence": "because I knew what she would do if I took her somewhere you know what she would say",
+      "prd_word": "say",
+      "prd_idx": 18,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:10:19.264981",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 14,
+          "text": "what",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 162,
+      "sentence": "because I knew what she would do if I took her somewhere you know what she would say",
+      "prd_word": "do",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "thing done",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:10:30.841485",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "what",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 163,
+      "sentence": "bring me back active duty and pay me for the day if they 're going to drag me off somewhere .",
+      "prd_word": "drag",
+      "prd_idx": 17,
+      "label": "ARG2",
+      "span_mean": "direction",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:12:42.174625",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 19,
+          "text": "somewhere",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 164,
+      "sentence": "but I 'm planning on making a trip down to visit her .",
+      "prd_word": "making",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "goal",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:13:41.350118",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "a trip down",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 165,
+      "sentence": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+      "prd_word": "reserved",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "benefactive",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:14:48.280399",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 13,
+          "text": "us",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 166,
+      "sentence": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+      "prd_word": "reserved",
+      "prd_idx": 13,
+      "label": "ARG3",
+      "span_mean": "secondary attribute of arg1",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:15:28.175265",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 29,
+          "text": "of that %um , you know that she may end up going %um to %uh t-",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 167,
+      "sentence": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+      "prd_word": "end",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:16:10.578300",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 21,
+          "end": 21,
+          "text": "she",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 168,
+      "sentence": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+      "prd_word": "end",
+      "prd_idx": 24,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:16:46.880459",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 25,
+          "end": 29,
+          "text": "going %um to %uh t-",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 169,
+      "sentence": "but it has to be debited from a bank account so it 's got to be debited from his .",
+      "prd_word": "got",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "Complement",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:17:46.562819",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 18,
+          "text": "to be debited from his",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 170,
+      "sentence": "but that 's what he said .",
+      "prd_word": "said",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:17:55.810713",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "what",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 171,
+      "sentence": "but they 're winding down , so you know them really well by this point .",
+      "prd_word": "know",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:18:13.628804",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 9,
+          "text": "them",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 172,
+      "sentence": "but yeah if you just separate normally and you have n't served at least eight years , then you owe it .",
+      "prd_word": "separate",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "thing being divided",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:18:26.480435",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "you",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 173,
+      "sentence": "have to deal with the situation .",
+      "prd_word": "deal",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "co-dealer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:18:32.862485",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 174,
+      "sentence": "if this does happen and I do believe it may happen , %um you know we will have an agreement , she and I , you know ,",
+      "prd_word": "believe",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "believed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:19:38.829093",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "it may happen",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 175,
+      "sentence": "if you separate out the different modes of the laser mhm . and look at one of those , you get more than one frequency .",
+      "prd_word": "look",
+      "prd_idx": 14,
+      "label": "ARG0",
+      "span_mean": "looker",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:20:02.361019",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "you",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 176,
+      "sentence": "it has an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless .",
+      "prd_word": "makes",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "impelled action/ predication",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:20:14.094704",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 21,
+          "text": "the thing that they **stoled** absolutely worthless",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 177,
+      "sentence": "it has an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless .",
+      "prd_word": "**stoled**",
+      "prd_idx": 20,
+      "label": "ARG1",
+      "span_mean": "thing stolen",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:20:24.632867",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 16,
+          "text": "the thing",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 178,
+      "sentence": "it was just that no one really knew it was worth breaking into .",
+      "prd_word": "breaking",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "place/domain broken into",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:20:34.544812",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 179,
+      "sentence": "let 's see she bought ,",
+      "prd_word": "let",
+      "prd_idx": 1,
+      "label": "ARG1",
+      "span_mean": "action allowed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:20:54.385959",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "see",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 180,
+      "sentence": "let 's see she bought ,",
+      "prd_word": "see",
+      "prd_idx": 3,
+      "label": "ARG0",
+      "span_mean": "you",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:21:02.545608",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 181,
+      "sentence": "oh . How 's he doing ?",
+      "prd_word": "doing",
+      "prd_idx": 6,
+      "label": "ARG0",
+      "span_mean": "agent, doer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:21:07.861657",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 4,
+          "text": "he",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 182,
+      "sentence": "she did some %eh ,",
+      "prd_word": "did",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "thing done",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:21:21.213978",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "some %eh",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 183,
+      "sentence": "so I decided that it would make sense to do this .",
+      "prd_word": "make",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "creator",
+      "type": "gold_right, o1mini_wrong",
+      "optional": true,
+      "timestamp": "2026-03-23T19:22:25.799037",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 4,
+          "text": "it",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 184,
+      "sentence": "so are you going to get an article in Nature or something ?",
+      "prd_word": "get",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "a clause -- action done or descriptive small clause",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:22:37.265976",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "an article",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 11,
+          "text": "an article in Nature or something",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 185,
+      "sentence": "so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science .",
+      "prd_word": "pushing",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "thing pushed",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:23:11.263044",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "the bounds of theoretical laser",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 186,
+      "sentence": "they learned a lot of German .",
+      "prd_word": "learned",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:23:16.831776",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 5,
+          "text": "a lot of German",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 187,
+      "sentence": "things have come to a point where I may have to relinquish my , %uh parenting .",
+      "prd_word": "come",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "object",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:23:39.226967",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "things",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 188,
+      "sentence": "things have come to a point where I may have to relinquish my , %uh parenting .",
+      "prd_word": "come",
+      "prd_idx": 3,
+      "label": "ARG2",
+      "span_mean": "attribute on arg1",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:24:03.512046",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 15,
+          "text": "to a point where I may have to relinquish my , %uh parenting",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 3,
+          "end": 5,
+          "text": "to a point",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 189,
+      "sentence": "this place is incredibly easy to break into if you want to .",
+      "prd_word": "want",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "thing wanted",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:24:30.156157",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "break into",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 190,
+      "sentence": "this place is incredibly easy to break into if you want to .",
+      "prd_word": "break",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "place/domain broken into",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:24:38.586142",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "this place",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 191,
+      "sentence": "we 're going to be in need of some sort of accountant do it cause I have no clue how that all works .",
+      "prd_word": "do",
+      "prd_idx": 13,
+      "label": "ARG0",
+      "span_mean": "agent, doer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:24:58.976934",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 11,
+          "text": "accountant",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "text": "some sort of accountant",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 192,
+      "sentence": "we 're going to be in need of some sort of accountant do it cause I have no clue how that all works .",
+      "prd_word": "works",
+      "prd_idx": 23,
+      "label": "ARG0",
+      "span_mean": "causer",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:25:18.198918",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 193,
+      "sentence": "we have n't really talked about that",
+      "prd_word": "talked",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:25:58.705022",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "about that",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 6,
+          "text": "that",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 194,
+      "sentence": "well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .",
+      "prd_word": "set",
+      "prd_idx": 16,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:27:05.382464",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 22,
+          "text": "my own company , of sorts",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 17,
+          "end": 19,
+          "text": "my own company",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 195,
+      "sentence": "well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .",
+      "prd_word": "make",
+      "prd_idx": 5,
+      "label": "ARG0",
+      "span_mean": "creator",
+      "type": "gold_right, o1mini_wrong",
+      "optional": true,
+      "timestamp": "2026-03-23T19:27:16.596834",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "it",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 196,
+      "sentence": "well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .",
+      "prd_word": "make",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "creation",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:27:28.065249",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "sense",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 197,
+      "sentence": "yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um",
+      "prd_word": "making",
+      "prd_idx": 18,
+      "label": "ARG1",
+      "span_mean": "impelled action/ predication",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:27:34.272020",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 18,
+          "text": "beautiful",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 198,
+      "sentence": "you can just call her Missus and speak English to her .",
+      "prd_word": "speak",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "subject",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:28:00.663686",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "English",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 199,
+      "sentence": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+      "prd_word": "hope",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "thing hoped (for)",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:28:19.947981",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 20,
+          "text": "Arlita knows that you know I tried my best",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 200,
+      "sentence": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+      "prd_word": "knows",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:28:27.232117",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 20,
+          "text": "that you know I tried my best",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 201,
+      "sentence": "you know what I mean ?",
+      "prd_word": "mean",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "element containing meaning",
+      "type": "gold_right, o1mini_wrong",
+      "optional": false,
+      "timestamp": "2026-03-23T19:28:35.947497",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "what",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    }
+  ],
+  "last_index": 200
+}

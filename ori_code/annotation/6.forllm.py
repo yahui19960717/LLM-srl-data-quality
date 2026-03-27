@@ -191,8 +191,8 @@ def get_small_model_index(data, frames, outfile_core, outfile_all, outfile_repea
                 repeat_all += 1
                 new_data_all.append(dic_core)
     
-    # write_json(new_data_core, outfile_core)
-    # write_json(new_data_all, outfile_all)    # 包含了核心和非核心
+    write_json(new_data_core, outfile_core)
+    write_json(new_data_all, outfile_all)    # 包含了核心和非核心
     write_json(repeat_data, outfile_repeat)# 下次需要和单独预测的放在一起
     print(f'No frame num in all predicate : {noframe}')
     print(f'Semicrf in gold :{semicrf_in_gold}, Semicrf in treecrf : {semicrf_in_treecrf}')
@@ -279,15 +279,15 @@ def get_marginalprob_index(data, frames,file_out ):
 
 
 if __name__ == "__main__":
-    domain = "bn"
+    domain = "tc" #"bn"
     
     frames = read_json("/data/ljwang/span-SRL-LLM/propbank_frames_main/frame_out/frames_info_3.4.json") 
-    data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
     
 
     ## gold转换可以LLM处理的格式
-    file_out =  f"final_data/test_{domain}_4llm_core_gold.conll"
-    file_outall = f"final_data/test_{domain}_4llm_all_gold.conll"
+    file_out =  f"final_data/{domain}/test_{domain}_4llm_core_gold.conll"
+    file_outall = f"final_data/{domain}/test_{domain}_4llm_all_gold.conll"
     get_gold_index(data, frames,  file_out, file_outall)
 
     # 数据已保存到: final_data/test_bn_4llm_core_gold.conll
@@ -296,9 +296,9 @@ if __name__ == "__main__":
     # Gold all predicate num :4531, Gold core predicate num : 2132
 
     # 小模型
-    file_out_smallmodel = f"final_data/test_{domain}_4llm_core_smallmodel.conll"
-    file_outall_smallmodel = f"final_data/test_{domain}_4llm_all_smallmodel.conll"
-    file_repeat = f"final_data/test_{domain}_4llm_all_smallmodel_repeat.conll"
+    file_out_smallmodel = f"final_data/{domain}/test_{domain}_4llm_core_smallmodel.conll"
+    file_outall_smallmodel = f"final_data/{domain}/test_{domain}_4llm_all_smallmodel.conll"
+    file_repeat = f"final_data/{domain}/test_{domain}_4llm_all_smallmodel_repeat.conll"
     get_small_model_index(data, frames, file_out_smallmodel, file_outall_smallmodel, file_repeat)
 
 

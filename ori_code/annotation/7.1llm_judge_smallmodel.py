@@ -21,8 +21,8 @@ conll05_label = ['<pad>', 'O', 'A0', 'A1', 'A2', 'A3', 'A4', 'A5', 'AA', 'AM', '
 random.seed(42)
 client = OpenAI(
     base_url="https://api2.aigcbest.top/v1",#tcy
-    # api_key="sk-uwG3FOUM8NQJswVXoWOLuVYa7OrDoNxd7t7O1it5RLirJiMP" # tcy
-    api_key="sk-wUaE2guPPNKLKYTWAhcq7pFNXQMQa6JadrASpFdxsPBbKgkm"
+    api_key="sk-uwG3FOUM8NQJswVXoWOLuVYa7OrDoNxd7t7O1it5RLirJiMP" # tcy
+    # api_key="sk-wUaE2guPPNKLKYTWAhcq7pFNXQMQa6JadrASpFdxsPBbKgkm"
     # sk-lQZso15BZziwxSs6mOjpHPHl6AX832tMh4g8FZwa444vKOSz
     
 )
@@ -189,6 +189,7 @@ def get_completion(prompt):
                 ],
             )
     res = response.choices[0].message.content
+    # import pdb;pdb.set_trace()
     return res
     
 def parse_response(instance, response):
@@ -299,21 +300,40 @@ def LLM_prompt(data, path_save, path_save2):
 
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
+
+    # ### tc数据
+    # domain = "tc"
+    # data = read_json(f"final_data/{domain}/test_{domain}_4llm_core_smallmodel.conll")
+    # path_llmout = f"llm/{domain}/test_{domain}_4llm_all_smallmodel.conll"
+    # path_llmout2 = f"llm/{domain}/test_{domain}_4llm_parseright_smallmodel.conll"
+    # LLM_prompt(data, path_llmout, path_llmout2)
+    # print("工作保存完成！")
+
+
+
+    ### bn的数据
     domain = "bn"
-    # 分为小模型各自标注的，和二者都有的
-    # data = read_json(f"final_data/test_bn_4llm_core_smallmodel.conll")
+    data = read_json(f"final_data/bn/test_bn_4llm_notjudged.conll")
+    # data = read_json( f"llm-temp/test_{domain}_4llm_core_smallmodel.conll")
+    path_llmout = f"llm/test_{domain}_4llm_notjudged.conll"
+    path_llmout2 = f"llm/test_{domain}_4llm_parseright_notjudged.conll"
+    LLM_prompt(data, path_llmout, path_llmout2)
+    print("工作保存完成！")
+
+    # # 分为小模型各自标注的，和二者都有的
+    # # data = read_json(f"final_data/test_bn_4llm_core_smallmodel.conll")
+    # # # data = read_json( f"llm-temp/test_{domain}_4llm_core_smallmodel.conll")
+    # # path_llmout = f"llm/test_{domain}_4llm_all_smallmodel.conll"
+    # # path_llmout2 = f"llm/test_{domain}_4llm_parseright_smallmodel.conll"
+    # # LLM_prompt(data, path_llmout, path_llmout2)
+    # # print("工作保存完成！")
+
+
+    # data = read_json(f"final_data/test_bn_4llm_core_smallmodel_.conll")
     # # data = read_json( f"llm-temp/test_{domain}_4llm_core_smallmodel.conll")
     # path_llmout = f"llm/test_{domain}_4llm_all_smallmodel.conll"
     # path_llmout2 = f"llm/test_{domain}_4llm_parseright_smallmodel.conll"
     # LLM_prompt(data, path_llmout, path_llmout2)
     # print("工作保存完成！")
-
-
-    data = read_json(f"final_data/test_bn_4llm_core_smallmodel_.conll")
-    # data = read_json( f"llm-temp/test_{domain}_4llm_core_smallmodel.conll")
-    path_llmout = f"llm/test_{domain}_4llm_all_smallmodel.conll"
-    path_llmout2 = f"llm/test_{domain}_4llm_parseright_smallmodel.conll"
-    LLM_prompt(data, path_llmout, path_llmout2)
-    print("工作保存完成！")
             
     

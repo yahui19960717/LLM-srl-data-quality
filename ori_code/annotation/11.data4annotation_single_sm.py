@@ -79,7 +79,7 @@ def deal_data(correct_sm_o1mini, ibutdcsm,  all_data, fileout):
     # sm认为正确，o1mini认为正确(deeseep可能认为正确也可能认为不正确，gold里面没有的)
     new_data, choice_multi, choice_1  = get_annotation_instance(correct_sm_o1mini, new_data,dic_alldata,choice_multi, choice_1, type="sm_right, o1mini_right(deepseek)")
     choice_multi_temp1, choice_1_temp_1 = choice_multi, choice_1
-    print(f'{len(new_data)}, {choice_multi_temp1}, {choice_1_temp_1}')
+    print(f'全部的数据个数为:{len(new_data)},多候选的个数为{choice_multi} ,单选的个数为:{choice_1}')
     assert len(new_data)== len(correct_sm_o1mini)
 
     # sm认为正确, deepseek认为正确，但o1mini认为不正确 （gold里面没有的span） 
@@ -126,7 +126,50 @@ def deal_data(correct_sm_o1mini, ibutdcsm,  all_data, fileout):
         
 
 
+def deal_data_single(correct_sm_o1mini, all_data):
+    print(f"o1mini认为小模型预测结果正确：{len(correct_sm_o1mini)} ")
+    dic_alldata = {"\t".join([i['sen'], str(i['pred.idx'])]):i for i in all_data}
+    new_data = []
+    idx = 0
+    choice_multi, choice_1 = 0, 0
 
+    # sm认为正确，o1mini认为正确(deeseep可能认为正确也可能认为不正确，gold里面没有的)
+    new_data, choice_multi, choice_1  = get_annotation_instance(correct_sm_o1mini, new_data,dic_alldata,choice_multi, choice_1, type="sm_right, o1mini_right")
+    print(f'全部的数据个数为:{len(new_data)},多候选的个数为{choice_multi} ,单选的个数为:{choice_1}')
+    assert len(new_data)== len(correct_sm_o1mini)
+
+    # 根据sen排序,将相同的sen放在一起
+    sorted_data = sorted(new_data, key=lambda x: (x['sen'], str(x['prd_idx'])))
+
+    newest_data = []
+    idx=0
+
+    temp_dic = {}
+    for temp in sorted_data:
+        sen = temp['sen']
+        prd = str(temp['prd_idx'])
+        label = temp['label']
+        
+        temp_key = "\t".join([sen, prd, label])
+        if temp_key in temp_dic and temp_dic[temp_key]['options']!=temp['options']:
+            import pdb;pdb.set_trace()
+        temp_dic[temp_key]  = temp
+    
+    print(f' all argument number: {len(sorted_data)}, remove repeat: {len(temp_dic)}')
+    # for instance in sorted_data:
+    #     idx += 1
+    #     new_instance= {'idx':idx} | instance
+    #     newest_data.append(new_instance)
+
+    for instance in temp_dic:
+        idx += 1
+        new_instance= {'idx':idx} | temp_dic[instance]
+        newest_data.append(new_instance)
+
+
+    return newest_data
+    
+        
 
 
 
@@ -136,6 +179,35 @@ def deal_data(correct_sm_o1mini, ibutdcsm,  all_data, fileout):
 
 
 if __name__=="__main__":
+
+    domain = "tc"
+    # correct_sm_o1mini = read_json(f"llm/{domain}/correct_data_{domain}_smallmodel.json")
+    # all_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    # newest_data = deal_data_single(correct_sm_o1mini,  all_data)
+    # num=len(newest_data)
+    # fileout = f"anno/{domain}/{domain}_annotation_smallmodel_removerepeate_{num}.pkl"
+    # write_pickle(newest_data, fileout)
+
+    # print(f"数据存放在{fileout}")
+
+    # sm not recall
+    correct_sm_o1mini = read_json(f"llm/{domain}/correct_data_{domain}_smnotrecall.json")
+    all_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    newest_data = deal_data_single(correct_sm_o1mini,  all_data)
+    num=len(newest_data)
+    fileout = f"anno/{domain}/{domain}_annotation_smnotrecall_removerepeate_{num}.pkl"
+    write_pickle(newest_data, fileout)
+
+    print(f"数据存放在{fileout}")
+
+
+    
+
+    #### 注意 下次标注的时候需要把model预测和gold重复的去掉，因为一些span不同但label相同的其实是一个要标注的instance
+
+
+    exit()
+    #### bn数据标注
     domain = "bn"
     correct_sm_o1mini = read_json(f"llm/correct_data_{domain}_smallmodel.json")
     incorrecto1mini_but_deepseekcorrect_sm = read_json(f"llm/correct_data_{domain}_smallmodel_deepseek.json")

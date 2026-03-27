@@ -162,9 +162,11 @@ def write_json(sentences, path):
     print(f"数据已保存到: {path}")
 if __name__ == "__main__":
     core_label = {'ARG0':0, 'ARG1':0, 'ARG2':0, 'ARG3':0, 'ARG4':0, 'ARG5':0}
-    domain = 'tc'
+    domain = 'tc' #bn
     number_core = 0
+    # filepath = f"selected_data/test_{domain}_selected_data.conll"
     filepath = f"selected_data/test_{domain}_selected_data_692.conll"
+    # selected_data/test_tc_selected_data_692.conll
     fileout = f"final_data/test_{domain}_goldlabel.conll"
     sentences = parse_conll(filepath)
     prd_all_num, prd_rm_be_num = 0, 0

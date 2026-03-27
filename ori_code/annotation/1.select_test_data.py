@@ -65,6 +65,7 @@ def write_text(sentences,file):
 def main(path, num_data):
     filepath = f"/data/ljwang/span-SRL-LLM/data/{path}/test_{path}.conll"
     file_out = f"selected_data/test_{path}_selected_data_{num_data}.conll"
+    print("保存路径：", f"selected_data/test_{path}_selected_data_{num_data}.conll")
     sentences = parse_conll(filepath) # 每个句子是n行
     print(f'{filepath}-> 句子的个数为：{len(sentences)}')
 
@@ -77,6 +78,7 @@ def main(path, num_data):
 
     sampled = random.sample(candidates, num_data)
 
+    print(len(sampled))
     write_text(sampled, file_out)
     exit()
     for i, sent in enumerate[Any](sampled, 1):

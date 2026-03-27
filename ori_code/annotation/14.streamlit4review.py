@@ -22,8 +22,14 @@ from typing import Dict, List, Optional, Tuple
 # OUTPUT_FILE = "analysis/bn/temp.json"          # 裁判结果保存路径
 
 # DATA_FILE = "analysis/bn/annotators_analysis_smnotrecall_21.json"
-DATA_FILE = "analysis/bn/annotators_analysis_smnotrecallright_random30.json"
-OUTPUT_FILE = "analysis/bn/temp.json" 
+# DATA_FILE = "analysis/bn/annotators_analysis_smnotrecallright_random30.json"
+# DATA_FILE = "analysis/bn/annotators_analysis_smnotrecallright_110.json"
+# OUTPUT_FILE = "analysis/bn/temp.json" 
+### tc
+# DATA_FILE = "analysis/tc/annotators_tc_single_gold_201.json"
+# DATA_FILE = "analysis/tc/annotators_tc_smallmodel_removerepeate_322.json"
+DATA_FILE = "analysis/tc/annotators_tc_o1wrong_dsright_80.json"
+OUTPUT_FILE = "analysis/tc/temp.json" 
 # ──────────────────────────────────────────────
 # 颜色常量
 # ──────────────────────────────────────────────

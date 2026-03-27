@@ -12,17 +12,33 @@ from collections import defaultdict
 from datetime import datetime
 import re
 
-# 数据文件路径
+# 数据文件路径 bn
 # DATA_FILE = "anno/bn_annotation_sm_missed_gold_4optionalsupplement98.pkl"
 # DATA_FILE = "anno/bn_annotation_single_gold_o1wrongdsright_93.pkl"
 # DATA_FILE = "anno/bn_annotation_smallmodel_overlap.pkl"
 # ANNOTATION_SAVE_FILE = "anno/annotation_smallmodel_overlap_lyh.json"
 # ANNOTATION_SAVE_FILE = "anno/annotations_gold_o1wrongd_4optionalsupplement98.json"
 # DATA_FILE = "anno/bn_smnotrecallright_random30.pkl"
-DATA_FILE = "anno/bn_smnotrecall_21.pkl"
-ANNOTATION_SAVE_FILE = "anno/annotation_smnotrecall_21_lyh.json"
+# DATA_FILE = "anno/bn_smnotrecall_21.pkl"
+# DATA_FILE = "anno/bn_smnotrecallright_110.pkl"
+# ANNOTATION_SAVE_FILE = "anno/annotation_smnotrecallright_110_lyh.json"
 # ANNOTATION_SAVE_FILE = "anno/annotation_smnotrecallright_random30_lyh.json"
 
+
+# 数据文件路径tc
+domain = "tc"
+# DATA_FILE = f"anno/tc/tc_annotation_single_gold_201.pkl"
+# ANNOTATION_SAVE_FILE = f"anno/{domain}/{domain}_annotation_single_gold_201_lyh.json"
+
+# DATA_FILE = f"anno/tc/tc_annotation_smallmodel_removerepeate_322.pkl"
+# ANNOTATION_SAVE_FILE = f"anno/{domain}/{domain}_annotation_smallmodel_removerepeate_322_lyh.json"
+
+# DATA_FILE = f"anno/{domain}/annotation_{domain}_o1wrong_dsright_top30.pkl"
+# # DATA_FILE = f"anno/tc/annotation_tc_o1wrong_dpright_80.pkl"
+# ANNOTATION_SAVE_FILE = f"anno/{domain}/{domain}_annotation_o1wrong_dsright79_lyh.json"
+
+DATA_FILE = f"anno/tc/annotation_tc_o1wrong_dswrong_random30.pkl"
+ANNOTATION_SAVE_FILE = f"anno/{domain}/annotation_{domain}_o1wrong_dswrong_random30_lyh.json"
 
 def read_pickle(file):
     """从文件读取pickle数据"""

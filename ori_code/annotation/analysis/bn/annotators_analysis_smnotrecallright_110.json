@@ -1,0 +1,1147 @@
+{
+  "meta": {
+    "name_a": "wlj",
+    "name_b": "lyh",
+    "file_a": "anno/annotation_smnotrecallright_110_wlj.json",
+    "file_b": "anno/annotation_smnotrecallright_110_lyh.json",
+    "grammar_filter_stats": {
+      "removed_idx_count": 0,
+      "removed_idx_list": [],
+      "removed_by_wlj": 0,
+      "removed_by_lyh": 0
+    },
+    "stats": {
+      "total_aligned": 110,
+      "exact": 72,
+      "both_empty": 8,
+      "partial": 10,
+      "none": 7,
+      "empty_a": 2,
+      "empty_b": 11,
+      "optional": 5
+    }
+  },
+  "records": [
+    {
+      "idx": 2,
+      "sentence": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+      "prd_word": "decision",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": null,
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 20,
+          "text": "for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 3,
+      "sentence": "Along with the picture , the flight attendant wrote a letter saying she was praying for Jack 's safe return .",
+      "prd_word": "praying",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "prayer",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 15,
+          "end": 19,
+          "text": "for Jack 's safe return",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 12,
+          "end": 12,
+          "text": "she",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 6,
+      "sentence": "As Dave Gavlak reports , the US Cole was towed out of the Aden Harbor to a waiting Norwegian transport ship , that will actually carry the damaged destroyer home .",
+      "prd_word": "towed",
+      "prd_idx": 10,
+      "label": "ARG2",
+      "span_mean": "DIR, GOL or attribute of arg1",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 15,
+          "end": 29,
+          "text": "to a waiting Norwegian transport ship , that will actually carry the damaged destroyer home",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "text": "to a waiting Norwegian transport ship",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 15,
+          "end": 29,
+          "text": "to a waiting Norwegian transport ship , that will actually carry the damaged destroyer home",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 11,
+      "sentence": "Coming to a retailer near you , PlayStation pandemonium .",
+      "prd_word": "Coming",
+      "prd_idx": 1,
+      "label": "ARG1",
+      "span_mean": "entity in motion / 'comer'",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "PlayStation pandemonium",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 17,
+      "sentence": "He sat out 1 term after losing a U.S Senate race in the 1960s , but for 24 terms , Yates represented Chicago 's northern lake front and northern suburbs .",
+      "prd_word": "race",
+      "prd_idx": 11,
+      "label": "ARG3",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "U.S Senate",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 7,
+          "end": 9,
+          "text": "a U.S Senate",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 22,
+      "sentence": "Hundreds of stone - throwing Palestinians stormed the Israeli - controlled section of Hebron , breaking a curfew imposed since the outbreak of the unrest last month .",
+      "prd_word": "throwing",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "thing thrown",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "stone",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "stone",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Hundreds of stone",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 32,
+      "sentence": "If the workers do n't approve the steep cutbacks American says it will file for bankruptcy .",
+      "prd_word": "file",
+      "prd_idx": 14,
+      "label": "ARG4",
+      "span_mean": "purpose of filing",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "for bankruptcy",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 33,
+      "sentence": "In October of 1985 , four hijackers under his command took over the Italian cruise ship `` Achille Lauro '' and killed a wheelchair - bound American tourist , Leo Klinghoffer .",
+      "prd_word": "bound",
+      "prd_idx": 26,
+      "label": "ARG2",
+      "span_mean": "bound to what",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 23,
+          "end": 23,
+          "text": "wheelchair",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "text": "a wheelchair",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 23,
+          "end": 23,
+          "text": "wheelchair",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 34,
+      "sentence": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
+      "prd_word": "diagnosed",
+      "prd_idx": 40,
+      "label": "ARG1",
+      "span_mean": "patient",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "he",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 63,
+          "end": 63,
+          "text": "he",
+          "models": [
+            "treecrf"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 2,
+          "text": "he",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        1
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 35,
+      "sentence": "Index Theater is planning a huge comeback now with a series of shows in Belgrade , but even though Milosevic is under de facto house arrest in Belgrade , he is very much present on the repertoire of political humors , says his impersonator , Dragewbo Yubitrich .",
+      "prd_word": "says",
+      "prd_idx": 42,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 0,
+          "end": 39,
+          "text": "Index Theater is planning a huge comeback now with a series of shows in Belgrade , but even though Milosevic is under de facto house arrest in Belgrade , he is very much present on the repertoire of political humors",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 17,
+          "end": 39,
+          "text": "even though Milosevic is under de facto house arrest in Belgrade , he is very much present on the repertoire of political humors",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 37,
+      "sentence": "Iraqi leader Saddam Hussein has given a defiant speech to mark the tenth anniversary of the Gulf War .",
+      "prd_word": "mark",
+      "prd_idx": 11,
+      "label": "ARG0",
+      "span_mean": "signifier",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "a defiant speech",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "Iraqi leader Saddam Hussein",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 43,
+      "sentence": "It is difficult to say , Arab 's summit have traditionally been exercises in division .",
+      "prd_word": "exercises",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "thing used, thing exercised",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 13,
+          "end": 14,
+          "text": "in division",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "Arab 's summit",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 53,
+      "sentence": "Late Thursday , Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency .",
+      "prd_word": "join",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "second thing, tied to what",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 14,
+          "end": 19,
+          "text": "in a government of national emergency",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 14,
+          "end": 19,
+          "text": "in a government of national emergency",
+          "models": [
+            "treecrf"
+          ]
+        },
+        {
+          "start": 15,
+          "end": 19,
+          "text": "a government of national emergency",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 54,
+      "sentence": "Lead singer Amidu Berry says New York producers make hip - hop in any language come out sounding right .",
+      "prd_word": "come",
+      "prd_idx": 16,
+      "label": "ARG2",
+      "span_mean": null,
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 17,
+          "end": 18,
+          "text": "sounding right",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 13,
+          "end": 14,
+          "text": "any language",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 55,
+      "sentence": "Lead singer Amidu Berry says New York producers make hip - hop in any language come out sounding right .",
+      "prd_word": "sounding",
+      "prd_idx": 18,
+      "label": "ARG2",
+      "span_mean": "attribute of arg1",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 18,
+          "end": 18,
+          "text": "right",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 61,
+      "sentence": "Nicky and Allison also have cerebral palsy , and their visit to Nickelodeon coincides with the network 's debut of `` Pelswick , '' an animated series about a 13 - year - old boy in a wheelchair .",
+      "prd_word": "animated",
+      "prd_idx": 26,
+      "label": "ARG1",
+      "span_mean": "cartoon",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 26,
+          "end": 26,
+          "text": "series",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 21,
+          "end": 21,
+          "text": "Pelswick",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 21,
+          "end": 21,
+          "text": "Pelswick",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 63,
+      "sentence": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+      "prd_word": "recall",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "memory",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 5,
+          "end": 15,
+          "text": "the bombing of the US Marine barracks in Lebanon in 1983",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 28,
+          "end": 66,
+          "text": "when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 72,
+      "sentence": "Russian and Norwegian divers searched the fourth compartment of the wrecked submarine Kursk , Sunday , but they found too much damage to proceed with the task of recovering bodies .",
+      "prd_word": "proceed",
+      "prd_idx": 24,
+      "label": "ARG0",
+      "span_mean": "causer of continuing event",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 17,
+          "end": 17,
+          "text": "they",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 88,
+      "sentence": "The Indonesian billionaire James Riady has agreed to pay $ 8.5 million and plead guilty to illegally donating money for Bill Clinton 's 1992 presidential campaign .",
+      "prd_word": "donating",
+      "prd_idx": 18,
+      "label": "ARG2",
+      "span_mean": "entity given to",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 19,
+          "end": 25,
+          "text": "for Bill Clinton 's 1992 presidential campaign",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 89,
+      "sentence": "The United States has issued a worldwide caution to Americans warning of possible terrorist threats .",
+      "prd_word": "caution",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "Hearer",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "to Americans",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 101,
+      "sentence": "They 're asking the Supreme Court to block tonight 's scheduled execution of Delma Banks .",
+      "prd_word": "scheduled",
+      "prd_idx": 11,
+      "label": "ARG3",
+      "span_mean": "time of event",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "tonight",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "tonight 's",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 8,
+          "end": 8,
+          "text": "tonight",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        1
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 104,
+      "sentence": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+      "prd_word": "declared",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "for its stockholders",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 106,
+      "sentence": "They leave no other way for us but to respond with fire , we 'll have to do this .",
+      "prd_word": "respond",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": "replier",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "us",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 13,
+          "end": 13,
+          "text": "we",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 111,
+      "sentence": "They say the plane took off , clicking the construction equipment , slamming into the ground and then breaking up .",
+      "prd_word": "slamming",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "instrument, thing hit by or with",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 13,
+          "end": 15,
+          "text": "into the ground",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 116,
+      "sentence": "Today Gao , who now lives in France , gave the traditional Nobel lecture as part of the festivities leading up to Sunday 's ceremony , and on the same day he collects the prize .",
+      "prd_word": "leading",
+      "prd_idx": 20,
+      "label": "ARG0",
+      "span_mean": "factors",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 17,
+          "end": 18,
+          "text": "the festivities",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 126,
+      "sentence": "We have a vibrant and exciting relationship from which we both derive mass benefit .",
+      "prd_word": "derive",
+      "prd_idx": 12,
+      "label": "ARG2",
+      "span_mean": "source",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "from which",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "text": "a vibrant and exciting relationship",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "from which",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 6,
+          "text": "relationship",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 130,
+      "sentence": "While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war .",
+      "prd_word": "production",
+      "prd_idx": 41,
+      "label": "ARG1",
+      "span_mean": null,
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 38,
+          "end": 39,
+          "text": "biological weapons",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 37,
+          "end": 39,
+          "text": "mobile biological weapons",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 38,
+          "end": 39,
+          "text": "biological weapons",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 138,
+      "sentence": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+      "prd_word": "compensation",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 11,
+          "end": 11,
+          "text": "CEO",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 139,
+      "sentence": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+      "prd_word": "compensation",
+      "prd_idx": 9,
+      "label": "ARG2",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "executive",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 140,
+      "sentence": "`` Iraq has triumphed over its enemies , '' he said , `` and it will triumph in the remaining rounds of the battle . ''",
+      "prd_word": "said",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 1,
+          "end": 6,
+          "text": "Iraq has triumphed over its enemies",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 13,
+          "end": 23,
+          "text": "and it will triumph in the remaining rounds of the battle",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 1,
+          "end": 6,
+          "text": "Iraq has triumphed over its enemies",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 12,
+          "end": 23,
+          "text": "`` and it will triumph in the remaining rounds of the battle",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    }
+  ]
+}

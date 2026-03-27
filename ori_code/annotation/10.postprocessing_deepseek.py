@@ -86,6 +86,20 @@ def get_results(llmout, incorrect_file, correct_file):
 
 if __name__ == "__main__":
     # gold results
+    domain = "tc"
+    path_llmout = f"llm/{domain}/test_{domain}_4llm_all_deepseek_smallmodelincorrect.conll" # o1mini判断错误的
+    path_llmout2 = f"llm/{domain}/test_{domain}_4llm_parseright_deepseek_smallmodelincorrect.conll"
+    llmout = read_json(path_llmout)
+    llmout2 = read_json(path_llmout2)
+    print(len(llmout), len(llmout2))
+    incorrect_data, correct_data = f"llm/{domain}/incorrect_data_{domain}_gold_deepseek.json", f"llm/{domain}/correct_data_{domain}_gold_deepseek.json"
+    get_results(llmout, incorrect_data, correct_data)
+    exit()
+
+    
+
+
+    ### bn处理
     domain = "bn"
     path_llmout = f"llm/test_{domain}_4llm_all_deepseek_goldincorrect.conll" # o1mini判断错误的
     path_llmout2 = f"llm/test_{domain}_4llm_parseright_deepseek_goldincorrect.conll"

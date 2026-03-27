@@ -108,11 +108,20 @@ if __name__ == "__main__":
     #compare_json(file_source, file_fix, output_match, output_nomatch, output_partmatch)
 
     #小模型产出结果，o1mini或DeepSeek认为正确的，人全部标注，看一下对比情况
-    file_source1 = read_json(f"llm/correct_data_bn_smallmodel_deepseek.json")
-    file_source2 = read_json(f"llm/correct_data_bn_smallmodel.json")
-    file_source = file_source1 + file_source2
-    file_fix = read_json(f"annotated_final/annotations_wlj_smallmodel_163_final.json")
-    output_match = os.path.join("analysis/", "bn_smallmodel_dsright_match.json")
-    output_nomatch = os.path.join("analysis/", "bn_smallmodel_dsright_nomatch.json")
-    output_partmatch = os.path.join("analysis/", "bn_smallmodel_dsright_partmatch.json")
+    #file_source1 = read_json(f"llm/correct_data_bn_smallmodel_deepseek.json")
+    #file_source2 = read_json(f"llm/correct_data_bn_smallmodel.json")
+    #file_source = file_source1 + file_source2
+    #file_fix = read_json(f"annotated_final/annotations_wlj_smallmodel_163_final.json")
+    #output_match = os.path.join("analysis/", "bn_smallmodel_dsright_match.json")
+    #output_nomatch = os.path.join("analysis/", "bn_smallmodel_dsright_nomatch.json")
+    #output_partmatch = os.path.join("analysis/", "bn_smallmodel_dsright_partmatch.json")
+    #compare_json(file_source, file_fix, output_match, output_nomatch, output_partmatch)
+
+    #小模型未召回结果，o1mini认为正确，人随机抽查30，看一下对比情况
+    file_source = read_json(f"llm/correct_data_bn_smnotrecall.json")
+    file_fix = read_json(f"annotated_final/annotation_smnotrecallright_random30_wlj_final.json")
+    output_match = os.path.join("analysis/", "bn_smnnotrecall_random30_match.json")
+    output_nomatch = os.path.join("analysis/", "bn_smnnotrecall_random30_nomatch.json")
+    output_partmatch = os.path.join("analysis/", "bn_smnnotrecall_random30_partmatch.json")
     compare_json(file_source, file_fix, output_match, output_nomatch, output_partmatch)
+

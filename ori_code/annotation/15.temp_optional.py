@@ -4,7 +4,7 @@ bn中之前的可标可不标没有标注出来，需要重新找一下
 如何获得可标可不标的数据呢？
 先获得small model没有召回的corrected gold，然后对o1mini认为错误的用于标注；
 '''
-from config_data import read_json,write_json, write_pickle
+from config_data import read_json,write_json, write_pickle, read_pickle
 import random
 random.seed(42)
 from collections import defaultdict
@@ -144,7 +144,7 @@ def build_annotation_data(results, llm_wrong_data, llmwrong_sm):
         })
         
 
-    print(len(to_judge))
+    print(f'需要判断的个数为:{len(to_judge)}')
     return annotation_list, to_judge
 
 def get_gold_index(data, frames, outfile_core):
@@ -274,7 +274,7 @@ def get_anno(incorrect, smnotrecall, all_data, fileout, wheatherrandom=False, ra
     choice_multi, choice_1 = 0, 0
     dic_alldata = {"\t".join([i['sen'], str(i['pred.idx'])]):i for i in all_data}
     new_data, choice_multi, choice_1 = get_annotation_instance(need_to_anno, new_data, dic_alldata, choice_multi, choice_1, "the label of small model not recall")
-    print(len(new_data))
+    print(f'random 前{len(new_data)}')
     assert len(new_data) == len(need_to_anno)
     if wheatherrandom == True:
         new_data = random.sample(new_data, 30)
@@ -293,14 +293,46 @@ def get_anno(incorrect, smnotrecall, all_data, fileout, wheatherrandom=False, ra
         pred_idx = instance['prd_idx']
         label = instance['label']
         key = (sen, prd_word, pred_idx, label)
-        if key == ('The federal government will not appeal the court ruling that cleared the way for same - sex unions .', 'cleared', 11, 'ARG1'):
-                import pdb;pdb.set_trace()
-        
-    print(len(new_data))
+        # if key == ('The federal government will not appeal the court ruling that cleared the way for same - sex unions .', 'cleared', 11, 'ARG1'):
+        #         import pdb;pdb.set_trace()
     
+    print(f'random 后{len(new_data)}')
     write_pickle(newest_data, fileout)
-    
-    
+    return newest_data
+
+
+def rm_30(final, data_30, fileout):
+    new_data = []
+    data_30_dic = {}
+    for instance in data_30:
+        sen = instance['sen']
+        prd_word = instance['prd_word']
+        pred_idx = instance['prd_idx']
+        label = instance['label']
+        key = (sen, prd_word, pred_idx, label)
+        if key not in data_30_dic.keys():
+            data_30_dic[key]= instance
+    for instance in final:
+        sen = instance['sen']
+        prd_word = instance['prd_word']
+        pred_idx = instance['prd_idx']
+        label = instance['label']
+        key = (sen, prd_word, pred_idx, label)
+        if key not in data_30_dic.keys():
+            new_data.append(instance)
+    # 根据sen排序,将相同的sen放在一起
+    sorted_data = sorted(new_data, key=lambda x: (x['sen'], str(x['prd_idx'])))
+
+    newest_data = []
+    idx=0
+    for instance in sorted_data:
+        idx += 1
+        new_instance= {'idx':idx} | instance
+        newest_data.append(new_instance)
+    print(f'最终标注数据个数: {len(newest_data)}')
+    write_pickle(newest_data, fileout)
+
+
 if __name__=="__main__":
     domain = "bn"
     # step1 ：先找到小模型没有召回的corrected gold的并集
@@ -308,7 +340,7 @@ if __name__=="__main__":
     # final corrected
     final_corrected =  read_json(f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_500_core_final.json")
     current_gold_data = build_gold_spans_from_dic(final_corrected)
-    sm_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll") 
+    sm_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll") 
     result = get_missed_gold_args(sm_data, current_gold_data)
     print(f"共找到 {len(result)} 条未被召回的 gold ARG0-ARG5 标签\n") #489
 
@@ -322,9 +354,9 @@ if __name__=="__main__":
     # write_pickle(annotation_data, "anno/bn_annotation_sm_missed_gold_4optionalsupplement98.pkl")
     print(f"共找到 {len(annotation_data)} 条未被召回的 gold 且o1mini判断为错误的 ARG0-ARG5 标签\n")
     frames = read_json("/data/ljwang/span-SRL-LLM/propbank_frames_main/frame_out/frames_info_3.4.json") 
-    file_out = f"final_data/test_{domain}_4llm_core_smnotrecall_161.conll"
-    # file_out = f"final_data/test_{domain}_4llm_core_smnotrecall.conll"
-    get_gold_index(to_judge, frames, file_out)
+    # file_out = f"final_data/{domain}/test_{domain}_4llm_core_smnotrecall_161.conll"
+    file_out = f"final_data/test_{domain}_4llm_core_smnotrecall.conll"
+    # get_gold_index(to_judge, frames, file_out)
 
     # step3:  从大模型中获得错误的结果，目前错误的结果是包含了label在小模型但span不在的，目前我们要找label都没有召回的，是161个标签
     # 数据已保存到: llm/correct_data_bn_smnotrecall.json
@@ -337,9 +369,17 @@ if __name__=="__main__":
     # all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
     # get_anno(incorrect, smnotrecall, all_data, fileout="anno/bn_smnotrecall_21.pkl")
 
-    # 从162-21=140个中正确的随机抽30个
-    correct = read_json("llm/correct_data_bn_smnotrecall.json") # 这个end是+1后的
-    smnotrecall = read_json(file_out) # 这个end是+1后的
-    all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
-    get_anno(correct, smnotrecall, all_data, "anno/bn_smnotrecallright_random30.pkl", True, 30)
+    # # 从162-21=140个中正确的随机抽30个
+    # correct = read_json("llm/correct_data_bn_smnotrecall.json") # 这个end是+1后的
+    # smnotrecall = read_json(file_out) # 这个end是+1后的
+    # all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
+    # get_anno(correct, smnotrecall, all_data, "anno/bn_smnotrecallright_random30.pkl", True, 30)
+    
+    # 从162-21=140个中正确的110
+    # correct = read_json(f"llm/correct_data_bn_smnotrecall.json") # 这个end是+1后的
+    # smnotrecall = read_json(file_out) # 这个end是+1后的
+    # all_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
+    # data_140 = get_anno(correct, smnotrecall, all_data, "anno/bn_smnotrecallright_random140.pkl")
+    # pickle_30 = read_pickle(f"anno/bn_smnotrecallright_random30.pkl")
+    # rm_30(data_140, pickle_30, f'anno/bn_smnotrecallright_110.pkl')
     

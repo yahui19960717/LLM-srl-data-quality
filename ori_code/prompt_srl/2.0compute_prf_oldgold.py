@@ -153,7 +153,7 @@ def compute_prf(gold_dict, llm_dict):
 
 # step3：以第二步获得的数据为标准，计算第一步文件在各个角色上的precision、recall和F1，以及最后给出整体角色上的precision、recall和F1
 if __name__ == "__main__":
-    domain = "bn"
+    domain = "tc" #"bn"
     
     # sstep1:先读取llm_result/test_bn_4llm_core_gold_role.json，解析Prompt_Result结果，保存每一个role对应的Argument
     llm_path = f"llm_result/test_{domain}_4llm_core_gold_role.json"
@@ -161,8 +161,8 @@ if __name__ == "__main__":
     print("process llm result\n")
     llm_role_argument_dict = parse_llm_result(llm_data)
         
-    # step2：读取/data/ljwang/span-SRL-LLM/ori_code/annotation/final_data/test_bn_4llm_core_gold.conll
-    gold_path = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/final_data/test_{domain}_4llm_core_gold.conll"
+    # step2：读取原始gold数据，解析gold结果，保存每一个role对应的Argument
+    gold_path = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/final_data/{domain}/test_{domain}_4llm_core_gold.conll"
     gold_data = read_json(gold_path)
     print("process gold result\n")
     gold_role_argument_dict = parse_gold_annotation(gold_data)

@@ -21,9 +21,10 @@ conll05_label = ['<pad>', 'O', 'A0', 'A1', 'A2', 'A3', 'A4', 'A5', 'AA', 'AM', '
 random.seed(42)
 client = OpenAI(
     base_url="https://api2.aigcbest.top/v1",#tcy
-    # api_key="sk-uwG3FOUM8NQJswVXoWOLuVYa7OrDoNxd7t7O1it5RLirJiMP" # tcy
-    api_key="sk-wUaE2guPPNKLKYTWAhcq7pFNXQMQa6JadrASpFdxsPBbKgkm"
+    api_key="sk-wUaE2guPPNKLKYTWAhcq7pFNXQMQa6JadrASpFdxsPBbKgkm" # tcy
+    # api_key="sk-wUaE2guPPNKLKYTWAhcq7pFNXQMQa6JadrASpFdxsPBbKgkm"
     # sk-lQZso15BZziwxSs6mOjpHPHl6AX832tMh4g8FZwa444vKOSz
+    # sk-uwG3FOUM8NQJswVXoWOLuVYa7OrDoNxd7t7O1it5RLirJiMP
     
 )
 
@@ -299,17 +300,38 @@ def LLM_prompt(data, path_save, path_save2):
 
 if __name__=="__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"  # 只使用第 0 块 GPU
-    domain = "bn"
-    # data = read_json( f"final_data/test_{domain}_4llm_core_gold.conll")
-    # path_llmout = f"llm/test_{domain}_4llm_all_gold.conll"
-    # path_llmout2 = f"llm/test_{domain}_4llm_parseright_gold.conll"
+
+    domain = "tc"
+    # gold的结果
+    # data = read_json( f"final_data/{domain}/test_{domain}_4llm_core_gold.conll")
+    # path_llmout = f"llm/{domain}/test_{domain}_4llm_all_gold.conll"
+    # path_llmout2 = f"llm/{domain}/test_{domain}_4llm_parseright_gold.conll"
     # LLM_prompt(data, path_llmout, path_llmout2)
     # print("工作保存完成！")
 
-    data = read_json(f"final_data/test_{domain}_4llm_core_smnotrecall.conll")
-    path_llmout = f"llm/test_{domain}_4llm_all_smnotrecall.conll"
-    path_llmout2 = f"llm/test_{domain}_4llm_parseright_smnotrecall.conll"
+    # small model not recall
+    data = read_json( f"final_data/{domain}/test_{domain}_4llm_core_smnotrecall_120.conll")
+    path_llmout = f"llm/{domain}/test_{domain}_4llm_all_smnotrecall.conll"
+    path_llmout2 = f"llm/{domain}/test_{domain}_4llm_parseright_smnotrecall.conll"
     LLM_prompt(data, path_llmout, path_llmout2)
     print("工作保存完成！")
+
+
+   
+
+
+    # ### bn operations ###
+    # domain = "bn"
+    # # data = read_json( f"final_data/test_{domain}_4llm_core_gold.conll")
+    # # path_llmout = f"llm/test_{domain}_4llm_all_gold.conll"
+    # # path_llmout2 = f"llm/test_{domain}_4llm_parseright_gold.conll"
+    # # LLM_prompt(data, path_llmout, path_llmout2)
+    # # print("工作保存完成！")
+
+    # data = read_json(f"final_data/test_{domain}_4llm_core_smnotrecall.conll")
+    # path_llmout = f"llm/test_{domain}_4llm_all_smnotrecall.conll"
+    # path_llmout2 = f"llm/test_{domain}_4llm_parseright_smnotrecall.conll"
+    # LLM_prompt(data, path_llmout, path_llmout2)
+    # print("工作保存完成！")
             
     

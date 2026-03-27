@@ -1,0 +1,3122 @@
+{
+  "meta": {
+    "name_a": "wlj",
+    "name_b": "lyh",
+    "file_a": "anno/tc/annotation_tc_smallmodel_removerepeate_322_wlj.json",
+    "file_b": "anno/tc/annotation_tc_smallmodel_removerepeate_322_lyh.json",
+    "grammar_filter_stats": {
+      "removed_idx_count": 10,
+      "removed_idx_list": [
+        39,
+        71,
+        110,
+        116,
+        156,
+        168,
+        190,
+        212,
+        240,
+        322
+      ],
+      "removed_by_wlj": 9,
+      "removed_by_lyh": 2
+    },
+    "stats": {
+      "total_aligned": 312,
+      "exact": 222,
+      "both_empty": 13,
+      "partial": 35,
+      "none": 21,
+      "empty_a": 7,
+      "empty_b": 14,
+      "optional": 12
+    }
+  },
+  "records": [
+    {
+      "idx": 11,
+      "sentence": "%um , but Leo and Julie just seemed , %um sort of happy with the decisions they 've made .",
+      "prd_word": "seemed",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "thing seeming",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 10,
+          "end": 18,
+          "text": "sort of happy with the decisions they 've made",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 5,
+          "text": "Leo and Julie",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 16,
+      "sentence": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+      "prd_word": "said",
+      "prd_idx": 19,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 19,
+          "end": 35,
+          "text": "he was even going to have to sheik pray over her , you know for the jen",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 19,
+          "end": 29,
+          "text": "he was even going to have to sheik pray over her",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 19,
+          "end": 29,
+          "text": "he was even going to have to sheik pray over her",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 23,
+      "sentence": "And %uh With a pretty simple model you can find that frequency in a transient ,",
+      "prd_word": "find",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "thing found",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 10,
+          "end": 14,
+          "text": "that frequency in a transient",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 10,
+          "end": 11,
+          "text": "that frequency",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 24,
+      "sentence": "And , then things seemed to be doing pretty well ,",
+      "prd_word": "seemed",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "thing seeming",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "things",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "text": "be doing pretty well",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "things",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 26,
+      "sentence": "And I 'm actually waiting for Claudia to show up because we were supposed to go into town and meet some people in town .",
+      "prd_word": "supposed",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "thing seeming",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 14,
+          "end": 23,
+          "text": "to go into town and meet some people in town",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 11,
+          "end": 11,
+          "text": "we",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 28,
+      "sentence": "And I was like , well I 've been telling you that Neil .",
+      "prd_word": "telling",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": "that Neil",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 29,
+      "sentence": "And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,",
+      "prd_word": "kept",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "continued entity",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 3,
+          "end": 24,
+          "text": "writing back that I should tone this part of the thesis down that You know , people see the anti phased motion",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "text": "writing back",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "writing back",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 33,
+      "sentence": "And if it gets irritated take some pills and stuff .",
+      "prd_word": "take",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "thing taken",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "some pills",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "text": "some pills and stuff",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "some pills and stuff",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 37,
+      "sentence": "And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .",
+      "prd_word": "characterized",
+      "prd_idx": 41,
+      "label": "ARG2",
+      "span_mean": "secondary attribute, described-as",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 41,
+          "end": 43,
+          "text": "by one frequency",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 38,
+      "sentence": "And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .",
+      "prd_word": "find",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "thing found",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "one of the things",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "text": "the things",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 1,
+          "end": 4,
+          "text": "one of the things",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 42,
+      "sentence": "And she went from Penn , %um To Columbia . to Columbia to U R I .",
+      "prd_word": "went",
+      "prd_idx": 3,
+      "label": "ARG4",
+      "span_mean": "end point",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 12,
+          "end": 15,
+          "text": "to U R I",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "text": "To Columbia",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 12,
+          "end": 15,
+          "text": "to U R I",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 43,
+      "sentence": "And then an aunt of Chris 's Aunt Mamie up in Maine passed away .",
+      "prd_word": "passed",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": null,
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 11,
+          "text": "an aunt of Chris 's Aunt Mamie up in Maine",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "Mamie",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 8,
+          "text": "an aunt of Chris 's Aunt Mamie",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 44,
+      "sentence": "And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+      "prd_word": "has",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "possession",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 12,
+          "end": 26,
+          "text": "two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 52,
+      "sentence": "Are you going to try and become a dual citizen ?",
+      "prd_word": "try",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "thing tried",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "and become a dual citizen",
+          "models": [
+            "treecrf"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "text": "become a dual citizen",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 6,
+          "end": 9,
+          "text": "become a dual citizen",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 53,
+      "sentence": "As long as I do n't bring it back to the states .",
+      "prd_word": "bring",
+      "prd_idx": 7,
+      "label": "ARG3",
+      "span_mean": "attribute, state after bringing, secondary action",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 11,
+          "text": "back to the states",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 54,
+      "sentence": "As long as I do n't bring it back to the states .",
+      "prd_word": "bring",
+      "prd_idx": 7,
+      "label": "ARG2",
+      "span_mean": "benefactive or destination brought-for, brought-to,",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 8,
+          "end": 11,
+          "text": "back to the states",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 9,
+          "end": 11,
+          "text": "to the states",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 59,
+      "sentence": "But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .",
+      "prd_word": "seeing",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "thing viewed",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 14,
+          "end": 27,
+          "text": "Shape Headquarters and you know all that kind of stuff . those military things",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "Shape Headquarters",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 69,
+      "sentence": "Do they do that to everyone ?",
+      "prd_word": "Do",
+      "prd_idx": 1,
+      "label": "ARG2",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "to everyone",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 70,
+      "sentence": "Do you ?",
+      "prd_word": "Do",
+      "prd_idx": 1,
+      "label": "ARG0",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "you",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": true,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 72,
+      "sentence": "He eats at least like four of cereal a day like in addition to like meals .",
+      "prd_word": "eats",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "meal",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 9,
+          "text": "at least like four of cereal a day",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 9,
+          "text": "at least like four of cereal a day",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "text": "four of cereal",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 79,
+      "sentence": "I 've been telling you that I needed to do that roof atrium for quite some time .",
+      "prd_word": "needed",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "thing needed",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 8,
+          "end": 16,
+          "text": "to do that roof atrium for quite some time",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 8,
+          "end": 12,
+          "text": "to do that roof atrium",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 12,
+          "text": "to do that roof atrium",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 80,
+      "sentence": "I 've got a student here who 's checking out rooms and stuff .",
+      "prd_word": "got",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "thing had, possessed",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "a student",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 3,
+          "end": 12,
+          "text": "a student here who 's checking out rooms and stuff",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "a student",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 85,
+      "sentence": "I do n't know if you spoke to me before that or when it was that was happening . Or",
+      "prd_word": "happening",
+      "prd_idx": 18,
+      "label": "ARG1",
+      "span_mean": "event",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 15,
+          "end": 15,
+          "text": "that",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 13,
+          "end": 13,
+          "text": "it",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 88,
+      "sentence": "I had that when I went into the military .",
+      "prd_word": "went",
+      "prd_idx": 6,
+      "label": "ARG4",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "into the military",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 94,
+      "sentence": "I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+      "prd_word": "mean",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "element containing meaning",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 3,
+          "end": 25,
+          "text": "you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+          "models": [
+            "treecrf"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 25,
+          "text": "writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 6,
+          "end": 25,
+          "text": "writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 107,
+      "sentence": "I mean the only thing is %um just getting your heart rate up for extended periods of time .",
+      "prd_word": "mean",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "element containing meaning",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 17,
+          "text": "the only thing is %um just getting your heart rate up for extended periods of time",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 109,
+      "sentence": "I mean the phones here are pretty good . once you 're in the country .",
+      "prd_word": "mean",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "element containing meaning",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 14,
+          "text": "the phones here are pretty good . once you 're in the country",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 7,
+          "text": "the phones here are pretty good",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 113,
+      "sentence": "I mean things have been happening that has just scared the heck out of me .",
+      "prd_word": "scared",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": "scary entity",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "that",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 2,
+          "text": "things",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "that",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 5,
+          "text": "things have been happening",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 124,
+      "sentence": "I said I feel like I know you even though I never met you .",
+      "prd_word": "feel",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "belief",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 5,
+          "end": 13,
+          "text": "I know you even though I never met you",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "like I know you",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 125,
+      "sentence": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+      "prd_word": "know",
+      "prd_idx": 17,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 17,
+          "end": 24,
+          "text": "when you truly give your heart to Allah",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 17,
+          "end": 34,
+          "text": "when you truly give your heart to Allah , only Allah can make the way clear for you",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 131,
+      "sentence": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+      "prd_word": "said",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 4,
+          "end": 42,
+          "text": "it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 42,
+          "text": "you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 133,
+      "sentence": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+      "prd_word": "going",
+      "prd_idx": 33,
+      "label": "ARG4",
+      "span_mean": "end point",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 33,
+          "end": 34,
+          "text": "to Francis",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 137,
+      "sentence": "I think Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters .",
+      "prd_word": "think",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "Thought",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 12,
+          "text": "Optics Letters is probably the one that we 're shooting for",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 34,
+          "text": "Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 34,
+          "text": "Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 138,
+      "sentence": "I thought you were talking to somebody else and like put the phone down or something .",
+      "prd_word": "put",
+      "prd_idx": 11,
+      "label": "ARG2",
+      "span_mean": "where put",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 13,
+          "end": 13,
+          "text": "down",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 141,
+      "sentence": "It 's just But %um %uh , %uh , the main reason for that is I had not really anticipated a few expenses that recently came up %ah . %uh , related to a couple of burglaries that I had .",
+      "prd_word": "related",
+      "prd_idx": 32,
+      "label": "ARG1",
+      "span_mean": "thing under consideration",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 20,
+          "end": 26,
+          "text": "a few expenses that recently came up",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 20,
+          "end": 22,
+          "text": "a few expenses",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 20,
+          "end": 26,
+          "text": "a few expenses that recently came up",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 143,
+      "sentence": "It develops because of irritation , because of a %um , inflammation .",
+      "prd_word": "develops",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "It",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": true,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 148,
+      "sentence": "My daughter - in - law Barbara got on her case real serious yesterday .",
+      "prd_word": "got",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "attribute of arg1 (not a VP node)",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": "real serious",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 151,
+      "sentence": "Not a whole lot I can do about that now .",
+      "prd_word": "do",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "thing done",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "about that",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "that",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 153,
+      "sentence": "Now she had a job with an architectural group when she first got out to New York ,",
+      "prd_word": "got",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "destination",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 13,
+          "end": 16,
+          "text": "out to New York",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 14,
+          "end": 16,
+          "text": "to New York",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 14,
+          "end": 16,
+          "text": "to New York",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 162,
+      "sentence": "She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,",
+      "prd_word": "wrote",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "thing written",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 3,
+          "end": 26,
+          "text": "a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "text": "a letter",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "a letter",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 180,
+      "sentence": "Some amount that has to be deducted a certain amount",
+      "prd_word": "deducted",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "thing being subtracted",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "that",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 1,
+          "text": "Some amount",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "Some amount",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 181,
+      "sentence": "Somehow it raises a small amount .",
+      "prd_word": "raises",
+      "prd_idx": 3,
+      "label": "ARG0",
+      "span_mean": "Agent",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "it",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 183,
+      "sentence": "Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .",
+      "prd_word": "get",
+      "prd_idx": 28,
+      "label": "ARG1",
+      "span_mean": "thing gotten",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 28,
+          "end": 28,
+          "text": "it",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 28,
+          "end": 32,
+          "text": "it and things like that",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 28,
+          "end": 32,
+          "text": "it and things like that",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 194,
+      "sentence": "Well I guess she did that because someone suggested that to her because you know the lillies the symbol of the virgin Mary .",
+      "prd_word": "suggested",
+      "prd_idx": 9,
+      "label": "ARG3",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 10,
+          "end": 11,
+          "text": "to her",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 199,
+      "sentence": "Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,",
+      "prd_word": "say",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 5,
+          "end": 28,
+          "text": "once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 4,
+          "end": 28,
+          "text": "is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 200,
+      "sentence": "Well did she come home and say I saw her , I look like her or what ?",
+      "prd_word": "say",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 7,
+          "end": 16,
+          "text": "I saw her , I look like her or what",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 7,
+          "end": 9,
+          "text": "I saw her",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 201,
+      "sentence": "Well he 's working for an American firm over here ,",
+      "prd_word": "working",
+      "prd_idx": 4,
+      "label": "ARG2",
+      "span_mean": "employer, benefactive",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "for an American firm",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 9,
+          "text": "for an American firm over here",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "for an American firm",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 202,
+      "sentence": "Well it 's hard to you know not eat when somebody else is eating .",
+      "prd_word": "know",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 7,
+          "end": 13,
+          "text": "not eat when somebody else is eating",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 1,
+          "end": 4,
+          "text": "it 's hard to",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 7,
+          "end": 13,
+          "text": "not eat when somebody else is eating",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 205,
+      "sentence": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+      "prd_word": "diagnosing",
+      "prd_idx": 38,
+      "label": "ARG1",
+      "span_mean": "patient",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 14,
+          "end": 14,
+          "text": "he",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 216,
+      "sentence": "You know Tufts yeah . sent her to Taiwa",
+      "prd_word": "know",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 8,
+          "text": "Tufts yeah . sent her to Taiwa",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "Tufts",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 223,
+      "sentence": "You see the one very annoying thing about all of this , was my advisor has been in France for a year and a half .",
+      "prd_word": "see",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": null,
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 24,
+          "text": "the one very annoying thing about all of this , was my advisor has been in France for a year and a half",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 10,
+          "text": "the one very annoying thing about all of this",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 226,
+      "sentence": "and %mm . that cost me a lot of time .",
+      "prd_word": "cost",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "commodity",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "that",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "that",
+          "models": [
+            "semicrf"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "text": "a lot of time",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 232,
+      "sentence": "and I just believe it 's you know time , you know",
+      "prd_word": "know",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "time",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 0,
+          "text": "and",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "time",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 241,
+      "sentence": "and is she seem like she 's together enough ?",
+      "prd_word": "seem",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "thing seeming",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 4,
+          "end": 8,
+          "text": "like she 's together enough",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "she",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "text": "like she 's together enough",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        1
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 243,
+      "sentence": "and mhm %um you know . It feels like maybe she made a compromise",
+      "prd_word": "feels",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "stimulus",
+      "match_type": "empty_a",
+      "score": 0.0,
+      "spans_a": [],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 13,
+          "text": "like maybe she made a compromise",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 247,
+      "sentence": "and then she came over here , and %um , checked out a room here .",
+      "prd_word": "came",
+      "prd_idx": 4,
+      "label": "ARG4",
+      "span_mean": "end point",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "over here",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "over here",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "text": "here",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 248,
+      "sentence": "and they 'll probably hold them hostage .",
+      "prd_word": "hold",
+      "prd_idx": 5,
+      "label": "ARG2",
+      "span_mean": null,
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "hostage",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "them",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 250,
+      "sentence": "and we 're going to go see her next Thursday and talk about her making my wedding dress .",
+      "prd_word": "go",
+      "prd_idx": 6,
+      "label": "ARG4",
+      "span_mean": null,
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "see her",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 254,
+      "sentence": "and yeah . %uh , it 's the fact that I would be writing a letter that is the impressive part of it all .",
+      "prd_word": "writing",
+      "prd_idx": 14,
+      "label": "ARG1",
+      "span_mean": "thing written",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "a letter",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 14,
+          "end": 23,
+          "text": "a letter that is the impressive part of it all",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "a letter",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 258,
+      "sentence": "because I knew what she would do if I took her somewhere you know what she would say",
+      "prd_word": "knew",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 3,
+          "end": 11,
+          "text": "what she would do if I took her somewhere",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 17,
+          "text": "what she would do if I took her somewhere you know what she would say",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 259,
+      "sentence": "bring me back active duty and pay me for the day if they 're going to drag me off somewhere .",
+      "prd_word": "bring",
+      "prd_idx": 1,
+      "label": "ARG3",
+      "span_mean": "attribute, state after bringing, secondary action",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "back active duty",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "text": "active duty",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "back",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 260,
+      "sentence": "bring me back active duty and pay me for the day if they 're going to drag me off somewhere .",
+      "prd_word": "drag",
+      "prd_idx": 17,
+      "label": "ARG2",
+      "span_mean": "direction",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 19,
+          "end": 19,
+          "text": "somewhere",
+          "models": [
+            "treecrf"
+          ]
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "text": "off somewhere",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 19,
+          "end": 19,
+          "text": "somewhere",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 264,
+      "sentence": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+      "prd_word": "know",
+      "prd_idx": 20,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 20,
+          "end": 28,
+          "text": "that she may end up going %um to %uh",
+          "models": [
+            "semicrf"
+          ]
+        },
+        {
+          "start": 20,
+          "end": 29,
+          "text": "that she may end up going %um to %uh t-",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 20,
+          "end": 29,
+          "text": "that she may end up going %um to %uh t-",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 270,
+      "sentence": "but that 's what he said .",
+      "prd_word": "said",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 1,
+          "end": 1,
+          "text": "that",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 3,
+          "end": 3,
+          "text": "what",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "what",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 271,
+      "sentence": "but yeah if you just separate normally and you have n't served at least eight years , then you owe it .",
+      "prd_word": "separate",
+      "prd_idx": 6,
+      "label": "ARG0",
+      "span_mean": "entity causing separation",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 3,
+          "end": 3,
+          "text": "you",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 277,
+      "sentence": "did they do like %uh the same thing they had to do last time ?",
+      "prd_word": "do",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "thing done",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 5,
+          "end": 13,
+          "text": "the same thing they had to do last time",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "text": "the same thing",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 5,
+          "end": 13,
+          "text": "the same thing they had to do last time",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 280,
+      "sentence": "if this does happen and I do believe it may happen , %um you know we will have an agreement , she and I , you know ,",
+      "prd_word": "know",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 15,
+          "end": 19,
+          "text": "we will have an agreement",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 15,
+          "end": 23,
+          "text": "we will have an agreement , she and I",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 15,
+          "end": 19,
+          "text": "we will have an agreement",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 285,
+      "sentence": "if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .",
+      "prd_word": "mean",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "element containing meaning",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 8,
+          "end": 30,
+          "text": "and you 're not planning on coming back to the U S what are they going to do even if you do n't",
+          "models": [
+            "treecrf"
+          ]
+        },
+        {
+          "start": 0,
+          "end": 6,
+          "text": "if you 're in another country I",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 8,
+          "end": 30,
+          "text": "and you 're not planning on coming back to the U S what are they going to do even if you do n't",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 286,
+      "sentence": "it is as my husband says %uh , %uh al kadir the destiny .",
+      "prd_word": "says",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 6,
+          "end": 12,
+          "text": "%uh , %uh al kadir the destiny",
+          "models": [
+            "semicrf"
+          ]
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "text": "al kadir the destiny",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 9,
+          "end": 12,
+          "text": "al kadir the destiny",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 287,
+      "sentence": "just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before .",
+      "prd_word": "know",
+      "prd_idx": 12,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 14,
+          "end": 25,
+          "text": "most of them mom and dad had at least met once before",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 9,
+          "end": 9,
+          "text": "Who",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 291,
+      "sentence": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+      "prd_word": "know",
+      "prd_idx": 25,
+      "label": "ARG1",
+      "span_mean": "fact that is known",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 17,
+          "end": 22,
+          "text": "the little things I can tolerate",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": true,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 292,
+      "sentence": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+      "prd_word": "said",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 3,
+          "end": 29,
+          "text": "she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 29,
+          "text": "even if it was going to be in September , she said the little things I can tolerate you know if that happens you know",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 5,
+          "end": 29,
+          "text": "even if it was going to be in September , she said the little things I can tolerate you know if that happens you know",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 295,
+      "sentence": "oh I already told them all black",
+      "prd_word": "told",
+      "prd_idx": 4,
+      "label": "ARG2",
+      "span_mean": "Hearer",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 4,
+          "end": 4,
+          "text": "them",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 4,
+          "end": 5,
+          "text": "them all",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 296,
+      "sentence": "oh I already told them all black",
+      "prd_word": "told",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "match_type": "none",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "all black",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "black",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 306,
+      "sentence": "so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .",
+      "prd_word": "get",
+      "prd_idx": 19,
+      "label": "ARG2",
+      "span_mean": "destination",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 19,
+          "end": 21,
+          "text": "to a hotel",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 19,
+          "end": 25,
+          "text": "to a hotel or something like that",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 19,
+          "end": 21,
+          "text": "to a hotel",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        0
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 314,
+      "sentence": "which , %um , is kind of interesting considering that that 's not really my thing . . Indeed . Indeed . being an experimentalist , not a theorist .",
+      "prd_word": "considering",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "belief",
+      "match_type": "partial",
+      "score": 0.5,
+      "spans_a": [
+        {
+          "start": 9,
+          "end": 28,
+          "text": "that that 's not really my thing . . Indeed . Indeed . being an experimentalist , not a theorist",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 9,
+          "end": 15,
+          "text": "that that 's not really my thing",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "spans_b": [
+        {
+          "start": 9,
+          "end": 15,
+          "text": "that that 's not really my thing",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "matched_a_idx": [
+        1
+      ],
+      "matched_b_idx": [
+        0
+      ],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    },
+    {
+      "idx": 321,
+      "sentence": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+      "prd_word": "tried",
+      "prd_idx": 19,
+      "label": "ARG1",
+      "span_mean": "thing tried",
+      "match_type": "empty_b",
+      "score": 0.0,
+      "spans_a": [
+        {
+          "start": 19,
+          "end": 20,
+          "text": "my best",
+          "models": [
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ],
+      "spans_b": [],
+      "matched_a_idx": [],
+      "matched_b_idx": [],
+      "optional_a": false,
+      "optional_b": false,
+      "adjudicated_spans": null,
+      "adjudication_note": ""
+    }
+  ]
+}

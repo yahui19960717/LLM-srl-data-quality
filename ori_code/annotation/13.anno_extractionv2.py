@@ -174,6 +174,32 @@ def extract(aligned, grammar_filter_stats, file_a, file_b, name_1, name_2 ):
     }
 if __name__ == "__main__":
     base_dir = "anno"
+
+    # ## gold标注中o1mini认为错误的
+    # file_1 = os.path.join(base_dir, f"tc/annotation_tc_single_gold_201_wlj.json")
+    # file_2 = os.path.join(base_dir, f"tc/annotation_tc_single_gold_201_lyh.json")
+    # output = "analysis/tc/annotators_tc_single_gold_201.json"
+
+
+    
+    ## 大模型标注中o1mini认为正确的
+    # file_1 = os.path.join(base_dir, f"tc/annotation_tc_smallmodel_removerepeate_322_wlj.json")
+    # file_2 = os.path.join(base_dir, f"tc/annotation_tc_smallmodel_removerepeate_322_lyh.json")
+    # output = "analysis/tc/annotators_tc_smallmodel_removerepeate_322.json"
+
+    ## 大模型标注中o1mini认为错误但ds认为正确的
+    file_1 = os.path.join(base_dir, f"tc/annotation_tc_o1wrong_dsright_80_wlj.json")
+    file_2 = os.path.join(base_dir, f"tc/annotation_tc_o1wrong_dsright_80_lyh.json")
+    output = "analysis/tc/annotators_tc_o1wrong_dsright_80.json"
+
+
+    
+
+    
+
+
+    
+    ### 下面是bn的标注
     # file_1 = os.path.join(base_dir, f"annotations_wlj_smallmodel_163.json")
     # file_2 = os.path.join(base_dir, f"annotations_lyh_smallmodel_163.json")
     # output = "analysis/bn/annotators_analysis_smallmodel163.json"
@@ -214,9 +240,16 @@ if __name__ == "__main__":
     # output = "analysis/bn/annotators_analysis_smnotrecall_21.json"
 
     # small model not recall的，不在final corrected data中的label，大模型判断正确的 抽查
-    file_1 = os.path.join(base_dir, f"annotation_smnotrecallright_random30_wlj.json")
-    file_2 = os.path.join(base_dir, f"annotation_smnotrecallright_random30_lyh.json")
-    output = "analysis/bn/annotators_analysis_smnotrecallright_random30.json"
+    # file_1 = os.path.join(base_dir, f"annotation_smnotrecallright_random30_wlj.json")
+    # file_2 = os.path.join(base_dir, f"annotation_smnotrecallright_random30_lyh.json")
+    # output = "analysis/bn/annotators_analysis_smnotrecallright_random30.json"
+
+    # small model not recall的，不在final corrected data中的label，大模型判断正确的 其他110
+    # file_1 = os.path.join(base_dir, f"annotation_smnotrecallright_110_wlj.json")
+    # file_2 = os.path.join(base_dir, f"annotation_smnotrecallright_110_lyh.json")
+    # output = "analysis/bn/annotators_analysis_smnotrecallright_110.json"
+
+    
 
     file_wlj = read_json(file_1)
     file_lyh = read_json(file_2)

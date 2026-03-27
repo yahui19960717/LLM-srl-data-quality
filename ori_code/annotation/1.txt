@@ -1,0 +1,26 @@
+  读取文件: annotation_smallmodel_overlap_wlj_final.json
+数据个数为：179
+  读取文件: annotation_smnotrecall_21_wlj_final.json
+数据个数为：21
+  读取文件: annotation_smnotrecallright_110_wlj_final.json
+数据个数为：110
+  读取文件: annotation_smnotrecallright_random30_wlj_final.json
+数据个数为：30
+  读取文件: annotations_gold_llm_not_parse_wlj_final.json
+数据个数为：3
+  读取文件: annotations_single_gold_o1wrongdsright_93_wlj_final.json
+数据个数为：93
+  读取文件: annotations_single_gold_random_wlj_final.json
+数据个数为：30
+  读取文件: annotations_single_gold_wlj_final.json
+数据个数为：113
+  读取文件: annotations_wlj_smallmodel_163_final.json
+数据个数为：163
+
+总共读取了 742 条数据
+相同label，但不同批数据标注不同的instance个数：23,但目前已合并
+
+去重后有 650 条数据
+原始Golden数据条数为: 2132
+gold数据中总共有 2132 条记录，其中346条匹配上，标注错误的有 156 条，人工标注了多个候选的有 145 条，漏标注的有 148 条
+数据已保存到: /data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_bn_4llm_core_gold_errorandmiss.json

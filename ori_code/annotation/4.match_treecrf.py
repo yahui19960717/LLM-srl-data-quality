@@ -123,10 +123,10 @@ def get_treecrf_results(gold_data, treecrf, path_out):
 
 
 if __name__=="__main__":
-    domain = "bn"
-    gold_treecrf = read_treecrf(f"/data/ljwang/span-SRL-LLM/data/bn/test_{domain}_bii.conll")
+    domain = "tc" #bn"
+    gold_treecrf = read_treecrf(f"/data/ljwang/span-SRL-LLM/data/{domain}/test_{domain}_bii.conll")
     pred_treecrf = read_treecrf(f"/data/ljwang/span-SRL-LLM/treecrf/pred_test/nw/nw_{domain}.conll")
     treecrf = get_prd_labels_dic(gold_treecrf, pred_treecrf)
-    gold_semicrf =  read_json(f"final_data/test_{domain}_goldlabel_semicrflabel.conll")
-    path_out = f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll"
+    gold_semicrf =  read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel.conll")
+    path_out = f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll"
     get_treecrf_results(gold_semicrf, treecrf, path_out)

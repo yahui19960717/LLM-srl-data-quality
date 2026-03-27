@@ -52,10 +52,10 @@ def get_semicrf_results(gold_data, index_data, path):
 
 
 if __name__=="__main__":
-    domain = "bn"
+    domain = "tc" #bn"
     index_data = read_json(f"../../index_sen/nw/{domain}.test.json")
     gold_data = read_json(f"final_data/test_{domain}_goldlabel.conll")
-    path_out = f"final_data/test_{domain}_goldlabel_semicrflabel.conll"
+    path_out = f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel.conll"
     get_semicrf_results(gold_data, index_data, path_out)
     # core : 319, overlap : 1806
     #2125

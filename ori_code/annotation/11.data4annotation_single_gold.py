@@ -139,6 +139,7 @@ def deal_random_data(i1aidgold, all_data, fileout):
     print(len(new_data), choice_multi_temp3-choice_multi,  choice_1_temp_3-choice_1) 
     assert len(new_data)== len(i1aidgold)
     print(len(new_data), choice_multi, choice_1)
+    # random_new_data = new_data #random.sample(new_data, 30)
     random_new_data = random.sample(new_data, 30)
 
     # 根据sen排序,将相同的sen放在一起
@@ -167,7 +168,7 @@ def deal_random_data(i1aidgold, all_data, fileout):
         newest_data.append(new_instance)
 
 
-    
+    print(len(temp_dic))
     write_pickle(newest_data, fileout)
 
 
@@ -203,8 +204,51 @@ if __name__=="__main__":
     #deal_random_data(incorrect_both_o1mini_and_deepseek_smallmodel, all_data, fileout)
 
     # golden数据，大模型解析错误的
-    domain = "bn"
-    correct_o1mini_gold = read_json(f"final_data/test_bn_4llm_core_gold_not_parse.json")
-    all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
-    fileout = f"anno/bn_annotation_gold_llm_not_parse.pkl"
-    deal_random_data(correct_o1mini_gold, all_data, fileout)
+    #domain = "bn"
+    #correct_o1mini_gold = read_json(f"final_data/test_bn_4llm_core_gold_not_parse.json")
+    #all_data = read_json(f"final_data/test_{domain}_goldlabel_semicrflabel_treecrflabel_highprob_0.8.conll")
+    #fileout = f"anno/bn_annotation_gold_llm_not_parse.pkl"
+    #deal_random_data(correct_o1mini_gold, all_data, fileout)
+
+    # golden数据，大模型解析错误的
+    #domain = "tc"
+    #correct_o1mini_gold = read_json(f"final_data/{domain}/test_{domain}_4llm_core_gold_not_parse.json")
+    #all_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    #fileout = f"anno/{domain}/annotation_{domain}_gold_llm_not_parse.pkl"
+    #deal_random_data(correct_o1mini_gold, all_data, fileout)
+
+    # tc golden数据，o1判断为正确的，随机抽查30
+    #domain = "tc"
+    #correct_o1mini_gold = read_json(f"llm/{domain}/correct_data_{domain}_gold.json")
+    #all_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    #fileout = f"anno/{domain}/annotation_{domain}_gold_o1right_random30.pkl"
+    #deal_random_data(correct_o1mini_gold, all_data, fileout)
+    
+    # tc 小模型产出数据，o1判断为错误的，随机抽查30
+    #domain = "tc"
+    #correct_o1mini_gold = read_json(f"llm/{domain}/incorrect_data_{domain}_smallmodel.json")
+    #all_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    #fileout = f"anno/{domain}/annotation_{domain}_smallmodel_o1wrong_random30.pkl"
+    #deal_random_data(correct_o1mini_gold, all_data, fileout)
+
+    # domain = "tc"
+    # correct_o1mini_gold = read_json(f"llm/{domain}/correct_data_{domain}_smnotrecall_filter.json")
+    # all_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    # fileout = f"anno/{domain}/annotation_{domain}_smnnotrecall_filter84.pkl"
+    # deal_random_data(correct_o1mini_gold, all_data, fileout)
+
+    # # tc中小模型产出o1认为错误，但ds认为正确
+    # domain = "tc"
+    # correct_o1mini_gold = read_json(f"llm/{domain}/correct_data_{domain}_gold_deepseek.json")
+    # all_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    # fileout = f"anno/{domain}/annotation_{domain}_o1wrong_dpright_{len(correct_o1mini_gold)}.pkl"
+    # deal_random_data(correct_o1mini_gold, all_data, fileout)
+    # print(fileout)
+
+    # tc中小模型产出o1认为错误，但ds认为正确
+    domain = "tc"
+    incorrect_o1mini_dsright_sm = read_json(f"llm/{domain}/incorrect_data_{domain}_gold_deepseek.json")
+    all_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll")
+    fileout = f"anno/{domain}/annotation_{domain}_o1wrong_dswrong_random30.pkl"
+    deal_random_data(incorrect_o1mini_dsright_sm, all_data, fileout)
+    print(fileout)

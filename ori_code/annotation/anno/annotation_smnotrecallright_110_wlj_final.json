@@ -1,0 +1,2717 @@
+{
+  "annotations": [
+    {
+      "idx": 1,
+      "sentence": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+      "prd_word": "charged",
+      "prd_idx": 21,
+      "label": "ARG1",
+      "span_mean": "assigned",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:45:11.335395",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 16,
+          "text": "Abdel Basset Ali Al - megrahi",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 2,
+      "sentence": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+      "prd_word": "decision",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-22T17:30:38.868025",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "aquittal",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 3,
+      "sentence": "Along with the picture , the flight attendant wrote a letter saying she was praying for Jack 's safe return .",
+      "prd_word": "praying",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "prayer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:47:27.268330",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 19,
+          "text": "for Jack 's safe return",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 5,
+      "sentence": "Arafat deliberately launched it in order to attract the attention of the world by paying with the blood of his own people .",
+      "prd_word": "paying",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "money or attention",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:47:55.933915",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 21,
+          "text": "with the blood of his own people",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 6,
+      "sentence": "As Dave Gavlak reports , the US Cole was towed out of the Aden Harbor to a waiting Norwegian transport ship , that will actually carry the damaged destroyer home .",
+      "prd_word": "towed",
+      "prd_idx": 10,
+      "label": "ARG2",
+      "span_mean": "DIR, GOL or attribute of arg1",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:50:03.121077",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 15,
+          "end": 29,
+          "text": "to a waiting Norwegian transport ship , that will actually carry the damaged destroyer home",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "text": "to a waiting Norwegian transport ship",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 7,
+      "sentence": "As much as I 'd love to spend every day after school sucking up to teachers instead of hanging with my friends , I do n't want this job .",
+      "prd_word": "sucking",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "entity sucked",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:50:33.676697",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "to teachers",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 15,
+          "end": 15,
+          "text": "teachers",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 10,
+      "sentence": "Brian , if for some reason the Secretary of State would n't accept by the 26th , the certification , it could be certified elsewhere .",
+      "prd_word": "accept",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "thing accepted",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:52:12.072164",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 18,
+          "text": "the certification",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 11,
+      "sentence": "Coming to a retailer near you , PlayStation pandemonium .",
+      "prd_word": "Coming",
+      "prd_idx": 1,
+      "label": "ARG1",
+      "span_mean": "entity in motion / 'comer'",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:52:50.062927",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "PlayStation pandemonium",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 12,
+      "sentence": "Deputy Defense Minister Irfan Sneh said this week Israel now has a policy of tracking down Palestinians who attack Israelis .",
+      "prd_word": "tracking",
+      "prd_idx": 15,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:53:39.767547",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "Israel",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 13,
+      "sentence": "Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .",
+      "prd_word": "stretched",
+      "prd_idx": 9,
+      "label": "ARG4",
+      "span_mean": "end point",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:57:40.366227",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 14,
+      "sentence": "Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .",
+      "prd_word": "stretched",
+      "prd_idx": 9,
+      "label": "ARG2",
+      "span_mean": "EXT or TMP, by how much or until when",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:57:44.406213",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 11,
+          "text": "to their limit",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 16,
+      "sentence": "Give us your insights as to what you think the future holds .",
+      "prd_word": "holds",
+      "prd_idx": 12,
+      "label": "ARG0",
+      "span_mean": "container, possessor, influencer",
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-21T13:58:12.062006",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 10,
+          "text": "the future",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 17,
+      "sentence": "He sat out 1 term after losing a U.S Senate race in the 1960s , but for 24 terms , Yates represented Chicago 's northern lake front and northern suburbs .",
+      "prd_word": "race",
+      "prd_idx": 11,
+      "label": "ARG3",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T13:59:07.812225",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "U.S Senate",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 7,
+          "end": 9,
+          "text": "a U.S Senate",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 18,
+      "sentence": "He still trails far behind the hard line Likud Party leader Ariel Sharon in the opinion polls .",
+      "prd_word": "trails",
+      "prd_idx": 3,
+      "label": "ARG0",
+      "span_mean": "thing following",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:01:04.805997",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "He",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 19,
+      "sentence": "His brutal efforts to create a Serb - dominated Yugoslavia earned him the nickname `` Butcher of the Balkans . ''",
+      "prd_word": "dominated",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": "dominator",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:01:36.064182",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "Serb",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 20,
+      "sentence": "Hundreds of stone - throwing Palestinians stormed the Israeli - controlled section of Hebron , breaking a curfew imposed since the outbreak of the unrest last month .",
+      "prd_word": "controlled",
+      "prd_idx": 11,
+      "label": "ARG0",
+      "span_mean": "controller",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:02:22.412838",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "Israeli",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 21,
+      "sentence": "Hundreds of stone - throwing Palestinians stormed the Israeli - controlled section of Hebron , breaking a curfew imposed since the outbreak of the unrest last month .",
+      "prd_word": "throwing",
+      "prd_idx": 5,
+      "label": "ARG0",
+      "span_mean": "thrower",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:02:34.498383",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "Palestinians",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 22,
+      "sentence": "Hundreds of stone - throwing Palestinians stormed the Israeli - controlled section of Hebron , breaking a curfew imposed since the outbreak of the unrest last month .",
+      "prd_word": "throwing",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "thing thrown",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:02:40.874310",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "stone",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 23,
+      "sentence": "I 'm flipping through the summary of enacts because that is not important .",
+      "prd_word": "flipping",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "thing flipped",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:03:04.009417",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "the summary of enacts",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 24,
+      "sentence": "I mean if Christy Whitman and the White House were on the same page , I do n't think I 've seen a book large enough to contain a page that big .",
+      "prd_word": "mean",
+      "prd_idx": 2,
+      "label": "ARG1",
+      "span_mean": "element containing meaning",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:03:30.478131",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 31,
+          "text": "if Christy Whitman and the White House were on the same page , I do n't think I 've seen a book large enough to contain a page that big",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 26,
+      "sentence": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+      "prd_word": "did",
+      "prd_idx": 18,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-21T14:03:39.577561",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 18,
+          "text": "he",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 27,
+      "sentence": "I think Ozzy 's the guy that hit a head of a bat , you know ?",
+      "prd_word": "know",
+      "prd_idx": 16,
+      "label": "ARG0",
+      "span_mean": "knower",
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-21T14:03:47.586121",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 14,
+          "text": "you",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 28,
+      "sentence": "I think a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street .",
+      "prd_word": "take",
+      "prd_idx": 33,
+      "label": "ARG1",
+      "span_mean": "thing taken",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:07:54.569283",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 33,
+          "end": 62,
+          "text": "a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 33,
+          "end": 35,
+          "text": "a new look",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 29,
+      "sentence": "I think there are a number of other measures that indicate how well somebody 's doing running a company , and I think corporation boards need to spend more time on that dimension .",
+      "prd_word": "running",
+      "prd_idx": 17,
+      "label": "ARG0",
+      "span_mean": "operator",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:08:10.170396",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 13,
+          "text": "somebody",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 30,
+      "sentence": "I was n't in a position that my dear friend was in when he was killed outside Bagdad airport but I had long thought and I was in Iraq in the previous war that really all the talk that had been about the rush to war , the push for war , the drive for war , all that propaganda , was essentially nonsensical because in 1990 , Saddam Hussein made the only self criticism .",
+      "prd_word": "thought",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": "Thought",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:09:12.431974",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 33,
+          "end": 74,
+          "text": "that really all the talk that had been about the rush to war , the push for war , the drive for war , all that propaganda , was essentially nonsensical because in 1990 , Saddam Hussein made the only self criticism",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 32,
+      "sentence": "If the workers do n't approve the steep cutbacks American says it will file for bankruptcy .",
+      "prd_word": "file",
+      "prd_idx": 14,
+      "label": "ARG4",
+      "span_mean": "purpose of filing",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:09:51.727854",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "for bankruptcy",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 33,
+      "sentence": "In October of 1985 , four hijackers under his command took over the Italian cruise ship `` Achille Lauro '' and killed a wheelchair - bound American tourist , Leo Klinghoffer .",
+      "prd_word": "bound",
+      "prd_idx": 26,
+      "label": "ARG2",
+      "span_mean": "bound to what",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:10:20.333212",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 23,
+          "end": 23,
+          "text": "wheelchair",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "text": "a wheelchair",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 34,
+      "sentence": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
+      "prd_word": "diagnosed",
+      "prd_idx": 40,
+      "label": "ARG1",
+      "span_mean": "patient",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:11:24.468159",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "he",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 35,
+      "sentence": "Index Theater is planning a huge comeback now with a series of shows in Belgrade , but even though Milosevic is under de facto house arrest in Belgrade , he is very much present on the repertoire of political humors , says his impersonator , Dragewbo Yubitrich .",
+      "prd_word": "says",
+      "prd_idx": 42,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-22T17:42:31.936935",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 39,
+          "text": "even though Milosevic is under de facto house arrest in Belgrade , he is very much present on the repertoire of political humors",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 36,
+      "sentence": "Interestingly enough she is quoted as telling General Sanholi back to the US that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel .",
+      "prd_word": "reception",
+      "prd_idx": 24,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:15:52.715509",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 14,
+          "text": "she",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 37,
+      "sentence": "Iraqi leader Saddam Hussein has given a defiant speech to mark the tenth anniversary of the Gulf War .",
+      "prd_word": "mark",
+      "prd_idx": 11,
+      "label": "ARG0",
+      "span_mean": "signifier",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:18:38.635714",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 8,
+          "text": "a defiant speech",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 38,
+      "sentence": "Is that the way you 're going to operate ?",
+      "prd_word": "operate",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": "agent, operator",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:18:54.340570",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 4,
+          "text": "you",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 39,
+      "sentence": "It also got past the puppies ' protective father .",
+      "prd_word": "got",
+      "prd_idx": 3,
+      "label": "ARG1",
+      "span_mean": "thing in motion",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:19:13.780041",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "It",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 40,
+      "sentence": "It apparently left no lasting impression .",
+      "prd_word": "lasting",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "thing that lasts",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:19:39.256048",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "impression",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 43,
+      "sentence": "It is difficult to say , Arab 's summit have traditionally been exercises in division .",
+      "prd_word": "exercises",
+      "prd_idx": 13,
+      "label": "ARG1",
+      "span_mean": "thing used, thing exercised",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:21:12.052088",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 14,
+          "text": "in division",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 45,
+      "sentence": "It looks so out of place .",
+      "prd_word": "looks",
+      "prd_idx": 2,
+      "label": "ARG0",
+      "span_mean": "seemer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:21:28.945431",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "It",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 46,
+      "sentence": "It was the last of several speeches he has made in recent weeks to his backers across the country .",
+      "prd_word": "speeches",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:21:50.119876",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "he",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 47,
+      "sentence": "James Drummond , covering the Arab summit in Cairo for the Financial Times .",
+      "prd_word": "covering",
+      "prd_idx": 4,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:27:44.153466",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 48,
+      "sentence": "James Drummond , covering the Arab summit in Cairo for the Financial Times .",
+      "prd_word": "summit",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "one party",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:28:00.474287",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "Arab",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 52,
+      "sentence": "Kids are spending $ 50 to $ 70 , you know , a pop on these games .",
+      "prd_word": "know",
+      "prd_idx": 11,
+      "label": "ARG0",
+      "span_mean": "knower",
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-21T14:28:11.508346",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 9,
+          "text": "you",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 53,
+      "sentence": "Late Thursday , Mr. Barak invited Likud opposition leader Ariel Sharon to join him in a government of national emergency .",
+      "prd_word": "join",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "second thing, tied to what",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-22T17:49:17.261965",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 19,
+          "text": "in a government of national emergency",
+          "models": [
+            "treecrf"
+          ]
+        },
+        {
+          "start": 15,
+          "end": 19,
+          "text": "a government of national emergency",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 54,
+      "sentence": "Lead singer Amidu Berry says New York producers make hip - hop in any language come out sounding right .",
+      "prd_word": "come",
+      "prd_idx": 16,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:30:52.653986",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 18,
+          "text": "sounding right",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 55,
+      "sentence": "Lead singer Amidu Berry says New York producers make hip - hop in any language come out sounding right .",
+      "prd_word": "sounding",
+      "prd_idx": 18,
+      "label": "ARG2",
+      "span_mean": "attribute of arg1",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:31:26.254500",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 18,
+          "text": "right",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 56,
+      "sentence": "Mistakes made then , mistakes part of human experience , but now we have an opportunity not to make mistakes .",
+      "prd_word": "experience",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": "experiencer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:31:56.939849",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "human",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 57,
+      "sentence": "Most significant , demonstrators who had been throwing stones this week , today turned to gasoline bombs .",
+      "prd_word": "turned",
+      "prd_idx": 14,
+      "label": "ARG2",
+      "span_mean": "end state",
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-21T14:33:20.579784",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 16,
+          "text": "to gasoline bombs",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 61,
+      "sentence": "Nicky and Allison also have cerebral palsy , and their visit to Nickelodeon coincides with the network 's debut of `` Pelswick , '' an animated series about a 13 - year - old boy in a wheelchair .",
+      "prd_word": "animated",
+      "prd_idx": 26,
+      "label": "ARG1",
+      "span_mean": "cartoon",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:35:53.369334",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 26,
+          "end": 26,
+          "text": "series",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 21,
+          "end": 21,
+          "text": "Pelswick",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 62,
+      "sentence": "No telling how long the Osbourne phenomenon may last but the family 's loyal following will always be screaming for more .",
+      "prd_word": "last",
+      "prd_idx": 9,
+      "label": "ARG2",
+      "span_mean": "period of time",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:36:11.699923",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 3,
+          "text": "how long",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 63,
+      "sentence": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+      "prd_word": "recall",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "memory",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:39:17.752181",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 15,
+          "text": "the bombing of the US Marine barracks in Lebanon in 1983",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 65,
+      "sentence": "Ozzy Osbourne 's life filled with incredible highs crashing into devastating lows .",
+      "prd_word": "crashing",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "entity crashed",
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-21T14:41:25.494003",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "Ozzy Osbourne 's life",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 66,
+      "sentence": "Palestinians say Israeli rocket fire hit a police post and killed at least one Palestinian security officer .",
+      "prd_word": "hit",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "instrument, thing hit by or with",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:41:57.007713",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 4,
+          "text": "Israeli rocket fire",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 67,
+      "sentence": "President Clinton and Prime Minister Hasina agreed that it is essential for the US and Bangladesh to coordinate positions on major issues , that come before the United Nations and other international bodies .",
+      "prd_word": "come",
+      "prd_idx": 25,
+      "label": "ARG4",
+      "span_mean": "end point",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:42:52.742881",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 68,
+      "sentence": "Reaction in Libya , where many followed the trial , mixed .",
+      "prd_word": "followed",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "acceptor, pursuer",
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-21T14:43:28.448482",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 5,
+          "text": "many",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 69,
+      "sentence": "Regarding the United States ' attitude in this regard , we find that the United States until now are supporting Israel .",
+      "prd_word": "Regarding",
+      "prd_idx": 1,
+      "label": "ARG1",
+      "span_mean": "thing described",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:43:56.476350",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 8,
+          "text": "the United States ' attitude in this regard",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 70,
+      "sentence": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+      "prd_word": "deals",
+      "prd_idx": 45,
+      "label": "ARG2",
+      "span_mean": "subject/type of transaction",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:44:29.310721",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 43,
+          "end": 43,
+          "text": "arms",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 71,
+      "sentence": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+      "prd_word": "influence",
+      "prd_idx": 5,
+      "label": "ARG0",
+      "span_mean": "influencer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:44:39.551703",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Russia",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 72,
+      "sentence": "Russian and Norwegian divers searched the fourth compartment of the wrecked submarine Kursk , Sunday , but they found too much damage to proceed with the task of recovering bodies .",
+      "prd_word": "proceed",
+      "prd_idx": 24,
+      "label": "ARG0",
+      "span_mean": "causer of continuing event",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:45:13.034369",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 17,
+          "text": "they",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 73,
+      "sentence": "Saddam Hussein addressed the nation in a speech filled with rhetoric and a declaration of victory .",
+      "prd_word": "addressed",
+      "prd_idx": 3,
+      "label": "ARG2",
+      "span_mean": "hearer/recipient",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:45:24.217631",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "the nation",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 74,
+      "sentence": "Security was tight as the ship was towed out .",
+      "prd_word": "towed",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "DIR, GOL or attribute of arg1",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:46:30.990174",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "out",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 75,
+      "sentence": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+      "prd_word": "got",
+      "prd_idx": 26,
+      "label": "ARG2",
+      "span_mean": "destination",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:46:50.403433",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 26,
+          "end": 29,
+          "text": "where he was going",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 76,
+      "sentence": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+      "prd_word": "going",
+      "prd_idx": 30,
+      "label": "ARG0",
+      "span_mean": "goer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:46:58.811821",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 27,
+          "end": 27,
+          "text": "he",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 77,
+      "sentence": "Should have taken the side of the rebels then , taken the risk of supporting a Shiite insurrection at that point , helping the Kurds , removing the regime .",
+      "prd_word": "helping",
+      "prd_idx": 23,
+      "label": "ARG2",
+      "span_mean": "benefactive, secondary agent  (when separate from arg1)",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:47:08.854032",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 23,
+          "end": 24,
+          "text": "the Kurds",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 78,
+      "sentence": "Since then this relationship has grown in importance to us both through good times and bad .",
+      "prd_word": "grown",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": "amount increased by, EXT or MNR",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:47:36.614889",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 10,
+          "text": "in importance to us both",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "text": "in importance",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 79,
+      "sentence": "So before they say it is a white man tangle you know it 's because of a white man that this happens and they got to , you know , check around and they say who is the real guilty .",
+      "prd_word": "know",
+      "prd_idx": 29,
+      "label": "ARG0",
+      "span_mean": "knower",
+      "type": "the label of small model not recall",
+      "optional": true,
+      "timestamp": "2026-03-21T14:47:45.587345",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 27,
+          "end": 27,
+          "text": "you",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 80,
+      "sentence": "Some other western leaders are not convinced that a price cap will solve the problem .",
+      "prd_word": "solve",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "manner, the solution itself",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:48:19.220635",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "a price cap",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 81,
+      "sentence": "Soon after , one of the family 's three chickens flew the coop and took up residence in the crate built especially for the puppies .",
+      "prd_word": "built",
+      "prd_idx": 21,
+      "label": "ARG3",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:49:01.606169",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 82,
+      "sentence": "Thanks , Christopher .",
+      "prd_word": "Thanks",
+      "prd_idx": 1,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:49:35.644475",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 2,
+          "end": 2,
+          "text": "Christopher",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 83,
+      "sentence": "Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash .",
+      "prd_word": "Thanks",
+      "prd_idx": 1,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:50:10.971931",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 18,
+          "text": "for the trial of the Lockerbie 103 Pan Am crash",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 86,
+      "sentence": "The Bush team , responding quickly saying there would not be such support and that in that scenario Gore could only be seen as a sore loser .",
+      "prd_word": "responding",
+      "prd_idx": 5,
+      "label": "ARG2",
+      "span_mean": "answer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:50:32.223559",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 26,
+          "text": "saying there would not be such support and that in that scenario Gore could only be seen as a sore loser",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 88,
+      "sentence": "The Indonesian billionaire James Riady has agreed to pay $ 8.5 million and plead guilty to illegally donating money for Bill Clinton 's 1992 presidential campaign .",
+      "prd_word": "donating",
+      "prd_idx": 18,
+      "label": "ARG2",
+      "span_mean": "entity given to",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:52:18.734757",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 25,
+          "text": "for Bill Clinton 's 1992 presidential campaign",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 89,
+      "sentence": "The United States has issued a worldwide caution to Americans warning of possible terrorist threats .",
+      "prd_word": "caution",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "Hearer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:52:43.949396",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "to Americans",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 90,
+      "sentence": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
+      "prd_word": "stopped",
+      "prd_idx": 37,
+      "label": "ARG4",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:53:18.133075",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 91,
+      "sentence": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+      "prd_word": "opposed",
+      "prd_idx": 54,
+      "label": "ARG1",
+      "span_mean": "thing opposed to",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:53:49.502616",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 54,
+          "end": 80,
+          "text": "to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 92,
+      "sentence": "The bottom line , this court rules unanimously the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26 .",
+      "prd_word": "have",
+      "prd_idx": 15,
+      "label": "ARG0",
+      "span_mean": "causer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:54:56.025716",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": "the people",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 93,
+      "sentence": "The bottom line , this court rules unanimously the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26 .",
+      "prd_word": "amended",
+      "prd_idx": 25,
+      "label": "ARG2",
+      "span_mean": "secondary predication on arg1",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:55:39.981114",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 26,
+          "end": 30,
+          "text": "to include the hand counts",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 94,
+      "sentence": "The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .",
+      "prd_word": "success",
+      "prd_idx": 20,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:56:56.031333",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 20,
+          "end": 30,
+          "text": "in getting congress to finance for national endowment for the art",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 95,
+      "sentence": "The federal government will not appeal the court ruling that cleared the way for same - sex unions .",
+      "prd_word": "cleared",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "thing made clean",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:57:09.602196",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 17,
+          "text": "the way for same - sex unions",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 11,
+          "end": 12,
+          "text": "the way",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 98,
+      "sentence": "The report shows the nation 's tight job market is loosening up a bit , but still unemployment is near a 30 - year low .",
+      "prd_word": "loosening",
+      "prd_idx": 11,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:58:10.054870",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 99,
+      "sentence": "The ship was there for refueling .",
+      "prd_word": "refueling",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "entity refueled",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:58:32.599212",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "The ship",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 100,
+      "sentence": "The show came back with a vengeance last fall chronicling Ozzy and Sharon dealing with cancer and the kids coping with new - found celebrity and one of the top rated shows .",
+      "prd_word": "rated",
+      "prd_idx": 31,
+      "label": "ARG2",
+      "span_mean": "value, worth, grade",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:59:33.332164",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 29,
+          "end": 29,
+          "text": "top",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 101,
+      "sentence": "They 're asking the Supreme Court to block tonight 's scheduled execution of Delma Banks .",
+      "prd_word": "scheduled",
+      "prd_idx": 11,
+      "label": "ARG3",
+      "span_mean": "time of event",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T14:59:56.584838",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "tonight",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 102,
+      "sentence": "They goes in there and nuzzles with the puppies , or lays her eggs and sits there with the mother .",
+      "prd_word": "sits",
+      "prd_idx": 16,
+      "label": "ARG2",
+      "span_mean": "location or position",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:00:13.629951",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 16,
+          "end": 16,
+          "text": "there",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 103,
+      "sentence": "They goes in there and nuzzles with the puppies , or lays her eggs and sits there with the mother .",
+      "prd_word": "goes",
+      "prd_idx": 2,
+      "label": "ARG0",
+      "span_mean": "goer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:00:20.822789",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 104,
+      "sentence": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+      "prd_word": "declared",
+      "prd_idx": 6,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:01:08.944690",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "for its stockholders",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 105,
+      "sentence": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+      "prd_word": "declared",
+      "prd_idx": 6,
+      "label": "ARG3",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:01:37.302357",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 106,
+      "sentence": "They leave no other way for us but to respond with fire , we 'll have to do this .",
+      "prd_word": "respond",
+      "prd_idx": 10,
+      "label": "ARG0",
+      "span_mean": "replier",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-22T18:03:42.769668",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 6,
+          "text": "us",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 13,
+          "end": 13,
+          "text": "we",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 107,
+      "sentence": "They leave no other way for us but to respond with fire , we 'll have to do this .",
+      "prd_word": "respond",
+      "prd_idx": 10,
+      "label": "ARG2",
+      "span_mean": "answer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:02:27.403876",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 11,
+          "text": "with fire",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 109,
+      "sentence": "They say , Okay , we have lost this round , Do you mind if we keep your helicopters in the air just to be able to transport things ? and he says , Yeah , that 's all right .",
+      "prd_word": "keep",
+      "prd_idx": 17,
+      "label": "ARG1",
+      "span_mean": "continued entity",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:02:48.409429",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 17,
+          "end": 18,
+          "text": "your helicopters",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 110,
+      "sentence": "They say , Okay , we have lost this round , Do you mind if we keep your helicopters in the air just to be able to transport things ? and he says , Yeah , that 's all right .",
+      "prd_word": "keep",
+      "prd_idx": 17,
+      "label": "ARG2",
+      "span_mean": "continued state or action",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:02:54.996575",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 21,
+          "text": "in the air",
+          "models": [
+            "semicrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 111,
+      "sentence": "They say the plane took off , clicking the construction equipment , slamming into the ground and then breaking up .",
+      "prd_word": "slamming",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": "instrument, thing hit by or with",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-22T18:07:56.859391",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 112,
+      "sentence": "This connection to national and musical identities results partly from the fact that many Senegalese artists want to stay in Senegal to live and work says PBS singer Tidia Awadi .",
+      "prd_word": "says",
+      "prd_idx": 26,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:04:35.378496",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 24,
+          "text": "This connection to national and musical identities results partly from the fact that many Senegalese artists want to stay in Senegal to live and work",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 113,
+      "sentence": "This is Mr. Clinton 's third visit to Northern Ireland , and the Irish Republic to do what he can to generate a lasting peace .",
+      "prd_word": "generate",
+      "prd_idx": 22,
+      "label": "ARG0",
+      "span_mean": "creator",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:05:15.462505",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 18,
+          "end": 18,
+          "text": "he",
+          "models": [
+            "treecrf"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "text": "Mr. Clinton",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 114,
+      "sentence": "To those who attacked them , we say you will not find a safe harbor , we will find you and justice will prevail .",
+      "prd_word": "prevail",
+      "prd_idx": 24,
+      "label": "ARG0",
+      "span_mean": "winner",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:05:50.866411",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 21,
+          "end": 21,
+          "text": "justice",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 115,
+      "sentence": "To those who attacked them , we say you will not find a safe harbor , we will find you and justice will prevail .",
+      "prd_word": "say",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "Hearer",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:06:33.381365",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "To those who attacked them",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 116,
+      "sentence": "Today Gao , who now lives in France , gave the traditional Nobel lecture as part of the festivities leading up to Sunday 's ceremony , and on the same day he collects the prize .",
+      "prd_word": "leading",
+      "prd_idx": 20,
+      "label": "ARG0",
+      "span_mean": "factors",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:08:36.013804",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 118,
+      "sentence": "UN Secretary General Kofi Annan who is leading mediation efforts in the Middle East urged Palestinians and Israelis , Thursday to show restraint .",
+      "prd_word": "urged",
+      "prd_idx": 15,
+      "label": "ARG2",
+      "span_mean": "impelled action",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:09:18.060039",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 20,
+          "end": 22,
+          "text": "to show restraint",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 120,
+      "sentence": "USAirways is flying its way out of bankruptcy .",
+      "prd_word": "flying",
+      "prd_idx": 3,
+      "label": "ARG0",
+      "span_mean": "pilot, agentive entity capable of flight (like a bird)",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:09:52.320671",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "USAirways",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 122,
+      "sentence": "We are also including the undervotes of 10,000 in Palm Beach and junt votes of 10,000 in Miami - Dade as well .",
+      "prd_word": "votes",
+      "prd_idx": 14,
+      "label": "ARG2",
+      "span_mean": "numerical count of vote, margin, down/up",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:10:15.604309",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 15,
+          "text": "of 10,000",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 124,
+      "sentence": "We are still in crisis and we will be I think for a while , but the current crisis Jonetic hopes will at least be one where government critics will not be branded as traitors and be banned from public performances .",
+      "prd_word": "hopes",
+      "prd_idx": 21,
+      "label": "ARG0",
+      "span_mean": "hoper",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:11:42.941039",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 19,
+          "end": 19,
+          "text": "Jonetic",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 125,
+      "sentence": "We have a major development to report tonight involving the crash of that Singapore Airlines 747 in Taiwan this week .",
+      "prd_word": "report",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "Reporter",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:12:03.128177",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "We",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 126,
+      "sentence": "We have a vibrant and exciting relationship from which we both derive mass benefit .",
+      "prd_word": "derive",
+      "prd_idx": 12,
+      "label": "ARG2",
+      "span_mean": "source",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-22T18:10:49.599559",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 8,
+          "text": "from which",
+          "models": [
+            "gold"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "text": "a vibrant and exciting relationship",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 6,
+          "end": 6,
+          "text": "relationship",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 127,
+      "sentence": "Welcome to another hour of news and information here on the Voice of America .",
+      "prd_word": "Welcome",
+      "prd_idx": 1,
+      "label": "ARG2",
+      "span_mean": "welcomed to",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:13:21.822047",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 13,
+          "text": "to another hour of news and information here on the Voice of America",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 129,
+      "sentence": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+      "prd_word": "move",
+      "prd_idx": 8,
+      "label": "ARG2",
+      "span_mean": "destination",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:13:38.181639",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "text": "toward Bagdad",
+          "models": [
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 130,
+      "sentence": "While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war .",
+      "prd_word": "production",
+      "prd_idx": 41,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:15:02.077833",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 38,
+          "end": 39,
+          "text": "biological weapons",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        },
+        {
+          "start": 37,
+          "end": 39,
+          "text": "mobile biological weapons",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    },
+    {
+      "idx": 132,
+      "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+      "prd_word": "dispatched",
+      "prd_idx": 10,
+      "label": "ARG4",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:15:38.245908",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [],
+      "has_custom": false
+    },
+    {
+      "idx": 133,
+      "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+      "prd_word": "dispatched",
+      "prd_idx": 10,
+      "label": "ARG2",
+      "span_mean": "dispatched to",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:15:46.523729",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 14,
+          "text": "to Yemen",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 135,
+      "sentence": "Witnesses said Israeli soldiers fired live ammunition and rubber - coated metal bullets , wounding at least seven people .",
+      "prd_word": "coated",
+      "prd_idx": 11,
+      "label": "ARG2",
+      "span_mean": "covering, coat",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:16:29.905316",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "rubber",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 136,
+      "sentence": "Witnesses say the shots came from the Palestinian international airport .",
+      "prd_word": "came",
+      "prd_idx": 5,
+      "label": "ARG3",
+      "span_mean": "start point",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:16:42.615127",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 9,
+          "text": "from the Palestinian international airport",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 138,
+      "sentence": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+      "prd_word": "compensation",
+      "prd_idx": 13,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:17:39.717948",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 11,
+          "text": "CEO",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 139,
+      "sentence": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+      "prd_word": "compensation",
+      "prd_idx": 9,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:18:19.072547",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 7,
+          "end": 7,
+          "text": "executive",
+          "models": [
+            "gold"
+          ]
+        }
+      ],
+      "has_custom": false
+    },
+    {
+      "idx": 140,
+      "sentence": "`` Iraq has triumphed over its enemies , '' he said , `` and it will triumph in the remaining rounds of the battle . ''",
+      "prd_word": "said",
+      "prd_idx": 11,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "the label of small model not recall",
+      "optional": false,
+      "timestamp": "2026-03-21T15:18:53.180854",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 1,
+          "end": 6,
+          "text": "Iraq has triumphed over its enemies",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        },
+        {
+          "start": 13,
+          "end": 23,
+          "text": "and it will triumph in the remaining rounds of the battle",
+          "models": [
+            "自定义"
+          ]
+        }
+      ],
+      "has_custom": true
+    }
+  ],
+  "last_index": 100
+}
