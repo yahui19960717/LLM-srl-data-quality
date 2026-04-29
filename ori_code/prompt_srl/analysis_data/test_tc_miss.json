@@ -1,0 +1,4162 @@
+[
+  {
+    "idx": 1,
+    "sen": "%ah , you know I would n't trust it because it 's so complicated with this international garbage or else the Turbo Tax with the Dutch modules . that I just would n't trust it .",
+    "prd_word": "trust",
+    "prd_idx": 34,
+    "label": "ARG0",
+    "span_mean": "truster",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 29,
+        "end": 29,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 2,
+    "sen": "%eh %eh You know , %um Well , she said that she was .",
+    "prd_word": "said",
+    "prd_idx": 10,
+    "label": "ARG0",
+    "span_mean": "Sayer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "she",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 3,
+    "sen": "%uh , and mom said ,",
+    "prd_word": "said",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "Sayer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "mom",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 4,
+    "sen": "%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,",
+    "prd_word": "mean",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 21,
+        "text": "if they denied my citizenship and I became a citizen here I probably would n't be a horror either",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 5,
+    "sen": "%uh but it 's a lot less expensive if we do it that way than if we actually make my parents in law pay it ,",
+    "prd_word": "make",
+    "prd_idx": 19,
+    "label": "ARG0",
+    "span_mean": "impeller to action",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 16,
+        "end": 16,
+        "text": "we",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 6,
+    "sen": "%uh but it 's a lot less expensive if we do it that way than if we actually make my parents in law pay it ,",
+    "prd_word": "pay",
+    "prd_idx": 24,
+    "label": "ARG0",
+    "span_mean": "payer or buyer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 19,
+        "end": 22,
+        "text": "my parents in law",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 7,
+    "sen": "%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .",
+    "prd_word": "want",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "Wanter",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 8,
+    "sen": "%um , %um , but you know I feel very at peace about everything .",
+    "prd_word": "know",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 13,
+        "text": "I feel very at peace about everything",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 9,
+    "sen": "%um , and it got back to about eighty percent .",
+    "prd_word": "got",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "thing in motion",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "it",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 10,
+    "sen": "%um , and it got back to about eighty percent .",
+    "prd_word": "got",
+    "prd_idx": 5,
+    "label": "ARG4",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 13,
+    "sen": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+    "prd_word": "sit",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "thing sitting",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 14,
+    "sen": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+    "prd_word": "talk",
+    "prd_idx": 7,
+    "label": "ARG0",
+    "span_mean": "talker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 15,
+    "sen": "%um and I keep thinking maybe I 'd get in touch",
+    "prd_word": "thinking",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "Thinker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 18,
+    "sen": "%um she will become the legal guardian and that %um",
+    "prd_word": "become",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span_mean": "new state",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 6,
+        "text": "the legal guardian",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 19,
+    "sen": "-- and she 's telling me about you know her sister 's wedding .",
+    "prd_word": "know",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 12,
+        "text": "her sister 's wedding",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 20,
+    "sen": "Actually in the first week I was here -- mhm . -- I gained a lot",
+    "prd_word": "gained",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "thing acquired",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 21,
+    "sen": "Alice , I 've never seen anybody eat as much as he does",
+    "prd_word": "does",
+    "prd_idx": 13,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 11,
+        "text": "he",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 22,
+    "sen": "Alita she said this little girl has a serious problem .",
+    "prd_word": "said",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 9,
+        "text": "this little girl has a serious problem",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 24,
+    "sen": "And , then things seemed to be doing pretty well ,",
+    "prd_word": "seemed",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "thing seeming",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "things",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "text": "be doing pretty well",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 25,
+    "sen": "And , then things seemed to be doing pretty well ,",
+    "prd_word": "doing",
+    "prd_idx": 8,
+    "label": "ARG0",
+    "span_mean": "agent, doer",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 26,
+    "sen": "And I 'm actually waiting for Claudia to show up because we were supposed to go into town and meet some people in town .",
+    "prd_word": "supposed",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "thing seeming",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 11,
+        "text": "we",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 27,
+    "sen": "And I do n't know how much you know about scientific literature ,",
+    "prd_word": "know",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "knower",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 31,
+    "sen": "And he just keeps forgetting .",
+    "prd_word": "keeps",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "causer of continued action",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "he",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 32,
+    "sen": "And if it gets irritated take some pills and stuff .",
+    "prd_word": "gets",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "thing",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "it",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 34,
+    "sen": "And if you do , I 'll send it by email okay if I get it before this weekend",
+    "prd_word": "do",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "you",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 35,
+    "sen": "And it was a very nice letter , because it sounded like she went through very similar things that I did .",
+    "prd_word": "went",
+    "prd_idx": 14,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 12,
+        "end": 12,
+        "text": "she",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 36,
+    "sen": "And it was a very nice letter , because it sounded like she went through very similar things that I did .",
+    "prd_word": "did",
+    "prd_idx": 21,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 19,
+        "end": 19,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 37,
+    "sen": "And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .",
+    "prd_word": "characterized",
+    "prd_idx": 41,
+    "label": "ARG2",
+    "span_mean": "secondary attribute, described-as",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 41,
+        "end": 43,
+        "text": "by one frequency",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 39,
+    "sen": "And she was just really concerned about you know everything . mhm you know . What the possibilities of like",
+    "prd_word": "know",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 41,
+    "sen": "And she was just really concerned about you know everything . mhm you know . What the possibilities of like",
+    "prd_word": "know",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 9,
+        "text": "everything",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 43,
+    "sen": "And then an aunt of Chris 's Aunt Mamie up in Maine passed away .",
+    "prd_word": "passed",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 11,
+        "text": "an aunt of Chris 's Aunt Mamie up in Maine",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 8,
+        "text": "Mamie",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 8,
+        "text": "an aunt of Chris 's Aunt Mamie",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 45,
+    "sen": "And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+    "prd_word": "know",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 26,
+        "text": "before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 46,
+    "sen": "And this made writing my thesis very annoying because you know there was n't much discussion .",
+    "prd_word": "know",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 15,
+        "text": "there was n't much discussion",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 48,
+    "sen": "And you know my sister was n't that old",
+    "prd_word": "know",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 8,
+        "text": "my sister was n't that old",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 49,
+    "sen": "Anyway , he 's enjoying it and liking it",
+    "prd_word": "enjoying",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "enjoyer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "he",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 50,
+    "sen": "Anyway , he 's enjoying it and liking it",
+    "prd_word": "liking",
+    "prd_idx": 8,
+    "label": "ARG0",
+    "span_mean": "liker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "he",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 52,
+    "sen": "Are you going to try and become a dual citizen ?",
+    "prd_word": "try",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "thing tried",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 9,
+        "text": "become a dual citizen",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 53,
+    "sen": "As long as I do n't bring it back to the states .",
+    "prd_word": "bring",
+    "prd_idx": 7,
+    "label": "ARG3",
+    "span_mean": "attribute, state after bringing, secondary action",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 55,
+    "sen": "But I mean you 're below the poverty line at that level .",
+    "prd_word": "mean",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 11,
+        "text": "you 're below the poverty line at that level",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 58,
+    "sen": "But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .",
+    "prd_word": "seeing",
+    "prd_idx": 14,
+    "label": "ARG0",
+    "span_mean": "viewer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "Kim",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 60,
+    "sen": "But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .",
+    "prd_word": "know",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 19,
+        "end": 27,
+        "text": "all that kind of stuff . those military things",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 61,
+    "sen": "But we got to see Den Haag and places like that too which we 're obviously not going to see this time .",
+    "prd_word": "got",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "Benefactive, partaker in desired action",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "we",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 63,
+    "sen": "But you know , I mean that mhm . should n't be a big deal . %um",
+    "prd_word": "mean",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 14,
+        "text": "that mhm . should n't be a big deal",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 64,
+    "sen": "But you know I always worried",
+    "prd_word": "know",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 5,
+        "text": "I always worried",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 65,
+    "sen": "But you know it 'll never be more than about seventy or eighty percent . Which is fine .",
+    "prd_word": "know",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 13,
+        "text": "it 'll never be more than about seventy or eighty percent",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 66,
+    "sen": "But you know the weeknights is pretty crazy .",
+    "prd_word": "know",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 7,
+        "text": "the weeknights is pretty crazy",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 68,
+    "sen": "Did she say how she felt about what had happened ?",
+    "prd_word": "felt",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "feeler, person experiencing emotion",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 4,
+        "text": "she",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 69,
+    "sen": "Do they do that to everyone ?",
+    "prd_word": "Do",
+    "prd_idx": 1,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 5,
+        "text": "to everyone",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 70,
+    "sen": "Do you ?",
+    "prd_word": "Do",
+    "prd_idx": 1,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "you",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 73,
+    "sen": "I 'll give you a call when we arrive in h- ,",
+    "prd_word": "give",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "giver",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 74,
+    "sen": "I 'll have to get somebody to help me .",
+    "prd_word": "help",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "project",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "me",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 75,
+    "sen": "I 'll tell dad that you still think about the",
+    "prd_word": "tell",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "Speaker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 76,
+    "sen": "I 'm looking at , %um , multi mode lasers .",
+    "prd_word": "looking",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "looker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 77,
+    "sen": "I 'm really looking forward to moving to Oregon and dealing with ,",
+    "prd_word": "dealing",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "dealer (or all dealers)",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 78,
+    "sen": "I 'm really looking forward to moving to Oregon and dealing with ,",
+    "prd_word": "moving",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "moved",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 82,
+    "sen": "I can hardly hear you .",
+    "prd_word": "hear",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "utterance, sound",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 83,
+    "sen": "I can just open the thing here .",
+    "prd_word": "open",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "thing opening",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 5,
+        "text": "the thing",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 84,
+    "sen": "I did n't think so .",
+    "prd_word": "think",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "Thinker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 87,
+    "sen": "I figured there was something like that because",
+    "prd_word": "figured",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": "thinker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 88,
+    "sen": "I had that when I went into the military .",
+    "prd_word": "went",
+    "prd_idx": 6,
+    "label": "ARG4",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 8,
+        "text": "into the military",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 89,
+    "sen": "I have my discharge papers and everything",
+    "prd_word": "have",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": "owner",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 90,
+    "sen": "I have my discharge papers and everything",
+    "prd_word": "have",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "possession",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 6,
+        "text": "my discharge papers and everything",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 91,
+    "sen": "I have no idea .",
+    "prd_word": "have",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": "owner",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 93,
+    "sen": "I just would n't go .",
+    "prd_word": "go",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "goer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 94,
+    "sen": "I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 25,
+        "text": "you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+        "models": [
+          "treecrf"
+        ]
+      },
+      {
+        "start": 6,
+        "end": 25,
+        "text": "writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 95,
+    "sen": "I mean I 've been thinking about it",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 7,
+        "text": "I 've been thinking about it",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 96,
+    "sen": "I mean I do n't think you 're going to lose that much .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 12,
+        "text": "I do n't think you 're going to lose that much",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 97,
+    "sen": "I mean Jasmine was about two months old",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 7,
+        "text": "Jasmine was about two months old",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 98,
+    "sen": "I mean it 's kind of stupid .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 6,
+        "text": "it 's kind of stupid",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 99,
+    "sen": "I mean it is you know I mean absorbed",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 8,
+        "text": "it is you know I mean absorbed",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 100,
+    "sen": "I mean it stays light here till about ten thirty eleven o'clock mhm . at night .",
+    "prd_word": "stays",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "thing remaining",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "it",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 101,
+    "sen": "I mean most women you lose your baby that 's it .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 10,
+        "text": "most women you lose your baby that 's it",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 102,
+    "sen": "I mean of course I did n't say anything to her .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 10,
+        "text": "I did n't say anything to her",
+        "models": [
+          "semicrf"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 10,
+        "text": "of course I did n't say anything to her",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 103,
+    "sen": "I mean she did n't know that I was there .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 9,
+        "text": "she did n't know that I was there",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 104,
+    "sen": "I mean she did n't know that I was there .",
+    "prd_word": "know",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 9,
+        "text": "that I was there",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 105,
+    "sen": "I mean that 's the military .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 5,
+        "text": "that 's the military",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 106,
+    "sen": "I mean the amount of cereal he eats like between meals and after meals",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 13,
+        "text": "the amount of cereal he eats like between meals and after meals",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 107,
+    "sen": "I mean the only thing is %um just getting your heart rate up for extended periods of time .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 17,
+        "text": "the only thing is %um just getting your heart rate up for extended periods of time",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 109,
+    "sen": "I mean the phones here are pretty good . once you 're in the country .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 14,
+        "text": "the phones here are pretty good . once you 're in the country",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 110,
+    "sen": "I mean the thing that i-",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 111,
+    "sen": "I mean they do n't know .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 5,
+        "text": "they do n't know",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 112,
+    "sen": "I mean they do n't know .",
+    "prd_word": "know",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "knower",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "they",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 114,
+    "sen": "I mean things have been happening that has just scared the heck out of me .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": "agent",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 115,
+    "sen": "I mean things have been happening that has just scared the heck out of me .",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 14,
+        "text": "things have been happening that has just scared the heck out of me",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 116,
+    "sen": "I mean yeah",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 117,
+    "sen": "I mean you lay her down on the bed",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 8,
+        "text": "you lay her down on the bed",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 118,
+    "sen": "I mean you lay her down on the bed",
+    "prd_word": "lay",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 119,
+    "sen": "I mean you might lose some",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 5,
+        "text": "you might lose some",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 120,
+    "sen": "I owe four years in active reserve time .",
+    "prd_word": "owe",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": "payer or buyer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 121,
+    "sen": "I really have no idea .",
+    "prd_word": "have",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "owner",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 123,
+    "sen": "I said I feel like I know you even though I never met you .",
+    "prd_word": "feel",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "believer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 125,
+    "sen": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+    "prd_word": "know",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 17,
+        "end": 24,
+        "text": "when you truly give your heart to Allah",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 126,
+    "sen": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+    "prd_word": "said",
+    "prd_idx": 2,
+    "label": "ARG2",
+    "span_mean": "Hearer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "mom",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 132,
+    "sen": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+    "prd_word": "going",
+    "prd_idx": 33,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 134,
+    "sen": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+    "prd_word": "know",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 42,
+        "text": "it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 135,
+    "sen": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+    "prd_word": "seeing",
+    "prd_idx": 41,
+    "label": "ARG3",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 138,
+    "sen": "I thought you were talking to somebody else and like put the phone down or something .",
+    "prd_word": "put",
+    "prd_idx": 11,
+    "label": "ARG2",
+    "span_mean": "where put",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 139,
+    "sen": "If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too .",
+    "prd_word": "go",
+    "prd_idx": 5,
+    "label": "ARG4",
+    "span_mean": "end point",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 10,
+        "text": "into the countryside somewhere",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 140,
+    "sen": "Is it paid today ?",
+    "prd_word": "paid",
+    "prd_idx": 3,
+    "label": "ARG3",
+    "span_mean": "commodity, paid for what",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "it",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 143,
+    "sen": "It develops because of irritation , because of a %um , inflammation .",
+    "prd_word": "develops",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "location where something develops, or thing that was there first and undergoes some sort of change as new elements develop from it",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "It",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 146,
+    "sen": "Just say you know my parents are really opposed to black .",
+    "prd_word": "know",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 10,
+        "text": "my parents are really opposed to black",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 147,
+    "sen": "Milo , get out of there",
+    "prd_word": "get",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "thing in motion",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "Milo",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 149,
+    "sen": "No , she was not doing well .",
+    "prd_word": "doing",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "agent, doer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "she",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 152,
+    "sen": "Now she had a job with an architectural group when she first got out to New York ,",
+    "prd_word": "got",
+    "prd_idx": 13,
+    "label": "ARG4",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 154,
+    "sen": "Oregon you pay state tax",
+    "prd_word": "pay",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "money or attention",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "state tax",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 157,
+    "sen": "She 's been away with her class oh . up around Blandenburg for about two weeks on a , what they call Feldmessen .",
+    "prd_word": "call",
+    "prd_idx": 22,
+    "label": "ARG2",
+    "span_mean": "name itself, attribute of arg1",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 22,
+        "end": 22,
+        "text": "Feldmessen",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 159,
+    "sen": "She did ?",
+    "prd_word": "did",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "She",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 163,
+    "sen": "She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,",
+    "prd_word": "know",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span_mean": "entity that arg1 is known ABOUT",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 26,
+        "text": "about her needing a lot of love , a lot of %um help and different things like this",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 165,
+    "sen": "So , I assume it 's hard for you not to eat as much as he does .",
+    "prd_word": "does",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 15,
+        "end": 15,
+        "text": "he",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 166,
+    "sen": "So , I assume it 's hard for you not to eat as much as he does .",
+    "prd_word": "assume",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "Thinker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 168,
+    "sen": "So I mean any income that y-",
+    "prd_word": "mean",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 172,
+    "sen": "So if you want we can take a ride and go see stuff at night",
+    "prd_word": "go",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "subject",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 4,
+        "text": "we",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 173,
+    "sen": "So it was a blessing , I guess .",
+    "prd_word": "guess",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "guess",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "So it was a blessing",
+        "models": [
+          "semicrf"
+        ]
+      },
+      {
+        "start": 1,
+        "end": 4,
+        "text": "it was a blessing",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 175,
+    "sen": "So we 'll just see . You know",
+    "prd_word": "see",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "viewer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "we",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 176,
+    "sen": "So yeah , that particular frequency according to most models damps out very quickly .",
+    "prd_word": "damps",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 5,
+        "text": "that particular frequency",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 177,
+    "sen": "So you do n't have it",
+    "prd_word": "have",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "owner",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 178,
+    "sen": "So you guys should pick out the things you want to see and let me know .",
+    "prd_word": "see",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "thing viewed",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 7,
+        "text": "the things",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 179,
+    "sen": "So you have no intentions of coming over this way any time soon ?",
+    "prd_word": "coming",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "entity in motion / 'comer'",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 181,
+    "sen": "Somehow it raises a small amount .",
+    "prd_word": "raises",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "Agent",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 184,
+    "sen": "Spent about two weeks up there .",
+    "prd_word": "Spent",
+    "prd_idx": 1,
+    "label": "ARG1",
+    "span_mean": "unit of time",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 3,
+        "text": "about two weeks",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 186,
+    "sen": "To -- -- you know the other thing , the reception .",
+    "prd_word": "know",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 10,
+        "text": "the other thing , the reception",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 187,
+    "sen": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+    "prd_word": "said",
+    "prd_idx": 15,
+    "label": "ARG0",
+    "span_mean": "Sayer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 13,
+        "end": 13,
+        "text": "she",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 189,
+    "sen": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+    "prd_word": "know",
+    "prd_idx": 22,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 15,
+        "end": 19,
+        "text": "she hurt Jasmine 's Jetta",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 190,
+    "sen": "Washington you do n't .",
+    "prd_word": "do",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 192,
+    "sen": "Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .",
+    "prd_word": "mean",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 25,
+        "text": "obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 193,
+    "sen": "Well I guess she did that because someone suggested that to her because you know the lillies the symbol of the virgin Mary .",
+    "prd_word": "know",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "the lillies the symbol of the virgin Mary",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 194,
+    "sen": "Well I guess she did that because someone suggested that to her because you know the lillies the symbol of the virgin Mary .",
+    "prd_word": "suggested",
+    "prd_idx": 9,
+    "label": "ARG3",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 195,
+    "sen": "Well I mean I 'm still American citizen",
+    "prd_word": "mean",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 7,
+        "text": "I 'm still American citizen",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 196,
+    "sen": "Well I mean he does work his ass off",
+    "prd_word": "mean",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 8,
+        "text": "he does work his ass off",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 197,
+    "sen": "Well I said I would not feel comfortable going .",
+    "prd_word": "said",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 8,
+        "text": "I would not feel comfortable going",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 199,
+    "sen": "Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,",
+    "prd_word": "say",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 28,
+        "text": "once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 202,
+    "sen": "Well it 's hard to you know not eat when somebody else is eating .",
+    "prd_word": "know",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 13,
+        "text": "not eat when somebody else is eating",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      },
+      {
+        "start": 1,
+        "end": 4,
+        "text": "it 's hard to",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 203,
+    "sen": "Well you know or luck making a way and making it at ease for you to",
+    "prd_word": "making",
+    "prd_idx": 10,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 204,
+    "sen": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+    "prd_word": "know",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "Which",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 205,
+    "sen": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+    "prd_word": "diagnosing",
+    "prd_idx": 38,
+    "label": "ARG1",
+    "span_mean": "patient",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 14,
+        "end": 14,
+        "text": "he",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 206,
+    "sen": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+    "prd_word": "given",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "thing given",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 9,
+        "text": "how far he 's gotten",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 207,
+    "sen": "Would you be interested in seeing Shape Headquarters again .",
+    "prd_word": "seeing",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "viewer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 208,
+    "sen": "Would you be interested in seeing Shape Headquarters again .",
+    "prd_word": "seeing",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "thing viewed",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 7,
+        "text": "Shape Headquarters",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 209,
+    "sen": "Yes she did .",
+    "prd_word": "did",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "she",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 210,
+    "sen": "You ca n't do that ,",
+    "prd_word": "do",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "thing done",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 4,
+        "text": "that",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 212,
+    "sen": "You know , I mean , we 're d- , you know ,",
+    "prd_word": "mean",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 213,
+    "sen": "You know I said as far as I knew we were n't charging people .",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 13,
+        "text": "I said as far as I knew we were n't charging people",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 214,
+    "sen": "You know I said as far as I knew we were n't charging people .",
+    "prd_word": "knew",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 13,
+        "text": "we were n't charging people",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 215,
+    "sen": "You know I was talking to my friend Heather from Wisconsin the other day --",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 13,
+        "text": "I was talking to my friend Heather from Wisconsin the other day",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 216,
+    "sen": "You know Tufts yeah . sent her to Taiwa",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "Tufts",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 8,
+        "text": "Tufts yeah . sent her to Taiwa",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 217,
+    "sen": "You know Tufts yeah . sent her to Taiwa",
+    "prd_word": "sent",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": "EXT",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 218,
+    "sen": "You know everybody 's kind of passed away , almost .",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 9,
+        "text": "everybody 's kind of passed away , almost",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 219,
+    "sen": "You know it was a detached retina .",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 6,
+        "text": "it was a detached retina",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 220,
+    "sen": "You know she would 've seen it all .",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 7,
+        "text": "she would 've seen it all",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 221,
+    "sen": "You know that has always been very scary to me even after .",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 11,
+        "text": "that has always been very scary to me even after",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 222,
+    "sen": "You never even get a chance to see them again .",
+    "prd_word": "see",
+    "prd_idx": 8,
+    "label": "ARG0",
+    "span_mean": "viewer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "You",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 223,
+    "sen": "You see the one very annoying thing about all of this , was my advisor has been in France for a year and a half .",
+    "prd_word": "see",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 24,
+        "text": "the one very annoying thing about all of this , was my advisor has been in France for a year and a half",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 226,
+    "sen": "and %mm . that cost me a lot of time .",
+    "prd_word": "cost",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "commodity",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "that",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 227,
+    "sen": "and %um You know ages ago I got a card from Liz Gana .",
+    "prd_word": "know",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 12,
+        "text": "ages ago I got a card from Liz Gana",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 228,
+    "sen": "and Francis was very concerned in reference to you know she was in school and things",
+    "prd_word": "know",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 13,
+        "text": "she was in school",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 229,
+    "sen": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+    "prd_word": "call",
+    "prd_idx": 19,
+    "label": "ARG0",
+    "span_mean": "caller",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 17,
+        "end": 17,
+        "text": "they",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 230,
+    "sen": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+    "prd_word": "pay",
+    "prd_idx": 32,
+    "label": "ARG1",
+    "span_mean": "money or attention",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 231,
+    "sen": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+    "prd_word": "pay",
+    "prd_idx": 53,
+    "label": "ARG3",
+    "span_mean": "commodity, paid for what",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 58,
+        "end": 65,
+        "text": "to go to Germany or something for them",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 232,
+    "sen": "and I just believe it 's you know time , you know",
+    "prd_word": "know",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "time",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 233,
+    "sen": "and I think they would then feel guilty for not inviting me .",
+    "prd_word": "inviting",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "inviter",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "they",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 235,
+    "sen": "and all I had to do was get on it and follow it .",
+    "prd_word": "follow",
+    "prd_idx": 12,
+    "label": "ARG0",
+    "span_mean": "acceptor, pursuer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 236,
+    "sen": "and all I had to do was get on it and follow it .",
+    "prd_word": "do",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "thing done",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "all",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 237,
+    "sen": "and all I had to do was get on it and follow it .",
+    "prd_word": "get",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "thing in motion",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 238,
+    "sen": "and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .",
+    "prd_word": "standing",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "thing standing",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 239,
+    "sen": "and he was diagnosed as having attention deficit disorder .",
+    "prd_word": "having",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "owner",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "he",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 240,
+    "sen": "and is she seem like she 's together enough ?",
+    "prd_word": "is",
+    "prd_idx": 2,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 8,
+        "text": "seem like she 's together enough",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 244,
+    "sen": "and mom and dad were like well you know a wedding that 's a mass is open to everyone .",
+    "prd_word": "know",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 18,
+        "text": "a wedding that 's a mass is open to everyone",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 245,
+    "sen": "and she said that if it was n't for Jetta you know Jasmine 's daddy would n't be",
+    "prd_word": "know",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 12,
+        "end": 17,
+        "text": "Jasmine 's daddy would n't be",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 248,
+    "sen": "and they 'll probably hold them hostage .",
+    "prd_word": "hold",
+    "prd_idx": 5,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 6,
+        "text": "hostage",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 249,
+    "sen": "and they do a Punktion . Ich weiss nicht wer .",
+    "prd_word": "do",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "agent, doer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "they",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 250,
+    "sen": "and we 're going to go see her next Thursday and talk about her making my wedding dress .",
+    "prd_word": "go",
+    "prd_idx": 6,
+    "label": "ARG4",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 251,
+    "sen": "and we 've been doing okay .",
+    "prd_word": "doing",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "agent, doer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "we",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 252,
+    "sen": "and we can like do a quick dinner or something yeah and go see whatever you want to see ,",
+    "prd_word": "do",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "agent, doer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "we",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 255,
+    "sen": "and you tell her .",
+    "prd_word": "tell",
+    "prd_idx": 3,
+    "label": "ARG2",
+    "span_mean": "Hearer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "her",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 256,
+    "sen": "as soon as you get into Holland and get yourself settled you can call me",
+    "prd_word": "get",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 257,
+    "sen": "because I knew what she would do if I took her somewhere you know what she would say",
+    "prd_word": "know",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 14,
+        "end": 17,
+        "text": "what she would say",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 261,
+    "sen": "but I 'm planning on making a trip down to visit her .",
+    "prd_word": "visit",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "visitor",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 262,
+    "sen": "but I 'm planning on making a trip down to visit her .",
+    "prd_word": "making",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "achiever, agent",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 263,
+    "sen": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+    "prd_word": "reserved",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span_mean": "thing reserved",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 14,
+        "end": 29,
+        "text": "of that %um , you know that she may end up going %um to %uh t-",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 264,
+    "sen": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+    "prd_word": "know",
+    "prd_idx": 20,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 20,
+        "end": 28,
+        "text": "that she may end up going %um to %uh",
+        "models": [
+          "semicrf"
+        ]
+      },
+      {
+        "start": 20,
+        "end": 29,
+        "text": "that she may end up going %um to %uh t-",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 265,
+    "sen": "but I would not feel comfortable going .",
+    "prd_word": "feel",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "feeler, person experiencing emotion",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 267,
+    "sen": "but dad does n't want black he said .",
+    "prd_word": "said",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "but dad does n't want black",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 268,
+    "sen": "but she 's working very hard .",
+    "prd_word": "working",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "worker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "she",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 269,
+    "sen": "but she was very concerned about me and everything %um because %um the child had told some lies about me and about you .",
+    "prd_word": "told",
+    "prd_idx": 16,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 16,
+        "end": 22,
+        "text": "some lies about me and about you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 271,
+    "sen": "but yeah if you just separate normally and you have n't served at least eight years , then you owe it .",
+    "prd_word": "separate",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "entity causing separation",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 272,
+    "sen": "but you know it 's not going to be a fun tax return year .",
+    "prd_word": "know",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 13,
+        "text": "it 's not going to be a fun tax return year",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 273,
+    "sen": "but you know you 've heard the saying I 'm sure from your grandmother",
+    "prd_word": "know",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 13,
+        "text": "you 've heard the saying I 'm sure from your grandmother",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 275,
+    "sen": "did they do like %uh the same thing they had to do last time ?",
+    "prd_word": "do",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "thing done",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 7,
+        "text": "the same thing",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 278,
+    "sen": "he 's got Leo 's genes .",
+    "prd_word": "got",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "haver, possessor",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "he",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 280,
+    "sen": "if this does happen and I do believe it may happen , %um you know we will have an agreement , she and I , you know ,",
+    "prd_word": "know",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 15,
+        "end": 19,
+        "text": "we will have an agreement",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "text": "we will have an agreement , she and I",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 283,
+    "sen": "if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .",
+    "prd_word": "coming",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "entity in motion / 'comer'",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 9,
+        "text": "you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 284,
+    "sen": "if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .",
+    "prd_word": "do",
+    "prd_idx": 30,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 28,
+        "end": 28,
+        "text": "you",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 285,
+    "sen": "if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .",
+    "prd_word": "mean",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 30,
+        "text": "and you 're not planning on coming back to the U S what are they going to do even if you do n't",
+        "models": [
+          "treecrf"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 6,
+        "text": "if you 're in another country I",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 286,
+    "sen": "it is as my husband says %uh , %uh al kadir the destiny .",
+    "prd_word": "says",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 12,
+        "text": "%uh , %uh al kadir the destiny",
+        "models": [
+          "semicrf"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 12,
+        "text": "al kadir the destiny",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 287,
+    "sen": "just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before .",
+    "prd_word": "know",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 9,
+        "text": "Who",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 288,
+    "sen": "let 's see she bought ,",
+    "prd_word": "see",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "she bought",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 289,
+    "sen": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+    "prd_word": "said",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 17,
+        "end": 29,
+        "text": "the little things I can tolerate you know if that happens you know",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 291,
+    "sen": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+    "prd_word": "know",
+    "prd_idx": 25,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 17,
+        "end": 22,
+        "text": "the little things I can tolerate",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 292,
+    "sen": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+    "prd_word": "said",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 29,
+        "text": "she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 29,
+        "text": "even if it was going to be in September , she said the little things I can tolerate you know if that happens you know",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 297,
+    "sen": "oh do they ?",
+    "prd_word": "do",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "they",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 298,
+    "sen": "right now I mean I do want to keep my American citizenship",
+    "prd_word": "mean",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "agent",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 299,
+    "sen": "right now I mean I do want to keep my American citizenship",
+    "prd_word": "mean",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 11,
+        "text": "I do want to keep my American citizenship",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 300,
+    "sen": "she 's moving out the way too quickly",
+    "prd_word": "moving",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "moved",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "she",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 301,
+    "sen": "she called mom Monday And talked to mom for two hours",
+    "prd_word": "talked",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "talker",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "she",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 302,
+    "sen": "she did some %eh ,",
+    "prd_word": "did",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": "agent, doer",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "she",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 303,
+    "sen": "she said it is just awesome to her what is happening .",
+    "prd_word": "happening",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "event",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "what",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 305,
+    "sen": "she said she was so concerned that this little girl was going to just get out here cause I was n't going to send back to the school , the Muslim school .",
+    "prd_word": "send",
+    "prd_idx": 24,
+    "label": "ARG2",
+    "span_mean": "EXT",
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 307,
+    "sen": "so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .",
+    "prd_word": "get",
+    "prd_idx": 19,
+    "label": "ARG4",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 308,
+    "sen": "so when they broke in the second time did they steal the %uh offboard amplifier ?",
+    "prd_word": "steal",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "thing stolen",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 14,
+        "text": "the %uh offboard amplifier",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 309,
+    "sen": "so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science .",
+    "prd_word": "pushing",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "agent, cause, actor",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 1,
+        "end": 1,
+        "text": "you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 310,
+    "sen": "they do in the transients",
+    "prd_word": "do",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "they",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 311,
+    "sen": "things have come to a point where I may have to relinquish my , %uh parenting .",
+    "prd_word": "relinquish",
+    "prd_idx": 12,
+    "label": "ARG0",
+    "span_mean": "resigner",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 7,
+        "text": "I",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 315,
+    "sen": "yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um",
+    "prd_word": "know",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 18,
+        "text": "Julie is of course carving up and making beautiful",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 316,
+    "sen": "yet their experiments showed it as a driven frequency .",
+    "prd_word": "showed",
+    "prd_idx": 4,
+    "label": "ARG3",
+    "span_mean": null,
+    "gold": null,
+    "selected_span": []
+  },
+  {
+    "idx": 317,
+    "sen": "you know I 'll probably be there some time around six",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 10,
+        "text": "I 'll probably be there some time around six",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 320,
+    "sen": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+    "prd_word": "know",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 17,
+        "end": 20,
+        "text": "I tried my best",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 321,
+    "sen": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+    "prd_word": "tried",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span_mean": "thing tried",
+    "gold": null,
+    "selected_span": [
+      {
+        "start": 19,
+        "end": 20,
+        "text": "my best",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 322,
+    "sen": "you know that 's",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": null,
+    "selected_span": []
+  }
+]

@@ -93,6 +93,7 @@ def get_sm_notjudged_data(final_dict, judged_dict):
 
     return remain2judge
 
+
 def data4llm(remain2judge, data, outfile):
     org_data_dic = {}
     for example in data:
@@ -131,9 +132,9 @@ def data4llm(remain2judge, data, outfile):
     write_json(new_core_2judge, outfile)    
 
 if __name__ == "__main__":
-    # step 1: 先获得所有corrected  golden结果
-    domain = "bn"
-    final_data = read_json(f"analysis/test_bn_500_core_final_v4.json")
+    # step 1: 
+    domain = "tc"
+    final_data = read_json(f"/data/ljwang/span-SRL-LLM/ori_code/annotation/llm/tc/correct_data_{domain}_smnotrecall_filter.json")
     dic_final_data = get_corrected_dic(final_data)
 
     # step 2: 再获得所有大模型目前判断过的结果：

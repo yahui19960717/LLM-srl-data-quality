@@ -1,0 +1,28 @@
+process llm result
+
+Well , , Leo 's big . You know ,	know	9 {'ARG0': '{"ARG0": "You"}', 'ARG1': '{"ARG1": "None"}', 'ARG2': '{\n  "ARG2": "None"\n}'}
+Well , , Leo 's big . You know ,	know	9 {'ARG0': 'You'}
+With your parents when your father was stationed over here , right ?	stationed	8 {'ARG0': '{"ARG0": "None"}', 'ARG1': '{\n  "ARG1": "your father"\n}', 'ARG2': '{"ARG2": "over here"}'}
+With your parents when your father was stationed over here , right ?	stationed	8 {'ARG1': 'your father', 'ARG2': 'over here'}
+and they do a Punktion . Ich weiss nicht wer .	do	3 {'ARG0': '{\n  "ARG0": "they"\n}', 'ARG1': '{"ARG1": "a Punktion"}', 'ARG2': 'None', 'ARG3': '{"ARG3": "None"}', 'ARG4': '{"ARG4": "None"}'}
+and they do a Punktion . Ich weiss nicht wer .	do	3 {'ARG0': 'they', 'ARG1': 'a Punktion'}
+%um , %um , which we had already anticipated that it was going to happen .	anticipated	9 {'ARG0': '{"ARG0": "we"}', 'ARG1': '{"ARG1": "that it was going to happen"}'}
+%um , %um , which we had already anticipated that it was going to happen .	anticipated	9 {'ARG0': 'we', 'ARG1': 'that it was going to happen'}
+%um , %um , which we had already anticipated that it was going to happen .	happen	15 {'ARG1': '{"ARG1": "None"}', 'ARG2': 'None'}
+%um , %um , which we had already anticipated that it was going to happen .	happen	15 {}
+process gold result
+
+-- and she 's telling me about you know her sister 's wedding .	telling	5 {'ARG1': ["about you know her sister 's wedding", "you know her sister 's wedding"]}
+and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child .	acting	23 {'ARG0': ['she']}
+and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child .	acting	23 {'ARG0': ['she'], 'ARG1': ['like a total nigger child']}
+%uh lay there let me look at my grandmother kind of thing	lay	2 {'ARG2': ['there']}
+%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	understand	9 {'ARG1': ['everything that has happened in the last several years yeah . and things like that']}
+
+Evaluation Results:
+Role: ARG1       | P: 0.7009 | R: 0.6550 | F1: 0.6771
+Role: ARG0       | P: 0.9392 | R: 0.8999 | F1: 0.9191
+Role: ARG2       | P: 0.4071 | R: 0.5380 | F1: 0.4635
+Role: ARG3       | P: 0.4762 | R: 0.5882 | F1: 0.5263
+Role: ARG4       | P: 0.4286 | R: 0.4444 | F1: 0.4364
+Role: ARG5       | P: 0.0000 | R: 0.0000 | F1: 0.0000
+Role: OVERALL    | P: 0.7651 | R: 0.7539 | F1: 0.7595

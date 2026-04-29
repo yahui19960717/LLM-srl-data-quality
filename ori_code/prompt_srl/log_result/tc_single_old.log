@@ -1,0 +1,15 @@
+process llm result
+
+Warning: Could not parse Prompt_Result as JSON for key: If they want me they can pay ,	pay	7
+Warning: Could not parse Prompt_Result as JSON for key: This girl has everything in her dreams you know .	has	3
+process gold result
+
+
+Evaluation Results:
+Role: ARG1       | P: 0.5390 | R: 0.5936 | F1: 0.5650
+Role: ARG0       | P: 0.8462 | R: 0.8989 | F1: 0.8718
+Role: ARG3       | P: 0.1000 | R: 0.3333 | F1: 0.1538
+Role: ARG2       | P: 0.2486 | R: 0.5148 | F1: 0.3353
+Role: ARG4       | P: 0.3514 | R: 0.5000 | F1: 0.4127
+Role: ARG5       | P: 0.0000 | R: 0.0000 | F1: 0.0000
+Role: OVERALL    | P: 0.5871 | R: 0.7234 | F1: 0.6482

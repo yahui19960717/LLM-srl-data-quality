@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+from operator import not_
 import os
 import sys
 import time
@@ -8,21 +9,13 @@ from sympy import O
 import torch
 from tqdm import tqdm
 import json
-import openai
-from openai import OpenAI
 import numpy as np
 import random
 from collections import defaultdict
 from typing import Dict, List, Tuple, Any
 
 random.seed(42)
-client = OpenAI(
-    base_url="https://api2.aigcbest.top/v1",#tcy
-    api_key="sk-7k63FEwvaVFJnUD91JNozH9LUDHoeiH5MCb8Hjt9a5I9UY04"
-    #api_key="sk-wUaE2guPPNKLKYTWAhcq7pFNXQMQa6JadrASpFdxsPBbKgkm"
-    #api_key="sk-OX1oFeJoL3jy43bAK0PNFtyuvSxRLW5Kjo8PSDp7mplS9J5F",
-    #timeout=60.0,  # 设置超时时间为 60 秒
-)
+
 
 def read_json(file):
     with open(file, 'r', encoding='utf-8') as f:
@@ -83,6 +76,9 @@ def find_role_desc(frames, data, outfile):
     noframe = 0
     pred_dict = {}
     test_num = 0
+    print(len(data))
+    flag = 0
+    not_in_frames = 0
     for key in data:
         #if test_num > 2:
         #    break
@@ -93,28 +89,27 @@ def find_role_desc(frames, data, outfile):
         prd_sense = key['prd_sense']
         prd_idx = key['prd_idx']
         roles = []
-        if prd_lemma in frames:
-            senses = frames[prd_lemma]
-            for ins in senses:
-                if ins['role_set_id'] == ".".join([prd_lemma, prd_sense]):
-                    roles = ins['roles']
-                    #print(roles)
-                    pred_key = "\t".join([sen, prd_word, str(prd_idx)])
-                    llm_res_dict = {}
-                    if pred_key not in pred_dict:
-                        # 依次遍历roles中的每一个元素，调用build_prompt获取结果，将结果保存在llm_res_dict中
-                        for role in roles:
-                            prompt, llm_res = build_prompt(sen, prd_word, prd_lemma, prd_sense, roles, roles[role])
-                            #print(prompt)
-                            #print(llm_res)
-                            llm_res_dict[role] = llm_res
-                        #print(llm_res_dict)
-                        pred_dict[pred_key] = {"prd_sense": prd_sense, "roles": roles, "Prompt_Result": llm_res_dict} 
-        else:
-            noframe += 1
-            print(f"未找到{prd_lemma}的角色描述, sen: {sen}, prd_word: {prd_word}, prd_idx: {prd_idx}")
-    # 将pred_dict中内容写到json文件
-    write_json(pred_dict, outfile)
+        span_mean = key['span_mean']
+        if span_mean == None:
+            flag += 1
+            print("sen:",sen)
+            print("prd_word:",prd_word)
+            print("prd_lemma:",prd_lemma)
+            print("prd_sense:",prd_sense)
+            print("prd_idx:",prd_idx)
+            print("span_mean:",span_mean)
+            print("label:",key['label'])
+            print("prd_lemma in frames:",)
+            if prd_lemma not in frames:
+                not_in_frames += 1
+            else:
+
+                import pdb;pdb.set_trace()
+        
+    print(flag)
+    print(not_in_frames) 
+        # import pdb;pdb.set_trace()
+        
 
 if __name__ == "__main__":
     domain = "tc" #"bn"

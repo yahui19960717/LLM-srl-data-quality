@@ -104,45 +104,28 @@ def evaluate_model(model_name, pred_field, eval_data, gold_dict, other_info):
             opt = other_info[(temp_sen, temp_word, temp_idx)][lbl].get('optional', None) if isinstance(other_info[(temp_sen, temp_word, temp_idx)][lbl], dict) else []
             if grammar == "有语法错误":
                 continue
-            elif opt==True:
-                overall['tp'] += 1
-                per_label[lbl]['tp'] += 1
-                continue
 
             if pred_list:
-                if len(pred_list) == 1: # 如果只有1个span
-                        pred_span = pred_list[0]  # 预测中该label只有一个span
-                        if pred_span in gold_set:
-                            # 命中gold中任意一个span → TP
-                            overall['tp'] += 1
-                            per_label[lbl]['tp'] += 1
-                        else:
-                            # 未命中 → FP + FN（预测了但预测错了，gold该label也没被覆盖）
-                            overall['fp'] += 1
-                            per_label[lbl]['fp'] += 1
-                            if lbl in gold_labels:
-                                overall['fn'] += 1
-                                per_label[lbl]['fn'] += 1
-                else: # 如果预测多个span就遍历
-                    hit = False
-                    for pred_span in pred_list:
-                        if pred_span in gold_set:
-                            # 命中gold中任意一个span → TP
-                            hit = True
-                            break
-                    if hit:
-                        overall['tp'] += 1
-                        per_label[lbl]['tp'] += 1
-                    else:
-                        # 整个预测列表没有命中任何真实span
-                        overall['fp'] += 1   # 或者根据需求：整体预测错误
-                        per_label[lbl]['fp'] += 1
-                        if lbl in gold_labels:
-                            overall['fn'] += 1
-                            per_label[lbl]['fn'] += 1
+                # 判断是否命中（复用原有的单/多span逻辑）
+                if len(pred_list) == 1:
+                    hit = pred_list[0] in gold_set
+                else:
+                    hit = any(pred_span in gold_set for pred_span in pred_list)
+
+                if hit:
+                    overall['tp'] += 1
+                    per_label[lbl]['tp'] += 1
+                else:
+                    # 预测了但错了 → FP 一定计
+                    overall['fp'] += 1
+                    per_label[lbl]['fp'] += 1
+                    # FN 只有非 optional 且 gold 有时才计
+                    if lbl in gold_labels and not opt:
+                        overall['fn'] += 1
+                        per_label[lbl]['fn'] += 1
             else:
-                # 该label有gold但没有预测 → FN
-                if lbl in gold_labels:
+                # 没有预测，gold 有 → FN，但 optional 跳过
+                if lbl in gold_labels and not opt:
                     overall['fn'] += 1
                     per_label[lbl]['fn'] += 1
 
@@ -156,7 +139,7 @@ def evaluate_model(model_name, pred_field, eval_data, gold_dict, other_info):
     print(f"{'Overall':<11} {p*100:>10.2f} {r*100:>10.2f} {f*100:>10.2f}"
           f"  {overall['tp']:>6}  {overall['fp']:>5}  {overall['fn']:>5}")
     print(f"{'-'*75}")
-    print(f'{p}, {r}, {f}')
+    P, R ,F = p,r,f
     for lbl in sorted(target_labels):
         c = per_label[lbl]
         if c['tp'] + c['fp'] + c['fn'] == 0:
@@ -167,6 +150,7 @@ def evaluate_model(model_name, pred_field, eval_data, gold_dict, other_info):
         # print(f"{lbl:<11} {p:>10.5f} {r:>10.5f} {f:>10.5f}"
         #       f"  {c['tp']}  {c['fp']}  {c['fn']}")
     print(f"{'='*75}")
+    return P, R ,F 
     
 
 def evaluate_model_gold(model_name, pred_field, eval_data, org_dict):
@@ -271,10 +255,10 @@ def evaluate_model_gold(model_name, pred_field, eval_data, org_dict):
     print(f"{'标签':<12} {'Precision(%)':>8} {'Recall(%)':>8} {'F1(%)':>6}  {'TP':>5}   {'FP':>5}  {'FN':>5}")
     print(f"{'-'*75}")
     p, r, f = compute_prf(overall['tp'], overall['fp'], overall['fn'])
+    P, R ,F = p,r,f
     print(f"{'Overall':<11} {p*100:>10.2f} {r*100:>10.2f} {f*100:>10.2f}"
           f"  {overall['tp']:>6}  {overall['fp']:>5}  {overall['fn']:>5}")
     print(f"{'-'*75}")
-    print(f'{p}, {r}, {f}')
     for lbl in sorted(target_labels):
         c = per_label[lbl]
         if c['tp'] + c['fp'] + c['fn'] == 0:
@@ -285,6 +269,7 @@ def evaluate_model_gold(model_name, pred_field, eval_data, org_dict):
         # print(f"{lbl:<11} {p:>10.5f} {r:>10.5f} {f:>10.5f}"
         #       f"  {c['tp']}  {c['fp']}  {c['fn']}")
     print(f"{'='*75}")
+    return P, R, F
 
 def build_gold_dict_from_eval(eval_data):
     """
@@ -330,6 +315,43 @@ def build_corrected_data_for_dic(dict_data):
     return corrected_dict, other_info
 
 if __name__ == "__main__":
+    # ## tc评估
+    # domain = "tc"
+    # print(domain)
+    # new_data = []
+    # dic_data = {}
+    # # step 1: 获得评估数据
+    # eval_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll") 
+    # print(f"评估数据共 {len(eval_data)} 个谓词") # 谓词数
+    
+    # # step 2: 获得所有的final数据
+    # # corrected data
+    # print("\n===== 基于人工标注后的评估 =====")
+    # final_data = read_json(f"analysis/test_{domain}_core_final_v2.json")
+    # corrected_data, other_info = build_corrected_data_for_dic(final_data)
+    # print(len(eval_data), len(corrected_data))
+    # P1, R1, F1 = evaluate_model("semicrf",  "semicrf_label",  eval_data, corrected_data, other_info)
+    # P2, R2, F2 = evaluate_model("treecrf",  "treecrf_label",  eval_data, corrected_data, other_info)
+    
+
+    # # # 基于原始gold字段评估
+    # print("\n===== 基于原始gold评估 =====")
+    # gold_dict_origin = build_gold_dict_from_eval(eval_data)
+    # P3, R3, F3 = evaluate_model_gold("semicrf", "semicrf_label", eval_data, gold_dict_origin)
+    # P4, R4, F4 = evaluate_model_gold("treecrf", "treecrf_label", eval_data, gold_dict_origin)
+
+    # print(f'SemiCRF-corrected: {P1*100:.2f}, {R1*100:.2f}, {F1*100:.2f}')
+    # print(f'SemiCRF-org: {P3*100:.2f}, {R3*100:.2f}, {F3*100:.2f}')
+
+    # print(f'TreeCRF-corrected: {P2*100:.2f}, {R2*100:.2f}, {F2*100:.2f}')
+    # print(f'TreeCRF-org: {P4*100:.2f}, {R4*100:.2f}, {F4*100:.2f}')
+
+    # print(f'SemiCRF diff: P:{(P1-P3)*100:+.2f}% R:{(R1-R3)*100:+.2f}% F:{(F1-F3)*100:+.2f}%')
+    # print(f'TreeCRF diff: P:{(P2-P4)*100:+.2f}% R:{(R2-R4)*100:+.2f}% F:{(F2-F4)*100:+.2f}%')
+    # exit()
+
+
+    ### bn评估
     domain = "bn"
     new_data = []
     dic_data = {}
@@ -343,15 +365,25 @@ if __name__ == "__main__":
     final_data = read_json(f"analysis/test_bn_500_core_final_v4.json")
     corrected_data, other_info = build_corrected_data_for_dic(final_data)
     print(len(eval_data), len(corrected_data))
-    evaluate_model("semicrf",  "semicrf_label",  eval_data, corrected_data, other_info)
-    evaluate_model("treecrf",  "treecrf_label",  eval_data, corrected_data, other_info)
+    P1, R1, F1 = evaluate_model("semicrf",  "semicrf_label",  eval_data, corrected_data, other_info)
+    P2, R2, F2 = evaluate_model("treecrf",  "treecrf_label",  eval_data, corrected_data, other_info)
+    
 
     # # 基于原始gold字段评估
     print("\n===== 基于原始gold评估 =====")
     gold_dict_origin = build_gold_dict_from_eval(eval_data)
-    evaluate_model_gold("semicrf", "semicrf_label", eval_data, gold_dict_origin)
-    evaluate_model_gold("treecrf", "treecrf_label", eval_data, gold_dict_origin)
+    P3, R3, F3 = evaluate_model_gold("semicrf", "semicrf_label", eval_data, gold_dict_origin)
+    P4, R4, F4 = evaluate_model_gold("treecrf", "treecrf_label", eval_data, gold_dict_origin)
 
+    print(f'SemiCRF-corrected: {P1*100:.2f}, {R1*100:.2f}, {F1*100:.2f}')
+    print(f'SemiCRF-org: {P3*100:.2f}, {R3*100:.2f}, {F3*100:.2f}')
+
+    print(f'TreeCRF-corrected: {P2*100:.2f}, {R2*100:.2f}, {F2*100:.2f}')
+    print(f'TreeCRF-org: {P4*100:.2f}, {R4*100:.2f}, {F4*100:.2f}')
+
+    print(f'SemiCRF diff: P:{(P1-P3)*100:+.2f}% R:{(R1-R3)*100:+.2f}% F:{(F1-F3)*100:+.2f}%')
+    print(f'TreeCRF diff: P:{(P2-P4)*100:+.2f}% R:{(R2-R4)*100:+.2f}% F:{(F2-F4)*100:+.2f}%')
+    exit()
 
 
 

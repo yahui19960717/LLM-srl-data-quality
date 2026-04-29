@@ -1,0 +1,1006 @@
+Warning: Could not parse Prompt_Result as JSON for key: If they want me they can pay ,	pay	7
+Warning: Could not parse Prompt_Result as JSON for key: This girl has everything in her dreams you know .	has	3
+if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .	mean	8	ARG1	element containing meaning	if you 're in another country	and you 're not planning on coming back to the u s what are they going to do even if you do n't if you 're in another country i	boundary_error
+if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .	mean	8	ARG2	None	you 're not planning on coming back to the u s		extra_error
+if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .	mean	8	ARG3	None	you		extra_error
+Let me look for my phonebook .	Let	1	ARG0	None	(implicit) you		extra_error
+Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um	gotten	10	ARG0	None	he		extra_error
+Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um	gotten	10	ARG2	None	how far		extra_error
+she called mom Monday And talked to mom for two hours	talked	6	ARG2	hearer	mom	to mom	boundary_error
+want to be a dual citizen ,	want	1	ARG0	None	(implicit) speaker		extra_error
+She passed away in about March or	passed	2	ARG1	None		she	miss_error
+And I 'm actually waiting for Claudia to show up because we were supposed to go into town and meet some people in town .	waiting	5	ARG2	thing waited for	claudia to show up	for claudia to show up	boundary_error
+and then yeah you can just call up	call	7	ARG0	None		you	miss_error
+heard that .	heard	1	ARG0	None	[implicit hearer]		extra_error
+And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,	know	18	ARG1	None	people see the anti phased motion		extra_error
+And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,	know	18	ARG2	None	the anti phased motion		extra_error
+Alice , I 've never seen anybody eat as much as he does	does	13	ARG0	None		he	miss_error
+But you know the weeknights is pretty crazy .	know	3	ARG2	None	the weeknights		extra_error
+I thought you were talking to somebody else and like put the phone down or something .	talking	5	ARG2	hearer	somebody else	to somebody else	boundary_error
+%um and I keep thinking maybe I 'd get in touch	get	9	ARG1	thing	touch		extra_error
+%um and I keep thinking maybe I 'd get in touch	get	9	ARG2	attribute of arg1 (not a VP node)	in	in touch	boundary_error
+So that 's what I 'm doing .	doing	7	ARG1	thing done	what i'm doing	what	boundary_error
+Do they do that to everyone ?	do	3	ARG2	benefactive, done for or about	everyone	to everyone	boundary_error
+I mean it 's kind of stupid .	mean	2	ARG1	element containing meaning		it 's kind of stupid	miss_error
+I mean it 's kind of stupid .	mean	2	ARG2	None	it’s kind of stupid		extra_error
+and he was diagnosed as having attention deficit disorder .	diagnosed	4	ARG2	illness	attention deficit disorder	as having attention deficit disorder	boundary_error
+where is , you know	know	5	ARG1	None	where is		extra_error
+I think Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters .	think	24	ARG1	Thought	optics letters is probably the one that we’re shooting for, or else, perhaps, though i don’t think it’s quite that significant, would be phys rev letters.	it 's quite that significant	boundary_error
+And he just keeps forgetting .	keeps	4	ARG1	continued entity		forgetting	miss_error
+And he just keeps forgetting .	keeps	4	ARG2	None	forgetting		extra_error
+Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,	know	26	ARG2	None	you		extra_error
+%um , %um , but you know I feel very at peace about everything .	know	7	ARG2	None	everything		extra_error
+You know , I mean , we 're d- , you know ,	know	2	ARG1	None	we ’re d-		extra_error
+%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .	talk	7	ARG1	subject	some things that maybe we think that it would be neat for you to see	about some things that maybe we think that it would be neat for you to see about some things	boundary_error
+%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .	talk	7	ARG2	hearer	anya	with anya	boundary_error
+I 've got a student here who 's checking out rooms and stuff .	got	3	ARG1	thing had, possessed	a student here who's checking out rooms and stuff	a student a student here who 's checking out rooms and stuff	boundary_error
+And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that .	brings	8	ARG1	thing brought	four sandwiches; a bag of potato chips; little sweetie things (chocolates and cakies and stuff like that)	four sandwiches	boundary_error
+And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that .	brings	8	ARG2	None	with him		extra_error
+or maybe I 'll just call you when we get in Holland just to let you know we 're there ,	get	10	ARG0	None	we		extra_error
+Dad and I went to buy the wine the other day .	went	4	ARG1	None	to buy the wine		extra_error
+It 's just But %um %uh , %uh , the main reason for that is I had not really anticipated a few expenses that recently came up %ah . %uh , related to a couple of burglaries that I had .	related	32	ARG2	what it's related to	a couple of burglaries that i had	to a couple of burglaries that i had	boundary_error
+so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .	get	4	ARG1	thing in motion		we	miss_error
+so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .	get	4	get1	None	{'arg0': 'we', 'arg1': 'we', 'arg2': 'in the eighteenth or the nineteenth'}		extra_error
+so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .	get	4	get2	None	{'arg0': 'we', 'arg1': 'we', 'arg2': 'to a hotel or something like that'}		extra_error
+I said I feel like I know you even though I never met you .	feel	4	ARG1	belief	like i know you	i know you even though i never met you	boundary_error
+I said I feel like I know you even though I never met you .	feel	4	ARG2	None	you		extra_error
+this place is incredibly easy to break into if you want to .	break	7	ARG0	None	you		extra_error
+So I mean any income that y-	mean	3	ARG2	None	any income that y-		extra_error
+And at her sister 's wedding %uh , they provided champagne and beer .	provided	10	ARG2	None	her sister's wedding		extra_error
+And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,	turned	11	ARG1	None		my thesis	miss_error
+And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,	turned	11	ARG0	None		i	miss_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	pray	28	ARG1	prayer	for the jen	over her her	boundary_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	pray	28	ARG0	pray-er	my husband	sheik	boundary_error
+And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit	know	4	ARG2	None	he		extra_error
+if you separate out the different modes of the laser mhm . and look at one of those , you get more than one frequency .	separate	3	ARG1	thing being divided	the different modes	the different modes of the laser	boundary_error
+if you separate out the different modes of the laser mhm . and look at one of those , you get more than one frequency .	separate	3	ARG2	None	the laser		extra_error
+And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .	look	24	ARG1	thing looked at or for or on	the total intensity of the laser	at the total intensity uh-huh . of the laser	boundary_error
+I just got back from the gym .	got	3	ARG0	None	i		extra_error
+Well , , Leo 's big . You know ,	know	9	ARG1	None	leo's big		extra_error
+Well , , Leo 's big . You know ,	know	9	ARG2	None	leo		extra_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	pay	32	ARG0	payer or buyer		they	miss_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	pay	32	ARG3	commodity, paid for what		my trip back to the states	miss_error
+So you guys should pick out the things you want to see and let me know .	know	16	ARG1	None	the things you want to see		extra_error
+So you guys should pick out the things you want to see and let me know .	know	16	ARG2	None	you guys		extra_error
+if you separate out the different modes of the laser mhm . and look at one of those , you get more than one frequency .	look	14	ARG1	thing looked at or for or on	one of those	at one of those	boundary_error
+if you separate out the different modes of the laser mhm . and look at one of those , you get more than one frequency .	look	14	ARG2	None	more than one frequency		extra_error
+And , they mutually agreed that she should leave .	leave	9	ARG0	None		she	miss_error
+I just got a card from Ron and Doris ,	got	3	ARG2	giver	ron and doris	from ron and doris	boundary_error
+mom said , Barbara , Jasmine is just moving	moving	9	ARG1	moved		jasmine	miss_error
+mom said , Barbara , Jasmine is just moving	moving	9	ARG0	None	jasmine		extra_error
+mom said , Barbara , Jasmine is just moving	moving	9	ARG3	None	just		extra_error
+she 's moving out the way too quickly	moving	3	ARG1	moved		she	miss_error
+she 's moving out the way too quickly	moving	3	ARG3	None	the way		extra_error
+I mean things have been happening that has just scared the heck out of me .	mean	2	ARG1	element containing meaning		things have been happening that has just scared the heck out of me	miss_error
+I mean things have been happening that has just scared the heck out of me .	mean	2	ARG0	agent		i	miss_error
+I said %um please come to Shabbat	said	2	ARG1	Utterance	%um please come to shabbat	please come to shabbat	boundary_error
+I know Sue is going to Rhode Island .	going	5	ARG4	end point	rhode island	to rhode island	boundary_error
+Does she know that you 're Muslim ?	know	3	ARG1	fact that is known	that you're muslim	that you 're muslim	boundary_error
+Does she know that you 're Muslim ?	know	3	ARG2	None	you		extra_error
+if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .	planning	13	ARG1	thing planned	coming back to the us	on coming back to the u s	boundary_error
+if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .	planning	13	ARG2	None	(if) you’re in another country		extra_error
+I said oh and I do n't have your number in my other phonebook I said .	said	16	said_2	None	{'arg0': 'i'}		extra_error
+I said oh and I do n't have your number in my other phonebook I said .	said	16	said_1	None	{'arg0': 'i', 'arg1': "oh and i don't have your number in my other phonebook"}		extra_error
+I said oh and I do n't have your number in my other phonebook I said .	said	16	ARG0	Sayer		i	miss_error
+Alita I 'm telling you nobody can handle her but you , okay .	handle	8	ARG0	handler	you	nobody	boundary_error
+So what 's happening is that the modes are oscillating out of phase so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies .	mask	18	ARG1	thing covered	each other's oscillations on these other frequencies	each other 's exactly . %hm . oscillations on these other frequencies	boundary_error
+And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .	characterized	41	ARG2	secondary attribute, described-as	one frequency	by one frequency	boundary_error
+And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .	characterized	41	ARG0	describer		by one frequency	miss_error
+I 'm really looking forward to moving to Oregon and dealing with ,	moving	7	ARG1	moved		i	miss_error
+I 'm really looking forward to moving to Oregon and dealing with ,	moving	7	ARG0	None	i		extra_error
+because I knew what she would do if I took her somewhere you know what she would say	say	18	ARG1	Utterance	what she would say	what	boundary_error
+I thought you were talking to somebody else and like put the phone down or something .	put	11	ARG2	where put	down		extra_error
+and they operated on it twice .	operated	3	ARG1	None		on it	miss_error
+and they operated on it twice .	operated	3	ARG0	None		they	miss_error
+But , %um Anyway , I had been kind of telling him that , you know , from my reading of the literature , I thought that this one little alteration I had made in my model was kind of clever and unique .	made	34	ARG2	None	in my model		extra_error
+Now I have n't submitted a conference paper with the Missouri %um , you know , affiliation yet .	know	15	ARG1	None	i have n't submitted a conference paper with the missouri affiliation yet		extra_error
+Now I have n't submitted a conference paper with the Missouri %um , you know , affiliation yet .	know	15	ARG2	None	a conference paper with the missouri affiliation		extra_error
+So , I had one client who said that he 'd pay me a minimum amount .	said	8	ARG1	Utterance	that he'd pay me a minimum amount	that he 'd pay me a minimum amount	boundary_error
+She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .	doing	6	ARG1	thing done	things that she really wasn’t qualified to do	things that she really was n't qualified to do %ah . and that she really did n't feel competent doing	boundary_error
+And I was having a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven .	getting	9	ARG1	thing in motion	that all of the literature has this frequency in the transients	that all of the literature has this frequency in the transients yes . %eh and not driven	boundary_error
+Well , %um actually I think this phone call 's just about to end cause it 's only half an hour ,	end	14	ARG4	None	half an hour		extra_error
+She does not sit still or lay still for you to change her Pampers .	lay	7	ARG1	None		she	miss_error
+Have dual citizenship ?	Have	1	ARG0	None	you (understood subject)		extra_error
+I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics	writing	7	ARG1	thing written	a couple of articles based on your master’s thesis	a couple of articles based on your master 's thesis	boundary_error
+I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics	writing	7	ARG0	None	you		extra_error
+How 's it going ?	going	4	ARG1	project		it	miss_error
+How 's it going ?	going	4	ARG0	None	it		extra_error
+So Cool . Cool . that 's mostly the sort of stuff that I 'm spending a lot of time on now . %um	spending	16	ARG2	activity	that sort of stuff	the sort of stuff	boundary_error
+Well I said I would not feel comfortable going .	feel	7	ARG2	None	going		extra_error
+%um and I asked her	asked	4	ARG0	asker	%um and i	i	boundary_error
+Now I just have to work on the financial aspects of all of this .	work	6	ARG1	job, project	the financial aspects of all of this	on the financial aspects of all of this	boundary_error
+And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .	call	13	ARG1	item being labelled	one of the things that they find experimentally	what	boundary_error
+And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .	call	13	ARG2	name itself, attribute of arg1	anti phased states	anti phased , %uh , states	boundary_error
+I 've got to	got	3	ARG1	Complement	to		extra_error
+and she said that if it was n't for Jetta you know Jasmine 's daddy would n't be	know	12	ARG1	fact that is known	jasmine's daddy wouldn't be	jasmine 's daddy would n't be	boundary_error
+and she said that if it was n't for Jetta you know Jasmine 's daddy would n't be	know	12	ARG2	None	jasmine's daddy		extra_error
+so the gym 's going well .	going	5	ARG1	project		the gym	miss_error
+so the gym 's going well .	going	5	ARG0	None	the gym		extra_error
+I mean of course I did n't say anything to her .	mean	2	ARG1	element containing meaning		i did n't say anything to her of course i did n't say anything to her	miss_error
+I mean of course I did n't say anything to her .	mean	2	ARG2	None	of course i didn’t say anything to her		extra_error
+Spent about two weeks up there .	Spent	1	ARG1	unit of time		about two weeks	miss_error
+She 's been away with her class oh . up around Blandenburg for about two weeks on a , what they call Feldmessen .	call	22	ARG1	item being labelled	what (referring to the event/trip)	what	boundary_error
+So we 're looking forward to that .	looking	4	ARG1	None		to that	miss_error
+So we 're looking forward to that .	looking	4	ARG0	None		we	miss_error
+And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit	fried	14	ARG1	food	two fried eggs	eggs	boundary_error
+she gets up	gets	2	ARG2	None	up		extra_error
+I mean the only thing is %um just getting your heart rate up for extended periods of time .	mean	2	ARG1	element containing meaning	the only thing	the only thing is %um just getting your heart rate up for extended periods of time	boundary_error
+I mean the only thing is %um just getting your heart rate up for extended periods of time .	mean	2	ARG2	None	just getting your heart rate up for extended periods of time		extra_error
+Did she say how she felt about what had happened ?	felt	6	ARG2	entity towards or for whom the emotion is directed	what had happened	about what had happened	boundary_error
+Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	get	12	ARG1	thing in motion		i	miss_error
+Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	get	12	get_1	None	{'arg0': 'i', 'arg1': 'i', 'arg2': 'there'}		extra_error
+Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	get	12	get_2	None	{'arg0': 'everyone else', 'arg1': 'everyone else', 'arg2': 'there'}		extra_error
+Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	get	12	ARG2	destination		there	miss_error
+But %ah well . I am working on that one .	working	7	ARG1	job, project	that one	on that one	boundary_error
+and Adele still talks about the black dress .	talks	4	ARG1	subject	the black dress	about the black dress	boundary_error
+%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .	sit	5	ARG1	thing sitting		i	miss_error
+I had to file Georgia , Kansas yeah and then my federal .	file	4	ARG1	file		georgia , kansas yeah and then my federal	miss_error
+I had to file Georgia , Kansas yeah and then my federal .	file	4	ARG2	None	georgia kansas my federal		extra_error
+and I think we 're still going to be doing that	think	3	ARG1	Thought	we're still going to be doing that	we 're still going to be doing that	boundary_error
+and I 'm actually presently working on , %um , several , %uh , articles oh , okay . Impressive . from it .	working	6	ARG1	job, project	several articles	on , %um , several , %uh , articles several , %uh , articles	boundary_error
+I actually got to see her I guess a day before she died .	guess	8	ARG1	None	a day before she died		extra_error
+But you know , I mean that mhm . should n't be a big deal . %um	know	3	ARG1	None	that mhm . should n't be a big deal		extra_error
+You know she would 've seen it all .	seen	6	ARG1	thing viewed	it	it all	boundary_error
+You know she would 've seen it all .	seen	6	ARG2	None	all		extra_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	stay	18	ARG3	None	very long		extra_error
+But , %um Anyway , I had been kind of telling him that , you know , from my reading of the literature , I thought that this one little alteration I had made in my model was kind of clever and unique .	telling	11	ARG1	Utterance	that, you know, from my reading of the literature, i thought that this one little alteration i had made in my model was kind of clever and unique	that , you know , from my reading of the literature , i thought that this one little alteration i had made in my model was kind of clever and unique	boundary_error
+My other friend just moved to trade publishing after years in academic publishing	moved	5	ARG1	moved		my other friend	miss_error
+My other friend just moved to trade publishing after years in academic publishing	moved	5	ARG0	None	my other friend		extra_error
+My other friend just moved to trade publishing after years in academic publishing	moved	5	ARG3	None	academic publishing		extra_error
+And I got a card from ,	got	3	ARG2	giver	from ,		extra_error
+Well I guess she did that because someone suggested that to her because you know the lillies the symbol of the virgin Mary .	suggested	9	ARG2	Hearer	her	to her	boundary_error
+So , I assume it 's hard for you not to eat as much as he does .	assume	4	ARG1	Thought		it 's hard for you not to eat as much as he does	miss_error
+So , I assume it 's hard for you not to eat as much as he does .	assume	4	ARG0	Thinker		i	miss_error
+and I just believe it 's you know time , you know	believe	4	ARG1	believed	it's time	it 's you know time , you know	boundary_error
+and I just believe it 's you know time , you know	believe	4	ARG2	None	time		extra_error
+and I kind of hinted to her that really the only way to lose weight is cardio vascular . mhm . It 's true . And that lifting the weights wo n't lose weight .	lose	33	ARG0	entity losing something	her lifting the weights		extra_error
+And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,	see	21	ARG2	None	anti phased		extra_error
+I 'll have to get somebody to help me .	help	8	ARG1	project		me	miss_error
+I mean you might lose some	mean	2	ARG2	None	that you might lose some		extra_error
+I mean you might lose some	mean	2	ARG3	None	you		extra_error
+and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the	living	20	ARG1	None	in the		extra_error
+and all I had to do was get on it and follow it .	do	6	ARG1	thing done	get on it and follow it	all	boundary_error
+It may be the other one that just took the job with Hard Core Brace	took	9	ARG3	None	hard core brace		extra_error
+Anyway they take , %uh fluid out of it .	take	3	ARG2	taken FROM, SOURCE of thing taken	it	out of it	boundary_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	17	know_1	None	{'arg0': 'you', 'arg1': 'even after you left i said, i just hope arlita knows that you know i tried my best', 'arg2': none}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	17	know_2	None	{'arg0': 'arlita', 'arg1': 'that you know i tried my best', 'arg2': none}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	17	ARG0	knower		you	miss_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	17	know_3	None	{'arg0': 'you', 'arg1': 'i tried my best', 'arg2': none}		extra_error
+It 's probably easier for me to come by public transport in Amsterdam than it is for me to come by car to be honest .	come	8	ARG1	entity in motion / 'comer'	me me	me	boundary_error
+It 's probably easier for me to come by public transport in Amsterdam than it is for me to come by car to be honest .	come	8	ARG4	None	in amsterdam		extra_error
+Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um	know	13	ARG1	None	given how far he's gotten he got his degree at tufts and all		extra_error
+Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um	know	13	ARG2	None	he		extra_error
+I mean Jasmine was about two months old	mean	2	ARG1	element containing meaning		jasmine was about two months old	miss_error
+I mean Jasmine was about two months old	mean	2	ARG2	None	jasmine was about two months old		extra_error
+And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,	happened	6	ARG1	event	after i had turned in my thesis but before i saw neil again, he went to a conference in rochester and there this was a big issue among the people who were doing this work, was, that their models couldn't show this as a driven frequency	what	boundary_error
+and she climbs up the stairs , Selema .	climbs	3	ARG1	thing climbed (clomb?)	the stairs	up the stairs	boundary_error
+Well , %um actually I think this phone call 's just about to end cause it 's only half an hour ,	think	6	ARG1	Thought	this phone call ’s just about to end ’cause it ’s only half an hour	this phone call 's just about to end	boundary_error
+yeah , I think that there was some concern about her when I talked to you in September or October .	talked	14	ARG2	hearer	you	to you	boundary_error
+So it 's pretty good I mean comparatively .	mean	7	ARG1	None	it ’s pretty good		extra_error
+So it 's pretty good I mean comparatively .	mean	7	ARG2	None	comparatively		extra_error
+Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .	purchased	17	ARG0	None	(implicit speaker)		extra_error
+I mean of course I did n't say anything to her .	say	8	ARG2	Hearer	her	to her	boundary_error
+and we can like do a quick dinner or something yeah and go see whatever you want to see ,	see	19	ARG2	None	you want to see		extra_error
+and we can like do a quick dinner or something yeah and go see whatever you want to see ,	see	19	ARG0	viewer	we	you	boundary_error
+and I think they would then feel guilty for not inviting me .	feel	7	ARG2	None	for not inviting me		extra_error
+I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics	know	5	ARG1	None	writing a couple of articles based on your master’s thesis is not at all unusual in physics		extra_error
+I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics	know	5	ARG2	None	writing a couple of articles based on your master’s thesis		extra_error
+have to deal with the situation .	deal	3	ARG0	None	(unspecified agent)		extra_error
+have to deal with the situation .	deal	3	ARG2	None	the situation		extra_error
+If you dial in Holland , it 's zero one eight one zero . okay in Holland	dial	3	ARG1	None	zero one eight one zero		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	said	8	ARG2	None	you		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	said	8	ARG3	None	even after you left		extra_error
+And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit	leaves	7	ARG0	None		he	miss_error
+I 'll tell dad that you still think about the	think	8	ARG1	None	about the		extra_error
+I 'm talking to you .	talking	3	ARG2	hearer	you	to you	boundary_error
+And , it did n't work out .	work	6	ARG1	None		it	miss_error
+There 's drawers everywhere , to figure out where everything is .	figure	7	ARG1	None		where everything is	miss_error
+I spoke to her mom on Thursday	spoke	2	ARG2	hearer	her mom	to her mom	boundary_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	give	9	ARG2	None	they		extra_error
+My daughter - in - law Barbara got on her case real serious yesterday .	got	8	ARG1	thing	on her case		extra_error
+But we got to see Den Haag and places like that too which we 're obviously not going to see this time .	see	20	ARG1	thing viewed		which	miss_error
+But we got to see Den Haag and places like that too which we 're obviously not going to see this time .	see	20	ARG0	viewer		we	miss_error
+But we got to see Den Haag and places like that too which we 're obviously not going to see this time .	see	20	see (not going to see)	None	{'arg0': 'we', 'arg1': 'den haag and places like that', 'arg2': none}		extra_error
+But we got to see Den Haag and places like that too which we 're obviously not going to see this time .	see	20	see (got to see)	None	{'arg0': 'we', 'arg1': 'den haag and places', 'arg2': 'like that'}		extra_error
+Actually in the first week I was here -- mhm . -- I gained a lot	gained	14	ARG1	thing acquired	a lot		extra_error
+nah do n't worry about it .	worry	4	ARG1	topic of worry	it	about it	boundary_error
+nah do n't worry about it .	worry	4	ARG0	None	you		extra_error
+Ron is working as a financial consultant for , %um , Meryl Lynch .	working	3	ARG2	None	for meryl lynch		extra_error
+actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .	doing	16	ARG1	thing done	what i was doing	what	boundary_error
+I know Sue is going to Rhode Island .	know	2	ARG2	None	sue		extra_error
+or maybe I 'll just call you when we get in Holland just to let you know we 're there ,	know	17	ARG1	fact that is known	we're there	we 're there	boundary_error
+or maybe I 'll just call you when we get in Holland just to let you know we 're there ,	know	17	ARG2	None	we		extra_error
+So are you still living in that house in the middle of the park .	living	5	ARG1	None	that house in the middle of the park		extra_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	know	26	ARG1	None	it ’s a shame that you can’t go no place and i can get a good report on you		extra_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	know	26	ARG2	None	you		extra_error
+Even Charlie 's going to join ?	join	6	ARG0	agent, entity doing the tying	charlie	even charlie	boundary_error
+You know Tufts yeah . sent her to Taiwa	sent	6	ARG4	end point, attribute of arg1	taiwa	to taiwa	boundary_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	know	17	ARG1	None	we were going to give it a month		extra_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	know	17	ARG2	None	the jen		extra_error
+And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,	kept	3	ARG2	None	that i should tone this part of the thesis down that you know , people see the anti phased motion ,		extra_error
+But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,	come	24	ARG1	None		she	miss_error
+But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,	come	24	ARG0	None		she	miss_error
+It 's just But %um %uh , %uh , the main reason for that is I had not really anticipated a few expenses that recently came up %ah . %uh , related to a couple of burglaries that I had .	anticipated	20	ARG1	thing anticipated	a few expenses that recently came up	a few expenses that recently came up %ah . %uh , related to a couple of burglaries that i had	boundary_error
+And they 're doing great .	doing	4	ARG1	None	great		extra_error
+Well it 's good to hear from Francis who 's had a lot of child-	hear	6	ARG1	None	the news that francis has had a lot of children		extra_error
+Well it 's good to hear from Francis who 's had a lot of child-	hear	6	ARG0	None	the speaker (implicit ‘i’ as the hearer)		extra_error
+Well it 's good to hear from Francis who 's had a lot of child-	hear	6	ARG2	speaker, source of sound	francis	from francis who 's had a lot of child-	boundary_error
+So , I assume it 's hard for you not to eat as much as he does .	does	17	ARG0	None		he	miss_error
+You know Tufts yeah . sent her to Taiwa	know	2	ARG1	fact that is known	tufts sent her to taiwa	tufts tufts yeah . sent her to taiwa	boundary_error
+You know Tufts yeah . sent her to Taiwa	know	2	ARG2	None	tufts		extra_error
+%um 118.91_120.82_B: Let 's see ,	Let	3	ARG0	None	you (implied addressee granting permission)		extra_error
+And she said the students are just ,	said	3	ARG1	Utterance	the students are just ,	the students are just	boundary_error
+But , %uh , we want to write a letter , and then a couple articles .	write	8	ARG1	thing written	a letter a couple articles	a letter , and then a couple articles	boundary_error
+and he 's doing very very well . %um ,	doing	4	ARG1	None	very very well		extra_error
+Well I mean I 'm still American citizen	mean	3	ARG1	element containing meaning		i 'm still american citizen	miss_error
+Well I mean I 'm still American citizen	mean	3	ARG2	None	i'm still american citizen		extra_error
+I think I had mentioned before %uh , that there 's a company now that I 'm working with %um , %uh , which is very much just myself and Guss .	working	18	ARG2	None	a company		extra_error
+She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .	doing	26	ARG1	thing done	things that she really wasn’t qualified to do	that	boundary_error
+She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .	doing	26	ARG0	agent, doer	her	she	boundary_error
+and he said he could n't keep on top of it .	keep	7	ARG1	thing kept	it	on top of it	boundary_error
+So uh-huh . I think %um tonight Charlie and I are going to go over and join up .	go	14	ARG4	None	over		extra_error
+and she just had bad luck I guess is all you can say .	guess	8	ARG1	None	she just had bad luck is all you can say		extra_error
+and I just believe it 's you know time , you know	know	12	ARG1	None	time		extra_error
+as soon as you get into Holland and get yourself settled you can call me	get	5	ARG0	None	you		extra_error
+I mean I 've been thinking about it	thinking	6	ARG1	None	it		extra_error
+I mean I 've been thinking about it	thinking	6	ARG2	Attributive (please look at the examples-- this is tricky)		about it	miss_error
+if this does happen and I do believe it may happen , %um you know we will have an agreement , she and I , you know ,	happen	4	ARG1	event	this it	this	boundary_error
+And she was just really concerned about you know everything . mhm you know . What the possibilities of like	know	14	ARG1	fact that is known	everything (fact that is known) in “you know everything”		extra_error
+And she was just really concerned about you know everything . mhm you know . What the possibilities of like	know	14	ARG0	knower	you (knower) in “you know everything” you (knower) in “mhm you know”	you	boundary_error
+and mom said so we found out ,	found	6	ARG0	None		we	miss_error
+And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier ,	went	14	ARG2	None	monetary value		extra_error
+To -- -- you know the other thing , the reception .	know	5	ARG1	fact that is known	the other thing, the reception	the other thing , the reception	boundary_error
+and we can like do a quick dinner or something yeah and go see whatever you want to see ,	see	14	ARG1	thing viewed	whatever	whatever you want to see	boundary_error
+and we can like do a quick dinner or something yeah and go see whatever you want to see ,	see	14	ARG2	None	you want to see		extra_error
+You never even get a chance to see them again .	see	8	ARG2	None	again		extra_error
+If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam .	go	12	ARG4	None	back		extra_error
+I mean I 've been thinking about it	mean	2	ARG1	element containing meaning		i 've been thinking about it	miss_error
+I mean I 've been thinking about it	mean	2	ARG2	None	i’ve been thinking about it		extra_error
+And so %uh , that 's yeah at least dealt with .	dealt	10	ARG2	None	that		extra_error
+%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .	see	25	ARG2	None	that maybe we think that it would be neat for you to see		extra_error
+%um , but Leo and Julie just seemed , %um sort of happy with the decisions they 've made .	seemed	8	ARG1	thing seeming	sort of happy with the decisions they’ve made	sort of happy with the decisions they 've made leo and julie	boundary_error
+%um , but Leo and Julie just seemed , %um sort of happy with the decisions they 've made .	seemed	8	ARG2	None	leo and julie		extra_error
+%uh lay there let me look at my grandmother kind of thing	look	6	ARG1	thing looked at or for or on	my grandmother	at my grandmother	boundary_error
+%uh lay there let me look at my grandmother kind of thing	look	6	ARG2	None	kind of thing		extra_error
+And that 's one of those things they just never tell you up front .	tell	11	ARG1	Utterance	one of those things	those things	boundary_error
+But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .	seeing	14	ARG1	thing viewed	shape headquarters and all that kind of stuff	shape headquarters shape headquarters and you know all that kind of stuff . those military things	boundary_error
+But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .	seeing	14	ARG2	None	those military things		extra_error
+and you know she talked about %um her sisters you know and things	know	3	ARG1	None	she talked about %um her sisters you know and things		extra_error
+and you know she talked about %um her sisters you know and things	know	3	ARG2	None	her sisters		extra_error
+Well you know or luck making a way and making it at ease for you to	know	3	ARG1	None	luck making a way and making it at ease for you to		extra_error
+Well you know or luck making a way and making it at ease for you to	know	3	ARG2	None	luck		extra_error
+and things were n't going well ,	going	5	ARG1	project		things	miss_error
+and things were n't going well ,	going	5	ARG0	None	things		extra_error
+She talked to mom here in Rochester .	talked	2	ARG2	hearer	mom	to mom	boundary_error
+And then they operated on it once ,	operated	4	ARG1	None		on it	miss_error
+And then they operated on it once ,	operated	4	ARG0	None		they	miss_error
+I said %um please come to Shabbat	come	5	ARG1	None	you (understood addressee)		extra_error
+She did ?	did	2	ARG0	None		she	miss_error
+but you know it 's not going to be a fun tax return year .	know	3	ARG1	fact that is known	it’s not going to be a fun tax return year	it 's not going to be a fun tax return year	boundary_error
+I owe four years in active reserve time .	owe	2	ARG1	price paid	four years	four years in active reserve time	boundary_error
+I owe four years in active reserve time .	owe	2	ARG3	None	active reserve time		extra_error
+Not a whole lot I can do about that now .	do	7	ARG1	thing done	not a whole lot	about that that	boundary_error
+Not a whole lot I can do about that now .	do	7	ARG2	benefactive, done for or about	that	about that	boundary_error
+But you know , I mean that mhm . should n't be a big deal . %um	mean	6	ARG1	element containing meaning	that mhm shouldn’t be a big deal	that mhm . should n't be a big deal	boundary_error
+But you know , I mean that mhm . should n't be a big deal . %um	mean	6	ARG2	None	it shouldn’t be a big deal		extra_error
+But you know , I mean that mhm . should n't be a big deal . %um	mean	6	ARG3	None	you		extra_error
+I guess not	guess	2	ARG1	None	not		extra_error
+you know I 'll probably be there some time around six	know	2	ARG1	fact that is known	i’ll probably be there some time around six	i 'll probably be there some time around six	boundary_error
+they do in the transients	do	2	ARG0	None		they	miss_error
+Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know	talk	7	ARG2	hearer	jasmine	to jasmine	boundary_error
+For a woman who is lifting not that much I do n't think yeah . You would .	think	13	ARG1	Thought	you would		extra_error
+Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	mean	4	ARG1	element containing meaning	obviously since i work i can't get there until about six o'clock at night which is when everyone else gets there	obviously since i work i ca n't get there until about six o'clock at night which is when everyone else gets there	boundary_error
+Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	mean	4	ARG2	None	that i cannot arrive until about six o'clock at night, when everyone else gets there		extra_error
+Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	mean	4	ARG3	None	(implied) you		extra_error
+You see the one very annoying thing about all of this , was my advisor has been in France for a year and a half .	see	2	ARG1	None	the one very annoying thing about all of this	the one very annoying thing about all of this , was my advisor has been in france for a year and a half	boundary_error
+and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	means	8	ARG1	element containing meaning	lifting weights at bally ’s	you 're standing on line for as much time as you 're actually lifting	boundary_error
+and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	means	8	ARG2	None	you ’re standing on line for as much time as you ’re actually lifting		extra_error
+and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	means	8	ARG0	agent		lifting weights at bally 's	miss_error
+and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	means	8	ARG3	None	you		extra_error
+but you know you 've heard the saying I 'm sure from your grandmother	heard	6	ARG1	utterance, sound	the saying "i'm sure"	the saying	boundary_error
+Which was actually where the major problem came . Exactly . Exactly . yeah . Is that I suddenly had no transportation .	came	8	ARG2	source, basis on which arg1 comes to be  (not start point of motion!)	which	where	boundary_error
+She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .	said	2	ARG1	Utterance	they had her doing things that she really wasn’t qualified to do %ah and that she really didn’t feel competent doing	they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing	boundary_error
+it has an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless .	makes	15	ARG1	impelled action/ predication	the thing that they stoled absolutely worthless	the thing that they **stoled** absolutely worthless	boundary_error
+it has an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless .	makes	15	ARG0	impeller to action	the off board power supply which they didn’t steal	an off board power supply which they did n't steal	boundary_error
+and just remember to ask for her mother .	remember	3	ARG0	None	you (implicit)		extra_error
+mom said , Barbara , Jasmine is just moving	said	2	ARG1	Utterance	jasmine is just moving	barbara , jasmine is just moving	boundary_error
+mom said , Barbara , Jasmine is just moving	said	2	ARG2	None	barbara		extra_error
+and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the	saw	4	ARG2	None	in the %um tufts thing		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	5	ARG1	Utterance		even if it was going to be in september , she said the little things i can tolerate you know if that happens you know	miss_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	5	said3	None	{'arg0': 'she', 'arg1': 'the little things i can tolerate you know if that happens you know'}		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	5	said1	None	{'arg0': 'mom', 'arg1': 'she said even if it was going to be in september'}		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	5	ARG0	Sayer		she	miss_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	5	said2	None	{'arg0': 'she', 'arg1': 'even if it was going to be in september'}		extra_error
+Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,	say	4	ARG1	Utterance	once you’re at a hotel uh-huh %um, why don’t you call me at work and let me know where you are	once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are	boundary_error
+Well I would say is once you 're at a hotel uh-huh %um , why do n't you call me at work and let me know where you are ,	say	4	ARG2	None	you		extra_error
+And like I have n't even started mine . mhm . You know	know	13	ARG1	None	i haven’t even started mine		extra_error
+And like I have n't even started mine . mhm . You know	know	13	ARG2	None	mine		extra_error
+Have you heard from Ron and Doris ?	heard	3	ARG2	speaker, source of sound	ron and doris	from ron and doris	boundary_error
+so I decided that it would make sense to do this .	decided	3	ARG3	None	to do this		extra_error
+You know that has always been very scary to me even after .	know	2	ARG1	fact that is known	that has always been very scary to me even after .	that has always been very scary to me even after	boundary_error
+but yeah if you just separate normally and you have n't served at least eight years , then you owe it .	separate	6	ARG1	thing being divided		you	miss_error
+but yeah if you just separate normally and you have n't served at least eight years , then you owe it .	separate	6	ARG0	entity causing separation	you		extra_error
+Well did she come home and say I saw her , I look like her or what ?	look	13	ARG1	seemed like, attribute of arg0	her	like her	boundary_error
+and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump	look	4	ARG1	thing looked at or for or on	me – the thing on which ‘it’ is looked	on me	boundary_error
+and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump	look	4	ARG2	attribute of arg1	good – the attribute of that thing	good	boundary_error
+and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump	look	4	ARG0	None	(implicit) i – the looker		extra_error
+So we 'll just see . You know	know	8	ARG1	None	so we'll just see		extra_error
+and Anya and her father did n't understand the damn thing .	understand	8	ARG2	None	damn		extra_error
+But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .	know	19	ARG1	fact that is known	all that kind of stuff	all that kind of stuff . those military things	boundary_error
+But then again I 'm not sure that Kim would be interested in seeing Shape Headquarters and you know all that kind of stuff . those military things .	know	19	ARG2	None	those military things		extra_error
+And I was having a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven .	having	4	ARG1	possession	a lot of trouble getting across to him that all of the literature has this frequency in the transients yes . %eh and not driven .	a lot of trouble getting across to him that all of the literature has this frequency in the transients yes . %eh and not driven a lot of trouble a lot of trouble getting across to him	boundary_error
+%eh %eh You know , %um Well , she said that she was .	know	4	ARG1	None	she said that she was		extra_error
+When I talked to her I 'm talking to her like I 'm talking to you .	talking	14	ARG2	hearer	her you	to you	boundary_error
+And I was having a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven .	has	18	ARG1	possession	this frequency in the transients	this frequency	boundary_error
+She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,	know	9	ARG1	None	her needing a lot of love, a lot of %um help and different things like this		extra_error
+She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,	know	9	ARG2	entity that arg1 is known ABOUT	her	about her needing a lot of love , a lot of %um help and different things like this	boundary_error
+Not enough relatives left here anymore ?	left	4	ARG1	None		not enough relatives relatives	miss_error
+and we can like do a quick dinner or something yeah and go see whatever you want to see ,	do	5	ARG0	agent, doer		we	miss_error
+and he said , hey Lowell , we got to write this up .	said	3	ARG1	Utterance	hey lowell, we got to write this up	hey lowell , we got to write this up	boundary_error
+and he said , hey Lowell , we got to write this up .	said	3	ARG2	None	lowell		extra_error
+The first time they broke in , what they stole was just bizarre ,	stole	10	ARG1	thing stolen	what they stole	what	boundary_error
+so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science .	pushing	4	ARG1	thing pushed	the bounds of theoretical laser science	the bounds of theoretical laser , %uh , whatever it is science the bounds of theoretical laser	boundary_error
+Adele was carrying on that she thought she was at a funeral	carrying	3	ARG1	None		that she thought she was at a funeral	miss_error
+Adele was carrying on that she thought she was at a funeral	carrying	3	ARG0	None		adele	miss_error
+and that did n't work out .	work	5	ARG1	None		that	miss_error
+I mean that 's the military .	mean	2	ARG1	element containing meaning	that	that 's the military	boundary_error
+I mean that 's the military .	mean	2	ARG2	None	the military		extra_error
+But %um , guessed what happened .	guessed	4	ARG0	None	[unexpressed guesser]		extra_error
+So you guys should pick out the things you want to see and let me know .	see	12	ARG0	viewer	you guys	you	boundary_error
+I have to go next week you know to see again .	know	8	ARG1	None	i have to go next week to see again		extra_error
+I have to go next week you know to see again .	know	8	ARG2	None	i		extra_error
+And , %um , you know , their life is a lot less complicated ,	know	6	ARG1	None	their life is a lot less complicated		extra_error
+You know everybody 's kind of passed away , almost .	passed	7	ARG1	None		everybody	miss_error
+You know , he , %uh ,	know	2	ARG2	None	he		extra_error
+and we 've been doing okay .	doing	5	ARG0	agent, doer		we	miss_error
+and so we met , %um , %uh Adrian , their kid , who was three uh-huh . and just a really lovely little boy .	met	4	ARG1	person / entity / object being met	adrian, their kid, who was three uh-huh	adrian , their kid , who was three uh-huh . and just a really lovely little boy	boundary_error
+You wo n't lose it , you know ,	know	8	ARG1	None	you won’t lose it		extra_error
+Got to get that up to five .	Got	1	ARG0	None	(implicit subject ‘i’/‘we’)		extra_error
+Well you know why Allah is doing this .	know	3	ARG2	None	allah		extra_error
+He could n't learn the whole new area %mm . that fast each time .	learn	4	ARG1	subject	the whole new area %mm	the whole new area	boundary_error
+Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .	know	25	ARG1	None	go get it and things like that		extra_error
+Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .	know	25	ARG2	None	it		extra_error
+I mean the only thing is %um just getting your heart rate up for extended periods of time .	getting	9	ARG0	None	you		extra_error
+I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics	mean	2	ARG1	element containing meaning	writing a couple of articles based on your master's thesis	you know , writing a couple of articles based on your master 's thesis , is , not at all unusual in physics writing a couple of articles based on your master 's thesis , is , not at all unusual in physics	boundary_error
+I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics	mean	2	ARG2	None	not at all unusual in physics		extra_error
+I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics	mean	2	ARG3	None	you		extra_error
+And in it I put , %um paint samples from Sherwin Williams uh-huh . of all the different like shades of what color I thought you might be thinking of for the bride 's maids .	thinking	29	ARG1	None	what color		extra_error
+And in it I put , %um paint samples from Sherwin Williams uh-huh . of all the different like shades of what color I thought you might be thinking of for the bride 's maids .	thinking	29	ARG2	Attributive (please look at the examples-- this is tricky)	for the bride’s maids	for the bride 's maids	boundary_error
+%eh , I mean cause Jasmine is not nowhere like my other little babies .	mean	4	ARG2	None	cause jasmine is not nowhere like my other little babies		extra_error
+Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know	know	22	ARG1	fact that is known	that she could n't talk to jasmine play with jasmine because she said she hurt jasmine 's jetta	she hurt jasmine 's jetta	boundary_error
+Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know	know	22	ARG2	None	jasmine 's jetta		extra_error
+I mean yeah	mean	2	ARG1	element containing meaning	yeah		extra_error
+let 's see she bought ,	see	3	ARG1	None		she bought	miss_error
+let 's see she bought ,	see	3	ARG0	you	you	's	boundary_error
+%um , %um , but you know I feel very at peace about everything .	feel	9	ARG1	emotion or sensation	very at peace	very at peace about everything	boundary_error
+%um , %um , but you know I feel very at peace about everything .	feel	9	ARG2	None	about everything		extra_error
+well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .	seemed	3	ARG1	thing seeming	to make sense since i had a client to just kind of set up my own company, of sorts	to make sense	boundary_error
+Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .	get	28	ARG1	thing gotten	one / it (the bike)	it it and things like that	boundary_error
+Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .	get	28	ARG0	None	(implicit) the speaker (i)		extra_error
+An American living abroad .	living	3	ARG1	None	abroad		extra_error
+you can just call her Missus and speak English to her .	speak	8	ARG2	hearer	her	to her	boundary_error
+you can just call her Missus and speak English to her .	speak	8	ARG3	None	english		extra_error
+It 's crazy how much he eats .	eats	7	ARG1	meal	how much		extra_error
+so they tax it really high .	tax	3	ARG1	None	really high		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	3	ARG1	Utterance		she said even if it was going to be in september , she said the little things i can tolerate you know if that happens you know even if it was going to be in september , she said the little things i can tolerate you know if that happens you know	miss_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	3	said3	None	{'arg0': 'she', 'arg1': 'the little things i can tolerate you know if that happens you know'}		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	3	said1	None	{'arg0': 'mom', 'arg3': 'like'}		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	3	ARG0	Sayer		mom	miss_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	3	said2	None	{'arg0': 'she', 'arg1': 'even if it was going to be in september'}		extra_error
+So they had to take it down and drive her home .	drive	9	ARG1	vehicle or path	her home	home	boundary_error
+And this made writing my thesis very annoying because you know there was n't much discussion .	writing	4	ARG0	None	i (the writer, implied by “my”)		extra_error
+and %um Francis was very worried about me because she came home two weeks before you know %um because she just was acting like a total nigger child .	came	11	ARG2	None	two weeks		extra_error
+actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .	reading	40	ARG1	thing read (book)	what i had been reading	in the literature what	boundary_error
+actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .	reading	40	ARG3	text, content	the literature	what	boundary_error
+%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	happened	13	ARG1	event	everything that has happened in the last several years	everything	boundary_error
+Well I guess she did that because someone suggested that to her because you know the lillies the symbol of the virgin Mary .	know	15	ARG2	None	the lillies		extra_error
+She talked to mom .	talked	2	ARG2	hearer	mom	to mom	boundary_error
+%um , they had just moved to He 's in New York now , right ? a really nice house in Westchester .	moved	6	ARG0	None	they		extra_error
+%um , they had just moved to He 's in New York now , right ? a really nice house in Westchester .	moved	6	ARG3	None	just		extra_error
+she just was not a little sweet little cuddly you know ,	know	11	ARG1	None	she just was not a little sweet little cuddly		extra_error
+So , I had one client who said that he 'd pay me a minimum amount .	had	4	ARG1	possession	one client who said that he'd pay me a minimum amount	one client who said that he 'd pay me a minimum amount	boundary_error
+She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .	had	4	ARG1	action	her doing things that she really wasn't qualified to do	her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing her doing things	boundary_error
+things have come to a point where I may have to relinquish my , %uh parenting .	relinquish	12	ARG0	resigner		i	miss_error
+Well he 's working for an American firm over here ,	working	4	ARG2	employer, benefactive	an american firm	for an american firm for an american firm over here	boundary_error
+Got to get that up to five .	get	3	ARG0	None	(implicit speaker ‘i’)		extra_error
+I mean you lay her down on the bed	mean	2	ARG2	None	for you to lay her down on the bed		extra_error
+I mean you lay her down on the bed	mean	2	ARG3	None	you		extra_error
+maybe she 'll catch on soon .	catch	4	ARG0	None		she	miss_error
+I 've got a student here who 's checking out rooms and stuff .	checking	9	ARG1	None		rooms and stuff	miss_error
+I 've got a student here who 's checking out rooms and stuff .	checking	9	ARG0	None		a student	miss_error
+that %um you know ,	know	4	ARG1	None	that		extra_error
+And , %uh %huh the most worthwhile thing as far as monetary value went that they stole was the pre-amplifier of my stereo . Unfortunately , because it 's a nice pre-amplifier ,	stole	17	ARG2	None	my stereo		extra_error
+I do n't know if you spoke to me before that or when it was that was happening . Or	spoke	7	ARG2	hearer	me	to me	boundary_error
+I remember when I talked to you in the fall yeah . yeah . that %uh	remember	2	ARG1	memory	when i talked to you in the fall		extra_error
+In your letter you said that he eats constantly .	said	5	ARG3	None	in your letter		extra_error
+And it 'll be exactly what I want	want	8	ARG1	thing wanted	what	exactly what	boundary_error
+And then we saw Leo and Julie at Christmas time .	saw	4	ARG2	None	at christmas time		extra_error
+I , %um , not exactly convinced that . It 's okay . You know ,	know	15	ARG1	None	that i’m not exactly convinced that it’s okay		extra_error
+If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too .	see	13	ARG1	thing viewed	a little bit of echte holland	a little bit of , echte holland , real holland	boundary_error
+If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too .	see	13	ARG2	None	real holland		extra_error
+because I knew what she would do if I took her somewhere you know what she would say	knew	3	ARG2	None	she		extra_error
+Just say you know my parents are really opposed to black .	know	4	ARG2	None	my parents		extra_error
+so we 're going to owe some money to the Dutch government on her salary .	owe	6	ARG2	seller or person being paid	the dutch government	to the dutch government	boundary_error
+You know she would 've seen it all .	know	2	ARG2	None	she		extra_error
+But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,	hear	9	ARG1	None	the content of the message: “she said after two years there now, she %um has come to terms with this”		extra_error
+But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,	hear	9	ARG0	None	(implicit) the speaker/listener – the one who finds it nice to hear		extra_error
+But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,	hear	9	ARG2	speaker, source of sound	from her (the source of the sound)	from her	boundary_error
+but it has to be debited from a bank account so it 's got to be debited from his .	debited	17	ARG2	thing being subtracted from, or who must pay	a bank account his account	from his	boundary_error
+but it has to be debited from a bank account so it 's got to be debited from his .	debited	17	ARG0	None	(implicit) the bank or financial institution performing the debit		extra_error
+I remember when I talked to you in the fall yeah . yeah . that %uh	talked	5	ARG2	hearer	you	to you	boundary_error
+and they see Amy Gleason on occasion .	see	3	ARG2	None	on occasion		extra_error
+%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,	became	11	ARG2	new state	a citizen here	a citizen	boundary_error
+and all of a sudden she 's getting conference papers rejected	getting	8	ARG1	thing gotten	conference papers	conference papers rejected	boundary_error
+My sister passed away ,	passed	3	ARG1	None		my sister	miss_error
+and yeah . she 's accepted that there 's a lot of good things in Rhode Island .	accepted	6	ARG1	thing accepted	that there’s a lot of good things in rhode island	that there 's a lot of good things in rhode island	boundary_error
+I do n't know what it is .	know	4	ARG2	None	it		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	23	know_4	None	{'arg0': 'you'}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	23	know_1	None	{'arg0': 'you', 'arg1': 'even after you left i said'}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	23	know_2	None	{'arg0': 'arlita', 'arg1': 'that you know i tried my best'}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	23	ARG0	knower		you	miss_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	23	know_3	None	{'arg0': 'you', 'arg1': 'i tried my best'}		extra_error
+And if you do , I 'll send it by email okay if I get it before this weekend	send	8	ARG2	None	you		extra_error
+Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um	know	3	ARG0	knower		you	miss_error
+Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um	know	3	know-1	None	{'arg0': 'you', 'arg1': 'for the first time as an adult they’re diagnosing this', 'arg2': 'this'}		extra_error
+Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um	know	3	know-2	None	{'arg0': 'you', 'arg1': 'he got his degree at tufts and all', 'arg2': 'he'}		extra_error
+But , %uh , it should come out this year .	come	7	ARG1	None		it	miss_error
+the sins of your parents will be waged back at you , %hm . you know ,	waged	8	ARG2	foe, if separate from arg0	you	at you	boundary_error
+Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um	given	5	ARG1	thing given		how far he 's gotten	miss_error
+I mean it is you know I mean absorbed	mean	8	ARG1	None	it		extra_error
+I mean it is you know I mean absorbed	mean	8	ARG2	None	absorbed		extra_error
+I mean it is you know I mean absorbed	mean	8	ARG3	None	you		extra_error
+So uh-huh . I think %um tonight Charlie and I are going to go over and join up .	join	17	ARG0	None		charlie and i	miss_error
+I 'll have remind him of that little -- -- item .	remind	4	ARG1	thing reminded about	that little -- -- item	of that little -- -- item	boundary_error
+I mean I do n't think you 're going to lose that much .	think	6	ARG1	Thought	you’re going to lose that much	you 're going to lose that much	boundary_error
+It 's probably easier for me to come by public transport in Amsterdam than it is for me to come by car to be honest .	come	20	ARG1	entity in motion / 'comer'		me	miss_error
+It 's probably easier for me to come by public transport in Amsterdam than it is for me to come by car to be honest .	come	20	come (by public transport in Amsterdam)	None	{'arg1': 'me'}		extra_error
+It 's probably easier for me to come by public transport in Amsterdam than it is for me to come by car to be honest .	come	20	come (by car)	None	{'arg1': 'me'}		extra_error
+She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,	needing	12	ARG1	thing needed	a lot of love a lot of %um help different things like this	a lot of love , a lot of %um help and different things like this	boundary_error
+Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know	play	10	ARG3	None	jasmine		extra_error
+Oregon you pay state tax	pay	3	ARG2	None	oregon		extra_error
+Oregon you pay state tax	pay	3	ARG3	commodity, paid for what		state tax	miss_error
+%uh , and mom said ,	said	5	ARG0	Sayer		mom	miss_error
+Well it 's hard to you know not eat when somebody else is eating .	know	7	ARG2	None	somebody else		extra_error
+You know I was talking to my friend Heather from Wisconsin the other day --	talking	5	ARG2	hearer	my friend heather from wisconsin	to my friend heather from wisconsin	boundary_error
+and just remember to ask for her mother .	ask	5	ARG1	favor	her mother	for her mother	boundary_error
+and just remember to ask for her mother .	ask	5	ARG0	None	you (implicit subject of the imperative)		extra_error
+but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-	know	20	ARG1	fact that is known	that she may end up going to t-	that she may end up going %um to %uh that she may end up going %um to %uh t-	boundary_error
+but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-	know	20	ARG2	None	she		extra_error
+And she has t- aw	has	3	ARG1	None	t- aw		extra_error
+when did we find out Barbara was pregnant ?	find	4	ARG1	None		barbara was pregnant	miss_error
+when did we find out Barbara was pregnant ?	find	4	ARG0	None		we	miss_error
+It develops because of irritation , because of a %um , inflammation .	develops	2	ARG2	theme, thing that develops	inflammation	it	boundary_error
+I still think about the matchbooks .	think	3	ARG1	None	about the matchbooks		extra_error
+I still think about the matchbooks .	think	3	ARG2	Attributive (please look at the examples-- this is tricky)		about the matchbooks	miss_error
+But I 'm sure for people who go in the daytime it 's probably dead . yeah . You know	know	20	ARG1	None	the fact that for people who go in the daytime it's probably dead		extra_error
+But I 'm sure for people who go in the daytime it 's probably dead . yeah . You know	know	20	ARG2	None	people who go in the daytime		extra_error
+you know that 's	know	2	ARG1	fact that is known	that ’s		extra_error
+Somehow I had this feeling that the military taste had been beaten out of you .	had	3	ARG1	possession	this feeling	this feeling that the military taste had been beaten out of you	boundary_error
+and all I had to do was get on it and follow it .	get	8	ARG1	thing in motion		i	miss_error
+and all I had to do was get on it and follow it .	get	8	ARG0	None	i		extra_error
+And it made the one type of solution occur , which was seen experimentally ,	seen	13	ARG2	None	experimentally		extra_error
+and I think %uh %uh it 's not Frau	think	3	ARG1	Thought	%uh %uh it 's not frau	%uh it 's not frau	boundary_error
+and I think %uh %uh it 's not Frau	think	3	ARG2	None	frau		extra_error
+See , that way I can have exactly what I want .	want	11	ARG1	thing wanted	what i want	exactly what	boundary_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	like	16	ARG1	phrasal complement		to stay very long	miss_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	like	16	ARG0	subject		she	miss_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	like	16	like(1)	None	{'arg0': 'i', 'arg1': 'going with anne marie'}		extra_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	like	16	like(2)	None	{'arg0': 'she', 'arg1': 'to stay very long'}		extra_error
+And in it I put , %um paint samples from Sherwin Williams uh-huh . of all the different like shades of what color I thought you might be thinking of for the bride 's maids .	thought	25	ARG1	Thought	what color you might be thinking of for the bride's maids	what color you might be thinking of for the bride 's maids	boundary_error
+we 're going to be in need of some sort of accountant do it cause I have no clue how that all works .	works	23	ARG1	None	that all		extra_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	going	33	ARG4	end point	francis and things		extra_error
+I think Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters .	think	2	ARG1	Thought	optics letters is probably the one that we’re shooting for, or else, perhaps, though i don’t think it’s quite that significant, would be phys rev letters	optics letters is probably the one that we 're shooting for , or else , perhaps , though i do n't think it 's quite that significant , would be phys rev letters	boundary_error
+And I do n't know how much you know about scientific literature ,	know	5	ARG1	fact that is known	how much you know about scientific literature how much	how much you know about scientific literature	boundary_error
+And I do n't know how much you know about scientific literature ,	know	5	ARG2	None	scientific literature		extra_error
+And I do n't know how much you know about scientific literature ,	know	5	ARG0	knower	i you	i	boundary_error
+Milo , get out of there	get	3	ARG1	thing in motion		milo	miss_error
+Well did she come home and say I saw her , I look like her or what ?	say	7	ARG1	Utterance	i saw her, i look like her or what?	i saw her , i look like her or what	boundary_error
+And if it gets irritated take some pills and stuff .	take	6	ARG0	None	you (implicit subject)		extra_error
+and you know , I mean	mean	6	ARG3	None	you		extra_error
+but they 're winding down , so you know them really well by this point .	winding	4	ARG1	None		they	miss_error
+And then an aunt of Chris 's Aunt Mamie up in Maine passed away .	passed	13	ARG1	None		an aunt of chris 's aunt mamie up in maine mamie an aunt of chris 's aunt mamie	miss_error
+%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,	mean	3	ARG1	element containing meaning	if they denied my citizenship and i became a citizen here i probably wouldn't be a horror either	if they denied my citizenship and i became a citizen here i probably would n't be a horror either	boundary_error
+and mhm %um you know . It feels like maybe she made a compromise	know	5	ARG1	None	it feels like maybe she made a compromise		extra_error
+and mhm %um you know . It feels like maybe she made a compromise	know	5	ARG2	None	she		extra_error
+I 'm looking forward to that cause %uh	looking	3	ARG1	None		to that cause	miss_error
+I 'm looking forward to that cause %uh	looking	3	ARG0	None		i	miss_error
+I mean it is you know I mean absorbed	mean	2	ARG1	element containing meaning	it	it is you know i mean absorbed	boundary_error
+I mean it is you know I mean absorbed	mean	2	ARG2	None	absorbed		extra_error
+I mean it is you know I mean absorbed	mean	2	ARG3	None	you		extra_error
+and she said that if it was n't for Jetta you know Jasmine 's daddy would n't be	said	3	ARG1	Utterance	that if it wasn't for jetta you know jasmine 's daddy wouldn't be	that if it was n't for jetta you know jasmine 's daddy would n't be	boundary_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	get	19	ARG2	None	francis		extra_error
+You know I said as far as I knew we were n't charging people .	said	4	ARG1	Utterance	we were n't charging people	as far as i knew we were n't charging people	boundary_error
+You know I said as far as I knew we were n't charging people .	said	4	ARG3	None	as far as i knew		extra_error
+and mom and dad were like well you know a wedding that 's a mass is open to everyone .	know	9	ARG1	fact that is known	a wedding that's a mass is open to everyone	a wedding that 's a mass is open to everyone	boundary_error
+As far as the Americans are concerned , yeah .	concerned	7	ARG1	thing dealt with		the americans	miss_error
+As far as the Americans are concerned , yeah .	concerned	7	ARG0	None	the americans		extra_error
+I do n't know if you spoke to me before that or when it was that was happening . Or	know	4	ARG2	None	you		extra_error
+So I think it 's time to give all the cats a bath .	give	8	ARG0	None	i		extra_error
+or maybe I 'll just call you when we get in Holland just to let you know we 're there ,	call	6	ARG2	None	just to let you know we’re there		extra_error
+you know , it 's just a pain in the ass .	know	2	ARG1	None	it's just a pain in the ass		extra_error
+you know , it 's just a pain in the ass .	know	2	ARG2	None	it		extra_error
+I mean she did n't know that I was there .	know	6	ARG2	None	i		extra_error
+they consider it a luxury to call around the world	call	7	ARG1	None	people around the world		extra_error
+And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,	saw	18	ARG2	None	again		extra_error
+I remember So you talking a little bit about it at one point .	talking	5	ARG1	subject	it	about it	boundary_error
+so I decided that it would make sense to do this .	do	10	ARG0	None	i		extra_error
+but the Americans as soon as you ask for another citizenship that act of asking for it takes away your American citizenship .	ask	8	ARG1	favor	another citizenship	for another citizenship	boundary_error
+if this does happen and I do believe it may happen , %um you know we will have an agreement , she and I , you know ,	happen	11	ARG1	event	this it	it	boundary_error
+yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um	know	10	ARG2	None	an older home		extra_error
+and there 's a lot more for you guys if you want to see stuff	see	14	ARG0	viewer	you guys	you	boundary_error
+Climbs down the stairs	Climbs	1	ARG1	thing climbed (clomb?)	the stairs	down the stairs climbs	boundary_error
+Climbs down the stairs	Climbs	1	ARG0	None	you (implicit)		extra_error
+%um , actually , I 'm not sure if we 're shooting for op- ,	shooting	12	ARG2	target	op-	for op-	boundary_error
+it was just that no one really knew it was worth breaking into .	knew	8	ARG2	None	it		extra_error
+But if you wanted any other kind of drink you had to pay for it .	pay	13	ARG3	commodity, paid for what	it	for it	boundary_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	2	know_4	None	{'arg0': 'you', 'arg1': ''}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	2	know_1	None	{'arg0': 'you', 'arg1': 'even after you left i said, i just hope arlita knows that you know i tried my best you know'}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	2	know_2	None	{'arg0': 'arlita', 'arg1': 'that you know i tried my best'}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	2	ARG0	knower		you	miss_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	2	know_3	None	{'arg0': 'you', 'arg1': 'i tried my best'}		extra_error
+I remember So you talking a little bit about it at one point .	remember	2	ARG1	memory	you talking a little bit about it	you talking a little bit about it at one point	boundary_error
+I remember So you talking a little bit about it at one point .	remember	2	ARG2	None	at one point		extra_error
+But we got to see Den Haag and places like that too which we 're obviously not going to see this time .	see	5	ARG1	thing viewed	den haag and places	den haag and places like that too which we 're obviously not going to see this time den haag and places like that den haag and places like that too	boundary_error
+But we got to see Den Haag and places like that too which we 're obviously not going to see this time .	see	5	ARG2	None	like that		extra_error
+I mean things have been happening that has just scared the heck out of me .	scared	10	ARG0	scary entity	things have been happening that	things things have been happening	boundary_error
+I mean things have been happening that has just scared the heck out of me .	scared	10	ARG3	intensifier, extent	just the heck	the heck	boundary_error
+I said I feel like I know you even though I never met you .	know	7	ARG1	fact that is known		you	miss_error
+I said I feel like I know you even though I never met you .	know	7	ARG2	None	you		extra_error
+all they stole the second time was my bike .	stole	3	ARG1	thing stolen	my bike	all	boundary_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	said	19	ARG1	Utterance		he was even going to have to sheik pray over her , you know for the jen he was even going to have to sheik pray over her	miss_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	said	19	said_1	None	{'arg0': 'my husband', 'arg1': 'we were going to give it a month', 'arg2': none, 'arg3': none}		extra_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	said	19	ARG0	Sayer		my husband	miss_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	said	19	said_2	None	{'arg0': 'my husband', 'arg1': 'he was even going to have to sheik pray over her', 'arg2': none, 'arg3': none}		extra_error
+and she thinks it 's the affiliation .	thinks	3	ARG2	None	the affiliation		extra_error
+-- and she 's telling me about you know her sister 's wedding .	telling	5	ARG1	Utterance	about you know her sister's wedding	about you know her sister 's wedding you know her sister 's wedding	boundary_error
+And so the problem is that now they found out that it 's worth breaking into .	breaking	15	ARG1	place/domain broken into	it		extra_error
+And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,	went	23	ARG1	None	to a conference in rochester		extra_error
+And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,	went	23	ARG4	end point	rochester	to a conference in rochester	boundary_error
+I said to Mark oh my god . What 's she going to say	say	14	ARG1	Utterance		what	miss_error
+I said to Mark oh my god . What 's she going to say	say	14	ARG0	Sayer		she	miss_error
+I said to Mark oh my god . What 's she going to say	say	14	say-1	None	{'arg0': 'i', 'arg2': 'mark', 'arg1': 'oh my god'}		extra_error
+I said to Mark oh my god . What 's she going to say	say	14	say-2	None	{'arg0': 'she', 'arg1': 'what'}		extra_error
+I mean I do n't think you 're going to lose that much .	mean	2	ARG1	element containing meaning	i don't think you're going to lose that much	i do n't think you 're going to lose that much	boundary_error
+I mean I do n't think you 're going to lose that much .	mean	2	ARG2	None	you're not going to lose that much		extra_error
+I mean I do n't think you 're going to lose that much .	mean	2	ARG3	None	you		extra_error
+and the black 's not going to be so hot you know	know	12	ARG1	None	the black ’s not going to be so hot		extra_error
+and the black 's not going to be so hot you know	know	12	ARG2	None	the black		extra_error
+When I talked to her I 'm talking to her like I 'm talking to you .	talked	3	ARG2	hearer	her	to her	boundary_error
+And it was a very nice letter , because it sounded like she went through very similar things that I did .	went	14	ARG2	experienced	very similar things that i did	through very similar things that i did	boundary_error
+And it was a very nice letter , because it sounded like she went through very similar things that I did .	went	14	ARG0	None		she	miss_error
+and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .	dealing	17	ARG0	None	i		extra_error
+and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .	dealing	17	ARG2	None	the burglary issues		extra_error
+He really looks like Ron .	looks	3	ARG1	seemed like, attribute of arg0	ron	like ron	boundary_error
+Just say you know my parents are really opposed to black .	say	2	ARG1	Utterance	you know my parents are really opposed to black	my parents are really opposed to black	boundary_error
+Just say you know my parents are really opposed to black .	say	2	ARG0	None	you		extra_error
+And it was a very nice letter , because it sounded like she went through very similar things that I did .	sounded	11	ARG3	None	i (implicit viewer)		extra_error
+so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .	get	19	ARG1	thing in motion		we	miss_error
+so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .	get	19	get (to a hotel or something like that)	None	{'arg0': 'we', 'arg1': none, 'arg2': 'a hotel or something like that'}		extra_error
+so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .	get	19	ARG2	destination		to a hotel to a hotel or something like that	miss_error
+so if we get in the eighteenth or the nineteenth and then call you back %um when we get to a hotel or something like that .	get	19	get (in the eighteenth or the nineteenth)	None	{'arg0': 'we', 'arg1': none, 'arg2': 'the eighteenth or the nineteenth'}		extra_error
+So if you want we can take a ride and go see stuff at night	see	12	ARG2	None	at night		extra_error
+Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .	getting	15	ARG1	a clause -- action done or descriptive small clause	one purchased – the small clause describing what is being gotten	one purchased	boundary_error
+Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .	getting	15	ARG0	None	(implied speaker) – the instigator of the action “getting”		extra_error
+she did some %eh ,	did	2	ARG1	thing done	some %eh		extra_error
+And I 'm actually waiting for Claudia to show up because we were supposed to go into town and meet some people in town .	meet	20	ARG1	other party	some people in town	some people	boundary_error
+bring me back active duty and pay me for the day if they 're going to drag me off somewhere .	pay	7	ARG0	None	you (implied subject of the imperative)		extra_error
+and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	standing	11	ARG0	causal agent	lifting weights at bally ’s	you	boundary_error
+Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	gets	25	ARG1	thing in motion		everyone else	miss_error
+Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	gets	25	ARG0	None	everyone else		extra_error
+This girl has everything in her dreams you know .	has	3	ARG1	possession		everything	miss_error
+This girl has everything in her dreams you know .	has	3	ARG0	owner		this girl	miss_error
+but yeah if you just separate normally and you have n't served at least eight years , then you owe it .	served	12	ARG1	None	at least eight years		extra_error
+You know I said as far as I knew we were n't charging people .	know	2	ARG1	fact that is known		i said as far as i knew we were n't charging people	miss_error
+You know I said as far as I knew we were n't charging people .	know	2	ARG0	knower		you	miss_error
+And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,	tone	9	ARG1	None		this part of the thesis	miss_error
+And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,	tone	9	ARG0	None		i	miss_error
+We 'll see where you 're staying	see	3	ARG1	thing viewed	where you’re staying	where you 're staying	boundary_error
+So the taxes here are so much higher that , yeah I would never have to worry about it .	worry	17	ARG1	topic of worry	it	about it	boundary_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	17	ARG1	Utterance		the little things i can tolerate you know if that happens you know	miss_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	17	said_3	None	{'arg0': 'she', 'arg1': 'the little things i can tolerate you know if that happens you know'}		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	17	said_1	None	{'arg0': 'mom', 'arg1': 'she said even if it was going to be in september, she said the little things i can tolerate you know if that happens you know'}		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	17	said_2	None	{'arg0': 'she', 'arg1': 'even if it was going to be in september'}		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	17	ARG0	Sayer		she	miss_error
+I 'm looking at , %um , multi mode lasers .	looking	3	ARG2	None	multi mode		extra_error
+And so the problem is that now they found out that it 's worth breaking into .	found	9	ARG1	None		that it 's worth breaking into	miss_error
+And so the problem is that now they found out that it 's worth breaking into .	found	9	ARG0	None		they	miss_error
+You know I was talking to my friend Heather from Wisconsin the other day --	know	2	ARG2	None	my friend heather from wisconsin		extra_error
+So if you want we can take a ride and go see stuff at night	go	11	ARG1	subsequent action	see stuff at night	see stuff	boundary_error
+I learned quick fast in a hurry because I 've gained so much weight .	learned	2	ARG1	None	quick fast		extra_error
+So let 's see .	see	4	ARG0	viewer	us	's	boundary_error
+They seemed surprised that ,	seemed	2	ARG2	None	they		extra_error
+And , then things seemed to be doing pretty well ,	seemed	5	ARG1	thing seeming		things be doing pretty well	miss_error
+She called mom to talk to mom	talk	5	ARG2	hearer	mom	to mom	boundary_error
+and you 're going to go to %uh Amsterdam .	go	6	ARG4	end point	amsterdam	to %uh amsterdam	boundary_error
+I said to Mark oh my god . What 's she going to say	said	2	ARG1	Utterance	oh my god	oh my god . what 's she going to say	boundary_error
+I said to Mark oh my god . What 's she going to say	said	2	ARG2	Hearer	mark	to mark	boundary_error
+I mean you 're	mean	2	ARG3	None	you		extra_error
+%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	know	3	ARG1	None	i just want her to understand everything that has happened in the last several years		extra_error
+%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	know	3	ARG2	None	her		extra_error
+and you know she talked about %um her sisters you know and things	know	11	ARG1	None	she talked about her sisters and things		extra_error
+and you know she talked about %um her sisters you know and things	know	11	ARG2	None	her sisters and things		extra_error
+So he found this new job as a financial consultant and seems to be happy with that .	seems	12	ARG2	None	he		extra_error
+Of course I 'm talking to you .	talking	5	ARG2	hearer	you	to you	boundary_error
+I kind of assumed everyone would be at the shore .	assumed	4	ARG2	None	everyone		extra_error
+and the end semester is still going .	going	7	ARGM-TMP	None	still		extra_error
+but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-	end	24	ARG1	None		she	miss_error
+Some amount that has to be deducted a certain amount	deducted	7	ARG1	thing being subtracted	a certain amount	some amount	boundary_error
+Some amount that has to be deducted a certain amount	deducted	7	ARG2	None	some amount		extra_error
+She said %uh she 'd be more than happy to .	said	2	ARG1	Utterance	%uh she ’d be more than happy to .	she 'd be more than happy to	boundary_error
+And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that .	know	25	ARG1	None	he brings four sandwiches with him, a bag of potato chips, and then little sweetie things, chocolates and cakies		extra_error
+And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that .	know	25	ARG2	None	he		extra_error
+and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	lifting	3	ARG0	None	you (implicit agent)		extra_error
+and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	lifting	3	ARGm	None	at bally’s		extra_error
+and we go through a box of cereal every two days .	go	3	ARG1	None	a box of cereal		extra_error
+%uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,	denied	6	ARG2	None	i		extra_error
+But , that 's dealt with at least .	dealt	5	ARG2	None	that		extra_error
+%um . I do n't see the finances occurring uh-huh , right . for a while .	see	6	ARG1	thing viewed	the finances	the finances occurring uh-huh , right . for a while the finances occurring	boundary_error
+%um . I do n't see the finances occurring uh-huh , right . for a while .	see	6	ARG2	None	occurring		extra_error
+this place is incredibly easy to break into if you want to .	want	11	ARG1	thing wanted	break into this place		extra_error
+But , %um Anyway , I had been kind of telling him that , you know , from my reading of the literature , I thought that this one little alteration I had made in my model was kind of clever and unique .	know	16	ARG1	None	from my reading of the literature, i thought that this one little alteration i had made in my model was kind of clever and unique		extra_error
+But , %um Anyway , I had been kind of telling him that , you know , from my reading of the literature , I thought that this one little alteration I had made in my model was kind of clever and unique .	know	16	ARG2	None	this one little alteration i had made in my model		extra_error
+if it 's during the work hours , fine , call me at work .	call	11	ARG0	None	you (understood subject of the imperative)		extra_error
+and she sounds like she 's really trying hard .	sounds	3	ARG2	attribute of arg1	like she’s really trying hard	like she 's really trying hard	boundary_error
+and she sounds like she 's really trying hard .	sounds	3	ARG3	None	(implicit) listener/observer		extra_error
+He eats at least like four of cereal a day like in addition to like meals .	eats	2	ARG1	meal	at least like four of cereal a day meals	at least like four of cereal a day four of cereal	boundary_error
+but I can pick you up th- ,	pick	4	ARG1	None		you	miss_error
+but I can pick you up th- ,	pick	4	ARG0	None		i	miss_error
+and %um You know ages ago I got a card from Liz Gana .	got	8	ARG2	giver	liz gana	from liz gana	boundary_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	seeing	41	ARG1	None	you (the person being evaluated)		extra_error
+So they had to take it down and drive her home .	take	5	ARG1	None		it	miss_error
+So they had to take it down and drive her home .	take	5	ARG0	None		they	miss_error
+and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	lifting	22	ARG1	None	weights		extra_error
+and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	lifting	22	ARGm	None	at bally 's		extra_error
+but if you do n't get email then just call Anya 's parents	call	10	ARG1	entity summoned	anya's parents	anya 's parents	boundary_error
+but if you do n't get email then just call Anya 's parents	call	10	ARG0	None	you		extra_error
+and I kind of hinted to her that really the only way to lose weight is cardio vascular . mhm . It 's true . And that lifting the weights wo n't lose weight .	lose	14	ARG0	None	(implicit – general person/one)		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	left	6	ARG0	None		you	miss_error
+So what 's happening is that the modes are oscillating out of phase so that they completely mask each other 's Exactly . %hm . oscillations on these other frequencies .	happening	4	ARG1	event	the modes are oscillating out of phase so that they completely mask each other's oscillations on these other frequencies	what	boundary_error
+She 's trying to become a counselor in this drug program , and things	trying	3	ARG1	thing tried	to become a counselor in this drug program, and things	to become a counselor in this drug program	boundary_error
+It just came overnight practically .	came	3	ARG4	None	overnight		extra_error
+It just came overnight practically .	came	3	ARG2	None	practically		extra_error
+I feel very at peace you know .	know	7	ARG1	None	i feel very at peace		extra_error
+Things are going very well .	going	3	ARG1	project		things	miss_error
+Things are going very well .	going	3	ARG0	None	things		extra_error
+and mhm %um you know . It feels like maybe she made a compromise	feels	8	ARG1	stimulus	it	like maybe she made a compromise	boundary_error
+Would you be interested in seeing Shape Headquarters again .	seeing	6	ARG1	thing viewed		shape headquarters	miss_error
+Would you be interested in seeing Shape Headquarters again .	seeing	6	ARG0	viewer		you	miss_error
+Well you know or luck making a way and making it at ease for you to	making	10	ARG1	impelled action/ predication		it at ease it at ease for you	miss_error
+Well you know or luck making a way and making it at ease for you to	making	10	making-2	None	{'arg0': 'luck', 'arg1': 'it at ease for you to'}		extra_error
+Well you know or luck making a way and making it at ease for you to	making	10	ARG0	impeller to action		luck	miss_error
+Well you know or luck making a way and making it at ease for you to	making	10	making-1	None	{'arg0': 'luck', 'arg1': 'a way'}		extra_error
+%uh but it 's a lot less expensive if we do it that way than if we actually make my parents in law pay it ,	do	11	ARG3	None	that way		extra_error
+I 'm really looking forward to moving to Oregon and dealing with ,	looking	4	ARG1	None		to moving to oregon and dealing with to moving to oregon	miss_error
+I 'm really looking forward to moving to Oregon and dealing with ,	looking	4	ARG0	None		i	miss_error
+Adele went to the mass wedding .	went	2	ARG4	end point	the mass wedding	to the mass wedding	boundary_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	said	2	ARG1	Utterance	you know it’s a shame that you can’t go no place and i can get a good report on you you know, %um, and by her going to francis and things, and francis seeing for herself,	it 's a shame that you ca n't go no place and i can get a good report on you you know , %um , and by her going to francis and things , and francis seeing for herself you know it 's a shame that you ca n't go no place and i can get a good report on you you know , %um , and by her going to francis and things , and francis seeing for herself	boundary_error
+Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um	got	16	ARG2	giver	tufts	at tufts	boundary_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	know	33	ARG0	knower		you	miss_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	know	33	instance2	None	{'arg0': 'you', 'arg1': 'he was even going to have to sheik pray over her', 'arg2': 'her'}		extra_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	know	33	instance1	None	{'arg0': 'you', 'arg1': 'we were going to give it a month', 'arg2': 'it'}		extra_error
+I mean the thing that i-	mean	2	ARG1	element containing meaning	the thing that i-		extra_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	go	60	ARG1	None	to germany or something		extra_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	go	60	ARG4	end point	germany	to germany	boundary_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	go	60	ARG3	None	holland		extra_error
+-- and she 's telling me about you know her sister 's wedding .	know	9	ARG1	fact that is known	her sister's wedding	her sister 's wedding	boundary_error
+-- and she 's telling me about you know her sister 's wedding .	know	9	ARG2	None	her sister		extra_error
+If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam .	know	19	ARG1	None	for sam		extra_error
+If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam .	know	19	ARG2	None	sam		extra_error
+it was just that no one really knew it was worth breaking into .	breaking	12	ARG1	place/domain broken into	it		extra_error
+and then she came over here , and %um , checked out a room here .	checked	11	ARG1	None		a room	miss_error
+and then she came over here , and %um , checked out a room here .	checked	11	ARG0	None		she	miss_error
+and I can take you to some places ,	take	4	ARG3	None	some places		extra_error
+And then they operated on	operated	4	ARG0	None		they	miss_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	know	30	know#2	None	{'arg0': 'you', 'arg1': 'the little things i can tolerate if that happens', 'arg2': 'the little things'}		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	know	30	know#1	None	{'arg0': 'you', 'arg1': 'if that happens', 'arg2': none}		extra_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	know	30	ARG0	knower		you	miss_error
+Are you talking to me ?	talking	3	ARG2	hearer	me	to me	boundary_error
+You know it was a detached retina .	know	2	ARG2	None	it		extra_error
+%uh lay there let me look at my grandmother kind of thing	lay	2	ARG2	None		there	miss_error
+So , it actually creates a situation where you get the right sort of answer , you just ca n't always write it down very easily .	write	22	ARG1	None		it	miss_error
+So , it actually creates a situation where you get the right sort of answer , you just ca n't always write it down very easily .	write	22	ARG0	None		you	miss_error
+And that thing that came up recently , , you know I had , oh , a kind of a knee problem a couple of years ago .	came	5	ARG1	None		that thing	miss_error
+And that thing that came up recently , , you know I had , oh , a kind of a knee problem a couple of years ago .	know	11	ARG1	None	i had a kind of a knee problem a couple of years ago		extra_error
+And that thing that came up recently , , you know I had , oh , a kind of a knee problem a couple of years ago .	know	11	ARG2	None	a kind of a knee problem		extra_error
+I had that when I went into the military .	went	6	ARG4	None		into the military	miss_error
+and they 're doing okay .	doing	4	ARG1	None	okay		extra_error
+I mean they do n't know .	mean	2	ARG1	element containing meaning		they do n't know	miss_error
+I mean they do n't know .	mean	2	ARG2	None	they do n't know		extra_error
+but yeah if you just separate normally and you have n't served at least eight years , then you owe it .	owe	20	ARG1	price paid		it	miss_error
+but yeah if you just separate normally and you have n't served at least eight years , then you owe it .	owe	20	ARG3	None	it		extra_error
+did Francis feel she had changed a lot ?	feel	3	ARG2	None	she		extra_error
+as soon as you get into Holland and get yourself settled you can call me	get	9	ARG1	thing		yourself settled	miss_error
+as soon as you get into Holland and get yourself settled you can call me	get	9	get#1_ARG2	None	into holland		extra_error
+as soon as you get into Holland and get yourself settled you can call me	get	9	ARG2	attribute of arg1 (not a VP node)		yourself settled	miss_error
+as soon as you get into Holland and get yourself settled you can call me	get	9	get#1_ARG1	None	you		extra_error
+as soon as you get into Holland and get yourself settled you can call me	get	9	ARG0	None		you	miss_error
+as soon as you get into Holland and get yourself settled you can call me	get	9	get#2_ARG1	None	yourself		extra_error
+as soon as you get into Holland and get yourself settled you can call me	get	9	get#2_ARG2	None	settled		extra_error
+It 's just But %um %uh , %uh , the main reason for that is I had not really anticipated a few expenses that recently came up %ah . %uh , related to a couple of burglaries that I had .	came	26	ARG1	None		a few expenses	miss_error
+%eh you told me that you were leaving the company that you were at ,	leaving	8	ARG1	None		the company that you were at	miss_error
+%eh you told me that you were leaving the company that you were at ,	leaving	8	ARG0	None		you	miss_error
+And it was a very nice letter , because it sounded like she went through very similar things that I did .	did	21	ARG0	None		i	miss_error
+you know , they do n't care ,	know	2	ARG1	None	they don’t care		extra_error
+you know , they do n't care ,	know	2	ARG2	None	they		extra_error
+So , %um , I found a simple modification of the original formula , which unfortunately makes the solutions horrendously nasty . And in most cases , %uh , insoluble .	makes	17	ARG1	impelled action/ predication	the solutions	the solutions horrendously nasty . and in most cases , %uh , insoluble the solutions horrendously nasty	boundary_error
+So , %um , I found a simple modification of the original formula , which unfortunately makes the solutions horrendously nasty . And in most cases , %uh , insoluble .	makes	17	ARG0	impeller to action	which	a simple modification of the original formula	boundary_error
+But you know it 'll never be more than about seventy or eighty percent . Which is fine .	know	3	ARG1	fact that is known	it'll never be more than about seventy or eighty percent	it 'll never be more than about seventy or eighty percent	boundary_error
+But you know it 'll never be more than about seventy or eighty percent . Which is fine .	know	3	ARG2	None	it		extra_error
+and remember that if you dial in Holland you need to add a zero	remember	2	ARG0	None	you		extra_error
+I mean you lay her down on the bed	lay	4	ARG1	None		her	miss_error
+I mean you lay her down on the bed	lay	4	ARG0	None		you	miss_error
+I mean you lay her down on the bed	lay	4	ARG2	None		on the bed	miss_error
+And %uh With a pretty simple model you can find that frequency in a transient ,	find	10	ARG1	thing found	that frequency	that frequency in a transient	boundary_error
+I mean it stays light here till about ten thirty eleven o'clock mhm . at night .	mean	2	ARG1	None	it stays light here till about ten thirty eleven o'clock mhm . at night .		extra_error
+and we can like do a quick dinner or something yeah and go see whatever you want to see ,	want	17	ARG1	thing wanted	to see whatever	to see	boundary_error
+actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .	turn	23	ARG1	None		one thing , one little bit in what i was doing	miss_error
+actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .	turn	23	ARG2	None		to be very important in the end	miss_error
+She do n't have time for that %uh .	have	4	ARG1	possession	time	time for that	boundary_error
+aw I 've heard of that .	heard	4	ARG1	utterance, sound	that	of that	boundary_error
+That same thing happened to Aliah .	happened	4	ARG2	benefactive	aliah	to aliah	boundary_error
+like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	know	25	ARG0	knower		you	miss_error
+and they 'll probably hold them hostage .	hold	5	ARG2	None		hostage	miss_error
+%um 118.91_120.82_B: Let 's see ,	see	5	ARG0	viewer	us	's	boundary_error
+did they do like %uh the same thing they had to do last time ?	do	12	ARG1	thing done	the same thing they had to do last time	the same thing	boundary_error
+if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .	coming	15	ARG4	end point	the u s	back to the u s to the u s	boundary_error
+if you 're in another country I mean and you 're not planning on coming back to the U S what are they going to do even if you do n't .	coming	15	ARG3	None	another country		extra_error
+When I talked to her I 'm talking to her like I 'm talking to you .	talking	8	ARG0	talker		i	miss_error
+When I talked to her I 'm talking to her like I 'm talking to you .	talking	8	ARG2	hearer		to her	miss_error
+Did she say how she felt about what had happened ?	happened	10	ARG1	event	what had happened	what	boundary_error
+And she 's just not going to have the same kind of career that she had thought about .	thought	17	ARG1	None	the same kind of career		extra_error
+She 's coming back tonight .	coming	3	ARG4	None	back		extra_error
+you can see stuff in Amsterdam	see	3	ARG2	None	in amsterdam		extra_error
+and so Neil then -- Said oh just a second I -- like a week later came to Bryn Mawr	came	17	ARG2	None	like a week later		extra_error
+but they 're winding down , so you know them really well by this point .	know	9	ARG1	fact that is known	really well by this point	them	boundary_error
+but they 're winding down , so you know them really well by this point .	know	9	ARG2	None	them		extra_error
+%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .	think	16	ARG2	None	neat		extra_error
+Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .	hunting	6	ARG1	entity hunted for	bikes	for bikes	boundary_error
+Spending a lot of time hunting for bikes , and nah well . then getting one purchased , and then having to , you know , go get it and things like that .	hunting	6	ARG0	None	(implicit) speaker		extra_error
+%uh lay there let me look at my grandmother kind of thing	let	4	ARG1	action allowed	me look at my grandmother kind of thing	me look at my grandmother	boundary_error
+%uh lay there let me look at my grandmother kind of thing	let	4	ARG0	None	you (implicit allower)		extra_error
+and %uh if it 's at night , just call Anya 's parents	call	10	ARG1	entity summoned	anya’s parents	anya 's parents	boundary_error
+and %uh if it 's at night , just call Anya 's parents	call	10	ARG0	None	you (understood subject)		extra_error
+and %uh if it 's at night , just call Anya 's parents	call	10	ARG2	None	anya		extra_error
+But , %uh , we want to write a letter , and then a couple articles .	want	6	ARG1	thing wanted	to write a letter, and then a couple articles	to write a letter , and then a couple articles	boundary_error
+she said it is just awesome to her what is happening .	happening	11	ARG1	event		what	miss_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	like	7	ARG1	object of affection		going with anne marie	miss_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	like	7	ARG0	liker		i	miss_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	like	7	like#1	None	{'arg0': 'i', 'arg1': 'going with anne marie'}		extra_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	like	7	like#2	None	{'arg0': 'she', 'arg1': 'to stay very long'}		extra_error
+the sins of your parents will be waged back at you , %hm . you know ,	know	16	ARG1	None	the sins of your parents will be waged back at you		extra_error
+the sins of your parents will be waged back at you , %hm . you know ,	know	16	ARG2	None	the sins of your parents		extra_error
+If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too .	want	3	ARG1	thing wanted	to go off into the countryside somewhere and see a little bit of echte holland, real holland	to go %uh off into the countryside somewhere and see a little bit of , echte holland , real holland	boundary_error
+%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	understand	9	ARG1	thing understood	everything	everything that has happened in the last several years yeah . and things like that	boundary_error
+%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	understand	9	ARG2	None	that has happened in the last several years and things like that		extra_error
+As long as I do n't bring it back to the states .	bring	7	ARG2	benefactive or destination brought-for, brought-to,	the states	back to the states to the states	boundary_error
+As long as I do n't bring it back to the states .	bring	7	ARG3	attribute, state after bringing, secondary action	back		extra_error
+If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too .	go	5	ARG1	journey		off into the countryside somewhere	miss_error
+If you want to go %uh off into the countryside somewhere and see a little bit of , echte Holland , real Holland and we can do that too .	go	5	ARG4	end point	off into the countryside somewhere	into the countryside somewhere	boundary_error
+And so she was looking for another job .	looking	5	ARG1	thing looked at or for or on	another job	for another job	boundary_error
+And so she was looking for another job .	looking	5	ARG2	None	another		extra_error
+Well I 'll work on it .	work	4	ARG1	job, project	it	on it	boundary_error
+got it .	got	1	ARG0	None	i		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	knows	14	ARG1	fact that is known		that you know i tried my best i tried my best	miss_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	knows	14	knows_3	None	{'arg0': 'you', 'arg1': 'i tried my best', 'arg2': 'i'}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	knows	14	knows_1	None	{'arg0': 'you', 'arg1': 'i just hope arlita knows that you know i tried my best', 'arg2': 'arlita'}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	knows	14	knows_2	None	{'arg0': 'arlita', 'arg1': 'that you know i tried my best', 'arg2': 'you'}		extra_error
+you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	knows	14	ARG0	knower		arlita	miss_error
+just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before .	know	12	ARG1	fact that is known	that most of lorraine’s friends had been met by mom and dad at least once before	who	boundary_error
+just all of Lorraine 's friends . mhm . Who you know of course most of them mom and dad had at least met once before .	know	12	ARG2	None	lorraine’s friends		extra_error
+No , she was not doing well .	doing	6	ARG0	agent, doer		she	miss_error
+So you guys should pick out the things you want to see and let me know .	want	10	ARG1	thing wanted	the things	to see	boundary_error
+I have to go next week you know to see again .	go	4	ARG4	None	to see again		extra_error
+So we 'll just see . You know	see	5	ARG0	viewer		we	miss_error
+But I think it 's very very very very yeah . unlikely .	think	3	ARG1	Thought	it 's very very very very yeah . unlikely .	it 's very very very very yeah . unlikely	boundary_error
+I just would n't go .	go	5	ARG0	goer		i	miss_error
+it has an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless .	steal	12	ARG1	thing stolen	an off board power supply the thing	an off board power supply	boundary_error
+it has an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless .	steal	12	ARG2	None	it		extra_error
+but the Americans as soon as you ask for another citizenship that act of asking for it takes away your American citizenship .	asking	15	ARG1	favor	it	for it	boundary_error
+but the Americans as soon as you ask for another citizenship that act of asking for it takes away your American citizenship .	asking	15	ARG0	None	you		extra_error
+Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know	Told	1	ARG1	Utterance	that she couldn't talk to jasmine play with jasmine because she said she hurt jasmine's jetta you know	that she could n't talk to jasmine play with jasmine she could n't talk to jasmine play with jasmine	boundary_error
+Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know	Told	1	ARG0	None	<implicit speaker>		extra_error
+I 'm going to put you on after fifteen minutes .	put	5	ARG1	None		you	miss_error
+I 'm going to put you on after fifteen minutes .	put	5	ARG0	None		i	miss_error
+he 's got Leo 's genes .	got	3	ARG1	thing had, possessed	leo's genes	leo 's genes	boundary_error
+see I do n't know how it works .	know	5	ARG2	None	it		extra_error
+but the Americans as soon as you ask for another citizenship that act of asking for it takes away your American citizenship .	takes	18	ARG1	None		your american citizenship	miss_error
+but the Americans as soon as you ask for another citizenship that act of asking for it takes away your American citizenship .	takes	18	ARG0	None		that act of asking for it	miss_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	know	4	ARG1	fact that is known	it’s a shame that you can’t go no place and i can get a good report on you you know, %um, and by her going to francis and things, and francis seeing for herself	it 's a shame that you ca n't go no place and i can get a good report on you you know , %um , and by her going to francis and things , and francis seeing for herself	boundary_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	know	4	ARG2	None	you		extra_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	go	13	ARG4	end point	no place francis and things	no place	boundary_error
+I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	go	13	ARG0	goer	you her	you	boundary_error
+And I was having a lot of trouble getting across to him that all of the literature has this frequency in the transients Yes . %eh and not driven .	driven	29	ARG1	thing in motion	this frequency in the transients	this frequency	boundary_error
+If not , call Anya 's parents if you do n't have a new phone number for me .	call	4	ARG1	entity summoned	anya's parents	anya 's parents	boundary_error
+If not , call Anya 's parents if you do n't have a new phone number for me .	call	4	ARG0	None	you (implicit subject of the imperative)		extra_error
+%um , depends on what you guys want to see .	depends	3	ARG1	depended on	what you guys want to see	on what you guys want to see	boundary_error
+%um , depends on what you guys want to see .	depends	3	ARG0	None	it		extra_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	pay	53	ARG1	money or attention	my own expenses	out of my own expenses	boundary_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	pay	53	ARG2	None	them		extra_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	pay	53	ARG0	payer or buyer	they i	i	boundary_error
+and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .	pay	53	ARG3	commodity, paid for what	my trip back to the states to go to germany or something	to go to germany or something for them	boundary_error
+I think what we got to do is just when he comes just have lots of cereal .	have	14	ARG0	None	we		extra_error
+and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump	know	10	ARG1	None	it’ll look good on me		extra_error
+and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump	know	10	ARG2	None	me		extra_error
+and he said , hey Lowell , we got to write this up .	write	11	ARG1	None		this	miss_error
+and he said , hey Lowell , we got to write this up .	write	11	ARG0	None		we	miss_error
+You know , I went from Chicago to U C S G to here .	went	5	ARG1	None	from chicago to u c s g to here		extra_error
+You know , I went from Chicago to U C S G to here .	went	5	ARG4	end point	u c s g here	to here	boundary_error
+You know , I went from Chicago to U C S G to here .	went	5	ARG3	start point	chicago	from chicago	boundary_error
+as soon as you get into Holland and get yourself settled you can call me	settled	11	ARG4	None	in holland		extra_error
+as soon as you get into Holland and get yourself settled you can call me	settled	11	ARG0	None	you (agent causing yourself to settle)		extra_error
+So if you want we can take a ride and go see stuff at night	want	4	ARG1	None	we can take a ride and go see stuff at night		extra_error
+There 's a pretty good sale . %mm . So now we have to keep our eyes open for a champagne sale .	keep	15	ARG2	None	open		extra_error
+and he said he could n't keep on top of it .	said	3	ARG1	Utterance	he couldn’t keep on top of it	he could n't keep on top of it	boundary_error
+It 's not a question of whether or not , %uh you know , that was easy ,	know	13	ARG1	None	that was easy		extra_error
+It 's not a question of whether or not , %uh you know , that was easy ,	know	13	ARG2	None	that		extra_error
+bring me back active duty and pay me for the day if they 're going to drag me off somewhere .	bring	1	ARG2	None	active duty		extra_error
+bring me back active duty and pay me for the day if they 're going to drag me off somewhere .	bring	1	ARG0	None	you (implicit)		extra_error
+bring me back active duty and pay me for the day if they 're going to drag me off somewhere .	bring	1	ARG3	attribute, state after bringing, secondary action	back	back active duty active duty	boundary_error
+You know everybody 's kind of passed away , almost .	know	2	ARG1	fact that is known	everybody's kind of passed away, almost	everybody 's kind of passed away , almost	boundary_error
+You know everybody 's kind of passed away , almost .	know	2	ARG2	None	everybody		extra_error
+right now I mean I do want to keep my American citizenship	mean	4	ARG1	element containing meaning		i do want to keep my american citizenship	miss_error
+right now I mean I do want to keep my American citizenship	mean	4	ARG0	agent		i	miss_error
+And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,	writing	4	ARG1	thing written	that i should tone this part of the thesis down that you know , people see the anti phased motion ,	that i should tone this part of the thesis down that you know , people see the anti phased motion	boundary_error
+And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,	writing	4	ARG2	None	i		extra_error
+I mean , you know , writing a couple of articles based on your Master 's thesis , is , not at all unusual in Physics	based	12	ARG2	justification, parts/ arg1 is made up of what?	your master’s thesis	on your master 's thesis	boundary_error
+he seems to feel really like he 's doing the right thing	feel	4	ARG1	belief	like he’s doing the right thing	like he 's doing the right thing	boundary_error
+he seems to feel really like he 's doing the right thing	feel	4	ARG2	None	he’s doing the right thing		extra_error
+if this does happen and I do believe it may happen , %um you know we will have an agreement , she and I , you know ,	know	27	ARG1	None	we will have an agreement, she and i		extra_error
+Yes she did .	did	3	ARG0	None		she	miss_error
+They still have my goods	have	3	ARG1	possession		my goods	miss_error
+They still have my goods	have	3	ARG0	owner		they	miss_error
+So I think it 's time to give all the cats a bath .	think	3	ARG1	Thought	it’s time to give all the cats a bath	it 's time to give all the cats a bath	boundary_error
+%um and I keep thinking maybe I 'd get in touch	keep	4	ARG1	continued entity	thinking	thinking maybe i 'd get in touch	boundary_error
+%um and I keep thinking maybe I 'd get in touch	keep	4	ARG2	None	maybe i'd get in touch		extra_error
+%um and I keep thinking maybe I 'd get in touch	keep	4	ARG0	causer of continued action	%um and i	i	boundary_error
+So now you think my wedding 's going to be pretty tasteful right ?	think	4	ARG1	Thought	my wedding ’s going to be pretty tasteful	my wedding 's going to be pretty tasteful	boundary_error
+there would be a minimum amount of work , of about %uh , a day a week for the next two three years . mhm . Which is sufficient to pay all my bills then	pay	31	ARG1	money or attention		all my bills	miss_error
+there would be a minimum amount of work , of about %uh , a day a week for the next two three years . mhm . Which is sufficient to pay all my bills then	pay	31	ARG0	None	a minimum amount of work		extra_error
+there would be a minimum amount of work , of about %uh , a day a week for the next two three years . mhm . Which is sufficient to pay all my bills then	pay	31	ARG3	None	all my bills		extra_error
+I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .	know	17	ARG2	None	your heart		extra_error
+apparently like at Lisa Manachi 's wedding like the whole night people were talking about how bad the black dresses were .	talking	14	ARG1	subject	how bad the black dresses were	about how bad the black dresses were	boundary_error
+I mean it stays light here till about ten thirty eleven o'clock mhm . at night .	stays	4	ARG3	attribute of arg1: state, location stayed in	light here	light	boundary_error
+but you know you 've heard the saying I 'm sure from your grandmother	know	3	ARG1	fact that is known	you've heard the saying i'm sure from your grandmother	you 've heard the saying i 'm sure from your grandmother	boundary_error
+but you know you 've heard the saying I 'm sure from your grandmother	know	3	ARG2	None	the saying		extra_error
+Let me look for my phonebook .	look	3	ARG1	thing looked at or for or on	my phonebook	for my phonebook	boundary_error
+because I knew what she would do if I took her somewhere you know what she would say	took	10	ARG3	None	somewhere		extra_error
+I mean most women you lose your baby that 's it .	mean	2	ARG1	element containing meaning	you lose your baby that's it	most women you lose your baby that 's it	boundary_error
+I mean most women you lose your baby that 's it .	mean	2	ARG2	None	that when you lose your baby it’s final		extra_error
+I mean most women you lose your baby that 's it .	mean	2	ARG3	None	most women		extra_error
+I said oh and I do n't have your number in my other phonebook I said .	said	2	ARG1	Utterance		oh and i do n't have your number in my other phonebook	miss_error
+I said oh and I do n't have your number in my other phonebook I said .	said	2	ARG0	Sayer		i	miss_error
+I said oh and I do n't have your number in my other phonebook I said .	said	2	said-02	None	{'arg0': 'i', 'arg1': 'oh and i don’t have your number in my other phonebook'}		extra_error
+I said oh and I do n't have your number in my other phonebook I said .	said	2	said-01	None	{'arg0': 'i', 'arg1': 'oh'}		extra_error
+This little girl moves .	moves	4	ARG1	moved		this little girl	miss_error
+This little girl moves .	moves	4	ARG0	None	this little girl		extra_error
+and Francis was very concerned in reference to you know she was in school and things	know	10	ARG1	fact that is known	she was in school and things	she was in school	boundary_error
+and Francis was very concerned in reference to you know she was in school and things	know	10	ARG2	None	she		extra_error
+I actually got to see her I guess a day before she died .	see	5	ARG2	None	a day before she died		extra_error
+I mean they do n't know .	know	6	ARG0	knower		they	miss_error
+Well it 'll look good on your C V , your resume .	look	4	ARG1	thing looked at or for or on	on your c v, your resume	your c v , your resume	boundary_error
+Well it 'll look good on your C V , your resume .	look	4	ARG0	None	it		extra_error
+Somehow it raises a small amount .	raises	3	ARG1	Logical subject, patient, thing rising		it	miss_error
+Somehow it raises a small amount .	raises	3	ARGm	None	somehow		extra_error
+Somehow it raises a small amount .	raises	3	ARG0	Agent	it		extra_error
+and mom said so we found out ,	said	3	ARG1	Utterance	so	so we found out	boundary_error
+and she had to keep reminding herself .	reminding	6	ARG2	None	herself		extra_error
+it has an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless .	has	2	ARG1	possession	an off board power supply which they did n't steal	an off board power supply which they did n't steal , which makes the thing that they **stoled** absolutely worthless	boundary_error
+and I kind of hinted to her that really the only way to lose weight is cardio vascular . mhm . It 's true . And that lifting the weights wo n't lose weight .	hinted	5	ARG1	Utterance (hint)	that really the only way to lose weight is cardio vascular	that really the only way to lose weight is cardio vascular . mhm . it 's true . and that lifting the weights wo n't lose weight	boundary_error
+and I kind of hinted to her that really the only way to lose weight is cardio vascular . mhm . It 's true . And that lifting the weights wo n't lose weight .	hinted	5	ARG2	Hearer	her	to her	boundary_error
+Well you know or luck making a way and making it at ease for you to	making	6	ARG1	creation	a way it at ease	a way	boundary_error
+Well you know or luck making a way and making it at ease for you to	making	6	ARG3	None	you		extra_error
+Well I 'm figuring it out fast because -- okay -- with not working out and all yeah . it 's pretty miserable my crunch tape .	figuring	4	ARG1	None		it	miss_error
+Well I 'm figuring it out fast because -- okay -- with not working out and all yeah . it 's pretty miserable my crunch tape .	figuring	4	ARG0	None		i	miss_error
+and then we can make arrangements that day %um , that I can meet you in Amsterdam .	make	5	ARG3	None	i		extra_error
+Before I forget , I saw George Silinas a couple of days ago .	saw	6	ARG2	None	a couple of days ago		extra_error
+You know I said as far as I knew we were n't charging people .	knew	9	ARG2	None	people		extra_error
+do you know if Jack called Spencer yet ?	know	3	ARG2	None	jack		extra_error
+For a woman who is lifting not that much I do n't think yeah . You would .	lifting	6	ARG2	None	not that much		extra_error
+things have come to a point where I may have to relinquish my , %uh parenting .	come	3	ARG1	object	to a point	things	boundary_error
+things have come to a point where I may have to relinquish my , %uh parenting .	come	3	ARG2	attribute on arg1	where i may have to relinquish my , %uh parenting	to a point where i may have to relinquish my , %uh parenting to a point	boundary_error
+So you guys should pick out the things you want to see and let me know .	pick	5	ARG1	None		the things you want to see	miss_error
+So you guys should pick out the things you want to see and let me know .	pick	5	ARG0	None		you guys	miss_error
+and Everybody has to keep them , Selema , everybody , everybody You know ,	know	14	ARG1	None	and everybody has to keep them , selema , everybody , everybody		extra_error
+So yeah , that particular frequency according to most models damps out very quickly .	damps	11	ARG1	None		that particular frequency	miss_error
+Alice , I 've never seen anybody eat as much as he does	seen	6	ARG1	thing viewed	anybody	anybody eat as much as he does	boundary_error
+Alice , I 've never seen anybody eat as much as he does	seen	6	ARG2	None	eat as much as he does		extra_error
+and she just had bad luck I guess is all you can say .	say	13	ARG1	Utterance	she just had bad luck	all	boundary_error
+and she just had bad luck I guess is all you can say .	say	13	ARG3	None	all		extra_error
+she said she was so concerned that this little girl was going to just get out here cause I was n't going to send back to the school , the Muslim school .	said	2	ARG1	Utterance	she was so concerned that this little girl was going to just get out here cause i was n't going to send back to the school , the muslim school .	she was so concerned that this little girl was going to just get out here cause i was n't going to send back to the school , the muslim school	boundary_error
+but I 'm planning on making a trip down to visit her .	planning	4	ARG1	thing planned	making a trip down to visit her	on making a trip down to visit her	boundary_error
+but I 'm planning on making a trip down to visit her .	planning	4	ARG3	None	her		extra_error
+Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know	hurt	17	ARG1	patient, entity experiencing hurt/damage	jasmine's jetta	jasmine 's jetta	boundary_error
+And she went from Penn , %um To Columbia . to Columbia to U R I .	went	3	ARG1	None	from penn to columbia to u r i		extra_error
+And she went from Penn , %um To Columbia . to Columbia to U R I .	went	3	ARG4	end point	u r i	to u r i	boundary_error
+And she went from Penn , %um To Columbia . to Columbia to U R I .	went	3	ARG3	start point	penn	from penn	boundary_error
+I mean the phones here are pretty good . once you 're in the country .	mean	2	ARG1	element containing meaning	the phones here	the phones here are pretty good . once you 're in the country	boundary_error
+I mean the phones here are pretty good . once you 're in the country .	mean	2	ARG2	None	are pretty good once you're in the country		extra_error
+I mean the phones here are pretty good . once you 're in the country .	mean	2	ARG3	None	you		extra_error
+But then I 've already made say like fifteen thousand or whatever here in Washington	made	6	ARG1	wages	say like fifteen thousand or whatever	fifteen thousand or whatever	boundary_error
+but it has to be debited from a bank account so it 's got to be debited from his .	debited	6	ARG2	thing being subtracted from, or who must pay	a bank account his	from a bank account	boundary_error
+Last week , we found out	found	5	ARG0	None		we	miss_error
+I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .	give	21	ARG2	entity given to	allah	to allah	boundary_error
+because I knew what she would do if I took her somewhere you know what she would say	know	14	ARG0	knower		you	miss_error
+And you know my sister was n't that old	know	3	ARG2	None	my sister		extra_error
+or maybe I 'll just call you when we get in Holland just to let you know we 're there ,	let	15	ARG1	action allowed	you know we’re there	you know we 're there	boundary_error
+or maybe I 'll just call you when we get in Holland just to let you know we 're there ,	let	15	ARG0	None	i		extra_error
+we 're going to be in need of some sort of accountant do it cause I have no clue how that all works .	do	13	ARG2	None	we		extra_error
+%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	said	6	ARG1	Utterance	we were going to give it a month he was even going to have to sheik pray over her	we were going to give it a month	boundary_error
+But I mean you 're below the poverty line at that level .	mean	3	ARG1	element containing meaning	you’re below the poverty line at that level	you 're below the poverty line at that level	boundary_error
+%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	want	6	ARG1	thing wanted	to understand everything that has happened in the last several years	her to understand everything that has happened in the last several years yeah . and things like that	boundary_error
+%uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	want	6	ARG2	None	her		extra_error
+and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the	know	14	ARG1	None	that ginny totta in the alumni thing is living in the		extra_error
+and then I saw in the %um Tufts thing that Ginny Totta you know in the alumni thing is living in the	know	14	ARG2	None	ginny totta		extra_error
+but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-	reserved	13	ARG1	thing reserved	that	of that %um , you know that she may end up going %um to %uh t-	boundary_error
+so I decided that it would make sense to do this .	make	7	ARG3	None	to do this		extra_error
+you went through like the thirty six two process .	went	2	ARG2	experienced	like the thirty six two process	through like the thirty six two process	boundary_error
+But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,	said	14	ARG1	Utterance	after two years there now, she %um has come to terms with this	after two years there now , she %um has come to terms with this	boundary_error
+so hope they wo n't be offended .	hope	2	ARG1	thing hoped (for)	they won’t be offended	they wo n't be offended	boundary_error
+so hope they wo n't be offended .	hope	2	ARG0	None	(implicit speaker)		extra_error
+She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .	qualified	13	ARG2	for what?	to do things	to do	boundary_error
+Let me give you Kate 's phone number .	Let	1	ARG1	action allowed	me give you kate's phone number	me give you kate 's phone number	boundary_error
+Let me give you Kate 's phone number .	Let	1	ARG0	None	you		extra_error
+And this made writing my thesis very annoying because you know there was n't much discussion .	know	11	ARG1	fact that is known	there wasn't much discussion	there was n't much discussion	boundary_error
+And this made writing my thesis very annoying because you know there was n't much discussion .	know	11	ARG2	None	writing my thesis		extra_error
+%um oh . So things are going extremely well .	going	7	ARG1	project		things	miss_error
+%um oh . So things are going extremely well .	going	7	ARG0	None	things		extra_error
+So let 's see .	let	2	ARG1	action allowed	see [action allowed]	see	boundary_error
+So let 's see .	let	2	ARG0	None	(you) [implicit allower]		extra_error
+She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .	do	15	ARG1	thing done	things that she really wasn't qualified to do	things	boundary_error
+So complicated when you 're dealing with a Dutch tax form .	dealing	6	ARG2	None	a dutch tax form		extra_error
+Hope the research did n't hear that !	Hope	1	ARG1	thing hoped (for)	the research didn’t hear that	the research did n't hear that	boundary_error
+Hope the research did n't hear that !	Hope	1	ARG0	None	(implicit) i [the speaker]		extra_error
+see I do n't know how it works .	works	8	ARG1	None	it		extra_error
+see I do n't know how it works .	works	8	ARG0	causer		it	miss_error
+actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .	turns	3	ARG1	None		that one thing , one little bit in what i was doing , %uh , is going to turn out to be very important in the end	miss_error
+I have my discharge papers and everything	have	2	ARG1	possession		my discharge papers and everything	miss_error
+I have my discharge papers and everything	have	2	ARG0	owner		i	miss_error
+he seems to feel really like he 's doing the right thing	seems	2	ARG1	thing seeming	to feel really like he’s doing the right thing	to feel really like he 's doing the right thing he	boundary_error
+he seems to feel really like he 's doing the right thing	seems	2	ARG2	None	he		extra_error
+And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .	find	8	ARG1	thing found	anti phased states	one of the things the things	boundary_error
+She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .	feel	24	ARG1	emotion or sensation	competent	competent doing	boundary_error
+well it seemed to make sense since I had a client to just kind of set up my own company , of sorts .	set	16	ARG1	None		my own company , of sorts my own company	miss_error
+let 's see she bought ,	let	1	ARG1	action allowed	see	's see she bought see she bought	boundary_error
+let 's see she bought ,	let	1	ARG0	None	(implicit speaker)		extra_error
+If they want me they can pay ,	pay	7	ARG0	payer or buyer		they	miss_error
+And %uh , I turned in my Master 's thesis back in May ,	turned	5	ARG1	None		my master 's thesis	miss_error
+And %uh , I turned in my Master 's thesis back in May ,	turned	5	ARG0	None		i	miss_error
+and we 're going to go see her next Thursday and talk about her making my wedding dress .	talk	12	ARG2	None	her		extra_error
+Before I forget , I saw George Silinas a couple of days ago .	forget	3	ARG1	None	i saw george silinas a couple of days ago		extra_error
+you know in the climate of today , Yes . people saying something like that .	know	2	ARG1	None	people saying something like that		extra_error
+you know in the climate of today , Yes . people saying something like that .	know	2	ARG2	None	in the climate of today		extra_error
+I mean she did n't know that I was there .	mean	2	ARG2	None	she did n't know that i was there		extra_error
+she said she was so concerned that this little girl was going to just get out here cause I was n't going to send back to the school , the Muslim school .	send	24	ARG1	None	this little girl		extra_error
+she said she was so concerned that this little girl was going to just get out here cause I was n't going to send back to the school , the Muslim school .	send	24	ARG5	None	back		extra_error
+she said she was so concerned that this little girl was going to just get out here cause I was n't going to send back to the school , the Muslim school .	send	24	ARG4	end point, attribute of arg1	the school, the muslim school	back to the school , the muslim school	boundary_error
+she said she was so concerned that this little girl was going to just get out here cause I was n't going to send back to the school , the Muslim school .	send	24	ARG3	None	here		extra_error
+Do they do that to everyone ?	Do	1	ARG2	None		to everyone	miss_error
+They are now living in Rhode Island .	living	4	ARG1	None	in rhode island		extra_error
+Now she had a job with an architectural group when she first got out to New York ,	got	13	ARG2	destination	new york	out to new york to new york	boundary_error
+Now she had a job with an architectural group when she first got out to New York ,	got	13	ARG0	None	she		extra_error
+You know , I went from Chicago to U C S G to here .	know	2	ARG1	None	i went from chicago to u c s g to here		extra_error
+You know , I went from Chicago to U C S G to here .	know	2	ARG2	None	i		extra_error
+So you have no intentions of coming over this way any time soon ?	coming	7	ARG1	entity in motion / 'comer'		you	miss_error
+but she 's working very hard .	working	4	ARG0	worker		she	miss_error
+I think what we got to do is just when he comes just have lots of cereal .	do	7	ARG1	thing done	just when he comes just have lots of cereal	what	boundary_error
+which , %um , is kind of interesting considering that that 's not really my thing . . Indeed . Indeed . being an experimentalist , not a theorist .	considering	9	ARG1	belief	that that’s not really my thing	that that 's not really my thing	boundary_error
+which , %um , is kind of interesting considering that that 's not really my thing . . Indeed . Indeed . being an experimentalist , not a theorist .	considering	9	ARG0	None	i (the speaker)		extra_error
+But , I do n't really like going with Anne Marie because she does n't like to stay very long .	going	8	ARG1	None	with anne marie		extra_error
+%ah , you know I would n't trust it because it 's so complicated with this international garbage or else the Turbo Tax with the Dutch modules . that I just would n't trust it .	know	4	ARG1	None	i would n't trust it because it 's so complicated with this international garbage or else the turbo tax with the dutch modules		extra_error
+%ah , you know I would n't trust it because it 's so complicated with this international garbage or else the Turbo Tax with the Dutch modules . that I just would n't trust it .	know	4	ARG2	None	it		extra_error
+Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know	said	15	ARG1	Utterance	she hurt jasmine's jetta	she hurt jasmine 's jetta	boundary_error
+So , it actually creates a situation where you get the right sort of answer , you just ca n't always write it down very easily .	creates	5	ARG4	None	where you get the right sort of answer		extra_error
+And I 'm actually waiting for Claudia to show up because we were supposed to go into town and meet some people in town .	go	16	ARG1	None	into town		extra_error
+And I 'm actually waiting for Claudia to show up because we were supposed to go into town and meet some people in town .	go	16	ARG4	end point	town	into town	boundary_error
+oh do they ?	do	2	ARG0	None		they	miss_error
+and %um You know ages ago I got a card from Liz Gana .	know	4	ARG2	None	a card from liz gana		extra_error
+%uh would you mind %uh taking her back	taking	6	ARG3	None	back		extra_error
+And I do n't know how much you know about scientific literature ,	know	9	ARG1	fact that is known	how much you know about scientific literature	how much about scientific literature	boundary_error
+And I do n't know how much you know about scientific literature ,	know	9	ARG2	entity that arg1 is known ABOUT	scientific literature	about scientific literature	boundary_error
+And I do n't know how much you know about scientific literature ,	know	9	ARG0	knower	i you	you	boundary_error
+This girl has everything in her dreams you know .	know	9	ARG1	None	this girl has everything in her dreams		extra_error
+This girl has everything in her dreams you know .	know	9	ARG2	None	this girl		extra_error
+and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .	dealing	29	ARG2	None	the burglary issues		extra_error
+If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam .	came	3	ARG1	None		anything	miss_error
+And then , are you coming over to the States at all this summer ?	coming	6	ARG2	None	at all		extra_error
+Of course it ends on the twenty second of July .	ends	4	ARG4	None	on the twenty second of july		extra_error

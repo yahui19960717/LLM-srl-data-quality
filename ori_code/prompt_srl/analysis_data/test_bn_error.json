@@ -1,0 +1,3372 @@
+[
+  {
+    "idx": 3,
+    "sen": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+    "prd_word": "found",
+    "prd_idx": 18,
+    "label": "ARG1",
+    "span_mean": "thing found",
+    "gold": [
+      11,
+      17
+    ],
+    "selected_span": [
+      {
+        "start": 18,
+        "end": 20,
+        "text": "guilty as charged",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 7,
+    "sen": "American Airlines ' fate is hanging on its flight attendant 's union , its narrowly rejected union today .",
+    "prd_word": "hanging",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": "suspended from",
+    "gold": [
+      6,
+      17
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 11,
+        "text": "its flight attendant 's union",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 6,
+        "end": 11,
+        "text": "on its flight attendant 's union",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 13,
+    "sen": "And she told us that he whipped out pictures of our kids and everything and showed all the family pictures and stuff .",
+    "prd_word": "showed",
+    "prd_idx": 16,
+    "label": "ARG1",
+    "span_mean": "thing seen/shown",
+    "gold": [
+      16,
+      20
+    ],
+    "selected_span": [
+      {
+        "start": 16,
+        "end": 21,
+        "text": "all the family pictures and stuff",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 14,
+    "sen": "And she told us that he whipped out pictures of our kids and everything and showed all the family pictures and stuff .",
+    "prd_word": "whipped",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      8,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 13,
+        "text": "pictures of our kids and everything",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 17,
+    "sen": "As you point out , of course , for the fact of the matter is , the mistakes of Saddam Hussein made possible his removal from power ultimately .",
+    "prd_word": "made",
+    "prd_idx": 22,
+    "label": "ARG1",
+    "span_mean": "impelled action/ predication",
+    "gold": [
+      22,
+      27
+    ],
+    "selected_span": [
+      {
+        "start": 22,
+        "end": 27,
+        "text": "possible his removal from power ultimately",
+        "models": [
+          "semicrf",
+          "treecrf",
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 22,
+    "sen": "Cheney gets a checkup call from Governor Bush and still expects to be released as early as tomorrow , and today , President Clinton cautiously speaks out about the Florida vote fight , saying everyone should , `` let the process play out . ''",
+    "prd_word": "gets",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "thing gotten",
+    "gold": [
+      2,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 4,
+        "text": "a checkup call",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 29,
+    "sen": "He got on a flight to an undisclosed location , when Jamie got a second phone call from a flight attendant .",
+    "prd_word": "got",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span_mean": "thing gotten",
+    "gold": [
+      13,
+      21
+    ],
+    "selected_span": [
+      {
+        "start": 13,
+        "end": 16,
+        "text": "a second phone call",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 38,
+    "sen": "I think Ozzy 's the guy that hit a head of a bat , you know ?",
+    "prd_word": "think",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "Thought",
+    "gold": [
+      2,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 12,
+        "text": "Ozzy 's the guy that hit a head of a bat",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 40,
+    "sen": "I think there are a number of other measures that indicate how well somebody 's doing running a company , and I think corporation boards need to spend more time on that dimension .",
+    "prd_word": "indicate",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "indicator",
+    "gold": [
+      6,
+      9
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 8,
+        "text": "other measures",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 8,
+        "text": "a number of other measures",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 51,
+    "sen": "Interestingly enough she is quoted as telling General Sanholi back to the US that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel .",
+    "prd_word": "get",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span_mean": "thing gotten",
+    "gold": [
+      19,
+      40
+    ],
+    "selected_span": [
+      {
+        "start": 19,
+        "end": 23,
+        "text": "too much of a reception",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 60,
+    "sen": "It very well could , although , I must say that the Gore campaign has been somewhat disappointed by the number of votes they have not received thus far in the counties that are undertaking the manual recounts , Brian , but a lot of hand counts still must be tallied .",
+    "prd_word": "say",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      10,
+      40
+    ],
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 50,
+        "text": "that the Gore campaign has been somewhat disappointed by the number of votes they have not received thus far in the counties that are undertaking the manual recounts , Brian , but a lot of hand counts still must be tallied",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 64,
+    "sen": "John M Wethy , ABC News , the Pentagon , still looking for answers .",
+    "prd_word": "looking",
+    "prd_idx": 12,
+    "label": "ARG0",
+    "span_mean": "looker",
+    "gold": [
+      0,
+      3
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 8,
+        "text": "John M Wethy , ABC News , the Pentagon",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 78,
+    "sen": "President Clinton arrived in Brunei Tuesday , getting a red carpet welcome from officials of the tiny Islamic sultanate .",
+    "prd_word": "getting",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "thing gotten",
+    "gold": [
+      8,
+      19
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 11,
+        "text": "a red carpet welcome",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 96,
+    "sen": "Sony 's long - awaited release of its latest video game console is guaranteed to pump up the volume on video game sales , already a $ 7 billion business .",
+    "prd_word": "guaranteed",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "guarantee",
+    "gold": [
+      14,
+      30
+    ],
+    "selected_span": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "pump up the volume on video game sales",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "text": "to pump up the volume on video game sales",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 97,
+    "sen": "Sony 's long - awaited release of its latest video game console is guaranteed to pump up the volume on video game sales , already a $ 7 billion business .",
+    "prd_word": "sales",
+    "prd_idx": 23,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      21,
+      22
+    ],
+    "selected_span": [
+      {
+        "start": 20,
+        "end": 21,
+        "text": "video game",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 99,
+    "sen": "Soon after , one of the family 's three chickens flew the coop and took up residence in the crate built especially for the puppies .",
+    "prd_word": "took",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      16,
+      25
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 101,
+    "sen": "Sovereignty is not simply a quality of statehood , but it has to do with the power of the people and democratic structures which make sovereignty an important human value .",
+    "prd_word": "do",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      14,
+      30
+    ],
+    "selected_span": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "the power of the people and democratic structures",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 29,
+        "text": "the power of the people and democratic structures which make sovereignty an important human value",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 111,
+    "sen": "The Bush team , responding quickly saying there would not be such support and that in that scenario Gore could only be seen as a sore loser .",
+    "prd_word": "seen",
+    "prd_idx": 23,
+    "label": "ARG1",
+    "span_mean": "thing viewed",
+    "gold": [
+      23,
+      27
+    ],
+    "selected_span": [
+      {
+        "start": 18,
+        "end": 18,
+        "text": "Gore",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 121,
+    "sen": "The family says the chicken keeps the place clean , so she 's free to stay .",
+    "prd_word": "says",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      3,
+      9
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 15,
+        "text": "the chicken keeps the place clean , so she 's free to stay",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 122,
+    "sen": "The little town I was in this southern Iraq , as far as I got , I ca n't boast of further , is where the talks took place .",
+    "prd_word": "boast",
+    "prd_idx": 20,
+    "label": "ARG1",
+    "span_mean": "thing proud of",
+    "gold": [
+      20,
+      22
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 123,
+    "sen": "The next morning , August 1998 , the FBI sent out a classified message , under Director Louis Freeh 's name , warning of a plot to attack a U.S. Navy ship in Yemen .",
+    "prd_word": "sent",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "sent",
+    "gold": [
+      11,
+      34
+    ],
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 13,
+        "text": "a classified message",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 124,
+    "sen": "The note was found in the pocket of Lieutenant Dimitri Kolesnikov whose body was one of the first to be recovered the explosions that shattered the submarine .",
+    "prd_word": "recovered",
+    "prd_idx": 21,
+    "label": "ARG1",
+    "span_mean": "that which was sick, now getting better",
+    "gold": [
+      16,
+      18
+    ],
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 12,
+        "text": "whose body",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 128,
+    "sen": "The speech is being billed as a thank - you to the people who twice voted him into the White House and supported him even at his lowest moments .",
+    "prd_word": "voted",
+    "prd_idx": 16,
+    "label": "ARG1",
+    "span_mean": "candidate or ballot issue",
+    "gold": [
+      17,
+      21
+    ],
+    "selected_span": [
+      {
+        "start": 16,
+        "end": 16,
+        "text": "him",
+        "models": [
+          "自定义",
+          "semicrf",
+          "treecrf"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "text": "him into the White House",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 129,
+    "sen": "The speech is being billed as a thank - you to the people who twice voted him into the White House and supported him even at his lowest moments .",
+    "prd_word": "voted",
+    "prd_idx": 16,
+    "label": "ARG2",
+    "span_mean": "numerical count of vote, margin, down/up",
+    "gold": [
+      16,
+      17
+    ],
+    "selected_span": [
+      {
+        "start": 14,
+        "end": 14,
+        "text": "twice",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 134,
+    "sen": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+    "prd_word": "taken",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "requirer",
+    "gold": [
+      14,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "These arms agreements",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 0,
+        "end": 8,
+        "text": "These arms agreements that we were just speaking about",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 139,
+    "sen": "They leave no other way for us but to respond with fire , we 'll have to do this .",
+    "prd_word": "leave",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "thing given",
+    "gold": [
+      2,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 4,
+        "text": "no other way",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 6,
+        "text": "no other way for us",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 142,
+    "sen": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+    "prd_word": "keep",
+    "prd_idx": 22,
+    "label": "ARG1",
+    "span_mean": "one noun",
+    "gold": [
+      22,
+      25
+    ],
+    "selected_span": [
+      {
+        "start": 22,
+        "end": 23,
+        "text": "the chicken",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 146,
+    "sen": "This is a guy whose world revolves not so much around music as around his wife .",
+    "prd_word": "revolves",
+    "prd_idx": 7,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": [
+      7,
+      16
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 148,
+    "sen": "Those must be gone over by hand by each respective canvassing board .",
+    "prd_word": "gone",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "journey",
+    "gold": [
+      4,
+      5
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "Those",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 161,
+    "sen": "We 're all getting , this news in from the speech that the Homeland Security Secretary Tom Ridge is expected to be delivering at the international press club around 1:00 Eastern at the top of the hour .",
+    "prd_word": "delivering",
+    "prd_idx": 23,
+    "label": "ARG1",
+    "span_mean": "sent",
+    "gold": [
+      11,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 10,
+        "text": "the speech",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 164,
+    "sen": "We have the pictures coming in from Central Florida , News 13 .",
+    "prd_word": "have",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "possession",
+    "gold": [
+      2,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 3,
+        "text": "the pictures",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 8,
+        "text": "the pictures coming in from Central Florida",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 168,
+    "sen": "When American saxophonist David Murray recorded his acclaimed afrocentric jazz album , Fo Juke Review in Dakar , he recruited Amidu Berry and DJ Awadi from PBS to show what an edge West African music can really have .",
+    "prd_word": "show",
+    "prd_idx": 29,
+    "label": "ARG0",
+    "span_mean": "shower",
+    "gold": [
+      20,
+      27
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "David Murray",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 18,
+        "text": "he",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 179,
+    "sen": "Your journey , particularly to southern Iraq , what is evoked there a sense of both that you evoke is a sense of history of this regime .",
+    "prd_word": "evoke",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span_mean": "thing evoked",
+    "gold": [
+      12,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 12,
+        "end": 13,
+        "text": "a sense",
+        "models": [
+          "semicrf",
+          "treecrf",
+          "自定义"
+        ]
+      },
+      {
+        "start": 12,
+        "end": 16,
+        "text": "a sense of both that",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 7,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "vote",
+    "prd_idx": 14,
+    "label": "ARG0",
+    "span_mean": "voter",
+    "gold": [
+      12,
+      13
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 9,
+        "text": "everybody who tried to vote who legally voted",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 11,
+    "sen": "Milosevic headed Yugoslavia 's state - run gas company and was President of a major Belgrade bank climbing the political ladder as a Communist technocrat .",
+    "prd_word": "run",
+    "prd_idx": 7,
+    "label": "ARG0",
+    "span_mean": "operator",
+    "gold": [
+      4,
+      5
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "Milosevic",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 4,
+        "text": "Yugoslavia 's state",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 12,
+    "sen": "No telling how long the Osbourne phenomenon may last but the family 's loyal following will always be screaming for more .",
+    "prd_word": "screaming",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span_mean": "the scream",
+    "gold": [
+      19,
+      21
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 13,
+    "sen": "Ratings for the second season slid .",
+    "prd_word": "Ratings",
+    "prd_idx": 1,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      1,
+      5
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 15,
+    "sen": "Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash .",
+    "prd_word": "trial",
+    "prd_idx": 12,
+    "label": "ARG3",
+    "span_mean": null,
+    "gold": [
+      12,
+      19
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 17,
+    "sen": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+    "prd_word": "taken",
+    "prd_idx": 11,
+    "label": "ARG2",
+    "span_mean": "required-of, required-from ('ablative')",
+    "gold": [
+      0,
+      9
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 2,
+    "sen": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+    "prd_word": "decision",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      3,
+      21
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "aquittal",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 13,
+    "sen": "Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .",
+    "prd_word": "stretched",
+    "prd_idx": 9,
+    "label": "ARG4",
+    "span_mean": "end point",
+    "gold": [
+      9,
+      12
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 36,
+    "sen": "Interestingly enough she is quoted as telling General Sanholi back to the US that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel .",
+    "prd_word": "reception",
+    "prd_idx": 24,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": [
+      24,
+      29
+    ],
+    "selected_span": [
+      {
+        "start": 14,
+        "end": 14,
+        "text": "she",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 37,
+    "sen": "Iraqi leader Saddam Hussein has given a defiant speech to mark the tenth anniversary of the Gulf War .",
+    "prd_word": "mark",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "signifier",
+    "gold": [
+      0,
+      4
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 8,
+        "text": "a defiant speech",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 63,
+    "sen": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+    "prd_word": "recall",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "memory",
+    "gold": [
+      5,
+      67
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 15,
+        "text": "the bombing of the US Marine barracks in Lebanon in 1983",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 67,
+    "sen": "President Clinton and Prime Minister Hasina agreed that it is essential for the US and Bangladesh to coordinate positions on major issues , that come before the United Nations and other international bodies .",
+    "prd_word": "come",
+    "prd_idx": 25,
+    "label": "ARG4",
+    "span_mean": "end point",
+    "gold": [
+      25,
+      33
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 101,
+    "sen": "They 're asking the Supreme Court to block tonight 's scheduled execution of Delma Banks .",
+    "prd_word": "scheduled",
+    "prd_idx": 11,
+    "label": "ARG3",
+    "span_mean": "time of event",
+    "gold": [
+      8,
+      10
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "tonight",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 111,
+    "sen": "They say the plane took off , clicking the construction equipment , slamming into the ground and then breaking up .",
+    "prd_word": "slamming",
+    "prd_idx": 13,
+    "label": "ARG2",
+    "span_mean": "instrument, thing hit by or with",
+    "gold": [
+      13,
+      16
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 116,
+    "sen": "Today Gao , who now lives in France , gave the traditional Nobel lecture as part of the festivities leading up to Sunday 's ceremony , and on the same day he collects the prize .",
+    "prd_word": "leading",
+    "prd_idx": 20,
+    "label": "ARG0",
+    "span_mean": "factors",
+    "gold": [
+      17,
+      19
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 7,
+    "sen": "It how quickly they get handed .",
+    "prd_word": "handed",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": "entity given to",
+    "gold": [
+      3,
+      4
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 9,
+    "sen": "It is difficult to say , Arab 's summit have traditionally been exercises in division .",
+    "prd_word": "summit",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "one party",
+    "gold": [
+      6,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 6,
+        "text": "Arab",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 11,
+    "sen": "Karl Penhaul is joining us live on the phone with more .",
+    "prd_word": "joining",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span_mean": "secondary predication (with something, like news, for example)",
+    "gold": [
+      9,
+      11
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 5,
+        "text": "live",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 27,
+    "sen": "When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated .",
+    "prd_word": "devastated",
+    "prd_idx": 21,
+    "label": "ARG0",
+    "span_mean": "destroyer",
+    "gold": [
+      16,
+      19
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 3,
+    "sen": "That 's the decision from a federal appeals court reversing a lower court ruling .",
+    "prd_word": "decision",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": [
+      4,
+      14
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 8,
+        "text": "a federal appeals court",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 8,
+        "text": "from a federal appeals court",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 3,
+    "sen": "A pretty good relationship with that chicken .",
+    "prd_word": "relationship",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": [
+      4,
+      7
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 5,
+    "sen": "American Airlines ' fate is hanging on its flight attendant 's union , its narrowly rejected union today .",
+    "prd_word": "rejected",
+    "prd_idx": 16,
+    "label": "ARG1",
+    "span_mean": "thing rejected",
+    "gold": [
+      16,
+      17
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 12,
+    "sen": "Both sides have almost stepped back six years in terms of their statements and attitudes , six years or more -- before the Oslo accords , when the Israelis promised land and the Palestinians promised security .",
+    "prd_word": "statements",
+    "prd_idx": 13,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": [
+      11,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 1,
+        "text": "Both sides",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 21,
+    "sen": "He got on a flight to an undisclosed location , when Jamie got a second phone call from a flight attendant .",
+    "prd_word": "got",
+    "prd_idx": 2,
+    "label": "ARG2",
+    "span_mean": "destination",
+    "gold": [
+      2,
+      9
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 8,
+        "text": "to an undisclosed location",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 25,
+    "sen": "His brutal efforts to create a Serb - dominated Yugoslavia earned him the nickname `` Butcher of the Balkans . ''",
+    "prd_word": "create",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "creator",
+    "gold": [
+      0,
+      1
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 30,
+    "sen": "I think kids lead the way .",
+    "prd_word": "lead",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "in the lead of",
+    "gold": [
+      4,
+      6
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 34,
+    "sen": "In fact , it seemed to have some language here .",
+    "prd_word": "seemed",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "thing seeming",
+    "gold": [
+      3,
+      4
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 9,
+        "text": "to have some language here",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 37,
+    "sen": "In the other major story out of the Middle East , Arab Foreign Ministers met today in Cairo in advance of Saturday 's Arab 's summit .",
+    "prd_word": "summit",
+    "prd_idx": 26,
+    "label": "ARG0",
+    "span_mean": "one party",
+    "gold": [
+      23,
+      25
+    ],
+    "selected_span": [
+      {
+        "start": 23,
+        "end": 23,
+        "text": "Arab",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 40,
+    "sen": "It how quickly they get handed .",
+    "prd_word": "get",
+    "prd_idx": 5,
+    "label": "ARG2",
+    "span_mean": "attribute of arg1 (not a VP node)",
+    "gold": [
+      5,
+      6
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 43,
+    "sen": "Mr. Arafat made no comment after Tuesday 's first round of White House talks moving quickly past journalists to a waiting limousine .",
+    "prd_word": "round",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      10,
+      14
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 51,
+    "sen": "Russian and Norwegian divers searched the fourth compartment of the wrecked submarine Kursk , Sunday , but they found too much damage to proceed with the task of recovering bodies .",
+    "prd_word": "wrecked",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "thing destroyed",
+    "gold": [
+      11,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 12,
+        "text": "submarine Kursk",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 57,
+    "sen": "The FBI says when they questioned him , he told them of another plot to bomb an American ship in Yemen , where the `` USS Cole '' was ultimately attacked .",
+    "prd_word": "plot",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "plotted action, plan",
+    "gold": [
+      14,
+      31
+    ],
+    "selected_span": [
+      {
+        "start": 14,
+        "end": 20,
+        "text": "to bomb an American ship in Yemen",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 60,
+    "sen": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+    "prd_word": "hopes",
+    "prd_idx": 35,
+    "label": "ARG1",
+    "span_mean": "thing hoped (for)",
+    "gold": [
+      35,
+      81
+    ],
+    "selected_span": [
+      {
+        "start": 40,
+        "end": 50,
+        "text": "to get in touch with his soul , his individual soul",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 61,
+    "sen": "The bottom line , this court rules unanimously the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26 .",
+    "prd_word": "amended",
+    "prd_idx": 25,
+    "label": "ARG1",
+    "span_mean": "thing amended",
+    "gold": [
+      25,
+      26
+    ],
+    "selected_span": [
+      {
+        "start": 25,
+        "end": 30,
+        "text": "certifications to include the hand counts",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 62,
+    "sen": "The bottom line , this court rules unanimously the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26 .",
+    "prd_word": "rules",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "domain the rule applies to",
+    "gold": [
+      8,
+      20
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 17,
+        "text": "the right of the people to have the votes counted",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 66,
+    "sen": "The next morning , August 1998 , the FBI sent out a classified message , under Director Louis Freeh 's name , warning of a plot to attack a U.S. Navy ship in Yemen .",
+    "prd_word": "warning",
+    "prd_idx": 23,
+    "label": "ARG0",
+    "span_mean": "entity giving warning",
+    "gold": [
+      11,
+      14
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 8,
+        "text": "the FBI",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 68,
+    "sen": "The right of the people to cast their vote , the court said , is paramount .",
+    "prd_word": "vote",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "voter",
+    "gold": [
+      7,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "the people",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 77,
+    "sen": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+    "prd_word": "order",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "impelled agent",
+    "gold": [
+      10,
+      16
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 80,
+    "sen": "We 'll talk with a terror expert about that , and Iraqi deserters on the northern front , Ben Wedeman has their story why they 're no longer fighting for Saddam Hussein and Don Shepperd is going to answer some of your questions as he looks at the battle hot spots .",
+    "prd_word": "questions",
+    "prd_idx": 43,
+    "label": "ARG0",
+    "span_mean": "asker",
+    "gold": [
+      41,
+      42
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 85,
+    "sen": "We will find out who is responsible and hold them accountable .",
+    "prd_word": "hold",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "thing held",
+    "gold": [
+      9,
+      11
+    ],
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 10,
+        "text": "accountable",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 87,
+    "sen": "Well , actually President Mubarak was very categorical today in condemning calls for war , which he said were very serious and people should understand the implications of just what it meant .",
+    "prd_word": "meant",
+    "prd_idx": 32,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": [
+      28,
+      30
+    ],
+    "selected_span": [
+      {
+        "start": 30,
+        "end": 30,
+        "text": "it",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 13,
+        "text": "calls for war",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 91,
+    "sen": "Yubitrich is one of Belgrade 's most popular actors and he owes it to his skilful portrayal of Slobodan Milosevic .",
+    "prd_word": "owes",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "price paid",
+    "gold": [
+      12,
+      13
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 93,
+    "sen": "`` Iraq has triumphed over its enemies , '' he said , `` and it will triumph in the remaining rounds of the battle . ''",
+    "prd_word": "remaining",
+    "prd_idx": 20,
+    "label": "ARG1",
+    "span_mean": "Thing remaining",
+    "gold": [
+      20,
+      21
+    ],
+    "selected_span": [
+      {
+        "start": 20,
+        "end": 23,
+        "text": "rounds of the battle",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 11,
+    "sen": "In October of 1985 , four hijackers under his command took over the Italian cruise ship `` Achille Lauro '' and killed a wheelchair - bound American tourist , Leo Klinghoffer .",
+    "prd_word": "bound",
+    "prd_idx": 26,
+    "label": "ARG1",
+    "span_mean": "thing bound",
+    "gold": [
+      27,
+      28
+    ],
+    "selected_span": [
+      {
+        "start": 26,
+        "end": 27,
+        "text": "American tourist",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "text": "Leo Klinghoffer",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "text": "American tourist , Leo Klinghoffer",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 13,
+    "sen": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
+    "prd_word": "diagnosed",
+    "prd_idx": 40,
+    "label": "ARG2",
+    "span_mean": "illness",
+    "gold": [
+      40,
+      52
+    ],
+    "selected_span": [
+      {
+        "start": 40,
+        "end": 42,
+        "text": "with lung cancer",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "text": "lung cancer",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 15,
+    "sen": "Russian President was supposed to visit India as early as 97 - 1998 , but of course Boris Yeltsin 's health problems got in the way of that , and then of course , Mr. Yeltsin 's abrupt resignation last year another visit and then the subsequent election campaign and inauguration of Vladimir Putin took some time , so it 's been put off for a couple of years .",
+    "prd_word": "got",
+    "prd_idx": 23,
+    "label": "ARG2",
+    "span_mean": "destination",
+    "gold": [
+      23,
+      28
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 22,
+    "sen": "The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .",
+    "prd_word": "success",
+    "prd_idx": 20,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": [
+      18,
+      19
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 1,
+        "text": "The congressman",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 14,
+        "text": "he",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 29,
+    "sen": "Tonight , some of those families made it clear their battle is not over to get to the truth and however difficult , punish the real authors of this crime .",
+    "prd_word": "battle",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "combatant",
+    "gold": [
+      9,
+      10
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 5,
+        "text": "some of those families",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 2,
+    "sen": "A Palestinian terrorist leader wanted for a deadly 1985 cruise ship hijacking is in U.S. custody in Iraq .",
+    "prd_word": "wanted",
+    "prd_idx": 5,
+    "label": "ARG2",
+    "span_mean": "beneficiary",
+    "gold": [
+      5,
+      12
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 3,
+    "sen": "Along with the picture , the flight attendant wrote a letter saying she was praying for Jack 's safe return .",
+    "prd_word": "saying",
+    "prd_idx": 12,
+    "label": "ARG0",
+    "span_mean": "Sayer",
+    "gold": [
+      9,
+      11
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 7,
+        "text": "the flight attendant",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 4,
+    "sen": "Along with the picture , the flight attendant wrote a letter saying she was praying for Jack 's safe return .",
+    "prd_word": "return",
+    "prd_idx": 20,
+    "label": "ARG1",
+    "span_mean": "thing given",
+    "gold": [
+      16,
+      18
+    ],
+    "selected_span": [
+      {
+        "start": 16,
+        "end": 16,
+        "text": "Jack",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 7,
+    "sen": "Aristide was elected President for the first time ten years ago and served just months before a military coup sent him into exile in the United States .",
+    "prd_word": "served",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span_mean": "job, project, service performed",
+    "gold": [
+      13,
+      15
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "President",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 8,
+    "sen": "As much as I 'd love to spend every day after school sucking up to teachers instead of hanging with my friends , I do n't want this job .",
+    "prd_word": "hanging",
+    "prd_idx": 19,
+    "label": "ARG2",
+    "span_mean": "location",
+    "gold": [
+      19,
+      22
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 12,
+    "sen": "Correspondent Ned Colt has our report .",
+    "prd_word": "report",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "Reporter",
+    "gold": [
+      4,
+      5
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "Correspondent Ned Colt",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "text": "Ned Colt",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 13,
+    "sen": "Front man Amidu Barry may look like he got his moves on the streets of Brooklyn but his critique of post-colonial finger pointing in Africa tells a different story .",
+    "prd_word": "moves",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "mover",
+    "gold": [
+      9,
+      10
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 7,
+        "text": "he",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "text": "Amidu Barry",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 14,
+    "sen": "Front man Amidu Barry may look like he got his moves on the streets of Brooklyn but his critique of post-colonial finger pointing in Africa tells a different story .",
+    "prd_word": "got",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span_mean": "giver",
+    "gold": [
+      11,
+      16
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 15,
+    "sen": "He 's suggested Milosevic and others stand trial in a Yugoslav court .",
+    "prd_word": "stand",
+    "prd_idx": 7,
+    "label": "ARG2",
+    "span_mean": "attribute",
+    "gold": [
+      7,
+      8
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 16,
+    "sen": "He asked us to call you to let you know he 's okay .",
+    "prd_word": "call",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "utterance",
+    "gold": [
+      5,
+      6
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 12,
+        "text": "to let you know he 's okay",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 12,
+        "text": "let you know he 's okay",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 17,
+    "sen": "He had survived , if you will , a death sentence , and now in that new freedom of the life in front of him , he takes to the road in the tradition of old Chinese poets and records what he sees , what he hears , the stories that he is told .",
+    "prd_word": "takes",
+    "prd_idx": 28,
+    "label": "ARG2",
+    "span_mean": "taken FROM, SOURCE of thing taken",
+    "gold": [
+      28,
+      31
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 20,
+    "sen": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+    "prd_word": "make",
+    "prd_idx": 7,
+    "label": "ARG2",
+    "span_mean": "created-from, thing changed",
+    "gold": [
+      8,
+      9
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "He",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 10,
+        "text": "Yubitritch",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 21,
+    "sen": "He sat out 1 term after losing a U.S Senate race in the 1960s , but for 24 terms , Yates represented Chicago 's northern lake front and northern suburbs .",
+    "prd_word": "sat",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      0,
+      1
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "1 term",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 22,
+    "sen": "He sat out 1 term after losing a U.S Senate race in the 1960s , but for 24 terms , Yates represented Chicago 's northern lake front and northern suburbs .",
+    "prd_word": "sat",
+    "prd_idx": 2,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": [
+      3,
+      5
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 23,
+    "sen": "He told lawmakers it would not trigger a U.S. retreat from the Persian Gulf , even though troops remain at risk to terrorism .",
+    "prd_word": "retreat",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "retreater, entity actually moving back",
+    "gold": [
+      10,
+      14
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "U.S.",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 26,
+    "sen": "I 'm just as delighted now , nine years later , to be able to welcome you here and to learn about the great changes which have occurred in your country since I was there .",
+    "prd_word": "learn",
+    "prd_idx": 21,
+    "label": "ARG1",
+    "span_mean": "subject",
+    "gold": [
+      21,
+      35
+    ],
+    "selected_span": [
+      {
+        "start": 21,
+        "end": 24,
+        "text": "about the great changes",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "text": "about the great changes which have occurred in your country",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 33,
+    "sen": "ISRAELI radio said four Palestinians were killed , but Palestinian security officials deny there were any casualties and they say no such incident took place .",
+    "prd_word": "took",
+    "prd_idx": 24,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": [
+      24,
+      25
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 35,
+    "sen": "Interestingly enough she is quoted as telling General Sanholi back to the US that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel .",
+    "prd_word": "quoted",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "the quote itself",
+    "gold": [
+      2,
+      3
+    ],
+    "selected_span": [
+      {
+        "start": 13,
+        "end": 39,
+        "text": "that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 39,
+        "text": "she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 36,
+    "sen": "Interestingly enough she is quoted as telling General Sanholi back to the US that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel .",
+    "prd_word": "quoted",
+    "prd_idx": 5,
+    "label": "ARG2",
+    "span_mean": "original speaker",
+    "gold": [
+      5,
+      40
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "she",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 39,
+    "sen": "James Drummond , covering the Arab summit in Cairo for the Financial Times .",
+    "prd_word": "covering",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "news organization, media",
+    "gold": [
+      0,
+      2
+    ],
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 12,
+        "text": "the Financial Times",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 40,
+    "sen": "Kids are spending $ 50 to $ 70 , you know , a pop on these games .",
+    "prd_word": "spending",
+    "prd_idx": 3,
+    "label": "ARG3",
+    "span_mean": "price paid, money",
+    "gold": [
+      3,
+      14
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 7,
+        "text": "$ 50 to $ 70",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 41,
+    "sen": "Let me take a the .",
+    "prd_word": "Let",
+    "prd_idx": 1,
+    "label": "ARG1",
+    "span_mean": "action allowed",
+    "gold": [
+      1,
+      5
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 48,
+    "sen": "Palestinian sources say he had tried to flee into Syria , but was turned away at the border .",
+    "prd_word": "flee",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      8,
+      10
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 51,
+    "sen": "Positive Black Soul are now the oldsters of Dakar 's hip - hop scene and they have established the template of social consciousness that many Senegalese hip - hop groups follow like Bootin Bye , which recently scored this hit about AIDS prevention .",
+    "prd_word": "scored",
+    "prd_idx": 38,
+    "label": "ARG0",
+    "span_mean": "grader, judge, entity awarding the points",
+    "gold": [
+      32,
+      34
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 52,
+    "sen": "Quite an emotional experience and one of us can only imagine what it must have been like to endure .",
+    "prd_word": "experience",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "experienced",
+    "gold": [
+      2,
+      3
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 53,
+    "sen": "Reporter Lee , flying in from California , unsure if his wife was alive , today , identifying his remains , and tonight survivor John Diaz begins the long trip home to California .",
+    "prd_word": "trip",
+    "prd_idx": 30,
+    "label": "ARG1",
+    "span_mean": "thing tripped (circuit breaker)",
+    "gold": [
+      30,
+      33
+    ],
+    "selected_span": [
+      {
+        "start": 23,
+        "end": 25,
+        "text": "survivor John Diaz",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "text": "John Diaz",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 54,
+    "sen": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+    "prd_word": "has",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "action",
+    "gold": [
+      2,
+      7
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 55,
+    "sen": "Russian President was supposed to visit India as early as 97 - 1998 , but of course Boris Yeltsin 's health problems got in the way of that , and then of course , Mr. Yeltsin 's abrupt resignation last year another visit and then the subsequent election campaign and inauguration of Vladimir Putin took some time , so it 's been put off for a couple of years .",
+    "prd_word": "put",
+    "prd_idx": 63,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": [
+      64,
+      69
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 57,
+    "sen": "She and her daughter Jordan often shuffle through these pictures of him taken before he left .",
+    "prd_word": "shuffle",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "entity in motion",
+    "gold": [
+      7,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 9,
+        "text": "these pictures",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 15,
+        "text": "these pictures of him taken before he left",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 58,
+    "sen": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+    "prd_word": "going",
+    "prd_idx": 30,
+    "label": "ARG1",
+    "span_mean": "journey",
+    "gold": [
+      27,
+      28
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 61,
+    "sen": "So before they say it is a white man tangle you know it 's because of a white man that this happens and they got to , you know , check around and they say who is the real guilty .",
+    "prd_word": "got",
+    "prd_idx": 25,
+    "label": "ARG1",
+    "span_mean": "Complement",
+    "gold": [
+      25,
+      32
+    ],
+    "selected_span": [
+      {
+        "start": 30,
+        "end": 31,
+        "text": "check around",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 68,
+    "sen": "Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .",
+    "prd_word": "Speaking",
+    "prd_idx": 1,
+    "label": "ARG1",
+    "span_mean": "subject",
+    "gold": [
+      1,
+      3
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "chicks",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 71,
+    "sen": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+    "prd_word": "get",
+    "prd_idx": 42,
+    "label": "ARG1",
+    "span_mean": "thing",
+    "gold": [
+      33,
+      34
+    ],
+    "selected_span": [
+      {
+        "start": 45,
+        "end": 46,
+        "text": "his soul",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "text": "his soul , his individual soul",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 73,
+    "sen": "The government also filed civil charges against her .",
+    "prd_word": "charges",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "battery, usually",
+    "gold": [
+      4,
+      5
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 7,
+        "text": "her",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 74,
+    "sen": "The government also filed civil charges against her .",
+    "prd_word": "charges",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": "instrument (defaults to electricity)",
+    "gold": [
+      6,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 4,
+        "text": "civil",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 75,
+    "sen": "The knowledge that our lights are the first to light it up , our footprints were the first , our eyes were first to see it .",
+    "prd_word": "light",
+    "prd_idx": 10,
+    "label": "ARG0",
+    "span_mean": null,
+    "gold": [
+      6,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "our lights",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 76,
+    "sen": "The knowledge that our lights are the first to light it up , our footprints were the first , our eyes were first to see it .",
+    "prd_word": "see",
+    "prd_idx": 25,
+    "label": "ARG0",
+    "span_mean": "viewer",
+    "gold": [
+      22,
+      23
+    ],
+    "selected_span": [
+      {
+        "start": 19,
+        "end": 20,
+        "text": "our eyes",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 78,
+    "sen": "The little town I was in this southern Iraq , as far as I got , I ca n't boast of further , is where the talks took place .",
+    "prd_word": "took",
+    "prd_idx": 28,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": [
+      28,
+      29
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 79,
+    "sen": "The news agency is quoting a Yemeni source who says the investigators have wrapped up their questioning and will hand the case over to prosecutors .",
+    "prd_word": "quoting",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "the quote itself",
+    "gold": [
+      5,
+      25
+    ],
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 24,
+        "text": "the investigators have wrapped up their questioning and will hand the case over to prosecutors",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 81,
+    "sen": "The question should be what the Hosni Mubarak are they still doing there eight years after the peace process began .",
+    "prd_word": "doing",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "thing done",
+    "gold": [
+      4,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 4,
+        "text": "what",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 82,
+    "sen": "The show came back with a vengeance last fall chronicling Ozzy and Sharon dealing with cancer and the kids coping with new - found celebrity and one of the top rated shows .",
+    "prd_word": "chronicling",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "thing recorded",
+    "gold": [
+      10,
+      32
+    ],
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 24,
+        "text": "Ozzy and Sharon dealing with cancer and the kids coping with new - found celebrity",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 83,
+    "sen": "The show came back with a vengeance last fall chronicling Ozzy and Sharon dealing with cancer and the kids coping with new - found celebrity and one of the top rated shows .",
+    "prd_word": "dealing",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "co-dealer",
+    "gold": [
+      14,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 12,
+        "text": "Ozzy and Sharon",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 89,
+    "sen": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+    "prd_word": "speaking",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "subject",
+    "gold": [
+      8,
+      9
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "These arms agreements",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 91,
+    "sen": "They say the plane took off , clicking the construction equipment , slamming into the ground and then breaking up .",
+    "prd_word": "slamming",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span_mean": "thing hit",
+    "gold": [
+      2,
+      4
+    ],
+    "selected_span": [
+      {
+        "start": 14,
+        "end": 15,
+        "text": "the ground",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 92,
+    "sen": "They say the plane took off , clicking the construction equipment , slamming into the ground and then breaking up .",
+    "prd_word": "took",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      2,
+      4
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 96,
+    "sen": "This is near the Long Beach Airport and involved a city bus .",
+    "prd_word": "involved",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span_mean": "group",
+    "gold": [
+      0,
+      1
+    ],
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 11,
+        "text": "a city bus",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 97,
+    "sen": "This song is from their latest play , The Last Train for Serbia , which was recorded on the day protestors stormed the federal parliament in Belgrade and the main television stations .",
+    "prd_word": "recorded",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "record",
+    "gold": [
+      0,
+      2
+    ],
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 12,
+        "text": "their latest play , The Last Train for Serbia",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 12,
+        "text": "The Last Train for Serbia",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 6,
+        "text": "their latest play",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 14,
+        "text": "which",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 103,
+    "sen": "We 'll talk with a terror expert about that , and Iraqi deserters on the northern front , Ben Wedeman has their story why they 're no longer fighting for Saddam Hussein and Don Shepperd is going to answer some of your questions as he looks at the battle hot spots .",
+    "prd_word": "talk",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "subject",
+    "gold": [
+      7,
+      9
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "that",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 104,
+    "sen": "We have a major development to report tonight involving the crash of that Singapore Airlines 747 in Taiwan this week .",
+    "prd_word": "involving",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span_mean": "group",
+    "gold": [
+      2,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 19,
+        "text": "the crash of that Singapore Airlines 747 in Taiwan this week",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 15,
+        "text": "the crash of that Singapore Airlines 747",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 107,
+    "sen": "Well , his trip has actually been delayed for a couple of years .",
+    "prd_word": "trip",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "cause of trip, overload",
+    "gold": [
+      2,
+      3
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 108,
+    "sen": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+    "prd_word": "suggests",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span_mean": "Utterance (suggestion)",
+    "gold": [
+      13,
+      14
+    ],
+    "selected_span": [
+      {
+        "start": 13,
+        "end": 43,
+        "text": "that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self",
+        "models": [
+          "treecrf"
+        ]
+      },
+      {
+        "start": 15,
+        "end": 43,
+        "text": "and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 109,
+    "sen": "When Awadi and Barry performed , they managed simultaneously to bathe in the group of American hip - hop and they keep a clear sense that they are from Senegal .",
+    "prd_word": "bathe",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "Thing washed, dirt, patient",
+    "gold": [
+      11,
+      19
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 6,
+        "text": "they",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 113,
+    "sen": "`` Iraq has triumphed over its enemies , '' he said , `` and it will triumph in the remaining rounds of the battle . ''",
+    "prd_word": "rounds",
+    "prd_idx": 21,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      21,
+      24
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 1,
+    "sen": "A note scribbled by an officer on the Russian nuclear submarine Kursk has revealed that at least 23 of its 118 crewmembers survived the explosions which sank the vessel .",
+    "prd_word": "scribbled",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "scribbler",
+    "gold": [
+      3,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 5,
+        "text": "an officer",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "text": "by an officer",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 3,
+    "sen": "All of our customers who participated in our presale list will get it .",
+    "prd_word": "participated",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "agent, entity participating",
+    "gold": [
+      2,
+      4
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "All of our customers",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 4,
+        "end": 4,
+        "text": "who",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 12,
+    "sen": "Aristide was elected President for the first time ten years ago and served just months before a military coup sent him into exile in the United States .",
+    "prd_word": "sent",
+    "prd_idx": 20,
+    "label": "ARG2",
+    "span_mean": "EXT",
+    "gold": [
+      21,
+      27
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 34,
+    "sen": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+    "prd_word": "took",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "thing taken",
+    "gold": [
+      5,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 6,
+        "text": "the trip",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 12,
+        "text": "the trip on which the novel was based",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 46,
+    "sen": "In another interview Palestinian leader Yasser Arafat said the Israelis and Palestinians had made real progress Red Sea resort of Taba , but Prime Minister Ehud Barak has suspended contacts with the Palestinians until after the February 6th election .",
+    "prd_word": "said",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      8,
+      39
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 20,
+        "text": "the Israelis and Palestinians had made real progress Red Sea resort of Taba",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 52,
+    "sen": "It very well could , although , I must say that the Gore campaign has been somewhat disappointed by the number of votes they have not received thus far in the counties that are undertaking the manual recounts , Brian , but a lot of hand counts still must be tallied .",
+    "prd_word": "received",
+    "prd_idx": 27,
+    "label": "ARG1",
+    "span_mean": "thing gotten",
+    "gold": [
+      19,
+      23
+    ],
+    "selected_span": [
+      {
+        "start": 22,
+        "end": 22,
+        "text": "votes",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 62,
+    "sen": "Lawyers in Texas are trying to keep their client from becoming the 300th person executed in the state since 1982 , when Texas resumed capital punishment .",
+    "prd_word": "becoming",
+    "prd_idx": 11,
+    "label": "ARG2",
+    "span_mean": "new state",
+    "gold": [
+      11,
+      26
+    ],
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 19,
+        "text": "the 300th person executed in the state since 1982",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 65,
+    "sen": "Moving ahead now to a developing story , the hunt for so - called smoking gun , meant to prove that Iraq was developing weapons of mass destruction .",
+    "prd_word": "meant",
+    "prd_idx": 18,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "gold": [
+      18,
+      28
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 15,
+        "text": "the hunt for so - called smoking gun",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 66,
+    "sen": "Mr. Clinton promised the gathering at the Norfolk Naval station Wednesday that those who carried out the deadly attack that killed 17 sailors will be found .",
+    "prd_word": "promised",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "person promised to",
+    "gold": [
+      3,
+      11
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "the gathering",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 3,
+        "end": 9,
+        "text": "the gathering at the Norfolk Naval station",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 91,
+    "sen": "Sovereignty is not simply a quality of statehood , but it has to do with the power of the people and democratic structures which make sovereignty an important human value .",
+    "prd_word": "make",
+    "prd_idx": 25,
+    "label": "ARG0",
+    "span_mean": "impeller to action",
+    "gold": [
+      21,
+      23
+    ],
+    "selected_span": [
+      {
+        "start": 15,
+        "end": 22,
+        "text": "the power of the people and democratic structures",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 94,
+    "sen": "That 's an old Russian aircraft carrier that India has wanted to get for some time because India only has one other aircraft carrier , and this carrier in particular would allow the Indian Navy to extend its strategic strength much farther than it currently can now .",
+    "prd_word": "wanted",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "thing wanted",
+    "gold": [
+      11,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 6,
+        "text": "an old Russian aircraft carrier",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 96,
+    "sen": "That being said it could well be the beginning of a new pattern .",
+    "prd_word": "said",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      0,
+      1
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 12,
+        "text": "it could well be the beginning of a new pattern",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 98,
+    "sen": "The blast , which occurred just after noon local time in Yemen , ripped a 20 x 40 foot gash in the USS Cole , a state - of - the - art destroyer that had stopped in Aden to refuel before joining the carrier George Washington in the Persian Gulf .",
+    "prd_word": "ripped",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "entity ripped",
+    "gold": [
+      14,
+      20
+    ],
+    "selected_span": [
+      {
+        "start": 21,
+        "end": 23,
+        "text": "the USS Cole",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 33,
+        "text": "the USS Cole , a state - of - the - art destroyer",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 103,
+    "sen": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+    "prd_word": "get",
+    "prd_idx": 42,
+    "label": "ARG2",
+    "span_mean": "attribute of arg1 (not a VP node)",
+    "gold": [
+      42,
+      81
+    ],
+    "selected_span": [
+      {
+        "start": 52,
+        "end": 68,
+        "text": "as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 108,
+    "sen": "The court ruled this senior Libyan intelligence agent planted the bomb that killed 270 , mostly Americans , when the plane bound for New York exploded over Lockerbie , Scotland .",
+    "prd_word": "planted",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "entity planted",
+    "gold": [
+      9,
+      30
+    ],
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 10,
+        "text": "the bomb",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "text": "the bomb that killed 270 , mostly Americans",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 109,
+    "sen": "The emergency order last week and the extension announced in Denver at a meeting of western governors will keep electricity flowing to California through the middle of next week .",
+    "prd_word": "keep",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span_mean": "continued entity",
+    "gold": [
+      19,
+      29
+    ],
+    "selected_span": [
+      {
+        "start": 19,
+        "end": 22,
+        "text": "electricity flowing to California",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 117,
+    "sen": "The people now in the streets are gathering because they feel that not just as Arabs , as human beings , that what is happening in Palestine is not humanitarian .",
+    "prd_word": "feel",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "belief",
+    "gold": [
+      21,
+      30
+    ],
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 29,
+        "text": "that not just as Arabs , as human beings , that what is happening in Palestine is not humanitarian",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 119,
+    "sen": "The show came back with a vengeance last fall chronicling Ozzy and Sharon dealing with cancer and the kids coping with new - found celebrity and one of the top rated shows .",
+    "prd_word": "coping",
+    "prd_idx": 20,
+    "label": "ARG1",
+    "span_mean": "coping with",
+    "gold": [
+      20,
+      32
+    ],
+    "selected_span": [
+      {
+        "start": 20,
+        "end": 24,
+        "text": "with new - found celebrity",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 21,
+        "end": 24,
+        "text": "new - found celebrity",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 130,
+    "sen": "This connection to national and musical identities results partly from the fact that many Senegalese artists want to stay in Senegal to live and work says PBS singer Tidia Awadi .",
+    "prd_word": "results",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "Theme, prior condition",
+    "gold": [
+      8,
+      25
+    ],
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 24,
+        "text": "from the fact that many Senegalese artists want to stay in Senegal to live and work",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 24,
+        "text": "the fact that many Senegalese artists want to stay in Senegal to live and work",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 139,
+    "sen": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+    "prd_word": "extended",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "patient, thing getting longer",
+    "gold": [
+      7,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 9,
+        "text": "an emergency order",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 162,
+    "sen": "You know , as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see .",
+    "prd_word": "playing",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span_mean": "player",
+    "gold": [
+      13,
+      16
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 63,
+    "sen": "Moving ahead now to a developing story , the hunt for so - called smoking gun , meant to prove that Iraq was developing weapons of mass destruction .",
+    "prd_word": "Moving",
+    "prd_idx": 1,
+    "label": "ARG1",
+    "span_mean": "moved",
+    "gold": [
+      3,
+      7
+    ],
+    "selected_span": []
+  }
+]

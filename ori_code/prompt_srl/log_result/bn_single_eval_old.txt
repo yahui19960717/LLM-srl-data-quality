@@ -1,0 +1,23 @@
+process llm result
+
+Her stockbroker was also charged .	charged	5 {'ARG0': '{"ARG0": "None"}', 'ARG1': '{"ARG1": "Her stockbroker"}', 'ARG2': '{"ARG2": "None"}'}
+Her stockbroker was also charged .	charged	5 {'ARG1': 'Her stockbroker'}
+Age groups span the generations , and it 's absolutely no longer guys only .	span	3 {'ARG0': '{"ARG0": "Age groups"}', 'ARG1': '{"ARG1": "the generations"}', 'ARG2': '{"ARG2": "None"}', 'ARG3': '{"ARG3": "None"}', 'ARG4': '{"ARG4": "None"}'}
+Age groups span the generations , and it 's absolutely no longer guys only .	span	3 {'ARG0': 'Age groups', 'ARG1': 'the generations'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	Speaking	1 {'ARG0': '{"ARG0": "None"}', 'ARG1': '{"ARG1": "chicks"}', 'ARG2': '{"ARG2": "None"}', 'ARG3': '{"ARG3": "None"}'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	Speaking	1 {'ARG1': 'chicks'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	call	5 {'ARG0': '{"ARG0": "None"}', 'ARG1': '{"ARG1": "it"}', 'ARG2': '{"ARG2": "puppy love"}'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	call	5 {'ARG1': 'it', 'ARG2': 'puppy love'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	call	10 {'ARG0': '{"ARG0": "None"}', 'ARG1': '{"ARG1": "it"}', 'ARG2': '{"ARG2": "puppy love"}'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	call	10 {'ARG1': 'it', 'ARG2': 'puppy love'}
+process gold result
+
+
+Evaluation Results:
+Role: ARG1       | P: 0.6278 | R: 0.5878 | F1: 0.6072
+Role: ARG0       | P: 0.7892 | R: 0.8057 | F1: 0.7973
+Role: ARG2       | P: 0.2710 | R: 0.3684 | F1: 0.3123
+Role: ARG3       | P: 0.0781 | R: 0.3125 | F1: 0.1250
+Role: ARG4       | P: 0.2927 | R: 0.5455 | F1: 0.3810
+Role: ARG5       | P: 0.0000 | R: 0.0000 | F1: 0.0000
+Role: OVERALL    | P: 0.6138 | R: 0.6449 | F1: 0.6290

@@ -1,0 +1,854 @@
+{
+  "All this happening about 90 minutes ago based on the wire reports we 're getting here .\tgetting\t15\tARG2": {
+    "idx": 5,
+    "sentence": "All this happening about 90 minutes ago based on the wire reports we 're getting here .",
+    "prd_word": "getting",
+    "prd_idx": 15,
+    "label": "ARG2",
+    "span_mean": "giver",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T13:29:04.406077",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 15,
+        "end": 15,
+        "text": "here",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Gao Xingjian arrived in Stockholm this week and when he leaves the Chinese born writer will have something extra in his suitcase , the Nobel Prize for Literature .\tborn\t14\tARG1": {
+    "idx": 26,
+    "sentence": "Gao Xingjian arrived in Stockholm this week and when he leaves the Chinese born writer will have something extra in his suitcase , the Nobel Prize for Literature .",
+    "prd_word": "born",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "child",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-19T10:35:39.437254",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 1,
+        "text": "Gao Xingjian",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 14,
+        "end": 14,
+        "text": "writer",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "has_custom": true
+  },
+  "I think there are a number of other measures that indicate how well somebody 's doing running a company , and I think corporation boards need to spend more time on that dimension .\tdoing\t16\tARG1": {
+    "idx": 41,
+    "sentence": "I think there are a number of other measures that indicate how well somebody 's doing running a company , and I think corporation boards need to spend more time on that dimension .",
+    "prd_word": "doing",
+    "prd_idx": 16,
+    "label": "ARG1",
+    "span_mean": "thing done",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T14:10:09.192708",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 16,
+        "end": 18,
+        "text": "running a company",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .\tneeds\t14\tARG1": {
+    "idx": 43,
+    "sentence": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+    "prd_word": "needs",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "thing needed",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-19T10:52:01.324017",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 14,
+        "end": 23,
+        "text": "to get done as far as climate change is concerned",
+        "models": [
+          "gold"
+        ]
+      },
+      {
+        "start": 11,
+        "end": 11,
+        "text": "what",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .\tget\t16\tARG2": {
+    "idx": 44,
+    "sentence": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+    "prd_word": "get",
+    "prd_idx": 16,
+    "label": "ARG2",
+    "span_mean": null,
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T14:14:56.628059",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 16,
+        "end": 16,
+        "text": "done",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .\tdone\t17\tARG0": {
+    "idx": 45,
+    "sentence": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+    "prd_word": "done",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span_mean": "agent, doer",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T14:15:16.718091",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 12,
+        "end": 12,
+        "text": "everyone",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "In another interview Palestinian leader Yasser Arafat said the Israelis and Palestinians had made real progress Red Sea resort of Taba , but Prime Minister Ehud Barak has suspended contacts with the Palestinians until after the February 6th election .\tprogress\t16\tARG4": {
+    "idx": 49,
+    "sentence": "In another interview Palestinian leader Yasser Arafat said the Israelis and Palestinians had made real progress Red Sea resort of Taba , but Prime Minister Ehud Barak has suspended contacts with the Palestinians until after the February 6th election .",
+    "prd_word": "progress",
+    "prd_idx": 16,
+    "label": "ARG4",
+    "span_mean": "end point",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T14:19:01.571701",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 16,
+        "end": 20,
+        "text": "Red Sea resort of Taba",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Is that the way you 're going to operate ?\toperate\t9\tARG1": {
+    "idx": 53,
+    "sentence": "Is that the way you 're going to operate ?",
+    "prd_word": "operate",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "thing operated",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T14:22:57.562661",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 2,
+        "end": 3,
+        "text": "the way",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "has_custom": true
+  },
+  "It how quickly they get handed .\thanded\t6\tARG1": {
+    "idx": 56,
+    "sentence": "It how quickly they get handed .",
+    "prd_word": "handed",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "thing given",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-19T10:58:19.325093",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "they",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "No sign of Geragos or Peterson in court yesterday when a judge was considering whether to unseal warrants obtained before Scott Peterson 's arrest .\tunseal\t17\tARG0": {
+    "idx": 71,
+    "sentence": "No sign of Geragos or Peterson in court yesterday when a judge was considering whether to unseal warrants obtained before Scott Peterson 's arrest .",
+    "prd_word": "unseal",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span_mean": "agent, causer",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T14:45:21.085376",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 10,
+        "end": 11,
+        "text": "a judge",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Palestinians say Israeli rocket fire hit a police post and killed at least one Palestinian security officer .\thit\t6\tARG0": {
+    "idx": 76,
+    "sentence": "Palestinians say Israeli rocket fire hit a police post and killed at least one Palestinian security officer .",
+    "prd_word": "hit",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "agent, hitter - animate only!",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T14:53:33.976928",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 2,
+        "end": 4,
+        "text": "Israeli rocket fire",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .\tgot\t26\tARG1": {
+    "idx": 89,
+    "sentence": "She has no idea where her husband is now , but thanks to a little help from a Delta flight attendant , she knew he got where he was going .",
+    "prd_word": "got",
+    "prd_idx": 26,
+    "label": "ARG1",
+    "span_mean": "thing in motion",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T15:14:06.481117",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 24,
+        "end": 24,
+        "text": "he",
+        "models": [
+          "gold"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .\tend\t36\tARG1": {
+    "idx": 107,
+    "sentence": "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .",
+    "prd_word": "end",
+    "prd_idx": 36,
+    "label": "ARG1",
+    "span_mean": null,
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T15:40:12.369824",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 20,
+        "end": 20,
+        "text": "she",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "They do n't realize that you know the real execution is really black 's black like them .\tknow\t7\tARG1": {
+    "idx": 135,
+    "sentence": "They do n't realize that you know the real execution is really black 's black like them .",
+    "prd_word": "know",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T16:10:28.786709",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 7,
+        "end": 16,
+        "text": "the real execution is really black 's black like them",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Those must be gone over by hand by each respective canvassing board .\tgone\t4\tARG1": {
+    "idx": 148,
+    "sentence": "Those must be gone over by hand by each respective canvassing board .",
+    "prd_word": "gone",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "journey",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-19T11:43:28.738243",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 0,
+        "text": "Those",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Tonight for both George Bush and Al Gore and their war rooms all their advisers , this really comes down to a numbers game .\tcomes\t19\tARG2": {
+    "idx": 152,
+    "sentence": "Tonight for both George Bush and Al Gore and their war rooms all their advisers , this really comes down to a numbers game .",
+    "prd_word": "comes",
+    "prd_idx": 19,
+    "label": "ARG2",
+    "span_mean": "extent -- rare",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T16:27:29.923611",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 20,
+        "end": 23,
+        "text": "to a numbers game",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war .\tpresented\t52\tARG1": {
+    "idx": 172,
+    "sentence": "While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war .",
+    "prd_word": "presented",
+    "prd_idx": 52,
+    "label": "ARG1",
+    "span_mean": "thing given",
+    "type": "small model overlap",
+    "optional": true,
+    "timestamp": "2026-03-18T16:53:34.567086",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 23,
+        "end": 41,
+        "text": "the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "has_custom": true
+  },
+  "All this happening about 90 minutes ago based on the wire reports we 're getting here .\tbased\t8\tARG1": {
+    "idx": 1,
+    "sentence": "All this happening about 90 minutes ago based on the wire reports we 're getting here .",
+    "prd_word": "based",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "decision, whole",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-20T11:48:10.388256",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 0,
+        "end": 6,
+        "text": "All this happening about 90 minutes ago",
+        "models": [
+          "gold"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "And if this attack turns out to be the work of terrorists , Hoffman says it would signal a dangerous new trend .\tturns\t5\tARG2": {
+    "idx": 2,
+    "sentence": "And if this attack turns out to be the work of terrorists , Hoffman says it would signal a dangerous new trend .",
+    "prd_word": "turns",
+    "prd_idx": 5,
+    "label": "ARG2",
+    "span_mean": null,
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-20T11:50:44.036503",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "to be the work of terrorists",
+        "models": [
+          "gold"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "And with you as Chairman of the SEC exercising your bully pulpit , one assumes that --\tassumes\t15\tARG1": {
+    "idx": 3,
+    "sentence": "And with you as Chairman of the SEC exercising your bully pulpit , one assumes that --",
+    "prd_word": "assumes",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "Thought",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-20T11:51:03.691622",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 15,
+        "end": 15,
+        "text": "that",
+        "models": [
+          "gold",
+          "semicrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .\tmake\t24\tARG1": {
+    "idx": 8,
+    "sentence": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+    "prd_word": "make",
+    "prd_idx": 24,
+    "label": "ARG1",
+    "span_mean": null,
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-20T16:27:04.416930",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 24,
+        "end": 24,
+        "text": "it",
+        "models": [
+          "gold",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .\tdecision\t3\tARG1": {
+    "idx": 2,
+    "sentence": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+    "prd_word": "decision",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": null,
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-22T17:30:38.868025",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 8,
+        "end": 8,
+        "text": "aquittal",
+        "models": [
+          "自定义"
+        ]
+      }
+    ],
+    "has_custom": true
+  },
+  "Give us your insights as to what you think the future holds .\tholds\t12\tARG0": {
+    "idx": 16,
+    "sentence": "Give us your insights as to what you think the future holds .",
+    "prd_word": "holds",
+    "prd_idx": 12,
+    "label": "ARG0",
+    "span_mean": "container, possessor, influencer",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-21T13:58:12.062006",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 10,
+        "text": "the future",
+        "models": [
+          "gold",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "I mean this man took the trip on which the novel was based for political reasons , did he not ?\tdid\t18\tARG0": {
+    "idx": 26,
+    "sentence": "I mean this man took the trip on which the novel was based for political reasons , did he not ?",
+    "prd_word": "did",
+    "prd_idx": 18,
+    "label": "ARG0",
+    "span_mean": null,
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-21T14:03:39.577561",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 18,
+        "end": 18,
+        "text": "he",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "I think Ozzy 's the guy that hit a head of a bat , you know ?\tknow\t16\tARG0": {
+    "idx": 27,
+    "sentence": "I think Ozzy 's the guy that hit a head of a bat , you know ?",
+    "prd_word": "know",
+    "prd_idx": 16,
+    "label": "ARG0",
+    "span_mean": "knower",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-21T14:03:47.586121",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 14,
+        "end": 14,
+        "text": "you",
+        "models": [
+          "gold",
+          "semicrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Kids are spending $ 50 to $ 70 , you know , a pop on these games .\tknow\t11\tARG0": {
+    "idx": 52,
+    "sentence": "Kids are spending $ 50 to $ 70 , you know , a pop on these games .",
+    "prd_word": "know",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "knower",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-21T14:28:11.508346",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 9,
+        "end": 9,
+        "text": "you",
+        "models": [
+          "gold",
+          "semicrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Most significant , demonstrators who had been throwing stones this week , today turned to gasoline bombs .\tturned\t14\tARG2": {
+    "idx": 57,
+    "sentence": "Most significant , demonstrators who had been throwing stones this week , today turned to gasoline bombs .",
+    "prd_word": "turned",
+    "prd_idx": 14,
+    "label": "ARG2",
+    "span_mean": "end state",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-21T14:33:20.579784",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 14,
+        "end": 16,
+        "text": "to gasoline bombs",
+        "models": [
+          "gold",
+          "treecrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Ozzy Osbourne 's life filled with incredible highs crashing into devastating lows .\tcrashing\t9\tARG1": {
+    "idx": 16,
+    "sentence": "Ozzy Osbourne 's life filled with incredible highs crashing into devastating lows .",
+    "prd_word": "crashing",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "entity crashed",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-20T14:14:28.506961",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 6,
+        "end": 7,
+        "text": "incredible highs",
+        "models": [
+          "gold"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Reaction in Libya , where many followed the trial , mixed .\tfollowed\t7\tARG0": {
+    "idx": 68,
+    "sentence": "Reaction in Libya , where many followed the trial , mixed .",
+    "prd_word": "followed",
+    "prd_idx": 7,
+    "label": "ARG0",
+    "span_mean": "acceptor, pursuer",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-21T14:43:28.448482",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 5,
+        "end": 5,
+        "text": "many",
+        "models": [
+          "gold"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "So before they say it is a white man tangle you know it 's because of a white man that this happens and they got to , you know , check around and they say who is the real guilty .\tknow\t29\tARG0": {
+    "idx": 79,
+    "sentence": "So before they say it is a white man tangle you know it 's because of a white man that this happens and they got to , you know , check around and they say who is the real guilty .",
+    "prd_word": "know",
+    "prd_idx": 29,
+    "label": "ARG0",
+    "span_mean": "knower",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-21T14:47:45.587345",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 27,
+        "end": 27,
+        "text": "you",
+        "models": [
+          "gold"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "It is a hip - hop but African hip - hop with African instruments , you know , African chant , traditional sounds .\tknow\t17\tARG0": {
+    "idx": 8,
+    "sentence": "It is a hip - hop but African hip - hop with African instruments , you know , African chant , traditional sounds .",
+    "prd_word": "know",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span_mean": "knower",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-20T14:06:56.676605",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 15,
+        "end": 15,
+        "text": "you",
+        "models": [
+          "gold",
+          "semicrf"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Just as he did that , that 's when you saw the child just walking just a few feet away from him but the officers were able to get the child away .\tget\t29\tARG2": {
+    "idx": 10,
+    "sentence": "Just as he did that , that 's when you saw the child just walking just a few feet away from him but the officers were able to get the child away .",
+    "prd_word": "get",
+    "prd_idx": 29,
+    "label": "ARG2",
+    "span_mean": "destination",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-20T14:07:55.921130",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 31,
+        "end": 31,
+        "text": "away",
+        "models": [
+          "gold"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .\tleading\t5\tARG4": {
+    "idx": 17,
+    "sentence": "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .",
+    "prd_word": "leading",
+    "prd_idx": 5,
+    "label": "ARG4",
+    "span_mean": "end point",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-20T14:15:52.909172",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 5,
+        "end": 6,
+        "text": "into it",
+        "models": [
+          "gold"
+        ]
+      }
+    ],
+    "has_custom": false
+  },
+  "Tonight for both George Bush and Al Gore and their war rooms all their advisers , this really comes down to a numbers game .\tcomes\t19\tARG4": {
+    "idx": 23,
+    "sentence": "Tonight for both George Bush and Al Gore and their war rooms all their advisers , this really comes down to a numbers game .",
+    "prd_word": "comes",
+    "prd_idx": 19,
+    "label": "ARG4",
+    "span_mean": "end point",
+    "type": "the label of small model not recall",
+    "optional": true,
+    "timestamp": "2026-03-20T14:18:21.778815",
+    "grammar_status": "没有语法错误",
+    "grammar_error_desc": "",
+    "selected_spans": [
+      {
+        "start": 20,
+        "end": 23,
+        "text": "to a numbers game",
+        "models": [
+          "gold"
+        ]
+      }
+    ],
+    "has_custom": false
+  }
+}

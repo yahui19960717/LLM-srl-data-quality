@@ -57,6 +57,7 @@ def get_completion(prompt):
 def build_prompt(sentence, prd_word, prd_lemma, prd_sense, roles):
     prompt = f"""Give a sentence："{sentence}", a predicate："{prd_word}", all posssible argument roles and their descritions：{roles}, please label all the possible argument about predicate "{prd_word}" of the sentence.\n Provide the answer in JSON format as follows: {{"comment":{{role: argument, role: argument, ...}}}} """
     llm_res = get_completion(prompt)
+    import pdb;pdb.set_trace()
     return prompt, llm_res
 
 # step2：写一个函数实现谓词对应角色描述查找；对data中的每一个谓词，根据frames_info_3.4.json查找对应的角色描述
@@ -101,5 +102,6 @@ if __name__ == "__main__":
     frames = read_json("/data/ljwang/span-SRL-LLM/propbank_frames_main/frame_out/frames_info_3.4.json") 
     original_data = read_json(f"/data/ljwang/span-SRL-LLM/ori_code/annotation/final_data/{domain}/test_{domain}_4llm_core_gold.conll")
     # step2：调用find_role_desc函数，传入frames、original_data、outfile
-    outfile = f"llm_result/test_{domain}_4llm_core_gold_role.json"
+    # outfile = f"llm_result/test_{domain}_4llm_core_gold_role.json"
+    outfile = f"llm_result/test_{domain}_4llm_core_gold_role_temp_lyh.json"
     find_role_desc(frames, original_data, outfile)

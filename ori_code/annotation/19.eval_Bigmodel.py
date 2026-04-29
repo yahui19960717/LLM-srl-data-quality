@@ -313,7 +313,7 @@ def evaluate_accuracy(model_name, eval_data, gold_dict, other_info):
             label_num += 1
             if lbl not in target_labels:
                 continue
-
+            
             # 获取 other_info
             info = other_info.get(lookup_key, {}).get(lbl, {})
             if isinstance(info, dict):
@@ -332,11 +332,21 @@ def evaluate_accuracy(model_name, eval_data, gold_dict, other_info):
             overall_total += 1
             per_label[lbl]['total'] += 1
 
-            # optional → 直接算正确
+            # optional → 有预测则正常判断，没有预测则跳过（不计入分母）
             if opt is True:
                 optional_num += 1
-                overall_correct += 1
-                per_label[lbl]['correct'] += 1
+                pred_list = pred_spans.get(lbl, [])
+                if not pred_list:
+                    # 没有预测，跳过，不计入分母也不计入分子
+                    overall_total -= 1          # 刚才已经 +1 了，撤回
+                    per_label[lbl]['total'] -= 1
+                    continue
+                # 有预测，正常判断对不对
+                gold_set = set(gold_spans.get(lbl, []))
+                if any(span in gold_set for span in pred_list):
+                    overall_correct += 1
+                    per_label[lbl]['correct'] += 1
+                # 预测错了：计入分母但不计入分子（即算错）
                 continue
 
             # 正常判断：预测中任意一个 span 命中 gold 中任意一个 span
@@ -365,7 +375,8 @@ def evaluate_accuracy(model_name, eval_data, gold_dict, other_info):
     print(f"{'='*65}")
     print(f"语法错误的个数为:{grammar_error}, 可标可不标的个数为: {optional_num}")
     print(f'评估数据的谓词个数为: {len(eval_data)}, corrected数据的谓词个数：{len(gold_dict)}')
-    assert label_num == overall_total+grammar_error 
+    # import pdb;pdb.set_trace()
+    # assert label_num == overall_total+grammar_error 
     return overall_correct, overall_total, per_label
 
 def evaluate_accuracy_orggold(model_name, eval_data, gold_dict):
@@ -421,6 +432,28 @@ def evaluate_accuracy_orggold(model_name, eval_data, gold_dict):
 
 
 if __name__ == "__main__":
+    domain = "tc"
+    gold_bigmodel = read_json(f"llm/{domain}/correct_data_{domain}_gold.json")
+    pred_bigmodel = read_json(f"llm/{domain}/correct_data_{domain}_smallmodel.json")
+    bm_added = read_json(f"/data/ljwang/span-SRL-LLM/ori_code/annotation/llm/tc/correct_data_{domain}_smnotrecall_filter.json")
+    list_data = [gold_bigmodel, pred_bigmodel, bm_added]
+    eval_data = build_bigmodel_dict_from_eval(list_data) # gold+pred+bmtojudgepostprocessing （大模型后续判断的）
+
+    # corrected data
+    final_data = read_json(f"analysis/test_{domain}_core_final_v2.json")
+    corrected_data, other_info = build_corrected_data_for_dic(final_data)
+    print(len(eval_data), len(corrected_data))
+    evaluate_accuracy("o1mini", eval_data, corrected_data, other_info) # 这里的gold是不需要减1的
+
+    # 基于原始gold字段评估
+    print("\n===== 基于原始gold评估 =====")
+    temp_data = read_json(f"final_data/{domain}/test_{domain}_goldlabel_semicrflabel_treecrflabel.conll") 
+    gold_dict_origin = build_gold_dict_from_eval(temp_data) # 这里的gold是需要减1的
+    
+    evaluate_accuracy_orggold("o1mini in org gold", eval_data, gold_dict_origin)
+    
+    exit()
+
 
     # step1 : 获得所有o1mini判断的结果：
     domain = "bn"

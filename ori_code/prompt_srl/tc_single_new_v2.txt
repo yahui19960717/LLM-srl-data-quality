@@ -1,0 +1,28 @@
+process llm result
+
+Her stockbroker was also charged .	charged	5 {'ARG0': '{"ARG0": "None"}', 'ARG1': '{"ARG1": "Her stockbroker"}', 'ARG2': '{"ARG2": "None"}'}
+Her stockbroker was also charged .	charged	5 {'ARG1': 'Her stockbroker'}
+Age groups span the generations , and it 's absolutely no longer guys only .	span	3 {'ARG0': '{"ARG0": "Age groups"}', 'ARG1': '{"ARG1": "the generations"}', 'ARG2': '{"ARG2": "None"}', 'ARG3': '{"ARG3": "None"}', 'ARG4': '{"ARG4": "None"}'}
+Age groups span the generations , and it 's absolutely no longer guys only .	span	3 {'ARG0': 'Age groups', 'ARG1': 'the generations'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	Speaking	1 {'ARG0': '{"ARG0": "None"}', 'ARG1': '{"ARG1": "chicks"}', 'ARG2': '{"ARG2": "None"}', 'ARG3': '{"ARG3": "None"}'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	Speaking	1 {'ARG1': 'chicks'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	call	5 {'ARG0': '{"ARG0": "None"}', 'ARG1': '{"ARG1": "it"}', 'ARG2': '{"ARG2": "puppy love"}'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	call	5 {'ARG1': 'it', 'ARG2': 'puppy love'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	call	10 {'ARG0': '{"ARG0": "None"}', 'ARG1': '{"ARG1": "it"}', 'ARG2': '{"ARG2": "puppy love"}'}
+Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .	call	10 {'ARG1': 'it', 'ARG2': 'puppy love'}
+process gold result
+
+A manic life , grounded in family values .	grounded	5 {'ARG2': ['in family values']}
+A note scribbled by an officer on the Russian nuclear submarine Kursk has revealed that at least 23 of its 118 crewmembers survived the explosions which sank the vessel .	revealed	14 {'ARG1': ['at least 23 of its 118 crewmembers survived the explosions which sank the vessel', 'that at least 23 of its 118 crewmembers survived the explosions which sank the vessel']}
+A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .	found	18 {'ARG1': ['guilty as charged']}
+AAA estimates 61 million Americans will be heading somewhere between this weekend and New Year 's .	heading	8 {'ARG1': ['somewhere']}
+All this happening about 90 minutes ago based on the wire reports we 're getting here .	getting	15 {'ARG2': ['here']}
+
+Evaluation Results:
+Role: ARG2       | P: 0.3323 | R: 0.4310 | F1: 0.3752
+Role: ARG0       | P: 0.8277 | R: 0.8188 | F1: 0.8232
+Role: ARG1       | P: 0.6937 | R: 0.6435 | F1: 0.6676
+Role: ARG3       | P: 0.1250 | R: 0.4000 | F1: 0.1905
+Role: ARG4       | P: 0.2683 | R: 0.4074 | F1: 0.3235
+Role: ARG5       | P: 0.0000 | R: 0.0000 | F1: 0.0000
+Role: OVERALL    | P: 0.6665 | R: 0.6824 | F1: 0.6743

@@ -1,0 +1,1943 @@
+[
+  {
+    "idx": 6,
+    "sen": "%um , they had just moved to He 's in New York now , right ? a really nice house in Westchester .",
+    "prd_word": "moved",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": "destination",
+    "gold": [
+      6,
+      22
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "to He 's in New York",
+        "models": [
+          "semicrf"
+        ]
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "text": "a really nice house in Westchester",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 9,
+    "sen": "%um 118.91_120.82_B: Let 's see ,",
+    "prd_word": "Let",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "action allowed",
+    "gold": [
+      3,
+      5
+    ],
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 4,
+        "text": "see",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 11,
+    "sen": "%um and I 'll sit and talk with Anya about some things that maybe we think that it would be neat for you to see .",
+    "prd_word": "see",
+    "prd_idx": 25,
+    "label": "ARG1",
+    "span_mean": "thing viewed",
+    "gold": [
+      12,
+      13
+    ],
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 11,
+        "text": "some things",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 13,
+    "sen": "%um and I keep thinking maybe I 'd get in touch",
+    "prd_word": "get",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "thing",
+    "gold": [
+      6,
+      7
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 16,
+    "sen": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+    "prd_word": "have",
+    "prd_idx": 25,
+    "label": "ARG1",
+    "span_mean": "action",
+    "gold": [
+      25,
+      36
+    ],
+    "selected_span": [
+      {
+        "start": 25,
+        "end": 29,
+        "text": "to sheik pray over her",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "text": "sheik pray over her",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 17,
+    "sen": "%um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .",
+    "prd_word": "pray",
+    "prd_idx": 28,
+    "label": "ARG0",
+    "span_mean": "pray-er",
+    "gold": [
+      25,
+      27
+    ],
+    "selected_span": [
+      {
+        "start": 26,
+        "end": 26,
+        "text": "sheik",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 27,
+    "sen": "And I got a card from ,",
+    "prd_word": "got",
+    "prd_idx": 3,
+    "label": "ARG2",
+    "span_mean": "giver",
+    "gold": [
+      5,
+      6
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 31,
+    "sen": "And I was like , well I 've been telling you that Neil .",
+    "prd_word": "telling",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      11,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 12,
+        "text": "that Neil",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 33,
+    "sen": "And in it I put , %um paint samples from Sherwin Williams uh-huh . of all the different like shades of what color I thought you might be thinking of for the bride 's maids .",
+    "prd_word": "thinking",
+    "prd_idx": 29,
+    "label": "ARG2",
+    "span_mean": "Attributive (please look at the examples-- this is tricky)",
+    "gold": [
+      29,
+      30
+    ],
+    "selected_span": [
+      {
+        "start": 30,
+        "end": 34,
+        "text": "for the bride 's maids",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 34,
+    "sen": "And in it I put , %um paint samples from Sherwin Williams uh-huh . of all the different like shades of what color I thought you might be thinking of for the bride 's maids .",
+    "prd_word": "put",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "thing put",
+    "gold": [
+      7,
+      35
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 11,
+        "text": "paint samples from Sherwin Williams",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 7,
+        "end": 22,
+        "text": "paint samples from Sherwin Williams uh-huh . of all the different like shades of what color",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 36,
+    "sen": "And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .",
+    "prd_word": "call",
+    "prd_idx": 13,
+    "label": "ARG2",
+    "span_mean": "name itself, attribute of arg1",
+    "gold": [
+      13,
+      44
+    ],
+    "selected_span": [
+      {
+        "start": 13,
+        "end": 18,
+        "text": "anti phased , %uh , states",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 38,
+    "sen": "And she 's just not going to have the same kind of career that she had thought about .",
+    "prd_word": "thought",
+    "prd_idx": 17,
+    "label": "ARG2",
+    "span_mean": "Attributive (please look at the examples-- this is tricky)",
+    "gold": [
+      17,
+      18
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 39,
+    "sen": "And so %uh , that 's yeah at least dealt with .",
+    "prd_word": "dealt",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "co-dealer",
+    "gold": [
+      10,
+      11
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 41,
+    "sen": "And so the problem is that now they found out that it 's worth breaking into .",
+    "prd_word": "breaking",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "place/domain broken into",
+    "gold": [
+      15,
+      16
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 42,
+    "sen": "And then they operated on",
+    "prd_word": "operated",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      4,
+      5
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 44,
+    "sen": "And this made writing my thesis very annoying because you know there was n't much discussion .",
+    "prd_word": "made",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "impelled action/ predication",
+    "gold": [
+      3,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 7,
+        "text": "writing my thesis very annoying",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 46,
+    "sen": "But , that 's dealt with at least .",
+    "prd_word": "dealt",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "co-dealer",
+    "gold": [
+      5,
+      6
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 48,
+    "sen": "But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,",
+    "prd_word": "come",
+    "prd_idx": 24,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      24,
+      26
+    ],
+    "selected_span": [
+      {
+        "start": 20,
+        "end": 20,
+        "text": "she",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 49,
+    "sen": "But at any rate it was nice to hear from her because she said after two years there now , she %um has come to terms with this ,",
+    "prd_word": "come",
+    "prd_idx": 24,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": [
+      26,
+      28
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 57,
+    "sen": "Did you have off yesterday ?",
+    "prd_word": "have",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "possession",
+    "gold": [
+      4,
+      5
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "off",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 58,
+    "sen": "For a woman who is lifting not that much I do n't think yeah . You would .",
+    "prd_word": "lifting",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "Logical subject, patient, thing rising",
+    "gold": [
+      6,
+      9
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 59,
+    "sen": "Got to get that up to five .",
+    "prd_word": "get",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "a clause -- action done or descriptive small clause",
+    "gold": [
+      3,
+      4
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 6,
+        "text": "that up to five",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 61,
+    "sen": "He eats at least like four of cereal a day like in addition to like meals .",
+    "prd_word": "eats",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "meal",
+    "gold": [
+      2,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 9,
+        "text": "at least like four of cereal a day",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      },
+      {
+        "start": 5,
+        "end": 7,
+        "text": "four of cereal",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 63,
+    "sen": "I 'll tell dad that you still think about the",
+    "prd_word": "think",
+    "prd_idx": 8,
+    "label": "ARG2",
+    "span_mean": "Attributive (please look at the examples-- this is tricky)",
+    "gold": [
+      8,
+      10
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 65,
+    "sen": "I 'm looking forward to that cause %uh",
+    "prd_word": "looking",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      4,
+      6
+    ],
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 6,
+        "text": "to that cause",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 66,
+    "sen": "I 'm really looking forward to moving to Oregon and dealing with ,",
+    "prd_word": "dealing",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "co-dealer",
+    "gold": [
+      11,
+      12
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 68,
+    "sen": "I 've got to",
+    "prd_word": "got",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Complement",
+    "gold": [
+      3,
+      4
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 71,
+    "sen": "I do n't know if you spoke to me before that or when it was that was happening . Or",
+    "prd_word": "know",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": [
+      4,
+      20
+    ],
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 17,
+        "text": "if you spoke to me before that or when it was that was happening",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 74,
+    "sen": "I kind of want to",
+    "prd_word": "want",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "thing wanted",
+    "gold": [
+      4,
+      5
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 76,
+    "sen": "I mean the only thing is %um just getting your heart rate up for extended periods of time .",
+    "prd_word": "getting",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "a clause -- action done or descriptive small clause",
+    "gold": [
+      9,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 12,
+        "text": "your heart rate up",
+        "models": [
+          "treecrf"
+        ]
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "text": "your heart rate up for extended periods of time",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 77,
+    "sen": "I mean things have been happening that has just scared the heck out of me .",
+    "prd_word": "scared",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "scared entity",
+    "gold": [
+      12,
+      15
+    ],
+    "selected_span": [
+      {
+        "start": 14,
+        "end": 14,
+        "text": "me",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 80,
+    "sen": "I remember when I talked to you in the fall yeah . yeah . that %uh",
+    "prd_word": "remember",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "memory",
+    "gold": [
+      2,
+      16
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 81,
+    "sen": "I said I feel like I know you even though I never met you .",
+    "prd_word": "said",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      2,
+      3
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 13,
+        "text": "I feel like I know you even though I never met you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 84,
+    "sen": "I think I had mentioned before %uh , that there 's a company now that I 'm working with %um , %uh , which is very much just myself and Guss .",
+    "prd_word": "working",
+    "prd_idx": 18,
+    "label": "ARG3",
+    "span_mean": "coworker",
+    "gold": [
+      18,
+      19
+    ],
+    "selected_span": [
+      {
+        "start": 30,
+        "end": 30,
+        "text": "Guss",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 85,
+    "sen": "I think Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters .",
+    "prd_word": "shooting",
+    "prd_idx": 12,
+    "label": "ARG2",
+    "span_mean": "target",
+    "gold": [
+      12,
+      13
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 7,
+        "text": "the one",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "text": "Optics Letters",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 87,
+    "sen": "Is it paid today ?",
+    "prd_word": "paid",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "money or attention",
+    "gold": [
+      1,
+      2
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 88,
+    "sen": "It 's crazy how much he eats .",
+    "prd_word": "eats",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "meal",
+    "gold": [
+      3,
+      5
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 91,
+    "sen": "My daughter - in - law Barbara got on her case real serious yesterday .",
+    "prd_word": "got",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "thing",
+    "gold": [
+      0,
+      7
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 92,
+    "sen": "My daughter - in - law Barbara got on her case real serious yesterday .",
+    "prd_word": "got",
+    "prd_idx": 8,
+    "label": "ARG2",
+    "span_mean": "attribute of arg1 (not a VP node)",
+    "gold": [
+      8,
+      11
+    ],
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 12,
+        "text": "real serious",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 94,
+    "sen": "Now , daddy got %um the invitations together for you today .",
+    "prd_word": "got",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "a clause -- action done or descriptive small clause",
+    "gold": [
+      5,
+      7
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 7,
+        "text": "the invitations together",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 95,
+    "sen": "Ron is working as a financial consultant for , %um , Meryl Lynch .",
+    "prd_word": "working",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "job, project",
+    "gold": [
+      3,
+      13
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 6,
+        "text": "as a financial consultant",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 96,
+    "sen": "See I think y- , %um ,",
+    "prd_word": "think",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Thought",
+    "gold": [
+      3,
+      6
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 97,
+    "sen": "She 's coming back tonight .",
+    "prd_word": "coming",
+    "prd_idx": 3,
+    "label": "ARG3",
+    "span_mean": "start point",
+    "gold": [
+      3,
+      4
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 98,
+    "sen": "She 's trying to become a counselor in this drug program , and things",
+    "prd_word": "trying",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "thing tried",
+    "gold": [
+      3,
+      14
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 10,
+        "text": "to become a counselor in this drug program",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 99,
+    "sen": "She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .",
+    "prd_word": "do",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "thing done",
+    "gold": [
+      7,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 6,
+        "text": "things",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 102,
+    "sen": "She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,",
+    "prd_word": "needing",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "thing needed",
+    "gold": [
+      12,
+      22
+    ],
+    "selected_span": [
+      {
+        "start": 12,
+        "end": 26,
+        "text": "a lot of love , a lot of %um help and different things like this",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 107,
+    "sen": "So Cool . Cool . that 's mostly the sort of stuff that I 'm spending a lot of time on now . %um",
+    "prd_word": "spending",
+    "prd_idx": 16,
+    "label": "ARG2",
+    "span_mean": "activity",
+    "gold": [
+      20,
+      21
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 11,
+        "text": "the sort of stuff",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 108,
+    "sen": "So complicated when you 're dealing with a Dutch tax form .",
+    "prd_word": "dealing",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "co-dealer",
+    "gold": [
+      6,
+      11
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 109,
+    "sen": "So let 's see .",
+    "prd_word": "let",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "action allowed",
+    "gold": [
+      2,
+      4
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "see",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 113,
+    "sen": "Some amount that has to be deducted a certain amount",
+    "prd_word": "deducted",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "thing being subtracted",
+    "gold": [
+      2,
+      3
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 1,
+        "text": "Some amount",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 117,
+    "sen": "There 's a pretty good sale . %mm . So now we have to keep our eyes open for a champagne sale .",
+    "prd_word": "keep",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "continued entity",
+    "gold": [
+      15,
+      22
+    ],
+    "selected_span": [
+      {
+        "start": 15,
+        "end": 16,
+        "text": "our eyes",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 122,
+    "sen": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+    "prd_word": "Told",
+    "prd_idx": 1,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      2,
+      22
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 11,
+        "text": "that she could n't talk to Jasmine play with Jasmine",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 3,
+        "end": 11,
+        "text": "she could n't talk to Jasmine play with Jasmine",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 127,
+    "sen": "Well it 'll look good on your C V , your resume .",
+    "prd_word": "look",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "thing looked at or for or on",
+    "gold": [
+      1,
+      2
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 11,
+        "text": "your C V , your resume",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 129,
+    "sen": "Well you know or luck making a way and making it at ease for you to",
+    "prd_word": "making",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "impelled action/ predication",
+    "gold": [
+      10,
+      16
+    ],
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 12,
+        "text": "it at ease",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "text": "it at ease for you",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 135,
+    "sen": "actually it turns out that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end . %uh , from what I had been reading in the literature .",
+    "prd_word": "turns",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": null,
+    "gold": [
+      4,
+      43
+    ],
+    "selected_span": [
+      {
+        "start": 4,
+        "end": 30,
+        "text": "that one thing , one little bit in what I was doing , %uh , is going to turn out to be very important in the end",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 140,
+    "sen": "and I 'm actually presently working on , %um , several , %uh , articles oh , okay . Impressive . from it .",
+    "prd_word": "working",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "job, project",
+    "gold": [
+      6,
+      23
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 14,
+        "text": "on , %um , several , %uh , articles",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "text": "several , %uh , articles",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 141,
+    "sen": "and I kind of hinted to her that really the only way to lose weight is cardio vascular . mhm . It 's true . And that lifting the weights wo n't lose weight .",
+    "prd_word": "lose",
+    "prd_idx": 33,
+    "label": "ARG0",
+    "span_mean": "entity losing something",
+    "gold": [
+      27,
+      30
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 142,
+    "sen": "and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .",
+    "prd_word": "dealing",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "co-dealer",
+    "gold": [
+      17,
+      30
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 143,
+    "sen": "and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .",
+    "prd_word": "dealing",
+    "prd_idx": 29,
+    "label": "ARG1",
+    "span_mean": "co-dealer",
+    "gold": [
+      29,
+      30
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 149,
+    "sen": "and it 'll look good on me , you know like fit me , Sure . which is necessary at the moment because I 'm plump",
+    "prd_word": "look",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "thing looked at or for or on",
+    "gold": [
+      1,
+      2
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 6,
+        "text": "on me",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 150,
+    "sen": "and mhm %um you know . It feels like maybe she made a compromise",
+    "prd_word": "feels",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "stimulus",
+    "gold": [
+      6,
+      7
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 13,
+        "text": "like maybe she made a compromise",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 157,
+    "sen": "and we go through a box of cereal every two days .",
+    "prd_word": "go",
+    "prd_idx": 3,
+    "label": "ARG2",
+    "span_mean": "direction, usually a particle",
+    "gold": [
+      3,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 3,
+        "text": "through",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 158,
+    "sen": "and you tell her .",
+    "prd_word": "tell",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      3,
+      4
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 160,
+    "sen": "as soon as you get into Holland and get yourself settled you can call me",
+    "prd_word": "get",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "thing",
+    "gold": [
+      3,
+      4
+    ],
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 10,
+        "text": "yourself settled",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 163,
+    "sen": "bring me back active duty and pay me for the day if they 're going to drag me off somewhere .",
+    "prd_word": "drag",
+    "prd_idx": 17,
+    "label": "ARG2",
+    "span_mean": "direction",
+    "gold": [
+      18,
+      19
+    ],
+    "selected_span": [
+      {
+        "start": 19,
+        "end": 19,
+        "text": "somewhere",
+        "models": [
+          "treecrf"
+        ]
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "text": "off somewhere",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 168,
+    "sen": "but I think he 's at a point now where he 's reserved us of that %um , you know that she may end up going %um to %uh t-",
+    "prd_word": "end",
+    "prd_idx": 24,
+    "label": "ARG2",
+    "span_mean": null,
+    "gold": [
+      25,
+      30
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 173,
+    "sen": "have to deal with the situation .",
+    "prd_word": "deal",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "co-dealer",
+    "gold": [
+      3,
+      6
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 174,
+    "sen": "if this does happen and I do believe it may happen , %um you know we will have an agreement , she and I , you know ,",
+    "prd_word": "believe",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "believed",
+    "gold": [
+      8,
+      15
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 10,
+        "text": "it may happen",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 178,
+    "sen": "it was just that no one really knew it was worth breaking into .",
+    "prd_word": "breaking",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "place/domain broken into",
+    "gold": [
+      12,
+      13
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 182,
+    "sen": "she did some %eh ,",
+    "prd_word": "did",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "thing done",
+    "gold": [
+      2,
+      4
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 189,
+    "sen": "this place is incredibly easy to break into if you want to .",
+    "prd_word": "want",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "thing wanted",
+    "gold": [
+      11,
+      12
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 190,
+    "sen": "this place is incredibly easy to break into if you want to .",
+    "prd_word": "break",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "place/domain broken into",
+    "gold": [
+      7,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 0,
+        "end": 1,
+        "text": "this place",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 192,
+    "sen": "we 're going to be in need of some sort of accountant do it cause I have no clue how that all works .",
+    "prd_word": "works",
+    "prd_idx": 23,
+    "label": "ARG0",
+    "span_mean": "causer",
+    "gold": [
+      20,
+      22
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 197,
+    "sen": "yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um",
+    "prd_word": "making",
+    "prd_idx": 18,
+    "label": "ARG1",
+    "span_mean": "impelled action/ predication",
+    "gold": [
+      18,
+      21
+    ],
+    "selected_span": [
+      {
+        "start": 18,
+        "end": 18,
+        "text": "beautiful",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 198,
+    "sen": "you can just call her Missus and speak English to her .",
+    "prd_word": "speak",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "subject",
+    "gold": [
+      8,
+      9
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 199,
+    "sen": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+    "prd_word": "hope",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "thing hoped (for)",
+    "gold": [
+      12,
+      23
+    ],
+    "selected_span": [
+      {
+        "start": 12,
+        "end": 20,
+        "text": "Arlita knows that you know I tried my best",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 200,
+    "sen": "you know even after you left I said , I just hope Arlita knows that you know I tried my best you know",
+    "prd_word": "knows",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": [
+      14,
+      23
+    ],
+    "selected_span": [
+      {
+        "start": 14,
+        "end": 20,
+        "text": "that you know I tried my best",
+        "models": [
+          "treecrf"
+        ]
+      },
+      {
+        "start": 17,
+        "end": 20,
+        "text": "I tried my best",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 23,
+    "sen": "And %uh With a pretty simple model you can find that frequency in a transient ,",
+    "prd_word": "find",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "thing found",
+    "gold": [
+      10,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 10,
+        "end": 14,
+        "text": "that frequency in a transient",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 29,
+    "sen": "And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,",
+    "prd_word": "kept",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "continued entity",
+    "gold": [
+      3,
+      25
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 4,
+        "text": "writing back",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 33,
+    "sen": "And if it gets irritated take some pills and stuff .",
+    "prd_word": "take",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "thing taken",
+    "gold": [
+      6,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 9,
+        "text": "some pills and stuff",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 44,
+    "sen": "And then you know before he leaves every morning he has like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+    "prd_word": "has",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "possession",
+    "gold": [
+      12,
+      27
+    ],
+    "selected_span": [
+      {
+        "start": 11,
+        "end": 26,
+        "text": "like two fried eggs mhm on toast with cheese %um vegetarian sausages %um and like fruit",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 71,
+    "sen": "For a woman who is lifting not that much I do n't think yeah . You would .",
+    "prd_word": "think",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span_mean": "Thought",
+    "gold": [
+      15,
+      17
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 79,
+    "sen": "I 've been telling you that I needed to do that roof atrium for quite some time .",
+    "prd_word": "needed",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "thing needed",
+    "gold": [
+      8,
+      17
+    ],
+    "selected_span": [
+      {
+        "start": 8,
+        "end": 12,
+        "text": "to do that roof atrium",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 113,
+    "sen": "I mean things have been happening that has just scared the heck out of me .",
+    "prd_word": "scared",
+    "prd_idx": 10,
+    "label": "ARG0",
+    "span_mean": "scary entity",
+    "gold": [
+      6,
+      7
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 2,
+        "text": "things",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      },
+      {
+        "start": 2,
+        "end": 5,
+        "text": "things have been happening",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 124,
+    "sen": "I said I feel like I know you even though I never met you .",
+    "prd_word": "feel",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "belief",
+    "gold": [
+      4,
+      8
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 13,
+        "text": "I know you even though I never met you",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 127,
+    "sen": "I said mom it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you .",
+    "prd_word": "said",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      2,
+      25
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 34,
+        "text": "it is when you believe in Allah , when you have faith and know when you truly give your heart to Allah , only Allah can make the way clear for you",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 133,
+    "sen": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+    "prd_word": "going",
+    "prd_idx": 33,
+    "label": "ARG4",
+    "span_mean": "end point",
+    "gold": [
+      33,
+      35
+    ],
+    "selected_span": []
+  },
+  {
+    "idx": 137,
+    "sen": "I think Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters .",
+    "prd_word": "think",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "Thought",
+    "gold": [
+      2,
+      13
+    ],
+    "selected_span": [
+      {
+        "start": 2,
+        "end": 34,
+        "text": "Optics Letters is probably the one that we 're shooting for , or else , perhaps , though I do n't think it 's quite that significant , would be Phys Rev Letters",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 151,
+    "sen": "Not a whole lot I can do about that now .",
+    "prd_word": "do",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "thing done",
+    "gold": [
+      0,
+      4
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 8,
+        "text": "about that",
+        "models": [
+          "自定义"
+        ]
+      },
+      {
+        "start": 8,
+        "end": 8,
+        "text": "that",
+        "models": [
+          "自定义"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 188,
+    "sen": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+    "prd_word": "said",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      15,
+      22
+    ],
+    "selected_span": [
+      {
+        "start": 15,
+        "end": 19,
+        "text": "she hurt Jasmine 's Jetta",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 191,
+    "sen": "Well , %um actually I think this phone call 's just about to end cause it 's only half an hour ,",
+    "prd_word": "think",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "Thought",
+    "gold": [
+      6,
+      21
+    ],
+    "selected_span": [
+      {
+        "start": 6,
+        "end": 13,
+        "text": "this phone call 's just about to end",
+        "models": [
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 200,
+    "sen": "Well did she come home and say I saw her , I look like her or what ?",
+    "prd_word": "say",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      7,
+      15
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 16,
+        "text": "I saw her , I look like her or what",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 234,
+    "sen": "and I think they would then feel guilty for not inviting me .",
+    "prd_word": "feel",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "emotion or sensation",
+    "gold": [
+      7,
+      12
+    ],
+    "selected_span": [
+      {
+        "start": 7,
+        "end": 7,
+        "text": "guilty",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 258,
+    "sen": "because I knew what she would do if I took her somewhere you know what she would say",
+    "prd_word": "knew",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "gold": [
+      3,
+      18
+    ],
+    "selected_span": [
+      {
+        "start": 3,
+        "end": 11,
+        "text": "what she would do if I took her somewhere",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 296,
+    "sen": "oh I already told them all black",
+    "prd_word": "told",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "gold": [
+      6,
+      7
+    ],
+    "selected_span": [
+      {
+        "start": 5,
+        "end": 6,
+        "text": "all black",
+        "models": [
+          "semicrf",
+          "treecrf"
+        ]
+      }
+    ]
+  },
+  {
+    "idx": 314,
+    "sen": "which , %um , is kind of interesting considering that that 's not really my thing . . Indeed . Indeed . being an experimentalist , not a theorist .",
+    "prd_word": "considering",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "belief",
+    "gold": [
+      9,
+      29
+    ],
+    "selected_span": [
+      {
+        "start": 9,
+        "end": 15,
+        "text": "that that 's not really my thing",
+        "models": [
+          "semicrf"
+        ]
+      }
+    ]
+  }
+]

@@ -1,26 +1,31 @@
-  读取文件: annotation_smallmodel_overlap_wlj_final.json
-数据个数为：179
-  读取文件: annotation_smnotrecall_21_wlj_final.json
-数据个数为：21
-  读取文件: annotation_smnotrecallright_110_wlj_final.json
-数据个数为：110
-  读取文件: annotation_smnotrecallright_random30_wlj_final.json
-数据个数为：30
-  读取文件: annotations_gold_llm_not_parse_wlj_final.json
+  读取文件: annotation_tc_gold_llm_not_parse_wlj_final.json
 数据个数为：3
-  读取文件: annotations_single_gold_o1wrongdsright_93_wlj_final.json
-数据个数为：93
-  读取文件: annotations_single_gold_random_wlj_final.json
-数据个数为：30
-  读取文件: annotations_single_gold_wlj_final.json
-数据个数为：113
-  读取文件: annotations_wlj_smallmodel_163_final.json
-数据个数为：163
+  读取文件: annotation_tc_single_gold_201_wlj_final.json
+数据个数为：201
+  读取文件: annotation_tc_smallmodel_removerepeate_322_wlj_final.json
+数据个数为：322
 
-总共读取了 742 条数据
-相同label，但不同批数据标注不同的instance个数：23,但目前已合并
+总共读取了 526 条数据
+数据已保存到: /data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_tc_optional.json
+相同label，但不同批数据标注不同的instance个数：5,但目前已合并
 
-去重后有 650 条数据
-原始Golden数据条数为: 2132
-gold数据中总共有 2132 条记录，其中346条匹配上，标注错误的有 156 条，人工标注了多个候选的有 145 条，漏标注的有 148 条
-数据已保存到: /data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_bn_4llm_core_gold_errorandmiss.json
+去重后有 494 条数据
+org error! have repeat
+org error! have repeat
+org error! have repeat
+org error! have repeat
+org error! have repeat
+o1-mini认为gold结果正确的数据有 1640 条
+从org_data新增了 1568 条记录
+合并后有 2062 条数据
+数据已保存到: /data/ljwang/span-SRL-LLM/ori_code/prompt_srl/new_test_set/test_tc_500_core_final.json
+org error! have repeat
+org error! have repeat
+org error! have repeat
+org error! have repeat
+org error! have repeat
+原始Golden数据条数为: 1844
+gold数据中总共有 1844 条记录，其中1748条匹配上，标注错误的有 96 条，人工标注了多个候选的有 78 条，漏标注的有 218 条
+数据已保存到: /data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_tc_error.json
+数据已保存到: /data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_tc_multi.json
+数据已保存到: /data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_tc_miss.json

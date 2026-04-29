@@ -37,19 +37,23 @@ def merge_selected_spans(existing_spans, new_spans):
     return list(span_dict.values())
 
 # 转换annodata为dict，key为(sen, prd_word, prd_idx, label)，value为item_source，主要标注信息在selected_spans字段
-def transform_annodata_todict(data):
+def transform_annodata_todict(data, opt_outfile):
     data_dic = {}
+    opt_dict = {}
     merge_num = 0
     for item_source in data:
         sen = item_source["sentence"]
         prd_word = item_source["prd_word"]
         prd_idx = item_source["prd_idx"]
         label = item_source["label"]
+        optional_flag = item_source.get('optional', False)
         # span_idx = item_source["selected_spans"]
         #key_source = (sen, prd_word, prd_idx, label)
         key_source = '\t'.join([sen, prd_word, str(prd_idx), label])
         if key_source not in data_dic.keys():
             data_dic[key_source] = item_source
+            if optional_flag:
+                opt_dict[key_source] = item_source
         else:
             org_span_num = len(data_dic[key_source]['selected_spans'])
             merged = merge_selected_spans(
@@ -57,10 +61,12 @@ def transform_annodata_todict(data):
                 item_source['selected_spans']
             )
             data_dic[key_source]['selected_spans'] = merged
+            if optional_flag:
+                opt_dict[key_source] = item_source
             current_span_num = len(merged)
             if org_span_num != current_span_num:
                 merge_num+=1     
-    
+    write_json(opt_dict, opt_outfile)
     print(f"相同label，但不同批数据标注不同的instance个数：{merge_num},但目前已合并") 
     return data_dic
 
@@ -97,18 +103,20 @@ def construct_item(data, gold_span):
 # 写一个函数，名称为compute_gold_errorrate, 输入为gold_data_dict、annodata_dict以及输出文件, 最终将人工修正数据写入输出文件
 # 设置变量total_num等于gold_data_dict的大小，error_num表示gold数据与人工不匹配的，multi_candidate_num表示人工标注了多个候选，miss_num表示人工标注多出来的数据
 # 先遍历annodata_dict，如果不在gold_data_dict中，miss_num+=1；如果在gold_data_dict中，判断selected_spans与span_idx是否匹配，若不匹配，则error_num+=1，若selected_spans有多个结果，则multi_candidate_num+=1
-def compute_gold_errorrate(gold_data_dict, annodata_dict, output_file):
+def compute_gold_errorrate(gold_data_dict, annodata_dict, output_file_miss, output_file_error, output_file_multi):
     total_num = len(gold_data_dict)
     error_num = 0
     multi_candidate_num = 0
     miss_num = 0
     match_num = 0
-    output_list = []
+    output_list_miss = []
+    output_list_error = []
+    output_list_multi = []
     for key, ann_item in annodata_dict.items():
         if key not in gold_data_dict.keys(): # 人工标注数据不在gold中，属于gold漏标注
             if ann_item.get('selected_spans', None) is not None:
                 dict_item = construct_item(ann_item, None)
-                output_list.append(dict_item)
+                output_list_miss.append(dict_item)
                 miss_num += 1
             #print(f"miss: {key}")
             continue
@@ -119,7 +127,7 @@ def compute_gold_errorrate(gold_data_dict, annodata_dict, output_file):
                 #print("both none")
                 continue
             dict_item = construct_item(ann_item, None)
-            output_list.append(dict_item)
+            output_list_miss.append(dict_item)
             miss_num += 1
             continue
         # 对比gold span与人工标注的selected_spans是否匹配
@@ -128,10 +136,12 @@ def compute_gold_errorrate(gold_data_dict, annodata_dict, output_file):
         if ann_spans is None: #人工没有标注，属于gold错误标注
             error_num += 1
             dict_item = construct_item(ann_item, gold_span)
-            output_list.append(dict_item)
+            output_list_error.append(dict_item)
             continue
         if len(ann_spans) > 1:
             multi_candidate_num += 1
+            dict_item = construct_item(ann_item, gold_span)
+            output_list_multi.append(dict_item)
         # 遍历selected_spans，依次取start和end与gold_start和gold_end进行对比，如果完全没有匹配上，则error_num+=1
         match_flag = 0
         for ann_span in ann_spans:
@@ -143,10 +153,12 @@ def compute_gold_errorrate(gold_data_dict, annodata_dict, output_file):
         if match_flag == 0:
             error_num += 1
             dict_item = construct_item(ann_item, gold_span)
-            output_list.append(dict_item)
+            output_list_error.append(dict_item)
     # 打印error_num、multi_candidate_num、miss_num、total_num
     print(f"gold数据中总共有 {total_num} 条记录，其中{match_num}条匹配上，标注错误的有 {error_num} 条，人工标注了多个候选的有 {multi_candidate_num} 条，漏标注的有 {miss_num} 条")
-    write_json(output_list, output_file)
+    write_json(output_list_error, output_file_error)
+    write_json(output_list_multi, output_file_multi)
+    write_json(output_list_miss, output_file_miss)
 
 # 合并人工标注数据和o1判断为正确的gold数据
 def merge_org_into_dic(dic_data, org_data):
@@ -173,6 +185,7 @@ def merge_org_into_dic(dic_data, org_data):
                 'label': label,
                 'span_mean': org_item.get('span_mean', ''),
                 'type': 'gold_only',
+                'optional': False,
                 'timestamp': '',
                 'grammar_status': '',
                 'grammar_error_desc': '',
@@ -219,7 +232,8 @@ def process_bn_data(domain):
         new_data.extend(data['annotations'])
     print(f"\n总共读取了 {len(new_data)} 条数据")
 
-    anno_data = transform_annodata_todict(new_data)
+    opt_outfile = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_optional.json"
+    anno_data = transform_annodata_todict(new_data, opt_outfile)
     print(f"\n去重后有 {len(anno_data)} 条数据")
 
     # step 2：读取原始gold数据
@@ -227,8 +241,10 @@ def process_bn_data(domain):
     print(f"原始Golden数据条数为: {len(org_data)}")
     
     # step 3:
-    out_file = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_4llm_core_gold_errorandmiss.json"
-    compute_gold_errorrate(org_data, anno_data, out_file)
+    out_file_error = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_4llm_core_gold_error.json"
+    out_file_multi = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_4llm_core_gold_multi.json"
+    out_file_miss = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_4llm_core_gold_miss.json"
+    compute_gold_errorrate(org_data, anno_data, out_file_miss, out_file_error, out_file_multi)
 
 # 合并bn数据，合并人工标注数据和o1判断为正确的gold数据，得到最终的新的集合
 def merge_bn_data(domain):
@@ -258,7 +274,8 @@ def merge_bn_data(domain):
         new_data.extend(data['annotations'])
     print(f"\n总共读取了 {len(new_data)} 条数据")
 
-    anno_data = transform_annodata_todict(new_data)
+    opt_outfile = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_optional.json"
+    anno_data = transform_annodata_todict(new_data, opt_outfile)
     print(f"\n去重后有 {len(anno_data)} 条数据")
 
     # step 2: 读取原始Golden数据，且o1-mini判断为正确的数据
@@ -276,8 +293,10 @@ def merge_bn_data(domain):
     print(f"原始Golden数据条数为: {len(org_data)}")
     
     # step 5: 计算最终数据的错误率和漏标率，以及保存错误和漏标注的数据，用于后续分析
-    out_file = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_500_core_final_errorandmiss.json"
-    compute_gold_errorrate(org_data, all_data, out_file)
+    out_file_miss = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_miss.json"
+    out_file_error = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_error.json"
+    out_file_multi = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_multi.json"
+    compute_gold_errorrate(org_data, all_data, out_file_miss, out_file_error, out_file_multi)
 
 # 处理tc数据，统计不同标注数据的准确率、漏标率等
 def process_tc_data(domain):
@@ -303,7 +322,8 @@ def process_tc_data(domain):
         new_data.extend(data['annotations'])
     print(f"\n总共读取了 {len(new_data)} 条数据")
 
-    anno_data = transform_annodata_todict(new_data)
+    opt_outfile = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_optional.json"
+    anno_data = transform_annodata_todict(new_data, opt_outfile)
     print(f"\n去重后有 {len(anno_data)} 条数据")
 
     # step 2：读取原始gold数据
@@ -311,8 +331,10 @@ def process_tc_data(domain):
     print(f"原始Golden数据条数为: {len(org_data)}")
     
     # step 3:
-    out_file = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_4llm_core_gold_errorandmiss.json"
-    compute_gold_errorrate(org_data, anno_data, out_file)
+    out_file_miss = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_4llm_core_gold_miss.json"
+    out_file_error = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_4llm_core_gold_error.json"
+    out_file_multi = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/analysis/test_{domain}_4llm_core_gold_multi.json"
+    compute_gold_errorrate(org_data, anno_data, out_file_miss, out_file_error, out_file_multi)
 
 # 合并tc数据，合并人工标注数据和o1判断为正确的gold数据，得到最终的新的集合
 def merge_tc_data(domain):
@@ -335,7 +357,8 @@ def merge_tc_data(domain):
         new_data.extend(data['annotations'])
     print(f"\n总共读取了 {len(new_data)} 条数据")
 
-    anno_data = transform_annodata_todict(new_data)
+    opt_outfile = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_optional.json"
+    anno_data = transform_annodata_todict(new_data, opt_outfile)
     print(f"\n去重后有 {len(anno_data)} 条数据")
 
     # step 2: 读取原始Golden数据，且o1-mini判断为正确的数据
@@ -353,13 +376,15 @@ def merge_tc_data(domain):
     print(f"原始Golden数据条数为: {len(org_data)}")
     
     # step 5: 计算最终数据的错误率和漏标率，以及保存错误和漏标注的数据，用于后续分析
-    out_file = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_500_core_final_errorandmiss.json"
-    compute_gold_errorrate(org_data, all_data, out_file)
+    out_file_miss = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_miss.json"
+    out_file_error = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_error.json"
+    out_file_multi = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/analysis_data/test_{domain}_multi.json"
+    compute_gold_errorrate(org_data, all_data, out_file_miss, out_file_error, out_file_multi)
 
 
 if __name__ == "__main__":
-    domain = "bn"
-    type = "stas"
+    domain = "tc"
+    type = "merge"
     if domain == "bn":
         if type == "merge":
             merge_bn_data(domain)
