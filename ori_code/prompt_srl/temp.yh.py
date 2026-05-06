@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-from operator import not_
 import os
 import sys
 import time
@@ -79,6 +78,7 @@ def find_role_desc(frames, data, outfile):
     print(len(data))
     flag = 0
     not_in_frames = 0
+    other_reason = 0
     for key in data:
         #if test_num > 2:
         #    break
@@ -92,22 +92,42 @@ def find_role_desc(frames, data, outfile):
         span_mean = key['span_mean']
         if span_mean == None:
             flag += 1
-            print("sen:",sen)
-            print("prd_word:",prd_word)
-            print("prd_lemma:",prd_lemma)
-            print("prd_sense:",prd_sense)
-            print("prd_idx:",prd_idx)
-            print("span_mean:",span_mean)
-            print("label:",key['label'])
-            print("prd_lemma in frames:",)
-            if prd_lemma not in frames:
-                not_in_frames += 1
-            else:
+            if prd_lemma in frames:
+                senses = frames[prd_lemma]
+                for ins in senses:
+                    if ins['role_set_id'] == ".".join([prd_lemma, prd_sense]):
+                        roles = ins['roles']
+                        try:
+                            key['span_mean'] = roles[key['label']]
+                        except:
+                            print(key['label'], prd_lemma, prd_sense)
+                            key['span_mean'] = None
 
-                import pdb;pdb.set_trace()
+    
+                            
+    for key in data:
+        #if test_num > 2:
+        #    break
+        test_num += 1
+        sen = key['sen']
+        prd_word = key['prd_word']
+        prd_lemma = key['prd_lemma'] 
+        prd_sense = key['prd_sense']
+        prd_idx = key['prd_idx']
+        roles = []
+        span_mean = key['span_mean']
+        if span_mean == None:
+            if prd_lemma not in frames:
+                not_in_frames += 1               
+            else:
+                # print(f"{prd_lemma}.{prd_sense} cannot find")
+                # print(frames[prd_lemma])
+                # import pdb;pdb.set_trace()
+                other_reason+=1
         
     print(flag)
     print(not_in_frames) 
+    print(other_reason)
         # import pdb;pdb.set_trace()
         
 
@@ -115,7 +135,8 @@ if __name__ == "__main__":
     domain = "tc" #"bn"
     
     # step1: 读取frames_info_3.4.json和原始gold数据
-    frames = read_json("/data/ljwang/span-SRL-LLM/propbank_frames_main/frame_out/frames_info_3.4.json") 
+    # frames = read_json("/data/ljwang/span-SRL-LLM/propbank_frames_main/frame_out/frames_info_3.4.json") 
+    frames = read_json("/data/ljwang/span-SRL-LLM/propbank_frames_main/frame_out/frame_info_includephrase.json") 
     original_data = read_json(f"/data/ljwang/span-SRL-LLM/ori_code/annotation/final_data/{domain}/test_{domain}_4llm_core_gold.conll")
     # step2：调用find_role_desc函数，传入frames、original_data、outfile
     outfile = f"llm_result/test_{domain}_4llm_core_gold_single_role.json"

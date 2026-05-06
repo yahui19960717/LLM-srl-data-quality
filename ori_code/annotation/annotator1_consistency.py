@@ -2,7 +2,7 @@
 标注者的标注准确率
 比较 final 文件（审核完成的，我和王老师，一个用审核界面，一个直接在原始标注的数据来标注）和标注者文件中的 selected_spans
 规则：只要标注者的 selected_spans 中有至少一个 span 与 gold 文件中的任意一个 span 完全匹配，则视为正确。
-
+对于optional的，如果都标注了，就要完全匹配，如果都没有标注就算都正确？
 """
 
 import json
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     correct1, total1 =compare_spans(final_file, annotator_wlj)
     correct2, total2 =compare_spans(final_file, annotator_lyh)
 
-    # # # small model 163
+    # small model 163
     final_file = "annotated_final/annotations_wlj_smallmodel_163_final.json"
     annotator_wlj = "anno/annotations_wlj_smallmodel_163.json" # 84.05%
     annotator_lyh = "anno/annotations_lyh_smallmodel_163.json" # 73.62%
