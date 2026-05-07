@@ -1,0 +1,3461 @@
+{
+  "settings": {
+    "core_labels": [
+      "ARG0",
+      "ARG1",
+      "ARG2",
+      "ARG3",
+      "ARG4",
+      "ARG5"
+    ],
+    "sample_size_per_domain": 25,
+    "seed": 1,
+    "recall_definition": "span_recall = human-reviewed valid spans already present in candidate_spans / all human-reviewed valid spans"
+  },
+  "records": [
+    {
+      "review_id": "bn_001",
+      "domain": "bn",
+      "sentence": "The family says the chicken keeps the place clean , so she 's free to stay .",
+      "prd_word": "says",
+      "prd_idx": 3,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Sayer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "The family",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "The family",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "Utterance",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 3,
+              "end": 15,
+              "text": "the chicken keeps the place clean , so she 's free to stay",
+              "models": [
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 3,
+              "end": 15,
+              "text": "the chicken keeps the place clean , so she 's free to stay",
+              "models": [
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_002",
+      "domain": "bn",
+      "sentence": "We put all these bands together .",
+      "prd_word": "put",
+      "prd_idx": 2,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "putter",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "We",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "We",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing put",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 2,
+              "end": 4,
+              "text": "all these bands",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 2,
+              "end": 4,
+              "text": "all these bands",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG2",
+          "role_description": "attribute of arg1",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 5,
+              "end": 5,
+              "text": "together",
+              "models": [
+                "gold",
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 5,
+              "end": 5,
+              "text": "together",
+              "models": [
+                "gold",
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_003",
+      "domain": "bn",
+      "sentence": "If the workers do n't approve the steep cutbacks American says it will file for bankruptcy .",
+      "prd_word": "says",
+      "prd_idx": 11,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Sayer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 9,
+              "end": 9,
+              "text": "American",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 9,
+              "end": 9,
+              "text": "American",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "Utterance",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 11,
+              "end": 15,
+              "text": "it will file for bankruptcy",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 11,
+              "end": 15,
+              "text": "it will file for bankruptcy",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_004",
+      "domain": "bn",
+      "sentence": "Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .",
+      "prd_word": "stretched",
+      "prd_idx": 9,
+      "labels": [
+        {
+          "label": "ARG1",
+          "role_description": "patient, thing getting longer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 6,
+              "text": "Electrical resources in the West Coast state",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 6,
+              "text": "Electrical resources in the West Coast state",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG2",
+          "role_description": "EXT or TMP, by how much or until when",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 9,
+              "end": 11,
+              "text": "to their limit",
+              "models": [
+                "treecrf",
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "text": "their limit",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 9,
+              "end": 11,
+              "text": "to their limit",
+              "models": [
+                "treecrf",
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "text": "their limit",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG4",
+          "role_description": "end point",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [],
+          "reviewed_spans": [],
+          "no_valid_span": true,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_005",
+      "domain": "bn",
+      "sentence": "Speaking at the Cole 's home base in Norfolk , Virginia , Admiral John Foley said that the Navy is investigating the incident .",
+      "prd_word": "investigating",
+      "prd_idx": 21,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "examiner",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 17,
+              "end": 18,
+              "text": "the Navy",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 17,
+              "end": 18,
+              "text": "the Navy",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "examined",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 21,
+              "end": 22,
+              "text": "the incident",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 21,
+              "end": 22,
+              "text": "the incident",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_006",
+      "domain": "bn",
+      "sentence": "The right of the people to cast their vote , the court said , is paramount .",
+      "prd_word": "said",
+      "prd_idx": 13,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Sayer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 10,
+              "end": 11,
+              "text": "the court",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 10,
+              "end": 11,
+              "text": "the court",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "Utterance",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 8,
+              "text": "The right of the people to cast their vote",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "text": "is paramount",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 8,
+              "text": "The right of the people to cast their vote",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 14,
+              "end": 15,
+              "text": "is paramount",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_007",
+      "domain": "bn",
+      "sentence": "The Indian lawmakers were sort of clambering over each other to shake his hand as he left the parliament building .",
+      "prd_word": "left",
+      "prd_idx": 17,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": null,
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 15,
+              "end": 15,
+              "text": "he",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 15,
+              "end": 15,
+              "text": "he",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": null,
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 17,
+              "end": 19,
+              "text": "the parliament building",
+              "models": [
+                "gold",
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 17,
+              "end": 19,
+              "text": "the parliament building",
+              "models": [
+                "gold",
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_008",
+      "domain": "bn",
+      "sentence": "The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .",
+      "prd_word": "finance",
+      "prd_idx": 25,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "financ(i)er",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 22,
+              "end": 22,
+              "text": "congress",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 22,
+              "end": 22,
+              "text": "congress",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing financed",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 25,
+              "end": 30,
+              "text": "for national endowment for the art",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "text": "national endowment for the art",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 25,
+              "end": 30,
+              "text": "for national endowment for the art",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 26,
+              "end": 30,
+              "text": "national endowment for the art",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_009",
+      "domain": "bn",
+      "sentence": "No threats are specified but the US embassy in Rome was closed Friday for what officials called security reasons .",
+      "prd_word": "specified",
+      "prd_idx": 4,
+      "labels": [
+        {
+          "label": "ARG1",
+          "role_description": "thing specified",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "No threats",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "No threats",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_010",
+      "domain": "bn",
+      "sentence": "And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",
+      "prd_word": "brought",
+      "prd_idx": 38,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "bringer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 33,
+              "end": 35,
+              "text": "the 1988 bombing",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 33,
+              "end": 35,
+              "text": "the 1988 bombing",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing brought",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 39,
+              "end": 42,
+              "text": "Pan Am Flight 103",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 39,
+              "end": 42,
+              "text": "Pan Am Flight 103",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG3",
+          "role_description": "attribute, state after bringing, secondary action",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 38,
+              "end": 38,
+              "text": "down",
+              "models": [
+                "gold"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 38,
+              "end": 38,
+              "text": "down",
+              "models": [
+                "gold"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_011",
+      "domain": "bn",
+      "sentence": "Now , with a third season set to start , will Ozzy 's role as a family man change the image in the annuls of heavy metal mad man ?",
+      "prd_word": "change",
+      "prd_idx": 19,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "causer of transformation",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 11,
+              "end": 17,
+              "text": "Ozzy 's role as a family man",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 11,
+              "end": 17,
+              "text": "Ozzy 's role as a family man",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing changing",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 19,
+              "end": 20,
+              "text": "the image",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "text": "the image in the annuls of heavy metal mad man",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 19,
+              "end": 20,
+              "text": "the image",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 19,
+              "end": 28,
+              "text": "the image in the annuls of heavy metal mad man",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_012",
+      "domain": "bn",
+      "sentence": "The news agency is quoting a Yemeni source who says the investigators have wrapped up their questioning and will hand the case over to prosecutors .",
+      "prd_word": "says",
+      "prd_idx": 10,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Sayer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 5,
+              "end": 7,
+              "text": "a Yemeni source",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 5,
+              "end": 7,
+              "text": "a Yemeni source",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "Utterance",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 10,
+              "end": 24,
+              "text": "the investigators have wrapped up their questioning and will hand the case over to prosecutors",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 10,
+              "end": 24,
+              "text": "the investigators have wrapped up their questioning and will hand the case over to prosecutors",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_013",
+      "domain": "bn",
+      "sentence": "He asked us to call you to let you know he 's okay .",
+      "prd_word": "know",
+      "prd_idx": 10,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "knower",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 8,
+              "end": 8,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 8,
+              "end": 8,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "fact that is known",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 10,
+              "end": 12,
+              "text": "he 's okay",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 10,
+              "end": 12,
+              "text": "he 's okay",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_014",
+      "domain": "bn",
+      "sentence": "Opposition candidates boycotted the vote citing tainted legislative elections last May .",
+      "prd_word": "citing",
+      "prd_idx": 6,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "citer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "Opposition candidates",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "Opposition candidates",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing cited",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 6,
+              "end": 10,
+              "text": "tainted legislative elections last May",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 6,
+              "end": 10,
+              "text": "tainted legislative elections last May",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_015",
+      "domain": "bn",
+      "sentence": "Some Yemenis expressed relief to see the ship leave .",
+      "prd_word": "expressed",
+      "prd_idx": 3,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "speaker",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "Some Yemenis",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 1,
+              "text": "Some Yemenis",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "utterance",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 3,
+              "end": 8,
+              "text": "relief to see the ship leave",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 3,
+              "end": 8,
+              "text": "relief to see the ship leave",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_016",
+      "domain": "bn",
+      "sentence": "Al Gore wo n't be the next U.S. President , but he has a slim chance of becoming the next President at Harvard .",
+      "prd_word": "becoming",
+      "prd_idx": 18,
+      "labels": [
+        {
+          "label": "ARG1",
+          "role_description": "entity changing",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 11,
+              "end": 11,
+              "text": "he",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 11,
+              "end": 11,
+              "text": "he",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG2",
+          "role_description": "new state",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 18,
+              "end": 22,
+              "text": "the next President at Harvard",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 18,
+              "end": 22,
+              "text": "the next President at Harvard",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_017",
+      "domain": "bn",
+      "sentence": "The Army says it may have killed two of them .",
+      "prd_word": "killed",
+      "prd_idx": 7,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "killer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 3,
+              "end": 3,
+              "text": "it",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 3,
+              "end": 3,
+              "text": "it",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "corpse",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 7,
+              "end": 9,
+              "text": "two of them",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 7,
+              "end": 9,
+              "text": "two of them",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_018",
+      "domain": "bn",
+      "sentence": "Give us your insights as to what you think the future holds .",
+      "prd_word": "holds",
+      "prd_idx": 12,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "container, possessor, influencer",
+          "optional": true,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 9,
+              "end": 10,
+              "text": "the future",
+              "models": [
+                "gold",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 9,
+              "end": 10,
+              "text": "the future",
+              "models": [
+                "gold",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "contents, attribute",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 6,
+              "end": 6,
+              "text": "what",
+              "models": [
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 6,
+              "end": 6,
+              "text": "what",
+              "models": [
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_019",
+      "domain": "bn",
+      "sentence": "Barak , who has been forced to call national elections , offered to recognize a Palestinian state .",
+      "prd_word": "call",
+      "prd_idx": 8,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "demander",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "Barak",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 2,
+              "end": 2,
+              "text": "who",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "Barak",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 2,
+              "end": 2,
+              "text": "who",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing being demanded",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 8,
+              "end": 9,
+              "text": "national elections",
+              "models": [
+                "gold",
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 8,
+              "end": 9,
+              "text": "national elections",
+              "models": [
+                "gold",
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_020",
+      "domain": "bn",
+      "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+      "prd_word": "urged",
+      "prd_idx": 26,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "urger",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 20,
+              "end": 24,
+              "text": "Secretary of State Madeleine Albright",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 20,
+              "end": 24,
+              "text": "Secretary of State Madeleine Albright",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG2",
+          "role_description": "impelled action",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 26,
+              "end": 26,
+              "text": "caution",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 26,
+              "end": 26,
+              "text": "caution",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_021",
+      "domain": "bn",
+      "sentence": "Regarding the United States ' attitude in this regard , we find that the United States until now are supporting Israel .",
+      "prd_word": "Regarding",
+      "prd_idx": 1,
+      "labels": [
+        {
+          "label": "ARG1",
+          "role_description": "thing described",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 8,
+              "text": "the United States ' attitude in this regard",
+              "models": [
+                "gold",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 8,
+              "text": "the United States ' attitude in this regard",
+              "models": [
+                "gold",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_022",
+      "domain": "bn",
+      "sentence": "In fact both countries have now agreed to combat what they call terrorism with joint groups .",
+      "prd_word": "call",
+      "prd_idx": 12,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "caller",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 10,
+              "end": 10,
+              "text": "they",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 10,
+              "end": 10,
+              "text": "they",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "item being labelled",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 9,
+              "end": 9,
+              "text": "what",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 9,
+              "end": 9,
+              "text": "what",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG2",
+          "role_description": "name itself, attribute of arg1",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 12,
+              "end": 12,
+              "text": "terrorism",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 12,
+              "end": 12,
+              "text": "terrorism",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_023",
+      "domain": "bn",
+      "sentence": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+      "prd_word": "mean",
+      "prd_idx": 21,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "agent",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 17,
+              "end": 17,
+              "text": "that",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 0,
+              "end": 14,
+              "text": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 17,
+              "end": 17,
+              "text": "that",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            },
+            {
+              "start": 0,
+              "end": 14,
+              "text": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "element containing meaning",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 21,
+              "end": 31,
+              "text": "he will escape the scrutiny and sharp wits of Index Theater",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 21,
+              "end": 31,
+              "text": "he will escape the scrutiny and sharp wits of Index Theater",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_024",
+      "domain": "bn",
+      "sentence": "Even though neither of the women have ever met the flight attendants , they say they 'll never forget their act of kindness .",
+      "prd_word": "met",
+      "prd_idx": 9,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "meeter",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 2,
+              "end": 5,
+              "text": "neither of the women",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 2,
+              "end": 5,
+              "text": "neither of the women",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "person / entity / object being met",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 9,
+              "end": 11,
+              "text": "the flight attendants",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 9,
+              "end": 11,
+              "text": "the flight attendants",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "bn_025",
+      "domain": "bn",
+      "sentence": "Getting into Milosevic 's shoes even on stage , was quite a temptation says Yubitrich .",
+      "prd_word": "Getting",
+      "prd_idx": 1,
+      "labels": [
+        {
+          "label": "ARG2",
+          "role_description": "destination",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 4,
+              "text": "into Milosevic 's shoes",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 4,
+              "text": "into Milosevic 's shoes",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_001",
+      "domain": "tc",
+      "sentence": "How 's it going ?",
+      "prd_word": "going",
+      "prd_idx": 4,
+      "labels": [
+        {
+          "label": "ARG1",
+          "role_description": "project",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 2,
+              "end": 2,
+              "text": "it",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 2,
+              "end": 2,
+              "text": "it",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_002",
+      "domain": "tc",
+      "sentence": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+      "prd_word": "know",
+      "prd_idx": 26,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "knower",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 24,
+              "end": 24,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 24,
+              "end": 24,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_003",
+      "domain": "tc",
+      "sentence": "I mean she did n't know that I was there .",
+      "prd_word": "mean",
+      "prd_idx": 2,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "agent",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "element containing meaning",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 2,
+              "end": 9,
+              "text": "she did n't know that I was there",
+              "models": [
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 2,
+              "end": 9,
+              "text": "she did n't know that I was there",
+              "models": [
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_004",
+      "domain": "tc",
+      "sentence": "I still think about the matchbooks .",
+      "prd_word": "think",
+      "prd_idx": 3,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Thinker",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG2",
+          "role_description": "Attributive (please look at the examples-- this is tricky)",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 3,
+              "end": 5,
+              "text": "about the matchbooks",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 3,
+              "end": 5,
+              "text": "about the matchbooks",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_005",
+      "domain": "tc",
+      "sentence": "and I think %uh %uh it 's not Frau",
+      "prd_word": "think",
+      "prd_idx": 3,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Thinker",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "Thought",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 5,
+              "end": 8,
+              "text": "it 's not Frau",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 5,
+              "end": 8,
+              "text": "it 's not Frau",
+              "models": [
+                "自定义"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_006",
+      "domain": "tc",
+      "sentence": "But you know the weeknights is pretty crazy .",
+      "prd_word": "know",
+      "prd_idx": 3,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "knower",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "fact that is known",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 3,
+              "end": 7,
+              "text": "the weeknights is pretty crazy",
+              "models": [
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 3,
+              "end": 7,
+              "text": "the weeknights is pretty crazy",
+              "models": [
+                "semicrf",
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_007",
+      "domain": "tc",
+      "sentence": "%um He was changing projects every couple of weeks",
+      "prd_word": "changing",
+      "prd_idx": 4,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "causer of transformation",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "He",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "He",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing changing",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 4,
+              "end": 4,
+              "text": "projects",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 4,
+              "end": 4,
+              "text": "projects",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_008",
+      "domain": "tc",
+      "sentence": "if you want to stay in Amsterdam that 's fine .",
+      "prd_word": "want",
+      "prd_idx": 3,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Wanter",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing wanted",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 3,
+              "end": 6,
+              "text": "to stay in Amsterdam",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 3,
+              "end": 6,
+              "text": "to stay in Amsterdam",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_009",
+      "domain": "tc",
+      "sentence": "And there was n't anything anybody could do .",
+      "prd_word": "do",
+      "prd_idx": 8,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "agent, doer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 5,
+              "end": 5,
+              "text": "anybody",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 5,
+              "end": 5,
+              "text": "anybody",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing done",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 4,
+              "end": 4,
+              "text": "anything",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 4,
+              "end": 4,
+              "text": "anything",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_010",
+      "domain": "tc",
+      "sentence": "You know everybody 's kind of passed away , almost .",
+      "prd_word": "passed",
+      "prd_idx": 7,
+      "labels": [
+        {
+          "label": "ARG1",
+          "role_description": null,
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 2,
+              "end": 2,
+              "text": "everybody",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 2,
+              "end": 2,
+              "text": "everybody",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_011",
+      "domain": "tc",
+      "sentence": "Well , how does Akina feel ?",
+      "prd_word": "feel",
+      "prd_idx": 6,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "feeler, person experiencing emotion",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 4,
+              "end": 4,
+              "text": "Akina",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 4,
+              "end": 4,
+              "text": "Akina",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "emotion or sensation",
+          "optional": true,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 2,
+              "end": 2,
+              "text": "how",
+              "models": [
+                "gold"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 2,
+              "end": 2,
+              "text": "how",
+              "models": [
+                "gold"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_012",
+      "domain": "tc",
+      "sentence": "She did ?",
+      "prd_word": "did",
+      "prd_idx": 2,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": null,
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "She",
+              "models": [
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "She",
+              "models": [
+                "treecrf"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_013",
+      "domain": "tc",
+      "sentence": "got it .",
+      "prd_word": "got",
+      "prd_idx": 1,
+      "labels": [
+        {
+          "label": "ARG1",
+          "role_description": "thing gotten",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "it",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "it",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_014",
+      "domain": "tc",
+      "sentence": "If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam .",
+      "prd_word": "go",
+      "prd_idx": 12,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "goer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 8,
+              "end": 8,
+              "text": "we",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 8,
+              "end": 8,
+              "text": "we",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_015",
+      "domain": "tc",
+      "sentence": "this place is incredibly easy to break into if you want to .",
+      "prd_word": "want",
+      "prd_idx": 11,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Wanter",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 9,
+              "end": 9,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 9,
+              "end": 9,
+              "text": "you",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing wanted",
+          "optional": false,
+          "grammar_status": "没有语法错误",
+          "grammar_error_desc": "",
+          "candidate_spans": [],
+          "reviewed_spans": [],
+          "no_valid_span": true,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_016",
+      "domain": "tc",
+      "sentence": "You do burn a lot of calories an hour though , lifting weights .",
+      "prd_word": "lifting",
+      "prd_idx": 12,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "elevator, Agent",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "You",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "You",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "Logical subject, patient, thing rising",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 12,
+              "end": 12,
+              "text": "weights",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 12,
+              "end": 12,
+              "text": "weights",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_017",
+      "domain": "tc",
+      "sentence": "but none of the other models %uh , had ?",
+      "prd_word": "had",
+      "prd_idx": 9,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "owner",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 5,
+              "text": "none of the other models",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 5,
+              "text": "none of the other models",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_018",
+      "domain": "tc",
+      "sentence": "And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,",
+      "prd_word": "see",
+      "prd_idx": 21,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "viewer",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 19,
+              "end": 19,
+              "text": "people",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 19,
+              "end": 19,
+              "text": "people",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing viewed",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 21,
+              "end": 24,
+              "text": "the anti phased motion",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 21,
+              "end": 24,
+              "text": "the anti phased motion",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_019",
+      "domain": "tc",
+      "sentence": "And if you do , I 'll send it by email okay if I get it before this weekend",
+      "prd_word": "send",
+      "prd_idx": 8,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "sender",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 5,
+              "end": 5,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 5,
+              "end": 5,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "sent",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 8,
+              "end": 8,
+              "text": "it",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 8,
+              "end": 8,
+              "text": "it",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_020",
+      "domain": "tc",
+      "sentence": "I think what we got to do is just when he comes just have lots of cereal .",
+      "prd_word": "think",
+      "prd_idx": 2,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Thinker",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 0,
+              "end": 0,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "Thought",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 2,
+              "end": 16,
+              "text": "what we got to do is just when he comes just have lots of cereal",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 2,
+              "end": 16,
+              "text": "what we got to do is just when he comes just have lots of cereal",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_021",
+      "domain": "tc",
+      "sentence": "and I think they would then feel guilty for not inviting me .",
+      "prd_word": "think",
+      "prd_idx": 3,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Thinker",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "I",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "Thought",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 3,
+              "end": 11,
+              "text": "they would then feel guilty for not inviting me",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 3,
+              "end": 11,
+              "text": "they would then feel guilty for not inviting me",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_022",
+      "domain": "tc",
+      "sentence": "Have dual citizenship ?",
+      "prd_word": "Have",
+      "prd_idx": 1,
+      "labels": [
+        {
+          "label": "ARG1",
+          "role_description": "possession",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 2,
+              "text": "dual citizenship",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 2,
+              "text": "dual citizenship",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_023",
+      "domain": "tc",
+      "sentence": "Last week , we found out",
+      "prd_word": "found",
+      "prd_idx": 5,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": null,
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 3,
+              "end": 3,
+              "text": "we",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 3,
+              "end": 3,
+              "text": "we",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_024",
+      "domain": "tc",
+      "sentence": "The first time they broke in , what they stole was just bizarre ,",
+      "prd_word": "stole",
+      "prd_idx": 10,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "thief, agent",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 8,
+              "end": 8,
+              "text": "they",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 8,
+              "end": 8,
+              "text": "they",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing stolen",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 7,
+              "end": 7,
+              "text": "what",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 7,
+              "end": 7,
+              "text": "what",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    },
+    {
+      "review_id": "tc_025",
+      "domain": "tc",
+      "sentence": "oh they want their share .",
+      "prd_word": "want",
+      "prd_idx": 3,
+      "labels": [
+        {
+          "label": "ARG0",
+          "role_description": "Wanter",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "they",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 1,
+              "end": 1,
+              "text": "they",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        },
+        {
+          "label": "ARG1",
+          "role_description": "thing wanted",
+          "optional": false,
+          "grammar_status": "",
+          "grammar_error_desc": "",
+          "candidate_spans": [
+            {
+              "start": 3,
+              "end": 4,
+              "text": "their share",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "reviewed_spans": [
+            {
+              "start": 3,
+              "end": 4,
+              "text": "their share",
+              "models": [
+                "gold_no_anno"
+              ],
+              "source": "candidate"
+            }
+          ],
+          "no_valid_span": false,
+          "review_note": ""
+        }
+      ],
+      "review_status": "pending"
+    }
+  ]
+}

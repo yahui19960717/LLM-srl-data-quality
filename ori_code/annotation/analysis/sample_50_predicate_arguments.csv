@@ -1,0 +1,99 @@
+domain,predicate_id,sentence,prd_word,prd_idx,label,optional,span_mean,source_type,has_span,span_start,span_end,span_text,span_models
+bn,bn_001,"The family says the chicken keeps the place clean , so she 's free to stay .",says,3,ARG0,False,Sayer,gold_only,True,0,1,The family,gold_no_anno
+bn,bn_001,"The family says the chicken keeps the place clean , so she 's free to stay .",says,3,ARG1,False,Utterance,small model overlap,True,3,15,"the chicken keeps the place clean , so she 's free to stay",semicrf|treecrf
+bn,bn_002,We put all these bands together .,put,2,ARG0,False,putter,gold_only,True,0,0,We,gold_no_anno
+bn,bn_002,We put all these bands together .,put,2,ARG1,False,thing put,gold_only,True,2,4,all these bands,gold_no_anno
+bn,bn_002,We put all these bands together .,put,2,ARG2,False,attribute of arg1,"gold_right, o1mini_wrong，deepseek_wrong",True,5,5,together,gold|semicrf|treecrf
+bn,bn_003,If the workers do n't approve the steep cutbacks American says it will file for bankruptcy .,says,11,ARG0,False,Sayer,gold_only,True,9,9,American,gold_no_anno
+bn,bn_003,If the workers do n't approve the steep cutbacks American says it will file for bankruptcy .,says,11,ARG1,False,Utterance,gold_only,True,11,15,it will file for bankruptcy,gold_no_anno
+bn,bn_004,Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .,stretched,9,ARG1,False,"patient, thing getting longer",gold_only,True,0,6,Electrical resources in the West Coast state,gold_no_anno
+bn,bn_004,Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .,stretched,9,ARG2,False,"EXT or TMP, by how much or until when",the label of small model not recall,True,9,11,to their limit,treecrf|自定义
+bn,bn_004,Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .,stretched,9,ARG2,False,"EXT or TMP, by how much or until when",the label of small model not recall,True,10,11,their limit,自定义
+bn,bn_004,Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .,stretched,9,ARG4,False,end point,the label of small model not recall,False,,,,
+bn,bn_005,"Speaking at the Cole 's home base in Norfolk , Virginia , Admiral John Foley said that the Navy is investigating the incident .",investigating,21,ARG0,False,examiner,gold_only,True,17,18,the Navy,gold_no_anno
+bn,bn_005,"Speaking at the Cole 's home base in Norfolk , Virginia , Admiral John Foley said that the Navy is investigating the incident .",investigating,21,ARG1,False,examined,gold_only,True,21,22,the incident,gold_no_anno
+bn,bn_006,"The right of the people to cast their vote , the court said , is paramount .",said,13,ARG0,False,Sayer,gold_only,True,10,11,the court,gold_no_anno
+bn,bn_006,"The right of the people to cast their vote , the court said , is paramount .",said,13,ARG1,False,Utterance,small model overlap,True,0,8,The right of the people to cast their vote,自定义
+bn,bn_006,"The right of the people to cast their vote , the court said , is paramount .",said,13,ARG1,False,Utterance,small model overlap,True,14,15,is paramount,自定义
+bn,bn_007,The Indian lawmakers were sort of clambering over each other to shake his hand as he left the parliament building .,left,17,ARG0,False,,gold_only,True,15,15,he,gold_no_anno
+bn,bn_007,The Indian lawmakers were sort of clambering over each other to shake his hand as he left the parliament building .,left,17,ARG1,False,,"gold_right, o1mini_wrong，deepseek_wrong",True,17,19,the parliament building,gold|semicrf|treecrf
+bn,bn_008,The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .,finance,25,ARG0,False,financ(i)er,gold_only,True,22,22,congress,gold_no_anno
+bn,bn_008,The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .,finance,25,ARG1,False,thing financed,"gold_right, o1mini_wrong，deepseek_wrong",True,25,30,for national endowment for the art,自定义
+bn,bn_008,The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .,finance,25,ARG1,False,thing financed,"gold_right, o1mini_wrong，deepseek_wrong",True,26,30,national endowment for the art,自定义
+bn,bn_009,No threats are specified but the US embassy in Rome was closed Friday for what officials called security reasons .,specified,4,ARG1,False,thing specified,gold_only,True,0,1,No threats,gold_no_anno
+bn,bn_010,"And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",brought,38,ARG0,False,bringer,gold_only,True,33,35,the 1988 bombing,gold_no_anno
+bn,bn_010,"And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",brought,38,ARG1,False,thing brought,gold_only,True,39,42,Pan Am Flight 103,gold_no_anno
+bn,bn_010,"And one of the longest running struggles for international justice reached a milestone today of sorts , when a Scottish court , meeting in the Netherlands , finally officially found someone guilty in the 1988 bombing that brought down Pan Am Flight 103 .",brought,38,ARG3,False,"attribute, state after bringing, secondary action","gold_right, o1mini_wrong，deepseek_right",True,38,38,down,gold
+bn,bn_011,"Now , with a third season set to start , will Ozzy 's role as a family man change the image in the annuls of heavy metal mad man ?",change,19,ARG0,False,causer of transformation,gold_only,True,11,17,Ozzy 's role as a family man,gold_no_anno
+bn,bn_011,"Now , with a third season set to start , will Ozzy 's role as a family man change the image in the annuls of heavy metal mad man ?",change,19,ARG1,False,thing changing,"sm_right, o1mini_right(deepseek)",True,19,20,the image,自定义
+bn,bn_011,"Now , with a third season set to start , will Ozzy 's role as a family man change the image in the annuls of heavy metal mad man ?",change,19,ARG1,False,thing changing,"sm_right, o1mini_right(deepseek)",True,19,28,the image in the annuls of heavy metal mad man,自定义
+bn,bn_012,The news agency is quoting a Yemeni source who says the investigators have wrapped up their questioning and will hand the case over to prosecutors .,says,10,ARG0,False,Sayer,gold_only,True,5,7,a Yemeni source,gold_no_anno
+bn,bn_012,The news agency is quoting a Yemeni source who says the investigators have wrapped up their questioning and will hand the case over to prosecutors .,says,10,ARG1,False,Utterance,gold_only,True,10,24,the investigators have wrapped up their questioning and will hand the case over to prosecutors,gold_no_anno
+bn,bn_013,He asked us to call you to let you know he 's okay .,know,10,ARG0,False,knower,gold_only,True,8,8,you,gold_no_anno
+bn,bn_013,He asked us to call you to let you know he 's okay .,know,10,ARG1,False,fact that is known,gold_only,True,10,12,he 's okay,gold_no_anno
+bn,bn_014,Opposition candidates boycotted the vote citing tainted legislative elections last May .,citing,6,ARG0,False,citer,gold_only,True,0,1,Opposition candidates,gold_no_anno
+bn,bn_014,Opposition candidates boycotted the vote citing tainted legislative elections last May .,citing,6,ARG1,False,thing cited,gold_only,True,6,10,tainted legislative elections last May,gold_no_anno
+bn,bn_015,Some Yemenis expressed relief to see the ship leave .,expressed,3,ARG0,False,speaker,gold_only,True,0,1,Some Yemenis,gold_no_anno
+bn,bn_015,Some Yemenis expressed relief to see the ship leave .,expressed,3,ARG1,False,utterance,gold_only,True,3,8,relief to see the ship leave,gold_no_anno
+bn,bn_016,"Al Gore wo n't be the next U.S. President , but he has a slim chance of becoming the next President at Harvard .",becoming,18,ARG1,False,entity changing,gold_only,True,11,11,he,gold_no_anno
+bn,bn_016,"Al Gore wo n't be the next U.S. President , but he has a slim chance of becoming the next President at Harvard .",becoming,18,ARG2,False,new state,gold_only,True,18,22,the next President at Harvard,gold_no_anno
+bn,bn_017,The Army says it may have killed two of them .,killed,7,ARG0,False,killer,gold_only,True,3,3,it,gold_no_anno
+bn,bn_017,The Army says it may have killed two of them .,killed,7,ARG1,False,corpse,gold_only,True,7,9,two of them,gold_no_anno
+bn,bn_018,Give us your insights as to what you think the future holds .,holds,12,ARG0,True,"container, possessor, influencer",the label of small model not recall,True,9,10,the future,gold|treecrf
+bn,bn_018,Give us your insights as to what you think the future holds .,holds,12,ARG1,False,"contents, attribute","sm_right, o1mini_right(deepseek)",True,6,6,what,treecrf
+bn,bn_019,"Barak , who has been forced to call national elections , offered to recognize a Palestinian state .",call,8,ARG0,False,demander,"gold_right, o1mini_wrong，deepseek_wrong",True,0,0,Barak,自定义
+bn,bn_019,"Barak , who has been forced to call national elections , offered to recognize a Palestinian state .",call,8,ARG0,False,demander,"gold_right, o1mini_wrong，deepseek_wrong",True,2,2,who,自定义
+bn,bn_019,"Barak , who has been forced to call national elections , offered to recognize a Palestinian state .",call,8,ARG1,False,thing being demanded,"gold_right, o1mini_wrong，deepseek_wrong",True,8,9,national elections,gold|semicrf|treecrf
+bn,bn_020,"While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",urged,26,ARG0,False,urger,gold_only,True,20,24,Secretary of State Madeleine Albright,gold_no_anno
+bn,bn_020,"While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",urged,26,ARG2,False,impelled action,gold_only,True,26,26,caution,gold_no_anno
+bn,bn_021,"Regarding the United States ' attitude in this regard , we find that the United States until now are supporting Israel .",Regarding,1,ARG1,False,thing described,the label of small model not recall,True,1,8,the United States ' attitude in this regard,gold|treecrf
+bn,bn_022,In fact both countries have now agreed to combat what they call terrorism with joint groups .,call,12,ARG0,False,caller,gold_only,True,10,10,they,gold_no_anno
+bn,bn_022,In fact both countries have now agreed to combat what they call terrorism with joint groups .,call,12,ARG1,False,item being labelled,gold_only,True,9,9,what,gold_no_anno
+bn,bn_022,In fact both countries have now agreed to combat what they call terrorism with joint groups .,call,12,ARG2,False,"name itself, attribute of arg1",gold_only,True,12,12,terrorism,gold_no_anno
+bn,bn_023,"He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",mean,21,ARG0,False,agent,"gold_right, o1mini_wrong，deepseek_wrong",True,17,17,that,自定义
+bn,bn_023,"He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",mean,21,ARG0,False,agent,"gold_right, o1mini_wrong，deepseek_wrong",True,0,14,"He is not as easy to make fun of yet Yubitritch says , unlike Milosevic",自定义
+bn,bn_023,"He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",mean,21,ARG1,False,element containing meaning,gold_only,True,21,31,he will escape the scrutiny and sharp wits of Index Theater,gold_no_anno
+bn,bn_024,"Even though neither of the women have ever met the flight attendants , they say they 'll never forget their act of kindness .",met,9,ARG0,False,meeter,gold_only,True,2,5,neither of the women,gold_no_anno
+bn,bn_024,"Even though neither of the women have ever met the flight attendants , they say they 'll never forget their act of kindness .",met,9,ARG1,False,person / entity / object being met,gold_only,True,9,11,the flight attendants,gold_no_anno
+bn,bn_025,"Getting into Milosevic 's shoes even on stage , was quite a temptation says Yubitrich .",Getting,1,ARG2,False,destination,gold_only,True,1,4,into Milosevic 's shoes,gold_no_anno
+tc,tc_001,How 's it going ?,going,4,ARG1,False,project,gold_only,True,2,2,it,gold_no_anno
+tc,tc_002,"I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",know,26,ARG0,False,knower,gold_only,True,24,24,you,gold_no_anno
+tc,tc_003,I mean she did n't know that I was there .,mean,2,ARG0,False,agent,gold_only,True,0,0,I,gold_no_anno
+tc,tc_003,I mean she did n't know that I was there .,mean,2,ARG1,False,element containing meaning,"sm_right, o1mini_right",True,2,9,she did n't know that I was there,semicrf|treecrf
+tc,tc_004,I still think about the matchbooks .,think,3,ARG0,False,Thinker,gold_only,True,0,0,I,gold_no_anno
+tc,tc_004,I still think about the matchbooks .,think,3,ARG2,False,Attributive (please look at the examples-- this is tricky),gold_only,True,3,5,about the matchbooks,gold_no_anno
+tc,tc_005,and I think %uh %uh it 's not Frau,think,3,ARG0,False,Thinker,gold_only,True,1,1,I,gold_no_anno
+tc,tc_005,and I think %uh %uh it 's not Frau,think,3,ARG1,False,Thought,"gold_right, o1mini_wrong，deepseek_right",True,5,8,it 's not Frau,自定义
+tc,tc_006,But you know the weeknights is pretty crazy .,know,3,ARG0,False,knower,gold_only,True,1,1,you,gold_no_anno
+tc,tc_006,But you know the weeknights is pretty crazy .,know,3,ARG1,False,fact that is known,"sm_right, o1mini_right",True,3,7,the weeknights is pretty crazy,semicrf|treecrf
+tc,tc_007,%um He was changing projects every couple of weeks,changing,4,ARG0,False,causer of transformation,gold_only,True,1,1,He,gold_no_anno
+tc,tc_007,%um He was changing projects every couple of weeks,changing,4,ARG1,False,thing changing,gold_only,True,4,4,projects,gold_no_anno
+tc,tc_008,if you want to stay in Amsterdam that 's fine .,want,3,ARG0,False,Wanter,gold_only,True,1,1,you,gold_no_anno
+tc,tc_008,if you want to stay in Amsterdam that 's fine .,want,3,ARG1,False,thing wanted,gold_only,True,3,6,to stay in Amsterdam,gold_no_anno
+tc,tc_009,And there was n't anything anybody could do .,do,8,ARG0,False,"agent, doer",gold_only,True,5,5,anybody,gold_no_anno
+tc,tc_009,And there was n't anything anybody could do .,do,8,ARG1,False,thing done,gold_only,True,4,4,anything,gold_no_anno
+tc,tc_010,"You know everybody 's kind of passed away , almost .",passed,7,ARG1,False,,gold_only,True,2,2,everybody,gold_no_anno
+tc,tc_011,"Well , how does Akina feel ?",feel,6,ARG0,False,"feeler, person experiencing emotion",gold_only,True,4,4,Akina,gold_no_anno
+tc,tc_011,"Well , how does Akina feel ?",feel,6,ARG1,True,emotion or sensation,"gold_right, o1mini_wrong",True,2,2,how,gold
+tc,tc_012,She did ?,did,2,ARG0,False,,"sm_right, o1mini_right",True,0,0,She,treecrf
+tc,tc_013,got it .,got,1,ARG1,False,thing gotten,gold_only,True,1,1,it,gold_no_anno
+tc,tc_014,"If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam .",go,12,ARG0,False,goer,gold_only,True,8,8,we,gold_no_anno
+tc,tc_015,this place is incredibly easy to break into if you want to .,want,11,ARG0,False,Wanter,gold_only,True,9,9,you,gold_no_anno
+tc,tc_015,this place is incredibly easy to break into if you want to .,want,11,ARG1,False,thing wanted,"gold_right, o1mini_wrong",False,,,,
+tc,tc_016,"You do burn a lot of calories an hour though , lifting weights .",lifting,12,ARG0,False,"elevator, Agent",gold_only,True,0,0,You,gold_no_anno
+tc,tc_016,"You do burn a lot of calories an hour though , lifting weights .",lifting,12,ARG1,False,"Logical subject, patient, thing rising",gold_only,True,12,12,weights,gold_no_anno
+tc,tc_017,"but none of the other models %uh , had ?",had,9,ARG0,False,owner,gold_only,True,1,5,none of the other models,gold_no_anno
+tc,tc_018,"And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,",see,21,ARG0,False,viewer,gold_only,True,19,19,people,gold_no_anno
+tc,tc_018,"And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,",see,21,ARG1,False,thing viewed,gold_only,True,21,24,the anti phased motion,gold_no_anno
+tc,tc_019,"And if you do , I 'll send it by email okay if I get it before this weekend",send,8,ARG0,False,sender,gold_only,True,5,5,I,gold_no_anno
+tc,tc_019,"And if you do , I 'll send it by email okay if I get it before this weekend",send,8,ARG1,False,sent,gold_only,True,8,8,it,gold_no_anno
+tc,tc_020,I think what we got to do is just when he comes just have lots of cereal .,think,2,ARG0,False,Thinker,gold_only,True,0,0,I,gold_no_anno
+tc,tc_020,I think what we got to do is just when he comes just have lots of cereal .,think,2,ARG1,False,Thought,gold_only,True,2,16,what we got to do is just when he comes just have lots of cereal,gold_no_anno
+tc,tc_021,and I think they would then feel guilty for not inviting me .,think,3,ARG0,False,Thinker,gold_only,True,1,1,I,gold_no_anno
+tc,tc_021,and I think they would then feel guilty for not inviting me .,think,3,ARG1,False,Thought,gold_only,True,3,11,they would then feel guilty for not inviting me,gold_no_anno
+tc,tc_022,Have dual citizenship ?,Have,1,ARG1,False,possession,gold_only,True,1,2,dual citizenship,gold_no_anno
+tc,tc_023,"Last week , we found out",found,5,ARG0,False,,gold_only,True,3,3,we,gold_no_anno
+tc,tc_024,"The first time they broke in , what they stole was just bizarre ,",stole,10,ARG0,False,"thief, agent",gold_only,True,8,8,they,gold_no_anno
+tc,tc_024,"The first time they broke in , what they stole was just bizarre ,",stole,10,ARG1,False,thing stolen,gold_only,True,7,7,what,gold_no_anno
+tc,tc_025,oh they want their share .,want,3,ARG0,False,Wanter,gold_only,True,1,1,they,gold_no_anno
+tc,tc_025,oh they want their share .,want,3,ARG1,False,thing wanted,gold_only,True,3,4,their share,gold_no_anno
