@@ -1,0 +1,4379 @@
+[
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 1,
+    "source_idxs": [
+      2166
+    ],
+    "sentence": "He was sober , he was rich and surrounded by a family who loved him but once again , Ozzy 's high would hit a low .",
+    "prd_word": "hit",
+    "prd_idx": 24,
+    "label": "ARG1",
+    "span_mean": "thing hit",
+    "source_spans_inclusive": [
+      [
+        24,
+        25
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        24,
+        25
+      ]
+    ],
+    "human_selected_texts": [
+      "a low"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 2,
+    "source_idxs": [
+      2760
+    ],
+    "sentence": "I think we all know that Arafat is in charge of the Palestinian Authority .",
+    "prd_word": "think",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": "Thinker",
+    "source_spans_inclusive": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 3,
+    "source_idxs": [
+      1899
+    ],
+    "sentence": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+    "prd_word": "get",
+    "prd_idx": 16,
+    "label": "ARG0",
+    "span_mean": "instigator",
+    "source_spans_inclusive": [
+      [
+        12,
+        12
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        12,
+        12
+      ]
+    ],
+    "human_selected_texts": [
+      "everyone"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 4,
+    "source_idxs": [
+      633
+    ],
+    "sentence": "Just as he did that , that 's when you saw the child just walking just a few feet away from him but the officers were able to get the child away .",
+    "prd_word": "saw",
+    "prd_idx": 11,
+    "label": "ARG0",
+    "span_mean": "viewer",
+    "source_spans_inclusive": [
+      [
+        9,
+        9
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        9,
+        9
+      ]
+    ],
+    "human_selected_texts": [
+      "you"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 5,
+    "source_idxs": [
+      4373
+    ],
+    "sentence": "More than 70 people have been wounded , mostly Palestinians , but also several Israeli soldiers .",
+    "prd_word": "wounded",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "injured party",
+    "source_spans_inclusive": [
+      [
+        0,
+        3
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "human_selected_texts": [
+      "More than 70 people"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 6,
+    "source_idxs": [
+      2148
+    ],
+    "sentence": "Motorola saying it will eliminate another 3,000 jobs , 3 % of its work force .",
+    "prd_word": "eliminate",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "entity removing",
+    "source_spans_inclusive": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_texts": [
+      "Motorola",
+      "it"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 7,
+    "source_idxs": [
+      2390
+    ],
+    "sentence": "Mr. Clinton promised the gathering at the Norfolk Naval station Wednesday that those who carried out the deadly attack that killed 17 sailors will be found .",
+    "prd_word": "promised",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "promiser",
+    "source_spans_inclusive": [
+      [
+        0,
+        1
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        1
+      ]
+    ],
+    "human_selected_texts": [
+      "Mr. Clinton"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 8,
+    "source_idxs": [
+      1850
+    ],
+    "sentence": "No one knows what will happen as the pups grow older and are able to open their eyes .",
+    "prd_word": "open",
+    "prd_idx": 16,
+    "label": "ARG1",
+    "span_mean": "thing opening",
+    "source_spans_inclusive": [
+      [
+        16,
+        17
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        16,
+        17
+      ]
+    ],
+    "human_selected_texts": [
+      "their eyes"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 9,
+    "source_idxs": [
+      3846
+    ],
+    "sentence": "Not yet , says President George W. Bush , at the White House today , demanding that Khaddafi meet certain conditions first , to accept responsibility for this act , and to compensate the families .",
+    "prd_word": "says",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "Sayer",
+    "source_spans_inclusive": [
+      [
+        4,
+        7
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        4,
+        7
+      ]
+    ],
+    "human_selected_texts": [
+      "President George W. Bush"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 0,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 10,
+    "source_idxs": [
+      1010
+    ],
+    "sentence": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+    "prd_word": "recall",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "memory",
+    "source_spans_inclusive": [
+      [
+        5,
+        66
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        5,
+        15
+      ]
+    ],
+    "human_selected_texts": [
+      "the bombing of the US Marine barracks in Lebanon in 1983"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 11,
+    "source_idxs": [
+      1238
+    ],
+    "sentence": "Palestinian gunmen fired on an Israeli car killing the driver .",
+    "prd_word": "fired",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "shooter",
+    "source_spans_inclusive": [
+      [
+        0,
+        1
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        1
+      ]
+    ],
+    "human_selected_texts": [
+      "Palestinian gunmen"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 12,
+    "source_idxs": [
+      3376
+    ],
+    "sentence": "Some Yemenis expressed relief to see the ship leave .",
+    "prd_word": "leave",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        6,
+        7
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        6,
+        7
+      ]
+    ],
+    "human_selected_texts": [
+      "the ship"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 13,
+    "source_idxs": [
+      15
+    ],
+    "sentence": "Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .",
+    "prd_word": "call",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "item being labelled",
+    "source_spans_inclusive": [
+      [
+        10,
+        10
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        10,
+        10
+      ]
+    ],
+    "human_selected_texts": [
+      "it"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 14,
+    "source_idxs": [
+      3735
+    ],
+    "sentence": "The Israeli Army said the man had been approaching the guard post in a suspicious manner .",
+    "prd_word": "said",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "source_spans_inclusive": [
+      [
+        4,
+        15
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        4,
+        15
+      ]
+    ],
+    "human_selected_texts": [
+      "the man had been approaching the guard post in a suspicious manner"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 15,
+    "source_idxs": [
+      558
+    ],
+    "sentence": "The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .",
+    "prd_word": "noted",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span_mean": "entity under scrutiny",
+    "source_spans_inclusive": [
+      [
+        14,
+        14
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        14,
+        14
+      ]
+    ],
+    "human_selected_texts": [
+      "he"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 16,
+    "source_idxs": [
+      1289
+    ],
+    "sentence": "The little town I was in this southern Iraq , as far as I got , I ca n't boast of further , is where the talks took place .",
+    "prd_word": "got",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span_mean": "thing in motion",
+    "source_spans_inclusive": [
+      [
+        13,
+        13
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        13,
+        13
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 17,
+    "source_idxs": [
+      4095
+    ],
+    "sentence": "The note was found in the pocket of Lieutenant Dimitri Kolesnikov whose body was one of the first to be recovered the explosions that shattered the submarine .",
+    "prd_word": "shattered",
+    "prd_idx": 25,
+    "label": "ARG0",
+    "span_mean": "breaker",
+    "source_spans_inclusive": [
+      [
+        21,
+        22
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        21,
+        22
+      ]
+    ],
+    "human_selected_texts": [
+      "the explosions"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 18,
+    "source_idxs": [
+      2275
+    ],
+    "sentence": "The trial of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland , is entering its final stage .",
+    "prd_word": "accused",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "accused",
+    "source_spans_inclusive": [
+      [
+        3,
+        4
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        3,
+        4
+      ]
+    ],
+    "human_selected_texts": [
+      "two Libyans"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 19,
+    "source_idxs": [
+      3717
+    ],
+    "sentence": "They are going to allow India to assemble about 140 of these bombers here in India , and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov .",
+    "prd_word": "acquire",
+    "prd_idx": 30,
+    "label": "ARG0",
+    "span_mean": "agent, entity acquiring something",
+    "source_spans_inclusive": [
+      [
+        27,
+        27
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        27,
+        27
+      ]
+    ],
+    "human_selected_texts": [
+      "India"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 20,
+    "source_idxs": [
+      3703
+    ],
+    "sentence": "They are going to allow India to assemble about 140 of these bombers here in India , and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov .",
+    "prd_word": "allow",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "allower",
+    "source_spans_inclusive": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_texts": [
+      "They"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 21,
+    "source_idxs": [
+      3708
+    ],
+    "sentence": "They are going to allow India to assemble about 140 of these bombers here in India , and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov .",
+    "prd_word": "assemble",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span_mean": "construction",
+    "source_spans_inclusive": [
+      [
+        8,
+        12
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        8,
+        12
+      ]
+    ],
+    "human_selected_texts": [
+      "about 140 of these bombers"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 22,
+    "source_idxs": [
+      447
+    ],
+    "sentence": "They do n't realize that you know the real execution is really black 's black like them .",
+    "prd_word": "realize",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "new knower",
+    "source_spans_inclusive": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_texts": [
+      "They"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 23,
+    "source_idxs": [
+      3148
+    ],
+    "sentence": "Though a spate of pre-election violence kept some Haitians away from the polls on Sunday , the voting itself went relatively smoothly .",
+    "prd_word": "kept",
+    "prd_idx": 7,
+    "label": "ARG2",
+    "span_mean": "other noun",
+    "source_spans_inclusive": [
+      [
+        9,
+        12
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        9,
+        12
+      ]
+    ],
+    "human_selected_texts": [
+      "away from the polls"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 24,
+    "source_idxs": [
+      3917
+    ],
+    "sentence": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+    "prd_word": "extended",
+    "prd_idx": 7,
+    "label": "ARG0",
+    "span_mean": "agent, entity making something be longer",
+    "source_spans_inclusive": [
+      [
+        0,
+        4
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "human_selected_texts": [
+      "US Energy Secretary Bill Richardson"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 25,
+    "source_idxs": [
+      2353
+    ],
+    "sentence": "We are going to take `` a closer look '' at the great Wind Cave in South Dakota .",
+    "prd_word": "look",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "thing looked at or for or on",
+    "source_spans_inclusive": [
+      [
+        10,
+        17
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        10,
+        17
+      ]
+    ],
+    "human_selected_texts": [
+      "at the great Wind Cave in South Dakota"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 26,
+    "source_idxs": [
+      146
+    ],
+    "sentence": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+    "prd_word": "celebration",
+    "prd_idx": 24,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        26,
+        31
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        26,
+        31
+      ]
+    ],
+    "human_selected_texts": [
+      "of the self of the individual"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 27,
+    "source_idxs": [
+      2096
+    ],
+    "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+    "prd_word": "dispatched",
+    "prd_idx": 10,
+    "label": "ARG2",
+    "span_mean": "dispatched to",
+    "source_spans_inclusive": [
+      [
+        13,
+        14
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        13,
+        14
+      ]
+    ],
+    "human_selected_texts": [
+      "to Yemen"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 28,
+    "source_idxs": [
+      4161
+    ],
+    "sentence": "Yemen 's Prime Minister says at least three Yemenis will go on trial next month in connection with the attack .",
+    "prd_word": "go",
+    "prd_idx": 11,
+    "label": "ARG2",
+    "span_mean": "attribute of arg1",
+    "source_spans_inclusive": [
+      [
+        11,
+        12
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        11,
+        12
+      ]
+    ],
+    "human_selected_texts": [
+      "on trial"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 29,
+    "source_idxs": [
+      296
+    ],
+    "sentence": "Yesterday , Mr. Clinton spoke to supporters in his home state of Arkansas .",
+    "prd_word": "spoke",
+    "prd_idx": 5,
+    "label": "ARG2",
+    "span_mean": "hearer",
+    "source_spans_inclusive": [
+      [
+        5,
+        12
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        12
+      ]
+    ],
+    "human_selected_texts": [
+      "to supporters",
+      "to supporters in his home state of Arkansas"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "bn_gold_llmj_correct",
+    "domain": "bn",
+    "llm_label": 1,
+    "human_label": 0,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 30,
+    "source_idxs": [
+      2931
+    ],
+    "sentence": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+    "prd_word": "compensation",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        7,
+        7
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_gold_o1right_random_wlj_final.json",
+    "source_file": "correct_data_bn_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 1,
+    "source_idxs": [
+      10
+    ],
+    "sentence": "%um , %um , which we had already anticipated that it was going to happen .",
+    "prd_word": "anticipated",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "anticipater",
+    "source_spans_inclusive": [
+      [
+        5,
+        5
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        5,
+        5
+      ]
+    ],
+    "human_selected_texts": [
+      "we"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 2,
+    "source_idxs": [
+      3973
+    ],
+    "sentence": "And , %uh , what happened was after I had turned in my thesis but before I saw Neil again , he went to a conference in Rochester and there this was a big issue among the people who were doing this work , was , that their models could n't show this as a driven frequency ,",
+    "prd_word": "turned",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        12,
+        13
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        12,
+        13
+      ]
+    ],
+    "human_selected_texts": [
+      "my thesis"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 3,
+    "source_idxs": [
+      3132
+    ],
+    "sentence": "And like I have n't even started mine . mhm . You know",
+    "prd_word": "started",
+    "prd_idx": 7,
+    "label": "ARG0",
+    "span_mean": "Agent",
+    "source_spans_inclusive": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 4,
+    "source_idxs": [
+      4098
+    ],
+    "sentence": "And she 's just not going to have the same kind of career that she had thought about .",
+    "prd_word": "have",
+    "prd_idx": 8,
+    "label": "ARG0",
+    "span_mean": "owner",
+    "source_spans_inclusive": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_texts": [
+      "she"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 5,
+    "source_idxs": [
+      2303
+    ],
+    "sentence": "And so the problem is that now they found out that it 's worth breaking into .",
+    "prd_word": "found",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        10,
+        15
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        10,
+        15
+      ]
+    ],
+    "human_selected_texts": [
+      "that it 's worth breaking into"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 6,
+    "source_idxs": [
+      145
+    ],
+    "sentence": "And what 's actually kind of interesting is I kept telling Neil that I thought that this was kind of significant .",
+    "prd_word": "kept",
+    "prd_idx": 10,
+    "label": "ARG0",
+    "span_mean": "causer of continued action",
+    "source_spans_inclusive": [
+      [
+        8,
+        8
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        8,
+        8
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 7,
+    "source_idxs": [
+      3967
+    ],
+    "sentence": "But you know , I mean that mhm . should n't be a big deal . %um",
+    "prd_word": "mean",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "agent",
+    "source_spans_inclusive": [
+      [
+        4,
+        4
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        4,
+        4
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 8,
+    "source_idxs": [
+      2021
+    ],
+    "sentence": "I 've got a student here who 's checking out rooms and stuff .",
+    "prd_word": "checking",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        3,
+        4
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        3,
+        4
+      ]
+    ],
+    "human_selected_texts": [
+      "a student"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 9,
+    "source_idxs": [
+      3598
+    ],
+    "sentence": "I , %um , not exactly convinced that . It 's okay . You know ,",
+    "prd_word": "know",
+    "prd_idx": 15,
+    "label": "ARG0",
+    "span_mean": "knower",
+    "source_spans_inclusive": [
+      [
+        13,
+        13
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        13,
+        13
+      ]
+    ],
+    "human_selected_texts": [
+      "You"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 10,
+    "source_idxs": [
+      3393
+    ],
+    "sentence": "I guess so .",
+    "prd_word": "guess",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span_mean": "guesser",
+    "source_spans_inclusive": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 11,
+    "source_idxs": [
+      4160
+    ],
+    "sentence": "I know Sue is going to Rhode Island .",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "source_spans_inclusive": [
+      [
+        2,
+        7
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "human_selected_texts": [
+      "Sue is going to Rhode Island"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 12,
+    "source_idxs": [
+      4161
+    ],
+    "sentence": "I know Sue is going to Rhode Island .",
+    "prd_word": "going",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "goer",
+    "source_spans_inclusive": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_texts": [
+      "Sue"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 13,
+    "source_idxs": [
+      691
+    ],
+    "sentence": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+    "prd_word": "going",
+    "prd_idx": 33,
+    "label": "ARG0",
+    "span_mean": "goer",
+    "source_spans_inclusive": [
+      [
+        31,
+        31
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        31,
+        31
+      ]
+    ],
+    "human_selected_texts": [
+      "her"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 14,
+    "source_idxs": [
+      1379
+    ],
+    "sentence": "If not , call Anya 's parents if you do n't have a new phone number for me .",
+    "prd_word": "call",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "entity summoned",
+    "source_spans_inclusive": [
+      [
+        4,
+        6
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        4,
+        6
+      ]
+    ],
+    "human_selected_texts": [
+      "Anya 's parents"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 15,
+    "source_idxs": [
+      606
+    ],
+    "sentence": "So if you do n't have any ideas we 'll just put something together for you .",
+    "prd_word": "put",
+    "prd_idx": 12,
+    "label": "ARG2",
+    "span_mean": "attribute of arg1",
+    "source_spans_inclusive": [
+      [
+        13,
+        13
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        13,
+        13
+      ]
+    ],
+    "human_selected_texts": [
+      "together"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 16,
+    "source_idxs": [
+      3987
+    ],
+    "sentence": "Well I mean he does work his ass off",
+    "prd_word": "mean",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "agent",
+    "source_spans_inclusive": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 17,
+    "source_idxs": [
+      1082
+    ],
+    "sentence": "You know , I mean , we 're d- , you know ,",
+    "prd_word": "mean",
+    "prd_idx": 5,
+    "label": "ARG0",
+    "span_mean": "agent",
+    "source_spans_inclusive": [
+      [
+        3,
+        3
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        3,
+        3
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 18,
+    "source_idxs": [
+      2446
+    ],
+    "sentence": "You wo n't lose it , you know ,",
+    "prd_word": "know",
+    "prd_idx": 8,
+    "label": "ARG0",
+    "span_mean": "knower",
+    "source_spans_inclusive": [
+      [
+        6,
+        6
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        6,
+        6
+      ]
+    ],
+    "human_selected_texts": [
+      "you"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 19,
+    "source_idxs": [
+      2931
+    ],
+    "sentence": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+    "prd_word": "give",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "giver",
+    "source_spans_inclusive": [
+      [
+        6,
+        6
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        6,
+        6
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 20,
+    "source_idxs": [
+      332
+    ],
+    "sentence": "and she 's climbing up the stairs .",
+    "prd_word": "climbing",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span_mean": "climber",
+    "source_spans_inclusive": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_texts": [
+      "she"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 21,
+    "source_idxs": [
+      2529
+    ],
+    "sentence": "and we can like do a quick dinner or something yeah and go see whatever you want to see ,",
+    "prd_word": "go",
+    "prd_idx": 13,
+    "label": "ARG0",
+    "span_mean": "subject",
+    "source_spans_inclusive": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_texts": [
+      "we"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 22,
+    "source_idxs": [
+      1972
+    ],
+    "sentence": "as soon as you get into Holland and get yourself settled you can call me",
+    "prd_word": "call",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span_mean": "entity summoned",
+    "source_spans_inclusive": [
+      [
+        14,
+        14
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        14,
+        14
+      ]
+    ],
+    "human_selected_texts": [
+      "me"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 23,
+    "source_idxs": [
+      2330
+    ],
+    "sentence": "but the Americans as soon as you ask for another citizenship that act of asking for it takes away your American citizenship .",
+    "prd_word": "takes",
+    "prd_idx": 18,
+    "label": "ARG0",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        11,
+        16
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        11,
+        16
+      ]
+    ],
+    "human_selected_texts": [
+      "that act of asking for it"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 24,
+    "source_idxs": [
+      2236
+    ],
+    "sentence": "do you know if Jack called Spencer yet ?",
+    "prd_word": "called",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "caller",
+    "source_spans_inclusive": [
+      [
+        4,
+        4
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        4,
+        4
+      ]
+    ],
+    "human_selected_texts": [
+      "Jack"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 25,
+    "source_idxs": [
+      3740
+    ],
+    "sentence": "oh , I 'm sorry we 're going to miss her .",
+    "prd_word": "miss",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span_mean": "thing longed for, thing lacking",
+    "source_spans_inclusive": [
+      [
+        10,
+        10
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        10,
+        10
+      ]
+    ],
+    "human_selected_texts": [
+      "her"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 26,
+    "source_idxs": [
+      1173
+    ],
+    "sentence": "oh , I did n't realize that .",
+    "prd_word": "realize",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span_mean": "new knower",
+    "source_spans_inclusive": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 27,
+    "source_idxs": [
+      1305
+    ],
+    "sentence": "oh gosh . I bet you 're getting lonely .",
+    "prd_word": "getting",
+    "prd_idx": 8,
+    "label": "ARG2",
+    "span_mean": "attribute of arg1 (not a VP node)",
+    "source_spans_inclusive": [
+      [
+        8,
+        8
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        8,
+        8
+      ]
+    ],
+    "human_selected_texts": [
+      "lonely"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 28,
+    "source_idxs": [
+      3962
+    ],
+    "sentence": "oh they want their share .",
+    "prd_word": "want",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "Wanter",
+    "source_spans_inclusive": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_texts": [
+      "they"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 29,
+    "source_idxs": [
+      483
+    ],
+    "sentence": "so you might as well spend the time .",
+    "prd_word": "spend",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span_mean": "unit of time",
+    "source_spans_inclusive": [
+      [
+        6,
+        7
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        6,
+        7
+      ]
+    ],
+    "human_selected_texts": [
+      "the time"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "tc_gold_llmj_correct",
+    "domain": "tc",
+    "llm_label": 1,
+    "human_label": 1,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 30,
+    "source_idxs": [
+      2559
+    ],
+    "sentence": "yeah , I think that there was some concern about her when I talked to you in September or October .",
+    "prd_word": "talked",
+    "prd_idx": 14,
+    "label": "ARG0",
+    "span_mean": "talker",
+    "source_spans_inclusive": [
+      [
+        12,
+        12
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        12,
+        12
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+    "source_file": "correct_data_tc_gold.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 1,
+    "source_idxs": [
+      2267
+    ],
+    "sentence": "Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .",
+    "prd_word": "stretched",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "agent, entity making something be longer",
+    "source_spans_inclusive": [
+      [
+        12,
+        18
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 2,
+    "human_idx": 2,
+    "source_idxs": [
+      1977,
+      1979
+    ],
+    "sentence": "Gao Xingjian arrived in Stockholm this week and when he leaves the Chinese born writer will have something extra in his suitcase , the Nobel Prize for Literature .",
+    "prd_word": "born",
+    "prd_idx": 14,
+    "label": "ARG0",
+    "span_mean": "mother",
+    "source_spans_inclusive": [
+      [
+        9,
+        9
+      ],
+      [
+        12,
+        12
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 3,
+    "source_idxs": [
+      1327
+    ],
+    "sentence": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+    "prd_word": "does",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        19,
+        31
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 4,
+    "source_idxs": [
+      1319
+    ],
+    "sentence": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+    "prd_word": "make",
+    "prd_idx": 7,
+    "label": "ARG0",
+    "span_mean": "creator",
+    "source_spans_inclusive": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 5,
+    "source_idxs": [
+      5035
+    ],
+    "sentence": "I 'm sure that it was difficult for her personally , but I think the commuter marriage perhaps would have been less stressful if everyday she did n't see herself being undermined and overruled .",
+    "prd_word": "did",
+    "prd_idx": 27,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        27,
+        33
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 6,
+    "source_idxs": [
+      2098
+    ],
+    "sentence": "I think a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street .",
+    "prd_word": "think",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "Thought",
+    "source_spans_inclusive": [
+      [
+        28,
+        62
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        2,
+        62
+      ]
+    ],
+    "human_selected_texts": [
+      "a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 7,
+    "source_idxs": [
+      2352
+    ],
+    "sentence": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "voted",
+    "prd_idx": 10,
+    "label": "ARG0",
+    "span_mean": "voter",
+    "source_spans_inclusive": [
+      [
+        2,
+        6
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        2,
+        2
+      ],
+      [
+        7,
+        7
+      ]
+    ],
+    "human_selected_texts": [
+      "everybody",
+      "who"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 8,
+    "source_idxs": [
+      2689
+    ],
+    "sentence": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+    "prd_word": "make",
+    "prd_idx": 24,
+    "label": "ARG2",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        25,
+        25
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 9,
+    "source_idxs": [
+      5240
+    ],
+    "sentence": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
+    "prd_word": "diagnosed",
+    "prd_idx": 40,
+    "label": "ARG2",
+    "span_mean": "illness",
+    "source_spans_inclusive": [
+      [
+        55,
+        61
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        40,
+        42
+      ],
+      [
+        41,
+        42
+      ]
+    ],
+    "human_selected_texts": [
+      "with lung cancer",
+      "lung cancer"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 10,
+    "source_idxs": [
+      717
+    ],
+    "sentence": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+    "prd_word": "finalize",
+    "prd_idx": 40,
+    "label": "ARG0",
+    "span_mean": "agent, entity finalizing something",
+    "source_spans_inclusive": [
+      [
+        31,
+        33
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        31,
+        32
+      ],
+      [
+        31,
+        34
+      ]
+    ],
+    "human_selected_texts": [
+      "Mr. Putin 's visit",
+      "Mr. Putin"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 11,
+    "source_idxs": [
+      4307
+    ],
+    "sentence": "Thank you James .",
+    "prd_word": "Thank",
+    "prd_idx": 1,
+    "label": "ARG2",
+    "span_mean": "for what?",
+    "source_spans_inclusive": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 12,
+    "source_idxs": [
+      3175
+    ],
+    "sentence": "The Bush team , responding quickly saying there would not be such support and that in that scenario Gore could only be seen as a sore loser .",
+    "prd_word": "responding",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "in response to",
+    "source_spans_inclusive": [
+      [
+        0,
+        2
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 13,
+    "source_idxs": [
+      1132
+    ],
+    "sentence": "The Indian lawmakers were sort of clambering over each other to shake his hand as he left the parliament building .",
+    "prd_word": "clambering",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        7,
+        9
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 14,
+    "source_idxs": [
+      37
+    ],
+    "sentence": "The Israeli Army said it was checking the reports .",
+    "prd_word": "reports",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "Reporter",
+    "source_spans_inclusive": [
+      [
+        4,
+        4
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 15,
+    "source_idxs": [
+      2574
+    ],
+    "sentence": "The question should be what the Hosni Mubarak are they still doing there eight years after the peace process began .",
+    "prd_word": "doing",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "thing done",
+    "source_spans_inclusive": [
+      [
+        5,
+        7
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        4,
+        4
+      ]
+    ],
+    "human_selected_texts": [
+      "what"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 16,
+    "source_idxs": [
+      2616
+    ],
+    "sentence": "The warning came as General Anthony Zinni was finalizing an agreement for refueling ships in the Yemeni port of Aden .",
+    "prd_word": "refueling",
+    "prd_idx": 13,
+    "label": "ARG0",
+    "span_mean": "provider of fuel, agent",
+    "source_spans_inclusive": [
+      [
+        4,
+        6
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 17,
+    "source_idxs": [
+      3840
+    ],
+    "sentence": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+    "prd_word": "speaking",
+    "prd_idx": 8,
+    "label": "ARG2",
+    "span_mean": "hearer",
+    "source_spans_inclusive": [
+      [
+        0,
+        2
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 18,
+    "source_idxs": [
+      6009
+    ],
+    "sentence": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+    "prd_word": "try",
+    "prd_idx": 20,
+    "label": "ARG0",
+    "span_mean": "Agent/Entity Trying",
+    "source_spans_inclusive": [
+      [
+        8,
+        8
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_texts": [
+      "They"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 19,
+    "source_idxs": [
+      6013
+    ],
+    "sentence": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+    "prd_word": "keep",
+    "prd_idx": 22,
+    "label": "ARG0",
+    "span_mean": "causer of separation",
+    "source_spans_inclusive": [
+      [
+        8,
+        8
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_texts": [
+      "They"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 20,
+    "source_idxs": [
+      3212
+    ],
+    "sentence": "Violence ripped through almost every major Palestinian town today .",
+    "prd_word": "ripped",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "entity moving",
+    "source_spans_inclusive": [
+      [
+        2,
+        7
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_texts": [
+      "Violence"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 21,
+    "source_idxs": [
+      3687
+    ],
+    "sentence": "We 'll talk with a terror expert about that , and Iraqi deserters on the northern front , Ben Wedeman has their story why they 're no longer fighting for Saddam Hussein and Don Shepperd is going to answer some of your questions as he looks at the battle hot spots .",
+    "prd_word": "fighting",
+    "prd_idx": 29,
+    "label": "ARG1",
+    "span_mean": "second fighter, if separate",
+    "source_spans_inclusive": [
+      [
+        29,
+        31
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 22,
+    "source_idxs": [
+      4063
+    ],
+    "sentence": "We know their view is the hand counts should now be included .",
+    "prd_word": "included",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "theme, thing being included in some group",
+    "source_spans_inclusive": [
+      [
+        2,
+        7
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        5,
+        7
+      ]
+    ],
+    "human_selected_texts": [
+      "the hand counts"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 23,
+    "source_idxs": [
+      1912
+    ],
+    "sentence": "We will find out who is responsible and hold them accountable .",
+    "prd_word": "hold",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span_mean": "thing held",
+    "source_spans_inclusive": [
+      [
+        10,
+        10
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        10,
+        10
+      ]
+    ],
+    "human_selected_texts": [
+      "accountable"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 24,
+    "source_idxs": [
+      193
+    ],
+    "sentence": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+    "prd_word": "celebration",
+    "prd_idx": 24,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        24,
+        31
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        26,
+        31
+      ]
+    ],
+    "human_selected_texts": [
+      "of the self of the individual"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 25,
+    "source_idxs": [
+      194
+    ],
+    "sentence": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+    "prd_word": "divide",
+    "prd_idx": 40,
+    "label": "ARG1",
+    "span_mean": "separated entity",
+    "source_spans_inclusive": [
+      [
+        17,
+        18
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        17,
+        18
+      ],
+      [
+        17,
+        31
+      ],
+      [
+        42,
+        43
+      ]
+    ],
+    "human_selected_texts": [
+      "this novel",
+      "this novel , which is a celebration as well of the self of the individual",
+      "the self"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 26,
+    "source_idxs": [
+      2937
+    ],
+    "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+    "prd_word": "urged",
+    "prd_idx": 26,
+    "label": "ARG1",
+    "span_mean": "impelled agent",
+    "source_spans_inclusive": [
+      [
+        26,
+        26
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 27,
+    "source_idxs": [
+      5459
+    ],
+    "sentence": "While the Gore menu remains a family secret , the Bush clan all to happy to share some of his favorite fare -- jalapeno pecan cornbread stuffing and coconut cake .",
+    "prd_word": "share",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span_mean": "sharer",
+    "source_spans_inclusive": [
+      [
+        9,
+        10
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        9,
+        11
+      ]
+    ],
+    "human_selected_texts": [
+      "the Bush clan"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 28,
+    "source_idxs": [
+      2744
+    ],
+    "sentence": "Witnesses said Israeli soldiers fired live ammunition and rubber - coated metal bullets , wounding at least seven people .",
+    "prd_word": "coated",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "covered",
+    "source_spans_inclusive": [
+      [
+        11,
+        19
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        11,
+        12
+      ]
+    ],
+    "human_selected_texts": [
+      "metal bullets"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 29,
+    "source_idxs": [
+      4079
+    ],
+    "sentence": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+    "prd_word": "compensation",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        7,
+        7
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "bn_smallmodel_llmj_incorrect",
+    "domain": "bn",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 30,
+    "source_idxs": [
+      1048
+    ],
+    "sentence": "You know , as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see .",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "source_spans_inclusive": [
+      [
+        2,
+        29
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+    "source_file": "incorrect_data_bn_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 1,
+    "source_idxs": [
+      2567
+    ],
+    "sentence": "%uh lay there let me look at my grandmother kind of thing",
+    "prd_word": "let",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "action allowed",
+    "source_spans_inclusive": [
+      [
+        4,
+        10
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        4,
+        8
+      ]
+    ],
+    "human_selected_texts": [
+      "me look at my grandmother"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 2,
+    "source_idxs": [
+      6206
+    ],
+    "sentence": "%uh would you mind %uh taking her back",
+    "prd_word": "mind",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "bothered by",
+    "source_spans_inclusive": [
+      [
+        4,
+        7
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        5,
+        7
+      ]
+    ],
+    "human_selected_texts": [
+      "taking her back"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 3,
+    "source_idxs": [
+      4746
+    ],
+    "sentence": "%um , depends on what you guys want to see .",
+    "prd_word": "depends",
+    "prd_idx": 3,
+    "label": "ARG0",
+    "span_mean": "depender",
+    "source_spans_inclusive": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 4,
+    "source_idxs": [
+      8976
+    ],
+    "sentence": "%um , they had just moved to He 's in New York now , right ? a really nice house in Westchester .",
+    "prd_word": "moved",
+    "prd_idx": 6,
+    "label": "ARG2",
+    "span_mean": "destination",
+    "source_spans_inclusive": [
+      [
+        6,
+        11
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        21
+      ]
+    ],
+    "human_selected_texts": [
+      "to He 's in New York now , right ? a really nice house in Westchester",
+      "to He 's in New York"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 5,
+    "source_idxs": [
+      116
+    ],
+    "sentence": "And it was a very nice letter , because it sounded like she went through very similar things that I did .",
+    "prd_word": "did",
+    "prd_idx": 21,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        15,
+        17
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        15,
+        17
+      ]
+    ],
+    "human_selected_texts": [
+      "very similar things"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 6,
+    "source_idxs": [
+      3255
+    ],
+    "sentence": "And she said the students are just ,",
+    "prd_word": "said",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Utterance",
+    "source_spans_inclusive": [
+      [
+        3,
+        7
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        3,
+        6
+      ]
+    ],
+    "human_selected_texts": [
+      "the students are just"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 7,
+    "source_idxs": [
+      7138
+    ],
+    "sentence": "And that thing that came up recently , , you know I had , oh , a kind of a knee problem a couple of years ago .",
+    "prd_word": "know",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "source_spans_inclusive": [
+      [
+        11,
+        26
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        11,
+        26
+      ]
+    ],
+    "human_selected_texts": [
+      "I had , oh , a kind of a knee problem a couple of years ago"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 8,
+    "source_idxs": [
+      4296
+    ],
+    "sentence": "And then they operated on",
+    "prd_word": "operated",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 9,
+    "source_idxs": [
+      786
+    ],
+    "sentence": "Got to get that up to five .",
+    "prd_word": "get",
+    "prd_idx": 3,
+    "label": "ARG2",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        4,
+        6
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        4,
+        6
+      ]
+    ],
+    "human_selected_texts": [
+      "up to five"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 10,
+    "source_idxs": [
+      3686
+    ],
+    "sentence": "I actually got to see her I guess a day before she died .",
+    "prd_word": "got",
+    "prd_idx": 3,
+    "label": "ARG2",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        3,
+        5
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 11,
+    "source_idxs": [
+      7427
+    ],
+    "sentence": "I just would n't go .",
+    "prd_word": "go",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span_mean": "journey",
+    "source_spans_inclusive": [
+      [
+        0,
+        0
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 12,
+    "source_idxs": [
+      250
+    ],
+    "sentence": "I mean it is you know I mean absorbed",
+    "prd_word": "mean",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "element containing meaning",
+    "source_spans_inclusive": [
+      [
+        2,
+        8
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "human_selected_texts": [
+      "it is you know I mean absorbed"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": true,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 13,
+    "source_idxs": [
+      1544
+    ],
+    "sentence": "I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,",
+    "prd_word": "know",
+    "prd_idx": 26,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "source_spans_inclusive": [
+      [
+        23,
+        23
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 14,
+    "source_idxs": [
+      5008
+    ],
+    "sentence": "I think I had mentioned before %uh , that there 's a company now that I 'm working with %um , %uh , which is very much just myself and Guss .",
+    "prd_word": "working",
+    "prd_idx": 18,
+    "label": "ARG1",
+    "span_mean": "job, project",
+    "source_spans_inclusive": [
+      [
+        11,
+        12
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 15,
+    "source_idxs": [
+      1716
+    ],
+    "sentence": "Not enough relatives left here anymore ?",
+    "prd_word": "left",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        1,
+        2
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        1,
+        2
+      ]
+    ],
+    "human_selected_texts": [
+      "enough relatives"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 16,
+    "source_idxs": [
+      3832
+    ],
+    "sentence": "So , I assume it 's hard for you not to eat as much as he does .",
+    "prd_word": "eat",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span_mean": "meal",
+    "source_spans_inclusive": [
+      [
+        12,
+        16
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 2,
+    "human_idx": 17,
+    "source_idxs": [
+      3913,
+      3917
+    ],
+    "sentence": "Told her that she could n't talk to Jasmine play with Jasmine because she said she hurt Jasmine 's Jetta you know",
+    "prd_word": "talk",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span_mean": "subject",
+    "source_spans_inclusive": [
+      [
+        9,
+        11
+      ],
+      [
+        7,
+        11
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 18,
+    "source_idxs": [
+      8412
+    ],
+    "sentence": "Which you know , given how far he 's gotten , you know , he got his degree at Tufts and all , I found that surprising that for the first time as an adult they 're diagnosing this . %um",
+    "prd_word": "gotten",
+    "prd_idx": 10,
+    "label": "ARG2",
+    "span_mean": "destination",
+    "source_spans_inclusive": [
+      [
+        5,
+        6
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 19,
+    "source_idxs": [
+      6477
+    ],
+    "sentence": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+    "prd_word": "call",
+    "prd_idx": 19,
+    "label": "ARG3",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        21,
+        22
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 20,
+    "source_idxs": [
+      6510
+    ],
+    "sentence": "and I 've said that yeah I will give a urine sample or a blood sample if they call me back for those , but they 're going to have to pay my trip back to the states . because there 's no bases in Holland and I 'm not going to pay out of my own expenses to go to Germany or something for them .",
+    "prd_word": "go",
+    "prd_idx": 60,
+    "label": "ARG3",
+    "span_mean": "start point",
+    "source_spans_inclusive": [
+      [
+        64,
+        65
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 21,
+    "source_idxs": [
+      7484
+    ],
+    "sentence": "and I think %uh %uh it 's not Frau",
+    "prd_word": "think",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "Thought",
+    "source_spans_inclusive": [
+      [
+        3,
+        8
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        4,
+        8
+      ]
+    ],
+    "human_selected_texts": [
+      "%uh it 's not Frau"
+    ],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 22,
+    "source_idxs": [
+      216
+    ],
+    "sentence": "and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .",
+    "prd_word": "dealing",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span_mean": "dealer (or all dealers)",
+    "source_spans_inclusive": [
+      [
+        15,
+        15
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 23,
+    "source_idxs": [
+      222
+    ],
+    "sentence": "and I would have been spending more time on it if it were n't for %uh dealing with the burglary issues oh yeah but that I 've been dealing with .",
+    "prd_word": "dealing",
+    "prd_idx": 29,
+    "label": "ARG1",
+    "span_mean": "co-dealer",
+    "source_spans_inclusive": [
+      [
+        18,
+        20
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 24,
+    "source_idxs": [
+      5516
+    ],
+    "sentence": "and she runs from ,",
+    "prd_word": "runs",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span_mean": "course, race, distance",
+    "source_spans_inclusive": [
+      [
+        3,
+        3
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 25,
+    "source_idxs": [
+      8951
+    ],
+    "sentence": "like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .",
+    "prd_word": "know",
+    "prd_idx": 30,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "source_spans_inclusive": [
+      [
+        26,
+        26
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 26,
+    "source_idxs": [
+      8298
+    ],
+    "sentence": "or maybe I 'll just call you when we get in Holland just to let you know we 're there ,",
+    "prd_word": "let",
+    "prd_idx": 15,
+    "label": "ARG0",
+    "span_mean": "allower",
+    "source_spans_inclusive": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        2,
+        2
+      ]
+    ],
+    "human_selected_texts": [
+      "I"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": true,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 27,
+    "source_idxs": [
+      8850
+    ],
+    "sentence": "so I decided that it would make sense to do this .",
+    "prd_word": "do",
+    "prd_idx": 10,
+    "label": "ARG0",
+    "span_mean": "agent, doer",
+    "source_spans_inclusive": [
+      [
+        1,
+        1
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 1,
+    "llm_human_agree": 0,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 28,
+    "source_idxs": [
+      1828
+    ],
+    "sentence": "so I just got to pray that they",
+    "prd_word": "got",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span_mean": "",
+    "source_spans_inclusive": [
+      [
+        4,
+        7
+      ]
+    ],
+    "human_selected_spans": [],
+    "human_selected_texts": [],
+    "span_matched": false,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 29,
+    "source_idxs": [
+      5101
+    ],
+    "sentence": "yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um",
+    "prd_word": "making",
+    "prd_idx": 18,
+    "label": "ARG1",
+    "span_mean": "impelled action/ predication",
+    "source_spans_inclusive": [
+      [
+        18,
+        18
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        18,
+        18
+      ]
+    ],
+    "human_selected_texts": [
+      "beautiful"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  },
+  {
+    "dataset": "tc_smallmodel_llmj_incorrect",
+    "domain": "tc",
+    "llm_label": 0,
+    "human_label": 0,
+    "llm_human_agree": 1,
+    "status": "matched",
+    "num_source_candidates": 1,
+    "human_idx": 30,
+    "source_idxs": [
+      2932
+    ],
+    "sentence": "you know I 'll probably be there some time around six",
+    "prd_word": "know",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span_mean": "fact that is known",
+    "source_spans_inclusive": [
+      [
+        2,
+        9
+      ]
+    ],
+    "human_selected_spans": [
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "human_selected_texts": [
+      "I 'll probably be there some time around",
+      "I 'll probably be there some time around six"
+    ],
+    "span_matched": true,
+    "grammar_status": "没有语法错误",
+    "optional": false,
+    "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+    "source_file": "incorrect_data_tc_smallmodel.json"
+  }
+]

@@ -1,0 +1,8 @@
+nohup: 忽略输入
+未找到lie的角色描述, sen: I mean you lay her down on the bed, prd_word: lay, prd_idx: 4
+未找到lie的角色描述, sen: I mean you lay her down on the bed, prd_word: lay, prd_idx: 4
+未找到lie的角色描述, sen: %uh lay there let me look at my grandmother kind of thing, prd_word: lay, prd_idx: 2
+未找到lie的角色描述, sen: She does not sit still or lay still for you to change her Pampers ., prd_word: lay, prd_idx: 7
+未找到tone的角色描述, sen: And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,, prd_word: tone, prd_idx: 9
+未找到tone的角色描述, sen: And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,, prd_word: tone, prd_idx: 9
+数据已保存到: llm_result/deepseek_result/test_tc_4llm_core_gold_role.json

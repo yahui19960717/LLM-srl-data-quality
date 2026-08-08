@@ -1,0 +1,2274 @@
+[
+  {
+    "idx": 37,
+    "sen": "The Israeli Army said it was checking the reports .",
+    "prd_word": "reports",
+    "prd_lemma": "report",
+    "prd_sense": "01",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span": "it",
+    "span_idx": [
+      4,
+      5
+    ],
+    "span_mean": "Reporter",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"it\\\" is correctly extracted as a single pronoun with clear boundaries.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"it\\\" functions as the subject of \\\"was checking\\\" and does not act as the reporter of the nominal predicate \\\"reports\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because \\\"it\\\" does not serve as the reporter of \\\"reports\\\".\"}"
+  },
+  {
+    "idx": 138,
+    "sen": "Both sides have almost stepped back six years in terms of their statements and attitudes , six years or more -- before the Oslo accords , when the Israelis promised land and the Palestinians promised security .",
+    "prd_word": "promised",
+    "prd_lemma": "promise",
+    "prd_sense": "01",
+    "prd_idx": 35,
+    "label": "ARG1",
+    "span": "security",
+    "span_idx": [
+      35,
+      36
+    ],
+    "span_mean": "person promised to",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"security\\\" is a contiguous single word in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the clause \\\"the Palestinians promised security\\\", \\\"security\\\" is the thing promised (theme), not the person promised to (promisee) as required by the role description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because \\\"security\\\" does not fulfill the role of person promised to.\"}"
+  },
+  {
+    "idx": 193,
+    "sen": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+    "prd_word": "celebration",
+    "prd_lemma": "celebration",
+    "prd_sense": "01",
+    "prd_idx": 24,
+    "label": "ARG1",
+    "span": "as well of the self of the individual",
+    "span_idx": [
+      24,
+      32
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument span includes the extraneous phrase ‘as well’, which is not part of the prepositional complement of ‘celebration’. The correct argument is the prepositional phrase ‘of the self of the individual’.\",\"correct_argument\":\"of the self of the individual\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The phrase ‘of the self of the individual’ denotes the entity being celebrated, aligning with ARG1 as the prototypical patient (theme) of the noun predicate ‘celebration’.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect, even though the role labeling is correct.\"}"
+  },
+  {
+    "idx": 194,
+    "sen": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+    "prd_word": "divide",
+    "prd_lemma": "divide",
+    "prd_sense": "02",
+    "prd_idx": 40,
+    "label": "ARG1",
+    "span": "this novel",
+    "span_idx": [
+      17,
+      19
+    ],
+    "span_mean": "separated entity",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"this novel\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"This novel\\\" is the subject performing the action of dividing, not the separated entity of \\\"divide\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 196,
+    "sen": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+    "prd_word": "divide",
+    "prd_lemma": "divide",
+    "prd_sense": "02",
+    "prd_idx": 40,
+    "label": "ARG2",
+    "span": "to the self",
+    "span_idx": [
+      41,
+      44
+    ],
+    "span_mean": "divided among/ between",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"to the self\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"to the self\\\" indicates the recipient or target of the division, not the participants among or between which the dividing occurs, so it does not match the 'divided among/between' relation required for ARG2.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because the argument does not fulfill the specified 'divided among/between' relation for ARG2.\"}"
+  },
+  {
+    "idx": 199,
+    "sen": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+    "prd_word": "divide",
+    "prd_lemma": "divide",
+    "prd_sense": "02",
+    "prd_idx": 40,
+    "label": "ARG3",
+    "span": "to the self",
+    "span_idx": [
+      41,
+      44
+    ],
+    "span_mean": "other entity separated from",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"to the self\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"to the self\\\" indicates a beneficiary or destination of the action rather than the 'other entity separated from' of \\\"divide\\\", so it does not match the ARG3 description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect.\"}"
+  },
+  {
+    "idx": 325,
+    "sen": "Most significant , demonstrators who had been throwing stones this week , today turned to gasoline bombs .",
+    "prd_word": "turned",
+    "prd_lemma": "turn",
+    "prd_sense": "02",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span": "demonstrators who had been throwing stones this week , today",
+    "span_idx": [
+      3,
+      13
+    ],
+    "span_mean": "thing changing",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided argument span includes the adverbial modifier 'today', which is a temporal adjunct for the predicate rather than part of the subject noun phrase.\",\"correct_argument\":\"demonstrators who had been throwing stones this week\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The argument 'demonstrators who had been throwing stones this week' is the entity undergoing the change described by 'turned', fitting the 'thing changing' definition of ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the semantic role assignment is correct, the argument extraction is incorrect due to over-extraction.\"}"
+  },
+  {
+    "idx": 631,
+    "sen": "Moving ahead now to a developing story , the hunt for so - called smoking gun , meant to prove that Iraq was developing weapons of mass destruction .",
+    "prd_word": "Moving",
+    "prd_lemma": "move",
+    "prd_sense": "01",
+    "prd_idx": 1,
+    "label": "ARG2",
+    "span": "to a developing story , the hunt for so - called smoking gun , meant to prove that Iraq was developing weapons of mass destruction",
+    "span_idx": [
+      3,
+      28
+    ],
+    "span_mean": "destination",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided argument span includes additional modifiers and an appositive noun phrase; the core PP destination should be \\\"to a developing story\\\".\",\"correct_argument\":\"to a developing story\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The phrase indicates the destination of the predicate \\\"Moving\\\", aligning with the ARG2 role as destination.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The semantic role label is correct, but the argument boundary is incorrect, leading to an overall incorrect result.\"}"
+  },
+  {
+    "idx": 641,
+    "sen": "Moving ahead now to a developing story , the hunt for so - called smoking gun , meant to prove that Iraq was developing weapons of mass destruction .",
+    "prd_word": "meant",
+    "prd_lemma": "mean",
+    "prd_sense": "01",
+    "prd_idx": 18,
+    "label": "ARG1",
+    "span": "the hunt for so - called smoking gun",
+    "span_idx": [
+      8,
+      16
+    ],
+    "span_mean": "element containing meaning",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"the hunt for so - called smoking gun\\\" is a contiguous noun phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Although \\\"the hunt for so - called smoking gun\\\" is correctly extracted, it functions as the subject/theme or entity intended by \\\"meant\\\" rather than the 'element containing meaning'; the actual content being 'meant' is expressed by the infinitival clause \\\"to prove that Iraq was developing weapons of mass destruction\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because the argument does not satisfy the specified role relationship as the 'element containing meaning' of \\\"meant\\\".\"}"
+  },
+  {
+    "idx": 717,
+    "sen": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+    "prd_word": "finalize",
+    "prd_lemma": "finalize",
+    "prd_sense": "01",
+    "prd_idx": 40,
+    "label": "ARG0",
+    "span": "Mr. Putin 's",
+    "span_idx": [
+      31,
+      34
+    ],
+    "span_mean": "agent, entity finalizing something",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided span covers only the possessor 'Mr. Putin's', omitting the head noun 'visit' which is the actual argument performing the action; the correct span is 'Mr. Putin's visit'.\",\"correct_argument\":\"Mr. Putin's visit\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"'Mr. Putin's' alone does not denote the entity finalizing the deals; the actual agent ARG0 of 'finalize' is the 'visit'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument boundary is incorrect and thus the semantic role assignment is invalid.\"}"
+  },
+  {
+    "idx": 720,
+    "sen": "Russia has very little influence with Pakistan , but of course Russia supplies India with 70 % of its military hardware and that was of course the second pillar here of Mr. Putin 's visit , which was to finalize some very substantial arms deals .",
+    "prd_word": "deals",
+    "prd_lemma": "deal",
+    "prd_sense": "01",
+    "prd_idx": 45,
+    "label": "ARG1",
+    "span": "arms",
+    "span_idx": [
+      43,
+      44
+    ],
+    "span_mean": "co-dealer",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"arms\\\" is a single-word constituent directly modifying \\\"deals\\\" and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In \\\"arms deals,\\\" \\\"arms\\\" denotes the object or theme of the deals, not a co-dealer.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 752,
+    "sen": "Sources close to the investigation tell NBC News that Singapore Airlines flight 6 tried to take off on a runway closed for repairs .",
+    "prd_word": "take",
+    "prd_lemma": "take",
+    "prd_sense": "19",
+    "prd_idx": 16,
+    "label": "ARG0",
+    "span": "Singapore Airlines flight 6",
+    "span_idx": [
+      9,
+      13
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"Singapore Airlines flight 6\\\" is a contiguous noun phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the clause, \\\"Singapore Airlines flight 6\\\" is the theme undergoing the action of taking off, not the prototypical agent, so it should be labeled ARG1 rather than ARG0.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because the predicate \\\"take\\\" assigns the theme to ARG1 rather than agent to ARG0.\"}"
+  },
+  {
+    "idx": 758,
+    "sen": "They were via Radio Netherlands at Flavo , the Netherlands 15:00 - 16:00 UTC on 15360 and 17820 , that according to Andy Senet , via Glenhouser .",
+    "prd_word": "according",
+    "prd_lemma": "accord",
+    "prd_sense": "01",
+    "prd_idx": 21,
+    "label": "ARG2",
+    "span": "to Andy Senet",
+    "span_idx": [
+      21,
+      24
+    ],
+    "span_mean": "given-to",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"to Andy Senet\\\" is a contiguous prepositional phrase forming a complete semantic unit and is correctly extracted.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In \\\"according to Andy Senet\\\", the phrase \\\"to Andy Senet\\\" indicates the source or attribution of the statement, not a recipient ('given-to') of 'according'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct but the semantic role label is incorrect because \\\"to Andy Senet\\\" does not function as a 'given-to' recipient for the predicate 'according'.\"}"
+  },
+  {
+    "idx": 834,
+    "sen": "All this happening about 90 minutes ago based on the wire reports we 're getting here .",
+    "prd_word": "getting",
+    "prd_lemma": "get",
+    "prd_sense": "01",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span": "we",
+    "span_idx": [
+      12,
+      13
+    ],
+    "span_mean": "thing gotten",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"we\\\" is correctly extracted as a single-word pronoun forming a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the clause \\\"we're getting here\\\", \\\"we\\\" functions as the theme undergoing motion (arriving), not as the 'thing gotten' of the predicate \\\"getting\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because \\\"we\\\" does not represent the 'thing gotten' of \\\"getting\\\".\"}"
+  },
+  {
+    "idx": 839,
+    "sen": "All of our customers who participated in our presale list will get it .",
+    "prd_word": "participated",
+    "prd_lemma": "participate",
+    "prd_sense": "01",
+    "prd_idx": 6,
+    "label": "ARG0",
+    "span": "All of our customers",
+    "span_idx": [
+      0,
+      4
+    ],
+    "span_mean": "agent, entity participating",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument “All of our customers” spans outside the relative clause containing the predicate. In the clause “who participated in our presale list,” the actual subject argument is the pronoun “who.”\",\"correct_argument\":\"who\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The subject “who” (referring to ‘All of our customers’) functions as the agent participating, which aligns with ARG0.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The semantic role is correct but the argument boundary is incorrect.\"}"
+  },
+  {
+    "idx": 878,
+    "sen": "As Dave Gavlak reports , the US Cole was towed out of the Aden Harbor to a waiting Norwegian transport ship , that will actually carry the damaged destroyer home .",
+    "prd_word": "reports",
+    "prd_lemma": "report",
+    "prd_sense": "01",
+    "prd_idx": 4,
+    "label": "ARG1",
+    "span": "the US Cole",
+    "span_idx": [
+      5,
+      8
+    ],
+    "span_mean": "theme (what is reported)",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"the US Cole\\\" is only part of the reported content; the theme of \\\"reports\\\" should be the entire clause \\\"the US Cole was towed out of the Aden Harbor to a waiting Norwegian transport ship\\\".\",\"correct_argument\":\"the US Cole was towed out of the Aden Harbor to a waiting Norwegian transport ship\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"the US Cole\\\" alone does not fulfill the role of theme (what is reported) for \\\"reports\\\"; the full event clause is required as ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect, so the semantic role labeling is incorrect.\"}"
+  },
+  {
+    "idx": 1048,
+    "sen": "You know , as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see .",
+    "prd_word": "know",
+    "prd_lemma": "know",
+    "prd_sense": "01",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span": ", as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see",
+    "span_idx": [
+      2,
+      30
+    ],
+    "span_mean": "fact that is known",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided argument span includes the leading comma and the parenthetical 'as a music lover that I am,' which are not part of the complement clause. The true fact known is expressed by 'there's five acts all playing at the same time on five different stages that I want to see'.\",\"correct_argument\":\"there's five acts all playing at the same time on five different stages that I want to see\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The clause 'there's five acts all playing at the same time on five different stages that I want to see' expresses the proposition known, aligning with ARG1 as the 'fact that is known' of 'know'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect due to boundary issues, even though the semantic role labeling is correct.\"}"
+  },
+  {
+    "idx": 1053,
+    "sen": "You know , as a music lover that I am , there 's five acts all playing at the same time on five different stages that I want to see .",
+    "prd_word": "playing",
+    "prd_lemma": "play",
+    "prd_sense": "01",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span": "five acts",
+    "span_idx": [
+      13,
+      15
+    ],
+    "span_mean": "game",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"five acts\\\" is a contiguous phrase and forms a complete semantic unit as the entities involved in \\\"playing\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the clause, \\\"five acts\\\" are the performers (agents) of the action \\\"playing\\\", not the \\\"game\\\" being played as described by the role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because \\\"five acts\\\" does not represent the game of \\\"playing\\\" but the performers of the action.\"}"
+  },
+  {
+    "idx": 1132,
+    "sen": "The Indian lawmakers were sort of clambering over each other to shake his hand as he left the parliament building .",
+    "prd_word": "clambering",
+    "prd_lemma": "clamber",
+    "prd_sense": "01",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span": "over each other",
+    "span_idx": [
+      7,
+      10
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"over each other\\\" is a contiguous phrase that correctly captures the complete prepositional complement of the predicate.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the sentence, \\\"over each other\\\" functions as a locative/manner complement describing how they clambered, not as a prototypical patient of \\\"clambering\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the argument extraction is correct, the semantic role label is incorrect because the phrase does not serve as the prototypical patient.\"}"
+  },
+  {
+    "idx": 1211,
+    "sen": "And if this attack turns out to be the work of terrorists , Hoffman says it would signal a dangerous new trend .",
+    "prd_word": "turns",
+    "prd_lemma": "turn",
+    "prd_sense": "11",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span": "to be the work of terrorists",
+    "span_idx": [
+      6,
+      12
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"to be the work of terrorists\\\" is a contiguous clause and represents a complete semantic unit as the complement of \\\"turns out\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"to be the work of terrorists\\\" functions as the result or complement of the predicate \\\"turns out\\\", not as a prototypical patient.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because the argument does not satisfy the prototypical patient role.\"}"
+  },
+  {
+    "idx": 1254,
+    "sen": "We have also heard a different sign of Sir Paul McCartney playing to enthusiastic crowds in Red Square , and we , in turn , have been enthralled by the celebrations of your own city in Petersburg .",
+    "prd_word": "playing",
+    "prd_lemma": "play",
+    "prd_sense": "01",
+    "prd_idx": 12,
+    "label": "ARG2",
+    "span": "to enthusiastic crowds",
+    "span_idx": [
+      12,
+      15
+    ],
+    "span_mean": "instrument/equipment used to play game",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"to enthusiastic crowds\\\" is a contiguous prepositional phrase forming a complete semantic unit indicating the audience of \\\"playing\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The phrase \\\"to enthusiastic crowds\\\" denotes the audience or beneficiary of the performance, not an instrument or equipment used for playing.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the argument span is correctly extracted, its assigned role as an instrument (ARG2) is incorrect.\"}"
+  },
+  {
+    "idx": 1319,
+    "sen": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+    "prd_word": "make",
+    "prd_lemma": "make",
+    "prd_sense": "01",
+    "prd_idx": 7,
+    "label": "ARG0",
+    "span": "He",
+    "span_idx": [
+      0,
+      1
+    ],
+    "span_mean": "creator",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"He\\\" is a single pronoun directly corresponding to the semantic patient/theme of the predicate \\\"make fun of\\\" and is correctly extracted as a complete unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"He\\\" is not the agent or creator of the action \\\"make fun of\\\"; instead, he is the theme or patient being made fun of.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because \\\"He\\\" does not fulfill the creator (ARG0) role for the predicate \\\"make\\\".\"}"
+  },
+  {
+    "idx": 1321,
+    "sen": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+    "prd_word": "make",
+    "prd_lemma": "make",
+    "prd_sense": "01",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span": "fun of",
+    "span_idx": [
+      7,
+      9
+    ],
+    "span_mean": "creation",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"fun of\\\" is a contiguous phrase in the sentence and serves as the complete complement of the predicate \\\"make\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In this context, \\\"make fun of\\\" is an idiomatic predicate meaning to ridicule, so \\\"fun of\\\" is not something that \\\"make\\\" literally creates as described by the role of \\\"creation\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the argument span is correctly extracted, the semantic role label is incorrect since \\\"fun of\\\" does not represent a creation by the predicate \\\"make\\\".\"}"
+  },
+  {
+    "idx": 1327,
+    "sen": "He is not as easy to make fun of yet Yubitritch says , unlike Milosevic , but that does n't mean he will escape the scrutiny and sharp wits of Index Theater .",
+    "prd_word": "does",
+    "prd_lemma": "do",
+    "prd_sense": "01",
+    "prd_idx": 19,
+    "label": "ARG1",
+    "span": "n't mean he will escape the scrutiny and sharp wits of Index Theater",
+    "span_idx": [
+      19,
+      32
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided argument includes the negation \\\"n't\\\" and the verb \\\"mean\\\", which are part of the predicate of the embedded clause rather than the patient argument. The correct patient argument is the subordinate clause that follows: \\\"he will escape the scrutiny and sharp wits of Index Theater\\\".\",\"correct_argument\":\"he will escape the scrutiny and sharp wits of Index Theater\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"As given, the argument \\\"n't mean he will escape the scrutiny and sharp wits of Index Theater\\\" does not correspond to the prototypical patient of the predicate \\\"does\\\"; it improperly includes predicate elements. The prototypical patient should be the clause \\\"he will escape the scrutiny and sharp wits of Index Theater\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument boundary is incorrect and thus the semantic role label assignment fails to identify the proper patient argument.\"}"
+  },
+  {
+    "idx": 1342,
+    "sen": "We have the pictures coming in from Central Florida , News 13 .",
+    "prd_word": "have",
+    "prd_lemma": "have",
+    "prd_sense": "03",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span": "News 13",
+    "span_idx": [
+      10,
+      12
+    ],
+    "span_mean": "owner",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"News 13\\\" is an appositive identifying the speaker and not the subject of \\\"have\\\"; the true ARG0 is \\\"We\\\".\",\"correct_argument\":\"We\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"News 13\\\" does not fulfill the owner role for \\\"have\\\"; the ARG0 (owner) is \\\"We\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Both the argument extraction and the semantic role labeling are incorrect.\"}"
+  },
+  {
+    "idx": 1390,
+    "sen": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+    "prd_word": "involving",
+    "prd_lemma": "involve",
+    "prd_sense": "01",
+    "prd_idx": 32,
+    "label": "ARG2",
+    "span": "Israel",
+    "span_idx": [
+      29,
+      30
+    ],
+    "span_mean": "group",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"Israel\\\" is a proper noun correctly extracted as it serves as the subject of \\\"involving\\\", and its span precisely matches the text in the sentence.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"Israel\\\" functions as the agent initiating the action of \\\"involving\\\" suitable ferment, not as the 'group' (ARG2) targeted by the action.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument boundary is correct, but the assigned semantic role (ARG2) is incorrect.\"}"
+  },
+  {
+    "idx": 1393,
+    "sen": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+    "prd_word": "involving",
+    "prd_lemma": "involve",
+    "prd_sense": "01",
+    "prd_idx": 32,
+    "label": "ARG0",
+    "span": "the United States",
+    "span_idx": [
+      45,
+      48
+    ],
+    "span_mean": "causer of inclusion",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument “the United States” belongs to a different clause introduced by “where” and is not part of the clause containing the predicate “involving”. The true subject (ARG0) of “involving” is “Israel”.\",\"correct_argument\":\"Israel\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Since “the United States” is not an argument of the predicate “involving”, it cannot fulfill the role of causer of inclusion (ARG0) for that predicate.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect and therefore the assigned semantic role label is also incorrect.\"}"
+  },
+  {
+    "idx": 1489,
+    "sen": "The federal government will not appeal the court ruling that cleared the way for same - sex unions .",
+    "prd_word": "cleared",
+    "prd_lemma": "clear",
+    "prd_sense": "01",
+    "prd_idx": 11,
+    "label": "ARG2",
+    "span": "for same - sex unions",
+    "span_idx": [
+      13,
+      18
+    ],
+    "span_mean": "dirt",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"for same - sex unions\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"for same - sex unions\\\" does not represent the \\\"dirt\\\" of \\\"cleared\\\"; it indicates the beneficiary or purpose of the action, not the removed obstruction.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the assigned semantic role is incorrect.\"}"
+  },
+  {
+    "idx": 1570,
+    "sen": "We are still in crisis and we will be I think for a while , but the current crisis Jonetic hopes will at least be one where government critics will not be branded as traitors and be banned from public performances .",
+    "prd_word": "performances",
+    "prd_lemma": "performance",
+    "prd_sense": "01",
+    "prd_idx": 41,
+    "label": "ARG1",
+    "span": "public",
+    "span_idx": [
+      39,
+      40
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"public\\\" is correctly extracted as a single contiguous word forming a complete semantic unit modifying \\\"performances\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"public\\\" is an attributive modifier (adjective) specifying the type of \\\"performances\\\", not a prototypical patient of the predicate \\\"performances\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 1630,
+    "sen": "Everybody keeping a sharp eye on these recount tallies and on Sunday 's deadline at 5:00 p.m. .",
+    "prd_word": "keeping",
+    "prd_lemma": "keep",
+    "prd_sense": "02",
+    "prd_idx": 2,
+    "label": "ARG2",
+    "span": "on these recount tallies",
+    "span_idx": [
+      5,
+      9
+    ],
+    "span_mean": "continued state or action",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"on these recount tallies\\\" is a contiguous prepositional phrase and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The phrase \\\"on these recount tallies\\\" functions as the theme being watched (Arg1) rather than indicating a continued state or action (ARG2) of \\\"keeping\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect.\"}"
+  },
+  {
+    "idx": 1680,
+    "sen": "The series is created by nationally syndicated cartoonist and author John Callahan , who is a quadriplegic .",
+    "prd_word": "syndicated",
+    "prd_lemma": "syndicate",
+    "prd_sense": "01",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span": "cartoonist",
+    "span_idx": [
+      7,
+      8
+    ],
+    "span_mean": "thing given",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"cartoonist\\\" is correctly extracted as the noun modified by the predicate \\\"syndicated\\\", forming a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Although \\\"cartoonist\\\" is what is described as \\\"syndicated\\\", it is not the \\\"thing given\\\" by the act of syndicating, so it does not satisfy the specified ARG1 role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect.\"}"
+  },
+  {
+    "idx": 1759,
+    "sen": "Sovereignty is not simply a quality of statehood , but it has to do with the power of the people and democratic structures which make sovereignty an important human value .",
+    "prd_word": "has",
+    "prd_lemma": "have",
+    "prd_sense": "01",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span": "to do with the power of the people and democratic structures which make sovereignty an important human value",
+    "span_idx": [
+      12,
+      30
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"to do with the power of the people and democratic structures which make sovereignty an important human value\\\" is a contiguous phrase that fully captures the complement of the predicate \\\"has\\\" and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the idiomatic expression \\\"has to do with X,\\\" the phrase expresses a thematic/topic relation rather than serving as a prototypical patient of \\\"has.\\\"\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"While the argument extraction is correct, the assigned role label is incorrect because the argument does not function as a patient of the predicate.\"}"
+  },
+  {
+    "idx": 1768,
+    "sen": "Sovereignty is not simply a quality of statehood , but it has to do with the power of the people and democratic structures which make sovereignty an important human value .",
+    "prd_word": "make",
+    "prd_lemma": "make",
+    "prd_sense": "02",
+    "prd_idx": 25,
+    "label": "ARG0",
+    "span": "the people and democratic structures",
+    "span_idx": [
+      18,
+      23
+    ],
+    "span_mean": "impeller to action",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"the people and democratic structures\\\" omits the head noun phrase \\\"the power of\\\", which is the actual subject performing the action of 'make' in the clause. The provided span fails to capture the full semantic unit.\",\"correct_argument\":\"the power of the people and democratic structures\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"The people and democratic structures\\\" by itself are not the direct impeller of the action; it is their power that makes sovereignty an important human value, so the provided argument does not fulfill the ARG0 role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect due to missing the head noun, and consequently the semantic role labeling as ARG0 is also incorrect.\"}"
+  },
+  {
+    "idx": 1814,
+    "sen": "No telling how long the Osbourne phenomenon may last but the family 's loyal following will always be screaming for more .",
+    "prd_word": "screaming",
+    "prd_lemma": "scream",
+    "prd_sense": "01",
+    "prd_idx": 19,
+    "label": "ARG2",
+    "span": "for more",
+    "span_idx": [
+      19,
+      21
+    ],
+    "span_mean": "hearer",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"for more\\\" is a contiguous prepositional phrase that fully captures the complement of \\\"screaming\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The phrase \\\"for more\\\" expresses what is being demanded, not the hearer of the screaming.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"While the argument extraction is correct, the semantic role label is incorrect because \\\"for more\\\" does not denote the hearer of \\\"screaming\\\".\"}"
+  },
+  {
+    "idx": 1854,
+    "sen": "Keep in mind , those were not registered by the computers because they either had a hanging chad or dimpled chad .",
+    "prd_word": "Keep",
+    "prd_lemma": "keep",
+    "prd_sense": "01",
+    "prd_idx": 1,
+    "label": "ARG3",
+    "span": "in mind",
+    "span_idx": [
+      1,
+      3
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"in mind\\\" is a contiguous prepositional phrase that forms a complete semantic unit and correctly complements the predicate \\\"Keep\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the expression \\\"Keep in mind,\\\" \\\"in mind\\\" serves as a locative complement (indicating where something is kept mentally), not as a starting point, benefactive, or attribute, so it does not satisfy the ARG3 role description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the argument extraction is correct, the assigned semantic role ARG3 is incorrect because \\\"in mind\\\" does not fulfill the specified role relationship.\"}"
+  },
+  {
+    "idx": 1855,
+    "sen": "Keep in mind , those were not registered by the computers because they either had a hanging chad or dimpled chad .",
+    "prd_word": "Keep",
+    "prd_lemma": "keep",
+    "prd_sense": "01",
+    "prd_idx": 1,
+    "label": "ARG2",
+    "span": "in mind",
+    "span_idx": [
+      1,
+      3
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"in mind\\\" is a contiguous prepositional phrase and forms a complete semantic unit complementing the predicate \\\"Keep\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the idiomatic expression \\\"Keep in mind\\\", \\\"in mind\\\" is part of the predicate or serves as a locative argument rather than an instrument, benefactive, or attribute as specified for ARG2.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the semantic role label is incorrect because \\\"in mind\\\" does not satisfy the specified ARG2 relationship.\"}"
+  },
+  {
+    "idx": 1912,
+    "sen": "We will find out who is responsible and hold them accountable .",
+    "prd_word": "hold",
+    "prd_lemma": "hold",
+    "prd_sense": "02",
+    "prd_idx": 9,
+    "label": "ARG1",
+    "span": "accountable",
+    "span_idx": [
+      10,
+      11
+    ],
+    "span_mean": "thing held",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"accountable\\\" is only an adjective complement and does not include the object of \\\"hold\\\"; the actual thing held is \\\"them\\\".\",\"correct_argument\":\"them\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"accountable\\\" does not serve as the \\\"thing held\\\" of \\\"hold\\\"; \\\"them\\\" is the direct object and fulfills the role of ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Both the argument extraction and the semantic role labeling are incorrect.\"}"
+  },
+  {
+    "idx": 1918,
+    "sen": "The Vice President out of sight today at his residence , aides saying the entire family together for a meal and football on TV .",
+    "prd_word": "saying",
+    "prd_lemma": "say",
+    "prd_sense": "01",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span": "the entire family",
+    "span_idx": [
+      13,
+      16
+    ],
+    "span_mean": "Utterance",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The extracted span \\\"the entire family\\\" does not represent the full content of the utterance, which should include the entire clause (the entire family together for a meal and football on TV).\",\"correct_argument\":\"the entire family together for a meal and football on TV\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Since the argument is incomplete, it does not correctly fulfill the Utterance role (ARG1) of the predicate \\\"saying\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect, leading to an incorrect semantic role labeling.\"}"
+  },
+  {
+    "idx": 1921,
+    "sen": "The Vice President out of sight today at his residence , aides saying the entire family together for a meal and football on TV .",
+    "prd_word": "saying",
+    "prd_lemma": "say",
+    "prd_sense": "01",
+    "prd_idx": 13,
+    "label": "ARG0",
+    "span": "The Vice President",
+    "span_idx": [
+      0,
+      3
+    ],
+    "span_mean": "Sayer",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"The Vice President\\\" is not part of the clause containing the predicate \\\"saying\\\"; the predicate is attached to \\\"aides\\\".\",\"correct_argument\":\"aides\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"The Vice President\\\" is not the Sayer of \\\"saying\\\"; the correct Sayer (ARG0) is \\\"aides\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Since the argument extraction is incorrect, the semantic role labeling is also incorrect.\"}"
+  },
+  {
+    "idx": 1977,
+    "sen": "Gao Xingjian arrived in Stockholm this week and when he leaves the Chinese born writer will have something extra in his suitcase , the Nobel Prize for Literature .",
+    "prd_word": "born",
+    "prd_lemma": "bear",
+    "prd_sense": "02",
+    "prd_idx": 14,
+    "label": "ARG0",
+    "span": "he",
+    "span_idx": [
+      9,
+      10
+    ],
+    "span_mean": "mother",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument 'he' is incorrectly extracted because it is the subject of 'leaves', not an argument of the predicate 'born'. The correct argument should be the noun phrase 'the Chinese-born writer', which is the entity described by 'born'.\",\"correct_argument\":\"the Chinese-born writer\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The argument 'he' does not serve as the 'mother' (ARG0) of the predicate 'born'; moreover, 'born' is an adjectival predicate and its ARG0 would typically be the entity that is born.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Both the argument extraction and the semantic role labeling are incorrect.\"}"
+  },
+  {
+    "idx": 1979,
+    "sen": "Gao Xingjian arrived in Stockholm this week and when he leaves the Chinese born writer will have something extra in his suitcase , the Nobel Prize for Literature .",
+    "prd_word": "born",
+    "prd_lemma": "bear",
+    "prd_sense": "02",
+    "prd_idx": 14,
+    "label": "ARG0",
+    "span": "Chinese",
+    "span_idx": [
+      12,
+      13
+    ],
+    "span_mean": "mother",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"Chinese\\\" is correctly extracted as a single adjective word with clear boundaries and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"Chinese\\\" indicates nationality in the compound \\\"Chinese-born writer\\\" and does not serve as the agent or 'mother' of the predicate \\\"born\\\", so it does not satisfy the ARG0 relation.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the semantic role labeling is incorrect because \\\"Chinese\\\" does not fulfill the specified ARG0 role for \\\"born\\\".\"}"
+  },
+  {
+    "idx": 2012,
+    "sen": "`` Iraq has triumphed over its enemies , '' he said , `` and it will triumph in the remaining rounds of the battle . ''",
+    "prd_word": "triumph",
+    "prd_lemma": "triumph",
+    "prd_sense": "01",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span": "in the remaining rounds of the battle",
+    "span_idx": [
+      17,
+      24
+    ],
+    "span_mean": "loser",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"in the remaining rounds of the battle\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"in the remaining rounds of the battle\\\" specifies the time or context of the triumph, not the loser of the triumph.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because the argument does not denote the loser.\"}"
+  },
+  {
+    "idx": 2098,
+    "sen": "I think a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street .",
+    "prd_word": "think",
+    "prd_lemma": "think",
+    "prd_sense": "01",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span": "are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street",
+    "span_idx": [
+      28,
+      63
+    ],
+    "span_mean": "Thought",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided argument omits the subject of the complement clause (\\\"a number of the reforms that have come via the Sarbanes-Oxley Act and a number of things that we have done at the SEC\\\"), so its boundaries are incomplete.\",\"correct_argument\":\"a number of the reforms that have come via the Sarbanes-Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they're performing their duty as a director, how they're performing their duties on audit committees and compensation committees and in Wall Street\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The subordinate clause expresses the content or \\\"Thought\\\" of the predicate \\\"think\\\", satisfying the ARG1 role description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect, even though the semantic role assignment is correct.\"}"
+  },
+  {
+    "idx": 2121,
+    "sen": "I think a number of the reforms that have come via the Sarbanes - Oxley Act and a number of things that we have done at the SEC are basically making everybody take a new look at how they 're performing their duty as a director , how they 're performing their duties on audit committees and compensation committees and in Wall Street .",
+    "prd_word": "take",
+    "prd_lemma": "take",
+    "prd_sense": "01",
+    "prd_idx": 33,
+    "label": "ARG0",
+    "span": "they",
+    "span_idx": [
+      38,
+      39
+    ],
+    "span_mean": "Taker",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The extracted argument \\\"they\\\" does not correspond to the actor of the predicate \\\"take\\\"; the actual actor (ARG0) in \\\"making everybody take a new look\\\" is \\\"everybody\\\".\",\"correct_argument\":\"everybody\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Since the argument is incorrect, \\\"they\\\" cannot fulfill the role of ARG0 (Taker) for \\\"take\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Both the argument extraction and the semantic role labeling are incorrect because the actor of \\\"take\\\" is \\\"everybody\\\", not \\\"they\\\".\"}"
+  },
+  {
+    "idx": 2213,
+    "sen": "I hate these people that go , we 've been married for 56 years and never had a bad word .",
+    "prd_word": "go",
+    "prd_lemma": "go",
+    "prd_sense": "23",
+    "prd_idx": 6,
+    "label": "ARG1",
+    "span": "these people",
+    "span_idx": [
+      2,
+      4
+    ],
+    "span_mean": "Utterance",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"these people\\\" is a contiguous noun phrase serving as the subject of the predicate \\\"go\\\" and is correctly extracted.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"These people\\\" functions as the entity performing the action of going (Agent/Theme), not as an utterance of \\\"go\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"While the argument boundary is correct, the semantic role label is wrong because the argument does not represent an utterance for the predicate \\\"go\\\".\"}"
+  },
+  {
+    "idx": 2267,
+    "sen": "Electrical resources in the West Coast state are stretched to their limit with a looming threat of rolling blackouts .",
+    "prd_word": "stretched",
+    "prd_lemma": "stretch",
+    "prd_sense": "01",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span": "with a looming threat of rolling blackouts",
+    "span_idx": [
+      12,
+      19
+    ],
+    "span_mean": "agent, entity making something be longer",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"with a looming threat of rolling blackouts\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"with a looming threat of rolling blackouts\\\" expresses a circumstance or cause, not the agent that makes something be longer, so it does not satisfy the ARG0 role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because the phrase does not function as the agent of \\\"stretched\\\".\"}"
+  },
+  {
+    "idx": 2292,
+    "sen": "Getting both to attend was not an easy task .",
+    "prd_word": "Getting",
+    "prd_lemma": "get",
+    "prd_sense": "04",
+    "prd_idx": 1,
+    "label": "ARG1",
+    "span": "both",
+    "span_idx": [
+      1,
+      2
+    ],
+    "span_mean": "a clause -- action done or descriptive small clause",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument 'both' is only the determiner, missing the full clause 'both to attend' which forms the complete semantic unit for ARG1.\",\"correct_argument\":\"both to attend\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The provided argument 'both' does not represent the required small clause and thus does not satisfy the role description for ARG1, which should be the clause 'both to attend'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect as only 'both' is extracted instead of 'both to attend', and consequently the semantic role labeling is also incorrect.\"}"
+  },
+  {
+    "idx": 2293,
+    "sen": "Getting both to attend was not an easy task .",
+    "prd_word": "Getting",
+    "prd_lemma": "get",
+    "prd_sense": "04",
+    "prd_idx": 1,
+    "label": "ARG2",
+    "span": "to attend",
+    "span_idx": [
+      2,
+      4
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument 'to attend' omits 'both', which is part of the complete argument 'both to attend', making it an insufficient extraction.\",\"correct_argument\":\"both to attend\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"'to attend' denotes the purpose of 'Getting', not an instrument, benefactive, or attribute as required by ARG2.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Both the argument extraction and semantic role labeling are incorrect.\"}"
+  },
+  {
+    "idx": 2346,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "tried",
+    "prd_lemma": "try",
+    "prd_sense": "01",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span": "to vote who legally voted to have their vote count",
+    "span_idx": [
+      5,
+      15
+    ],
+    "span_mean": "thing tried",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument span includes the relative clause 'who legally voted to have their vote count', which modifies 'everybody' rather than serving as the complement of 'tried'. The complete and minimal complement is just 'to vote'.\",\"correct_argument\":\"to vote\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The argument 'to vote' correctly expresses the activity that was attempted, matching the 'thing tried' role of ARG1 for 'tried'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect due to over-inclusion of the relative clause, although the semantic role assignment for 'to vote' as ARG1 is correct.\"}"
+  },
+  {
+    "idx": 2347,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "vote",
+    "prd_lemma": "vote",
+    "prd_sense": "01",
+    "prd_idx": 7,
+    "label": "ARG0",
+    "span": "who",
+    "span_idx": [
+      7,
+      8
+    ],
+    "span_mean": "voter",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"who\\\" is only a single pronoun and does not capture the full subject phrase required; the correct span should be \\\"who legally voted\\\".\",\"correct_argument\":\"who legally voted\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"In the clause with the predicate \\\"vote\\\", the argument refers to the voter (agent) of the action, which aligns with ARG0.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The semantic role labeling is correct but the argument span extraction is incorrect.\"}"
+  },
+  {
+    "idx": 2351,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "voted",
+    "prd_lemma": "vote",
+    "prd_sense": "01",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span": "to have their vote count , including service people",
+    "span_idx": [
+      10,
+      19
+    ],
+    "span_mean": "candidate or ballot issue",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The span \\\"to have their vote count , including service people\\\" is a contiguous to-infinitive clause with its adjunct, forming a complete semantic unit as the full argument of \\\"voted\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The clause expresses the purpose for which they voted, not the candidate or ballot issue, so it does not satisfy the role description for ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the argument span is correctly extracted, the assigned role ARG1 is incorrect because the argument does not represent the candidate or ballot issue of \\\"voted\\\".\"}"
+  },
+  {
+    "idx": 2352,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "voted",
+    "prd_lemma": "vote",
+    "prd_sense": "01",
+    "prd_idx": 10,
+    "label": "ARG0",
+    "span": "everybody who tried to vote",
+    "span_idx": [
+      2,
+      7
+    ],
+    "span_mean": "voter",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The span 'everybody who tried to vote' is not the direct subject of 'voted'; the predicate’s subject is the pronoun 'who' in the relative clause 'who legally voted'.\",\"correct_argument\":\"who\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The provided argument denotes all who tried to vote, not specifically those who legally voted, so it does not correctly fulfill the role of 'voter' for the predicate 'voted'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument boundary is incorrect and the semantic role assignment is therefore also incorrect.\"}"
+  },
+  {
+    "idx": 2355,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "voted",
+    "prd_lemma": "vote",
+    "prd_sense": "01",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span": "to have their vote count",
+    "span_idx": [
+      10,
+      15
+    ],
+    "span_mean": "candidate or ballot issue",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The span \\\"to have their vote count\\\" is not an argument of the predicate \\\"voted\\\" but rather the complement of the main verb \\\"want\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Since \\\"to have their vote count\\\" is not an argument of \\\"voted\\\", it cannot fulfill the role of candidate or ballot issue for that predicate.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Both the argument extraction and the semantic role assignment for the predicate \\\"voted\\\" are incorrect.\"}"
+  },
+  {
+    "idx": 2357,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "have",
+    "prd_lemma": "have",
+    "prd_sense": "04",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span": "their vote count , including service people",
+    "span_idx": [
+      12,
+      19
+    ],
+    "span_mean": "action",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"their vote count , including service people\\\" is correctly extracted as a contiguous phrase representing the complete object of \\\"have\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"their vote count , including service people\\\" is not an action of the predicate \\\"have\\\" but rather its object/theme, so it does not satisfy the specified role relationship for ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 2361,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "count",
+    "prd_lemma": "count",
+    "prd_sense": "02",
+    "prd_idx": 15,
+    "label": "ARG0",
+    "span": "their",
+    "span_idx": [
+      12,
+      13
+    ],
+    "span_mean": "agent, entity causing some grouping",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"their\\\" is only a determiner and does not form a complete semantic unit; the full argument should be \\\"their vote\\\".\",\"correct_argument\":\"their vote\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"Their\\\" alone cannot function as the agent of \\\"count\\\"; the agent is implicit (election officials), and \\\"their vote\\\" is the theme of the counting action.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect (insufficient span) and the semantic role labeling is incorrect.\"}"
+  },
+  {
+    "idx": 2362,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "count",
+    "prd_lemma": "count",
+    "prd_sense": "02",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span": "vote",
+    "span_idx": [
+      13,
+      14
+    ],
+    "span_mean": "theme, thing being included in some group",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"vote\\\" omits the determiner \\\"their\\\", so it does not form the complete noun phrase representing the entity being counted.\",\"correct_argument\":\"their vote\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"In the clause \\\"to have their vote count\\\", \\\"their vote\\\" is the theme of the predicate \\\"count\\\", as it is the thing being included in the count.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The semantic role labeling is correct, but the argument span is incomplete, making the overall annotation incorrect.\"}"
+  },
+  {
+    "idx": 2364,
+    "sen": "I want everybody who tried to vote who legally voted to have their vote count , including service people .",
+    "prd_word": "count",
+    "prd_lemma": "count",
+    "prd_sense": "02",
+    "prd_idx": 15,
+    "label": "ARG0",
+    "span": "their vote",
+    "span_idx": [
+      12,
+      14
+    ],
+    "span_mean": "agent, entity causing some grouping",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"their vote\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"their vote\\\" is the theme being counted, not the agent causing the grouping, so it does not fulfill the ARG0 role description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct but the semantic role labeling is incorrect.\"}"
+  },
+  {
+    "idx": 2408,
+    "sen": "They crafted their own partisan tax package and passed it last night on a party - line vote .",
+    "prd_word": "vote",
+    "prd_lemma": "vote",
+    "prd_sense": "01",
+    "prd_idx": 18,
+    "label": "ARG0",
+    "span": "party - line",
+    "span_idx": [
+      14,
+      17
+    ],
+    "span_mean": "voter",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"party - line\\\" is a contiguous hyphenated modifier forming a complete semantic unit correctly extracted from the sentence.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The phrase \\\"party - line\\\" specifies the type or manner of the vote, not the entity performing the vote, so it does not fulfill the role of ARG0 (voter).\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role ARG0 is incorrect because \\\"party - line\\\" is not the voter of the vote.\"}"
+  },
+  {
+    "idx": 2438,
+    "sen": "Thanks , Christopher .",
+    "prd_word": "Thanks",
+    "prd_lemma": "thanks",
+    "prd_sense": "01",
+    "prd_idx": 1,
+    "label": "ARG0",
+    "span": "Christopher",
+    "span_idx": [
+      2,
+      3
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"Christopher\\\" is correctly extracted as a single contiguous phrase matching the proper noun in the sentence.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the expression \\\"Thanks, Christopher\\\", \\\"Christopher\\\" is the recipient or addressee of the gratitude, not the agent performing the action of 'Thanks'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because Christopher is not the agent of 'Thanks'.\"}"
+  },
+  {
+    "idx": 2532,
+    "sen": "We have a major development to report tonight involving the crash of that Singapore Airlines 747 in Taiwan this week .",
+    "prd_word": "involving",
+    "prd_lemma": "involve",
+    "prd_sense": "01",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span": "a major development",
+    "span_idx": [
+      2,
+      5
+    ],
+    "span_mean": "group",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"a major development\\\" is correctly extracted as a contiguous noun phrase covering the complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"a major development\\\" is the head noun modified by the participle clause, not the ‘group’ argument of the predicate \\\"involving\\\"; the true theme of \\\"involving\\\" is \\\"the crash of that Singapore Airlines 747\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct but the assigned semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 2574,
+    "sen": "The question should be what the Hosni Mubarak are they still doing there eight years after the peace process began .",
+    "prd_word": "doing",
+    "prd_lemma": "do",
+    "prd_sense": "02",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span": "the Hosni Mubarak",
+    "span_idx": [
+      5,
+      8
+    ],
+    "span_mean": "thing done",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"the Hosni Mubarak\\\" does not correspond to the direct object (thing done) of \\\"doing\\\", which is expressed by the wh-word \\\"what\\\" in this question clause.\",\"correct_argument\":\"what\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Since the provided argument is incorrect, it cannot satisfy the role description for ARG1 as the \\\"thing done\\\"; the correct argument \\\"what\\\" fulfills that role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect, leading to an incorrect semantic role labeling.\"}"
+  },
+  {
+    "idx": 2616,
+    "sen": "The warning came as General Anthony Zinni was finalizing an agreement for refueling ships in the Yemeni port of Aden .",
+    "prd_word": "refueling",
+    "prd_lemma": "refuel",
+    "prd_sense": "01",
+    "prd_idx": 13,
+    "label": "ARG0",
+    "span": "General Anthony Zinni",
+    "span_idx": [
+      4,
+      7
+    ],
+    "span_mean": "provider of fuel, agent",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"General Anthony Zinni\\\" is not a semantic argument of the nominal predicate \\\"refueling\\\"; instead, the event argument (theme) is \\\"ships\\\".\",\"correct_argument\":\"ships\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"General Anthony Zinni\\\" does not function as the provider of fuel or agent in the refueling event, so it does not satisfy the ARG0 role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect and the assigned semantic role is also incorrect.\"}"
+  },
+  {
+    "idx": 2643,
+    "sen": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+    "prd_word": "get",
+    "prd_lemma": "get",
+    "prd_sense": "04",
+    "prd_idx": 16,
+    "label": "ARG1",
+    "span": "everyone",
+    "span_idx": [
+      12,
+      13
+    ],
+    "span_mean": "a clause -- action done or descriptive small clause",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"everyone\\\" is correctly extracted as a single contiguous word and forms a complete semantic unit in relation to the predicate \\\"get\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"everyone\\\" functions as the agent or actor (subject) of the predicate \\\"get\\\", which corresponds to ARG0 rather than ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the assigned semantic role label ARG1 is incorrect.\"}"
+  },
+  {
+    "idx": 2645,
+    "sen": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+    "prd_word": "get",
+    "prd_lemma": "get",
+    "prd_sense": "04",
+    "prd_idx": 16,
+    "label": "ARG1",
+    "span": "what",
+    "span_idx": [
+      11,
+      12
+    ],
+    "span_mean": "a clause -- action done or descriptive small clause",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"what\\\" is only a wh-pronoun and does not form a complete clause; the correct argument should be the full clause \\\"what everyone needs to get done\\\".\",\"correct_argument\":\"what everyone needs to get done\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The argument \\\"what\\\" alone does not fulfill the role description requiring a full clause representing the action or descriptive small clause of \\\"get\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction and the semantic role labeling are incorrect.\"}"
+  },
+  {
+    "idx": 2648,
+    "sen": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+    "prd_word": "done",
+    "prd_lemma": "do",
+    "prd_sense": "02",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span": "climate change",
+    "span_idx": [
+      20,
+      22
+    ],
+    "span_mean": "thing done",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"climate change\\\" is correctly extracted as a contiguous phrase forming a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the sentence, \\\"climate change\\\" functions as the topic domain (as far as climate change is concerned), not as the 'thing done' by the predicate \\\"done\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because \\\"climate change\\\" does not fulfill the role of the 'thing done'.\"}"
+  },
+  {
+    "idx": 2679,
+    "sen": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+    "prd_word": "try",
+    "prd_lemma": "try",
+    "prd_sense": "01",
+    "prd_idx": 22,
+    "label": "ARG0",
+    "span": "the place where you was born , where you grew up then",
+    "span_idx": [
+      9,
+      21
+    ],
+    "span_mean": "Agent/Entity Trying",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"the place where you was born , where you grew up then\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"the place where you was born , where you grew up then\\\" denotes a location, not an entity performing the action of ‘try’, so it cannot fulfill the Agent/Entity Trying role (ARG0).\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect.\"}"
+  },
+  {
+    "idx": 2682,
+    "sen": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+    "prd_word": "try",
+    "prd_lemma": "try",
+    "prd_sense": "01",
+    "prd_idx": 22,
+    "label": "ARG0",
+    "span": "the place where you was born , where you grew up",
+    "span_idx": [
+      9,
+      20
+    ],
+    "span_mean": "Agent/Entity Trying",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"the place where you was born , where you grew up\\\" is a contiguous noun phrase extracted directly from the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The predicate \\\"try\\\" requires an agent (ARG0) who is performing the action, which is \\\"you\\\" in this sentence; the extracted argument denotes a location, not the entity trying.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"While the argument boundary is correct, the semantic role labeling is incorrect because the extracted phrase is not the agent of \\\"try\\\".\"}"
+  },
+  {
+    "idx": 2687,
+    "sen": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+    "prd_word": "make",
+    "prd_lemma": "make",
+    "prd_sense": "14",
+    "prd_idx": 24,
+    "label": "ARG0",
+    "span": "the place where you was born , where you grew up",
+    "span_idx": [
+      9,
+      20
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"the place where you was born , where you grew up\\\" is a contiguous phrase in the sentence and forms a complete semantic unit as a noun phrase with relative clauses.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The argument denotes a location/destination rather than the agent of the predicate \\\"make\\\",\\\"make it there\\\" meaning \\\"succeed or arrive there\\\", so it does not fulfill the prototypical agent role ARG0.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the semantic role label ARG0 is inappropriate for this argument.\"}"
+  },
+  {
+    "idx": 2689,
+    "sen": "If you can stay and make it happen , the place where you was born , where you grew up then try to make it there .",
+    "prd_word": "make",
+    "prd_lemma": "make",
+    "prd_sense": "14",
+    "prd_idx": 24,
+    "label": "ARG2",
+    "span": "there",
+    "span_idx": [
+      25,
+      26
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"there\\\" is a single word correctly extracted from the sentence, forming a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"there\\\" expresses a destination/location of the action \\\"make\\\" rather than an instrument, benefactive, or attribute.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct but the semantic role label is incorrect as \\\"there\\\" does not fulfill the specified role for ARG2.\"}"
+  },
+  {
+    "idx": 2719,
+    "sen": "It was a visit by Mr. Sharon to a Jerusalem religious holy site that sparked the violence that began last month between Israelis and Palestinian protesters .",
+    "prd_word": "sparked",
+    "prd_lemma": "spark",
+    "prd_sense": "01",
+    "prd_idx": 15,
+    "label": "ARG0",
+    "span": "a Jerusalem religious holy site",
+    "span_idx": [
+      8,
+      13
+    ],
+    "span_mean": "cause of starting, agent",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The relative clause \\\"that sparked the violence\\\" modifies \\\"a visit by Mr. Sharon to a Jerusalem religious holy site\\\", so the true argument of the predicate \\\"sparked\\\" is the entire noun phrase \\\"a visit by Mr. Sharon to a Jerusalem religious holy site\\\", not just \\\"a Jerusalem religious holy site\\\".\",\"correct_argument\":\"a visit by Mr. Sharon to a Jerusalem religious holy site\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Since the provided argument is not the actual agent or cause of \\\"sparked\\\" (the visit is), it cannot satisfy the ARG0 role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument is not correctly extracted and therefore the semantic role labeling is also incorrect.\"}"
+  },
+  {
+    "idx": 2744,
+    "sen": "Witnesses said Israeli soldiers fired live ammunition and rubber - coated metal bullets , wounding at least seven people .",
+    "prd_word": "coated",
+    "prd_lemma": "coat",
+    "prd_sense": "01",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span": "metal bullets , wounding at least seven people .",
+    "span_idx": [
+      11,
+      20
+    ],
+    "span_mean": "covered",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The span “metal bullets , wounding at least seven people .” over-extends beyond the entity covered by “coated,” including a modifier clause that is not part of the covered argument.\",\"correct_argument\":\"metal bullets\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Because the provided argument span is incorrect and includes extraneous material, it does not properly fulfill the ARG1 role as the covered of “coated.”\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument boundary is incorrect, leading to a failure in the semantic role labeling.\"}"
+  },
+  {
+    "idx": 2806,
+    "sen": "This is Mr. Clinton 's third visit to Northern Ireland , and the Irish Republic to do what he can to generate a lasting peace .",
+    "prd_word": "do",
+    "prd_lemma": "do",
+    "prd_sense": "02",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span": "the Irish Republic",
+    "span_idx": [
+      12,
+      15
+    ],
+    "span_mean": "agent, doer",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"the Irish Republic\\\" is a contiguous noun phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"the Irish Republic\\\" is not the agent or doer of \\\"do\\\"; the actual agent is \\\"he\\\" (Mr. Clinton), and here \\\"the Irish Republic\\\" serves as a location/destination, not the doer.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument boundary is correct, but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 2809,
+    "sen": "This is Mr. Clinton 's third visit to Northern Ireland , and the Irish Republic to do what he can to generate a lasting peace .",
+    "prd_word": "do",
+    "prd_lemma": "do",
+    "prd_sense": "02",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span": "Mr. Clinton 's",
+    "span_idx": [
+      2,
+      5
+    ],
+    "span_mean": "agent, doer",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"Mr. Clinton 's\\\" is part of the NP \\\"Mr. Clinton's third visit\\\" and does not occur in the infinitival clause \\\"to do what he can\\\", so it is not an argument of the predicate \\\"do\\\".\",\"correct_argument\":\"PRO\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"Mr. Clinton's\\\" does not function as the agent of \\\"do\\\"; the actual agent is the implicit PRO subject controlled by Mr. Clinton.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect, and thus the role labeling is also incorrect.\"}"
+  },
+  {
+    "idx": 2827,
+    "sen": "As much as I 'd love to spend every day after school sucking up to teachers instead of hanging with my friends , I do n't want this job .",
+    "prd_word": "sucking",
+    "prd_lemma": "suck",
+    "prd_sense": "01",
+    "prd_idx": 13,
+    "label": "ARG2",
+    "span": "to teachers",
+    "span_idx": [
+      14,
+      16
+    ],
+    "span_mean": "source, entity that arg1 is sucked from",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"to teachers\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"to teachers\\\" is the target or goal of the phrasal verb \\\"sucking up\\\", not the source from which something is sucked.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because \\\"to teachers\\\" does not satisfy the role of source for the predicate \\\"sucking\\\".\"}"
+  },
+  {
+    "idx": 2910,
+    "sen": "They know the utility recently declared a dividend for its stockholders , but Edison 's Tom Higgins says the firm can not continue to pay high prices for electricity while keeping prices low for its customers .",
+    "prd_word": "keeping",
+    "prd_lemma": "keep",
+    "prd_sense": "02",
+    "prd_idx": 31,
+    "label": "ARG2",
+    "span": "for its customers",
+    "span_idx": [
+      33,
+      36
+    ],
+    "span_mean": "continued state or action",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"for its customers\\\" is a complete prepositional phrase correctly extracted as a semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"for its customers\\\" denotes the beneficiary of the action \\\"keeping prices low\\\", not the continued state or action of the predicate.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the semantic role label is incorrect because the argument does not satisfy the specified role description.\"}"
+  },
+  {
+    "idx": 2937,
+    "sen": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+    "prd_word": "urged",
+    "prd_lemma": "urge",
+    "prd_sense": "01",
+    "prd_idx": 26,
+    "label": "ARG1",
+    "span": "caution",
+    "span_idx": [
+      26,
+      27
+    ],
+    "span_mean": "impelled agent",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"caution\\\" is a single contiguous word forming a complete semantic unit and is correctly extracted.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"caution\\\" does not function as the impelled agent of \\\"urged\\\"; it is the content or theme being urged.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the semantic role labeling is incorrect because \\\"caution\\\" is not the impelled agent of \\\"urged\\\".\"}"
+  },
+  {
+    "idx": 3119,
+    "sen": "Hundreds of stone - throwing Palestinians stormed the Israeli - controlled section of Hebron , breaking a curfew imposed since the outbreak of the unrest last month .",
+    "prd_word": "controlled",
+    "prd_lemma": "control",
+    "prd_sense": "01",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span": "section",
+    "span_idx": [
+      11,
+      12
+    ],
+    "span_mean": "controlled",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided argument “section” is only the head noun; the full noun phrase “section of Hebron” is the entity being controlled and should be extracted as a complete semantic unit.\",\"correct_argument\":\"section of Hebron\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The argument “section of Hebron” denotes the entity being controlled by “controlled,” which aligns with ARG1 as the theme/patient of the predicate.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the semantic role labeling is correct, the argument extraction is insufficient because it omits the phrase “of Hebron.”\"}"
+  },
+  {
+    "idx": 3170,
+    "sen": "The trial of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland , is entering its final stage .",
+    "prd_word": "bombing",
+    "prd_lemma": "bomb",
+    "prd_sense": "01",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span": "Pam Am Flight 103 over Lockerbie , Scotland ,",
+    "span_idx": [
+      8,
+      17
+    ],
+    "span_mean": "entity bombed",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument span \\\"Pam Am Flight 103 over Lockerbie , Scotland ,\\\" includes the locative adjunct \\\"over Lockerbie, Scotland,\\\" which is not part of the entity bombed; the smallest semantic unit for the entity bombed is just \\\"Pam Am Flight 103\\\".\",\"correct_argument\":\"Pam Am Flight 103\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"In the clause \\\"bombing Pam Am Flight 103 over Lockerbie, Scotland,\\\" the phrase \\\"Pam Am Flight 103\\\" serves as the direct object of the predicate \\\"bombing\\\" and correctly represents the entity bombed (ARG1).\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect due to over-extraction, even though the role label would be correct with the proper argument span.\"}"
+  },
+  {
+    "idx": 3175,
+    "sen": "The Bush team , responding quickly saying there would not be such support and that in that scenario Gore could only be seen as a sore loser .",
+    "prd_word": "responding",
+    "prd_lemma": "respond",
+    "prd_sense": "01",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span": "The Bush team",
+    "span_idx": [
+      0,
+      3
+    ],
+    "span_mean": "in response to",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"The Bush team\\\" is a contiguous noun phrase and correctly identifies the complete entity performing the action.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"The Bush team\\\" is the agent performing the responding, not the stimulus or 'in response to' entity as described for ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct but the role assignment is incorrect.\"}"
+  },
+  {
+    "idx": 3212,
+    "sen": "Violence ripped through almost every major Palestinian town today .",
+    "prd_word": "ripped",
+    "prd_lemma": "rip",
+    "prd_sense": "02",
+    "prd_idx": 2,
+    "label": "ARG1",
+    "span": "through almost every major Palestinian town",
+    "span_idx": [
+      2,
+      8
+    ],
+    "span_mean": "entity moving",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"through almost every major Palestinian town\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the sentence, \\\"Violence\\\" is the entity moving and \\\"through almost every major Palestinian town\\\" expresses the path or location, not the entity moving, so it does not fulfill the role description for ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the argument extraction is correct, the semantic role assignment is incorrect, making the overall annotation incorrect.\"}"
+  },
+  {
+    "idx": 3215,
+    "sen": "Violence ripped through almost every major Palestinian town today .",
+    "prd_word": "ripped",
+    "prd_lemma": "rip",
+    "prd_sense": "02",
+    "prd_idx": 2,
+    "label": "ARG2",
+    "span": "through almost every major Palestinian town",
+    "span_idx": [
+      2,
+      8
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"through almost every major Palestinian town\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The phrase denotes the location/path of the action, not an instrument, benefactive, or attribute as required by the ARG2 role description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"While the argument extraction is correct, the assigned semantic role is incorrect.\"}"
+  },
+  {
+    "idx": 3320,
+    "sen": "Ozzy Osbourne 's life filled with incredible highs crashing into devastating lows .",
+    "prd_word": "crashing",
+    "prd_lemma": "crash",
+    "prd_sense": "01",
+    "prd_idx": 9,
+    "label": "ARG2",
+    "span": "into devastating lows",
+    "span_idx": [
+      9,
+      12
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"into devastating lows\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"into devastating lows\\\" denotes the endpoint or result state of crashing, not an instrument, benefactive, or attribute as defined for ARG2.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the assigned semantic role is incorrect.\"}"
+  },
+  {
+    "idx": 3330,
+    "sen": "Mr. Clinton promised the gathering at the Norfolk Naval station Wednesday that those who carried out the deadly attack that killed 17 sailors will be found .",
+    "prd_word": "promised",
+    "prd_lemma": "promise",
+    "prd_sense": "01",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span": "the gathering",
+    "span_idx": [
+      3,
+      5
+    ],
+    "span_mean": "person promised to",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"the gathering\\\" is under-extracted; it omits the modifiers \\\"at the Norfolk Naval station Wednesday\\\" which complete the beneficiary argument.\",\"correct_argument\":\"the gathering at the Norfolk Naval station Wednesday\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The full argument represents the people (the gathering) to whom the promise was made, satisfying the ARG1 role as 'person promised to'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is incorrect, despite the semantic role labeling being correct.\"}"
+  },
+  {
+    "idx": 3389,
+    "sen": "You do n't always get the higherups .",
+    "prd_word": "do",
+    "prd_lemma": "do",
+    "prd_sense": "01",
+    "prd_idx": 2,
+    "label": "ARG0",
+    "span": "You",
+    "span_idx": [
+      0,
+      1
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"You\\\" is a single-word pronoun serving as the subject in the clause, correctly capturing the full extent of the semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The verb \\\"do\\\" here functions as an auxiliary in the negative construction and does not semantically take an agent argument; the argument \\\"You\\\" is the agent of the main lexical verb \\\"get\\\", not of \\\"do\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the argument extraction is correct, the semantic role label is incorrect because \\\"do\\\" is an auxiliary verb and does not have the prototypical agent \\\"You\\\" as ARG0.\"}"
+  },
+  {
+    "idx": 3447,
+    "sen": "That 's the decision from a federal appeals court reversing a lower court ruling .",
+    "prd_word": "decision",
+    "prd_lemma": "decision",
+    "prd_sense": "01",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span": "from a federal appeals court",
+    "span_idx": [
+      4,
+      9
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"from a federal appeals court\\\" is correctly extracted as a contiguous prepositional phrase that forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"From a federal appeals court\\\" indicates the source of the decision rather than the prototypical agent (ARG0) who makes the decision.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the argument extraction is correct, the semantic role label is incorrect because the phrase does not fulfill the prototypical agent role for the predicate \\\"decision.\\\"\"}"
+  },
+  {
+    "idx": 3546,
+    "sen": "Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead , almost all of them Palestinian .",
+    "prd_word": "left",
+    "prd_lemma": "leave",
+    "prd_sense": "06",
+    "prd_idx": 22,
+    "label": "ARG0",
+    "span": "violence",
+    "span_idx": [
+      18,
+      19
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"violence\\\" is a contiguous single word in the sentence and constitutes a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"Violence\\\" functions as the cause or theme of \\\"left\\\" in this context, not as a prototypical, volitional agent.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the assigned role ARG0 is incorrect because \\\"violence\\\" does not fulfill the prototypical agent role.\"}"
+  },
+  {
+    "idx": 3548,
+    "sen": "Egypt called the emergency summit to declare support for the Palestinians in the wake of three weeks of violence that has left at least 106 people dead , almost all of them Palestinian .",
+    "prd_word": "left",
+    "prd_lemma": "leave",
+    "prd_sense": "06",
+    "prd_idx": 22,
+    "label": "ARG1",
+    "span": "almost all of them Palestinian",
+    "span_idx": [
+      28,
+      33
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"almost all of them Palestinian\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"Almost all of them Palestinian\\\" is a modifier providing demographic information about the people and does not function as the prototypical patient of the predicate \\\"left\\\"; the actual patient is \\\"at least 106 people dead\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because the argument does not fulfill the specified prototypical patient role for \\\"left\\\".\"}"
+  },
+  {
+    "idx": 3558,
+    "sen": "It very well could , although , I must say that the Gore campaign has been somewhat disappointed by the number of votes they have not received thus far in the counties that are undertaking the manual recounts , Brian , but a lot of hand counts still must be tallied .",
+    "prd_word": "received",
+    "prd_lemma": "receive",
+    "prd_sense": "01",
+    "prd_idx": 27,
+    "label": "ARG0",
+    "span": "the counties",
+    "span_idx": [
+      30,
+      32
+    ],
+    "span_mean": "receiver",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"the counties\\\" omits the restrictive relative clause that completes its semantic boundary; the full NP is \\\"the counties that are undertaking the manual recounts\\\".\",\"correct_argument\":\"the counties that are undertaking the manual recounts\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"The counties\\\" functions as a locative modifier (where the votes were not received), not as the receiver (ARG0) of the receiving event.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument span is incomplete and the assigned role is wrong; \\\"the counties\\\" is not the receiver of \\\"received.\\\"\"}"
+  },
+  {
+    "idx": 3562,
+    "sen": "It very well could , although , I must say that the Gore campaign has been somewhat disappointed by the number of votes they have not received thus far in the counties that are undertaking the manual recounts , Brian , but a lot of hand counts still must be tallied .",
+    "prd_word": "received",
+    "prd_lemma": "receive",
+    "prd_sense": "01",
+    "prd_idx": 27,
+    "label": "ARG1",
+    "span": "votes",
+    "span_idx": [
+      22,
+      23
+    ],
+    "span_mean": "thing gotten",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided argument \\\"votes\\\" is too minimal; it omits the full noun phrase including the determiner, quantifier, and relative clause that form the complete semantic unit.\",\"correct_argument\":\"the number of votes they have not received thus far in the counties that are undertaking the manual recounts\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The argument denotes the entity that is gotten by the predicate \\\"received\\\", matching the description of ARG1 as the 'thing gotten'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The semantic role relation is correct but the argument extraction is insufficient, making the overall annotation incorrect.\"}"
+  },
+  {
+    "idx": 3623,
+    "sen": "USAirways is flying its way out of bankruptcy .",
+    "prd_word": "flying",
+    "prd_lemma": "fly",
+    "prd_sense": "01",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span": "USAirways",
+    "span_idx": [
+      0,
+      1
+    ],
+    "span_mean": "passenger, cargo",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"USAirways\\\" is a contiguous noun phrase forming a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"USAirways\\\" functions as the agent performing the action of \\\"flying\\\", not as its passenger or cargo.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because \\\"USAirways\\\" does not satisfy the specified passenger/cargo role for ARG1.\"}"
+  },
+  {
+    "idx": 3676,
+    "sen": "We 'll talk with a terror expert about that , and Iraqi deserters on the northern front , Ben Wedeman has their story why they 're no longer fighting for Saddam Hussein and Don Shepperd is going to answer some of your questions as he looks at the battle hot spots .",
+    "prd_word": "has",
+    "prd_lemma": "have",
+    "prd_sense": "03",
+    "prd_idx": 21,
+    "label": "ARG0",
+    "span": "Iraqi deserters on the northern front , Ben Wedeman",
+    "span_idx": [
+      11,
+      20
+    ],
+    "span_mean": "owner",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The span “Iraqi deserters on the northern front , Ben Wedeman” over-extracts the subject of “has”. The true subject is only “Ben Wedeman”.\",\"correct_argument\":\"Ben Wedeman\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The provided span does not serve as the owner (ARG0) of “has”. The correct ARG0 is “Ben Wedeman”.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Because the argument boundary is incorrect, the semantic role labeling is also incorrect.\"}"
+  },
+  {
+    "idx": 3687,
+    "sen": "We 'll talk with a terror expert about that , and Iraqi deserters on the northern front , Ben Wedeman has their story why they 're no longer fighting for Saddam Hussein and Don Shepperd is going to answer some of your questions as he looks at the battle hot spots .",
+    "prd_word": "fighting",
+    "prd_lemma": "fight",
+    "prd_sense": "01",
+    "prd_idx": 29,
+    "label": "ARG1",
+    "span": "for Saddam Hussein",
+    "span_idx": [
+      29,
+      32
+    ],
+    "span_mean": "second fighter, if separate",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"for Saddam Hussein\\\" is a contiguous prepositional phrase and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The phrase \\\"for Saddam Hussein\\\" indicates beneficiary/affiliation rather than the \\\"second fighter\\\" participant of the fighting event, so it does not match the specified ARG1 role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the semantic role labeling is incorrect.\"}"
+  },
+  {
+    "idx": 3741,
+    "sen": "Index Theater is planning a huge comeback now with a series of shows in Belgrade , but even though Milosevic is under de facto house arrest in Belgrade , he is very much present on the repertoire of political humors , says his impersonator , Dragewbo Yubitrich .",
+    "prd_word": "planning",
+    "prd_lemma": "plan",
+    "prd_sense": "01",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span": "with a series of shows in Belgrade",
+    "span_idx": [
+      8,
+      15
+    ],
+    "span_mean": "grounds for planning",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"with a series of shows in Belgrade\\\" is a contiguous prepositional phrase in the sentence that fully captures the intended meaning as a single semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"With a series of shows in Belgrade\\\" indicates the means or manner by which the comeback is planned, not the grounds or reason for planning.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the assigned role is incorrect because the phrase functions as an instrument/manner rather than grounds for planning.\"}"
+  },
+  {
+    "idx": 3811,
+    "sen": "When the mom comes in , the puppies know exactly where to go for milk -- sort of a little confusion .",
+    "prd_word": "go",
+    "prd_lemma": "go",
+    "prd_sense": "02",
+    "prd_idx": 13,
+    "label": "ARG4",
+    "span": "where",
+    "span_idx": [
+      10,
+      11
+    ],
+    "span_mean": "end point",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"where\\\" is under-extracted. The complete end point is expressed by the full clause \\\"where to go for milk\\\".\",\"correct_argument\":\"where to go for milk\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"\\\"Where\\\" (within the clause \\\"where to go for milk\\\") specifies the end point of the action \\\"go\\\", matching the ARG4 description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the role labeling is correct, the argument extraction is insufficient, making the overall annotation incorrect.\"}"
+  },
+  {
+    "idx": 3815,
+    "sen": "When the mom comes in , the puppies know exactly where to go for milk -- sort of a little confusion .",
+    "prd_word": "go",
+    "prd_lemma": "go",
+    "prd_sense": "02",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span": "for milk",
+    "span_idx": [
+      13,
+      15
+    ],
+    "span_mean": "journey",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"for milk\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"for milk\\\" expresses the purpose or goal of going rather than the journey or destination as specified by the role description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because \\\"for milk\\\" does not represent the journey of \\\"go\\\".\"}"
+  },
+  {
+    "idx": 3836,
+    "sen": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+    "prd_word": "speaking",
+    "prd_lemma": "speak",
+    "prd_sense": "01",
+    "prd_idx": 8,
+    "label": "ARG1",
+    "span": "These arms agreements",
+    "span_idx": [
+      0,
+      3
+    ],
+    "span_mean": "subject",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"These arms agreements\\\" is a contiguous noun phrase and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the clause \\\"we were just speaking about these arms agreements\\\", \\\"These arms agreements\\\" functions as the object/theme of \\\"speaking\\\", not its subject.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the role label is incorrect since the argument is not the subject of the predicate.\"}"
+  },
+  {
+    "idx": 3840,
+    "sen": "These arms agreements that we were just speaking about have taken quite some time to finalize .",
+    "prd_word": "speaking",
+    "prd_lemma": "speak",
+    "prd_sense": "01",
+    "prd_idx": 8,
+    "label": "ARG2",
+    "span": "These arms agreements",
+    "span_idx": [
+      0,
+      3
+    ],
+    "span_mean": "hearer",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"These arms agreements\\\" is a contiguous noun phrase and correctly represents the complement of the predicate \\\"speaking\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"These arms agreements\\\" serves as the topic of discussion (object of \\\"speaking about\\\"), not as a hearer of the speech.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the role label is incorrect because the phrase is the topic, not the hearer of the predicate.\"}"
+  },
+  {
+    "idx": 3988,
+    "sen": "The court ruled this senior Libyan intelligence agent planted the bomb that killed 270 , mostly Americans , when the plane bound for New York exploded over Lockerbie , Scotland .",
+    "prd_word": "bound",
+    "prd_lemma": "bind",
+    "prd_sense": "03",
+    "prd_idx": 22,
+    "label": "ARG3",
+    "span": "for New York",
+    "span_idx": [
+      22,
+      25
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"for New York\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"for New York\\\" specifies the destination (goal) of the plane, not a starting point, benefactive, or attribute as required for ARG3.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect according to the given role description.\"}"
+  },
+  {
+    "idx": 4009,
+    "sen": "This song is from their latest play , The Last Train for Serbia , which was recorded on the day protestors stormed the federal parliament in Belgrade and the main television stations .",
+    "prd_word": "recorded",
+    "prd_lemma": "record",
+    "prd_sense": "01",
+    "prd_idx": 17,
+    "label": "ARG1",
+    "span": "their latest play , The Last Train for Serbia",
+    "span_idx": [
+      4,
+      13
+    ],
+    "span_mean": "record",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The predicate “recorded” appears in the relative clause “which was recorded…”, so its argument is the pronoun “which”, not the full noun phrase “their latest play, The Last Train for Serbia” from the main clause.\",\"correct_argument\":\"which\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The play (referred to by “which”) is indeed the patient/theme—the thing recorded—thus correctly fills ARG1 as the record of “recorded”.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the semantic role relation is correct, the argument extraction is incorrect.\"}"
+  },
+  {
+    "idx": 4063,
+    "sen": "We know their view is the hand counts should now be included .",
+    "prd_word": "included",
+    "prd_lemma": "include",
+    "prd_sense": "01",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span": "their view is the hand counts",
+    "span_idx": [
+      2,
+      8
+    ],
+    "span_mean": "theme, thing being included in some group",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"their view is the hand counts\\\" is an entire clause and over-extracts beyond the minimal theme; the predicate \\\"included\\\" applies to the NP \\\"the hand counts\\\".\",\"correct_argument\":\"the hand counts\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The provided argument is not the theme of \\\"included\\\"; the theme should be the NP \\\"the hand counts\\\", not the entire clause.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect, so the semantic role labeling is also incorrect.\"}"
+  },
+  {
+    "idx": 4079,
+    "sen": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+    "prd_word": "compensation",
+    "prd_lemma": "compensation",
+    "prd_sense": "01",
+    "prd_idx": 9,
+    "label": "ARG0",
+    "span": "executive",
+    "span_idx": [
+      7,
+      8
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"executive\\\" is correctly extracted as a single word and forms a complete semantic unit modifying \\\"compensation\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"Executive\\\" represents the recipient or beneficiary of the compensation, not the agent, so it does not satisfy the ARG0 role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because \\\"executive\\\" is not the prototypical agent of \\\"compensation\\\".\"}"
+  },
+  {
+    "idx": 4082,
+    "sen": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+    "prd_word": "compensation",
+    "prd_lemma": "compensation",
+    "prd_sense": "01",
+    "prd_idx": 13,
+    "label": "ARG0",
+    "span": "CEO",
+    "span_idx": [
+      11,
+      12
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"CEO\\\" is a contiguous word in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the nominal predicate \\\"compensation\\\", \\\"CEO\\\" is the recipient or beneficiary of the compensation (prototypical patient, ARG1), not the agent (ARG0).\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because \\\"CEO\\\" functions as the patient (ARG1) of the predicate, not as the agent (ARG0).\"}"
+  },
+  {
+    "idx": 4184,
+    "sen": "In the Gaza Strip , Wednesday , Israeli soldiers fired on armed Palestinians trying to cut through a border fence .",
+    "prd_word": "fired",
+    "prd_lemma": "fire",
+    "prd_sense": "01",
+    "prd_idx": 10,
+    "label": "ARG2",
+    "span": "on armed Palestinians trying to cut through a border fence",
+    "span_idx": [
+      10,
+      20
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"on armed Palestinians trying to cut through a border fence\\\" is a contiguous phrase functioning as the complete prepositional object of \\\"fired\\\", marking the target of the action.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The argument denotes the target/patient of \\\"fired\\\", not an instrument, benefactive, or attribute as described for ARG2.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 4188,
+    "sen": "In the Gaza Strip , Wednesday , Israeli soldiers fired on armed Palestinians trying to cut through a border fence .",
+    "prd_word": "fired",
+    "prd_lemma": "fire",
+    "prd_sense": "01",
+    "prd_idx": 10,
+    "label": "ARG1",
+    "span": "on armed Palestinians trying to cut through a border fence",
+    "span_idx": [
+      10,
+      20
+    ],
+    "span_mean": "gun/projectile",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"on armed Palestinians trying to cut through a border fence\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The phrase denotes the target of the firing, not the gun or projectile, so it does not fulfill the role of ARG1 as the 'gun/projectile'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct but the assigned semantic role is incorrect.\"}"
+  },
+  {
+    "idx": 4233,
+    "sen": "Cheney gets a checkup call from Governor Bush and still expects to be released as early as tomorrow , and today , President Clinton cautiously speaks out about the Florida vote fight , saying everyone should , `` let the process play out . ''",
+    "prd_word": "fight",
+    "prd_lemma": "fight",
+    "prd_sense": "01",
+    "prd_idx": 32,
+    "label": "ARG2",
+    "span": "vote",
+    "span_idx": [
+      30,
+      31
+    ],
+    "span_mean": "spoils, over what, explicit mention of the battle",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"vote\\\" captures only part of the battle object; the full explicit mention is \\\"Florida vote\\\".\",\"correct_argument\":\"Florida vote\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The argument \\\"vote\\\" (as in the Florida vote) functions as the object or spoils of the \\\"fight\\\", satisfying the ARG2 description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument span is insufficiently extracted, though the semantic role relation itself is correct.\"}"
+  },
+  {
+    "idx": 4280,
+    "sen": "So before they say it is a white man tangle you know it 's because of a white man that this happens and they got to , you know , check around and they say who is the real guilty .",
+    "prd_word": "know",
+    "prd_lemma": "know",
+    "prd_sense": "01",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span": "it 's because of a white man that this happens and they got to , you know , check around and they say who is the real guilty",
+    "span_idx": [
+      12,
+      40
+    ],
+    "span_mean": "fact that is known",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided argument span includes additional coordinated clauses (‘and they got to …’ and ‘and they say who is the real guilty’) that are not part of the direct complement of ‘know’, resulting in over-extraction. The smallest semantic unit serving as the fact known is only the clause “it’s because of a white man that this happens”.\",\"correct_argument\":\"it’s because of a white man that this happens\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Because the argument span is over-extended, it does not correspond precisely to the ‘fact that is known’ required by ARG1 for ‘know’.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument boundary is incorrect and the resulting argument does not satisfy the specified role relationship.\"}"
+  },
+  {
+    "idx": 4307,
+    "sen": "Thank you James .",
+    "prd_word": "Thank",
+    "prd_lemma": "thank",
+    "prd_sense": "01",
+    "prd_idx": 1,
+    "label": "ARG2",
+    "span": "James",
+    "span_idx": [
+      2,
+      3
+    ],
+    "span_mean": "for what?",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"James\\\" is a single contiguous word in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"James\\\" is the recipient of the gratitude and functions as ARG1 (thankee), not ARG2 which denotes the cause or content ('for what?').\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because \\\"James\\\" does not fulfill the 'for what?' role (ARG2).\"}"
+  },
+  {
+    "idx": 4397,
+    "sen": "Quite an emotional experience and one of us can only imagine what it must have been like to endure .",
+    "prd_word": "endure",
+    "prd_lemma": "endure",
+    "prd_sense": "01",
+    "prd_idx": 19,
+    "label": "ARG0",
+    "span": "one of us",
+    "span_idx": [
+      5,
+      8
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"one of us\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the clause \\\"one of us can only imagine what it must have been like to endure\\\", \\\"one of us\\\" functions as the subject of \\\"imagine\\\", not as the prototypical agent of the predicate \\\"endure\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because \\\"one of us\\\" does not serve as the agent of \\\"endure\\\".\"}"
+  },
+  {
+    "idx": 4414,
+    "sen": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+    "prd_word": "walks",
+    "prd_lemma": "walk",
+    "prd_sense": "01",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span": "the gorges",
+    "span_idx": [
+      8,
+      10
+    ],
+    "span_mean": "entity being walked, where there is outside Agent",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"the gorges\\\" is a contiguous noun phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In this context, \\\"the gorges\\\" denotes the location or path through which he walks, not an entity being walked by an outside agent, so it does not satisfy the specified ARG1 relation.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because the argument does not fulfill the described role of an entity being walked by an outside agent.\"}"
+  },
+  {
+    "idx": 4438,
+    "sen": "The book is filled with marvelous descriptions of the gorges through which he walks , the mountains that he climbs , indeed the book is called Soul Mountain , the mountain on which he hopes in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in .",
+    "prd_word": "hopes",
+    "prd_lemma": "hope",
+    "prd_sense": "01",
+    "prd_idx": 35,
+    "label": "ARG1",
+    "span": "to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in",
+    "span_idx": [
+      40,
+      81
+    ],
+    "span_mean": "thing hoped (for)",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The phrase “in some way or another” immediately follows the predicate “hopes” and qualifies the complement; it was omitted, so the extraction is insufficient.\",\"correct_argument\":\"in some way or another to get in touch with his soul , his individual soul , as opposed to that mass kind of soul being enforced upon him by the Communist Chinese authorities , the social realism that the cadres would have him write in\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The argument denotes the ‘thing hoped for’ by the predicate “hopes,” matching the ARG1 role description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The semantic role labeling is correct, but the argument extraction boundary is incorrect due to missing material.\"}"
+  },
+  {
+    "idx": 4543,
+    "sen": "He told lawmakers it would not trigger a U.S. retreat from the Persian Gulf , even though troops remain at risk to terrorism .",
+    "prd_word": "retreat",
+    "prd_lemma": "retreat",
+    "prd_sense": "01",
+    "prd_idx": 10,
+    "label": "ARG2",
+    "span": "from the Persian Gulf",
+    "span_idx": [
+      10,
+      14
+    ],
+    "span_mean": "scary thing",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"from the Persian Gulf\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"from the Persian Gulf\\\" indicates the source/location of the retreat rather than a \\\"scary thing,\\\" so it does not satisfy the specified role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 4595,
+    "sen": "She is charged with using insider information to bail out of a biotech stock the day before its price tanked , and then trying to cover it up .",
+    "prd_word": "using",
+    "prd_lemma": "use",
+    "prd_sense": "01",
+    "prd_idx": 5,
+    "label": "ARG2",
+    "span": "to bail out of a biotech stock",
+    "span_idx": [
+      7,
+      14
+    ],
+    "span_mean": "purpose",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The provided span omits the temporal adjunct ‘the day before its price tanked’; the complete purpose clause is ‘to bail out of a biotech stock the day before its price tanked’.\",\"correct_argument\":\"to bail out of a biotech stock the day before its price tanked\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The to-infinitive clause expresses the purpose of the predicate ‘using’.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect, even though the semantic role labeling is appropriate.\"}"
+  },
+  {
+    "idx": 4668,
+    "sen": "She and her daughter Jordan often shuffle through these pictures of him taken before he left .",
+    "prd_word": "taken",
+    "prd_lemma": "take",
+    "prd_sense": "01",
+    "prd_idx": 13,
+    "label": "ARG1",
+    "span": "these pictures",
+    "span_idx": [
+      8,
+      10
+    ],
+    "span_mean": "thing taken",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument 'these pictures' omits the necessary modifier 'of him', so the complete NP 'these pictures of him' is required as the thing taken.\",\"correct_argument\":\"these pictures of him\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The argument denotes the item taken by the predicate 'taken', fulfilling the 'thing taken' role (ARG1).\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the role relation is correct, the argument boundary is insufficient.\"}"
+  },
+  {
+    "idx": 4678,
+    "sen": "Some Yemenis expressed relief to see the ship leave .",
+    "prd_word": "relief",
+    "prd_lemma": "relief",
+    "prd_sense": "01",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span": "to see the ship leave",
+    "span_idx": [
+      4,
+      9
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"to see the ship leave\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"To see the ship leave\\\" is a cause or stimulus for the feeling of relief, not the prototypical agent of \\\"relief\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because the phrase does not function as the agent of \\\"relief\\\".\"}"
+  },
+  {
+    "idx": 4739,
+    "sen": "Well , actually President Mubarak was very categorical today in condemning calls for war , which he said were very serious and people should understand the implications of just what it meant .",
+    "prd_word": "said",
+    "prd_lemma": "say",
+    "prd_sense": "01",
+    "prd_idx": 18,
+    "label": "ARG1",
+    "span": "were very serious",
+    "span_idx": [
+      18,
+      21
+    ],
+    "span_mean": "Utterance",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The span \\\"were very serious\\\" omits the pronoun \\\"which\\\" and thus does not form a complete subordinate clause representing the utterance content.\",\"correct_argument\":\"which were very serious\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The provided argument does not constitute the full utterance content of \\\"said\\\" and therefore does not fulfill the ARG1 role of Utterance.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument span is incorrectly extracted and consequently the semantic role labeling is invalid.\"}"
+  },
+  {
+    "idx": 4761,
+    "sen": "Up next a global hip - hop beat laid down in New York and danced to in the West African nation of Senegal .",
+    "prd_word": "danced",
+    "prd_lemma": "dance",
+    "prd_sense": "01",
+    "prd_idx": 15,
+    "label": "ARG1",
+    "span": "to",
+    "span_idx": [
+      15,
+      16
+    ],
+    "span_mean": "dance",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"to\\\" is only a preposition and does not form a complete semantic unit; the full prepositional phrase \\\"to in the West African nation of Senegal\\\" should be extracted if indicating location or direction.\",\"correct_argument\":\"to in the West African nation of Senegal\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"to\\\" by itself does not represent the \\\"dance\\\" of \\\"danced\\\"; the theme of the dance is actually \\\"a global hip-hop beat\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Both the argument extraction and the semantic role labeling are incorrect.\"}"
+  },
+  {
+    "idx": 4842,
+    "sen": "Sony 's long - awaited release of its latest video game console is guaranteed to pump up the volume on video game sales , already a $ 7 billion business .",
+    "prd_word": "awaited",
+    "prd_lemma": "await",
+    "prd_sense": "01",
+    "prd_idx": 5,
+    "label": "ARG1",
+    "span": "release",
+    "span_idx": [
+      5,
+      6
+    ],
+    "span_mean": "wait-er (not waiter, that's a different sense)",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"release\\\" is a single contiguous word in the sentence and forms a complete semantic unit corresponding to the entity modified by the predicate.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The role description defines ARG1 as the \\\"wait-er\\\" (the entity performing the waiting), but \\\"release\\\" is the thing being awaited (the theme/patient), not the agent doing the waiting.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the assigned semantic role is incorrect because \\\"release\\\" does not fulfill the \\\"wait-er\\\" role for \\\"awaited\\\".\"}"
+  },
+  {
+    "idx": 4865,
+    "sen": "Its personnel have served with US forces in Somalia , Haiti , Bosnia , and Kosovo .",
+    "prd_word": "served",
+    "prd_lemma": "serve",
+    "prd_sense": "01",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span": "with US forces",
+    "span_idx": [
+      4,
+      7
+    ],
+    "span_mean": "employer/recipient/beneficiary of service",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"with US forces\\\" is a contiguous prepositional phrase forming a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"with US forces\\\" indicates accompaniment rather than employer, recipient, or beneficiary of the service, so it does not fulfill the role description for ARG2.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because \\\"with US forces\\\" does not represent the employer or beneficiary of the service.\"}"
+  },
+  {
+    "idx": 4975,
+    "sen": "They have also set up a joint working group on Afghanistan , which is of course a cause of concern for both countries .",
+    "prd_word": "set",
+    "prd_lemma": "set",
+    "prd_sense": "03",
+    "prd_idx": 4,
+    "label": "ARG2",
+    "span": "on Afghanistan",
+    "span_idx": [
+      9,
+      11
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"on Afghanistan\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"on Afghanistan\\\" functions as a modifier of the noun \\\"working group\\\" (indicating topic) rather than serving as an instrument, benefactive, or attribute of the verb \\\"set\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument span is correctly extracted, but the assigned semantic role ARG2 is incorrect because the phrase is not a core argument of the predicate.\"}"
+  },
+  {
+    "idx": 5024,
+    "sen": "Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash .",
+    "prd_word": "Thanks",
+    "prd_lemma": "thanks",
+    "prd_sense": "01",
+    "prd_idx": 1,
+    "label": "ARG3",
+    "span": "for the trial of the Lockerbie 103 Pan Am crash",
+    "span_idx": [
+      9,
+      19
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"for the trial of the Lockerbie 103 Pan Am crash\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"for the trial of the Lockerbie 103 Pan Am crash\\\" expresses the reason or cause for the gratitude, not a starting point, benefactive, or attribute as defined for ARG3.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because the phrase indicates the cause of the thanks rather than a starting point, benefactive, or attribute of \\\"Thanks\\\".\"}"
+  },
+  {
+    "idx": 5035,
+    "sen": "I 'm sure that it was difficult for her personally , but I think the commuter marriage perhaps would have been less stressful if everyday she did n't see herself being undermined and overruled .",
+    "prd_word": "did",
+    "prd_lemma": "do",
+    "prd_sense": "01",
+    "prd_idx": 27,
+    "label": "ARG1",
+    "span": "n't see herself being undermined and overruled",
+    "span_idx": [
+      27,
+      34
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"n't see herself being undermined and overruled\\\" is a contiguous phrase in the sentence and captures the full complement of the predicate \\\"did\\\" as a single semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The argument is a verb phrase and not a prototypical patient of the predicate \\\"did\\\", so it does not satisfy the specified ARG1 role as 'prototypical patient'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Although the argument extraction is correct, the semantic role label is incorrect because the argument does not fulfill the role of a patient for the predicate \\\"did\\\".\"}"
+  },
+  {
+    "idx": 5060,
+    "sen": "I thought would take a week or two .",
+    "prd_word": "take",
+    "prd_lemma": "take",
+    "prd_sense": "10",
+    "prd_idx": 4,
+    "label": "ARG0",
+    "span": "I",
+    "span_idx": [
+      0,
+      1
+    ],
+    "span_mean": "requirer",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"I\\\" is not a participant in the event of \\\"take\\\" but the subject of \\\"thought\\\"; the subject (requirer) of \\\"take\\\" is actually \\\"it\\\".\",\"correct_argument\":\"it\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"I\\\" does not perform or require the action of \\\"take\\\"; thus it cannot be ARG0.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Both the argument extraction and the semantic role labeling are incorrect.\"}"
+  },
+  {
+    "idx": 5144,
+    "sen": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+    "prd_word": "decision",
+    "prd_lemma": "decision",
+    "prd_sense": "01",
+    "prd_idx": 3,
+    "label": "ARG3",
+    "span": "for Lamen Khalifa Fhimah , aquittal",
+    "span_idx": [
+      3,
+      9
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument span ‘for Lamen Khalifa Fhimah , aquittal’ conflates two separate semantic units (the benefactive ‘for Lamen Khalifa Fhimah’ and the attribute ‘aquittal’) and thus over-extracts the boundary.\",\"correct_argument\":\"for Lamen Khalifa Fhimah\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Because the provided span is incorrect, it cannot properly fulfill ARG3 as either a pure benefactive or an attribute of ‘decision’.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument boundary is incorrect, leading to an invalid semantic role labeling.\"}"
+  },
+  {
+    "idx": 5146,
+    "sen": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+    "prd_word": "decision",
+    "prd_lemma": "decision",
+    "prd_sense": "01",
+    "prd_idx": 3,
+    "label": "ARG2",
+    "span": "for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged",
+    "span_idx": [
+      3,
+      21
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The given argument span includes multiple coordinated elements (a prepositional phrase, a noun result, and a clause) rather than a single constituent modifying the predicate, leading to over-extraction. The minimal complete argument should be the prepositional phrase 'for Lamen Khalifa Fhimah'.\",\"correct_argument\":\"for Lamen Khalifa Fhimah\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Only the prepositional phrase 'for Lamen Khalifa Fhimah' functions as the benefactive of the noun predicate 'decision'. The rest of the span ('aquittal' and the following clause) represents results, not an instrument, benefactive, or attribute. Hence the given argument does not satisfy the specified ARG2 relation.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Because the argument boundary is incorrect (over-extraction) and the argument does not properly fulfill the specified semantic role, the overall annotation is incorrect.\"}"
+  },
+  {
+    "idx": 5147,
+    "sen": "A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .",
+    "prd_word": "found",
+    "prd_lemma": "find",
+    "prd_sense": "02",
+    "prd_idx": 18,
+    "label": "ARG0",
+    "span": "Abdel Basset Ali Al - megrahi",
+    "span_idx": [
+      11,
+      17
+    ],
+    "span_mean": "finder",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"Abdel Basset Ali Al - megrahi\\\" is a contiguous phrase correctly extracted as the complete person’s name.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"Abdel Basset Ali Al - megrahi\\\" is the one being judged (Patient/Theme), not the finder (Agent), so it does not fulfill ARG0.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 5172,
+    "sen": "The bottom line , this court rules unanimously the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26 .",
+    "prd_word": "rules",
+    "prd_lemma": "rule",
+    "prd_sense": "01",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span": "the right of the people to have the votes counted",
+    "span_idx": [
+      8,
+      18
+    ],
+    "span_mean": "domain the rule applies to",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The predicate “rules” subcategorizes for the full clausal complement “the right of the people to have the votes counted is paramount,” but the given argument omits “is paramount,” making the span incomplete.\",\"correct_argument\":\"the right of the people to have the votes counted is paramount\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"Even as just the noun phrase “the right of the people to have the votes counted,” the argument correctly specifies the domain to which the court’s rule applies, matching the ARG1 description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The semantic role relation is correct, but the argument extraction is insufficient and thus incorrect overall.\"}"
+  },
+  {
+    "idx": 5178,
+    "sen": "The bottom line , this court rules unanimously the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26 .",
+    "prd_word": "rules",
+    "prd_lemma": "rule",
+    "prd_sense": "01",
+    "prd_idx": 7,
+    "label": "ARG1",
+    "span": "the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26",
+    "span_idx": [
+      8,
+      37
+    ],
+    "span_mean": "domain the rule applies to",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument is a contiguous clausal span directly following the predicate and serves as a complete semantic unit (the direct object of “rules”).\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The predicate “rules” is verbal and the argument is the proposition being decided (theme), not the ‘domain the rule applies to’ as described for ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the assigned semantic role does not match the described relationship.\"}"
+  },
+  {
+    "idx": 5189,
+    "sen": "The bottom line , this court rules unanimously the right of the people to have the votes counted is paramount , thus , the amended certifications to include the hand counts must be accepted by November 26 .",
+    "prd_word": "counts",
+    "prd_lemma": "count",
+    "prd_sense": "01",
+    "prd_idx": 31,
+    "label": "ARG1",
+    "span": "hand",
+    "span_idx": [
+      29,
+      30
+    ],
+    "span_mean": "thing counted",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument 'hand' is only an adjective modifying the noun 'counts' to form the compound noun 'hand counts'; it is not an independent argument of the predicate 'counts'.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"'hand' does not represent the 'thing counted' by the predicate 'counts'; the counted items in the sentence are 'votes', not 'hand'.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect and the semantic role label assignment is also incorrect.\"}"
+  },
+  {
+    "idx": 5203,
+    "sen": "Kids are spending $ 50 to $ 70 , you know , a pop on these games .",
+    "prd_word": "spending",
+    "prd_lemma": "spend",
+    "prd_sense": "01",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span": "a pop on these games",
+    "span_idx": [
+      12,
+      17
+    ],
+    "span_mean": "thing bought, commodity",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The span “a pop on these games” includes the price expression ‘a pop on’ and is not the minimal semantic unit representing the commodity; the actual thing bought is expressed by “these games.”\",\"correct_argument\":\"these games\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"Even if treated as a single argument, “a pop on these games” does not directly denote the commodity; thus it does not fulfill the role of “thing bought, commodity” for the predicate “spending.”\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument boundary is incorrect and the assigned role relationship does not hold for the given argument.\"}"
+  },
+  {
+    "idx": 5240,
+    "sen": "In fact he had to burn up an entire suitcase full of hundreds of poems and plays and stories at the start of the Cultural Revolution in fear of going to prison , and then in 1983 after being diagnosed with lung cancer , which had killed his father three years earlier and being convinced that he himself was going to die , he gets a kind of reprieve .",
+    "prd_word": "diagnosed",
+    "prd_lemma": "diagnose",
+    "prd_sense": "01",
+    "prd_idx": 40,
+    "label": "ARG2",
+    "span": "that he himself was going to die",
+    "span_idx": [
+      55,
+      62
+    ],
+    "span_mean": "illness",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"that he himself was going to die\\\" is a contiguous subordinate clause in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The clause expresses his conviction and not the illness diagnosed; the actual illness of the predicate \\\"diagnosed\\\" is \\\"lung cancer\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the assigned role is incorrect because the argument does not represent the illness of the predicate.\"}"
+  },
+  {
+    "idx": 5459,
+    "sen": "While the Gore menu remains a family secret , the Bush clan all to happy to share some of his favorite fare -- jalapeno pecan cornbread stuffing and coconut cake .",
+    "prd_word": "share",
+    "prd_lemma": "share",
+    "prd_sense": "01",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span": "the Bush",
+    "span_idx": [
+      9,
+      11
+    ],
+    "span_mean": "sharer",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument \\\"the Bush\\\" omits the head noun \\\"clan\\\", under-extracting the full NP which is \\\"the Bush clan\\\".\",\"correct_argument\":\"the Bush clan\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"\\\"the Bush\\\" (i.e., the Bush clan) functions as the agent or sharer of the predicate \\\"share\\\", satisfying ARG0.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction boundary is incorrect, although the semantic role assignment is correct.\"}"
+  },
+  {
+    "idx": 5554,
+    "sen": "Give us your insights as to what you think the future holds .",
+    "prd_word": "holds",
+    "prd_lemma": "hold",
+    "prd_sense": "13",
+    "prd_idx": 12,
+    "label": "ARG1",
+    "span": "the future",
+    "span_idx": [
+      9,
+      11
+    ],
+    "span_mean": "contents, attribute",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"the future\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"the future\\\" functions as the holder or subject performing the action of \\\"holds\\\", not as the content or attribute of what is held.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect because \\\"the future\\\" does not represent the contents or attribute (ARG1) of \\\"holds\\\".\"}"
+  },
+  {
+    "idx": 5621,
+    "sen": "The hottest gift this Christmas could be Sony 's new PlayStation 2 , but good luck finding one .",
+    "prd_word": "finding",
+    "prd_lemma": "find",
+    "prd_sense": "01",
+    "prd_idx": 17,
+    "label": "ARG0",
+    "span": "good luck",
+    "span_idx": [
+      14,
+      16
+    ],
+    "span_mean": "finder",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"good luck\\\" is a contiguous phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"good luck\\\" is an interjection expressing a wish, not the agent or finder of the action \\\"finding\\\", which has an implicit subject (you).\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role labeling is incorrect because \\\"good luck\\\" does not serve as ARG0 (finder) for \\\"finding\\\".\"}"
+  },
+  {
+    "idx": 5830,
+    "sen": "That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations .",
+    "prd_word": "end",
+    "prd_lemma": "end",
+    "prd_sense": "03",
+    "prd_idx": 36,
+    "label": "ARG2",
+    "span": "the head of the EPA",
+    "span_idx": [
+      38,
+      43
+    ],
+    "span_mean": null,
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"the head of the EPA\\\" is a contiguous noun phrase extracted directly from the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the construction \\\"end up becoming the head of the EPA\\\", the phrase \\\"the head of the EPA\\\" indicates the result or outcome, not an instrument, benefactive, or attribute of the predicate \\\"end\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the assigned role label is incorrect because the argument does not satisfy the specified role description.\"}"
+  },
+  {
+    "idx": 5919,
+    "sen": "We are also including the undervotes of 10,000 in Palm Beach and junt votes of 10,000 in Miami - Dade as well .",
+    "prd_word": "votes",
+    "prd_lemma": "vote",
+    "prd_sense": "01",
+    "prd_idx": 14,
+    "label": "ARG0",
+    "span": "of 10,000 in Miami - Dade",
+    "span_idx": [
+      14,
+      20
+    ],
+    "span_mean": "voter",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"of 10,000 in Miami - Dade\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit modifying the noun \\\"votes\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The phrase specifies the quantity and location of the votes, not the voter (agent) of the votes, so it does not fulfill the ARG0 role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument span is correctly extracted, but the semantic role label is incorrect because the phrase does not represent the voter (ARG0).\"}"
+  },
+  {
+    "idx": 5921,
+    "sen": "We are also including the undervotes of 10,000 in Palm Beach and junt votes of 10,000 in Miami - Dade as well .",
+    "prd_word": "votes",
+    "prd_lemma": "vote",
+    "prd_sense": "01",
+    "prd_idx": 14,
+    "label": "ARG1",
+    "span": "of 10,000",
+    "span_idx": [
+      14,
+      16
+    ],
+    "span_mean": "candidate or ballot issue",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"of 10,000\\\" is a contiguous prepositional phrase correctly extracted as the modifier of \\\"votes\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"of 10,000\\\" indicates the quantity of votes, not a candidate or ballot issue, so it does not fulfill the ARG1 role description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the semantic role labeling is incorrect.\"}"
+  },
+  {
+    "idx": 6009,
+    "sen": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+    "prd_word": "try",
+    "prd_lemma": "try",
+    "prd_sense": "01",
+    "prd_idx": 20,
+    "label": "ARG0",
+    "span": "she",
+    "span_idx": [
+      8,
+      9
+    ],
+    "span_mean": "Agent/Entity Trying",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"she\\\" is a single-word pronoun with clear boundaries, forming a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the clause containing \\\"try\\\", the implied agent is the people who put up the gates (\\\"they\\\"), not \\\"she\\\", so \\\"she\\\" does not fulfill the Agent role (ARG0) of \\\"try\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 6013,
+    "sen": "They tried to shoo the hen away but she kept coming back , even putting up baby gates to try to keep the chicken out .",
+    "prd_word": "keep",
+    "prd_lemma": "keep",
+    "prd_sense": "04",
+    "prd_idx": 22,
+    "label": "ARG0",
+    "span": "she",
+    "span_idx": [
+      8,
+      9
+    ],
+    "span_mean": "causer of separation",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"In the clause \\\"to keep the chicken out\\\", the subject is the same as the main clause subject \\\"They\\\", not \\\"she\\\", so \\\"she\\\" is not an argument of this predicate.\",\"correct_argument\":\"They\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"she\\\" does not function as the causer of separation for \\\"keep\\\"; the causer is \\\"They\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is incorrect and the semantic role label assignment is also incorrect.\"}"
+  },
+  {
+    "idx": 6029,
+    "sen": "When Awadi and Barry performed , they managed simultaneously to bathe in the group of American hip - hop and they keep a clear sense that they are from Senegal .",
+    "prd_word": "bathe",
+    "prd_lemma": "bathe",
+    "prd_sense": "01",
+    "prd_idx": 11,
+    "label": "ARG2",
+    "span": "in the group of American hip - hop",
+    "span_idx": [
+      11,
+      19
+    ],
+    "span_mean": "Liquid bathed in",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"in the group of American hip - hop\\\" is a contiguous prepositional phrase in the sentence and forms a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"The phrase does not denote the liquid in which the bathing occurs but rather expresses metaphorical immersion in a group, so it does not fulfill the 'Liquid bathed in' role.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"Argument extraction is correct, but the semantic role labeling is incorrect because the argument does not satisfy the specified role of 'Liquid bathed in'.\"}"
+  },
+  {
+    "idx": 6102,
+    "sen": "The FBI says when they questioned him , he told them of another plot to bomb an American ship in Yemen , where the `` USS Cole '' was ultimately attacked .",
+    "prd_word": "says",
+    "prd_lemma": "say",
+    "prd_sense": "01",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span": "he told them of another plot to bomb an American ship in Yemen , where the `` USS Cole '' was ultimately attacked",
+    "span_idx": [
+      8,
+      31
+    ],
+    "span_mean": "Utterance",
+    "response": "{\"argument_extraction_evaluation\":\"no\",\"reason_for_argment_judgement\":\"The argument misses the subordinating clause 'when they questioned him,' which is part of the utterance content, making the extraction insufficient.\",\"correct_argument\":\"when they questioned him, he told them of another plot to bomb an American ship in Yemen, where the `` USS Cole '' was ultimately attacked\",\"role_evaluation\":\"yes\",\"reason_for_role_judgement\":\"The argument content matches the 'Utterance' of the predicate 'says', aligning with the role description for ARG1.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The semantic role is correct, but the argument boundary is incorrect, resulting in an overall incorrect annotation.\"}"
+  },
+  {
+    "idx": 6133,
+    "sen": "The emergency order last week and the extension announced in Denver at a meeting of western governors will keep electricity flowing to California through the middle of next week .",
+    "prd_word": "order",
+    "prd_lemma": "order",
+    "prd_sense": "01",
+    "prd_idx": 3,
+    "label": "ARG1",
+    "span": "emergency",
+    "span_idx": [
+      1,
+      2
+    ],
+    "span_mean": "impelled agent",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"emergency\\\" is a single contiguous word serving as a complete semantic unit modifying the noun predicate \\\"order\\\".\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"\\\"emergency\\\" functions as a descriptor of the type of order and does not represent the impelled agent of the order, so it does not satisfy the ARG1 role description.\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct, but the semantic role label is incorrect.\"}"
+  },
+  {
+    "idx": 6164,
+    "sen": "He had survived , if you will , a death sentence , and now in that new freedom of the life in front of him , he takes to the road in the tradition of old Chinese poets and records what he sees , what he hears , the stories that he is told .",
+    "prd_word": "sentence",
+    "prd_lemma": "sentence",
+    "prd_sense": "01",
+    "prd_idx": 11,
+    "label": "ARG1",
+    "span": "death",
+    "span_idx": [
+      9,
+      10
+    ],
+    "span_mean": "criminal",
+    "response": "{\"argument_extraction_evaluation\":\"yes\",\"reason_for_argment_judgement\":\"The argument \\\"death\\\" is a single word with clear boundaries, forming a complete semantic unit.\",\"correct_argument\":\"\",\"role_evaluation\":\"no\",\"reason_for_role_judgement\":\"In the phrase \\\"death sentence\\\", \\\"death\\\" is a modifier specifying the type of sentence, not an entity being sentenced. It does not satisfy the role of ARG1 as the criminal of \\\"sentence\\\".\",\"final_judgement\":\"incorrect\",\"reason_for_final_judgement\":\"The argument extraction is correct but the semantic role labeling is incorrect.\"}"
+  }
+]

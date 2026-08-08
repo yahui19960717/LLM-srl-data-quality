@@ -1,0 +1,27 @@
+process llm result
+
+Warning: Could not parse Prompt_Result as JSON for key: I mean it is you know I mean absorbed	absorbed	9
+Warning: Could not parse Prompt_Result as JSON for key: Well you know why Allah is doing this .	doing	7
+Warning: Could not parse Prompt_Result as JSON for key: I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	know	4
+Warning: Could not parse Prompt_Result as JSON for key: I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	go	13
+Warning: Could not parse Prompt_Result as JSON for key: I said you know it 's a shame that you ca n't go no place and I can get a good report on you you know , %um , and by her going to Francis and things , and Francis seeing for herself ,	get	19
+Warning: Could not parse Prompt_Result as JSON for key: you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	2
+Warning: Could not parse Prompt_Result as JSON for key: you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	17
+Warning: Could not parse Prompt_Result as JSON for key: you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	know	23
+Warning: Could not parse Prompt_Result as JSON for key: So I do n't know	know	5
+Warning: Could not parse Prompt_Result as JSON for key: And I was like , well I 've been telling you that Neil .	telling	10
+Warning: Could not parse Prompt_Result as JSON for key: At least Well that would make sense during the summer %uh according to the stipulations of my fellowship , I can actually earn money during the summer .	make	6
+Warning: Could not parse Prompt_Result as JSON for key: But yeah . it gives a driving term .	gives	5
+Warning: Could not parse Prompt_Result as JSON for key: And one of the things that they find experimentally are what they call anti phased , %uh , states , where if you look at the total intensity uh-huh . of the laser , you get an oscillation which is characterized by one frequency .	find	8
+Warning: Could not parse Prompt_Result as JSON for key: she said she was so concerned that this little girl was going to just get out here cause I was n't going to send back to the school , the Muslim school .	send	24
+Warning: Could not parse Prompt_Result as JSON for key: Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	work	8
+process gold result
+
+
+Evaluation Results:
+Role: ARG1       | P: 0.5227 | R: 0.6359 | F1: 0.5737
+Role: ARG2       | P: 0.3804 | R: 0.6213 | F1: 0.4719
+Role: ARG0       | P: 0.8095 | R: 0.8837 | F1: 0.8449
+Role: ARG4       | P: 0.4839 | R: 0.5769 | F1: 0.5263
+Role: ARG3       | P: 0.1944 | R: 0.3889 | F1: 0.2593
+Role: OVERALL    | P: 0.6169 | R: 0.7457 | F1: 0.6752

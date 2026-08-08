@@ -1,0 +1,22 @@
+{
+  "Well , , Leo 's big . You know ,\tknow\t9": {
+    "prd_sense": "01",
+    "roles": {
+      "ARG0": "knower",
+      "ARG1": "fact that is known",
+      "ARG2": "entity that arg1 is known ABOUT"
+    },
+    "Prompt": "Give a sentence：\"Well , , Leo 's big . You know ,\", a predicate：\"know\", all posssible argument roles and their descritions：{'ARG0': 'knower', 'ARG1': 'fact that is known', 'ARG2': 'entity that arg1 is known ABOUT'}, please label all the possible argument about predicate \"know\" of the sentence.\n Provide the answer in JSON format as follows: {\"comment\":{role: argument, role: argument, ...}} ",
+    "Prompt_Result": "Given the sentence: \"Well, Leo's big. You know,\" and the predicate \"know\", we can analyze the roles as follows:\n\n- **ARG0 (knower)**: This role is typically filled by the entity that knows something. In this context, \"You\" is the knower.\n- **ARG1 (fact that is known)**: This role is filled by the information or fact that is known. Here, the fact is \"Leo's big.\"\n- **ARG2 (entity that arg1 is known ABOUT)**: This role is filled by the entity about which the fact is known. In this case, it is \"Leo.\"\n\nThus, the labeled arguments for the predicate \"know\" in the given sentence are:\n\n```json\n{\n  \"comment\": {\n    \"ARG0\": \"You\",\n    \"ARG1\": \"Leo's big\",\n    \"ARG2\": \"Leo\"\n  }\n}\n```"
+  },
+  "With your parents when your father was stationed over here , right ?\tstationed\t8": {
+    "prd_sense": "01",
+    "roles": {
+      "ARG0": "high command, agent",
+      "ARG1": "military people",
+      "ARG2": "place"
+    },
+    "Prompt": "Give a sentence：\"With your parents when your father was stationed over here , right ?\", a predicate：\"stationed\", all posssible argument roles and their descritions：{'ARG0': 'high command, agent', 'ARG1': 'military people', 'ARG2': 'place'}, please label all the possible argument about predicate \"stationed\" of the sentence.\n Provide the answer in JSON format as follows: {\"comment\":{role: argument, role: argument, ...}} ",
+    "Prompt_Result": "To label the semantic roles for the predicate \"stationed\" in the sentence \"With your parents when your father was stationed over here, right?\", we need to identify which parts of the sentence correspond to the roles ARG0, ARG1, and ARG2 based on the provided descriptions.\n\n- **ARG0 (high command, agent)**: This role typically refers to the entity that is responsible for the action. In this context, it would be the military or the authority that decided to station the father. However, the sentence does not explicitly mention who made the decision to station the father.\n- **ARG1 (military people)**: This role refers to the person or group being stationed. In this sentence, \"your father\" is the one who was stationed.\n- **ARG2 (place)**: This role refers to the location where the person or group is stationed. In this sentence, \"over here\" indicates the place where the father was stationed.\n\nGiven these identifications, the labeled roles can be represented as follows:\n\n```json\n{\n  \"comment\": {\n    \"ARG1\": \"your father\",\n    \"ARG2\": \"over here\"\n  }\n}\n```\n\nNote that \"ARG0\" is not included because the sentence does not provide information about the high command or agent responsible for the stationing."
+  }
+}

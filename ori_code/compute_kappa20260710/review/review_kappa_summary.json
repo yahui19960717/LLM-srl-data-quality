@@ -1,0 +1,175 @@
+{
+  "datasets": {
+    "bn_gold_llmj_invalid": {
+      "domain": "bn",
+      "llm_label": 0,
+      "human_file": "annotations_single_gold_wlj_final.json",
+      "source_file": "incorrect_data_bn_gold.json",
+      "raw_human_items": 113,
+      "used_human_items_after_type_filter": 113,
+      "type_filter_contains": null,
+      "source_items": 236,
+      "matched_human_items": 113,
+      "unmatched_human_items": 0,
+      "duplicate_source_candidate_cases": 0,
+      "grammar_status_counts": {
+        "没有语法错误": 110,
+        "有语法错误": 3
+      },
+      "optional_count": 0,
+      "human_label_counts": {
+        "1": 48,
+        "0": 65
+      },
+      "matrix_and_kappa": {
+        "n": 113,
+        "matrix": {
+          "llm1_human1_a": 0,
+          "llm1_human0_b": 0,
+          "llm0_human1_c": 48,
+          "llm0_human0_d": 65
+        },
+        "observed_agreement": 0.5752212389380531,
+        "expected_agreement": 0.5752212389380531,
+        "kappa": 0.0
+      }
+    },
+    "tc_gold_llmj_invalid": {
+      "domain": "tc",
+      "llm_label": 0,
+      "human_file": "annotation_tc_single_gold_201_wlj_final.json",
+      "source_file": "incorrect_data_tc_gold.json",
+      "raw_human_items": 201,
+      "used_human_items_after_type_filter": 201,
+      "type_filter_contains": null,
+      "source_items": 201,
+      "matched_human_items": 201,
+      "unmatched_human_items": 0,
+      "duplicate_source_candidate_cases": 0,
+      "grammar_status_counts": {
+        "没有语法错误": 191,
+        "有语法错误": 10
+      },
+      "optional_count": 28,
+      "human_label_counts": {
+        "1": 121,
+        "0": 80
+      },
+      "matrix_and_kappa": {
+        "n": 201,
+        "matrix": {
+          "llm1_human1_a": 0,
+          "llm1_human0_b": 0,
+          "llm0_human1_c": 121,
+          "llm0_human0_d": 80
+        },
+        "observed_agreement": 0.39800995024875624,
+        "expected_agreement": 0.39800995024875624,
+        "kappa": 0.0
+      }
+    },
+    "bn_smallmodel_llmj_valid": {
+      "domain": "bn",
+      "llm_label": 1,
+      "human_file": "annotations_wlj_smallmodel_163_final.json",
+      "source_file": "correct_data_bn_smallmodel.json",
+      "raw_human_items": 163,
+      "used_human_items_after_type_filter": 127,
+      "type_filter_contains": "o1mini_right",
+      "source_items": 127,
+      "matched_human_items": 126,
+      "unmatched_human_items": 1,
+      "duplicate_source_candidate_cases": 14,
+      "grammar_status_counts": {
+        "没有语法错误": 126,
+        "有语法错误": 1
+      },
+      "optional_count": 0,
+      "human_label_counts": {
+        "1": 74,
+        "0": 52
+      },
+      "matrix_and_kappa": {
+        "n": 126,
+        "matrix": {
+          "llm1_human1_a": 74,
+          "llm1_human0_b": 52,
+          "llm0_human1_c": 0,
+          "llm0_human0_d": 0
+        },
+        "observed_agreement": 0.5873015873015873,
+        "expected_agreement": 0.5873015873015873,
+        "kappa": 0.0
+      }
+    },
+    "tc_smallmodel_llmj_valid": {
+      "domain": "tc",
+      "llm_label": 1,
+      "human_file": "annotation_tc_smallmodel_removerepeate_322_wlj_final.json",
+      "source_file": "correct_data_tc_smallmodel.json",
+      "raw_human_items": 322,
+      "used_human_items_after_type_filter": 322,
+      "type_filter_contains": null,
+      "source_items": 333,
+      "matched_human_items": 322,
+      "unmatched_human_items": 0,
+      "duplicate_source_candidate_cases": 11,
+      "grammar_status_counts": {
+        "没有语法错误": 313,
+        "有语法错误": 9
+      },
+      "optional_count": 25,
+      "human_label_counts": {
+        "1": 250,
+        "0": 72
+      },
+      "matrix_and_kappa": {
+        "n": 322,
+        "matrix": {
+          "llm1_human1_a": 250,
+          "llm1_human0_b": 72,
+          "llm0_human1_c": 0,
+          "llm0_human0_d": 0
+        },
+        "observed_agreement": 0.7763975155279503,
+        "expected_agreement": 0.7763975155279503,
+        "kappa": 0.0
+      }
+    }
+  },
+  "notes": [
+    "LLM-J label 0 means LLM-J judged the gold span invalid.",
+    "LLM-J label 1 means LLM-J judged the small model prediction span valid.",
+    "Human label 1 means the source span appears in final selected_spans; human label 0 means it does not.",
+    "Source span_idx is converted from [start, end) to inclusive (start, end - 1) before comparison.",
+    "BN smallmodel final contains mixed types; only o1mini_right items are used for the review smallmodel-valid stratum."
+  ],
+  "overall": {
+    "matched_rows": 762,
+    "valid_rows_excluding_optional_and_grammar_errors": 686,
+    "matrix_and_kappa_all_matched": {
+      "n": 762,
+      "matrix": {
+        "llm1_human1_a": 324,
+        "llm1_human0_b": 124,
+        "llm0_human1_c": 169,
+        "llm0_human0_d": 145
+      },
+      "observed_agreement": 0.615485564304462,
+      "expected_agreement": 0.5258471628054368,
+      "kappa": 0.18904959428143872
+    },
+    "matrix_and_kappa_valid_only": {
+      "n": 686,
+      "matrix": {
+        "llm1_human1_a": 305,
+        "llm1_human0_b": 108,
+        "llm0_human1_c": 141,
+        "llm0_human0_d": 132
+      },
+      "observed_agreement": 0.6370262390670554,
+      "expected_agreement": 0.5306419944070923,
+      "kappa": 0.22665906065791971
+    }
+  }
+}

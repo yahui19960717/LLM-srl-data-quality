@@ -169,9 +169,10 @@ def compute_prf(gold_dict, llm_dict):
 # step3：以第二步获得的数据为标准，计算第一步文件在各个角色上的precision、recall和F1，以及最后给出整体角色上的precision、recall和F1
 if __name__ == "__main__":
     domain = "bn" #"bn"
+    model = "gpt4.1" #"deepseek"
     
     # sstep1:先读取llm_result/test_bn_4llm_core_gold_role.json，解析Prompt_Result结果，保存每一个role对应的Argument
-    llm_path = f"llm_result/test_{domain}_4llm_core_gold_role.json"
+    llm_path = f"llm_result/{model}_result/test_{domain}_4llm_core_gold_role.json"
     llm_data = read_json(llm_path)
     print("process llm result\n")
     llm_role_argument_dict = parse_llm_result(llm_data)

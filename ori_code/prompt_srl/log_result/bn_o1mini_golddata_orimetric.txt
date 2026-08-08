@@ -1,0 +1,12 @@
+process llm result
+
+process gold result
+
+
+Evaluation Results on revised data:
+Role: ARG0       | P: 0.8827 | R: 0.8137 | F1: 0.8468
+Role: ARG1       | P: 0.7170 | R: 0.6624 | F1: 0.6887
+Role: ARG2       | P: 0.5000 | R: 0.4492 | F1: 0.4732
+Role: ARG4       | P: 0.7500 | R: 0.7500 | F1: 0.7500
+Role: ARG3       | P: 0.5000 | R: 0.4444 | F1: 0.4706
+Role: OVERALL    | P: 0.7723 | R: 0.7117 | F1: 0.7407

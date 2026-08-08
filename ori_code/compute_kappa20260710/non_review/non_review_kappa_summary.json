@@ -1,0 +1,162 @@
+{
+  "datasets": {
+    "bn_gold_llmj_correct": {
+      "domain": "bn",
+      "llm_label": 1,
+      "human_file": "annotations_gold_o1right_random_wlj_final.json",
+      "source_file": "correct_data_bn_gold.json",
+      "human_items": 30,
+      "source_items": 1893,
+      "matched_human_items": 30,
+      "unmatched_human_items": 0,
+      "duplicate_source_candidate_cases": 0,
+      "grammar_status_counts": {
+        "没有语法错误": 30
+      },
+      "optional_count": 0,
+      "human_label_counts": {
+        "1": 28,
+        "0": 2
+      },
+      "matrix_and_kappa": {
+        "n": 30,
+        "matrix": {
+          "llm1_human1_a": 28,
+          "llm1_human0_b": 2,
+          "llm0_human1_c": 0,
+          "llm0_human0_d": 0
+        },
+        "observed_agreement": 0.9333333333333333,
+        "expected_agreement": 0.9333333333333333,
+        "kappa": 0.0
+      }
+    },
+    "tc_gold_llmj_correct": {
+      "domain": "tc",
+      "llm_label": 1,
+      "human_file": "annotation_tc_gold_o1right_random30_wlj.json",
+      "source_file": "correct_data_tc_gold.json",
+      "human_items": 30,
+      "source_items": 1645,
+      "matched_human_items": 30,
+      "unmatched_human_items": 0,
+      "duplicate_source_candidate_cases": 0,
+      "grammar_status_counts": {
+        "没有语法错误": 30
+      },
+      "optional_count": 0,
+      "human_label_counts": {
+        "1": 30
+      },
+      "matrix_and_kappa": {
+        "n": 30,
+        "matrix": {
+          "llm1_human1_a": 30,
+          "llm1_human0_b": 0,
+          "llm0_human1_c": 0,
+          "llm0_human0_d": 0
+        },
+        "observed_agreement": 1.0,
+        "expected_agreement": 1.0,
+        "kappa": null
+      }
+    },
+    "bn_smallmodel_llmj_incorrect": {
+      "domain": "bn",
+      "llm_label": 0,
+      "human_file": "annotations_smallmodel_botherror_random_wlj_final.json",
+      "source_file": "incorrect_data_bn_smallmodel.json",
+      "human_items": 30,
+      "source_items": 142,
+      "matched_human_items": 30,
+      "unmatched_human_items": 0,
+      "duplicate_source_candidate_cases": 1,
+      "grammar_status_counts": {
+        "没有语法错误": 30
+      },
+      "optional_count": 0,
+      "human_label_counts": {
+        "1": 28,
+        "0": 2
+      },
+      "matrix_and_kappa": {
+        "n": 30,
+        "matrix": {
+          "llm1_human1_a": 0,
+          "llm1_human0_b": 0,
+          "llm0_human1_c": 28,
+          "llm0_human0_d": 2
+        },
+        "observed_agreement": 0.06666666666666667,
+        "expected_agreement": 0.06666666666666667,
+        "kappa": 0.0
+      }
+    },
+    "tc_smallmodel_llmj_incorrect": {
+      "domain": "tc",
+      "llm_label": 0,
+      "human_file": "annotation_tc_smallmodel_o1wrong_random30_wlj.json",
+      "source_file": "incorrect_data_tc_smallmodel.json",
+      "human_items": 30,
+      "source_items": 237,
+      "matched_human_items": 30,
+      "unmatched_human_items": 0,
+      "duplicate_source_candidate_cases": 1,
+      "grammar_status_counts": {
+        "没有语法错误": 30
+      },
+      "optional_count": 2,
+      "human_label_counts": {
+        "1": 21,
+        "0": 9
+      },
+      "matrix_and_kappa": {
+        "n": 30,
+        "matrix": {
+          "llm1_human1_a": 0,
+          "llm1_human0_b": 0,
+          "llm0_human1_c": 21,
+          "llm0_human0_d": 9
+        },
+        "observed_agreement": 0.3,
+        "expected_agreement": 0.3,
+        "kappa": 0.0
+      }
+    }
+  },
+  "notes": [
+    "LLM-J label 1 means gold span judged correct by LLM-J.",
+    "LLM-J label 0 means small model prediction judged incorrect by LLM-J.",
+    "For LLM-J=1 gold-correct items, human_label=1 means the source gold span appears in final selected_spans.",
+    "For LLM-J=0 smallmodel-incorrect items, human_label=0 means the rejected smallmodel span appears in final selected_spans; human_label=1 means it does not.",
+    "Source span_idx is converted from [start, end) to inclusive (start, end - 1) before comparison."
+  ],
+  "overall": {
+    "matched_rows": 120,
+    "valid_rows_excluding_optional_and_grammar_errors": 118,
+    "matrix_and_kappa_all_matched": {
+      "n": 120,
+      "matrix": {
+        "llm1_human1_a": 58,
+        "llm1_human0_b": 2,
+        "llm0_human1_c": 49,
+        "llm0_human0_d": 11
+      },
+      "observed_agreement": 0.575,
+      "expected_agreement": 0.5,
+      "kappa": 0.1499999999999999
+    },
+    "matrix_and_kappa_valid_only": {
+      "n": 118,
+      "matrix": {
+        "llm1_human1_a": 58,
+        "llm1_human0_b": 2,
+        "llm0_human1_c": 49,
+        "llm0_human0_d": 9
+      },
+      "observed_agreement": 0.5677966101694916,
+      "expected_agreement": 0.506894570525711,
+      "kappa": 0.12350713661520552
+    }
+  }
+}

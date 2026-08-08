@@ -1,0 +1,80 @@
+process llm result
+
+Warning: Could not parse Prompt_Result as JSON for key: And it was a very nice letter , because it sounded like she went through very similar things that I did .	went	14
+Warning: Could not parse Prompt_Result as JSON for key: If I would to ask to become a citizen in Holland I would automatically lose my American citizenship .	ask	5
+Warning: Could not parse Prompt_Result as JSON for key: And what 's actually kind of interesting is I kept telling Neil that I thought that this was kind of significant .	thought	15
+Warning: Could not parse Prompt_Result as JSON for key: but that 's what he said .	said	6
+Warning: Could not parse Prompt_Result as JSON for key: heard that .	heard	1
+Warning: Could not parse Prompt_Result as JSON for key: like if I were born in Holland and then had American parents . Then I could be a dual citizen .	had	10
+Warning: Could not parse Prompt_Result as JSON for key: She called mom to talk to mom	talk	5
+Warning: Could not parse Prompt_Result as JSON for key: So , it actually creates a situation where you get the right sort of answer , you just ca n't always write it down very easily .	creates	5
+Warning: Could not parse Prompt_Result as JSON for key: So , it actually creates a situation where you get the right sort of answer , you just ca n't always write it down very easily .	get	10
+Warning: Could not parse Prompt_Result as JSON for key: I ca n't say too bad things about the military though .	say	4
+Warning: Could not parse Prompt_Result as JSON for key: %um , so I have a bunch of %uh work that I need to do on my flat this year .	need	13
+Warning: Could not parse Prompt_Result as JSON for key: but you know you 've heard the saying I 'm sure from your grandmother	know	3
+Warning: Could not parse Prompt_Result as JSON for key: I mean you lay her down on the bed	mean	2
+Warning: Could not parse Prompt_Result as JSON for key: you know even after you left I said , I just hope Arlita knows that you know I tried my best you know	tried	19
+Warning: Could not parse Prompt_Result as JSON for key: %ah , you know I would n't trust it because it 's so complicated with this international garbage or else the Turbo Tax with the Dutch modules . that I just would n't trust it .	trust	8
+Warning: Could not parse Prompt_Result as JSON for key: Well because he could n't breathe because all the cats were in the bedroom .	breathe	6
+Warning: Could not parse Prompt_Result as JSON for key: You know , I mean , we 're d- , you know ,	mean	5
+Warning: Could not parse Prompt_Result as JSON for key: mom said , Barbara , Jasmine is just moving	moving	9
+Warning: Could not parse Prompt_Result as JSON for key: and %um You know ages ago I got a card from Liz Gana .	got	8
+Warning: Could not parse Prompt_Result as JSON for key: and also lifting weights at Bally 's means you 're standing on line for as much time as you 're actually lifting .	standing	11
+Warning: Could not parse Prompt_Result as JSON for key: oh gosh . I bet you 're getting lonely .	bet	5
+Warning: Could not parse Prompt_Result as JSON for key: So I probably will come by public transport	come	5
+Warning: Could not parse Prompt_Result as JSON for key: So uh-huh . I think %um tonight Charlie and I are going to go over and join up .	go	14
+Warning: Could not parse Prompt_Result as JSON for key: She wrote me a letter mhm . you know about her needing a lot of love , a lot of %um help and different things like this ,	wrote	2
+Warning: Could not parse Prompt_Result as JSON for key: we 're going to be in need of some sort of accountant do it cause I have no clue how that all works .	works	23
+Warning: Could not parse Prompt_Result as JSON for key: Some amount that has to be deducted a certain amount	deducted	7
+Warning: Could not parse Prompt_Result as JSON for key: So , I had one client who said that he 'd pay me a minimum amount .	had	4
+Warning: Could not parse Prompt_Result as JSON for key: because I knew what she would do if I took her somewhere you know what she would say	say	18
+Warning: Could not parse Prompt_Result as JSON for key: Got it ,	Got	1
+Warning: Could not parse Prompt_Result as JSON for key: I 'll probably never remember that	remember	5
+Warning: Could not parse Prompt_Result as JSON for key: it is like Allah has just painted the road	painted	7
+Warning: Could not parse Prompt_Result as JSON for key: and they 'll still be enough time when I come home for me to order those .	order	15
+Warning: Could not parse Prompt_Result as JSON for key: Is it paid today ?	paid	3
+Warning: Could not parse Prompt_Result as JSON for key: %uh I mean if they denied my citizenship and I became a citizen here I probably would n't be a horror either ,	became	11
+Warning: Could not parse Prompt_Result as JSON for key: I thought you were talking to somebody else and like put the phone down or something .	put	11
+Warning: Could not parse Prompt_Result as JSON for key: and the amount we pay the American government is deductible ,	pay	5
+Warning: Could not parse Prompt_Result as JSON for key: And Neil kept writing back that I should tone this part of the thesis down that You know , people see the anti phased motion ,	know	18
+Warning: Could not parse Prompt_Result as JSON for key: They still have my goods	have	3
+Warning: Could not parse Prompt_Result as JSON for key: I think I had mentioned before %uh , that there 's a company now that I 'm working with %um , %uh , which is very much just myself and Guss .	working	18
+Warning: Could not parse Prompt_Result as JSON for key: and then we can make arrangements that day %um , that I can meet you in Amsterdam .	make	5
+Warning: Could not parse Prompt_Result as JSON for key: I have to go next week you know to see again .	go	4
+Warning: Could not parse Prompt_Result as JSON for key: Of course I 'm talking to you .	talking	5
+Warning: Could not parse Prompt_Result as JSON for key: She said they had her doing things that she really was n't qualified to do %ah . and that she really did n't feel competent doing .	feel	24
+Warning: Could not parse Prompt_Result as JSON for key: %uh would you mind %uh taking her back	taking	6
+Warning: Could not parse Prompt_Result as JSON for key: she just was not a little sweet little cuddly you know ,	know	11
+Warning: Could not parse Prompt_Result as JSON for key: %uh you know I just want her to understand everything that has happened in the last several years yeah . and things like that .	know	3
+Warning: Could not parse Prompt_Result as JSON for key: And then , are you coming over to the States at all this summer ?	coming	6
+Warning: Could not parse Prompt_Result as JSON for key: oh I already told them all black	told	4
+Warning: Could not parse Prompt_Result as JSON for key: Does she know that you 're Muslim ?	know	3
+Warning: Could not parse Prompt_Result as JSON for key: I 'll do that .	do	3
+Warning: Could not parse Prompt_Result as JSON for key: It 's just But %um %uh , %uh , the main reason for that is I had not really anticipated a few expenses that recently came up %ah . %uh , related to a couple of burglaries that I had .	had	40
+Warning: Could not parse Prompt_Result as JSON for key: But , I do n't really like going with Anne Marie because she does n't like to stay very long .	like	16
+Warning: Could not parse Prompt_Result as JSON for key: She may have found one by now . %um	found	4
+Warning: Could not parse Prompt_Result as JSON for key: see I do n't know how it works .	works	8
+Warning: Could not parse Prompt_Result as JSON for key: %um , %um , but you know I feel very at peace about everything .	feel	9
+Warning: Could not parse Prompt_Result as JSON for key: I told mom	told	2
+Warning: Could not parse Prompt_Result as JSON for key: I just got a card from Ron and Doris ,	got	3
+Warning: Could not parse Prompt_Result as JSON for key: And when he goes to work he brings four sandwiches with him , uh-huh . a bag of potato chips uh-huh . %um you know and then little sweetie things chocolates and **cakies** and stuff like that .	know	25
+Warning: Could not parse Prompt_Result as JSON for key: If anything came up in the next year we could still go back . uh-huh . %uh you know , for Sam .	go	12
+Warning: Could not parse Prompt_Result as JSON for key: You ca n't do that ,	do	4
+Warning: Could not parse Prompt_Result as JSON for key: Could you call Kate and tell her that ?	call	3
+Warning: Could not parse Prompt_Result as JSON for key: oh , I 'm sorry we 're going to miss her .	miss	10
+Warning: Could not parse Prompt_Result as JSON for key: Well , I mean obviously since I work I ca n't get there until about six o'clock at night which is when everyone else gets there .	mean	4
+Warning: Could not parse Prompt_Result as JSON for key: %um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	know	17
+Warning: Could not parse Prompt_Result as JSON for key: %um and again my husband said we were going to give it a month , you know and said he was even going to have to sheik pray over her , you know for the jen .	pray	28
+Warning: Could not parse Prompt_Result as JSON for key: And in it I put , %um paint samples from Sherwin Williams uh-huh . of all the different like shades of what color I thought you might be thinking of for the bride 's maids .	thought	25
+Warning: Could not parse Prompt_Result as JSON for key: I was not invited . mhm . You know	invited	4
+Warning: Could not parse Prompt_Result as JSON for key: like mom said she said even if it was going to be in September , she said the little things I can tolerate you know if that happens you know .	said	3
+process gold result
+
+
+Evaluation Results:
+Role: ARG0       | P: 0.7976 | R: 0.7363 | F1: 0.7657
+Role: ARG1       | P: 0.5600 | R: 0.5898 | F1: 0.5745
+Role: ARG2       | P: 0.3367 | R: 0.5824 | F1: 0.4267
+Role: ARG4       | P: 0.4444 | R: 0.5926 | F1: 0.5079
+Role: ARG3       | P: 0.0877 | R: 0.3125 | F1: 0.1370
+Role: OVERALL    | P: 0.6039 | R: 0.6541 | F1: 0.6280

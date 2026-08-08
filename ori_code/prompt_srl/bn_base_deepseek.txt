@@ -1,0 +1,60 @@
+nohup: 忽略输入
+未找到light的角色描述, sen: The knowledge that our lights are the first to light it up , our footprints were the first , our eyes were first to see it ., prd_word: light, prd_idx: 10
+未找到light的角色描述, sen: The knowledge that our lights are the first to light it up , our footprints were the first , our eyes were first to see it ., prd_word: light, prd_idx: 10
+未找到statement的角色描述, sen: Both sides have almost stepped back six years in terms of their statements and attitudes , six years or more -- before the Oslo accords , when the Israelis promised land and the Palestinians promised security ., prd_word: statements, prd_idx: 13
+未找到celebration的角色描述, sen: Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self ., prd_word: celebration, prd_idx: 24
+未找到flee的角色描述, sen: Palestinian sources say he had tried to flee into Syria , but was turned away at the border ., prd_word: flee, prd_idx: 8
+未找到flee的角色描述, sen: Palestinian sources say he had tried to flee into Syria , but was turned away at the border ., prd_word: flee, prd_idx: 8
+未找到success的角色描述, sen: The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art ., prd_word: success, prd_idx: 20
+未找到success的角色描述, sen: The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art ., prd_word: success, prd_idx: 20
+未找到response的角色描述, sen: Israeli Prime Minister Ehud Barak closed down the two - year - old airport in response to the incident ., prd_word: response, prd_idx: 16
+未找到gun的角色描述, sen: Hooded men gunned down Hisha Mickey at a hotel in Gaza City ., prd_word: gunned, prd_idx: 3
+未找到gun的角色描述, sen: Hooded men gunned down Hisha Mickey at a hotel in Gaza City ., prd_word: gunned, prd_idx: 3
+未找到signal的角色描述, sen: And if this attack turns out to be the work of terrorists , Hoffman says it would signal a dangerous new trend ., prd_word: signal, prd_idx: 18
+未找到signal的角色描述, sen: And if this attack turns out to be the work of terrorists , Hoffman says it would signal a dangerous new trend ., prd_word: signal, prd_idx: 18
+未找到reception的角色描述, sen: Interestingly enough she is quoted as telling General Sanholi back to the US that she did not really get too much of a reception from Bashar Al - Assad in terms of lightening the traditionally antagonistic Syrian align towards Israel ., prd_word: reception, prd_idx: 24
+未找到resignation的角色描述, sen: Russian President was supposed to visit India as early as 97 - 1998 , but of course Boris Yeltsin 's health problems got in the way of that , and then of course , Mr. Yeltsin 's abrupt resignation last year another visit and then the subsequent election campaign and inauguration of Vladimir Putin took some time , so it 's been put off for a couple of years ., prd_word: resignation, prd_idx: 39
+未找到round的角色描述, sen: `` Iraq has triumphed over its enemies , '' he said , `` and it will triumph in the remaining rounds of the battle . '', prd_word: rounds, prd_idx: 21
+未找到decision的角色描述, sen: When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated ., prd_word: decision, prd_idx: 5
+未找到decision的角色描述, sen: When they made the decision not to move toward Bagdad with bad information , namely , the Republican Guard absolutely devastated ., prd_word: decision, prd_idx: 5
+未找到thanks的角色描述, sen: Thanks , Christopher ., prd_word: Thanks, prd_idx: 1
+未找到speech的角色描述, sen: He described the Arafat speech as inflammatory ., prd_word: speech, prd_idx: 5
+未找到trial的角色描述, sen: The trial of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland , is entering its final stage ., prd_word: trial, prd_idx: 2
+未找到negotiation的角色描述, sen: Israel says it may abandon the peace negotiations altogether ., prd_word: negotiations, prd_idx: 8
+未找到execution的角色描述, sen: They 're asking the Supreme Court to block tonight 's scheduled execution of Delma Banks ., prd_word: execution, prd_idx: 12
+未找到decision的角色描述, sen: That 's the decision from a federal appeals court reversing a lower court ruling ., prd_word: decision, prd_idx: 4
+未找到production的角色描述, sen: While U.S. forces still have n't found any weapons of mass destruction , the new CIA Pentagon report says officials are now confident the mysterious trucks filled with high - tech equipment found in Iraq are indeed mobile biological weapons production facilities , just as Secretary of State Powell predicted and presented the United Nations before the war ., prd_word: production, prd_idx: 41
+未找到revolve的角色描述, sen: This is a guy whose world revolves not so much around music as around his wife ., prd_word: revolves, prd_idx: 7
+未找到revolve的角色描述, sen: This is a guy whose world revolves not so much around music as around his wife ., prd_word: revolves, prd_idx: 7
+未找到compensation的角色描述, sen: You have also expressed concern about excessive executive compensation , particularly CEO compensation ., prd_word: compensation, prd_idx: 9
+未找到compensation的角色描述, sen: You have also expressed concern about excessive executive compensation , particularly CEO compensation ., prd_word: compensation, prd_idx: 13
+未找到beginning的角色描述, sen: That being said it could well be the beginning of a new pattern ., prd_word: beginning, prd_idx: 9
+未找到removal的角色描述, sen: As you point out , of course , for the fact of the matter is , the mistakes of Saddam Hussein made possible his removal from power ultimately ., prd_word: removal, prd_idx: 25
+未找到removal的角色描述, sen: As you point out , of course , for the fact of the matter is , the mistakes of Saddam Hussein made possible his removal from power ultimately ., prd_word: removal, prd_idx: 25
+未找到connection的角色描述, sen: The two men are charged with murder and conspiracy in connection with the 1988 bombing that killed 270 people ., prd_word: connection, prd_idx: 11
+未找到investment的角色描述, sen: In the last few months alone , we have heard the announcements of major investments in Russia by British companies ., prd_word: investments, prd_idx: 15
+未找到investment的角色描述, sen: In the last few months alone , we have heard the announcements of major investments in Russia by British companies ., prd_word: investments, prd_idx: 15
+未找到bail的角色描述, sen: She is charged with using insider information to bail out of a biotech stock the day before its price tanked , and then trying to cover it up ., prd_word: bail, prd_idx: 9
+未找到bail的角色描述, sen: She is charged with using insider information to bail out of a biotech stock the day before its price tanked , and then trying to cover it up ., prd_word: bail, prd_idx: 9
+未找到reaction的角色描述, sen: Well , John , there has been reaction from the Bush team ., prd_word: reaction, prd_idx: 8
+未找到sale的角色描述, sen: Sony 's long - awaited release of its latest video game console is guaranteed to pump up the volume on video game sales , already a $ 7 billion business ., prd_word: sales, prd_idx: 23
+未找到declaration的角色描述, sen: Saddam Hussein addressed the nation in a speech filled with rhetoric and a declaration of victory ., prd_word: declaration, prd_idx: 14
+未找到thanks的角色描述, sen: Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash ., prd_word: Thanks, prd_idx: 1
+未找到trial的角色描述, sen: Thanks very much , NBC 's Jim Maceda tonight for the trial of the Lockerbie 103 Pan Am crash ., prd_word: trial, prd_idx: 12
+未找到investment的角色描述, sen: US investment in Bangladesh has increased over the past four years from 20 million dollars to around 800 million dollars ., prd_word: investment, prd_idx: 2
+未找到investment的角色描述, sen: US investment in Bangladesh has increased over the past four years from 20 million dollars to around 800 million dollars ., prd_word: investment, prd_idx: 2
+未找到decision的角色描述, sen: A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged ., prd_word: decision, prd_idx: 3
+未找到residence的角色描述, sen: Soon after , one of the family 's three chickens flew the coop and took up residence in the crate built especially for the puppies ., prd_word: residence, prd_idx: 17
+未找到portrayal的角色描述, sen: Yubitrich is one of Belgrade 's most popular actors and he owes it to his skilful portrayal of Slobodan Milosevic ., prd_word: portrayal, prd_idx: 17
+未找到portrayal的角色描述, sen: Yubitrich is one of Belgrade 's most popular actors and he owes it to his skilful portrayal of Slobodan Milosevic ., prd_word: portrayal, prd_idx: 17
+未找到relationship的角色描述, sen: A pretty good relationship with that chicken ., prd_word: relationship, prd_idx: 4
+未找到round的角色描述, sen: Mr. Arafat made no comment after Tuesday 's first round of White House talks moving quickly past journalists to a waiting limousine ., prd_word: round, prd_idx: 10
+未找到coverage的角色描述, sen: Now let 's go back to Wolf Blitzer in Kuwait City for more special coverage of the war in Iraq ., prd_word: coverage, prd_idx: 15
+未找到connection的角色描述, sen: Yemen 's Prime Minister says at least three Yemenis will go on trial next month in connection with the attack ., prd_word: connection, prd_idx: 17
+未找到coverage的角色描述, sen: Much more coverage of the new Iraq and --, prd_word: coverage, prd_idx: 3
+未找到sue的角色描述, sen: That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations ., prd_word: sued, prd_idx: 17
+未找到sue的角色描述, sen: That 's interesting because leading into it , while she was New Jersey governor , she sued the EPA and she was very much considering herself to be an environmentalist , and then only to end up becoming the head of the EPA and then of course , there was a lot of criticism over relaxed regulations ., prd_word: sued, prd_idx: 17
+未找到connection的角色描述, sen: This connection to national and musical identities results partly from the fact that many Senegalese artists want to stay in Senegal to live and work says PBS singer Tidia Awadi ., prd_word: connection, prd_idx: 2
+未找到intention的角色描述, sen: If their intention was to deter us from our mission of promoting peace and security in the Middle East , they will fail utterly ., prd_word: intention, prd_idx: 3
+未找到rating的角色描述, sen: Ratings for the second season slid ., prd_word: Ratings, prd_idx: 1
+数据已保存到: llm_result/deepseek_result/test_bn_4llm_core_gold_role.json

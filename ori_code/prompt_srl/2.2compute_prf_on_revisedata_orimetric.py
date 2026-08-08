@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+from pyexpat import model
 import sys
 import time
 from sys import excepthook
@@ -58,27 +59,48 @@ def parse_llm_result(data):
 
 
 # step2：写一个函数parse_gold_annotation, 输入为golden数据，输出为一个字典；
-# golden的每一条数据是一个json文件，有sen、prd_word、prd_idx、prd_lemma、label、span和span_idx等字段，以sen、prd_word、prd_idx为key，整合该key下label和span；
-# 注意，一条数据仅有一个label和span，同一个sen、prd_word、prd_idx的label和span会存在多条数据中，需要都整合到一个字典中
+# golden的每一条数据是一个json文件，'idx','sentence', 'prd_word', 'prd_idx', 'label', 'span_mean', 'type', 'selected_spans'，其中selected_spans含有字段'start', 'end', 'text';
+# 以sentense、prd_word、prd_idx为key，整合该key下label和selected_spans，这里一个label可能对应多个span；
+# 注意，一条数据仅有一个label和selected_spans，同一个sen、prd_word、prd_idx的label和span会存在多条数据中，需要都整合到一个字典中
 # 返回的字典以sen、prd_word、prd_idx为key，value为一个字典，以label为key、span为value
 def parse_gold_annotation(data):
     result_dict = {}
+    opt_result_dict = {}
+    revised_dict = {}
+    goldonly_dict = {}
     print_num = 0
-    for item in data:
-        sent = item["sen"]
+    for iter_key, item in data.items():
+        sent = item["sentence"]
         prd_word = item["prd_word"]
         prd_idx = item["prd_idx"]
         key = f"{sent}\t{prd_word}\t{prd_idx}"
         label = item["label"]
-        span = item["span"]
+        type = item["type"]
+        opt_flag = item.get("optional", False)
+        selected_spans = item["selected_spans"]
+        span_list = []
+        for span in selected_spans:
+            span_list.append(span["text"])
+        if span_list == []:
+            continue
         if key not in result_dict:
-            result_dict[key] = {label: span}
+            result_dict[key] = {label: span_list}
         else:
-            result_dict[key][label] = span
+            result_dict[key][label] = span_list
+        #单独记录可标可不标的label和对应的span
+        opt_key = f"{key}\t{label}"
+        if opt_flag == True or opt_flag == "true":
+            opt_result_dict[opt_key] = span_list
+        
+        if type == "gold_only":
+            goldonly_dict[opt_key] = span_list
+        else:
+            revised_dict[opt_key] = span_list
+        
         #if print_num < 5:
         #    print(key,result_dict[key])
         #print_num += 1
-    return result_dict
+    return result_dict, opt_result_dict, revised_dict, goldonly_dict
 
 def normalize_span(span):
     """将 span 统一转换为小写字符串，处理列表、数字或 None 等情况"""
@@ -89,7 +111,7 @@ def normalize_span(span):
         return " ".join([str(item) for item in span]).lower().strip()
     return str(span).lower().strip()
 
-def compute_prf(gold_dict, llm_dict):
+def compute_prf(gold_dict, llm_dict, opt_gold_dict, revised_gold_dict):
     role_metrics = defaultdict(lambda: {"tp": 0, "fp": 0, "fn": 0}) #tp真正例，fp假正例，fn假负例
     
     # 获取所有的 keys (sent\tprd_word\tprd_idx)
@@ -106,22 +128,31 @@ def compute_prf(gold_dict, llm_dict):
             gold_span = gold_roles.get(role)
             llm_span = llm_roles.get(role)
             
-            # 统一处理 span 的格式
-            norm_gold = normalize_span(gold_span)
+            # 统一处理 span 的格式，对于gold_span，其是列表，需要对列表的每一个元素进行处理，最后还是返回列表
+            norm_gold = [normalize_span(span) for span in gold_span] if gold_span else []
+            # 对于llm_span，其是字符串，需要直接处理
             norm_llm = normalize_span(llm_span)
+
+            opt_key = f"{key}\t{role}"
+
+            # 不在revised_gold_dict中的，直接跳过，不进行统计
+            if opt_key not in revised_gold_dict:
+                continue
             
             if norm_gold and norm_llm:
-                if norm_gold == norm_llm:  
+                if norm_llm in norm_gold:  
                     role_metrics[role]["tp"] += 1
                 else:
                     role_metrics[role]["fp"] += 1
                     role_metrics[role]["fn"] += 1
             elif norm_gold:
                 # gold 有，llm 没有 -> fn
-                role_metrics[role]["fn"] += 1
+                if opt_key not in opt_gold_dict:
+                    role_metrics[role]["fn"] += 1
             elif norm_llm:
                 # llm 有，gold 没有 -> fp
-                role_metrics[role]["fp"] += 1
+                if opt_key not in opt_gold_dict:
+                    role_metrics[role]["fp"] += 1
                 
     # 计算每个角色的 P, R, F1
     results = {}
@@ -153,23 +184,24 @@ def compute_prf(gold_dict, llm_dict):
 
 # step3：以第二步获得的数据为标准，计算第一步文件在各个角色上的precision、recall和F1，以及最后给出整体角色上的precision、recall和F1
 if __name__ == "__main__":
-    domain = "tc" #"bn"
+    domain = "bn" #"tc"
+    model = "o1_mini" #"deepseek"
     
     # sstep1:先读取llm_result/test_bn_4llm_core_gold_role.json，解析Prompt_Result结果，保存每一个role对应的Argument
-    llm_path = f"llm_result/test_{domain}_4llm_core_gold_role.json"
+    llm_path = f"llm_result/{model}_result/test_{domain}_4llm_core_gold_role.json"
     llm_data = read_json(llm_path)
     print("process llm result\n")
     llm_role_argument_dict = parse_llm_result(llm_data)
         
-    # step2：读取原始gold数据，解析gold结果，保存每一个role对应的Argument
-    gold_path = f"/data/ljwang/span-SRL-LLM/ori_code/annotation/final_data/{domain}/test_{domain}_4llm_core_gold.conll"
+    # step2：读取/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/new_test_set/test_bn_500_core_final.json
+    gold_path = f"/data/ljwang/span-SRL-LLM/ori_code/prompt_srl/new_test_set/test_{domain}_500_core_final.json"
     gold_data = read_json(gold_path)
     print("process gold result\n")
-    gold_role_argument_dict = parse_gold_annotation(gold_data)
+    gold_role_argument_dict, opt_gold_role_argument_dict, revised_gold_role_argument_dict, goldonly_gold_role_argument_dict = parse_gold_annotation(gold_data)
             
     # step3: 计算 PRF
-    results = compute_prf(gold_role_argument_dict, llm_role_argument_dict)
-    print("\nEvaluation Results:")
+    results = compute_prf(gold_role_argument_dict, llm_role_argument_dict, opt_gold_role_argument_dict, goldonly_gold_role_argument_dict) 
+    print("\nEvaluation Results on revised data:")
     for role, metrics in results.items():
         # 仅打印role是ARG0、ARG1、ARG2、ARG3、ARG4、ARG5和OVERALL的结果
         if role in ["ARG0", "ARG1", "ARG2", "ARG3", "ARG4", "ARG5", "OVERALL"]:

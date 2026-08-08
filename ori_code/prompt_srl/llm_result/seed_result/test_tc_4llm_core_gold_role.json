@@ -1,0 +1,22 @@
+{
+  "Well , , Leo 's big . You know ,\tknow\t9": {
+    "prd_sense": "01",
+    "roles": {
+      "ARG0": "knower",
+      "ARG1": "fact that is known",
+      "ARG2": "entity that arg1 is known ABOUT"
+    },
+    "Prompt": "Give a sentence：\"Well , , Leo 's big . You know ,\", a predicate：\"know\", all posssible argument roles and their descritions：{'ARG0': 'knower', 'ARG1': 'fact that is known', 'ARG2': 'entity that arg1 is known ABOUT'}, please label all the possible argument about predicate \"know\" of the sentence.\n Provide the answer in JSON format as follows: {\"comment\":{role: argument, role: argument, ...}} ",
+    "Prompt_Result": "{\"comment\": {\"ARG0\": \"You\", \"ARG1\": \"Leo 's big\"}}"
+  },
+  "With your parents when your father was stationed over here , right ?\tstationed\t8": {
+    "prd_sense": "01",
+    "roles": {
+      "ARG0": "high command, agent",
+      "ARG1": "military people",
+      "ARG2": "place"
+    },
+    "Prompt": "Give a sentence：\"With your parents when your father was stationed over here , right ?\", a predicate：\"stationed\", all posssible argument roles and their descritions：{'ARG0': 'high command, agent', 'ARG1': 'military people', 'ARG2': 'place'}, please label all the possible argument about predicate \"stationed\" of the sentence.\n Provide the answer in JSON format as follows: {\"comment\":{role: argument, role: argument, ...}} ",
+    "Prompt_Result": "{\"comment\": {\"ARG1\": \"your father\", \"ARG2\": \"over here\"}}"
+  }
+}

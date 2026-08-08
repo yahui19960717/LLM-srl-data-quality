@@ -1,0 +1,720 @@
+{
+  "annotations": [
+    {
+      "idx": 1,
+      "sentence": "He was sober , he was rich and surrounded by a family who loved him but once again , Ozzy 's high would hit a low .",
+      "prd_word": "hit",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": "thing hit",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:05:58.175904",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 24,
+          "end": 25,
+          "text": "a low",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "sentence": "I think we all know that Arafat is in charge of the Palestinian Authority .",
+      "prd_word": "think",
+      "prd_idx": 2,
+      "label": "ARG0",
+      "span_mean": "Thinker",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:06:03.180163",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "I",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "sentence": "I was never supportive of protocol because it did n't do what everyone needs to get done as far as climate change is concerned .",
+      "prd_word": "get",
+      "prd_idx": 16,
+      "label": "ARG0",
+      "span_mean": "instigator",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:06:23.311826",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 12,
+          "end": 12,
+          "text": "everyone",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "sentence": "Just as he did that , that 's when you saw the child just walking just a few feet away from him but the officers were able to get the child away .",
+      "prd_word": "saw",
+      "prd_idx": 11,
+      "label": "ARG0",
+      "span_mean": "viewer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:06:34.080262",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 9,
+          "text": "you",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "sentence": "More than 70 people have been wounded , mostly Palestinians , but also several Israeli soldiers .",
+      "prd_word": "wounded",
+      "prd_idx": 7,
+      "label": "ARG1",
+      "span_mean": "injured party",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:06:43.120585",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "text": "More than 70 people",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "sentence": "Motorola saying it will eliminate another 3,000 jobs , 3 % of its work force .",
+      "prd_word": "eliminate",
+      "prd_idx": 5,
+      "label": "ARG0",
+      "span_mean": "entity removing",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:08:33.570847",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "Motorola",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 2,
+          "end": 2,
+          "text": "it",
+          "models": [
+            "自定义"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "sentence": "Mr. Clinton promised the gathering at the Norfolk Naval station Wednesday that those who carried out the deadly attack that killed 17 sailors will be found .",
+      "prd_word": "promised",
+      "prd_idx": 3,
+      "label": "ARG0",
+      "span_mean": "promiser",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:08:38.950446",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "Mr. Clinton",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "sentence": "No one knows what will happen as the pups grow older and are able to open their eyes .",
+      "prd_word": "open",
+      "prd_idx": 16,
+      "label": "ARG1",
+      "span_mean": "thing opening",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:08:44.346568",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 16,
+          "end": 17,
+          "text": "their eyes",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "sentence": "Not yet , says President George W. Bush , at the White House today , demanding that Khaddafi meet certain conditions first , to accept responsibility for this act , and to compensate the families .",
+      "prd_word": "says",
+      "prd_idx": 4,
+      "label": "ARG0",
+      "span_mean": "Sayer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:08:56.232221",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 7,
+          "text": "President George W. Bush",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "sentence": "One only has to recall the bombing of the US Marine barracks in Lebanon in 1983 , also a month before presidential election , also at a time when Israel was involving suitable ferment at that point in Lebanon now with the Palestinians , where the United States was also attempting actively to provide some stabilizing influence and unfortunately and tragically got caught up in the maelstrom and that seems to be the salient fact of this attack .",
+      "prd_word": "recall",
+      "prd_idx": 5,
+      "label": "ARG1",
+      "span_mean": "memory",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:10:52.223469",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 15,
+          "text": "the bombing of the US Marine barracks in Lebanon in 1983",
+          "models": [
+            "自定义"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "sentence": "Palestinian gunmen fired on an Israeli car killing the driver .",
+      "prd_word": "fired",
+      "prd_idx": 3,
+      "label": "ARG0",
+      "span_mean": "shooter",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:11:07.583349",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "text": "Palestinian gunmen",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "sentence": "Some Yemenis expressed relief to see the ship leave .",
+      "prd_word": "leave",
+      "prd_idx": 9,
+      "label": "ARG0",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:11:18.802283",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "text": "the ship",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "sentence": "Speaking of chicks -- call it puppy love , call it maternal instinct , but , mostly it 's just out of the ordinary .",
+      "prd_word": "call",
+      "prd_idx": 10,
+      "label": "ARG1",
+      "span_mean": "item being labelled",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:12:33.949907",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 10,
+          "text": "it",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "sentence": "The Israeli Army said the man had been approaching the guard post in a suspicious manner .",
+      "prd_word": "said",
+      "prd_idx": 4,
+      "label": "ARG1",
+      "span_mean": "Utterance",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:12:42.901728",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 4,
+          "end": 15,
+          "text": "the man had been approaching the guard post in a suspicious manner",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "sentence": "The congressman was known as a fervent liberal and supporter of the arts and he was noted for his success in getting congress to finance for national endowment for the art .",
+      "prd_word": "noted",
+      "prd_idx": 17,
+      "label": "ARG1",
+      "span_mean": "entity under scrutiny",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:13:00.141238",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 14,
+          "end": 14,
+          "text": "he",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "sentence": "The little town I was in this southern Iraq , as far as I got , I ca n't boast of further , is where the talks took place .",
+      "prd_word": "got",
+      "prd_idx": 15,
+      "label": "ARG1",
+      "span_mean": "thing in motion",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:13:07.281084",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 13,
+          "text": "I",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 17,
+      "sentence": "The note was found in the pocket of Lieutenant Dimitri Kolesnikov whose body was one of the first to be recovered the explosions that shattered the submarine .",
+      "prd_word": "shattered",
+      "prd_idx": 25,
+      "label": "ARG0",
+      "span_mean": "breaker",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:13:50.063848",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 21,
+          "end": 22,
+          "text": "the explosions",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 18,
+      "sentence": "The trial of two Libyans accused of bombing Pam Am Flight 103 over Lockerbie , Scotland , is entering its final stage .",
+      "prd_word": "accused",
+      "prd_idx": 6,
+      "label": "ARG1",
+      "span_mean": "accused",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:14:54.021141",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 3,
+          "end": 4,
+          "text": "two Libyans",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "sentence": "They are going to allow India to assemble about 140 of these bombers here in India , and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov .",
+      "prd_word": "acquire",
+      "prd_idx": 30,
+      "label": "ARG0",
+      "span_mean": "agent, entity acquiring something",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:15:13.792740",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 27,
+          "end": 27,
+          "text": "India",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "sentence": "They are going to allow India to assemble about 140 of these bombers here in India , and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov .",
+      "prd_word": "allow",
+      "prd_idx": 5,
+      "label": "ARG0",
+      "span_mean": "allower",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:15:22.809234",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 21,
+      "sentence": "They are going to allow India to assemble about 140 of these bombers here in India , and they are also going to finalize a deal whereby India will acquire the Admiral Gorshkov .",
+      "prd_word": "assemble",
+      "prd_idx": 8,
+      "label": "ARG1",
+      "span_mean": "construction",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:15:38.723545",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 8,
+          "end": 12,
+          "text": "about 140 of these bombers",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 22,
+      "sentence": "They do n't realize that you know the real execution is really black 's black like them .",
+      "prd_word": "realize",
+      "prd_idx": 4,
+      "label": "ARG0",
+      "span_mean": "new knower",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:16:05.666022",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 0,
+          "text": "They",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 23,
+      "sentence": "Though a spate of pre-election violence kept some Haitians away from the polls on Sunday , the voting itself went relatively smoothly .",
+      "prd_word": "kept",
+      "prd_idx": 7,
+      "label": "ARG2",
+      "span_mean": "other noun",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:16:27.261671",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 9,
+          "end": 12,
+          "text": "away from the polls",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 24,
+      "sentence": "US Energy Secretary Bill Richardson has extended an emergency order to keep electricity flowing to California .",
+      "prd_word": "extended",
+      "prd_idx": 7,
+      "label": "ARG0",
+      "span_mean": "agent, entity making something be longer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:16:51.325044",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "US Energy Secretary Bill Richardson",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 25,
+      "sentence": "We are going to take `` a closer look '' at the great Wind Cave in South Dakota .",
+      "prd_word": "look",
+      "prd_idx": 9,
+      "label": "ARG1",
+      "span_mean": "thing looked at or for or on",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:17:05.786083",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 10,
+          "end": 17,
+          "text": "at the great Wind Cave in South Dakota",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 26,
+      "sentence": "Well , the work that we have so far in English translation suggests that , and indeed this novel , which is a celebration as well of the self of the individual , goes so far as to even divide up to the self .",
+      "prd_word": "celebration",
+      "prd_idx": 24,
+      "label": "ARG1",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T15:46:33.849779",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 26,
+          "end": 31,
+          "text": "of the self of the individual",
+          "models": [
+            "gold",
+            "semicrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 27,
+      "sentence": "While both the Pentagon and the Justice Department today dispatched teams of experts to Yemen to investigate the explosion , Secretary of State Madeleine Albright urged caution saying it was too early to jump to any conclusions .",
+      "prd_word": "dispatched",
+      "prd_idx": 10,
+      "label": "ARG2",
+      "span_mean": "dispatched to",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:20:24.982276",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 13,
+          "end": 14,
+          "text": "to Yemen",
+          "models": [
+            "gold",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 28,
+      "sentence": "Yemen 's Prime Minister says at least three Yemenis will go on trial next month in connection with the attack .",
+      "prd_word": "go",
+      "prd_idx": 11,
+      "label": "ARG2",
+      "span_mean": "attribute of arg1",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:20:45.647383",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 11,
+          "end": 12,
+          "text": "on trial",
+          "models": [
+            "gold",
+            "semicrf",
+            "treecrf"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 29,
+      "sentence": "Yesterday , Mr. Clinton spoke to supporters in his home state of Arkansas .",
+      "prd_word": "spoke",
+      "prd_idx": 5,
+      "label": "ARG2",
+      "span_mean": "hearer",
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:21:17.384238",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": [
+        {
+          "start": 5,
+          "end": 6,
+          "text": "to supporters",
+          "models": [
+            "自定义"
+          ]
+        },
+        {
+          "start": 5,
+          "end": 12,
+          "text": "to supporters in his home state of Arkansas",
+          "models": [
+            "自定义"
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 30,
+      "sentence": "You have also expressed concern about excessive executive compensation , particularly CEO compensation .",
+      "prd_word": "compensation",
+      "prd_idx": 9,
+      "label": "ARG2",
+      "span_mean": null,
+      "type": "gold_right, o1mini_wrong，deepseek_right",
+      "timestamp": "2026-03-11T12:21:32.356404",
+      "grammar_status": "没有语法错误",
+      "grammar_error_desc": "",
+      "selected_spans": []
+    }
+  ],
+  "last_index": 25
+}

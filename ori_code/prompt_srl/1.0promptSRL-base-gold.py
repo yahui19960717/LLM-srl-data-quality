@@ -36,7 +36,7 @@ def write_json(sentences, path):
 def get_completion(prompt):
     # import pdb;pdb.set_trace()
     response = client.chat.completions.create(
-                model="o1-mini",
+                model= "gpt-4.1", #"deepseek-ai/DeepSeek-V3.2", #"doubao-seed-2-0-pro-260215", #"qwen-max", # #"o1-mini",
                 messages=[
                     {
                         "role": "system",
@@ -57,7 +57,6 @@ def get_completion(prompt):
 def build_prompt(sentence, prd_word, prd_lemma, prd_sense, roles):
     prompt = f"""Give a sentence："{sentence}", a predicate："{prd_word}", all posssible argument roles and their descritions：{roles}, please label all the possible argument about predicate "{prd_word}" of the sentence.\n Provide the answer in JSON format as follows: {{"comment":{{role: argument, role: argument, ...}}}} """
     llm_res = get_completion(prompt)
-    import pdb;pdb.set_trace()
     return prompt, llm_res
 
 # step2：写一个函数实现谓词对应角色描述查找；对data中的每一个谓词，根据frames_info_3.4.json查找对应的角色描述
@@ -96,12 +95,12 @@ def find_role_desc(frames, data, outfile):
     write_json(pred_dict, outfile)
 
 if __name__ == "__main__":
-    domain = "tc" # or bn
+    domain = "bn" # or bn
+    model = "gpt4.1" #"deepseek" #"o1-mini" "qwen" "seed"
     
     # step1: 读取frames_info_3.4.json和原始gold数据
     frames = read_json("/data/ljwang/span-SRL-LLM/propbank_frames_main/frame_out/frames_info_3.4.json") 
     original_data = read_json(f"/data/ljwang/span-SRL-LLM/ori_code/annotation/final_data/{domain}/test_{domain}_4llm_core_gold.conll")
     # step2：调用find_role_desc函数，传入frames、original_data、outfile
-    # outfile = f"llm_result/test_{domain}_4llm_core_gold_role.json"
-    outfile = f"llm_result/test_{domain}_4llm_core_gold_role_temp_lyh.json"
+    outfile = f"llm_result/{model}_result/test_{domain}_4llm_core_gold_role.json"
     find_role_desc(frames, original_data, outfile)
